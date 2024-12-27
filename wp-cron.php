@@ -16,6 +16,8 @@
  * @package WordPress
  */
 
+ // this should ignore
+
 ignore_user_abort( true );
 
 if ( ! headers_sent() ) {

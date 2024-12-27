@@ -5,6 +5,8 @@
  * @package Go
  */
 
+// this should update
+
 get_header();
 
 Go\page_title();
