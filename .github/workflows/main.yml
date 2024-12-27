@@ -1,0 +1,25 @@
+name: Deploy Repository via rsync
+
+on:
+  workflow_dispatch:
+    inputs:
+      ssh_user:
+        description: "The SSH username"
+        required: true
+        default: 'client_62733a344a'
+      remote_host:
+        description: "The remote host (IP or domain)"
+        required: true
+        default: 'j6o.b29.myftpupload.com'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy files
+        uses: narethiya-godaddy/git-deploy-poc@v0.0.1
+        with:
+          ssh_user: ${{ github.event.inputs.ssh_user }}
+          ssh_password: ${{secrets.DEPLOYER_PASSWORD}}
+          remote_host: ${{ github.event.inputs.remote_host }}
