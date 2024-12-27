@@ -1,0 +1,3574 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-18T15:39:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+#: mwc-core.php
+msgid "MWC Core."
+msgstr "Πυρήνας MWC."
+
+#: configurations/features.php:99
+msgid "Cost of goods"
+msgstr "Κόστος αγαθών"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:102
+msgid "Track profit and cost of goods for your store. Generate profit reports by date, product, category, and more. This feature replaces the %1$sCost of Goods%2$s plugin."
+msgstr "Παρακολουθήστε το κέρδος και το κόστος των αγαθών για το κατάστημά σας. Δημιουργήστε αναφορές κερδών κατά ημερομηνία, προϊόν, κατηγορία και άλλα. Αυτή η δυνατότητα αντικαθιστά την προσθήκη %1$sCost of Goods%2$s."
+
+#: configurations/features.php:122
+msgid "Ecommerce emails"
+msgstr "Ecommerce emails"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. This feature replaces the %1$sWooCommerce Email Customizer%2$s plugin."
+msgstr "Προσαρμόστε τα email σας ώστε να αντικατοπτρίζουν τη μάρκα σας και αυξήστε την αφοσίωση των πελατών. Αυτή η δυνατότητα αντικαθιστά την προσθήκη %1$sWooCommerce Email Customizer%2$s."
+
+#: configurations/features.php:153
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+#. translators: Placeholders: %1$s and %3$s - <a> tag for the plugin link, %2$s and %4$s - </a> tag
+#: configurations/features.php:156
+msgid "Track advanced eCommerce events and more with Google Analytics. This feature replaces the %1$sGoogle Analytics%2$s and %3$sGoogle Analytics Pro%4$s plugins."
+msgstr "Παρακολουθήστε προηγμένα συμβάντα ηλεκτρονικού εμπορίου και πολλά άλλα με το Google Analytics. Αυτή η δυνατότητα αντικαθιστά τις προσθήκες %1$sGoogle Analytics%2$s και %3$sGoogle Analytics Pro%4$s."
+
+#: configurations/features.php:187
+msgid "Sequential order numbers"
+msgstr "Διαδοχικοί αριθμοί παραγγελιών"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:190
+msgid "Format order numbers, change your starting number, and differentiate free orders. This feature replaces the %1$sSequential Order Numbers Pro%2$s plugin."
+msgstr "Μορφοποιήστε τους αριθμούς παραγγελιών, αλλάξτε τον αριθμό έναρξης και διαφοροποιήστε τις δωρεάν παραγγελίες. Αυτή η δυνατότητα αντικαθιστά την προσθήκη %1$sSequential Order Numbers Pro%2$s."
+
+#: configurations/features.php:209
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:24
+msgid "Shipment tracking"
+msgstr "Παρακολούθηση αποστολής"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:212
+msgid "Share shipment tracking information with your customers. Open one of your Processing orders to get started. This feature replaces the %1$sShipment Tracking%2$s plugin."
+msgstr "Μοιραστείτε πληροφορίες παρακολούθησης αποστολής με τους πελάτες σας. Ανοίξτε μία από τις παραγγελίες σας σε επεξεργασία για να ξεκινήσετε. Αυτή η δυνατότητα αντικαθιστά την προσθήκη %1$sShipment Tracking%2$s."
+
+#: configurations/features.php:224
+msgid "Discount links"
+msgstr "Εκπτωτικοί σύνδεσμοι"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:227
+msgid "Share discount links with your customers and add coupons from ads, email campaigns, or social links. Create or edit a coupon to get started. This feature replaces the %1$sURL Coupons%2$s plugin."
+msgstr "Μοιραστείτε εκπτωτικούς συνδέσμους με τους πελάτες σας και προσθέστε κουπόνια από διαφημίσεις, καμπάνιες email ή συνδέσμους σε μέσα κοινωνικής δικτύωσης. Δημιουργήστε ή επεξεργαστείτε ένα κουπόνι για να ξεκινήσετε. Αυτή η δυνατότητα αντικαθιστά την προσθήκη %1$sURL Coupons%2$s."
+
+#: configurations/features.php:245
+msgid "Gift certificates"
+msgstr "Δωροεπιταγές"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:248
+msgid "Create custom gift certificates that your customers can purchase and send to their friends and family. This feature replaces the %1$sPDF Product Vouchers%2$s plugin."
+msgstr "Δημιουργήστε εξατομικευμένες δωροεπιταγές που οι πελάτες σας μπορούν να αγοράσουν και να στείλουν σε φίλους και συγγενείς. Αυτή η δυνατότητα αντικαθιστά την προσθήκη %1$sPDF Product Vouchers%2$s."
+
+#: configurations/features.php:282
+msgid "Abandoned checkout reminders"
+msgstr "Εγκαταλελειμμένες υπενθυμίσεις ολοκλήρωσης αγοράς"
+
+#: configurations/features.php:283
+msgid "Automatically track cart activity and send an email reminder to recover lost revenue."
+msgstr "Παρακολουθήστε αυτόματα τη δραστηριότητα του καλαθιού αγορών και στείλτε μια υπενθύμιση μέσω email για να ανακτήσετε τα χαμένα έσοδα."
+
+#: configurations/features.php:312
+#: src/Payments/Providers/StripeProvider.php:25
+#: src/WooCommerce/Payments/StripeGateway.php:74
+#: src/WooCommerce/Payments/StripeGateway.php:185
+msgid "Stripe"
+msgstr "Stripe"
+
+#: configurations/features.php:313
+msgid "Accept credit card payments using Stripe."
+msgstr "Δεχτείτε πληρωμές μέσω πιστωτικής κάρτας με την Stripe."
+
+#: configurations/features.php:323
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:100
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:41
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:42
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:80
+msgid "Marketplaces"
+msgstr "Αγορές"
+
+#: configurations/features.php:324
+msgid "Sell to millions of customers from one place. Offer your products everywhere, from Amazon to Instagram, all from your own online store."
+msgstr "Πωλήστε σε εκατομμύρια πελάτες από ένα μόνο μέρος. Προσφέρετε τα προϊόντα σας παντού, από το Amazon έως το Instagram, όλα από το δικό σας online κατάστημα."
+
+#: configurations/features.php:345
+msgid "Take order fulfillment to the next level! Get live shipping rates from your favourite providers, print labels in one click, and automate shipment tracking and customer email notifications."
+msgstr "Πάρτε την εκπλήρωση παραγγελιών στο επόμενο επίπεδο! Λάβετε ζωντανά τιμές αποστολής από τους αγαπημένους σας παρόχους, εκτυπώστε ετικέτες με ένα κλικ και αυτοματοποιήστε τις ειδοποιήσεις των πελατών μέσω email."
+
+#: src/API/Controllers/AccountController.php:108
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "Το αναγνωριστικό ιδιωτικής ετικέτας μεταπωλητή (1 σημαίνει GoDaddy, δηλαδή δεν πρόκειται για μεταπωλητή)."
+
+#: src/API/Controllers/AccountController.php:114
+msgid "Whether the account can manually switch between extension versions."
+msgstr "Αν ο λογαριασμός μπορεί να κάνει εναλλαγή μεταξύ των εκδόσεων επέκτασης με μη αυτόματο τρόπο."
+
+#: src/API/Controllers/AccountController.php:120
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Αν ο ιστότοπος πωλείται ή όχι από μεταπωλητή."
+
+#: src/API/Controllers/AccountController.php:126
+msgid "The product plan the given account or site has purchased"
+msgstr "Το πρόγραμμα προϊόντος που έχει αγοράσει ο συγκεκριμένος λογαριασμός ή ιστότοπος"
+
+#: src/API/Controllers/AccountController.php:132
+msgid "The hosting platform the given account or site is running on"
+msgstr "Η πλατφόρμα φιλοξενίας στην οποία εκτελείται ο συγκεκριμένος λογαριασμός ή ιστότοπος"
+
+#: src/API/Controllers/AccountController.php:138
+msgid "The ID of the customer"
+msgstr "Το αναγνωριστικό του πελάτη"
+
+#: src/API/Controllers/AccountController.php:144
+msgid "The ID of the Federation Partner"
+msgstr "Το αναγνωριστικό του συνεργάτη ομοσπονδίας"
+
+#: src/API/Controllers/Platform/StoresController.php:117
+msgid "A list of businesses."
+msgstr "Μια λίστα με επιχειρήσεις."
+
+#: src/API/Controllers/Platform/StoresController.php:124
+msgid "The unique identifier for the business."
+msgstr "Το μοναδικό αναγνωριστικό για την επιχείρηση."
+
+#: src/API/Controllers/Platform/StoresController.php:128
+msgid "The legal name of the business."
+msgstr "Η επίσημη επωνυμία της επιχείρησής σας."
+
+#: src/API/Controllers/Platform/StoresController.php:132
+msgid "A list of stores associated with the business."
+msgstr "Μια λίστα καταστημάτων που σχετίζονται με την επιχείρηση."
+
+#: src/API/Controllers/Platform/StoresController.php:138
+msgid "The display name of the store."
+msgstr "Το εμφανιζόμενο όνομα του καταστήματος."
+
+#: src/API/Controllers/Platform/StoresController.php:143
+msgid "The unique identifier for the store."
+msgstr "Το μοναδικό αναγνωριστικό για το κατάστημα."
+
+#: src/Auth/API/Controllers/TokenController.php:84
+msgid "The access token string as issued by the authorization server."
+msgstr "Η συμβολοσειρά διακριτικού πρόσβασης όπως εκδίδεται από τον server εξουσιοδότησης."
+
+#: src/Auth/API/Controllers/TokenController.php:90
+msgid "Number of seconds to expiration of the access token."
+msgstr "Πόσα δευτερόλεπτα απομένουν έως τη λήξη του διακριτικού πρόσβασης."
+
+#: src/Auth/API/Controllers/TokenController.php:96
+msgid "The scope the token granted."
+msgstr "Το πεδίο εφαρμογής που χορήγησε το διακριτικό."
+
+#: src/Auth/API/Controllers/TokenController.php:102
+msgid "Access Token ID."
+msgstr "Αναγνωριστικό διακριτικού πρόσβασης."
+
+#: src/Auth/API/Controllers/TokenController.php:108
+msgid "The type of token this is."
+msgstr "Ο τύπος διακριτικού για τον οποίο πρόκειται."
+
+#: src/Auth/Sso/WordPress/Events/Subscribers/ForceCareAgentAdminRoleSubscriber.php:61
+msgid "The care agent account on this site has been misconfigured. Please log in again to fix this issue."
+msgstr "Έχει γίνει εσφαλμένη διαμόρφωση του λογαριασμού εκπροσώπου υποστήριξης σε αυτό τον ιστότοπο. Πραγματοποιήστε είσοδο ξανά για να διορθώσετε το θέμα."
+
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:103
+msgid "Something went wrong when creating the user account."
+msgstr "Κάτι πήγε στραβά κατά τη δημιουργία του λογαριασμού χρήστη."
+
+#. translators: Placeholder: %s account username
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:131
+msgid "User %s could not be logged in."
+msgstr "Ο χρήστης %s δεν μπόρεσε να πραγματοποιήσει είσοδο."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:165
+msgid "You cannot delete the main administrator account."
+msgstr "Δεν μπορείτε να διαγράψετε τον κύριο λογαριασμό διαχειριστή."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:167
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: src/Client/Client.php:433
+msgid "Other"
+msgstr "Άλλο"
+
+#: src/Configuration/CartRecoveryEmailsFeatureRuntimeConfiguration.php:73
+msgid "Automatically track cart activity and recover lost revenue with a dedicated email campaign."
+msgstr "Παρακολουθήστε αυτόματα τη δραστηριότητα του καλαθιού αγορών και ανακτήστε τα χαμένα έσοδα με μια ειδική καμπάνια email."
+
+#: src/Email/RemoteRenderingEmailService.php:130
+msgid "Unknown error."
+msgstr "Άγνωστο σφάλμα."
+
+#: src/Email/Repositories/EmailSenderRepository.php:108
+msgid "Unable to retrieve the email sender data."
+msgstr "Δεν ήταν δυνατή η ανάκτηση των δεδομένων αποστολέα του email."
+
+#: src/Features/CartRecoveryEmails/DataProviders/CheckoutDataProvider.php:56
+msgctxt "Subject of greeting when name is not known (this can be translated to empty string for languages where \"Hi there!\" cannot be rendered as in English and it will result in just \"Hi!\")"
+msgid "there"
+msgstr " "
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:43
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:116
+msgid "Did you forget something?"
+msgstr "Μήπως ξεχάσατε κάτι;"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:57
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:103
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:62
+msgid "Hey there! You left your shopping cart without completing your purchase just a bit ago. It's not too late to complete your purchase! All of the products are still waiting for you."
+msgstr "Γεια σας! Αφήσατε το καλάθι αγορών σας χωρίς να ολοκληρώσετε την αγορά σας πριν από λίγο. Μπορείτε ακόμα, αν το επιθυμείτε, να ολοκληρώσετε την αγορά σας! Όλα τα προϊόντα εξακολουθούν να σας περιμένουν."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:76
+msgid "Button text"
+msgstr "Κείμενο κουμπιού"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:82
+msgid "Complete your purchase"
+msgstr "Ολοκλήρωση της αγοράς σας"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:92
+msgid "Trouble checking out? We're here to help. Please reply to this email if you have any questions or need our assistance."
+msgstr "Έχετε πρόβλημα με την ολοκλήρωση αγοράς; Είμαστε εδώ για να βοηθήσουμε. Απαντήσετε σε αυτό το email αν έχετε οποιεσδήποτε απορίες ή χρειάζεστε βοήθεια."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:60
+msgid "Cart Recovery"
+msgstr "Ανάκτηση καλαθιού αγορών"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:61
+msgid "Send a reminder email to customers that left products in their cart but didn't complete the checkout."
+msgstr "Στείλτε ένα email υπενθύμισης στους πελάτες που άφησαν προϊόντα στο καλάθι τους, αλλά δεν ολοκλήρωσαν την παραγγελία."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:105
+msgid "Hey {{customer_first_name}}, did you forget something?"
+msgstr "Γεια σας {{customer_first_name}}, μήπως ξεχάσατε κάτι;"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:14
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:14
+msgid "Hey {{customer_first_name}}!"
+msgstr "Γεια σας, {{customer_first_name}}!"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:22
+msgid "Your shopping cart has been reserved and is still waiting for you! In your cart, you left the following products:"
+msgstr "Το καλάθι αγορών σας έχει κρατηθεί και σας περιμένει ακόμα! Στο καλάθι αγορών σας, αφήσατε τα παρακάτω προϊόντα:"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:30
+msgid "It's not too late to complete this purchase -- these products are still waiting for you!"
+msgstr "Μπορείτε ακόμα, αν το επιθυμείτε, να ολοκληρώσετε αυτή την αγορά. Τα προϊόντα εξακολουθούν να σας περιμένουν!"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:22
+msgid "Your shopping cart was reserved a few days ago and it will expire soon. In your cart, you left the following products:"
+msgstr "Το καλάθι αγορών σας κρατήθηκε πριν από λίγες ημέρες και θα λήξει σύντομα. Στο καλάθι αγορών σας, αφήσατε τα παρακάτω προϊόντα:"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:30
+msgid "Ready to complete this purchase before your cart expires? Click the above button to purchase these items."
+msgstr "Είστε έτοιμοι να ολοκληρώσετε αυτή την αγορά πριν λήξει το καλάθι σας; Κάντε κλικ στο παραπάνω κουμπί για να αγοράσετε αυτά τα είδη."
+
+#: src/Features/CartRecoveryEmails/Settings/OptOutSetting.php:27
+msgid "Your email and cart will be saved so we can send you an email reminder about this order."
+msgstr "Το email και το καλάθι αγορών σας θα αποθηκευτούν, ώστε να σας στείλουμε μια υπενθύμιση μέσω email σχετικά με αυτή την παραγγελία."
+
+#: src/Features/Commerce/Catalog/Helpers/CheckForDeletedProductHelper.php:75
+msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
+msgstr "Προσπαθήσατε να επεξεργαστείτε ένα στοιχείο που δεν υπάρχει. Μήπως διαγράφηκε;"
+
+#: src/Features/Commerce/Catalog/Interceptors/Handlers/CommerceProductUuidRequestHandler.php:48
+msgid "Product not found."
+msgstr "Το προϊόν δεν βρέθηκε."
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:149
+msgid "Product categories must be deleted in Commerce Home"
+msgstr "Οι κατηγορίες προϊόντων πρέπει να διαγραφούν στο Commerce Home"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:150
+msgid "Delete product category"
+msgstr "Διαγραφή κατηγορίας προϊόντος"
+
+#. translators: External link icon
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:152
+msgid "Delete %s"
+msgstr "Διαγραφή του %s"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductEditInterceptor.php:82
+msgid "The \"Any\" attribute cannot be used for variable products synced with your GoDaddy Commerce product catalog. Please specify the attribute value for each variation, then save your changes."
+msgstr "Η ιδιότητα \"Οποιοδήποτε\" δεν μπορεί να χρησιμοποιηθεί για μεταβλητά προϊόντα που συγχρονίζονται με τον κατάλογο προϊόντων GoDaddy Commerce. Καθορίστε την τιμή της ιδιότητας για κάθε παραλλαγή και, στη συνέχεια, αποθηκεύστε τις αλλαγές σας."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:80
+msgid "Required for storing Product data in Commerce Home. Stock management can be enabled or disabled per product. Learn more about %1$sproduct inventory settings%2$s."
+msgstr "Απαιτείται για την αποθήκευση δεδομένων προϊόντων στο Commerce Home. Η διαχείριση αποθεμάτων μπορεί να ενεργοποιηθεί ή να απενεργοποιηθεί ανά προϊόν. Μάθετε περισσότερα σχετικά με τις %1$sρυθμίσεις αποθεμάτων προϊόντων%2$s."
+
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:90
+msgid "Inventory amounts displayed on the frontend reflect total available for purchase and exclude reserved stock."
+msgstr "Τα ποσά αποθεμάτων που εμφανίζονται στο προσκηνιακό σύστημα αντικατοπτρίζουν το σύνολο των διαθέσιμων για αγορά και δεν περιλαμβάνουν τα δεσμευμένα αποθέματα."
+
+#. translators: Placeholders: %1$s - a product name, %2$s - a product SKU, %3$s - an API error message
+#: src/Features/Commerce/Inventory/Services/OrderReservationsService.php:75
+msgid "An error occurred while reserving stock for %1$s (%2$s). %3$s"
+msgstr "Προέκυψε σφάλμα κατά την κράτηση αποθέματος για το %1$s (%2$s). %3$s"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:95
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:241
+msgid "Available Pickup Locations"
+msgstr "Διαθέσιμες τοποθεσίες παραλαβής"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:98
+msgid "Select the location(s) that should be available for local pickup."
+msgstr "Επιλέξτε την τοποθεσία/τις τοποθεσίες που θα πρέπει να είναι διαθέσιμες για τοπική παραλαβή."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:195
+msgid "Pickup location"
+msgstr "Τοποθεσία παραλαβής"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:261
+msgid "No pickup locations available"
+msgstr "Δεν υπάρχουν διαθέσιμες τοποθεσίες παραλαβής"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:263
+msgid "Please choose another shipping method, or contact the store for a pickup location."
+msgstr "Επιλέξτε μια άλλη μέθοδο αποστολής ή επικοινωνήστε με το κατάστημα για μια τοποθεσία παραλαβής."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:407
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:144
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:174
+msgid "Pickup Location Information"
+msgstr "Πληροφορίες τοποθεσίας παραλαβής"
+
+#: src/Features/Commerce/Repositories/CommerceContextRepository.php:53
+msgid "Missing or invalid store ID"
+msgstr "Το αναγνωριστικό λείπει ή δεν είναι έγκυρο"
+
+#: src/Features/EmailNotifications/API/API.php:66
+msgid "This token is expired"
+msgstr "Αυτό το διακριτικό έχει λήξει"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:280
+msgid "Cannot generate a preview for an email notification that is not editable."
+msgstr "Δεν είναι δυνατή η δημιουργία προεπισκόπησης για μια ειδοποίηση μέσω email που δεν είναι επεξεργάσιμη."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:444
+msgid "The settings parameter is required."
+msgstr "Απαιτείται η παράμετρος ρυθμίσεων."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:532
+msgid "Cannot send a test email for an email notification that is not editable."
+msgstr "Δεν είναι δυνατή η αποστολή δοκιμαστικού email για μια ειδοποίηση μέσω email που δεν είναι επεξεργάσιμη."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:698
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:235
+msgid "The site has email template overrides and hasn't enabled the Email Notifications feature."
+msgstr "Ο ιστότοπος διαθέτει παρακάμψεις προτύπου email και δεν έχει ενεργοποιημένη τη δυνατότητα ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:961
+msgid "Unique email notification ID."
+msgstr "Μοναδικό αναγνωριστικό ειδοποίησης μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:967
+msgid "Unique email notification name (matches the ID)."
+msgstr "Μοναδικό όνομα ειδοποίησης μέσω email (αντιστοιχεί στο αναγνωριστικό)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:973
+msgid "Email notification label."
+msgstr "Ετικέτα ειδοποίησης μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:979
+msgid "Email notification description."
+msgstr "Περιγραφή ειδοποίησης μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:985
+msgid "ID of the template used by this email notification."
+msgstr "Αναγνωριστικό του προτύπου που χρησιμοποιείται από αυτή την ειδοποίηση μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:991
+msgid "A list of categories that the email notification belongs to."
+msgstr "Μια λίστα κατηγοριών στις οποίες ανήκει η ειδοποίηση μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1000
+msgid "Email notification status"
+msgstr "Κατάσταση ειδοποίησης μέσω email"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1007
+msgid "Whether the email notification can only be sent manually."
+msgstr "Αν η ειδοποίηση μέσω email μπορεί να σταλεί μόνο μη αυτόματα."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1013
+msgid "Whether the email notification will be sent to administrators."
+msgstr "Αν η ειδοποίηση μέσω email θα σταλεί στους διαχειριστές."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1019
+msgid "A list of placeholders that are available for the email notification."
+msgstr "Μια λίστα με σύμβολα κράτησης θέσης που είναι διαθέσιμα για την ειδοποίηση μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1028
+msgid "URL for the WooCommerce email settings screen for the email notification"
+msgstr "URL για την οθόνη ρυθμίσεων email του WooCommerce για την ειδοποίηση μέσω email"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1051
+msgid "Unique email notification category ID."
+msgstr "Μοναδικό αναγνωριστικό κατηγορίας ειδοποίησης μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1057
+msgid "Email notification category name."
+msgstr "Όνομα κατηγορίας ειδοποίησης μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:242
+msgid "A non-empty settings or subgroups parameter must be provided."
+msgstr "Πρέπει να δοθεί μια παράμετρος μη κενών ρυθμίσεων ή δευτερευουσών ομάδων."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:324
+msgid "Unique email template ID."
+msgstr "Μοναδικό αναγνωριστικό προτύπου email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:330
+msgid "Unique email template name (matches the ID)."
+msgstr "Μοναδικό όνομα προτύπου email (αντιστοιχεί στο αναγνωριστικό)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:336
+msgid "Email template label."
+msgstr "Ετικέτα προτύπου email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:342
+msgid "List of email content placeholders."
+msgstr "Λίστα συμβόλων κράτησης θέσης περιεχομένου email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:351
+msgid "Email template preview."
+msgstr "Προεπισκόπηση προτύπου email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:57
+msgid "Unique email template setting name."
+msgstr "Μοναδικό όνομα ρύθμισης προτύπου email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:63
+msgid "Email template setting label."
+msgstr "Ετικέτα ρύθμισης προτύπου email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:69
+msgid "Email template settings subgroups."
+msgstr "Δευτερεύουσες ομάδες ρυθμίσεων προτύπων email."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:78
+msgid "Root settings for an email template."
+msgstr "Ριζικές ρυθμίσεις για ένα πρότυπο email."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:185
+msgid "This email address belongs to another store. Please enter a different email address. If you already own this address, please reach out via %1$sGet Help%2$s."
+msgstr "Αυτή η διεύθυνση email ανήκει σε άλλο κατάστημα. Καταχωρήστε διαφορετική διεύθυνση email. Αν σας ανήκει ήδη αυτή η διεύθυνση, επικοινωνήστε μαζί μας μέσω της επιλογής %1$sΛήψη βοήθειας%2$s."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:278
+msgid "Sender unique ID."
+msgstr "Μοναδικό αναγνωριστικό αποστολέα."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:284
+msgid "Sender email address."
+msgstr "Διεύθυνση email αποστολέα."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:290
+msgid "The date and time when the sender was verified in our system."
+msgstr "Η ημερομηνία και ώρα κατά την οποία επαληθεύτηκε ο αποστολέας στο σύστημά μας."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:296
+msgid "How the sender was verified."
+msgstr "Πώς επαληθεύτηκε ο αποστολέας."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:302
+msgid "Sender status."
+msgstr "Κατάσταση αποστολέα."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:285
+msgid "Unique email notification setting ID."
+msgstr "Μοναδικό αναγνωριστικό ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:291
+msgid "Unique email notification setting name (matches the ID)."
+msgstr "Μοναδικό όνομα ρύθμισης ειδοποιήσεων μέσω email (αντιστοιχεί στο αναγνωριστικό)."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:297
+msgid "Email notification setting label."
+msgstr "Ετικέτα ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:303
+msgid "Email notification setting description."
+msgstr "Περιγραφή ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:309
+msgid "A list of available options for the email notification setting values."
+msgstr "Μια λίστα διαθέσιμων επιλογών για τις τιμές ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:318
+msgid "Email notification setting default value."
+msgstr "Προεπιλεγμένη τιμή ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:324
+msgid "Email notification setting value."
+msgstr "Τιμή ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:330
+msgid "Whether the email notification setting can have multiple values."
+msgstr "Αν η ρύθμιση ειδοποιήσεων μέσω email μπορεί να έχει πολλές τιμές."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:336
+msgid "Whether the email notification setting is required."
+msgstr "Αν απαιτείται η ρύθμιση ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:342
+msgid "Email notifications setting group, if applicable."
+msgstr "Ομάδα ρύθμισης ειδοποιήσεων μέσω email, κατά περίπτωση."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:348
+msgid "Email notifications setting control details."
+msgstr "Λεπτομέρειες ελέγχου ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:354
+msgid "Email notifications setting control type."
+msgstr "Τύπος ελέγχου ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:360
+msgid "A list of available options for the email notification setting control."
+msgstr "Μια λίστα διαθέσιμων επιλογών τον έλεγχο ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:369
+msgid "Optional input placeholder for the email notification setting control."
+msgstr "Προαιρετικό σύμβολο κράτησης θέσης εισόδου για τον έλεγχο ρύθμισης ειδοποιήσεων μέσω email."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:163
+msgid "Could not match an email notification ID to a \"%s\" WooCommerce email ID."
+msgstr "Δεν ήταν δυνατή η αντιστοίχιση ενός αναγνωριστικού ειδοποίησης μέσω email με ένα αναγνωριστικό email WooCommerce \"%s\"."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:193
+msgid "Could not match a WooCommerce email ID to a \"%s\" email notification ID."
+msgstr "Δεν ήταν δυνατή η αντιστοίχιση ενός αναγνωριστικού email WooCommerce με ένα αναγνωριστικό ειδοποίησης μέσω email \"%s\"."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:622
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:93
+msgid "Could not find source WooCommerce email with ID \"%s\"."
+msgstr "Δεν ήταν δυνατή η εύρεση του πηγαίου email WooCommerce με αναγνωριστικό \"%s\"."
+
+#: src/Features/EmailNotifications/DataStores/EmailContentDataStore.php:65
+msgid "No content template file found for the ID %s."
+msgstr "Δεν βρέθηκε αρχείο προτύπου περιεχομένου για το αναγνωριστικό %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:72
+msgid "No email notification found with the ID %s."
+msgstr "Δεν βρέθηκε ειδοποίηση μέσω email με αναγνωριστικό %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:79
+msgid "The class for %s must implement the EmailNotificationContract interface"
+msgstr "Η κλάση για το %s πρέπει να υλοποιήσει τη διεπαφή EmailNotificationContract"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:89
+msgid "The email notification with ID %s is not available on this site"
+msgstr "Η ειδοποίηση μέσω email με αναγνωριστικό %s δεν είναι διαθέσιμη σε αυτό τον ιστότοπο"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:59
+msgid "No email notification template found with the ID %s."
+msgstr "Δεν βρέθηκε πρότυπο ειδοποίησης μέσω email με αναγνωριστικό %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:68
+msgid "The class for %s must implement the EmailTemplateContract interface"
+msgstr "Η κλάση για το %s πρέπει να υλοποιήσει τη διεπαφή EmailTemplateContract"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:91
+msgid "No template file found with the ID %s."
+msgstr "Δεν βρέθηκε αρχείο προτύπου για το αναγνωριστικό %s."
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:40
+msgid "Invalid template for the option name \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "Μη έγκυρο πρότυπο για το όνομα επιλογής \"%s\": θα πρέπει να περιέχει ένα σύμβολο κράτησης θέσης {{setting_id}}."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:69
+msgid "No settings found with the ID %s."
+msgstr "Δεν βρέθηκαν ρυθμίσεις με αναγνωριστικό %s."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:78
+msgid "The class name for %s must implement ConfigurableContract"
+msgstr "Το όνομα κλάσης για το %s πρέπει να υλοποιεί το ConfigurableContract"
+
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:140
+msgid "No WooCommerce email found for \"%s\""
+msgstr "Δεν βρέθηκε email WooCommerce για το \"%s\""
+
+#: src/Features/EmailNotifications/EmailNotifications.php:151
+msgid "Admin"
+msgstr "Διαχειριστής"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:152
+msgid "Extensions"
+msgstr "Επεκτάσεις"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:153
+msgid "Customer"
+msgstr "Πελάτης"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:154
+msgid "Order"
+msgstr "Παραγγελία"
+
+#: src/Features/EmailNotifications/EmailsPage.php:36
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:41
+msgid "Email Notifications"
+msgstr "Ειδοποιήσεις μέσω email"
+
+#: src/Features/EmailNotifications/EmailsPage.php:37
+msgid "Emails"
+msgstr "Emails."
+
+#: src/Features/EmailNotifications/EmailsPage.php:187
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:251
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:296
+msgid "New"
+msgstr "Νέo"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:39
+msgid "Cancelled order"
+msgstr "Ακυρωμένη παραγγελία"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:40
+msgid "Sent to chosen recipient(s) when an order is marked cancelled (if it was previously processing or on-hold)."
+msgstr "Στέλνεται στους επιλεγμένους παραλήπτες όταν μια παραγγελία επισημαίνεται ως ακυρωμένη (εφόσον προηγουμένως ήταν σε επεξεργασία ή σε αναμονή)."
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:52
+msgid "[{{site_title}}]: Order #{{order_number}} has been cancelled"
+msgstr "[{{site_title}}]: Η παραγγελία #{{order_number}} ακυρώθηκε"
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:83
+msgid "Notification to let you know &mdash; order #%1$s belonging to %2$s has been cancelled:"
+msgstr "Ειδοποίηση για να σας ενημερώσουμε ότι &mdash; η παραγγελία #%1$s που ανήκει στον/την %2$s έχει ακυρωθεί:"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:35
+msgid "Completed order"
+msgstr "Ολοκληρωμένη παραγγελία"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is marked completed and usually indicates that the order has been shipped."
+msgstr "Στέλνεται στους πελάτες όταν η παραγγελία τους έχει επισημανθεί ως ολοκληρωμένη και συνήθως υποδεικνύει ότι η παραγγελία έχει αποσταλεί."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:64
+msgid "We have finished processing your order."
+msgstr "Ολοκληρώσαμε την επεξεργασία της παραγγελίας σας."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:78
+msgid "Your {{site_title}} order is now complete"
+msgstr "Η παραγγελία σας {{site_title}} έχει πλέον ολοκληρωθεί"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:39
+msgid "Customer invoice / order details"
+msgstr "Παραστατικό πελάτη / Στοιχεία παραγγελίας"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:40
+msgid "Emails containing order information and payment links sent manually."
+msgstr "Μηνύματα email που περιέχουν πληροφορίες παραγγελίας και συνδέσεις πληρωμής που στέλνονται μη αυτόματα."
+
+#. translators: %1$s Site title, %2$s Order pay link
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:79
+msgid "An order has been created for you on %1$s. Your invoice is below, with a link to make payment when you’re ready: %2$s"
+msgstr "Δημιουργήθηκε μια παραγγελία για εσάς στο %1$s. Ακολουθεί το τιμολόγιό σας, με έναν σύνδεσμο για να πραγματοποιήσετε πληρωμή όταν θα είστε έτοιμοι: %2$s"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:87
+msgid "Pay for this order"
+msgstr "Πληρωμή για αυτή την παραγγελία"
+
+#. translators: %s Order date
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:92
+msgid "Here are the details of your order placed on %s:"
+msgstr "Λεπτομέρειες της παραγγελίας που κάνατε στις %s:"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:108
+msgid "Invoice for order #{{order_number}} on {{site_title}}"
+msgstr "Τιμολόγιο για την παραγγελία #{{order_number}} στο {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:38
+msgid "Customer note"
+msgstr "Σημείωση πελάτη"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:39
+msgid "Sent to customer when you add a note to an order."
+msgstr "Στέλνεται στον πελάτη όταν προσθέτετε μια σημείωση σε μια παραγγελία."
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:89
+msgid "The following note has been added to your order:"
+msgstr "Η ακόλουθη σημείωση έχει προστεθεί στην παραγγελία σας:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:91
+msgid "As a reminder, here are your order details:"
+msgstr "Ως υπενθύμιση, αυτές είναι οι λεπτομέρειες της παραγγελίας σας:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:105
+msgid "Note added to your {{site_title}} order from {{order_date}}"
+msgstr "Η σημείωση προστέθηκε στην παραγγελία σας {{site_title}} από τον/την {{order_date}}"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:82
+msgid "Heading"
+msgstr "Επικεφαλίδα"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:99
+msgid "Additional content"
+msgstr "Πρόσθετο περιεχόμενο"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:41
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:117
+msgid "Container"
+msgstr "Container"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:119
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:149
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:196
+msgid "Background color"
+msgstr "Χρώμα φόντου"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:123
+msgid "Email width"
+msgstr "Πλάτος email"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:132
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:443
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:68
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:156
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:133
+msgid "Full"
+msgstr "Πλήρης"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:141
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:146
+msgid "Header image"
+msgstr "Εικόνα κεφαλίδας"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:155
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:174
+msgid "Text"
+msgstr "Κείμενο"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:166
+msgid "Body"
+msgstr "Κυρίως σώμα"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:168
+msgid "Body background color"
+msgstr "Χρώμα φόντου σώματος (email body)"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:177
+msgid "Link color"
+msgstr "Χρώμα συνδέσεων"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:184
+msgid "Headings"
+msgstr "Επικεφαλίδες"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:187
+msgid "H1 font size"
+msgstr "Μέγεθος γραμματοσειράς H1"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:188
+msgid "H2 font size"
+msgstr "Μέγεθος γραμματοσειράς H2"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:189
+msgid "H3 font size"
+msgstr "Μέγεθος γραμματοσειράς H3"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:194
+msgid "Button"
+msgstr "Κουμπί"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:197
+msgid "Label color"
+msgstr "Χρώμα ετικέτας"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:206
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:214
+msgid "Footer text"
+msgstr "Κείμενο υποσέλιδου"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:242
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:262
+msgid "Font family"
+msgstr "Οικογένεια γραμματοσειράς"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:287
+msgid "Font size"
+msgstr "Μέγεθος γραμματοσειράς"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:205
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:224
+msgid "Preview text"
+msgstr "Κείμενο προεπισκόπησης"
+
+#. translators: %1$s - opening a HTML tag, %2$s - closing a HTML tag
+#: src/Features/EmailNotifications/Models/EmailNotification.php:229
+msgid "Preview text is shown after the subject line in some email inboxes. Maximum: 150 characters. %1$sLearn more%2$s"
+msgstr "Το κείμενο προεπισκόπησης εμφανίζεται μετά τη γραμμή θέματος σε ορισμένα εισερχόμενα email. Έως το πολύ: 150 χαρακτήρες. %1$sΜάθετε περισσότερα%2$s"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:234
+msgid "Enter preview text"
+msgstr "Καταχωρήστε κείμενο προεπισκόπησης"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:264
+msgid "Subject"
+msgstr "Θέμα"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:41
+msgid "Failed order"
+msgstr "Αποτυχημένη παραγγελία"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when an order is marked failed (if it was previously pending or on-hold)."
+msgstr "Στέλνεται στους επιλεγμένους παραλήπτες όταν μια παραγγελία επισημαίνεται ως αποτυχημένη (εφόσον προηγουμένως ήταν σε εκκρεμότητα ή σε αναμονή)."
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:72
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr "Η πληρωμή για την παραγγελία #%1$s από τον/την %2$s απέτυχε. Η παραγγελία ήταν η εξής:"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:93
+msgid "[{site_title}]: Order #{order_number} has failed"
+msgstr "[{site_title}]: Η παραγγελία #{order_number} απέτυχε"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:32
+#: src/WooCommerce/Emails/ItemShippedEmail.php:32
+msgid "Item shipped"
+msgstr "Το είδος αποστάλθηκε"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:33
+msgid "Sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Στέλνεται στους πελάτες όταν προστίθενται πληροφορίες παρακολούθησης για ένα ή περισσότερα είδη στις παραγγελίες τους."
+
+#. translators: Placeholder: %s - Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:62
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:92
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:79
+#: src/Features/EmailNotifications/Traits/IsCustomerEmailNotificationTrait.php:24
+#: templates/woocommerce/emails/customer-item-shipped.php:36
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:31
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:31
+#: templates/woocommerce/emails/ready-for-pickup.php:36
+msgid "Hi %s,"
+msgstr "Γεια σας %s,"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:63
+#: templates/woocommerce/emails/customer-item-shipped.php:38
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:32
+msgid "An item from your order has shipped!"
+msgstr "Ένα είδος από την παραγγελία σας έχει αποσταλεί!"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:77
+msgid "An item from {{site_title}} order #{{order_number}} has shipped!"
+msgstr "Ένα είδος από την παραγγελία #{{order_number}} στο {{site_title}} έχει αποσταλεί!"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:27
+msgid "New account"
+msgstr "Νέος λογαριασμός"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:28
+msgid "Sent to customers when they sign up via checkout or account pages."
+msgstr "Στέλνεται στους πελάτες όταν κάνουν εγγραφή μέσω των σελίδων ταμείου ή λογαριασμού."
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:39
+msgid "Your {{site_title}} account has been created!"
+msgstr "Ο λογαριασμός σας στο {{site_title}} δημιουργήθηκε!"
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:97
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "Σας ευχαριστούμε που δημιουργήσατε λογαριασμό στο %1$s. Το όνομα χρήστη σας είναι %2$s. Μπορείτε να έχετε πρόσβαση στην περιοχή του λογαριασμού σας για να προβάλετε παραγγελίες, να αλλάξετε τον κωδικό πρόσβασής σας και πολλά άλλα στη διεύθυνση: %3$s"
+
+#. translators: %s: Auto generated password
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:105
+msgid "Your password has been automatically generated: %s"
+msgstr "Ο κωδικός πρόσβασής σας δημιουργήθηκε αυτόματα: %s"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:41
+msgid "New order"
+msgstr "Νέα παραγγελία"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when a new order is received."
+msgstr "Στέλνεται στους επιλεγμένους παραλήπτες όταν λαμβάνεται μια νέα παραγγελία."
+
+#. translators: %1$s: Customer first name, %2$s: Customer last name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:69
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %1$s: Customer full name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:78
+msgid "You’ve received the following order from %1$s:"
+msgstr "Λάβατε την εξής παραγγελία από τον/την %1$s:"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:98
+msgid "[{{site_title}}]: New order #{{order_number}}"
+msgstr "[{{site_title}}]: Νέα παραγγελία #{{order_number}}"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:35
+msgid "Order on-hold"
+msgstr "Παραγγελία σε αναμονή"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:36
+msgid "Sent to customer when an order is on hold."
+msgstr "Στέλνεται στον πελάτη όταν μια παραγγελία είναι σε αναμονή."
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:47
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:83
+msgid "Your {{site_title}} order has been received!"
+msgstr "Η παραγγελία σας στο {{site_title}} παραλήφθηκε!"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:78
+msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
+msgstr "Ευχαριστούμε για την παραγγελία σας. Βρίσκεται σε αναμονή μέχρι να επιβεβαιώσουμε ότι έχει παραληφθεί η πληρωμή. Εν τω μεταξύ, σας υπενθυμίζουμε τι παραγγείλατε:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:35
+msgid "Partially refunded order"
+msgstr "Παραγγελία με μερική επιστροφή χρημάτων"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is partially refunded."
+msgstr "Στέλνεται στους πελάτες όταν έχει γίνει μερική επιστροφή χρημάτων για την παραγγελία τους."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr "Έγινε μερική επιστροφή χρημάτων για την παραγγελία σας στο %s. Ακολουθούν περισσότερες λεπτομέρειες για αναφορά σας:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been partially refunded"
+msgstr "Έγινε μερική επιστροφή χρημάτων για την παραγγελία σας #{{order_number}} στο {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:35
+msgid "Processing order"
+msgstr "Γίνεται επεξεργασία της παραγγελίας"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:36
+msgid "Sent to customer after a payment is made."
+msgstr "Στέλνεται στον πελάτη αφού γίνει μια πληρωμή."
+
+#. translators: %s: Order number
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:67
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "Θα θέλαμε να σας ενημερώσουμε ότι λάβαμε την παραγγελία σας #%s και βρίσκεται υπό επεξεργασία:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:35
+msgid "Fully refunded order"
+msgstr "Παραγγελία με πλήρη επιστροφή χρημάτων"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is fully refunded."
+msgstr "Στέλνεται στους πελάτες όταν έχει γίνει πλήρης επιστροφή χρημάτων για την παραγγελία τους."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been refunded. There are more details below for your reference:"
+msgstr "Έγινε επιστροφή χρημάτων για την παραγγελία σας στο %s. Ακολουθούν περισσότερες λεπτομέρειες για αναφορά σας:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been refunded"
+msgstr "Έγινε επιστροφή χρημάτων για την παραγγελία σας #{{order_number}} στο {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:28
+msgid "Reset password"
+msgstr "Επαναφορά κωδικού πρόσβασης"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:29
+msgid "Sent to customers when they reset their passwords."
+msgstr "Στέλνεται στους πελάτες όταν κάνουν επαναφορά των κωδικών πρόσβασής τους."
+
+#. translators: %s: Store name
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:81
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr "Κάποιος έχει ζητήσει έναν νέο κωδικό πρόσβασης για τον ακόλουθο λογαριασμό στο %s:"
+
+#. translators: %s: Customer username
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:83
+msgid "Username: %s"
+msgstr "Όνομα χρήστη: %s"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:84
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr "Αν δεν το ζητήσατε εσείς, αρκεί να αγνοήσετε αυτό το email. Αν θέλετε να συνεχίσετε:"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:87
+msgid "Click here to reset your password"
+msgstr "Πατήστε εδώ για να επαναφέρετε το συνθηματικό σας"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:56
+msgid "Sender name"
+msgstr "Όνομα αποστολέα"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:68
+msgid "Sender address"
+msgstr "Διεύθυνση αποστολέα"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:76
+msgid "Recipients"
+msgstr "Αποδέκτες"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:77
+msgid "Enter recipients (comma-separated) for this email"
+msgstr "Καταχωρήστε παραλήπτες (διαχωρισμένους με κόμμα) για αυτό το email"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. Manage them from Marketing > Emails."
+msgstr "Προσαρμόστε τα email σας ώστε να αντικατοπτρίζουν τη μάρκα σας και αυξήστε την αφοσίωση των πελατών. Διαχειριστείτε τα από την επιλογή Marketing > Emails."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:126
+msgid "Manage emails"
+msgstr "Διαχείριση μηνυμάτων email"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:137
+msgid "Your hosting plan now offers editable WooCommerce emails, no plugin required!"
+msgstr "Το πρόγραμμα φιλοξενίας σας προσφέρει πλέον επεξεργάσιμα email WooCommerce, χωρίς να απαιτείται κάποια προσθήκη!"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:254
+msgid "Please use either your hosting plan's email editing feature or your 3rd-party email editor."
+msgstr "Χρησιμοποιήστε είτε τη λειτουργία επεξεργασίας email του προγράμματος φιλοξενίας σας είτε το πρόγραμμα επεξεργασίας email κάποιου τρίτου."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Edit emails"
+msgstr "Επεξεργασία μηνυμάτων email"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Contact support"
+msgstr "Επικοινωνήστε με την υποστήριξη"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:266
+msgid "A 3rd-party email editing plugin has been detected on your store."
+msgstr "Εντοπίστηκε μια προσθήκη επεξεργασίας email κάποιου τρίτου στο κατάστημά σας."
+
+#. translators: %1$s opening strong tag; %2$s closing strong tag; %3$s opening anchor tag; %4$s closing anchor tag; %5$s opening anchor tag; %6$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:92
+msgid "%1$sNote:%2$s Your site is using a temporary domain that cannot be indexed by search engines. Change your primary domain via the %3$sWoo store management area%4$s. Learn more about %5$sconnecting a domain%6$s."
+msgstr "%1$sΣημείωση:%2$s Ο ιστότοπός σας χρησιμοποιεί ένα προσωρινό domain που δεν μπορεί να καταχωρηθεί στο ευρετήριο μηχανών αναζήτησης. Αλλάξτε το κύριο domain σας μέσω της %3$sπεριοχής διαχείρισης καταστήματος Woo%4$s. Μάθετε περισσότερα σχετικά με τη %5$sσύνδεση ενός domain%6$s."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag; %3$s opening anchor tag; %4$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:102
+msgid "Change your primary domain via the %1$sWoo store management area%2$s. Learn more about %3$sconnecting a domain%4$s."
+msgstr "Αλλάξτε το κύριο domain σας μέσω της %1$sπεριοχής διαχείρισης καταστήματος Woo%2$s. Μάθετε περισσότερα σχετικά με τη %3$sσύνδεση ενός domain%4$s."
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:33
+msgid "Link bank account"
+msgstr "Σύνδεση τραπεζικού λογαριασμού"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:34
+msgid "You've got money waiting with GoDaddy Payments! Add your banking info to get your payouts deposited."
+msgstr "Έχετε χρήματα σε αναμονή με το GoDaddy Payments! Προσθέστε τα τραπεζικά στοιχεία σας για να γίνει κατάθεση των πληρωμών σας."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayEnabledNotice.php:21
+msgid "GoDaddy Payments - Apple Pay has been enabled on your selected pages and shows %1$sin Safari on supported devices%2$s."
+msgstr "GoDaddy Payments - Το Apple Pay έχει ενεργοποιηθεί στις επιλεγμένες σελίδες σας και εμφανίζεται %1$sστο Safari σε υποστηριζόμενες συσκευές%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Apple Pay should show."
+msgstr "Επιλέξτε σε ποιες σελίδες θα εμφανίζεται το Apple Pay."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayRegistrationFailedNotice.php:24
+msgid "There was a problem registering your site with Apple Pay. Please disable Apple Pay and try re-enabling, or %1$scontact support%2$s."
+msgstr "Προέκυψε πρόβλημα με την εγγραφή του ιστότοπού σας στο Apple Pay. Απενεργοποιήστε το Apple Pay και προσπαθήστε να το ενεργοποιήσετε ξανά ή %1$sεπικοινωνήστε με την υποστήριξη%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:24
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:23
+msgid "GoDaddy Payments successfully enabled!"
+msgstr "Το GoDaddy Payments ενεργοποιήθηκε με επιτυχία!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:25
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:24
+msgid "GoDaddy Payments is now available to your customers at checkout."
+msgstr "Το GoDaddy Payments είναι πλέον διαθέσιμο στους πελάτες σας κατά την ολοκλήρωση αγοράς."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:27
+msgid "GoDaddy Payments is now connected to your store!"
+msgstr "Το GoDaddy Payments είναι πλέον συνδεδεμένο με το κατάστημά σας!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:21
+msgid "Enable GoDaddy Payments"
+msgstr "Ενεργοποίηση GoDaddy Payments"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:30
+msgid "Enable the payment method to add it to your checkout."
+msgstr "Ενεργοποιήστε τη μέθοδο πληρωμής για να την προσθέσετε στην ολοκλήρωση αγορών σας."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:23
+msgid "Your GoDaddy Payments account has been closed."
+msgstr "Ο λογαριασμός σας GoDaddy Payments έχει κλείσει."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "Η μέθοδος πληρωμής έχει απενεργοποιηθεί, επομένως δεν θα εμφανίζεται στην ολοκλήρωση αγοράς σας. Ρυθμίστε τον λογαριασμό σας για να συνεχίσετε την επεξεργασία πληρωμών."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:24
+msgid "It looks like you didn't finish your GoDaddy Payments application."
+msgstr "Φαίνεται ότι δεν έχετε ολοκληρώσει την αίτησή σας για το GoDaddy Payments."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:26
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "Resume"
+msgstr "Συνέχιση"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:27
+msgid "You're just a few minutes from processing payments."
+msgstr "Απέχετε μόλις λίγα λεπτά από την επεξεργασία πληρωμών."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:23
+msgid "Your GoDaddy Payments account needs attention."
+msgstr "Ο λογαριασμός σας GoDaddy Payments χρειάζεται προσοχή."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "Η μέθοδος πληρωμής έχει απενεργοποιηθεί, επομένως δεν θα εμφανίζεται στην ολοκλήρωση αγοράς σας. Ελέγξτε το email σας για τα επόμενα βήματα."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:23
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:330
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "Ο λογαριασμός σας GoDaddy Payments έχει τερματιστεί."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "Η μέθοδος πληρωμής έχει απενεργοποιηθεί, επομένως δεν θα εμφανίζεται στην ολοκλήρωση αγοράς σας. Ελέγξτε το email σας για περισσότερες πληροφορίες."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:26
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:29
+msgid "Complete verification"
+msgstr "Ολοκλήρωση επαλήθευσης"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:27
+msgid "You've got money waiting with GoDaddy Payments! Verify your identity and add your banking info to get your payouts deposited."
+msgstr "Έχετε χρήματα σε αναμονή με το GoDaddy Payments! Επαληθεύστε την ταυτότητά σας και προσθέστε τα τραπεζικά στοιχεία σας για να γίνει κατάθεση των πληρωμών σας."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:30
+msgid "You haven't completed the necessary steps to verify your identity with GoDaddy Payments. Until you do that, you won't be able to take any payments or deposit your funds."
+msgstr "Δεν έχετε ολοκληρώσει τα απαραίτητα βήματα για να επαληθεύσετε την ταυτότητά σας στο GoDaddy Payments. Μέχρι να το κάνετε αυτό, δεν θα μπορείτε να λαμβάνετε πληρωμές ή να καταθέτετε χρηματικά ποσά."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:30
+msgid "You've still got money waiting with GoDaddy Payments! Verify your identity and add your banking info as soon as you can to get your funds and keep taking payments."
+msgstr "Έχετε ακόμα χρήματα σε αναμονή με το GoDaddy Payments! Επαληθεύστε την ταυτότητά σας και προσθέστε τα τραπεζικά στοιχεία σας το συντομότερο δυνατό, για να λάβετε τα χρήματά σας και να συνεχίσετε να λαμβάνετε πληρωμές."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:30
+msgid "The deadline to complete your payouts setup is coming up! To keep transacting with GoDaddy Payments and to get your money, verify your identity and add banking info."
+msgstr "Η προθεσμία για την ολοκλήρωση της ρύθμισης των πληρωμών σας πλησιάζει! Για να συνεχίσετε τις συναλλαγές με την GoDaddy Payments και να λάβετε τα χρήματά σας, επαληθεύστε την ταυτότητά σας και προσθέστε τραπεζικά στοιχεία."
+
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:27
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:287
+msgid "You're all set to take payments with GoDaddy Payments!"
+msgstr "Είστε έτοιμοι να αρχίσετε να λαμβάνετε πληρωμές με το GoDaddy Payments!"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:35
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:292
+msgid "To get your funds deposited to your bank account, verify your identity and add your banking info. %1$sSet up payouts%2$s"
+msgstr "Για να γίνει κατάθεση των χρημάτων σας σε τραπεζικό λογαριασμό, επαληθεύστε την ταυτότητά σας και προσθέστε τα τραπεζικά στοιχεία σας. %1$sΡύθμιση πληρωμών%2$s"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:42
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:300
+msgid "The connected GoDaddy Payments account is %1$s %2$s (Not the business owner's account? %3$sSwitch account%4$s)."
+msgstr "Ο συνδεδεμένος λογαριασμός GoDaddy Payments είναι %1$s %2$s (Δεν είναι ο λογαριασμός του ιδιοκτήτη της επιχείρησης; %3$sΑλλάξτε λογαριασμό%4$s)."
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountSwitchedNotice.php:30
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:278
+msgid "GoDaddy Payments is now connected with the account %1$s %2$s. (Not right? %3$sSwitch account%4$s.)"
+msgstr "Το GoDaddy Payments είναι πλέον συνδεδεμένο με τον λογαριασμό %1$s %2$s. (Δεν είναι σωστό; %3$sΑλλάξτε λογαριασμό%4$s.)"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:28
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:28
+msgid "Get Started"
+msgstr "Ξεκινήστε"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:30
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:31
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:455
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:52
+msgid "Provided by GoDaddy"
+msgstr "Παρέχεται από την GoDaddy"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:31
+msgid "Sell online and in person with GoDaddy Payments. Sync local pickup and delivery orders right to your Smart Terminal, then get paid fast with next-day deposits."
+msgstr "Πραγματοποιήστε πωλήσεις online και αυτοπροσώπως με το GoDaddy Payments. Συγχρονίστε τις τοπικές παραγγελίες παραλαβής και παράδοσης απευθείας στο έξυπνο τερματικό σας και, στη συνέχεια, πληρωθείτε γρήγορα με τις καταθέσεις επόμενης ημέρας."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:29
+msgid "Use GoDaddy Payments Selling in Person to sync local pickup and delivery orders to your Smart Terminal. Sell anything, anywhere and get paid fast with next-day deposits."
+msgstr "Χρησιμοποιήστε τις Πωλήσεις αυτοπροσώπως στο GoDaddy Payments για να συγχρονίσετε τις τοπικές παραγγελίες παραλαβής και παράδοσης με το έξυπνο τερματικό σας. Πουλήστε οτιδήποτε, οπουδήποτε και πληρωθείτε γρήγορα με καταθέσεις επόμενης ημέρας."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:32
+msgid "GoDaddy Selling in Person"
+msgstr "Πωλήσεις GoDaddy αυτοπροσώπως"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:39
+msgid "Update Store"
+msgstr "Ενημέρωση καταστήματος"
+
+#. translators: %s - list of supported countries
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:42
+msgid "GoDaddy Payments is available for businesses in %s. Please update your Store Address to use the payment method."
+msgstr "Το GoDaddy Payments είναι διαθέσιμο για επιχειρήσεις στις χώρες %s. Ενημερώστε τη διεύθυνση του καταστήματός σας για να χρησιμοποιήσετε τη μέθοδο πληρωμής."
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:42
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:37
+msgid "Change Currency"
+msgstr "Αλλαγή νομίσματος"
+
+#. translators: %1$s - list of supported currencies, %2$s - store country
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:45
+msgid "GoDaddy Payments requires %1$s transactions for businesses in %2$s. Please change your Currency in order to use the payment method."
+msgstr "Το GoDaddy Payments απαιτεί συναλλαγές σε %1$s για επιχειρήσεις στη χώρα %2$s. Αλλάξτε το νόμισμά σας για να χρησιμοποιήσετε τη μέθοδο πληρωμής."
+
+#. translators: %s - list of supported currencies
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:40
+msgid "GoDaddy Payments requires %s transactions. Please change your Currency in order to use the payment method."
+msgstr "Το GoDaddy Payments απαιτεί %s συναλλαγές. Αλλάξτε το νόμισμά σας για να χρησιμοποιήσετε τη μέθοδο πληρωμής."
+
+#. translators: Placeholders: %1$s - <a> tag for the Google Pay docs link, %2$s - </a> tag
+#: src/Features/GoDaddyPayments/Notices/GooglePayEnabledNotice.php:22
+msgid "GoDaddy Payments - Google Pay has been enabled on your selected pages and shows %1$sin supported browsers and devices%2$s."
+msgstr "GoDaddy Payments - Το Google Pay έχει ενεργοποιηθεί στις επιλεγμένες σελίδες σας και εμφανίζεται %1$sσε υποστηριζόμενα προγράμματα περιήγησης και σε υποστηριζόμενες συσκευές%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/GooglePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Google Pay should show."
+msgstr "Επιλέξτε σε ποιες σελίδες θα εμφανίζεται το Google Pay."
+
+#: src/Features/GoDaddyPayments/Notices/OnboardingErrorNotice.php:26
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη σύνδεση στο GoDaddy Payments. Προσπαθήστε ξανά."
+
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:22
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin!"
+msgstr "Το GoDaddy Payments (Poynt) περιλαμβάνεται για τους πελάτες WordPress με διαχείριση χωρίς ξεχωριστή προσθήκη!"
+
+#: src/Features/GoDaddyPayments/Notices/WooStagingNotice.php:23
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "Όσες χρεώσεις ή εξουσιοδοτήσεις/πραγματοποιήσεις χρεώσεων στο WooCommerce, καθώς και όσες επιστροφές χρημάτων και ακυρώσεις πραγματοποιούνται στον ιστότοπό σας περιβάλλοντος δοκιμών, θα διεκπεραιώνονται κανονικά στον λογαριασμό σας GoDaddy Payments."
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:43
+msgid "Commerce Home"
+msgstr "Αρχική σελίδα εμπορίου"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:47
+msgid "Payments Dashboard"
+msgstr "Πίνακας εργασιών πληρωμών"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:50
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:265
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:266
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:197
+msgid "Tax"
+msgstr "Φόρος"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:94
+msgid "The Sellbrite plugin is included in your hosting plan as GoDaddy Marketplaces. The plugin has been deactivated."
+msgstr "Η προσθήκη Sellbrite περιλαμβάνεται στο πρόγραμμα φιλοξενίας σας ως GoDaddy Marketplaces. Η προσθήκη απενεργοποιήθηκε."
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:95
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:230
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:393
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:400
+msgid "Set up"
+msgstr "Ρύθμιση"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:104
+msgid "Your products, everywhere."
+msgstr "Τα προϊόντα σας, παντού."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:64
+msgid "A product ID is required."
+msgstr "Απαιτείται ένα αναγνωριστικό προϊόντος."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:68
+msgid "A channel UUID is required."
+msgstr "Απαιτείται ένα UUID καναλιού."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:72
+msgid "You do not have permission to perform this action."
+msgstr "Δεν έχετε άδεια να εκτελέσετε αυτή την ενέργεια."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:76
+msgid "This product must meet all requirements below before creating a draft listing."
+msgstr "Αυτό το προϊόν πρέπει να ικανοποιεί όλες τις παρακάτω απαιτήσεις πριν δημιουργηθεί ένα προσχέδιο καταχώρησης."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:116
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:157
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:61
+msgid "Failed to create a draft listing."
+msgstr "Απέτυχε η δημιουργία προσχεδίου καταχώρησης."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:132
+msgid "Failed to retrieve a WooCommerce product with ID #%d while creating a draft Marketplaces listing."
+msgstr "Απέτυχε η ανάκτηση ενός προϊόντος WooCommerce με αναγνωριστικό #%d κατά τη δημιουργία προσχεδίου καταχώρησης Marketplaces."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:62
+msgid "Products with Marketplaces listings cannot have an empty SKU."
+msgstr "Τα προϊόντα με καταχωρήσεις Marketplaces δεν μπορούν να έχουν κενό SKU."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:88
+#: src/Features/Marketplaces/Interceptors/ProductsPageInterceptor.php:111
+msgid "Are you sure you want to unpublish? All associated Marketplaces listings will remain published or as a draft but will no longer sync content and inventory with WooCommerce."
+msgstr "Είστε βέβαιοι ότι θέλετε να αναιρέσετε τη δημοσίευση; Όλες οι σχετικές καταχωρήσεις σε αγορές θα παραμείνουν δημοσιευμένες ή ως προσχέδιο, αλλά δεν θα συγχρονίζουν πλέον το περιεχόμενο και τα αποθέματα με το WooCommerce."
+
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:156
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:168
+msgid "Marketplaces & Social Order"
+msgstr "Παραγγελία στην επιλογή Αγορές και μέσα κοινωνικής δικτύωσης"
+
+#. translators: Placeholder: %s - sales channel label
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:160
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:170
+msgid "Sales Channel: %s"
+msgstr "Κανάλι πωλήσεων: %s"
+
+#. translators: Placeholder: %s - sales channel order number
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:163
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:172
+msgid "Sales Channel Order Number: %s"
+msgstr "Αριθμός παραγγελίας καναλιού πωλήσεων: %s"
+
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:166
+msgid "Return accepted via Walmart sales channel."
+msgstr "Η επιστροφή έγινε δεκτή μέσω του καναλιού πωλήσεων της Walmart."
+
+#. translators: Placeholders: %1$s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:189
+msgid "Return requested via Walmart sales channel. %1$sView request%2$s."
+msgstr "Η επιστροφή ζητήθηκε μέσω του καναλιού πωλήσεων της Walmart. %1$sΠροβολή αιτήματος%2$s."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:291
+msgid "Create your first product listing by adding a new product or editing an existing one in WooCommerce. You can list a product on each of the marketplaces you've added. Once listed, the product info and inventory will sync automatically. Visit %1$sProducts%2$s to get started."
+msgstr "Δημιουργήστε την πρώτη σας καταχώρηση προϊόντος προσθέτοντας ένα νέο προϊόν ή επεξεργαστείτε ένα υπάρχον στο WooCommerce. Μπορείτε να καταχωρήσετε ένα προϊόν σε κάθε μία από τις αγορές που έχετε προσθέσει. Μετά την καταχώρηση, οι πληροφορίες και το απόθεμα του προϊόντος θα συγχρονίζονται αυτόματα. Επισκεφθείτε την ενότητα %1$sΠροϊόντα%2$s για να ξεκινήσετε."
+
+#: src/Features/Marketplaces/Marketplaces.php:301
+msgid "Welcome to GoDaddy Marketplaces!"
+msgstr "Καλώς ορίσατε στο GoDaddy Marketplaces!"
+
+#: src/Features/Marketplaces/Marketplaces.php:326
+msgid "Your store address must be in the US and currency US dollars in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Η διεύθυνση του καταστήματός σας πρέπει να βρίσκεστε στις Η.Π.Α. και το νόμισμά του να είναι δολάρια Η.Π.Α. για να συγχρονίσετε τα προϊόντα, τα αποθέματα και τις παραγγελίες με τα κανάλια πωλήσεων στην επιλογή Αγορές και μέσα κοινωνικής δικτύωσης."
+
+#: src/Features/Marketplaces/Marketplaces.php:342
+msgid "Your store weight and dimensions units must be in \"lbs\" and \"in\" in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Οι μονάδες βάρους και διαστάσεων του καταστήματός σας πρέπει να είναι σε \"kg\" και \"cm\" για να συγχρονίσετε τα προϊόντα, τα αποθέματα και τις παραγγελίες με τα κανάλια πωλήσεων στην επιλογή Αγορές και μέσα κοινωνικής δικτύωσης."
+
+#: src/Features/Marketplaces/Marketplaces.php:343
+#: src/Features/Marketplaces/Marketplaces.php:386
+msgid "Update settings"
+msgstr "Ενημέρωση ρυθμίσεων"
+
+#: src/Features/Marketplaces/Marketplaces.php:385
+msgid "Stock management must be enabled in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Η διαχείριση αποθεμάτων πρέπει να είναι ενεργοποιημένη προκειμένου να συγχρονίζονται τα προϊόντα, τα αποθέματα και οι παραγγελίες με τα κανάλια πωλήσεων στην επιλογή Αγορές και μέσα κοινωνικής δικτύωσης."
+
+#: src/Features/Marketplaces/Marketplaces.php:434
+msgid "Product, inventory, and order syncing is disabled in Staging to prevent conflicts with your Production site."
+msgstr "Ο συγχρονισμός προϊόντων, αποθεμάτων και παραγγελιών είναι απενεργοποιημένος στο περιβάλλον δοκιμών για την αποφυγή διενέξεων με τον ιστότοπο παραγωγής σας."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:450
+msgid "You've used 90&#37; of your included monthly Marketplaces and Social orders. Upgrade soon to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Χρησιμοποιήσατε το 90&#37; των μηνιαίων παραγγελιών που περιλαμβάνονται στις Αγορές και μέσα κοινωνικής δικτύωσης. Αναβαθμίστε σύντομα για να επεξεργαστείτε κι άλλες παραγγελίες. %1$sΑναβάθμιση προγράμματος%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:476
+msgid "You've used all your included monthly Marketplaces and Social orders. Upgrade now to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Χρησιμοποιήσατε όλες τις μηνιαίες παραγγελίες που περιλαμβάνονται στις Αγορές και μέσα κοινωνικής δικτύωσης. Αναβαθμίστε τώρα για να επεξεργαστείτε κι άλλες παραγγελίες. %1$sΑναβάθμιση προγράμματος%2$s"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:102
+msgid "Sales Channel"
+msgstr "Κανάλια πωλήσεων"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:106
+msgid "Sales Channel Order Number"
+msgstr "Αριθμός παραγγελίας καναλιού πωλήσεων"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:81
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:155
+msgid "Product Brand"
+msgstr "Μάρκα προϊόντος"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:86
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:162
+msgid "Product Condition"
+msgstr "Κατάσταση προϊόντος"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:91
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:167
+msgctxt "Product condition"
+msgid "New"
+msgstr "Νέo"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:92
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:168
+msgctxt "Product condition"
+msgid "Used"
+msgstr "Μεταχειρισμένα"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:93
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:169
+msgctxt "Product condition"
+msgid "Refurbished"
+msgstr "Ανακατασκευασμένο"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgid "Global Trade Item Number"
+msgstr "Αριθμός ταυτοποίησης για το παγκόσμιο εμπόριο"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgctxt "Global Trade Item Number (GTIN)"
+msgid "GTIN"
+msgstr "GTIN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:114
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:178
+msgid "A Global Trade Item Number is used to uniquely identify your product on Marketplaces & Social product listings. It can be found next to the barcode."
+msgstr "Ένας αριθμός ταυτοποίησης για το παγκόσμιο εμπόριο χρησιμοποιείται για τη μοναδική αναγνώριση του προϊόντος σας σε καταχωρήσεις στην ενότητα Αγορές και μέσα κοινωνικής δικτύωσης. Μπορεί να βρεθεί δίπλα στο barcode."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgid "Manufacturer Part Number"
+msgstr "Αριθμός εξαρτήματος κατασκευαστή"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgctxt "Manufacturer Part Number (MPN)"
+msgid "MPN"
+msgstr "MPN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:121
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:188
+msgid "A Manufacturer Part Number is used to uniquely identify your product on Marketplaces & Social product listings. Only use the MPN assigned by the manufacturer."
+msgstr "Ένας αριθμός εξαρτήματος κατασκευαστή χρησιμοποιείται για τη μοναδική αναγνώριση του προϊόντος σας σε καταχωρήσεις στην ενότητα Αγορές και μέσα κοινωνικής δικτύωσης. Χρησιμοποιείτε μόνο το MPN που έχει εκχωρηθεί από τον κατασκευαστή."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:53
+msgid "Marketplaces & Social"
+msgstr "Αγορές και Κοινωνικά δίκτυα"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:217
+msgid "You haven't connected this sales channel yet."
+msgstr "Δεν συνδέσει ακόμα αυτό το κανάλι πωλήσεων."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:221
+msgid "Connect Sales Channel"
+msgstr "Σύνδεση καναλιού πωλήσεων"
+
+#. translators: Placeholders: %s: Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:245
+msgid "This product hasn't been listed on %s yet."
+msgstr "Το προϊόν δεν έχει ακόμα καταχωρηθεί στο %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:250
+msgid "Create Draft Listing"
+msgstr "Δημιουργία προσχεδίου καταχώρησης"
+
+#. translators: Placeholders: %1$s - Opening <a> HTML link tag, %2$s - Closing </a> HTML link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:259
+msgid "A draft listing will be automatically created once the product meets the requirements below. %1$sLearn more about product sync%2$s"
+msgstr "Θα δημιουργηθεί αυτόματα ένα προσχέδιο καταχώρησης αφού το προϊόν ικανοποιήσει τις παρακάτω προϋποθέσεις. %1$sΜάθετε περισσότερα για τον συγχρονισμό προϊόντων%2$s"
+
+#. translators: Placeholders: %1%s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:266
+msgid "The requirements below must be met in order to list this product. %1$sLearn more about product sync%2$s"
+msgstr "Οι παρακάτω απαιτήσεις πρέπει να ικανοποιούνται προκειμένου να καταχωρήσετε αυτό το προϊόν. %1$sΜάθετε περισσότερα για τον συγχρονισμό προϊόντων%2$s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:273
+msgctxt "Product property requirement"
+msgid "Simple or variable product (not virtual or downloadable)"
+msgstr "Απλό ή μεταβλητό προϊόν (όχι εικονικό ή με δυνατότητα λήψης)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:274
+msgctxt "Product property requirement"
+msgid "Published product"
+msgstr "Δημοσιευμένο προϊόν"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:275
+msgctxt "Product property requirement"
+msgid "Product SKU must be set"
+msgstr "Πρέπει να έχει οριστεί το SKU του προϊόντος"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:276
+msgctxt "Product property requirement"
+msgid "Manage stock enabled and stock quantity > 0"
+msgstr "Ενεργοποίηση διαχείρισης αποθέματος και ποσότητα αποθέματος > 0"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:277
+msgctxt "Product property requirement"
+msgid "No backorders allowed"
+msgstr "Δεν επιτρέπονται λίστες αναμονής"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:278
+msgctxt "Product property requirement"
+msgid "Brand and Condition fields filled"
+msgstr "Συμπληρωμένα πεδία μάρκας και κατάστασης"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:319
+msgid "A draft listing has been created for this product on %s."
+msgstr "Δημιουργήθηκε ένα προσχέδιο καταχώρησης για αυτό το προϊόν στο %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:323
+msgid "View Draft Listing"
+msgstr "Προβολή προσχεδίου καταχώρησης"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:347
+msgid "This product has been listed on %s."
+msgstr "Έγινε καταχώρηση του προϊόντος στο %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:350
+msgid "Edit Listing"
+msgstr "Επεξεργασία καταχώρησης"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:195
+msgid "Manage Sales Channels"
+msgstr "Διαχείριση καναλιών πωλήσεων"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:228
+msgid "Marketplaces &amp; Social"
+msgstr "Αγορές και μέσα κοινωνικής δικτύωσης"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:251
+msgid "Manage Listing Templates"
+msgstr "Διαχείριση προτύπων καταχωρήσεων"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:265
+msgid "You haven't added any sales channels yet. Add sales channels in order to post your listings on third party marketplaces and social platforms."
+msgstr "Δεν έχετε προσθέσει κανένα κανάλι πωλήσεων ακόμα. Προσθέστε κανάλια πωλήσεων για να δημοσιεύσετε τις καταχωρήσεις σας σε αγορές τρίτων και πλατφόρμες κοινωνικής δικτύωσης."
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:279
+msgctxt "Refreshes the page"
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:286
+msgid "Add Sales Channel"
+msgstr "Προσθήκη καναλιού πωλήσεων"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:299
+msgid "Resources"
+msgstr "Πόροι"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:300
+msgid "What is Marketplaces &amp; Social?"
+msgstr "Τι είναι η επιλογή Αγορές και μέσα κοινωνικής δικτύωσης;"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:302
+msgid "How to connect sales channels"
+msgstr "Πώς να συνδέσετε κανάλια πωλήσεων"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:304
+msgid "What products are eligible for Marketplaces & Social sales channels?"
+msgstr "Ποια προϊόντα είναι επιλέξιμα για τα κανάλια πωλήσεων στην επιλογή Αγορές και μέσα κοινωνικής δικτύωσης;"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:119
+msgid "A non-empty settings parameter must be provided."
+msgstr "Πρέπει να δοθεί μια παράμετρος μη κενών ρυθμίσεων."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:124
+msgid "Each setting object must contain name and value keys."
+msgstr "Κάθε αντικείμενο ρύθμισης πρέπει να περιέχει κλειδιά ονόματος και τιμής."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:245
+msgid "Unique onboarding setting ID."
+msgstr "Μοναδικό αναγνωριστικό ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:251
+msgid "Unique onboarding setting name (matches the ID)."
+msgstr "Μοναδικό όνομα ρύθμισης ένταξης (αντιστοιχεί στο αναγνωριστικό)."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:257
+msgid "Onboarding setting label."
+msgstr "Ετικέτα ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:263
+msgid "Onboarding setting description."
+msgstr "Περιγραφή ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:269
+msgid "A list of available options for the onboarding setting values."
+msgstr "Μια λίστα διαθέσιμων επιλογών για τις τιμές ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:278
+msgid "Onboarding setting default value."
+msgstr "Προεπιλεγμένη τιμή ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:284
+msgid "Onboarding setting value."
+msgstr "Τιμή ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:290
+msgid "Whether the onboarding setting can have multiple values."
+msgstr "Αν η ρύθμιση ένταξης μπορεί να έχει πολλές τιμές."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:296
+msgid "Whether the onboarding setting is required."
+msgstr "Αν απαιτείται η ρύθμιση ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:302
+msgid "Onboarding setting group, if applicable."
+msgstr "Ομάδα ρύθμισης ένταξης, κατά περίπτωση."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:308
+msgid "Onboarding setting control details."
+msgstr "Λεπτομέρειες ελέγχου ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:314
+msgid "Onboarding setting control type."
+msgstr "Τύπος ελέγχου ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:320
+msgid "A list of available options for the onboarding setting control."
+msgstr "Μια λίστα διαθέσιμων επιλογών για τον έλεγχο ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:329
+msgid "Optional input placeholder for the onboarding setting control."
+msgstr "Προαιρετικό σύμβολο κράτησης θέσης εισόδου για τον έλεγχο ελέγχου ρύθμισης ένταξης."
+
+#: src/Features/Onboarding/HomePage.php:33
+msgctxt "Title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+#: src/Features/Onboarding/HomePage.php:34
+msgctxt "Menu title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:23
+msgid "First time"
+msgstr "Πρώτη φορά"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:48
+msgid "Store name"
+msgstr "Όνομα καταστήματος"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:61
+msgid "Store address 1"
+msgstr "Διεύθυνση καταστήματος 1"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:75
+msgid "Store address 2"
+msgstr "Διεύθυνση καταστήματος 2"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:89
+msgctxt "The country's region"
+msgid "Country Region"
+msgstr "Περιφέρεια χώρας"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:103
+msgid "City"
+msgstr "Πόλη"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:117
+msgid "Postal code"
+msgstr "Ταχυδρομικός κώδικας"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:131
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:145
+msgid "Left aligned"
+msgstr "Αριστερή στοίχιση"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:146
+msgid "Right aligned"
+msgstr "Δεξιά στοίχιση"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:147
+msgid "Left aligned with space"
+msgstr "Αριστερή στοίχιση με κενό"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:148
+msgid "Right aligned with space"
+msgstr "Δεξιά στοίχιση με κενό"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:152
+msgid "Currency position"
+msgstr "Θέση νομίσματος"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:171
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:228
+msgid "All countries"
+msgstr "Όλες οι χώρες"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:172
+msgid "Sell to all countries, except for..."
+msgstr "Πώληση σε όλες τις χώρες, εκτός από..."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:173
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:196
+msgid "Sell to specific countries"
+msgstr "Πώληση σε συγκεκριμένες χώρες"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:177
+msgid "Selling locations"
+msgstr "Τοποθεσίες πώλησης"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:211
+msgid "Sell to all countries except for"
+msgstr "Πώληση σε όλες τις χώρες εκτός από"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:227
+msgid "Ship to all countries you sell to"
+msgstr "Αποστολή σε όλες τις χώρες στις οποίες πουλάτε"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:229
+msgid "Ship to specific countries only"
+msgstr "Αποστολή σε συγκεκριμένες χώρες μόνο"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:230
+msgid "Disable shipping & shipping calculations"
+msgstr "Απενεργοποίηση υπολογισμών αποστολής και μεταφορικών"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:234
+msgid "Shipping locations"
+msgstr "Τοποθεσίες αποστολής"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:253
+msgid "Ship to specific countries"
+msgstr "Αποστολή σε συγκεκριμένες χώρες"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:268
+msgid "Thousands separator"
+msgstr "Διαχωριστικό χιλιάδων"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:282
+msgid "Decimal separator"
+msgstr "Σύμβολο διαχωρισμού δεκαδικών"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:296
+msgid "Number of decimals"
+msgstr "Πλήθος δεκαδικών"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:310
+msgid "Kilograms"
+msgstr "Χιλιόγραμμα"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:311
+msgid "Grams"
+msgstr "Γραμμάρια"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:312
+msgid "Pounds"
+msgstr "Λίβρες"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:313
+msgid "Ounces"
+msgstr "Ουγγιές"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:317
+msgid "Weight units"
+msgstr "Μονάδες βάρους"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:336
+msgid "Meters"
+msgstr "Μέτρα"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:337
+msgid "Centimeters"
+msgstr "Εκατοστά"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:338
+msgid "Millimeters"
+msgstr "Χιλιοστά"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:339
+msgid "Inches"
+msgstr "Ίντσες"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:340
+msgid "Yards"
+msgstr "Γιάρδες"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:344
+msgid "Dimension units"
+msgstr "Μονάδες διαστάσεων"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:363
+msgid "Enable taxes"
+msgstr "Ενεργοποίηση φόρων"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:377
+msgid "Last onboarding step"
+msgstr "Τελευταίο βήμα ένταξης"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:390
+msgid "Completed"
+msgstr "Ολοκληρώθ."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:406
+msgid "Store selector dismissed"
+msgstr "Ο επιλογέας καταστήματος απορρίφθηκε"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:421
+msgid "Dismissed"
+msgstr "Απορρίφθηκε"
+
+#: src/Features/Onboarding/Settings/Settings.php:25
+msgid "Onboarding"
+msgstr "Διαδικασία ένταξης"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:43
+msgid "Order Numbers"
+msgstr "Αριθμοί παραγγελίας"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:60
+msgid "Starting number"
+msgstr "Αριθμός έναρξης"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:70
+msgid "Prefix"
+msgstr "Πρόθεμα"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:80
+msgid "Suffix"
+msgstr "Επίθημα"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:90
+msgid "Skip free orders"
+msgstr "Παράκαμψη δωρεάν παραγγελιών"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:100
+msgid "Free order identifier"
+msgstr "Αναγνωριστικό δωρεάν παραγγελίας"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:176
+msgid "Company name."
+msgstr "Όνομα εταιρείας."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:182
+msgid "Country code."
+msgstr "Κωδικός χώρας."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:188
+msgid "Connection status."
+msgstr "Κατάσταση σύνδεσης."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:313
+msgid "The shipment object associated with the shipping label."
+msgstr "Το αντικείμενο αποστολής που σχετίζεται με την ετικέτα αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:317
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:255
+msgid "The shipment ID."
+msgstr "Το αναγνωριστικό της αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:323
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:261
+msgid "The shipment's creation date."
+msgstr "Η ημερομηνία δημιουργίας της αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:329
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:267
+msgid "The shipment's last updated date."
+msgstr "Η ημερομηνία τελευταίας ενημέρωσης της αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:335
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:273
+msgid "The shipping provider for the shipment."
+msgstr "Ο πάροχος αποστολής για την αποστολή."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:340
+msgid "The label for a custom shipping provider."
+msgstr "Η ετικέτα για έναν προσαρμοσμένο πάροχο αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:345
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:283
+msgid "The shipment's tracking number."
+msgstr "Ο αριθμός παρακολούθησης της αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:350
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:288
+msgid "The shipment's tracking URL."
+msgstr "Το URL παρακολούθησης της αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:355
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:293
+msgid "The rate associated with the shipment."
+msgstr "Η τιμή που σχετίζεται με την αποστολή."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:360
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:298
+msgid "The label associated with shipment."
+msgstr "Η ετικέτα που σχετίζεται με την αποστολή."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:365
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:303
+msgid "The items included in the shipment."
+msgstr "Τα είδη που περιλαμβάνονται στην αποστολή."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:371
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:309
+msgid "The item's ID."
+msgstr "Το αναγνωριστικό του είδους."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:376
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:314
+msgid "The product's ID."
+msgstr "Το αναγνωριστικό του προϊόντος."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:381
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:319
+msgid "The product's variation ID."
+msgstr "Το αναγνωριστικό παραλλαγής του προϊόντος."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:386
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:324
+msgid "The item's quantity."
+msgstr "Η ποσότητα του προϊόντος."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:399
+msgid "The shipping label returned by the shipping provider."
+msgstr "Η ετικέτα αποστολής που επεστράφηκε από τον πάροχο αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:251
+msgid "The shipment object associated with the shipping rates."
+msgstr "Το αντικείμενο αποστολής που σχετίζεται με τις τιμές αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:278
+msgctxt "Display title, not physical label"
+msgid "The label for a custom shipping provider."
+msgstr "Η ετικέτα για έναν προσαρμοσμένο πάροχο αποστολής."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:337
+msgid "The shipping rates returned by the shipping provider."
+msgstr "Οι τιμές αποστολής που επιστρέφονται από τον πάροχο αποστολής."
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:43
+msgid "Phone number"
+msgstr "Αριθμός τηλεφώνου"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:44
+msgid "The phone number of your business."
+msgstr "Ο αριθμός τηλεφώνου της επιχείρησής σας."
+
+#: src/Features/Shipping/Interceptors/RedirectToShippingDashboardInterceptor.php:157
+msgctxt "GoDaddy name sent as brand name for the ShipEngine integration"
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/Features/Shipping/Interceptors/ShippingLabelsSettingsSectionInterceptor.php:82
+msgid "Shipping labels"
+msgstr "Ετικέτες αποστολής"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:32
+msgid "ShipEngine isn't available in your region"
+msgstr "Το ShipEngine δεν είναι διαθέσιμο στην περιοχή σας"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:46
+msgid "To benefit from streamlined shipping and label printing, please ensure your store is located in the US, UK, Canada, or Australia."
+msgstr "Για να επωφεληθείτε από τη βελτιστοποίηση της αποστολής και την εκτύπωσης ετικετών, βεβαιωθείτε ότι το κατάστημά σας βρίσκεται στις Η.Π.Α., το Η.Β., τον Καναδά ή την Αυστραλία."
+
+#: src/Features/Shipping/Providers/ShipEngine/ShipEngineProvider.php:34
+msgctxt "shipping provider name"
+msgid "ShipEngine"
+msgstr "ShipEngine"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:150
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:359
+msgid "User does not have permission to manage WooCommerce"
+msgstr "Ο χρήστης δεν έχει το δικαιώματα να διαχειρίζεται το WooCommerce"
+
+#. translators: Placeholders: %s - error message from the MWC API
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:166
+msgid "Could not create connection: %s"
+msgstr "Δεν ήταν δυνατό να δημιουργηθεί σύνδεση: %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:172
+msgid "No redirect available"
+msgstr "Δεν υπάρχει διαθέσιμη ανακατεύθυνση"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:497
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:507
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:90
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:63
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:177
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:109
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "Προέκυψε σφάλμα. Δοκιμάστε ξανά αργότερα ή δοκιμάστε εναλλακτική μέθοδο πληρωμής."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:505
+msgid "An error occurred while processing the payment: "
+msgstr "Προέκυψε σφάλμα κατά την επεξεργασία της πληρωμής: "
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:546
+msgid "Payment method successfully added."
+msgstr "Η μέθοδος πληρωμής προστέθηκε με επιτυχία."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:548
+msgid "Unable to add payment method to your account. Please try again."
+msgstr "Δεν ήταν δυνατόν να προστεθεί τρόπος πληρωμής στο λογαριασμό σας. Προσπαθήστε ξανά."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:585
+msgid "Payment method could not be saved. %s"
+msgstr "Δεν ήταν δυνατή η αποθήκευση της μεθόδου αποστολής. %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:639
+msgid "Payment method updated."
+msgstr "Η μέθοδος πληρωμής ενημερώθηκε."
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:72
+msgid "Included WooCommerce Extensions"
+msgstr "Συμπεριλαμβανόμενες επεκτάσεις WooCommerce"
+
+#. translators: Placeholder: %s - captured amount
+#: src/Payments/Adapters/CaptureTransactionOrderNoteAdapter.php:24
+msgid "A payment of %s was successfully captured via GoDaddy Payments Hub"
+msgstr "Μια πληρωμή ύψους %s χρεώθηκε με επιτυχία μέσω του GoDaddy Payments Hub"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "Δεν μπορούμε να επεξεργαστούμε την παραγγελία σας με τα στοιχεία πληρωμής που μας δώσατε. Χρησιμοποιήστε διαφορετικό λογαριασμό πληρωμής ή εναλλακτική μέθοδο πληρωμής."
+
+#. translators: Placeholders: %1$s - card brand, %2$s - last 4 card numbers, %3$s - expiration month, %4$s - expiration year
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:32
+msgid " %1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr " %1$s που τελειώνει σε %2$s (λήγει %3$s/%4$s)"
+
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:33
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:34
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:181
+msgid "Card"
+msgstr "Κάρτα"
+
+#. translators: Placeholder: %s - refunded amount
+#: src/Payments/Adapters/RefundTransactionOrderNoteAdapter.php:24
+msgid "A refund of %s was successfully processed via GoDaddy Payments Hub"
+msgstr "Έγινε με επιτυχία επεξεργασία επιστροφής χρημάτων ύψους %s μέσω του GoDaddy Payments Hub"
+
+#. translators: Placeholder: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "Transaction ID %s"
+msgstr "Αναγνωριστικό συναλλαγής %s"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:54
+msgid "Result: [%1$s] %2$s"
+msgstr "Αποτέλεσμα: [%1$s] %2$s"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction info (if applicable, or empty string)
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:86
+msgid "%1$s %2$s in the amount of %3$s%4$s"
+msgstr "%2$s μέσω %1$s ύψους %3$s%4$s"
+
+#. translators: Placeholders: %s - the total amount of the capture that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:26
+msgid "A payment capture of %s was successfully voided"
+msgstr "Μια χρέωση πληρωμής ύψους %s ακυρώθηκε με επιτυχία"
+
+#. translators: Placeholders: %s - the total amount of the refund that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:33
+msgid "A refund of %s was successfully voided"
+msgstr "Μια επιστροφή χρημάτων ύψους %s ακυρώθηκε με επιτυχία"
+
+#: src/Payments/API/Controllers/CartController.php:261
+msgid "Coupons are disabled."
+msgstr "Τα κουπόνια έχουν απενεργοποιηθεί."
+
+#: src/Payments/API/Controllers/CartController.php:285
+msgid "Invalid coupon code."
+msgstr "Λανθασμένος κωδικός κουπονιού."
+
+#: src/Payments/API/Controllers/CartController.php:291
+msgid "Coupon cannot be applied."
+msgstr "Δεν είναι δυνατή η εφαρμογή του κουπονιού."
+
+#: src/Payments/API/Controllers/CartController.php:310
+msgid "Coupon cannot be applied. %s"
+msgstr "Δεν είναι δυνατή η εφαρμογή του κουπονιού. %s"
+
+#: src/Payments/API/Controllers/CartController.php:356
+msgid "Invalid customer data"
+msgstr "Μη έγκυρα δεδομένα πελάτη"
+
+#: src/Payments/API/Controllers/CartController.php:381
+msgid "Invalid email address"
+msgstr "Μη έγκυρη διεύθυνση email"
+
+#. translators: Placeholder: %s - either 'billing' or 'shipping'
+#: src/Payments/API/Controllers/CartController.php:408
+msgid "Invalid %s address"
+msgstr "Μη έγκυρη διεύθυνση %s"
+
+#: src/Payments/API/Controllers/CartController.php:450
+msgid "Orders aren't accepted from this location"
+msgstr "Δεν γίνονται δεκτές παραγγελίες από αυτή την τοποθεσία"
+
+#: src/Payments/API/Controllers/CartController.php:523
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:258
+msgid "WooCommerce is not available"
+msgstr "Το WooCommerce δεν είναι διαθέσιμο"
+
+#: src/Payments/API/Controllers/CartController.php:578
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:325
+msgid "Invalid products data."
+msgstr "Μη έγκυρα δεδομένα προϊόντων."
+
+#: src/Payments/API/Controllers/CartController.php:648
+msgid "Coupon code to apply to the cart."
+msgstr "Κωδικός κουπονιού για εφαρμογή στο καλάθι αγορών."
+
+#: src/Payments/API/Controllers/CartController.php:654
+msgid "Cart customer data."
+msgstr "Δεδομένα πελάτη για το καλάθι αγορών."
+
+#: src/Payments/API/Controllers/CartController.php:756
+msgid "Products to add to the cart."
+msgstr "Προϊόντα για προσθήκη στο καλάθι αγορών."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:243
+msgid "The order ID."
+msgstr "Το ID της παραγγελίας."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:249
+msgid "The URL to redirect the customer to."
+msgstr "Η διεύθυνση URL στην οποία θα γίνεται ανακατεύθυνση του πελάτη."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:187
+msgid "Order total, based on cart total."
+msgstr "Σύνολο παραγγελίας, με βάση το σύνολο του καλαθιού αγορών."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:201
+msgid "2-letter ISO 3166 country code."
+msgstr "Κωδικός χώρας σε μορφή ISO 3166 με 2 γράμματα."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:207
+msgid "3-letter ISO 4217 currency code."
+msgstr "Κωδικός χώρας σε μορφή ISO 4217 με 3 γράμματα."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:213
+msgid "Name of the merchant."
+msgstr "Όνομα του εμπόρου."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:219
+msgid "The shipping type based on the chosen shipping method."
+msgstr "Ο τύπος αποστολής βάσει του επιλεγμένου τρόπου αποστολής."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:230
+msgid "Shipping methods for the payment request."
+msgstr "Οι τρόποι αποστολής για το αίτημα πληρωμής."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:239
+msgid "Items in the order."
+msgstr "Είδη στην παραγγελία."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:256
+msgid "Whether to require customer email."
+msgstr "Αν θα απαιτείται το email του πελάτη."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:262
+msgid "Whether to require customer phone."
+msgstr "Αν θα απαιτείται το τηλέφωνο του πελάτη."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:268
+msgid "Whether to require customer shipping address."
+msgstr "Αν θα απαιτείται η διεύθυνση αποστολής του πελάτη."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:274
+msgid "Whether the customer should be allowed to enter coupons."
+msgstr "Αν θα πρέπει να επιτρέπεται στον πελάτη να καταχωρεί κουπόνια."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:280
+msgid "A list of wallets to disable."
+msgstr "Μια λίστα πορτοφολιών για απενεργοποίηση."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:160
+msgid "Application ID."
+msgstr "Αναγνωριστικό εφαρμογής."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:166
+msgid "Business ID."
+msgstr "Αναγνωριστικό επιχείρησης."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:172
+msgid "List of available features."
+msgstr "Λίστα με διαθέσιμες δυνατότητες."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:186
+msgid "Whether the payment gateway is enabled."
+msgstr "Αν είναι ενεργοποιημένη η πύλη πληρωμής."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:192
+msgid "Payment gateway connection status."
+msgstr "Κατάσταση σύνδεσης πύλης πληρωμής."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:210
+msgid "Nonce for switching accounts."
+msgstr "Nonce για την αλλαγή λογαριασμού."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:224
+msgid "Invalid phone number."
+msgstr "Μη έγκυρος αριθμός τηλεφώνου."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:271
+msgid "The remote parent ID in the request does not match the remote parent ID of the order."
+msgstr "Το απομακρυσμένο γονικό αναγνωριστικό στο αίτημα δεν ταιριάζει με το απομακρυσμένο γονικό αναγνωριστικό της παραγγελίας."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:368
+msgid "Invalid order ID."
+msgstr "Μη έγκυρο ID παραγγελίας."
+
+#. translators: Placeholders: %s - a payment provider name, such as poynt
+#: src/Payments/API/Controllers/ProviderProcessingController.php:389
+msgid "Provider %s not found."
+msgstr "Ο πάροχος %s δεν βρέθηκε."
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Invalid nonce"
+msgstr "Μη έγκυρο nonce"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Missing nonce"
+msgstr "Δεν υπάρχει nonce"
+
+#. translators: Placeholder: %d - error code
+#: src/Payments/DataSources/WooCommerce/Adapters/CartOrderAdapter.php:206
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Σφάλμα %d: Αδυναμία δημιουργίας παραγγελίας. Προσπαθήστε ξανά."
+
+#: src/Payments/DataStores/WooCommerce/OrderPaymentTransactionDataStore.php:38
+#: src/WooCommerce/Payments/VirtualTerminal.php:121
+msgid "Virtual Terminal"
+msgstr "Εικονικό τερματικό"
+
+#. translators: Placeholder: %s - payment method name
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:271
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:277
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "Πληρώθηκε στην ολοκλήρωση αγοράς του WooCommerce μέσω \"%s\""
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:760
+msgid "Tip"
+msgstr "Συμβουλή"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:765
+msgid "Cashback"
+msgstr "Επιστροφή μετρητών"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:796
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "Προστέθηκε %1$s ύψους %2$s στην παραγγελία από το έξυπνο τερματικό GoDaddy Payments"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:940
+msgid "From GoDaddy Payments Hub. Order fully refunded."
+msgstr "Από το GoDaddy Payments Hub. Τα χρήματα της παραγγελίας έχουν επιστραφεί πλήρως."
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:943
+msgid "From GoDaddy Payments Hub. Order partially refunded."
+msgstr "Από το GoDaddy Payments Hub. Τα χρήματα της παραγγελίας έχουν επιστραφεί μερικώς."
+
+#. translators: Placeholders: %1$s - date, %2$s time
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:347
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "Η παραγγελία επισημάνθηκε ως έτοιμη στο τερματικό στις %1$s στις %2$s"
+
+#: src/Payments/Poynt/Http/Adapters/CardPaymentMethodAdapter.php:134
+msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+msgstr "Η διεύθυνση χρέωσής σας δεν ταιριάζει με τις πληροφορίες της κάρτας πληρωμής σας. Ενημερώστε τη διεύθυνση χρέωσης για να υποβάλετε την παραγγελία σας."
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:90
+msgid "Coupon code"
+msgstr "Κωδικός κουπονιού"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:171
+msgid "Subtotal"
+msgstr "Μερικό σύνολο"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:177
+msgid "Discount"
+msgstr "Έκπτωση"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:183
+msgid "Shipping"
+msgstr "Αποστολή"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:264
+msgid "Wallet payments cannot be used for carts with multiple shipments."
+msgstr "Οι πληρωμές με πορτοφόλι δεν μπορούν να χρησιμοποιηθούν για καλάθια αγορών με πολλές αποστολές."
+
+#. translators: %1$s: payment gateway name
+#: src/Payments/Poynt/OrderSynchronization.php:336
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "Έγινε επιστροφή χρημάτων από τον/την %1$s για τη συναλλαγή από το WooCommerce."
+
+#: src/Payments/Poynt/OrderSynchronization.php:338
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "Έγινε μη αυτόματη επιστροφή χρημάτων για τη συναλλαγή από το WooCommerce."
+
+#: src/Payments/Poynt/ViewOrderPage.php:51
+msgid "Order is ready for pickup."
+msgstr "Η παραγγελία είναι έτοιμη για παραλαβή."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:33
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Τα email Το είδος αποστάλθηκε στέλνονται στους πελάτες όταν προστίθενται πληροφορίες παρακολούθησης για ένα ή περισσότερα είδη στις παραγγελίες τους."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:56
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "Ένα είδος από την παραγγελία #{order_number} στο {site_title} έχει αποσταλεί!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:64
+msgid "Your package is on the way!"
+msgstr "Το δέμα σας έχει δρομολογηθεί!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:72
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "Λάβετε υπόψη ότι μπορεί να χρειαστεί λίγος χρόνος για να ενημερώσει ο μεταφορέας τα στοιχεία παρακολούθησης της αποστολής."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:46
+msgid "Ready for pickup"
+msgstr "Έτοιμη για παραλαβή"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:47
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "Τα email Έτοιμη για παραλαβή στέλνονται στους πελάτες όταν η παραγγελία τους έχει επισημανθεί ως έτοιμη για παραλαβή."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:60
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "Η παραγγελία σας {site_title} είναι έτοιμη για παραλαβή!"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:70
+msgid "Order ready for pickup!"
+msgstr "Η παραγγελία είναι έτοιμη για παραλαβή!"
+
+#: src/WooCommerce/ExtensionsTab.php:174
+msgid "GoDaddy Included"
+msgstr "Περιλαμβάνεται από την GoDaddy"
+
+#: src/WooCommerce/Pages/EditOrder/Metaboxes/ShipmentTrackingMetabox.php:35
+msgid "Shipment Tracking"
+msgstr "Παρακολούθηση αποστολών"
+
+#. translators: Placeholder: %s - payment gateway method title
+#: src/WooCommerce/Payments/AbstractPaymentGateway.php:634
+msgid "%s Virtual Terminal"
+msgstr "Εικονικό τερματικό %s"
+
+#: src/WooCommerce/Payments/Captures.php:93
+msgid "No gateway found for order"
+msgstr "Δεν βρέθηκε πύλη για την παραγγελία"
+
+#: src/WooCommerce/Payments/Captures.php:195
+#: src/WooCommerce/Payments/Captures.php:317
+msgid "Capture Charge"
+msgstr "Πραγματοποίηση χρέωσης"
+
+#: src/WooCommerce/Payments/Captures.php:309
+msgid "This charge has been fully captured"
+msgstr "Αυτή η χρέωση έχει πραγματοποιηθεί πλήρως"
+
+#: src/WooCommerce/Payments/Captures.php:327
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "Είστε βέβαιοι ότι θέλετε να επεξεργαστείτε αυτή την πραγματοποίηση χρέωσης; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: src/WooCommerce/Payments/Captures.php:328
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "Κάτι πήγε στραβά και η πραγματοποίηση της χρέωσης δεν μπόρεσε να ολοκληρωθεί. Προσπαθήστε ξανά."
+
+#. translators: Placeholders: %1s - the provider label, %2s - the payment method brand label, %3$s - the last four digits of the customer's credit card
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:32
+msgid "%1s transaction declined due to billing address mismatch for %2s ending in %3$s."
+msgstr "Η συναλλαγή %1s απορρίφθηκε λόγω αναντιστοιχίας της διεύθυνσης χρέωσης για την %2s που λήγει σε %3$s."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:112
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:235
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:237
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:389
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:397
+msgid "Manage"
+msgstr "Διαχείριση"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:252
+msgid "Your Stripe account needs to be set up."
+msgstr "Ο λογαριασμός σας Stripe πρέπει να ρυθμιστεί."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:255
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:284
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:297
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1339
+msgid "Connected"
+msgstr "Σε σύνδεση"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:256
+msgid "Connected to your Stripe account."
+msgstr "Έγινε σύνδεση με τον λογαριασμό σας Stripe."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:259
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:311
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1345
+msgid "Disconnected"
+msgstr "Αποσυνδέθηκε"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:260
+msgid "Please reconnect your Stripe account."
+msgstr "Επανασυνδέστε τον λογαριασμό σας Stripe."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:263
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:325
+msgid "Pending"
+msgstr "Σε εκκρεμότητα"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:285
+msgid "Connected to your terminal to Sell in Person."
+msgstr "Έγινε σύνδεση με το τερματικό σας για πωλήσεις αυτοπροσώπως."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:289
+msgid "Recommended"
+msgstr "Συνιστάται"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:292
+msgid "Click set up to get started."
+msgstr "Κάντε κλικ στη ρύθμιση για να αρχίσετε."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:299
+msgid "Connect your terminal to Sell in Person."
+msgstr "Συνδέστε το τερματικό σας για πωλήσεις αυτοπροσώπως."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:300
+msgid "Connected to your GoDaddy Payments account."
+msgstr "Έγινε σύνδεση στον λογαριασμό σας GoDaddy Payments."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:303
+msgid "Connecting"
+msgstr "Γίνεται σύνδεση"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:304
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "Αυτή η ενέργεια ίσως χρειαστεί μερικά λεπτά. Κάντε ανανέωση για έλεγχο."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:307
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:329
+msgid "Not available"
+msgstr "Μη διαθέσιμο"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:308
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "Σας ευχαριστούμε για την αίτησή σας, αλλά δεν είμαστε σε θέση να παρέχουμε υπηρεσίες επεξεργασίας πληρωμών για την επιχείρησή σας."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:312
+msgid "Your account has been closed."
+msgstr "Ο λογαριασμός σας έκλεισε."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:315
+msgid "Incomplete"
+msgstr "Δεν έχει ολοκληρωθεί"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:316
+msgid "Click Resume to complete your application."
+msgstr "Κάντε κλικ στη Συνέχιση για να ολοκληρώσετε την αίτησή σας."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:321
+msgid "Needs attention"
+msgstr "Χρειάζεται προσοχή"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:322
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:326
+msgid "Please check your email for next steps."
+msgstr "Ελέγξτε το email σας για τα επόμενα βήματα."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:388
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:396
+msgid "Manage the \"%s\" payment method"
+msgstr "Διαχείριση της μεθόδου πληρωμής \"%s\""
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:392
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:399
+msgid "Set up the \"%s\" payment method"
+msgstr "Ρύθμιση της μεθόδου πληρωμής \"%s\""
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:448
+msgid "Have a question? %1$sAsk the GoDaddy Team%3$s%2$s"
+msgstr "Μήπως έχετε ερωτήσεις; %1$sΡωτήστε την ομάδα της GoDaddy%3$s%2$s"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:451
+msgid "E-mail icon"
+msgstr "Εικονίδιο e-mail"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:476
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:489
+msgid "Set up GoDaddy Payments"
+msgstr "Ρύθμιση Πληρωμών GoDaddy"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:483
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "Σύντομα θα ανοίξετε τη σελίδα εγγραφής για λογαριασμό GoDaddy Payments. Σε λίγα μόνο λεπτά, θα επιστρέψετε εδώ για να ενεργοποιήσετε τις ασφαλείς πληρωμές στην ολοκλήρωση αγορών σας."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:488
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:212
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1215
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#. translators: Divider between the Wallet buttons and "Add to Cart"
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout.php:123
+msgid "or"
+msgstr "ή"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:91
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:64
+msgid "Missing card details."
+msgstr "Λείπουν τα στοιχεία κάρτας."
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:92
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:65
+msgid "Missing billing details."
+msgstr "Λείπουν τα στοιχεία χρέωσης."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:211
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:311
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:213
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "Ωχ, προέκυψε ένα σφάλμα κατά την ενημέρωση της μεθόδου πληρωμής σας. Προσπαθήστε ξανά."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:214
+msgid "Are you sure you want to delete this payment method?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη μέθοδο πληρωμής;"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:315
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:335
+msgid "Title"
+msgstr "Τίτλος"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:336
+msgid "Details"
+msgstr "Λεπτομ."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:338
+msgid "Default?"
+msgstr "Προεπιλογή;"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:527
+msgid "Invalid token ID"
+msgstr "Μη έγκυρο αναγνωριστικό διακριτικού"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:192
+msgid "Manage Payment Methods"
+msgstr "Διαχείριση μεθόδων πληρωμής"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:215
+msgid "Use a new payment method"
+msgstr "Χρήση νέας μεθόδου πληρωμής"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:278
+msgid "Securely Save to Account"
+msgstr "Ασφαλής αποθήκευση στον λογαριασμό"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:43
+msgid "Nickname"
+msgstr "Ψευδώνυμο"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:28
+msgid "expires %s"
+msgstr "λήγει στις %s"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:88
+msgid "Customers can buy online and pay in person with orders synced to your GoDaddy Smart Terminal. Pay the lowest fees in the industry at only 2.3&#37; + 0&#162; per in-person transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Οι πελάτες μπορούν να αγοράσουν online και να πληρώσουν αυτοπροσώπως με παραγγελίες που έχουν συγχρονιστεί με το έξυπνο τερματικό σας GoDaddy. Πληρώστε τις χαμηλότερες χρεώσεις του κλάδου, μόλις 2,3&#37; + 0&#162; ανά συναλλαγή αυτοπροσώπως. %1$sΙσχύουν οι Όροι του GoDaddy Payments%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:914
+msgid "Pay in Person"
+msgstr "Πληρωμή αυτοπροσώπως"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:95
+msgid "Customers can buy online and pay in person with orders synced to your Terminals."
+msgstr "Οι πελάτες μπορούν να αγοράσουν online και να πληρώσουν αυτοπροσώπως με παραγγελίες που έχουν συγχρονιστεί με το τερματικό σας."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:228
+msgid "Payment to be made upon delivery."
+msgstr "Η πληρωμή θα γίνει κατά την παράδοση."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:297
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:290
+#: src/WooCommerce/Payments/StripeGateway.php:283
+msgid "Return to payments"
+msgstr "Επιστροφή στις πληρωμές"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:310
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sΈξυπνο τερματικό καταστήματος%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:319
+msgid "%1$sDevices%2$s"
+msgstr "%1$sΣυσκευές%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:325
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sΚατάλογοι%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:331
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sΠροσαρμογή τερματικού%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:349
+msgid "Smart Terminal"
+msgstr "Έξυπνο τερματικό"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:350
+msgid "Dual screens for smoother selling."
+msgstr "Διπλές οθόνες για ομαλότερες πωλήσεις."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:351
+msgid "Our dual screens make checkout a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "Οι διπλές οθόνες μας κάνουν την ολοκλήρωση αγοράς πανεύκολη. Επιπλέον, το τερματικό μας όλα-σε-ένα περιλαμβάνει ενσωματωμένη συσκευή επεξεργασίας πληρωμών, σαρωτή, εκτυπωτή, ασφάλεια και όχι μόνο."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:359
+msgid "Free"
+msgstr "Δωρεάν"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:360
+msgid "2-day shipping."
+msgstr "Αποστολή 2 ημερών."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:363
+msgid "Learn More"
+msgstr "Μάθετε περισσότερα"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:374
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:820
+msgid "Enable Selling in Person"
+msgstr "Δυνατότητα πωλήσεων αυτοπροσώπως"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:827
+msgid "Checkout title"
+msgstr "Τίτλος ολοκλήρωσης αγοράς"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:829
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:527
+msgid "Payment method title that the customer will see during checkout."
+msgstr "Τίτλος τρόπου πληρωμής που θα δει ο πελάτης κατά την ολοκλήρωση της αγοράς."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:833
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:179
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:181
+#: src/WooCommerce/Shipping/LocalPickup.php:118
+msgid "Checkout description"
+msgstr "Περιγραφή ολοκλήρωσης αγοράς"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:835
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:533
+msgid "Payment method description that the customer will see during checkout."
+msgstr "Περιγραφή τρόπου πληρωμής που θα δει ο πελάτης κατά την ολοκλήρωση της αγοράς."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:840
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:187
+msgid "Order received instructions"
+msgstr "Οδηγίες Η παραγγελία παραλήφθηκε"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:843
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "Μήνυμα που θα δει ο πελάτης στη σελίδα παραλαβής της παραγγελίας και στο email επεξεργασίας της παραγγελίας μετά την ολοκλήρωση της αγοράς."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:847
+msgid "Enable for Shipping Methods"
+msgstr "Ενεργοποίηση για μεθόδους αποστολής"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:853
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "Επιλέξτε τις μεθόδους αποστολής που θα εμφανίζουν αυτή τη μέθοδο πληρωμής για τον πελάτη κατά την ολοκλήρωση της αγοράς."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:855
+msgid "Select Shipping Methods"
+msgstr "Επιλογή μεθόδων αποστολής"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:875
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "Απαιτείται τουλάχιστον μία μέθοδος αποστολής για την ενεργοποίηση της πώλησης αυτοπροσώπως."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:890
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "Πληρώστε για την παραγγελία σας αυτοπροσώπως κατά την παραλαβή ή την παράδοση."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:902
+msgid "We accept major credit/debit cards and cash."
+msgstr "Δεχόμαστε σημαντικές πιστωτικές/χρεωστικές κάρτες και μετρητά."
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:945
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (#%2$s)"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:948
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:948
+msgid "Other locations"
+msgstr "Άλλες τοποθεσίες"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1024
+msgid "Local Pickup Plus method"
+msgstr "Μέθοδος Local Pickup Plus"
+
+#. translators: Placeholders: %1$s - Shipping Method name (for example FedEx, UPS or Local Pickup, etc.)
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1026
+msgid "Any \"%1$s\" method"
+msgstr "Οποιαδήποτε μέθοδος \"%1$s\""
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1207
+msgid "Are you sure you want to move this product to trash?"
+msgstr "Είστε βέβαιοι ότι θέλετε να κάνετε μετακίνηση στον κάδο ανακύκλωσης αυτού του προϊόντος;"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1210
+msgid "Are you sure you want to move this product to trash? Removing a synced product will also delete it from the In-Person catalog."
+msgstr "Είστε βέβαιοι ότι θέλετε να κάνετε μετακίνηση στον κάδο ανακύκλωσης αυτού του προϊόντος; Η κατάργηση ενός συγχρονισμένου προϊόντος θα το διαγράψει επίσης από τον κατάλογο πωλήσεων αυτοπροσώπως."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1216
+msgid "Move to Trash"
+msgstr "Μετακίνηση στον κάδο ανακύκλωσης"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1247
+msgid "This product is synced from the In-Person Catalog"
+msgstr "Αυτό το προϊόν είναι συγχρονισμένο από τον κατάλογο πωλήσεων αυτοπροσώπως"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1251
+msgid "This product is synced to the In-Person Catalog"
+msgstr "Αυτό το προϊόν είναι συγχρονισμένο προς τον κατάλογο πωλήσεων αυτοπροσώπως"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1350
+msgid "One or more products in your catalog failed to sync. Please enable debug logging or reach out to %1$sour Care team%2$s for help."
+msgstr "Απέτυχε ο συγχρονισμός ενός ή περισσότερων προϊόντων στον κατάλογό σας. Κάντε ενεργοποίηση του αρχείου καταγραφής ή επικοινωνήστε με την %1$sομάδα υποστήριξής μας%2$s για βοήθεια."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1411
+msgid "%1$s has been removed. Products will no longer be synced to this catalog. To remove any products already synced you must delete them manually."
+msgstr "Το %1$s καταργήθηκε. Δεν θα γίνεται πλέον συγχρονισμός των προϊόντων προς αυτό τον κατάλογο. Για να καταργήσετε τυχόν προϊόντα που έχουν ήδη συγχρονιστεί, πρέπει να τα διαγράψετε μη αυτόματα."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1437
+msgid "In-Person product sync to WooCommerce has been disabled. Products will no longer sync to WooCommerce. To remove any products already synced you must delete them manually."
+msgstr "Ο συγχρονισμός προϊόντων πωλήσεων αυτοπροσώπως προς το WooCommerce έχει απενεργοποιηθεί. Δεν θα γίνεται πλέον συγχρονισμός των προϊόντων προς το WooCommerce. Για να καταργήσετε τυχόν προϊόντα που έχουν ήδη συγχρονιστεί, πρέπει να τα διαγράψετε μη αυτόματα."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1451
+msgid "%1$s has been removed from Selling In-Person. This catalog will no longer sync to WooCommerce"
+msgstr "Το %1$s καταργήθηκε από τις πωλήσεις αυτοπροσώπως. Δεν θα γίνεται πλέον συγχρονισμός αυτού του καταλόγου προς το WooCommerce"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1518
+msgid "In-Person Catalog Sync"
+msgstr "Συγχρονισμός καταλόγου πωλήσεων αυτοπροσώπως"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1522
+msgid "Sync your WooCommerce products with In-Person catalog(s). %1$sLearn more%2$s"
+msgstr "Κάντε συγχρονισμό των προϊόντων σας WooCommerce με καταλόγους πωλήσεων αυτοπροσώπως. %1$sΜάθετε περισσότερα%2$s"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1531
+msgid "Sync WooCommerce products to In-Person"
+msgstr "Συγχρονισμός προϊόντων WooCommerce προς τις πωλήσεις αυτοπροσώπως"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1537
+msgid "Basic WooCommerce product data is pushed to the selected In-Person catalog(s) for simple products."
+msgstr "Τα βασικά δεδομένα προϊόντων WooCommerce προωθούνται στους επιλεγμένους καταλόγους πωλήσεων αυτοπροσώπως για απλά προϊόντα."
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1548
+msgid "To sync to In-Person you must have at least one catalog selected."
+msgstr "Για να κάνετε συγχρονισμό προς τις πωλήσεις αυτοπροσώπως, πρέπει να έχετε τουλάχιστον έναν επιλεγμένο κατάλογο."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1556
+msgid "Sync In-Person products to WooCommerce"
+msgstr "Συγχρονισμός προϊόντων πωλήσεων αυτοπροσώπως προς το WooCommerce"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1562
+msgid "Product data is fetched from the selected In-Person catalog(s). Sync excludes products with custom prices or \"any combination\" modifiers."
+msgstr "Τα δεδομένα προϊόντων λαμβάνονται από τους επιλεγμένους καταλόγους πωλήσεων αυτοπροσώπως. Ο συγχρονισμός εξαιρεί όσα προϊόντα έχουν προσαρμοσμένες τιμές ή τροποποιητικά \"οποιουδήποτε συνδυασμού\"."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1572
+msgid "To sync to WooCommerce you must have at least one catalog selected."
+msgstr "Για να κάνετε συγχρονισμό προς το WooCommerce, πρέπει να έχετε τουλάχιστον έναν επιλεγμένο κατάλογο."
+
+#. translators: Placeholder: %s - the gateway settings title, something like: "GoDaddy Payments - Apple Pay"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:205
+msgid "Cannot load the %s gateway to process payment."
+msgstr "Δεν είναι δυνατή η φόρτωση της πύλης %s για επεξεργασία της πληρωμής."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:229
+msgid "Cannot load the GoDaddy Payments gateway."
+msgstr "Δεν είναι δυνατή η φόρτωση της πύλης GoDaddy Payments."
+
+#. translators: Placeholder: %s - the gateway settings page title, normally: "GoDaddy Payments - Credit/Debit card"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:240
+msgid "These settings are managed from the %s page"
+msgstr "Η διαχείριση αυτών των ρυθμίσεων γίνεται από τη σελίδα %s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:246
+msgctxt "General settings"
+msgid "General"
+msgstr "Γενικά"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:129
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:88
+msgid "The GoDaddy Payments service ID"
+msgstr "Το αναγνωριστικό υπηρεσίας GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:135
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "Το nonce για επικύρωση της ανακατεύθυνσης μετά την ένταξη"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "Η κατάσταση ένταξης του GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:47
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:48
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices."
+msgstr "Αποδεχτείτε με ασφάλεια πληρωμές με κάρτα και διευκολύνετε την ολοκλήρωση αγορών για όσους πελάτες διαθέτουν Apple Pay® σε υποστηριζόμενες συσκευές."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:62
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices. Pay the industry's lowest fees at 2.3&#37; + 30&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Αποδεχτείτε με ασφάλεια πληρωμές με κάρτα και διευκολύνετε την ολοκλήρωση αγορών για όσους πελάτες διαθέτουν Apple Pay® σε υποστηριζόμενες συσκευές. Πληρώστε τις χαμηλότερες χρεώσεις του κλάδου, 2,3&#37; + 30&#162; ανά ηλεκτρονική συναλλαγή. %1$sΙσχύουν οι Όροι του GoDaddy Payments%2$s."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:66
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices. Pay the industry's lowest fees at 2.7&#37; + 0&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Αποδεχτείτε με ασφάλεια πληρωμές με κάρτα και διευκολύνετε την ολοκλήρωση αγορών για όσους πελάτες διαθέτουν Apple Pay® σε υποστηριζόμενες συσκευές. Πληρώστε τις χαμηλότερες χρεώσεις του κλάδου, 2,7&#37; + 0&#162; ανά ηλεκτρονική συναλλαγή. %1$sΙσχύουν οι Όροι του GoDaddy Payments%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:91
+msgid "Apple Pay Settings"
+msgstr "Ρυθμίσεις Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:106
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:518
+#: src/WooCommerce/Payments/StripeGateway.php:494
+msgid "Enable"
+msgstr "Ενεργοπ."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:95
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:107
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:520
+#: src/WooCommerce/Payments/StripeGateway.php:496
+msgid "Enable to add the payment method to your checkout."
+msgstr "Ενεργοποιήστε το για να προστεθεί η μέθοδος πληρωμής στην ολοκλήρωση αγορών σας."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:97
+msgid "Apple Pay shows to %1$sSafari users on supported devices%2$s."
+msgstr "Το Apple Pay εμφανίζεται στους %1$sχρήστες του Safari σε υποστηριζόμενες συσκευές%2$s."
+
+#. translators: Text displayed next to a dropdown input field with a list of pages for the user to choose from
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:106
+msgid "Pages to enable Apple Pay on"
+msgstr "Σελίδες στις οποίες θα ενεργοποιηθεί το Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:114
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:126
+msgid "Cart"
+msgstr "Καλάθι αγορών"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:115
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:127
+msgid "Checkout"
+msgstr "Ολοκλήρωση αγοράς"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:116
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:128
+msgid "Single Product"
+msgstr "Ένα μόνο προϊόν"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:121
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:133
+msgid "Button label"
+msgstr "Ετικέτα κουμπιού"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:122
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:134
+msgid "Check button labels here"
+msgstr "Ελέγξτε τις ετικέτες των κουμπιών εδώ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:127
+msgctxt "Apple Pay"
+msgid "Add Money with"
+msgstr "Προσθήκη χρημάτων με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:128
+msgctxt "Apple Pay"
+msgid "Book with"
+msgstr "Κράτηση με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:129
+msgctxt "Apple Pay"
+msgid "Buy with"
+msgstr "Αγορά με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:130
+msgctxt "Apple Pay"
+msgid "Check out with"
+msgstr "Ολοκλήρωση αγοράς με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:133
+msgctxt "Apple Pay"
+msgid "Contribute with"
+msgstr "Συνεισφορά με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:134
+msgctxt "Apple Pay"
+msgid "Donate with"
+msgstr "Δωρεά με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:135
+msgctxt "Apple Pay"
+msgid "Order with"
+msgstr "Παραγγελία με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:138
+msgctxt "Apple Pay"
+msgid "Plain (logo only)"
+msgstr "Απλό (μόνο λογότυπο)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:139
+msgctxt "Apple Pay"
+msgid "Reload with"
+msgstr "Προσθήκη με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:140
+msgctxt "Apple Pay"
+msgid "Rent with"
+msgstr "Ενοικίαση με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:141
+msgctxt "Apple Pay"
+msgid "Set up"
+msgstr "Ρύθμιση"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:142
+msgctxt "Apple Pay"
+msgid "Support with"
+msgstr "Υποστήριξη με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:143
+msgctxt "Apple Pay"
+msgid "Tip with"
+msgstr "Φιλοδώρημα με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:144
+msgctxt "Apple Pay"
+msgid "Top Up with"
+msgstr "Αναπλήρωση με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:149
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:150
+msgid "Button style"
+msgstr "Στυλ κουμπιού"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:150
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:151
+msgid "Check button style here"
+msgstr "Ελέγξτε το στυλ κουμπιού εδώ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:155
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:157
+msgid "Black"
+msgstr "Μαύρο"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:156
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:158
+msgid "White"
+msgstr "Λευκό"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:157
+msgid "White with outline"
+msgstr "Λευκό με περίγραμμα"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:163
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:164
+msgid "Button height"
+msgstr "Ύψος κουμπιού"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:164
+msgid "Apple requests the button size match your cart/checkout button and be 30 to 64 pixels tall. The width is set automatically."
+msgstr "Η Apple ζητά το μέγεθος του κουμπιού να ταιριάζει με το κουμπί καλαθιού αγορών/ολοκλήρωσης αγοράς και να έχει ύψος 30 έως 64 pixel. Το πλάτος ρυθμίζεται αυτόματα."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:164
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:165
+msgid "Check button size here"
+msgstr "Ελέγξτε το μέγεθος του κουμπιού εδώ"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:47
+msgid "Securely accept card payments and make checkout faster for customers with Google Pay™ on supported devices. Pay the industry's lowest fees at 2.3&#37; + 30&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Αποδεχτείτε με ασφάλεια πληρωμές με κάρτα και κάντε την ολοκλήρωση αγορών ταχύτερη για όσους πελάτες διαθέτουν Google Pay™ σε υποστηριζόμενες συσκευές. Πληρώστε τις χαμηλότερες χρεώσεις του κλάδου, 2,3&#37; + 30&#162; ανά ηλεκτρονική συναλλαγή. %1$sΙσχύουν οι Όροι του GoDaddy Payments%2$s."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:51
+msgid "Securely accept card payments and make checkout faster for customers with Google Pay™ on supported devices. Pay the industry's lowest fees at 2.7&#37; + 0&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Αποδεχτείτε με ασφάλεια πληρωμές με κάρτα και κάντε την ολοκλήρωση αγορών ταχύτερη για όσους πελάτες διαθέτουν Google Pay™ σε υποστηριζόμενες συσκευές. Πληρώστε τις χαμηλότερες χρεώσεις του κλάδου, 2,7&#37; + 0&#162; ανά ηλεκτρονική συναλλαγή. %1$sΙσχύουν οι Όροι του GoDaddy Payments%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:103
+msgid "Google Pay Settings"
+msgstr "Ρυθμίσεις Google Pay"
+
+#. translators: Placeholders: %1$s - open <a> HTML link tag, %2$s - close </a> HTML link tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:110
+msgid "Google Pay shows on %1$ssupported browsers%2$s."
+msgstr "Το Google Pay εμφανίζεται σε %1$sυποστηριζόμενα προγράμματα περιήγησης%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:118
+msgid "Pages to enable Google Pay on"
+msgstr "Σελίδες στις οποίες θα ενεργοποιηθεί το Google Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:139
+msgctxt "Google Pay"
+msgid "Book with"
+msgstr "Κράτηση με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:140
+msgctxt "Google Pay"
+msgid "Buy with"
+msgstr "Αγορά με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:141
+msgctxt "Google Pay"
+msgid "Check out with"
+msgstr "Ολοκλήρωση αγοράς με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:142
+msgctxt "Google Pay"
+msgid "Donate with"
+msgstr "Δωρεά με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:143
+msgctxt "Google Pay"
+msgid "Order with"
+msgstr "Παραγγελία με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:144
+msgctxt "Google Pay"
+msgid "Pay with"
+msgstr "Πληρωμή με"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:145
+msgctxt "Google Pay"
+msgid "Plain (logo only)"
+msgstr "Απλό (μόνο λογότυπο)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:165
+msgid "Google requests the button size match your cart/checkout button and be 40 to 100 pixels tall."
+msgstr "Η Google ζητά το μέγεθος του κουμπιού να ταιριάζει με το κουμπί καλαθιού αγορών/ολοκλήρωσης αγοράς και να έχει ύψος 40 έως 100 pixel."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:92
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:672
+msgid "Credit/Debit Card"
+msgstr "Πιστωτική/χρεωστική κάρτα"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:93
+msgid "Securely accept credit/debit cards in your checkout."
+msgstr "Αποδεχτείτε με ασφάλεια πιστωτικές/χρεωστικές κάρτες στην ολοκλήρωση παραγγελίας."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:133
+msgid "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.3&#37; + 30&#162; per online transaction. Get paid fast with deposits as soon as the next day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Αποδεχτείτε με ασφάλεια τις πιστωτικές/χρεωστικές κάρτες στην ολοκλήρωση αγορών και κρατήστε περισσότερα από τα χρήματά σας με τις χαμηλότερες χρεώσεις του κλάδου—μόνο 2,3&#37; + 30&#162; ανά ηλεκτρονική συναλλαγή. Πληρωθείτε γρήγορα με καταθέσεις από την επόμενη κιόλας ημέρα. %1$sΙσχύουν οι Όροι του GoDaddy Payments%2$s."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:137
+msgid "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.7&#37; + 0&#162; per online transaction. Get paid fast with deposits as soon as the next day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Αποδεχτείτε με ασφάλεια τις πιστωτικές/χρεωστικές κάρτες στην ολοκλήρωση αγορών και κρατήστε περισσότερα από τα χρήματά σας με τις χαμηλότερες χρεώσεις του κλάδου—μόνο 2,7&#37; + 0&#162; ανά ηλεκτρονική συναλλαγή. Πληρωθείτε γρήγορα με καταθέσεις από την επόμενη κιόλας ημέρα. %1$sΙσχύουν οι Όροι του GoDaddy Payments%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:229
+msgid "Business Name:"
+msgstr "Επωνυμία εταιρείας:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:234
+msgid "Email:"
+msgstr "Email:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:240
+msgid "Switch account"
+msgstr "Αλλαγή λογαριασμού"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:259
+msgid "Account Details"
+msgstr "Λεπτομέρειες λογαριασμού"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+msgid "Manage your account settings in the %1$spayments dashboard%2$s"
+msgstr "Διαχειριστείτε τις ρυθμίσεις του λογαριασμού σας στον %1$sπίνακα εργασιών πληρωμών%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "Διαχειριστείτε τις ρυθμίσεις του λογαριασμού σας GoDaddy Payments στο %1$sΚέντρο πληρωμών%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:307
+#: src/WooCommerce/Payments/StripeGateway.php:536
+msgid "Checkout Settings"
+msgstr "Ρυθμίσεις ολοκλήρωσης αγοράς"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:525
+msgid "Title in Checkout"
+msgstr "Τίτλος στην Ολοκλήρωση αγορών"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:531
+msgid "Description in Checkout"
+msgstr "Περιγραφή στην Ολοκλήρωση αγορών"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:538
+#: src/WooCommerce/Payments/StripeGateway.php:563
+msgid "Transaction Type"
+msgstr "Τύπος συναλλαγής"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:540
+#: src/WooCommerce/Payments/StripeGateway.php:565
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "Επιλέξτε πώς θα πρέπει να γίνεται η επεξεργασία των συναλλαγών. Η χρέωση υποβάλλει όλες τις συναλλαγές για διακανονισμό, η εξουσιοδότηση απλώς εξουσιοδοτεί το σύνολο της παραγγελίας για πραγματοποίηση χρέωσης αργότερα."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:543
+#: src/WooCommerce/Payments/StripeGateway.php:568
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "Χρέωση"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:544
+#: src/WooCommerce/Payments/StripeGateway.php:569
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "Εξουσιοδότηση"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:548
+msgid "Charge Virtual-Only Orders"
+msgstr "Χρέωση αποκλειστικά εικονικών παραγγελιών"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:550
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "Αν η παραγγελία περιέχει αποκλειστικά εικονικά είδη, ενεργοποιήστε το για άμεση χρέωση και όχι εξουσιοδότηση της συναλλαγής."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:554
+msgid "Capture Paid Orders"
+msgstr "Πραγματοποίηση χρέωσης πληρωμένων παραγγελιών"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:558
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "Αυτόματη πραγματοποίηση χρέωση παραγγελιών όταν αλλάζουν σε %s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:559
+msgid "a paid status"
+msgstr "πληρωμένη κατάσταση"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:563
+#: src/WooCommerce/Payments/StripeGateway.php:541
+msgid "Accepted Card Logos"
+msgstr "Λογότυπα καρτών που γίνονται δεκτά"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:565
+#: src/WooCommerce/Payments/StripeGateway.php:543
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "Αυτά είναι τα λογότυπα καρτών που εμφανίζονται στους πελάτες ως αποδεκτά κατά την ολοκλήρωση της αγοράς."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:568
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+msgstr "Αυτή η ρύθμιση %1$sδεν%2$s αλλάζει τους τύπους καρτών που θα δέχεται η πύλη."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:579
+#: src/WooCommerce/Payments/StripeGateway.php:551
+msgid "Saved Cards"
+msgstr "Αποθηκευμένες κάρτες"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:581
+#: src/WooCommerce/Payments/StripeGateway.php:553
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "Επιτρέψτε στους πελάτες να αποθηκεύσουν με ασφάλεια τις κάρτες πληρωμής τους στον λογαριασμό τους για μελλοντική ολοκλήρωση αγοράς."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:585
+#: src/WooCommerce/Payments/StripeGateway.php:557
+msgid "Detailed Decline Messages"
+msgstr "Λεπτομερή μηνύματα απόρριψης"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:587
+#: src/WooCommerce/Payments/StripeGateway.php:559
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "Ενεργοποιήστε τα λεπτομερή μηνύματα απόρριψης για τους πελάτες κατά την ολοκλήρωση της αγοράς αντί για ένα γενικό μήνυμα απόρριψης."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:591
+#: src/WooCommerce/Payments/StripeGateway.php:573
+msgid "Debug Mode"
+msgstr "Λειτουργία εντοπισμού σφαλμάτων"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:593
+#: src/WooCommerce/Payments/StripeGateway.php:575
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "Εμφάνιση λεπτομερών μηνυμάτων σφάλματος και αιτημάτων/απαντήσεων API στη σελίδα ολοκλήρωσης αγοράς ή/και αποθήκευσή τους στο αρχείο καταγραφής εντοπισμού σφαλμάτων"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:596
+#: src/WooCommerce/Payments/StripeGateway.php:578
+msgid "Off"
+msgstr "Ανενεργό"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:597
+#: src/WooCommerce/Payments/StripeGateway.php:579
+msgid "Show on Checkout Page"
+msgstr "Εμφάνιση στη σελίδα ολοκλήρωσης αγοράς"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:598
+#: src/WooCommerce/Payments/StripeGateway.php:580
+msgid "Save to Log"
+msgstr "Αποθήκευση στο αρχείο καταγραφής"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:599
+#: src/WooCommerce/Payments/StripeGateway.php:581
+msgid "Both"
+msgstr "Και τα δύο"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:658
+msgid "Pay securely with your credit/debit card."
+msgstr "Πληρώστε με ασφάλεια με την πιστωτική/χρεωστική σας κάρτα."
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:191
+msgid "Pre-Order release payment failed: %s"
+msgstr "Η πληρωμή απελευθέρωσης πριν από την παραγγελία απέτυχε: %s"
+
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:146
+msgid "Currently unavailable"
+msgstr "Προς το παρόν δεν είναι διαθέσιμο"
+
+#. translators: Placeholders: %1$s & %3$s - <a> tag, %2$s & %4$s - </a> tag
+#: src/WooCommerce/Payments/StripeGateway.php:77
+msgid "Securely accept online payments via credit/debit card, wallets, bank redirects, and other methods enabled in your Stripe account. %1$sView Stripe pricing%2$s for your business' location and payment methods. %3$sStripe terms apply%4$s."
+msgstr "Αποδεχτείτε με ασφάλεια online πληρωμές μέσω πιστωτικής/χρεωστικής κάρτας, πορτοφολιών, ανακατευθύνσεων σε τράπεζες και άλλων μεθόδων που είναι ενεργοποιημένες στον λογαριασμό σας Stripe. %1$sΔείτε την τιμολόγηση Stripe%2$s για την τοποθεσία και τις μεθόδους πληρωμής της επιχείρησής σας. %3$sΙσχύουν όροι της Stripe%4$s."
+
+#: src/WooCommerce/Payments/StripeGateway.php:244
+msgid "You are about to disconnect your Stripe account. Your store will not be able to process transactions using Stripe until you connect an account again."
+msgstr "Πρόκειται να αποσυνδέσετε τον λογαριασμό σας Stripe. Το κατάστημά σας δεν θα μπορεί να επεξεργαστεί συναλλαγές με το Stripe μέχρι να συνδέσετε ξανά έναν λογαριασμό."
+
+#: src/WooCommerce/Payments/StripeGateway.php:490
+msgid "General"
+msgstr "Γενικά"
+
+#: src/WooCommerce/Payments/StripeGateway.php:509
+msgid "Disconnect Stripe Account"
+msgstr "Αποσύνδεση λογαριασμού Stripe"
+
+#: src/WooCommerce/Payments/StripeGateway.php:518
+msgid "Connecting to Stripe..."
+msgstr "Γίνεται σύνδεση με το Stripe."
+
+#: src/WooCommerce/Payments/StripeGateway.php:520
+msgid "This operation can take up to a few seconds. Please reload this page to check the current status."
+msgstr "Αυτή η εργασία μπορεί να διαρκέσει μέχρι και λίγα δευτερόλεπτα. Επαναλάβετε τη φόρτωση αυτής της σελίδας για να ελέγξετε την τρέχουσα κατάσταση."
+
+#: src/WooCommerce/Payments/StripeGateway.php:530
+msgid "Connect Stripe Account"
+msgstr "Σύνδεση λογαριασμού Stripe"
+
+#: src/WooCommerce/Payments/StripeGateway.php:594
+msgid "Affirm"
+msgstr "Affirm"
+
+#: src/WooCommerce/Payments/StripeGateway.php:595
+msgid "Afterpay / Clearpay"
+msgstr "Afterpay / Clearpay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:596
+msgid "Alipay"
+msgstr "Alipay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:597
+msgid "BECS direct debit"
+msgstr "Απευθείας χρέωση BECS"
+
+#: src/WooCommerce/Payments/StripeGateway.php:598
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: src/WooCommerce/Payments/StripeGateway.php:599
+msgid "Boleto"
+msgstr "Boleto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:600
+msgid "Credit / Debit"
+msgstr "Πιστωτική / χρεωστική κάρτα"
+
+#: src/WooCommerce/Payments/StripeGateway.php:601
+msgid "EPS"
+msgstr "EPS"
+
+#: src/WooCommerce/Payments/StripeGateway.php:602
+msgid "FPX"
+msgstr "FPX"
+
+#: src/WooCommerce/Payments/StripeGateway.php:603
+msgid "Giropay"
+msgstr "Giropay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:604
+msgid "GrabPay"
+msgstr "GrabPay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:605
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: src/WooCommerce/Payments/StripeGateway.php:606
+msgid "Klarna"
+msgstr "Klarna"
+
+#: src/WooCommerce/Payments/StripeGateway.php:607
+msgid "Konbini"
+msgstr "Konbini"
+
+#: src/WooCommerce/Payments/StripeGateway.php:608
+msgid "OXXO"
+msgstr "OXXO"
+
+#: src/WooCommerce/Payments/StripeGateway.php:609
+msgid "P24"
+msgstr "P24"
+
+#: src/WooCommerce/Payments/StripeGateway.php:610
+msgid "PayNow"
+msgstr "PayNow"
+
+#: src/WooCommerce/Payments/StripeGateway.php:611
+msgid "SEPA Debit"
+msgstr "SEPA Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:612
+msgid "Sofort"
+msgstr "Sofort"
+
+#: src/WooCommerce/Payments/StripeGateway.php:613
+msgid "ACH Direct Debit"
+msgstr "ACH Direct Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:614
+msgid "WeChat Pay"
+msgstr "WeChat Pay"
+
+#: src/WooCommerce/Shipping/CoreShippingMethods.php:161
+msgid "Order Instructions:"
+msgstr "Οδηγίες παραγγελίας:"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:69
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:141
+msgid "Local delivery"
+msgstr "Τοπική παράδοση"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:70
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "Δώστε στους πελάτες τη δυνατότητα να επιλέξουν την υπηρεσία τοπικής παράδοσης. Οι φόροι θα εφαρμοστούν χρησιμοποιώντας τη διεύθυνση αποστολής του πελάτη."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "Καταχωρήστε ένα κόστος (χωρίς φόρο) ή ένα ποσό, π.χ. <code>10,00 * [qty]</code>."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "Χρησιμοποιήστε <code>[qty]</code> για τον αριθμό ειδών, <br/><code>[cost]</code> για το συνολικό κόστος των ειδών και <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> για χρεώσεις βάσει ποσοστού."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:138
+msgid "Checkout Title"
+msgstr "Τίτλος ολοκλήρωσης αγοράς"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:140
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ελέγχει τον τίτλο που βλέπει ο χρήστης κατά την ολοκλήρωση αγοράς."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:145
+msgid "Tax status"
+msgstr "Κατάσταση φόρου"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:150
+msgid "Taxable"
+msgstr "Φορολογητέο"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:151
+msgctxt "Tax status"
+msgid "None"
+msgstr "Κανένα"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:155
+msgid "Cost"
+msgstr "Κόστος"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:163
+msgid "Minimum order amount total when available"
+msgstr "Ελάχιστο συνολικό ύψος παραγγελίας όταν είναι διαθέσιμο"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:166
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "Το ποσό σε σύγκριση με το οποίο το ύψος της παραγγελίας ενός πελάτη πρέπει να είναι μεγαλύτερο από ή ίσο με για να επιλέξετε τον τρόπο αποστολής."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:171
+msgid "Minimum order total when free"
+msgstr "Ελάχιστο σύνολο παραγγελίας όταν είναι δωρεάν"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:174
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "Το ποσό σε σύγκριση με το οποίο το ύψος της παραγγελίας ενός πελάτη πρέπει να είναι μεγαλύτερο από ή ίσο με για να είναι δωρεάν η μέθοδος αποστολής."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:182
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "Αυτή η περιγραφή θα εμφανίζεται κάτω από το όνομα της μεθόδου αποστολής τοπικής παράδοσης στις σελίδες Καλάθι και Ταμείο."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:189
+msgid "Delivery instructions"
+msgstr "Οδηγίες παράδοσης"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:190
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "Το μήνυμα που θα βλέπει ο πελάτης στη σελίδα παραλαβής της παραγγελίας και στο email επεξεργασίας της παραγγελίας μετά την ολοκλήρωση της αγοράς."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:120
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "Περιγραφή μεθόδου αποστολής που θα δει ο πελάτης κατά την ολοκλήρωση της αγοράς."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:126
+msgid "Pickup instructions"
+msgstr "Οδηγίες παραλαβής"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:128
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "Μήνυμα που θα δει ο πελάτης στη σελίδα Η παραγγελία παραλήφθηκε και στα email Παραγγελία σε επεξεργασία και Έτοιμη για παραλαβή."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:222
+#: src/WooCommerce/Shipping/LocalPickup.php:231
+#: src/WooCommerce/Shipping/LocalPickup.php:255
+msgid "Pickup Instructions"
+msgstr "Οδηγίες παραλαβής"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "Μεταφορέας"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "Αριθμός παρακολούθησης"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "Στοιχεία"
+
+#: src/WooCommerce/Views/Components/GoDaddyIcon.php:25
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/WordPress/Interceptors/EnforcePostNamePermalinksInterceptor.php:111
+msgid "Warning! Plain Permalinks Detected"
+msgstr "Προειδοποίηση! Εντοπίστηκαν απλοί μόνιμοι σύνδεσμοι"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:130
+msgid "You attempted to install a blocked plugin."
+msgstr "Προσπαθήσατε να εγκαταστήσετε μια αποκλεισμένη προσθήκη."
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:140
+msgid "One or more blocked plugins have been removed."
+msgstr "Μία ή περισσότερες αποκλεισμένες προσθήκες καταργήθηκαν."
+
+#. translators: Placeholders: %1$s - Opening <a> tag, %2$s - Closing </a> tag
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:152
+msgid "GoDaddy disallows a small list of plugins that can cause performance and other issues on your store. If you attempt to install them, we'll remove them for you. You can check out %1$sthe entire plugin blocklist here%2$s."
+msgstr "Η GoDaddy δεν επιτρέπει μια μικρή λίστα με προσθήκες που μπορεί να προκαλέσουν προβλήματα απόδοσης και άλλα προβλήματα στο κατάστημά σας. Αν επιχειρήσετε να τα εγκαταστήσετε, θα τα καταργήσουμε για λογαριασμό σας. Μπορείτε να ελέγξετε %1$sολόκληρη τη λίστα αποκλεισμένων προσθηκών εδώ%2$s."
+
+#: templates/woocommerce/emails/order/order-shipments.php:23
+#: templates/woocommerce/emails/plain/order/order-shipments.php:24
+#: templates/woocommerce/order/order-shipments.php:25
+msgid "Shipments"
+msgstr "Αποστολές"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:29
+#: templates/woocommerce/emails/plain/order/order-shipments.php:31
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:35
+msgid "Tracking URL: %s"
+msgstr "URL παρακολούθησης: %s"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:40
+msgid "%s: "
+msgstr "%s: "
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:44
+msgid "%1$s x %2$s"
+msgstr "%1$s x %2$s"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:32
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "Η παραγγελία σας είναι έτοιμη για παραλαβή."

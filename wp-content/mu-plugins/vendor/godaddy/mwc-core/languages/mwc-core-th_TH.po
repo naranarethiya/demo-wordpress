@@ -1,0 +1,3559 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-03T12:27:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+#: mwc-core.php
+msgid "MWC Core."
+msgstr "MWC Core"
+
+#: configurations/features.php:70
+msgid "Cost of goods"
+msgstr "ต้นทุนสินค้า"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:73
+msgid "Track profit and cost of goods for your store. Generate profit reports by date, product, category, and more. This feature replaces the %1$sCost of Goods%2$s plugin."
+msgstr "ติดตามผลกำไรและต้นทุนของสินค้าในร้านค้าของคุณ สร้างรายงานผลกำไรตามวันที่ ผลิตภัณฑ์ หมวดหมู่ และอื่นๆ คุณสมบัติพิเศษนี้มาแทนที่ปลั๊กอิน %1$sCost of Goods%2$s"
+
+#: configurations/features.php:93
+msgid "Ecommerce emails"
+msgstr "อีเมลอีคอมเมิร์ซ"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:96
+msgid "Customize your emails to reflect your brand and increase customer loyalty. This feature replaces the %1$sWooCommerce Email Customizer%2$s plugin."
+msgstr "ปรับแต่งอีเมลของคุณเพื่อสะท้อนภาพแบรนด์ของคุณและเพิ่มโอกาสสร้างลูกค้าประจำ คุณสมบัติพิเศษนี้มาแทนที่ปลั๊กอิน %1$sWooCommerce Email Customizer%2$s"
+
+#: configurations/features.php:124
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+#. translators: Placeholders: %1$s and %3$s - <a> tag for the plugin link, %2$s and %4$s - </a> tag
+#: configurations/features.php:127
+msgid "Track advanced eCommerce events and more with Google Analytics. This feature replaces the %1$sGoogle Analytics%2$s and %3$sGoogle Analytics Pro%4$s plugins."
+msgstr "ติดตามกิจกรรมอีคอมเมิร์ซขั้นสูงและอื่นๆ ด้วย Google Analytics คุณสมบัติพิเศษนี้มาแทนที่ปลั๊กอิน %1$sGoogle Analytics%2$s และ %3$sGoogle Analytics Pro%4$s"
+
+#: configurations/features.php:158
+msgid "Sequential order numbers"
+msgstr "หมายเลขคำสั่งซื้อตามลำดับ"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:161
+msgid "Format order numbers, change your starting number, and differentiate free orders. This feature replaces the %1$sSequential Order Numbers Pro%2$s plugin."
+msgstr "ฟอร์แมตหมายเลขคำสั่งซื้อ เปลี่ยนตัวเลขตั้งต้น และแยกคำสั่งซื้อฟรี คุณสมบัติพิเศษนี้มาแทนที่ปลั๊กอิน %1$sSequential Order Numbers Pro%2$s"
+
+#: configurations/features.php:180
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:24
+msgid "Shipment tracking"
+msgstr "การติดตามการจัดส่ง"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:183
+msgid "Share shipment tracking information with your customers. Open one of your Processing orders to get started. This feature replaces the %1$sShipment Tracking%2$s plugin."
+msgstr "แชร์ข้อมูลติดตามการจัดส่งให้ลูกค้าของคุณ เปิดคำสั่งซื้อที่กำลังดำเนินการรายการใดรายการหนึ่งเพื่อเริ่มต้น คุณสมบัติพิเศษนี้มาแทนที่ปลั๊กอิน %1$sShipment Tracking%2$s"
+
+#: configurations/features.php:195
+msgid "Discount links"
+msgstr "ลิงก์ส่วนลด"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:198
+msgid "Share discount links with your customers and add coupons from ads, email campaigns, or social links. Create or edit a coupon to get started. This feature replaces the %1$sURL Coupons%2$s plugin."
+msgstr "แชร์ลิงก์ส่วนลดให้ลูกค้าของคุณและเพิ่มคูปองจากโฆษณา แคมเปญทางอีเมล หรือลิงก์โซเชียล สร้างหรือแก้ไขคูปองเพื่อเริ่มใช้งาน คุณสมบัติพิเศษนี้มาแทนที่ปลั๊กอิน %2$sURL Coupons%1$s"
+
+#: configurations/features.php:216
+msgid "Gift certificates"
+msgstr "บัตรของขวัญ"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:219
+msgid "Create custom gift certificates that your customers can purchase and send to their friends and family. This feature replaces the %1$sPDF Product Vouchers%2$s plugin."
+msgstr "สร้างบัตรของขวัญที่กำหนดเองซึ่งลูกค้าสามารถซื้อส่งไปให้มิตรสหายและครอบครัวได้ คุณสมบัติพิเศษนี้มาแทนที่ปลั๊กอิน %1$sPDF Product Vouchers%2$s"
+
+#: configurations/features.php:253
+msgid "Abandoned checkout reminders"
+msgstr "การแจ้งเตือนหน้าชำระเงินที่ถูกทิ้งค้าง"
+
+#: configurations/features.php:254
+msgid "Automatically track cart activity and send an email reminder to recover lost revenue."
+msgstr "ติดตามกิจกรรมของตระกร้าสินค้าโดยอัตโนมัติและส่งอีเมลแจ้งเตือนเพื่อกู้คืนรายได้ที่เสียไป"
+
+#: configurations/features.php:283
+#: src/Payments/Providers/StripeProvider.php:25
+#: src/WooCommerce/Payments/StripeGateway.php:74
+#: src/WooCommerce/Payments/StripeGateway.php:185
+msgid "Stripe"
+msgstr "Stripe"
+
+#: configurations/features.php:284
+msgid "Accept credit card payments using Stripe."
+msgstr "รับชำระเงินด้วยบัตรเครดิตโดยใช้ Stripe"
+
+#: configurations/features.php:294
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:100
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:41
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:42
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:80
+msgid "Marketplaces"
+msgstr "ตลาดซื้อขายสินค้า"
+
+#: configurations/features.php:295
+msgid "Sell to millions of customers from one place. Offer your products everywhere, from Amazon to Instagram, all from your own online store."
+msgstr "ขายให้ลูกค้านับล้านคนจากที่เดียว เสนอสินค้าของคุณได้ทุกที่ ตั้งแต่ Amazon จนถึง Instagram ทุกอย่างจากร้านค้าออนไลน์ของคุณ"
+
+#: configurations/features.php:316
+msgid "Take order fulfillment to the next level! Get live shipping rates from your favourite providers, print labels in one click, and automate shipment tracking and customer email notifications."
+msgstr "ช่วยยกระดับการดำเนินการตามคำสั่งซื้อไปอีกขั้น! รับอัตราค่าส่งตามจริงจากผู้ให้บริการที่คุณชื่นชอบ พิมพ์ป้ายชื่อในคลิกเดียว และทำระบบติดตามและระบบแจ้งลูกค้าทางอีเมลได้อัตโนมัติ"
+
+#: src/API/Controllers/AccountController.php:108
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "ID ป้ายชื่อส่วนตัวของตัวแทนจำหน่าย (1 หมายถึง GoDaddy ไม่ใช่ตัวแทนจำหน่าย)"
+
+#: src/API/Controllers/AccountController.php:114
+msgid "Whether the account can manually switch between extension versions."
+msgstr "ไม่ว่าบัญชีจะสามารถสลับไปมาระหว่างส่วนขยายเพิ่มเติมเวอร์ชันต่างๆ ด้วยตัวเองได้หรือไม่"
+
+#: src/API/Controllers/AccountController.php:120
+msgid "Whether or not the site is sold by a reseller."
+msgstr "ไม่ว่าเว็บไซต์จะขายโดยตัวแทนจำหน่ายหรือไม่"
+
+#: src/API/Controllers/AccountController.php:126
+msgid "The product plan the given account or site has purchased"
+msgstr "แผนผลิตภัณฑ์ที่บัญชีหรือเว็บไซต์ดังกล่าวซื้อมา"
+
+#: src/API/Controllers/AccountController.php:132
+msgid "The hosting platform the given account or site is running on"
+msgstr "แพลตฟอร์มโฮสติ้งที่บัญชีหรือเว็บไซต์ดังกล่าวทำงานอยู่"
+
+#: src/API/Controllers/AccountController.php:138
+msgid "The ID of the customer"
+msgstr "ID ของลูกค้า"
+
+#: src/API/Controllers/AccountController.php:144
+msgid "The ID of the Federation Partner"
+msgstr "ID ของ Federation Partner"
+
+#: src/API/Controllers/Platform/StoresController.php:117
+msgid "A list of businesses."
+msgstr "รายการธุรกิจ"
+
+#: src/API/Controllers/Platform/StoresController.php:124
+msgid "The unique identifier for the business."
+msgstr "หมายเลขประจำตัวสำหรับธุรกิจ"
+
+#: src/API/Controllers/Platform/StoresController.php:128
+msgid "The legal name of the business."
+msgstr "ชื่อทางกฎหมายของธุรกิจ"
+
+#: src/API/Controllers/Platform/StoresController.php:132
+msgid "A list of stores associated with the business."
+msgstr "รายการร้านค้าที่เกี่ยวข้องกับธุรกิจ"
+
+#: src/API/Controllers/Platform/StoresController.php:138
+msgid "The display name of the store."
+msgstr "ชื่อที่แสดงของร้านค้า"
+
+#: src/API/Controllers/Platform/StoresController.php:143
+msgid "The unique identifier for the store."
+msgstr "หมายเลขประจำตัวสำหรับร้านค้า"
+
+#: src/Auth/API/Controllers/TokenController.php:84
+msgid "The access token string as issued by the authorization server."
+msgstr "สตริงโทเค็นการเข้าถึงจะเป็นไปตามที่ออกโดยเซิร์ฟเวอร์อนุมัติสิทธิ์"
+
+#: src/Auth/API/Controllers/TokenController.php:90
+msgid "Number of seconds to expiration of the access token."
+msgstr "จำนวนวินาทีก่อนที่โทเค็นการเข้าถึงจะหมดอายุ"
+
+#: src/Auth/API/Controllers/TokenController.php:96
+msgid "The scope the token granted."
+msgstr "ขอบเขตที่โทเค็นได้รับ"
+
+#: src/Auth/API/Controllers/TokenController.php:102
+msgid "Access Token ID."
+msgstr "ID โทเค็นการเข้าถึง"
+
+#: src/Auth/API/Controllers/TokenController.php:108
+msgid "The type of token this is."
+msgstr "ประเภทของโทเค็นนี้"
+
+#: src/Auth/Sso/WordPress/Events/Subscribers/ForceCareAgentAdminRoleSubscriber.php:61
+msgid "The care agent account on this site has been misconfigured. Please log in again to fix this issue."
+msgstr "กำหนดค่าบัญชีเจ้าหน้าที่ดูแลในเว็บไซต์นี้ไม่ถูกต้อง โปรดเข้าสู่ระบบอีกครั้งเพื่อแก้ไขปัญหานี้"
+
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:103
+msgid "Something went wrong when creating the user account."
+msgstr "เกิดเหตุขัดข้องขณะสร้างบัญชีผู้ใช้"
+
+#. translators: Placeholder: %s account username
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:131
+msgid "User %s could not be logged in."
+msgstr "ผู้ใช้ %s ไม่สามารถเข้าสู่ระบบได้"
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:157
+msgid "You cannot delete the main administrator account."
+msgstr "คุณไม่สามารถลบบัญชีผู้ควบคุมหลักได้"
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:159
+msgid "Delete"
+msgstr "ลบ"
+
+#: src/Client/Client.php:433
+msgid "Other"
+msgstr "อื่นๆ"
+
+#: src/Configuration/CartRecoveryEmailsFeatureRuntimeConfiguration.php:73
+msgid "Automatically track cart activity and recover lost revenue with a dedicated email campaign."
+msgstr "ติดตามความเคลื่อนไหวของตะกร้าสินค้าโดยอัตโนมัติและชดเชยรายได้ที่สูญเสียไปด้วยแคมเปญอีเมลเฉพาะ"
+
+#: src/Email/RemoteRenderingEmailService.php:130
+msgid "Unknown error."
+msgstr "ข้อผิดพลาดที่ไม่ทราบ"
+
+#: src/Email/Repositories/EmailSenderRepository.php:108
+msgid "Unable to retrieve the email sender data."
+msgstr "ไม่สามารถเรียกข้อมูลผู้ส่งอีเมลได้"
+
+#: src/Features/CartRecoveryEmails/DataProviders/CheckoutDataProvider.php:56
+msgctxt "Subject of greeting when name is not known (this can be translated to empty string for languages where \"Hi there!\" cannot be rendered as in English and it will result in just \"Hi!\")"
+msgid "there"
+msgstr "สวัสดี"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:43
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:116
+msgid "Did you forget something?"
+msgstr "คุณลืมอะไรหรือไม่"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:57
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:103
+msgid "Content"
+msgstr "เนื้อหา"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:62
+msgid "Hey there! You left your shopping cart without completing your purchase just a bit ago. It's not too late to complete your purchase! All of the products are still waiting for you."
+msgstr "สวัสดี! เมื่อครู่ก่อนคุณทิ้งตระกร้าสินค้าไว้โดยไม่สั่งซื้อให้เสร็จสิ้น ยังไม่สายเกินไปที่จะสั่งซื้อให้เสร็จสิ้น! สินค้าทั้งหมดยังรอคุณอยู่"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:76
+msgid "Button text"
+msgstr "ข้อความบนปุ่ม"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:82
+msgid "Complete your purchase"
+msgstr "สั่งซื้อให้เสร็จสิ้น"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:92
+msgid "Trouble checking out? We're here to help. Please reply to this email if you have any questions or need our assistance."
+msgstr "มีปัญหาในการชำระเงินใช่หรือไม่ เราพร้อมช่วยเหลือเสมอ โปรดตอบกลับอีเมลนี้ ถ้าคุณมีข้อสงสัยหรือต้องการความช่วยเหลือ"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:60
+msgid "Cart Recovery"
+msgstr "กู้คืนตระกร้าสินค้า"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:61
+msgid "Send a reminder email to customers that left products in their cart but didn't complete the checkout."
+msgstr "ส่งอีเมลเตือนถึงลูกค้าที่ทิ้งสินค้าไว้ในตระกร้าสินค้า แต่ไม่ชำระเงินให้เสร็จสมบูรณ์"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:105
+msgid "Hey {{customer_first_name}}, did you forget something?"
+msgstr "เดี๋ยวก่อน {{customer_first_name}} คุณลืมอะไรหรือเปล่า"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:14
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:14
+msgid "Hey {{customer_first_name}}!"
+msgstr "สวัสดี {{customer_first_name}}!"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:22
+msgid "Your shopping cart has been reserved and is still waiting for you! In your cart, you left the following products:"
+msgstr "เราเก็บตระกร้าสินค้าของคุณไว้ ซึ่งยังรอคุณอยู่! ในตะกร้าสินค้า คุณทิ้งสินค้าไว้ดังต่อไปนี้:"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:30
+msgid "It's not too late to complete this purchase -- these products are still waiting for you!"
+msgstr "ยังไม่สายที่คุณจะสั่งซื้อครั้งนี้ให้เสร็จสิ้น สินค้าเหล่านี้ยังรอคุณอยู่!"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:22
+msgid "Your shopping cart was reserved a few days ago and it will expire soon. In your cart, you left the following products:"
+msgstr "เราเก็บตะกร้าสินค้าของคุณไว้หลายวันแล้ว และจะหมดอายุเร็วๆ นี้ ในตะกร้าสินค้า คุณทิ้งสินค้าไว้ดังต่อไปนี้:"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:30
+msgid "Ready to complete this purchase before your cart expires? Click the above button to purchase these items."
+msgstr "พร้อมที่จะสั่งซื้อครั้งนี้ให้เสร็จสิ้นก่อนที่ตระกร้าสินค้าจะหมดอายุหรือไม่ คลิกปุ่มด้านบนเพื่อซื้อสินค้าเหล่านี้"
+
+#: src/Features/CartRecoveryEmails/Settings/OptOutSetting.php:27
+msgid "Your email and cart will be saved so we can send you an email reminder about this order."
+msgstr "จะมีการบันทึกอีเมลและตระกร้าสินค้าของคุณ เพื่อเราจะได้ส่งอีเมลแจ้งเตือนเกี่ยวกับคำสั่งซื้อนี้ได้"
+
+#: src/Features/Commerce/Catalog/Helpers/CheckForDeletedProductHelper.php:75
+msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
+msgstr "คุณพยายามจะแก้ไขรายการที่ไม่มีอยู่ รายการนั้นอาจลบทิ้งไปแล้วหรือไม่"
+
+#: src/Features/Commerce/Catalog/Interceptors/Handlers/CommerceProductUuidRequestHandler.php:48
+msgid "Product not found."
+msgstr "ไม่พบผลิตภัณฑ์"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:149
+msgid "Product categories must be deleted in Commerce Home"
+msgstr "จะต้องลบหมวดหมู่ผลิตภัณฑ์ในหน้าหลักการค้าขาย"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:150
+msgid "Delete product category"
+msgstr "ลบหมวดหมู่ผลิตภัณฑ์"
+
+#. translators: External link icon
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:152
+msgid "Delete %s"
+msgstr "ลบ %s"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductEditInterceptor.php:82
+msgid "The \"Any\" attribute cannot be used for variable products synced with your GoDaddy Commerce product catalog. Please specify the attribute value for each variation, then save your changes."
+msgstr "แอตทริบิวต์ \"Any\" ไม่สามารถใช้ได้สำหรับผลิตภัณฑ์ที่มีหลายแบบซึ่งซิงค์กับแคตาล็อกสินค้า GoDaddy การค้าขาย โปรดระบุค่าแอตทริบิวต์สำหรับสินค้าแต่ละแบบ จากนั้นบันทึกการเปลี่ยนแปลง"
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:80
+msgid "Required for storing Product data in Commerce Home. Stock management can be enabled or disabled per product. Learn more about %1$sproduct inventory settings%2$s."
+msgstr "จำเป็นสำหรับข้อมูลผลิตภัณฑ์ที่จัดเก็บในหน้าหลักการค้าขาย การจัดการสต็อกสามารถเปิดใช้งานหรือปิดใช้งานเฉพาะผลิตภัณฑ์ได้ เรียนรู้เพิ่มเติมเกี่ยวกับ%1$sการตั้งค่าสินค้าคงคลังสำหรับผลิตภัณฑ์%2$s"
+
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:90
+msgid "Inventory amounts displayed on the frontend reflect total available for purchase and exclude reserved stock."
+msgstr "จำนวนสินค้าคงคลังที่แสดงหน้าเว็บนั้นบอกถึงจำนวนทั้งหมดที่พร้อมให้ซื้อได้โดยไม่รวมสต็อกที่เก็บไว้"
+
+#. translators: Placeholders: %1$s - a product name, %2$s - a product SKU, %3$s - an API error message
+#: src/Features/Commerce/Inventory/Services/OrderReservationsService.php:75
+msgid "An error occurred while reserving stock for %1$s (%2$s). %3$s"
+msgstr "เกิดข้อผิดพลาดขณะเก็บสต็อกไว้สำหรับ %1$s (%2$s) %3$s"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:95
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:241
+msgid "Available Pickup Locations"
+msgstr "ตำแหน่งที่ตั้งที่สามารถรับสินค้าได้"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:98
+msgid "Select the location(s) that should be available for local pickup."
+msgstr "เลือกตำแหน่งที่ตั้งที่ควรรับสินค้าในพื้นที่ได้"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:195
+msgid "Pickup location"
+msgstr "ตำแหน่งที่ตั้งในการรับสินค้า"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:261
+msgid "No pickup locations available"
+msgstr "ไม่มีตำแหน่งที่ตั้งที่สามารถรับสินค้าได้"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:263
+msgid "Please choose another shipping method, or contact the store for a pickup location."
+msgstr "โปรดเลือกวิธีการจัดส่งอื่น หรือติดต่อร้านค้าเพื่อสอบถามตำแหน่งที่ตั้งในการรับสินค้า"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:407
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:144
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:174
+msgid "Pickup Location Information"
+msgstr "ข้อมูลตำแหน่งที่ตั้งในการรับสินค้า"
+
+#: src/Features/Commerce/Repositories/CommerceContextRepository.php:54
+msgid "Missing or invalid store ID"
+msgstr "ID ร้านค้าที่ขาดหายหรือไม่ถูกต้อง"
+
+#: src/Features/EmailNotifications/API/API.php:66
+msgid "This token is expired"
+msgstr "โทเค็นนี้หมดอายุแล้ว"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:280
+msgid "Cannot generate a preview for an email notification that is not editable."
+msgstr "ไม่สามารถสร้างตัวอย่างสำหรับการแจ้งทางอีเมลที่แก้ไขไม่ได้"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:444
+msgid "The settings parameter is required."
+msgstr "ต้องการพารามิเตอร์การตั้งค่า"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:532
+msgid "Cannot send a test email for an email notification that is not editable."
+msgstr "ไม่สามารถส่งอีเมลทดสอบสำหรับการแจ้งทางอีเมลที่แก้ไขไม่ได้"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:698
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:235
+msgid "The site has email template overrides and hasn't enabled the Email Notifications feature."
+msgstr "เว็บไซต์ใช้เทมเพลตอีเมลอื่นแทนและไม่ได้เปิดใช้งานคุณสมบัติการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:961
+msgid "Unique email notification ID."
+msgstr "ID การแจ้งทางอีเมลที่ไม่ซ้ำกัน"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:967
+msgid "Unique email notification name (matches the ID)."
+msgstr "ชื่อการแจ้งทางอีเมลที่ไม่ซ้ำกัน (สอดคล้องกับ ID)"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:973
+msgid "Email notification label."
+msgstr "ป้ายชื่อการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:979
+msgid "Email notification description."
+msgstr "คำอธิบายการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:985
+msgid "ID of the template used by this email notification."
+msgstr "ID ของเทมเพลตที่ใช้โดยการแจ้งทางอีเมลนี้"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:991
+msgid "A list of categories that the email notification belongs to."
+msgstr "รายการหมวดหมู่ที่การแจ้งทางอีเมลอยู่"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1000
+msgid "Email notification status"
+msgstr "สถานะการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1007
+msgid "Whether the email notification can only be sent manually."
+msgstr "การแจ้งทางอีเมลจะต้องส่งด้วยตัวเองเท่านั้นหรือไม่"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1013
+msgid "Whether the email notification will be sent to administrators."
+msgstr "การแจ้งทางอีเมลจะต้องส่งให้ผู้ควบคุมหรือไม่"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1019
+msgid "A list of placeholders that are available for the email notification."
+msgstr "รายการตัวยึดที่พร้อมใช้งานสำหรับการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1028
+msgid "URL for the WooCommerce email settings screen for the email notification"
+msgstr "URL สำหรับหน้าจอการตั้งค่าอีเมล WooCommerce สำหรับการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1051
+msgid "Unique email notification category ID."
+msgstr "ID หมวดหมู่การแจ้งทางอีเมลที่ไม่ซ้ำกัน"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1057
+msgid "Email notification category name."
+msgstr "ชื่อหมวดหมู่การแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:242
+msgid "A non-empty settings or subgroups parameter must be provided."
+msgstr "จะต้องระบุพารามิเตอร์กลุ่มย่อยหรือการตั้งค่าที่ไม่ว่างเปล่า"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:324
+msgid "Unique email template ID."
+msgstr "ID เทมเพลตอีเมลที่ไม่ซ้ำกัน"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:330
+msgid "Unique email template name (matches the ID)."
+msgstr "ชื่อเทมเพลตอีเมลที่ไม่ซ้ำกัน (สอดคล้องกับ ID)"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:336
+msgid "Email template label."
+msgstr "ป้ายชื่อเทมเพลตอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:342
+msgid "List of email content placeholders."
+msgstr "รายการตัดยึดในเนื้อหาอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:351
+msgid "Email template preview."
+msgstr "ตัวอย่างเทมเพลตอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:57
+msgid "Unique email template setting name."
+msgstr "ชื่อการตั้งค่าเทมเพลตอีเมลที่ไม่ซ้ำกัน"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:63
+msgid "Email template setting label."
+msgstr "ป้ายชื่อการตั้งค่าเทมเพลตอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:69
+msgid "Email template settings subgroups."
+msgstr "กลุ่มย่อยการตั้งค่าเทมเพลตอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:78
+msgid "Root settings for an email template."
+msgstr "การตั้งค่าระดับรากสำหรับเทมเพลตอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:185
+msgid "This email address belongs to another store. Please enter a different email address. If you already own this address, please reach out via %1$sGet Help%2$s."
+msgstr "ที่อยู่อีเมลนี้เป็นของร้านอื่น โปรดใส่ที่อยู่อีเมลอื่น หากคุณเป็นเจ้าของที่อยู่นี้อยู่แล้ว โปรดติดต่อทาง%1$sรับความช่วยเหลือ%2$s"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:278
+msgid "Sender unique ID."
+msgstr "ID ที่ไม่ซ้ำกันของผู้ส่ง"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:284
+msgid "Sender email address."
+msgstr "ที่อยู่อีเมลผู้ส่ง"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:290
+msgid "The date and time when the sender was verified in our system."
+msgstr "วันที่และเวลาขณะยืนยันผู้ส่งในระบบของเรา"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:296
+msgid "How the sender was verified."
+msgstr "วิธีการยืนยันผู้ส่ง"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:302
+msgid "Sender status."
+msgstr "สถานะผู้ส่ง"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:285
+msgid "Unique email notification setting ID."
+msgstr "ID การตั้งค่าการแจ้งทางอีเมลที่ไม่ซ้ำกัน"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:291
+msgid "Unique email notification setting name (matches the ID)."
+msgstr "ชื่อการตั้งค่าการแจ้งทางอีเมลที่ไม่ซ้ำกัน (สอดคล้องกับ ID)"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:297
+msgid "Email notification setting label."
+msgstr "ป้ายชื่อการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:303
+msgid "Email notification setting description."
+msgstr "คำอธิบายการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:309
+msgid "A list of available options for the email notification setting values."
+msgstr "รายการตัวเลือกที่สามารถใช้ได้สำหรับค่าในการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:318
+msgid "Email notification setting default value."
+msgstr "ค่าเริ่มต้นในการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:324
+msgid "Email notification setting value."
+msgstr "ค่าในการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:330
+msgid "Whether the email notification setting can have multiple values."
+msgstr "การตั้งค่าการแจ้งทางอีเมลสามารถมีหลายค่าได้หรือไม่"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:336
+msgid "Whether the email notification setting is required."
+msgstr "ต้องมีการตั้งค่าการแจ้งทางอีเมลหรือไม่"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:342
+msgid "Email notifications setting group, if applicable."
+msgstr "กลุ่มการตั้งค่าการแจ้งเตือนทางอีเมล ถ้ามี"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:348
+msgid "Email notifications setting control details."
+msgstr "รายละเอียดการควบคุมการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:354
+msgid "Email notifications setting control type."
+msgstr "ประเภทของการควบคุมการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:360
+msgid "A list of available options for the email notification setting control."
+msgstr "รายการตัวเลือกที่สามารถใช้ได้สำหรับการควบคุมการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:369
+msgid "Optional input placeholder for the email notification setting control."
+msgstr "ตัวยึดการป้อนข้อมูลเป็นตัวเลือกเสริมสำหรับการควบคุมการตั้งค่าการแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:163
+msgid "Could not match an email notification ID to a \"%s\" WooCommerce email ID."
+msgstr "ไม่สามารถจับคู่ ID การแจ้งทางอีเมลกับ ID อีเมล \"%s\" ของ WooCommerce ได้"
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:193
+msgid "Could not match a WooCommerce email ID to a \"%s\" email notification ID."
+msgstr "ไม่สามารถจับคู่ ID อีเมลของ WooCommerce กับ ID การแจ้งทางอีเมล \"%s\" ได้"
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:622
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:93
+msgid "Could not find source WooCommerce email with ID \"%s\"."
+msgstr "ไม่พบอีเมล WooCommerce ต้นทางที่มี ID \"%s\""
+
+#: src/Features/EmailNotifications/DataStores/EmailContentDataStore.php:65
+msgid "No content template file found for the ID %s."
+msgstr "ไม่พบไฟล์เทมเพลตเนื้อหาสำหรับ ID %s"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:72
+msgid "No email notification found with the ID %s."
+msgstr "ไม่พบการแจ้งทางอีเมลที่มี ID %s"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:79
+msgid "The class for %s must implement the EmailNotificationContract interface"
+msgstr "คลาสสำหรับ %s จะต้องใช้อินเทอร์เฟซ EmailNotificationContract"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:89
+msgid "The email notification with ID %s is not available on this site"
+msgstr "การแจ้งทางอีเมลที่มี ID %s ไม่สามารถใช้งานได้บนเว็บไซต์นี้"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:59
+msgid "No email notification template found with the ID %s."
+msgstr "ไม่พบเทมเพลตการแจ้งทางอีเมลที่มี ID %s"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:68
+msgid "The class for %s must implement the EmailTemplateContract interface"
+msgstr "คลาสสำหรับ %s จะต้องใช้อินเทอร์เฟซ EmailTemplateContract"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:91
+msgid "No template file found with the ID %s."
+msgstr "ไม่พบไฟล์เทมเพลต ID %s"
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:40
+msgid "Invalid template for the option name \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "เทมเพลตไม่ถูกต้องสำหรับชื่อตัวเลือก \"%s\": ควรมีตัวยึด {{setting_id}}"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:69
+msgid "No settings found with the ID %s."
+msgstr "ไม่พบการตั้งค่าที่มี ID %s"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:78
+msgid "The class name for %s must implement ConfigurableContract"
+msgstr "ชื่อคลาสสำหรับ %s ต้องใช้ ConfigurableContract"
+
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:140
+msgid "No WooCommerce email found for \"%s\""
+msgstr "ไม่พบอีเมล WooCommerce สำหรับ \"%s\""
+
+#: src/Features/EmailNotifications/EmailNotifications.php:151
+msgid "Admin"
+msgstr "ผู้ดูแลระบบ"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:152
+msgid "Extensions"
+msgstr "ส่วนขยาย"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:153
+msgid "Customer"
+msgstr "ลูกค้า"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:154
+msgid "Order"
+msgstr "คำสั่งซื้อ"
+
+#: src/Features/EmailNotifications/EmailsPage.php:36
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:41
+msgid "Email Notifications"
+msgstr "การแจ้งทางอีเมล"
+
+#: src/Features/EmailNotifications/EmailsPage.php:37
+msgid "Emails"
+msgstr "อีเมล"
+
+#: src/Features/EmailNotifications/EmailsPage.php:187
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:251
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:296
+msgid "New"
+msgstr "ใหม่"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:39
+msgid "Cancelled order"
+msgstr "คำสั่งซื้อที่ยกเลิก"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:40
+msgid "Sent to chosen recipient(s) when an order is marked cancelled (if it was previously processing or on-hold)."
+msgstr "ส่งถึงผู้รับบางคนเมื่อคำสั่งซื้อถูกทำเครื่องหมายว่ายกเลิก (ถ้าก่อนหน้านี้มีการดำเนินการหรือถูกระงับ)"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:52
+msgid "[{{site_title}}]: Order #{{order_number}} has been cancelled"
+msgstr "[{{site_title}}]: คำสั่งซื้อ #{{order_number}} ถูกยกเลิกแล้ว"
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:83
+msgid "Notification to let you know &mdash; order #%1$s belonging to %2$s has been cancelled:"
+msgstr "ขอแจ้งให้คุณทราบว่าคำสั่งซื้อ #%1$s ของ %2$s ถูกยกเลิกแล้ว:"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:35
+msgid "Completed order"
+msgstr "คำสั่งซื้อที่เสร็จสมบูรณ์แล้ว"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is marked completed and usually indicates that the order has been shipped."
+msgstr "ส่งถึงลูกค้าเมื่อคำสั่งซื้อถูกทำเครื่องหมายว่าเสร็จสมบูรณ์ และปกติจะระบุว่าได้จัดส่งสินค้าที่สั่งซื้อแล้ว"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:64
+msgid "We have finished processing your order."
+msgstr "เราดำเนินการตามคำสั่งซื้อของคุณเสร็จสิ้นแล้ว"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:78
+msgid "Your {{site_title}} order is now complete"
+msgstr "คำสั่งซื้อ {{site_title}} ของคุณเสร็จสมบูรณ์แล้ว"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:39
+msgid "Customer invoice / order details"
+msgstr "รายละเอียดใบแจ้งหนี้ / คำสั่งซื้อของลูกค้า"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:40
+msgid "Emails containing order information and payment links sent manually."
+msgstr "ส่งอีเมลที่มีข้อมูลคำสั่งซื้อและลิงก์ชำระเงินไปแล้วด้วยตนเอง"
+
+#. translators: %1$s Site title, %2$s Order pay link
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:79
+msgid "An order has been created for you on %1$s. Your invoice is below, with a link to make payment when you’re ready: %2$s"
+msgstr "มีคำสั่งซื้อสำหรับคุณที่ %1$s ใบแจ้งหนี้ของคุณอยู่ข้างล่างนี้ พร้อมลิงก์เพื่อชำระเงินเมื่อคุณพร้อม: %2$s"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:87
+msgid "Pay for this order"
+msgstr "ชำระเงินสำหรับคำสั่งซื้อนี้"
+
+#. translators: %s Order date
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:92
+msgid "Here are the details of your order placed on %s:"
+msgstr "นี่คือรายละเอียดคำสั่งซื้อของคุณเมื่อ %s:"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:108
+msgid "Invoice for order #{{order_number}} on {{site_title}}"
+msgstr "ใบแจ้งหนี้สำหรับคำสั่งซื้อ #{{order_number}} บน {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:38
+msgid "Customer note"
+msgstr "หมายเหตุของลูกค้า"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:39
+msgid "Sent to customer when you add a note to an order."
+msgstr "ส่งถึงลูกค้าเมื่อคุณเพิ่มหมายเหตุในคำสั่งซื้อ"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:89
+msgid "The following note has been added to your order:"
+msgstr "มีหมายเหตุต่อไปนี้เพิ่มในคำสั่งซื้อของคุณ:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:91
+msgid "As a reminder, here are your order details:"
+msgstr "เพื่อย้ำเตือน รายละเอียดคำสั่งซื้อของคุณมีดังนี้:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:105
+msgid "Note added to your {{site_title}} order from {{order_date}}"
+msgstr "มีการเพิ่มหมายเหตุในคำสั่งซื้อ {{site_title}} ตั้งแต่ {{order_date}}"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:82
+msgid "Heading"
+msgstr "หัวเรื่อง"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:99
+msgid "Additional content"
+msgstr "เนื้อหาเพิ่มเติม"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:41
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:117
+msgid "Container"
+msgstr "คอนเทนเนอร์"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:119
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:149
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:196
+msgid "Background color"
+msgstr "สีพื้นหลัง"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:123
+msgid "Email width"
+msgstr "ความกว้างของอีเมล"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:132
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:443
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:68
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:150
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:133
+msgid "Full"
+msgstr "แบบสมบูรณ์"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:141
+msgid "Header"
+msgstr "ส่วนหัว"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:146
+msgid "Header image"
+msgstr "รูปส่วนหัว"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:155
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:174
+msgid "Text"
+msgstr "ข้อความ"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:166
+msgid "Body"
+msgstr "เนื้อความ"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:168
+msgid "Body background color"
+msgstr "สีพื้นหลังของเนื้อความ"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:177
+msgid "Link color"
+msgstr "สีลิงก์"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:184
+msgid "Headings"
+msgstr "หัวเรื่อง"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:187
+msgid "H1 font size"
+msgstr "ขนาดแบบอักษร H1"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:188
+msgid "H2 font size"
+msgstr "ขนาดแบบอักษร H2"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:189
+msgid "H3 font size"
+msgstr "ขนาดแบบอักษร H3"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:194
+msgid "Button"
+msgstr "ปุ่ม"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:197
+msgid "Label color"
+msgstr "สีป้ายชื่อ"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:206
+msgid "Footer"
+msgstr "ส่วนท้าย"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:214
+msgid "Footer text"
+msgstr "ข้อความส่วนท้าย"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:242
+msgid "Text color"
+msgstr "สีข้อความ"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:262
+msgid "Font family"
+msgstr "ตระกูลแบบอักษร"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:287
+msgid "Font size"
+msgstr "ขนาดแบบอักษร"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:205
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Enabled"
+msgstr "เปิดใช้งานอยู่"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:224
+msgid "Preview text"
+msgstr "ข้อความตัวอย่าง"
+
+#. translators: %1$s - opening a HTML tag, %2$s - closing a HTML tag
+#: src/Features/EmailNotifications/Models/EmailNotification.php:229
+msgid "Preview text is shown after the subject line in some email inboxes. Maximum: 150 characters. %1$sLearn more%2$s"
+msgstr "ข้อความตัวอย่างจะแสดงตามหลังบรรทัดชื่อเรื่องในกล่องขาเข้าของอีเมลบางแห่ง สูงสุด: 150 อักขระ %1$sเรียนรู้เพิ่มเติม%2$s"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:234
+msgid "Enter preview text"
+msgstr "ป้อนข้อความตัวอย่าง"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:264
+msgid "Subject"
+msgstr "เรื่อง"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:41
+msgid "Failed order"
+msgstr "คำสั่งซื้อที่ล้มเหลว"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when an order is marked failed (if it was previously pending or on-hold)."
+msgstr "ส่งถึงผู้รับบางคนเมื่อคำสั่งซื้อถูกทำเครื่องหมายว่าไม่สำเร็จ (ถ้าก่อนหน้านี้มีการดำเนินการหรือถูกระงับ)"
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:72
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr "การชำระเงินสำหรับคำสั่งซื้อ #%1$s จาก %2$s ล้มเหลว คำสั่งซื้อมีดังนี้:"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:93
+msgid "[{site_title}]: Order #{order_number} has failed"
+msgstr "[{site_title}]: คำสั่งซื้อ #{order_number} ล้มเหลว"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:32
+#: src/WooCommerce/Emails/ItemShippedEmail.php:32
+msgid "Item shipped"
+msgstr "จัดส่งสินค้าแล้ว"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:33
+msgid "Sent to customers when tracking information is added for one or more items in their orders."
+msgstr "ส่งถึงลูกค้าเมื่อเพิ่มข้อมูลการติดตามสำหรับสินค้าหนึ่งรายการขึ้นไปในคำสั่งซื้อ"
+
+#. translators: Placeholder: %s - Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:62
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:92
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:79
+#: src/Features/EmailNotifications/Traits/IsCustomerEmailNotificationTrait.php:24
+#: templates/woocommerce/emails/customer-item-shipped.php:36
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:31
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:31
+#: templates/woocommerce/emails/ready-for-pickup.php:36
+msgid "Hi %s,"
+msgstr "หวัดดี %s"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:63
+#: templates/woocommerce/emails/customer-item-shipped.php:38
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:32
+msgid "An item from your order has shipped!"
+msgstr "สินค้าจากคำสั่งซื้อของคุณจัดส่งแล้ว!"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:77
+msgid "An item from {{site_title}} order #{{order_number}} has shipped!"
+msgstr "สินค้าจาก {{site_title}} คำสั่งซื้อ #{{order_number}} จัดส่งแล้ว!"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:27
+msgid "New account"
+msgstr "บัญชีใหม่"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:28
+msgid "Sent to customers when they sign up via checkout or account pages."
+msgstr "ส่งถึงลูกค้าเมื่อลูกค้าลงทะเบียนผ่านหน้าชำระเงินหรือหน้าบัญชี"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:39
+msgid "Your {{site_title}} account has been created!"
+msgstr "สร้างบัญชี {{site_title}} ของคุณแล้ว!"
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:97
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "ขอขอบคุณที่สร้างบัญชีที่ %1$s ชื่อผู้ใช้คือ %2$s คุณสามารถเข้าถึงพื้นที่บัญชีเพื่อดูคำสั่งซื้อ เปลี่ยนรหัสผ่าน และอื่นๆ ได้ที่: %3$s"
+
+#. translators: %s: Auto generated password
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:105
+msgid "Your password has been automatically generated: %s"
+msgstr "รหัสผ่านของคุณสร้างขึ้นโดยอัตโนมัติ: %s"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:41
+msgid "New order"
+msgstr "คำสั่งซื้อใหม่"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when a new order is received."
+msgstr "ส่งถึงผู้รับบางคน เมื่อได้รับคำสั่งซื้อใหม่"
+
+#. translators: %1$s: Customer first name, %2$s: Customer last name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:69
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %1$s: Customer full name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:78
+msgid "You’ve received the following order from %1$s:"
+msgstr "คุณได้รับคำสั่งซื้อต่อไปนี้จาก %1$s:"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:98
+msgid "[{{site_title}}]: New order #{{order_number}}"
+msgstr "[{{site_title}}]: คำสั่งซื้อใหม่ #{{order_number}}"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:35
+msgid "Order on-hold"
+msgstr "คำสั่งซื้อถูกระงับ"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:36
+msgid "Sent to customer when an order is on hold."
+msgstr "ส่งถึงลูกค้าเมื่อคำสั่งซื้อถูกระงับ"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:47
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:83
+msgid "Your {{site_title}} order has been received!"
+msgstr "ได้รับคำสั่งซื้อ {{site_title}} แล้ว!"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:78
+msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
+msgstr "ขอบคุณสำหรับการสั่งซื้อ แต่เราจะยังไม่ดำเนินการจนกว่าจะยืนยันได้ว่าได้รับชำระเงินเรียบร้อยแล้ว ในระหว่างนี้ เราขอยืนยันในสิ่งที่คุณสั่งซื้อดังนี้:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:35
+msgid "Partially refunded order"
+msgstr "คำสั่งซื้อที่คืนเงินบางส่วน"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is partially refunded."
+msgstr "ส่งถึงลูกค้าเมื่อคำสั่งซื้อได้รับการคืนเงินบางส่วน"
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr "คำสั่งซื้อของคุณที่ %s ได้รับการคืนเงินบางส่วน มีรายละเอียดเพิ่มเติมข้างล่างนี้เพื่อให้คุณใช้อ้างอิง:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been partially refunded"
+msgstr "{{site_title}} คำสั่งซื้อ #{{order_number}} ของคุณได้รับการคืนเงินบางส่วน"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:35
+msgid "Processing order"
+msgstr "กำลังดำเนินการตามคำสั่งซื้อ"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:36
+msgid "Sent to customer after a payment is made."
+msgstr "ส่งถึงลูกค้าหลังจากมีการชำระเงินแล้ว"
+
+#. translators: %s: Order number
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:67
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "ขอแจ้งให้ทราบว่าเราได้รับคำสั่งซื้อ #%s ของคุณแล้วและกำลังดำเนินการอยู่ในขณะนี้:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:35
+msgid "Fully refunded order"
+msgstr "คำสั่งซื้อที่คืนเงินเต็มจำนวน"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is fully refunded."
+msgstr "ส่งถึงลูกค้าเมื่อคำสั่งซื้อได้รับการคืนเงินเต็มจำนวน"
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been refunded. There are more details below for your reference:"
+msgstr "คำสั่งซื้อของคุณที่ %s ได้รับการคืนเงินแล้ว มีรายละเอียดเพิ่มเติมข้างล่างนี้เพื่อให้คุณใช้อ้างอิง:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been refunded"
+msgstr "คำสั่งซื้อ {{site_title}} #{{order_number}} ของคุณได้รับการคืนเงินแล้ว"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:28
+msgid "Reset password"
+msgstr "รีเซ็ตรหัสผ่าน"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:29
+msgid "Sent to customers when they reset their passwords."
+msgstr "ส่งถึงลูกค้าเมื่อลูกค้ารีเซ็ตรหัสผ่าน"
+
+#. translators: %s: Store name
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:81
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr "มีคนขอรหัสผ่านใหม่สำหรับบัญชีต่อไปนี้บน %s:"
+
+#. translators: %s: Customer username
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:83
+msgid "Username: %s"
+msgstr "ชื่อผู้ใช้: %s"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:84
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr "ถ้าคุณไม่ได้ยื่นคำขอก็ไม่ต้องสนใจอีเมลฉบับนี้ ถ้าคุณต้องการดำเนินการต่อ:"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:87
+msgid "Click here to reset your password"
+msgstr "คลิกที่นี่เพื่อรีเซ็ตรหัสผ่าน"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:56
+msgid "Sender name"
+msgstr "ชื่อผู้ส่ง"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:68
+msgid "Sender address"
+msgstr "ที่อยู่ผู้ส่ง"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:76
+msgid "Recipients"
+msgstr "ผู้รับ"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:77
+msgid "Enter recipients (comma-separated) for this email"
+msgstr "ระบุผู้รับ (ใช้จุลภาคคั่น) สำหรับอีเมลนี้"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. Manage them from Marketing > Emails."
+msgstr "ปรับแต่งอีเมลของคุณเพื่อสะท้อนภาพแบรนด์ของคุณและเพิ่มโอกาสสร้างลูกค้าประจำ จัดการได้จาก การตลาด > อีเมล"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:126
+msgid "Manage emails"
+msgstr "จัดการอีเมล"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:137
+msgid "Your hosting plan now offers editable WooCommerce emails, no plugin required!"
+msgstr "แผนโฮสติ้งของคุณมอบอีเมล WooCommerce ที่สามารถแก้ไขได้โดยไม่ต้องใช้ปลั๊กอิน!"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:254
+msgid "Please use either your hosting plan's email editing feature or your 3rd-party email editor."
+msgstr "โปรดใช้คุณสมบัติพิเศษของแผนโฮสติ้งของคุณหรือระบบแก้ไขอีเมลจากภายนอกอย่างใดอย่างหนึ่ง"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Edit emails"
+msgstr "แก้ไขอีเมล"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Contact support"
+msgstr "ติดต่อฝ่ายสนับสนุน"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:266
+msgid "A 3rd-party email editing plugin has been detected on your store."
+msgstr "ตรวจพบปลั๊กอินแก้ไขอีเมลจากภายนอกในร้านค้าของคุณ"
+
+#. translators: %1$s opening strong tag; %2$s closing strong tag; %3$s opening anchor tag; %4$s closing anchor tag; %5$s opening anchor tag; %6$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:92
+msgid "%1$sNote:%2$s Your site is using a temporary domain that cannot be indexed by search engines. Change your primary domain via the %3$sWoo store management area%4$s. Learn more about %5$sconnecting a domain%6$s."
+msgstr "%1$sหมายเหตุ:%2$s เว็บไซต์ของคุณใช้โดเมนชั่วคราวซึ่งไม่สามารถทำดัชนีโดยโปรแกรมค้นหาได้ เปลี่ยนโดเมนหลักผ่าน%3$sพื้นที่จัดการร้านค้า Woo%4$s เรียนรู้เพิ่มเติมเกี่ยวกับ%5$sการเชื่อมต่อโดเมน%6$s."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag; %3$s opening anchor tag; %4$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:102
+msgid "Change your primary domain via the %1$sWoo store management area%2$s. Learn more about %3$sconnecting a domain%4$s."
+msgstr "เปลี่ยนโดเมนหลักผ่าน%1$sพื้นที่การจัดการร้านค้า Woo%2$s เรียนรู้เพิ่มเติมเกี่ยวกับ%3$sการเชื่อมต่อโดเมน%4$s"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:33
+msgid "Link bank account"
+msgstr "เชื่อมโยงบัญชีธนาคาร"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:34
+msgid "You've got money waiting with GoDaddy Payments! Add your banking info to get your payouts deposited."
+msgstr "คุณมีเงินรออยู่ที่ GoDaddy Payments! เพิ่มข้อมูลธนาคารเพื่อรับการชำระเงินที่ฝากไว้"
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayEnabledNotice.php:21
+msgid "GoDaddy Payments - Apple Pay has been enabled on your selected pages and shows %1$sin Safari on supported devices%2$s."
+msgstr "เปิดใช้งาน GoDaddy Payments - Apple Pay บนหน้าที่เลือกแล้วและจะแสดง %1$sใน Safari บนอุปกรณ์ที่รองรับ%2$s"
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Apple Pay should show."
+msgstr "โปรดเลือกหน้าที่จะให้ Apple Pay แสดงขึ้น"
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayRegistrationFailedNotice.php:24
+msgid "There was a problem registering your site with Apple Pay. Please disable Apple Pay and try re-enabling, or %1$scontact support%2$s."
+msgstr "มีปัญหาในการลงทะเบียนเว็บไซต์ของคุณกับ Apple Pay โปรดปิดใช้งาน Apple Pay แล้วลองเปิดใช้งานใหม่ หรือ%1$sติดต่อฝ่ายสนับสนุน%2$s"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:24
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:23
+msgid "GoDaddy Payments successfully enabled!"
+msgstr "เปิดใช้งาน GoDaddy Payments เรียบร้อยแล้ว!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:25
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:24
+msgid "GoDaddy Payments is now available to your customers at checkout."
+msgstr "GoDaddy Payments พร้อมสำหรับลูกค้าของคุณที่หน้าชำระเงินแล้ว"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:27
+msgid "GoDaddy Payments is now connected to your store!"
+msgstr "GoDaddy Payments เชื่อมต่อกับร้านค้าของคุณแล้ว"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:21
+msgid "Enable GoDaddy Payments"
+msgstr "เปิดใช้งาน GoDaddy Payments"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:30
+msgid "Enable the payment method to add it to your checkout."
+msgstr "เปิดใช้งานช่องทางการชำระเงินเพื่อเพิ่มในหน้าชำระเงินของคุณ"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:23
+msgid "Your GoDaddy Payments account has been closed."
+msgstr "บัญชี GoDaddy Payments ของคุณถูกปิด"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "ช่องทางการชำระเงินถูกปิดใช้งาน จึงไม่แสดงขึ้นในหน้าชำระเงิน โปรดตั้งค่าบัญชีเพื่อกลับสู่การดำเนินการรับชำระเงิน"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:24
+msgid "It looks like you didn't finish your GoDaddy Payments application."
+msgstr "ดูเหมือนคุณจะยังสมัครใช้งาน GoDaddy Payments ไม่เสร็จสมบูรณ์"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:26
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "Resume"
+msgstr "ทำต่อ"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:27
+msgid "You're just a few minutes from processing payments."
+msgstr "อีกไม่นานคุณจะสามารถดำเนินการรับชำระเงินได้แล้ว"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:23
+msgid "Your GoDaddy Payments account needs attention."
+msgstr "มีเรื่องที่คุณต้องให้ความสนใจในบัญชี GoDaddy Payments ของคุณ"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "ช่องทางการชำระเงินถูกปิดใช้งาน จึงไม่แสดงขึ้นในหน้าชำระเงิน โปรดตรวจสอบอีเมลของคุณเพื่อดูขั้นตอนต่อไป"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:23
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:330
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "บัญชี GoDaddy Payments ของคุณถูกยกเลิกแล้ว"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "ช่องทางการชำระเงินถูกปิดใช้งาน จึงไม่แสดงขึ้นในหน้าชำระเงิน โปรดตรวจสอบอีเมลของคุณเพื่อดูข้อมูลเพิ่มเติม"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:26
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:29
+msgid "Complete verification"
+msgstr "ตรวจสอบยืนยันเสร็จสมบูรณ์"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:27
+msgid "You've got money waiting with GoDaddy Payments! Verify your identity and add your banking info to get your payouts deposited."
+msgstr "คุณมีเงินรออยู่ที่ GoDaddy Payments! ยืนยันตัวตนและเพิ่มข้อมูลธนาคารเพื่อรับการชำระเงินที่ฝากไว้"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:30
+msgid "You haven't completed the necessary steps to verify your identity with GoDaddy Payments. Until you do that, you won't be able to take any payments or deposit your funds."
+msgstr "คุณไม่ได้ทำขั้นตอนที่จำเป็นจนเสร็จสมบูรณ์เพื่อยืนยันตัวตนกับ GoDaddy Payments หากยังไม่ได้ทำ คุณจะไม่สามารถรับชำระเงินใดๆ หรือฝากเงินของคุณได้"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:30
+msgid "You've still got money waiting with GoDaddy Payments! Verify your identity and add your banking info as soon as you can to get your funds and keep taking payments."
+msgstr "คุณยังมีเงินรออยู่ที่ GoDaddy Payments! ยืนยันตัวตนและเพิ่มข้อมูลธนาคารโดยเร็วที่สุดเพื่อรับเงินของคุณและรับชำระเงินต่อไป"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:30
+msgid "The deadline to complete your payouts setup is coming up! To keep transacting with GoDaddy Payments and to get your money, verify your identity and add banking info."
+msgstr "ใกล้ถึงกำหนดที่จะต้องตั้งค่าการชำระเงินให้เสร็จสมบูรณ์แล้ว! หากจะทำธุรกรรมด้วย GoDaddy Payments และรับเงินของคุณต่อไป ให้ยืนยันตัวตนและเพิ่มข้อมูลธนาคาร"
+
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:27
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:287
+msgid "You're all set to take payments with GoDaddy Payments!"
+msgstr "คุณพร้อมที่จะรับชำระเงินด้วย GoDaddy Payments แล้ว!"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:35
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:292
+msgid "To get your funds deposited to your bank account, verify your identity and add your banking info. %1$sSet up payouts%2$s"
+msgstr "หากจะรับเงินที่ฝากไว้ในบัญชีธนาคารของคุณ ให้ยืนยันตัวตนและเพิ่มข้อมูลธนาคาร %1$sตั้งค่าการชำระเงิน%2$s"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:42
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:300
+msgid "The connected GoDaddy Payments account is %1$s %2$s (Not the business owner's account? %3$sSwitch account%4$s)."
+msgstr "บัญชี GoDaddy Payments ที่เชื่อมต่อคือ %1$s %2$s (ไม่ใช่บัญชีของเจ้าของธุรกิจใช่ไหม %3$sเปลี่ยนบัญชี%4$s)"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountSwitchedNotice.php:30
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:278
+msgid "GoDaddy Payments is now connected with the account %1$s %2$s. (Not right? %3$sSwitch account%4$s.)"
+msgstr "ขณะนี้ GoDaddy Payments เชื่อมต่อกับบัญชี %1$s %2$s (หากไม่ใช่ %3$sให้เปลี่ยนบัญชี%4$s)"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:28
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:28
+msgid "Get Started"
+msgstr "เริ่มใช้งาน"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:30
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:31
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:455
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:52
+msgid "Provided by GoDaddy"
+msgstr "GoDaddy จัดให้"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:31
+msgid "Sell online and in person with GoDaddy Payments. Sync local pickup and delivery orders right to your Smart Terminal, then get paid fast with next-day deposits."
+msgstr "ขายออนไลน์และขายแบบพบหน้าด้วย GoDaddy Payments ซิงค์ข้อมูลการรับสินค้าในพื้นที่และคำสั่งให้จัดส่งไปยัง Smart Terminal โดนตรง จากนั้นจะได้รับชำระเงินอย่างรวดเร็วด้วยเงินที่ฝากเข้าในวันรุ่งขึ้น"
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:29
+msgid "Use GoDaddy Payments Selling in Person to sync local pickup and delivery orders to your Smart Terminal. Sell anything, anywhere and get paid fast with next-day deposits."
+msgstr "ใช้การขายแบบพบหน้าของ GoDaddy Payments เพื่อซิงค์ข้อมูลการรับสินค้าในพื้นที่และคำสั่งให้จัดส่งไปยัง Smart Terminal ของคุณ ขายได้ทุกอย่าง ทุกที่ และรับชำระเงินอย่างรวดเร็วด้วยเงินที่ฝากเข้าในวันรุ่งขึ้น"
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:32
+msgid "GoDaddy Selling in Person"
+msgstr "การขายแบบพบหน้าของ GoDaddy"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:39
+msgid "Update Store"
+msgstr "อัปเดตร้านค้า"
+
+#. translators: %s - list of supported countries
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:42
+msgid "GoDaddy Payments is available for businesses in %s. Please update your Store Address to use the payment method."
+msgstr "GoDaddy Payments สามารถใช้งานได้สำหรับธุรกิจใน %s โปรดอัปเดตที่อยู่ร้านค้าของคุณเพื่อใช้ช่องทางการชำระเงินนี้"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:42
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:37
+msgid "Change Currency"
+msgstr "เปลี่ยนสกุลเงิน"
+
+#. translators: %1$s - list of supported currencies, %2$s - store country
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:45
+msgid "GoDaddy Payments requires %1$s transactions for businesses in %2$s. Please change your Currency in order to use the payment method."
+msgstr "การใช้ GoDaddy Payments ต้องเป็นธุรกรรมสกุลเงิน %1$s สำหรับธุรกิจใน %2$s โปรดเปลี่ยนสกุลเงินของคุณเพื่อใช้ช่องทางการชำระเงินนี้"
+
+#. translators: %s - list of supported currencies
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:40
+msgid "GoDaddy Payments requires %s transactions. Please change your Currency in order to use the payment method."
+msgstr "การใช้ GoDaddy Payments ต้องเป็นธุรกรรมสกุลเงิน %s โปรดเปลี่ยนสกุลเงินของคุณเพื่อใช้ช่องทางการชำระเงินนี้"
+
+#. translators: Placeholders: %1$s - <a> tag for the Google Pay docs link, %2$s - </a> tag
+#: src/Features/GoDaddyPayments/Notices/GooglePayEnabledNotice.php:22
+msgid "GoDaddy Payments - Google Pay has been enabled on your selected pages and shows %1$sin supported browsers and devices%2$s."
+msgstr "เปิดใช้งาน GoDaddy Payments - Google Pay บนหน้าที่เลือกแล้วและจะแสดง %1$sในเบราว์เซอร์และอุปกรณ์ที่รองรับ%2$s"
+
+#: src/Features/GoDaddyPayments/Notices/GooglePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Google Pay should show."
+msgstr "โปรดเลือกหน้าที่จะให้ Google Pay แสดงขึ้น"
+
+#: src/Features/GoDaddyPayments/Notices/OnboardingErrorNotice.php:26
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "เกิดข้อผิดพลาดในการเชื่อมต่อกับ GoDaddy Payments โปรดลองอีกครั้ง"
+
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:22
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin!"
+msgstr "GoDaddy Payments (Poynt) รวมไว้แล้วสำหรับลูกค้า WordPress ภายใต้การจัดการโดยไม่ต้องลงปลั๊กอินต่างหาก!"
+
+#: src/Features/GoDaddyPayments/Notices/WooStagingNotice.php:23
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "การเรียกเก็บเงินของ WooCommerce หรือการอนุมัติ/การนำจำนวนเงินที่เรียกเก็บเข้าสู่ระบบ รวมถึงการคืนเงินและการยกเลิกที่กระทำในเว็บไซต์ทดสอบของคุณจะดำเนินการตามปกติในบัญชี GoDaddy Payments ของคุณ"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:43
+msgid "Commerce Home"
+msgstr "หน้าหลักสำหรับการค้า"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:47
+msgid "Payments Dashboard"
+msgstr "แดชบอร์ดการชำระเงิน"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:50
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:265
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:266
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:197
+msgid "Tax"
+msgstr "ภาษี"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:94
+msgid "The Sellbrite plugin is included in your hosting plan as GoDaddy Marketplaces. The plugin has been deactivated."
+msgstr "ปลั๊กอิน Sellbrite เป็นตลาดซื้อขายสินค้าของ GoDaddy ที่มีมาพร้อมกับแผนโฮสติ้งของคุณ ปลั๊กอินถูกปิดการใช้งาน"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:95
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:230
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:393
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:400
+msgid "Set up"
+msgstr "ตั้งค่า"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:104
+msgid "Your products, everywhere."
+msgstr "สินค้าของคุณอยู่ในทุกที่"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:64
+msgid "A product ID is required."
+msgstr "ต้องระบุ ID ผลิตภัณฑ์"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:68
+msgid "A channel UUID is required."
+msgstr "ต้องมี UUID ของช่องทาง"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:72
+msgid "You do not have permission to perform this action."
+msgstr "คุณไม่ได้รับอนุญาตให้ดำเนินการนี้"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:76
+msgid "This product must meet all requirements below before creating a draft listing."
+msgstr "ผลิตภัณฑ์นี้จะต้องตรงตามข้อกำหนดทั้งหมดข้างล่างนี้ก่อนที่จะสร้างรายการฉบับร่าง"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:116
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:157
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:61
+msgid "Failed to create a draft listing."
+msgstr "สร้างรายการฉบับร่างไม่สำเร็จ"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:132
+msgid "Failed to retrieve a WooCommerce product with ID #%d while creating a draft Marketplaces listing."
+msgstr "ไม่สามารถเรียกข้อมูลผลิตภัณฑ์ WooCommerce ที่มี ID #%d ได้ขณะสร้างรายการฉบับร่างของตลาดซื้อขายสินค้า"
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:62
+msgid "Products with Marketplaces listings cannot have an empty SKU."
+msgstr "ผลิตภัณฑ์ที่ลงประกาศขายในตลาดซื้อขายสินค้าไม่สามารถมี SKU ที่ว่างเปล่าได้"
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:88
+#: src/Features/Marketplaces/Interceptors/ProductsPageInterceptor.php:111
+msgid "Are you sure you want to unpublish? All associated Marketplaces listings will remain published or as a draft but will no longer sync content and inventory with WooCommerce."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเผยแพร่ รายการในตลาดซื้อขายสินค้าที่เกี่ยวข้องทั้งหมดจะยังคงเผยแพร่ในฉบับร่าง แต่จะไม่ซิงค์เนื้อหาและสินค้าคงคลังกับ WooCommerce อีกต่อไป"
+
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:156
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:168
+msgid "Marketplaces & Social Order"
+msgstr "คำสั่งซื้อทางตลาดซื้อขายสินค้าและโซเชียล"
+
+#. translators: Placeholder: %s - sales channel label
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:160
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:170
+msgid "Sales Channel: %s"
+msgstr "ช่องทางการขาย: %s"
+
+#. translators: Placeholder: %s - sales channel order number
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:163
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:172
+msgid "Sales Channel Order Number: %s"
+msgstr "หมายเลขคำสั่งซื้อตามช่องทางการขาย: %s"
+
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:166
+msgid "Return accepted via Walmart sales channel."
+msgstr "การคืนสินค้าที่รับผ่านช่องทางการขาย Walmart"
+
+#. translators: Placeholders: %1$s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:189
+msgid "Return requested via Walmart sales channel. %1$sView request%2$s."
+msgstr "การคืนสินค้าที่ช่องทางการขาย Walmart ร้องขอ %1$sดูคำขอ%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:291
+msgid "Create your first product listing by adding a new product or editing an existing one in WooCommerce. You can list a product on each of the marketplaces you've added. Once listed, the product info and inventory will sync automatically. Visit %1$sProducts%2$s to get started."
+msgstr "สร้างรายการสินค้าชุดแรกของคุณด้วยการเพิ่มผลิตภัณฑ์ใหม่หรือแก้ไขรายการที่มีอยู่แล้วใน WooCommerce คุณสามารถลงรายการผลิตภัณฑ์ในตลาดซื้อขายสินค้าแต่ละแห่งที่เพิ่มเข้าไปได้ เมื่อลงรายการแล้ว ข้อมูลผลิตภัณฑ์และสินค้าคงคลังจะซิงค์โดยอัตโนมัติ ไปที่%1$sผลิตภัณฑ์%2$sเพื่อเริ่มใช้งาน"
+
+#: src/Features/Marketplaces/Marketplaces.php:301
+msgid "Welcome to GoDaddy Marketplaces!"
+msgstr "ยินดีต้อนรับสู่ตลาดซื้อขายสินค้า GoDaddy!"
+
+#: src/Features/Marketplaces/Marketplaces.php:326
+msgid "Your store address must be in the US and currency US dollars in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "ที่อยู่ร้านค้าของคุณจะต้องเป็นสหรัฐฯ และใช้เงินสกุลดอลลาร์สหรัฐฯ เพื่อซิงค์สินค้า สินค้าคงคลัง และคำสั่งซื้อกับช่องทางการขายที่เป็นตลาดซื้อขายสินค้าและโซเชียล"
+
+#: src/Features/Marketplaces/Marketplaces.php:342
+msgid "Your store weight and dimensions units must be in \"lbs\" and \"in\" in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "หน่วยน้ำหนักและขนาดในร้านค้าของคุณจะต้องเป็น \"กิโลกรัม\" และ \"เซ็นติเมตร\" เพื่อซิงค์สินค้า สินค้าคงคลัง และคำสั่งซื้อกับช่องทางการขายที่เป็นตลาดซื้อขายสินค้าและโซเชียล"
+
+#: src/Features/Marketplaces/Marketplaces.php:343
+#: src/Features/Marketplaces/Marketplaces.php:386
+msgid "Update settings"
+msgstr "อัพเดตการตั้งค่า"
+
+#: src/Features/Marketplaces/Marketplaces.php:385
+msgid "Stock management must be enabled in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "จะต้องเปิดใช้งานการจัดการสต็อกเพื่อซิงค์สินค้า สินค้าคงคลัง และคำสั่งซื้อกับช่องทางการขายที่เป็นตลาดซื้อขายสินค้าและโซเชียล"
+
+#: src/Features/Marketplaces/Marketplaces.php:434
+msgid "Product, inventory, and order syncing is disabled in Staging to prevent conflicts with your Production site."
+msgstr "การซิงค์ผลิตภัณฑ์ สินค้าคงคลัง และคำสั่งซื้อถูกปิดใช้งานในเว็บไซต์ทดสอบเพื่อป้องกันความขัดแย้งกับเว็บไซต์จริง"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:450
+msgid "You've used 90&#37; of your included monthly Marketplaces and Social orders. Upgrade soon to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "คุณใช้ไป 90&#37; จากคำสั่งซื้อรายเดือนทางตลาดซื้อขายสินค้าและโซเชียล อัปเกรดเร็วๆ นี้เพื่อดำเนินการกับคำสั่งซื้อได้มากขึ้น %1$sอัปเกรดแผน%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:476
+msgid "You've used all your included monthly Marketplaces and Social orders. Upgrade now to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "คุณใช้คำสั่งซื้อรายเดือนทางตลาดซื้อขายสินค้าและโซเชียลทั้งหมดแล้ว อัปเกรดเลยเพื่อดำเนินการกับคำสั่งซื้อได้มากขึ้น %1$sอัปเกรดแผน%2$s"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:102
+msgid "Sales Channel"
+msgstr "ช่องทางการขาย"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:106
+msgid "Sales Channel Order Number"
+msgstr "หมายเลขคำสั่งซื้อตามช่องทางการขาย"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:81
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:155
+msgid "Product Brand"
+msgstr "แบรนด์สินค้า"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:86
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:162
+msgid "Product Condition"
+msgstr "เงื่อนไขของสินค้า"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:91
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:167
+msgctxt "Product condition"
+msgid "New"
+msgstr "ใหม่"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:92
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:168
+msgctxt "Product condition"
+msgid "Used"
+msgstr "ใช้แล้ว"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:93
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:169
+msgctxt "Product condition"
+msgid "Refurbished"
+msgstr "ปรับปรุงแล้ว"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgid "Global Trade Item Number"
+msgstr "หมายเลขประจำตัวสินค้าสากล"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgctxt "Global Trade Item Number (GTIN)"
+msgid "GTIN"
+msgstr "GTIN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:114
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:178
+msgid "A Global Trade Item Number is used to uniquely identify your product on Marketplaces & Social product listings. It can be found next to the barcode."
+msgstr "หมายเลขประจำตัวสินค้าสากลจะใช้เพื่อระบุสินค้าของคุณบนรายการสินค้าทางตลาดซื้อขายสินค้าและโซเชียลโดยไม่ซ้ำใคร สามารถพบได้ข้างบาร์โค้ด"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgid "Manufacturer Part Number"
+msgstr "หมายเลขชิ้นส่วนจากผู้ผลิต"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgctxt "Manufacturer Part Number (MPN)"
+msgid "MPN"
+msgstr "MPN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:121
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:188
+msgid "A Manufacturer Part Number is used to uniquely identify your product on Marketplaces & Social product listings. Only use the MPN assigned by the manufacturer."
+msgstr "หมายเลขชิ้นส่วนจากผู้ผลิตจะใช้เพื่อระบุสินค้าของคุณบนรายการสินค้าทางตลาดซื้อขายสินค้าและโซเชียลโดยไม่ซ้ำใคร ใช้เฉพาะ MPN ที่กำหนดโดยผู้ผลิตเท่านั้น"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:53
+msgid "Marketplaces & Social"
+msgstr "ตลาดซื้อขายสินค้าและสื่อโซเชียล"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:217
+msgid "You haven't connected this sales channel yet."
+msgstr "คุณยังไม่ได้เชื่อมต่อกับช่องทางการขายนี้"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:221
+msgid "Connect Sales Channel"
+msgstr "เชื่อมต่อช่องทางการขาย"
+
+#. translators: Placeholders: %s: Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:245
+msgid "This product hasn't been listed on %s yet."
+msgstr "ผลิตภัณฑ์นี้ยังไม่ได้ลงประกาศขายบน %s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:250
+msgid "Create Draft Listing"
+msgstr "สร้างรายการฉบับร่าง"
+
+#. translators: Placeholders: %1$s - Opening <a> HTML link tag, %2$s - Closing </a> HTML link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:259
+msgid "A draft listing will be automatically created once the product meets the requirements below. %1$sLearn more about product sync%2$s"
+msgstr "รายการฉบับร่างจะถูกสร้างขึ้นโดยอัตโนมัติเมื่อสินค้าตรงตามข้อกำหนดข้างล่าง %1$sเรียนรู้เพิ่มเติมเกี่ยวกับการซิงค์สินค้า%2$s"
+
+#. translators: Placeholders: %1%s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:266
+msgid "The requirements below must be met in order to list this product. %1$sLearn more about product sync%2$s"
+msgstr "จะต้องปฏิบัติตามข้อกำหนดข้างล่างนี้ในการลงรายการผลิตภัณฑ์นี้ %1$sเรียนรู้เพิ่มเติมเกี่ยวกับการซิงค์สินค้า%2$s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:273
+msgctxt "Product property requirement"
+msgid "Simple or variable product (not virtual or downloadable)"
+msgstr "ผลิตภัณฑ์เรียบง่ายหรือชนิดที่มีหลากหลายแบบ (ไม่ใช่แบบเสมือนหรือดาวน์โหลดได้)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:274
+msgctxt "Product property requirement"
+msgid "Published product"
+msgstr "ผลิตภัณฑ์ที่เผยแพร่"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:275
+msgctxt "Product property requirement"
+msgid "Product SKU must be set"
+msgstr "จะต้องกำหนด SKU ของผลิตภัณฑ์"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:276
+msgctxt "Product property requirement"
+msgid "Manage stock enabled and stock quantity > 0"
+msgstr "เปิดใช้งานการจัดการสต็อกและปริมาณในสต็อก > 0"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:277
+msgctxt "Product property requirement"
+msgid "No backorders allowed"
+msgstr "ไม่อนุญาตให้สั่งซื้อสินค้าที่ไม่มีในสต็อก"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:278
+msgctxt "Product property requirement"
+msgid "Brand and Condition fields filled"
+msgstr "กรอกช่องแบรนด์และเงื่อนไข"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:319
+msgid "A draft listing has been created for this product on %s."
+msgstr "สร้างรายการฉบับร่างสำหรับสินค้านี้บน %s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:323
+msgid "View Draft Listing"
+msgstr "ดูรายการฉบับร่าง"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:347
+msgid "This product has been listed on %s."
+msgstr "ผลิตภัณฑ์นี้ลงประกาศขายบน %s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:350
+msgid "Edit Listing"
+msgstr "แก้ไขรายการธุรกิจ"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:195
+msgid "Manage Sales Channels"
+msgstr "จัดการช่องทางการขาย"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:228
+msgid "Marketplaces &amp; Social"
+msgstr "ตลาดซื้อขายสินค้าและโซเชียล"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:251
+msgid "Manage Listing Templates"
+msgstr "จัดการเทมเพลตการลงประกาศขาย"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:265
+msgid "You haven't added any sales channels yet. Add sales channels in order to post your listings on third party marketplaces and social platforms."
+msgstr "คุณยังไม่ได้เพิ่มช่องทางการขายใดๆ เพิ่มช่องทางการขายเพื่อโพสต์รายการของคุณในตลาดซื้อขายสินค้าภายนอกและแพลตฟอร์มโซเชียล"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:279
+msgctxt "Refreshes the page"
+msgid "Refresh"
+msgstr "รีเฟรช"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:286
+msgid "Add Sales Channel"
+msgstr "เพิ่มช่องทางการขาย"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:299
+msgid "Resources"
+msgstr "ทรัพยากร"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:300
+msgid "What is Marketplaces &amp; Social?"
+msgstr "ตลาดซื้อขายสินค้าและโซเชียลคืออะไร"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:302
+msgid "How to connect sales channels"
+msgstr "วิธีการเชื่อมต่อช่องทางการขาย"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:304
+msgid "What products are eligible for Marketplaces & Social sales channels?"
+msgstr "สินค้าใดที่สามารถขายในช่องทางการขายที่เป็นตลาดซื้อขายสินค้าและโซเชียลได้"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:119
+msgid "A non-empty settings parameter must be provided."
+msgstr "จะต้องระบุพารามิเตอร์การตั้งค่าที่ไม่ว่างเปล่า"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:124
+msgid "Each setting object must contain name and value keys."
+msgstr "แต่ละอ็อบเจ็กต์การตั้งค่าจะต้องมีชื่อและค่ากับคีย์"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:245
+msgid "Unique onboarding setting ID."
+msgstr "ID การตั้งค่าการเริ่มใช้งานที่ไม่ซ้ำกัน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:251
+msgid "Unique onboarding setting name (matches the ID)."
+msgstr "ชื่อการตั้งค่าการเริ่มใช้งานที่ไม่ซ้ำกัน (สอดคล้องกับ ID)"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:257
+msgid "Onboarding setting label."
+msgstr "ป้ายชื่อการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:263
+msgid "Onboarding setting description."
+msgstr "คำอธิบายการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:269
+msgid "A list of available options for the onboarding setting values."
+msgstr "รายการตัวเลือกที่สามารถใช้ได้สำหรับค่าในการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:278
+msgid "Onboarding setting default value."
+msgstr "ค่าเริ่มต้นในการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:284
+msgid "Onboarding setting value."
+msgstr "ค่าในการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:290
+msgid "Whether the onboarding setting can have multiple values."
+msgstr "การตั้งค่าการเริ่มใช้งานสามารถมีหลายค่าได้หรือไม่"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:296
+msgid "Whether the onboarding setting is required."
+msgstr "ต้องมีการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:302
+msgid "Onboarding setting group, if applicable."
+msgstr "กลุ่มการตั้งค่าการเริ่มใช้งาน ถ้ามี"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:308
+msgid "Onboarding setting control details."
+msgstr "รายละเอียดการควบคุมการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:314
+msgid "Onboarding setting control type."
+msgstr "ประเภทของการควบคุมการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:320
+msgid "A list of available options for the onboarding setting control."
+msgstr "รายการตัวเลือกที่สามารถใช้ได้สำหรับการควบคุมการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:329
+msgid "Optional input placeholder for the onboarding setting control."
+msgstr "ตัวยึดการป้อนข้อมูลเป็นตัวเลือกเสริมสำหรับการควบคุมการตั้งค่าการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/HomePage.php:33
+msgctxt "Title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "หน้าหลัก"
+
+#: src/Features/Onboarding/HomePage.php:34
+msgctxt "Menu title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "หน้าหลัก"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:23
+msgid "First time"
+msgstr "ครั้งแรก"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:48
+msgid "Store name"
+msgstr "ชื่อร้านค้า"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:61
+msgid "Store address 1"
+msgstr "ที่อยู่ร้านค้า 1"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:75
+msgid "Store address 2"
+msgstr "ที่อยู่ร้านค้า 2"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:89
+msgctxt "The country's region"
+msgid "Country Region"
+msgstr "ภูมิภาคในประเทศ"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:103
+msgid "City"
+msgstr "เมือง"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:117
+msgid "Postal code"
+msgstr "รหัสไปรษณีย์"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:131
+msgid "Currency"
+msgstr "สกุลเงิน"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:145
+msgid "Left aligned"
+msgstr "ชิดซ้าย"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:146
+msgid "Right aligned"
+msgstr "ชิดขวา"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:147
+msgid "Left aligned with space"
+msgstr "ชิดซ้ายและเว้นวรรค"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:148
+msgid "Right aligned with space"
+msgstr "ชิดขวาและเว้นวรรค"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:152
+msgid "Currency position"
+msgstr "จำนวนสกุลเงิน"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:171
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:228
+msgid "All countries"
+msgstr "ทุกประเทศ"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:172
+msgid "Sell to all countries, except for..."
+msgstr "ขายให้ทุกประเทศ ยกเว้น..."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:173
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:196
+msgid "Sell to specific countries"
+msgstr "ขายให้บางประเทศ"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:177
+msgid "Selling locations"
+msgstr "ตำแหน่งที่ขาย"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:211
+msgid "Sell to all countries except for"
+msgstr "ขายให้ทุกประเทศ ยกเว้น"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:227
+msgid "Ship to all countries you sell to"
+msgstr "จัดส่งทุกประเทศที่คุณขายให้"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:229
+msgid "Ship to specific countries only"
+msgstr "จัดส่งบางประเทศเท่านั้น"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:230
+msgid "Disable shipping & shipping calculations"
+msgstr "ปิดใช้งานการจัดส่งและการคำนวณค่าจัดส่ง"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:234
+msgid "Shipping locations"
+msgstr "ตำแหน่งที่จัดส่ง"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:253
+msgid "Ship to specific countries"
+msgstr "จัดส่งไปบางประเทศ"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:268
+msgid "Thousands separator"
+msgstr "เครื่องหมายคั่นหลักพัน"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:282
+msgid "Decimal separator"
+msgstr "จุดทศนิยม"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:296
+msgid "Number of decimals"
+msgstr "จำนวนตำแหน่งทศนิยม"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:310
+msgid "Kilograms"
+msgstr "กิโลกรัม"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:311
+msgid "Grams"
+msgstr "กรัม"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:312
+msgid "Pounds"
+msgstr "ปอนด์"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:313
+msgid "Ounces"
+msgstr "ออนซ์"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:317
+msgid "Weight units"
+msgstr "หน่วยของน้ำหนัก"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:336
+msgid "Meters"
+msgstr "เมตร"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:337
+msgid "Centimeters"
+msgstr "เซนติเมตร"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:338
+msgid "Millimeters"
+msgstr "มิลลิเมตร"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:339
+msgid "Inches"
+msgstr "นิ้ว"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:340
+msgid "Yards"
+msgstr "หลา"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:344
+msgid "Dimension units"
+msgstr "หน่วยของขนาด"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:363
+msgid "Enable taxes"
+msgstr "เปิดใช้งานภาษี"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:377
+msgid "Last onboarding step"
+msgstr "ขั้นตอนสุดท้ายในการเริ่มใช้งาน"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:390
+msgid "Completed"
+msgstr "สำเร็จเรียบร้อย"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:406
+msgid "Store selector dismissed"
+msgstr "ยกเลิกระบบเลือกร้านค้า"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:421
+msgid "Dismissed"
+msgstr "ยกเลิกแล้ว"
+
+#: src/Features/Onboarding/Settings/Settings.php:25
+msgid "Onboarding"
+msgstr "เริ่มใช้งาน"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:43
+msgid "Order Numbers"
+msgstr "หมายเลขคำสั่งซื้อ"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:60
+msgid "Starting number"
+msgstr "ตัวเลขตั้งต้น"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:70
+msgid "Prefix"
+msgstr "คำนำหน้า"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:80
+msgid "Suffix"
+msgstr "ส่วนต่อท้าย"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:90
+msgid "Skip free orders"
+msgstr "ข้ามคำสั่งซื้อฟรี"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:100
+msgid "Free order identifier"
+msgstr "ตัวระบุคำสั่งซื้อฟรี"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:176
+msgid "Company name."
+msgstr "ชื่อบริษัท"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:182
+msgid "Country code."
+msgstr "รหัสประเทศ"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:188
+msgid "Connection status."
+msgstr "สถานการเชื่อมต่อ"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:313
+msgid "The shipment object associated with the shipping label."
+msgstr "อ็อบเจ็กต์การจัดส่งที่เชื่อมโยงกับป้ายชื่อสำหรับการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:317
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:255
+msgid "The shipment ID."
+msgstr "ID การจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:323
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:261
+msgid "The shipment's creation date."
+msgstr "วันที่สร้างการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:329
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:267
+msgid "The shipment's last updated date."
+msgstr "วันที่อัปเดตการจัดส่งล่าสุด"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:335
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:273
+msgid "The shipping provider for the shipment."
+msgstr "ผู้ให้บริการจัดส่งสำหรับการจัดส่งนี้"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:340
+msgid "The label for a custom shipping provider."
+msgstr "ป้ายชื่อสำหรับผู้ให้บริการจัดส่งที่กำหนดเอง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:345
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:283
+msgid "The shipment's tracking number."
+msgstr "หมายเลขการติดตามการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:350
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:288
+msgid "The shipment's tracking URL."
+msgstr "URL การติดตามของการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:355
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:293
+msgid "The rate associated with the shipment."
+msgstr "อัตราค่าธรรมเนียมที่เกี่ยวข้องกับการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:360
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:298
+msgid "The label associated with shipment."
+msgstr "ป้ายชื่อที่เกี่ยวข้องกับการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:365
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:303
+msgid "The items included in the shipment."
+msgstr "รายการสินค้าที่รวมอยู่ในการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:371
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:309
+msgid "The item's ID."
+msgstr "ID สินค้า"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:376
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:314
+msgid "The product's ID."
+msgstr "ID ผลิตภัณฑ์"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:381
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:319
+msgid "The product's variation ID."
+msgstr "ID ประเภทของผลิตภัณฑ์"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:386
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:324
+msgid "The item's quantity."
+msgstr "จำนวนสินค้า"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:399
+msgid "The shipping label returned by the shipping provider."
+msgstr "ป้ายชื่อสำหรับการจัดส่งที่ส่งกลับโดยผู้ให้บริการจัดส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:251
+msgid "The shipment object associated with the shipping rates."
+msgstr "อ็อบเจ็กต์การจัดส่งที่เกี่ยวข้องกับอัตราค่าส่ง"
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:278
+msgctxt "Display title, not physical label"
+msgid "The label for a custom shipping provider."
+msgstr "ป้ายชื่อสำหรับผู้ให้บริการจัดส่งที่กำหนดเอง"
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:337
+msgid "The shipping rates returned by the shipping provider."
+msgstr "ค่าจัดส่งที่ส่งกลับโดยผู้ให้บริการจัดส่ง"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:43
+msgid "Phone number"
+msgstr "หมายเลขโทรศัพท์"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:44
+msgid "The phone number of your business."
+msgstr "หมายเลขโทรศัพท์ของธุรกิจของคุณ"
+
+#: src/Features/Shipping/Interceptors/RedirectToShippingDashboardInterceptor.php:157
+msgctxt "GoDaddy name sent as brand name for the ShipEngine integration"
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/Features/Shipping/Interceptors/ShippingLabelsSettingsSectionInterceptor.php:82
+msgid "Shipping labels"
+msgstr "ป้ายชื่อในการจัดส่ง"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:32
+msgid "ShipEngine isn't available in your region"
+msgstr "ShipEngine ไม่สามารถใช้งานได้ในภูมิภาคของคุณ"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:46
+msgid "To benefit from streamlined shipping and label printing, please ensure your store is located in the US, UK, Canada, or Australia."
+msgstr "เพื่อให้ได้ประโยชน์จากการจัดส่งและการพิมพ์ป้ายชื่อที่สะดวกรวดเร็ว ขอให้แน่ใจว่าร้านค้าของคุณตั้งอยู่ในสหรัฐฯ สหราชอาณาจักร แคนาดา หรือออสเตรเลีย"
+
+#: src/Features/Shipping/Providers/ShipEngine/ShipEngineProvider.php:34
+msgctxt "shipping provider name"
+msgid "ShipEngine"
+msgstr "ShipEngine"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:150
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:359
+msgid "User does not have permission to manage WooCommerce"
+msgstr "ผู้ใช้ไม่ได้รับอนุญาตให้จัดการ WooCommerce"
+
+#. translators: Placeholders: %s - error message from the MWC API
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:166
+msgid "Could not create connection: %s"
+msgstr "ไม่สามารถสร้างการเชื่อมต่อได้: %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:172
+msgid "No redirect available"
+msgstr "ไม่มีการเปลี่ยนเส้นทางที่ใช้ได้"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:497
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:507
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:90
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:63
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:177
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:109
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "เกิดข้อผิดพลาด โปรดลองอีกครั้งหรือลองชำระเงินในรูปแบบอื่น"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:505
+msgid "An error occurred while processing the payment: "
+msgstr "เกิดข้อผิดพลาดขณะดำเนินการกับการชำระเงิน: "
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:546
+msgid "Payment method successfully added."
+msgstr "เพิ่มช่องทางการชำระเงินเรียบร้อยแล้ว"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:548
+msgid "Unable to add payment method to your account. Please try again."
+msgstr "ไม่สามารถเพิ่มช่องทางการชำระเงินในบัญชีของคุณได้ โปรดลองอีกครั้ง"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:585
+msgid "Payment method could not be saved. %s"
+msgstr "ไม่สามารถบันทึกช่องทางการชำระเงินได้ %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:639
+msgid "Payment method updated."
+msgstr "อัปเดตช่องทางการชำระเงินแล้ว"
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:72
+msgid "Included WooCommerce Extensions"
+msgstr "ส่วนขยายเพิ่มเติมของ WooCommerce ที่รวมไว้ให้"
+
+#. translators: Placeholder: %s - captured amount
+#: src/Payments/Adapters/CaptureTransactionOrderNoteAdapter.php:24
+msgid "A payment of %s was successfully captured via GoDaddy Payments Hub"
+msgstr "การชำระเงิน %s เข้าสู่ระบบเรียบร้อยแล้วผ่านฮับ GoDaddy Payments"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "เราไม่สามารถดำเนินการตามคำสั่งซื้อของคุณได้ด้วยข้อมูลการชำระเงินที่คุณแจ้งไว้ โปรดใช้บัญชีอื่นในการชำระเงินหรือใช้ช่องทางการชำระเงินอื่น"
+
+#. translators: Placeholders: %1$s - card brand, %2$s - last 4 card numbers, %3$s - expiration month, %4$s - expiration year
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:32
+msgid " %1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr " %1$s ที่ลงท้ายด้วย %2$s (หมดอายุ %3$s/%4$s)"
+
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:33
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:34
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:181
+msgid "Card"
+msgstr "บัตรเครดิต"
+
+#. translators: Placeholder: %s - refunded amount
+#: src/Payments/Adapters/RefundTransactionOrderNoteAdapter.php:24
+msgid "A refund of %s was successfully processed via GoDaddy Payments Hub"
+msgstr "การคืนเงิน %s ดำเนินการเรียบร้อยแล้วผ่าน GoDaddy Payments Hub"
+
+#. translators: Placeholder: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "Transaction ID %s"
+msgstr "ID ธุรกรรม %s"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:54
+msgid "Result: [%1$s] %2$s"
+msgstr "ผลลัพธ์: [%1$s] %2$s"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction info (if applicable, or empty string)
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:86
+msgid "%1$s %2$s in the amount of %3$s%4$s"
+msgstr "%2$s ของ %1$s เป็นจำนวน %3$s%4$s"
+
+#. translators: Placeholders: %s - the total amount of the capture that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:26
+msgid "A payment capture of %s was successfully voided"
+msgstr "การนำจำนวนเงินที่ชำระเข้าสู่ระบบเป็นจำนวน %s ถูกยกเลิกเรียบร้อยแล้ว"
+
+#. translators: Placeholders: %s - the total amount of the refund that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:33
+msgid "A refund of %s was successfully voided"
+msgstr "ยกเลิกการคืนเงินจำนวน %s เรียบร้อยแล้ว"
+
+#: src/Payments/API/Controllers/CartController.php:261
+msgid "Coupons are disabled."
+msgstr "คูปองถูกปิดใช้งาน"
+
+#: src/Payments/API/Controllers/CartController.php:285
+msgid "Invalid coupon code."
+msgstr "รหัสคูปองไม่ถูกต้อง"
+
+#: src/Payments/API/Controllers/CartController.php:291
+msgid "Coupon cannot be applied."
+msgstr "ไม่สามารถใช้คูปองได้"
+
+#: src/Payments/API/Controllers/CartController.php:310
+msgid "Coupon cannot be applied. %s"
+msgstr "ไม่สามารถใช้คูปองได้ %s"
+
+#: src/Payments/API/Controllers/CartController.php:356
+msgid "Invalid customer data"
+msgstr "ข้อมูลลูกค้าไม่ถูกต้อง"
+
+#: src/Payments/API/Controllers/CartController.php:381
+msgid "Invalid email address"
+msgstr "ที่อยู่อีเมลไม่ถูกต้อง"
+
+#. translators: Placeholder: %s - either 'billing' or 'shipping'
+#: src/Payments/API/Controllers/CartController.php:408
+msgid "Invalid %s address"
+msgstr "ที่อยู่%sไม่ถูกต้อง"
+
+#: src/Payments/API/Controllers/CartController.php:450
+msgid "Orders aren't accepted from this location"
+msgstr "ไม่รับคำสั่งซื้อจากตำแหน่งที่ตั้งนี้"
+
+#: src/Payments/API/Controllers/CartController.php:523
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:258
+msgid "WooCommerce is not available"
+msgstr "WooCommerce ไม่พร้อมใช้งาน"
+
+#: src/Payments/API/Controllers/CartController.php:578
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:325
+msgid "Invalid products data."
+msgstr "ข้อมูลผลิตภัณฑ์ไม่ถูกต้อง"
+
+#: src/Payments/API/Controllers/CartController.php:648
+msgid "Coupon code to apply to the cart."
+msgstr "รหัสคูปองที่จะใช้กับตะกร้าสินค้า"
+
+#: src/Payments/API/Controllers/CartController.php:654
+msgid "Cart customer data."
+msgstr "ข้อมูลลูกค้าที่ใช้ตะกร้าสินค้า"
+
+#: src/Payments/API/Controllers/CartController.php:756
+msgid "Products to add to the cart."
+msgstr "สินค้าที่จะเพิ่มในตะกร้าสินค้า"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:243
+msgid "The order ID."
+msgstr "ID คำสั่งซื้อ"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:249
+msgid "The URL to redirect the customer to."
+msgstr "URL ที่จะเปลี่ยนเส้นทางของลูกค้าไปหา"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:187
+msgid "Order total, based on cart total."
+msgstr "ยอดรวมคำสั่งซื้อ คิดจากยอดรวมของตะกร้าสินค้า"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:201
+msgid "2-letter ISO 3166 country code."
+msgstr "รหัสประเทศแบบ 2 ตัวอักษร ISO 3166"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:207
+msgid "3-letter ISO 4217 currency code."
+msgstr "รหัสสกุลเงินแบบ 3 ตัวอักษร ISO 4217"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:213
+msgid "Name of the merchant."
+msgstr "ชื่อผู้ค้า"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:219
+msgid "The shipping type based on the chosen shipping method."
+msgstr "ประเภทการจัดส่งขึ้นอยู่กับวิธีการจัดส่งที่เลือก"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:230
+msgid "Shipping methods for the payment request."
+msgstr "วิธีการจัดส่งสำหรับคำขอให้ชำระเงิน"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:239
+msgid "Items in the order."
+msgstr "รายการสินค้าในคำสั่งซื้อ"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:256
+msgid "Whether to require customer email."
+msgstr "จะต้องการอีเมลลูกค้าหรือไม่"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:262
+msgid "Whether to require customer phone."
+msgstr "จะต้องการโทรศัพท์ของลูกค้าหรือไม่"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:268
+msgid "Whether to require customer shipping address."
+msgstr "จะต้องการที่อยู่สำหรับจัดส่งของลูกค้าหรือไม่"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:274
+msgid "Whether the customer should be allowed to enter coupons."
+msgstr "ควรให้ลูกค้าป้อนข้อมูลคูปองได้หรือไม่"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:280
+msgid "A list of wallets to disable."
+msgstr "รายการกระเป๋าเงินที่จะปิดใช้งาน"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:160
+msgid "Application ID."
+msgstr "ID การสมัครใช้งาน"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:166
+msgid "Business ID."
+msgstr "ID ธุรกิจ"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:172
+msgid "List of available features."
+msgstr "รายการคุณสมบัติพิเศษที่ใช้ได้"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:186
+msgid "Whether the payment gateway is enabled."
+msgstr "เปิดใช้งานเกตเวย์การชำระเงินหรือไม่"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:192
+msgid "Payment gateway connection status."
+msgstr "สถานะการเชื่อมต่อเกตเวย์การชำระเงิน"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:210
+msgid "Nonce for switching accounts."
+msgstr "ค่าสำหรับการเปลี่ยนบัญชี"
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:224
+msgid "Invalid phone number."
+msgstr "หมายเลขโทรศัพท์ไม่ถูกต้อง"
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:271
+msgid "The remote parent ID in the request does not match the remote parent ID of the order."
+msgstr "ID หลักระยะไกลในคำขอไม่สอดคล้องกับ ID หลักระยะไกลของคำสั่งซื้อ"
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:368
+msgid "Invalid order ID."
+msgstr "ID คำสั่งซื้อไม่ถูกต้อง"
+
+#. translators: Placeholders: %s - a payment provider name, such as poynt
+#: src/Payments/API/Controllers/ProviderProcessingController.php:389
+msgid "Provider %s not found."
+msgstr "ไม่พบผู้ให้บริการ %s"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Invalid nonce"
+msgstr "ค่าไม่ถูกต้อง"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Missing nonce"
+msgstr "ค่าขาดหาย"
+
+#. translators: Placeholder: %d - error code
+#: src/Payments/DataSources/WooCommerce/Adapters/CartOrderAdapter.php:206
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "ข้อผิดพลาด %d: ไม่สามารถสร้างคำสั่งซื้อได้ โปรดลองอีกครั้ง"
+
+#: src/Payments/DataStores/WooCommerce/OrderPaymentTransactionDataStore.php:38
+#: src/WooCommerce/Payments/VirtualTerminal.php:121
+msgid "Virtual Terminal"
+msgstr "Virtual Terminal"
+
+#. translators: Placeholder: %s - payment method name
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:271
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:277
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "ชำระเงินในหน้าชำระเงินของ WooCommerce โดย \"%s\""
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:760
+msgid "Tip"
+msgstr "เคล็ดลับ"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:765
+msgid "Cashback"
+msgstr "เครดิตเงินคืน"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:796
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "ยอดเงิน %1$s เป็นจำนวน %2$s เพิ่มในคำสั่งซื้อโดย Smart Terminal ของ GoDaddy Payments"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:940
+msgid "From GoDaddy Payments Hub. Order fully refunded."
+msgstr "จากฮับ GoDaddy Payments คำสั่งซื้อได้คืนเงินเต็มจำนวน"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:943
+msgid "From GoDaddy Payments Hub. Order partially refunded."
+msgstr "จากฮับ GoDaddy Payments คำสั่งซื้อได้คืนเงินบางส่วน"
+
+#. translators: Placeholders: %1$s - date, %2$s time
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:347
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "คำสั่งซื้อที่ทำเครื่องหมายว่าพร้อมบนเทอร์มินัลเมื่อ %1$s เวลา %2$s"
+
+#: src/Payments/Poynt/Http/Adapters/CardPaymentMethodAdapter.php:131
+msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+msgstr "ที่อยู่สำหรับเรียกเก็บเงินของคุณไม่ตรงกับข้อมูลการชำระเงินที่ให้ไว้ โปรดอัปเดตที่อยู่สำหรับเรียกเก็บเงินเพื่อส่งคำสั่งซื้อ"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:90
+msgid "Coupon code"
+msgstr "รหัสคูปอง"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:171
+msgid "Subtotal"
+msgstr "มูลค่าสินค้า"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:177
+msgid "Discount"
+msgstr "ส่วนลด"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:183
+msgid "Shipping"
+msgstr "การจัดส่ง"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:264
+msgid "Wallet payments cannot be used for carts with multiple shipments."
+msgstr "การชำระเงินทางกระเป๋าเงินไม่สามารถใช้ได้สำหรับตระกร้าสินค้าที่มีการแยกจัดส่งหลายรายการ"
+
+#. translators: %1$s: payment gateway name
+#: src/Payments/Poynt/OrderSynchronization.php:336
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "ธุรกรรมที่ WooCommerce คืนเงินทาง %1$s"
+
+#: src/Payments/Poynt/OrderSynchronization.php:338
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "ธุรกรรมที่ WooCommerce คืนเงินด้วยตนเอง"
+
+#: src/Payments/Poynt/ViewOrderPage.php:51
+msgid "Order is ready for pickup."
+msgstr "คำสั่งซื้อพร้อมให้รับสินค้าแล้ว"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:33
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "จะส่งอีเมลแจ้งการจัดส่งสินค้าถึงลูกค้าเมื่อเพิ่มข้อมูลการติดตามสำหรับสินค้าหนึ่งรายการขึ้นไปในคำสั่งซื้อ"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:56
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "สินค้าจาก {site_title} คำสั่งซื้อ #{order_number} จัดส่งแล้ว!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:64
+msgid "Your package is on the way!"
+msgstr "พัสุดของคุณอยู่ระหว่างทาง!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:72
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "โปรดทราบว่าอาจใช้เวลาระยะหนึ่งกว่าผู้ให้บริการจัดส่งจะอัปเดตข้อมูลติดตามการจัดส่ง"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:46
+msgid "Ready for pickup"
+msgstr "พร้อมให้รับสินค้าแล้ว"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:47
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "อีเมลแจ้งว่าพร้อมให้รับสินค้าแล้วจะส่งถึงลูกค้าเมื่อคำสั่งซื้อถูกทำเครื่องหมายว่าพร้อมให้รับสินค้าแล้ว"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:60
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "คำสั่งซื้อที่ {site_title} ของคุณพร้อมให้รับสินค้าแล้ว!"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:70
+msgid "Order ready for pickup!"
+msgstr "สินค้าที่สั่งซื้อพร้อมให้รับแล้ว"
+
+#: src/WooCommerce/ExtensionsTab.php:174
+msgid "GoDaddy Included"
+msgstr "รวม GoDaddy"
+
+#: src/WooCommerce/Pages/EditOrder/Metaboxes/ShipmentTrackingMetabox.php:35
+msgid "Shipment Tracking"
+msgstr "การติดตามการจัดส่ง"
+
+#. translators: Placeholder: %s - payment gateway method title
+#: src/WooCommerce/Payments/AbstractPaymentGateway.php:635
+msgid "%s Virtual Terminal"
+msgstr "%s Virtual Terminal"
+
+#: src/WooCommerce/Payments/Captures.php:93
+msgid "No gateway found for order"
+msgstr "ไม่พบเกตเวย์สำหรับคำสั่งซื้อ"
+
+#: src/WooCommerce/Payments/Captures.php:195
+#: src/WooCommerce/Payments/Captures.php:317
+msgid "Capture Charge"
+msgstr "นำจำนวนเงินที่เรียกเก็บเข้าสู่ระบบ"
+
+#: src/WooCommerce/Payments/Captures.php:309
+msgid "This charge has been fully captured"
+msgstr "จำนวนเงินที่เรียกเก็บเข้าสู่ระบบทั้งหมดแล้ว"
+
+#: src/WooCommerce/Payments/Captures.php:327
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการดำเนินการจำนวนนี้เข้าสู่ระบบ การดำเนินการนี้จะไม่สามารถยกเลิกได้"
+
+#: src/WooCommerce/Payments/Captures.php:328
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "เกิดเหตุขัดข้อง และไม่สามารถนำจำนวนเงินที่เรียกเก็บเข้าสู่ระบบได้เสร็จสมบูรณ์ โปรดลองอีกครั้ง"
+
+#. translators: Placeholders: %1s - the provider label, %2s - the payment method brand label, %3$s - the last four digits of the customer's credit card
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:32
+msgid "%1s transaction declined due to billing address mismatch for %2s ending in %3$s."
+msgstr "การทำรายการกับ %1s ถูกปฏิเสธเนื่องจากที่อยู่เรียกเก็บไม่ตรงกันสำหรับ %2s ที่ลงท้ายด้วย %3$s"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:112
+msgid "Status"
+msgstr "สถานะ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:235
+msgid "Remove"
+msgstr "นำออก"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:237
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:389
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:397
+msgid "Manage"
+msgstr "จัดการ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:252
+msgid "Your Stripe account needs to be set up."
+msgstr "ต้องตั้งค่าบัญชี Stripe ของคุณ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:255
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:284
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:297
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1335
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:256
+msgid "Connected to your Stripe account."
+msgstr "เชื่อมต่อกับบัญชี Stripe แล้ว"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:259
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:311
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1341
+msgid "Disconnected"
+msgstr "ยกเลิกการเชื่อมต่อแล้ว"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:260
+msgid "Please reconnect your Stripe account."
+msgstr "โปรดเชื่อมต่อกับบัญชี Stripe อีกครั้ง"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:263
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:325
+msgid "Pending"
+msgstr "กำลังดำเนินการ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:285
+msgid "Connected to your terminal to Sell in Person."
+msgstr "เชื่อมต่อเทอร์มินัลของคุณกับการขายแบบพบหน้าแล้ว"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:289
+msgid "Recommended"
+msgstr "แนะนำ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:292
+msgid "Click set up to get started."
+msgstr "คลิกตั้งค่าเพื่อเริ่มใช้งาน"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:299
+msgid "Connect your terminal to Sell in Person."
+msgstr "เชื่อมต่อเทอร์มินัลของคุณกับการขายแบบพบหน้า"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:300
+msgid "Connected to your GoDaddy Payments account."
+msgstr "เชื่อมต่อกับบัญชี GoDaddy Payments ของคุณแล้ว"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:303
+msgid "Connecting"
+msgstr "กำลังเชื่อมต่อ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:304
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "อาจใช้เวลาสักครู่ โปรดรีเฟรชเพื่อตรวจสอบ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:307
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:329
+msgid "Not available"
+msgstr "ไม่มีให้ใช้งาน"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:308
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "ขอบคุณที่สมัครใช้งาน แต่เราไม่สามารถดำเนินการชำระเงินให้แก่ธุรกิจของคุณได้"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:312
+msgid "Your account has been closed."
+msgstr "บัญชีของคุณถูกปิดแล้ว"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:315
+msgid "Incomplete"
+msgstr "ไม่สมบูรณ์"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:316
+msgid "Click Resume to complete your application."
+msgstr "คลิกกลับสู่การทำงานเพื่อให้การสมัครใช้งานเสร็จสมบูรณ์"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:321
+msgid "Needs attention"
+msgstr "ต้องให้ความสนใจ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:322
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:326
+msgid "Please check your email for next steps."
+msgstr "โปรดตรวจสอบอีเมลของคุณเพื่อดูขั้นตอนต่อไป"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:388
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:396
+msgid "Manage the \"%s\" payment method"
+msgstr "จัดการช่องทางการชำระเงิน \"%s\""
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:392
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:399
+msgid "Set up the \"%s\" payment method"
+msgstr "ตั้งค่าช่องทางการชำระเงิน \"%s\""
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:448
+msgid "Have a question? %1$sAsk the GoDaddy Team%3$s%2$s"
+msgstr "มีคำถามใช่ไหม %1$sถามทีม GoDaddy%3$s%2$s"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:451
+msgid "E-mail icon"
+msgstr "ไอคอนอีเมล"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:476
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:489
+msgid "Set up GoDaddy Payments"
+msgstr "ตั้งค่า GoDaddy Payments"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:483
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "คุณกำลังจะเปิดหน้าสมัครใช้งานบัญชี GoDaddy Payments อีกสักครู่ คุณจะกลับมาที่นี่เพื่อเปิดใช้งานการชำระเงินที่ปลอดภัยในหน้าชำระเงินของคุณ"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:488
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:212
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1211
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. translators: Divider between the Wallet buttons and "Add to Cart"
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout.php:123
+msgid "or"
+msgstr "หรือ"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:91
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:64
+msgid "Missing card details."
+msgstr "ขาดรายละเอียดบัตร"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:92
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:65
+msgid "Missing billing details."
+msgstr "ขาดรายละเอียดการเรียกเก็บ"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:211
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:311
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:213
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "ขออภัย เกิดข้อผิดพลาดในการอัปเดตช่องทางการชำระเงินของคุณ โปรดลองอีกครั้ง"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:214
+msgid "Are you sure you want to delete this payment method?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบวิธีการชำระเงินนี้"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:315
+msgid "Save"
+msgstr "บันทึก"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:335
+msgid "Title"
+msgstr "ชื่อเรื่อง"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:336
+msgid "Details"
+msgstr "รายละเอียด"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:338
+msgid "Default?"
+msgstr "ค่าเริ่มต้นใช่ไหม"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:527
+msgid "Invalid token ID"
+msgstr "ID โทเค็นไม่ถูกต้อง"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:192
+msgid "Manage Payment Methods"
+msgstr "จัดการช่องทางการชำระเงิน"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:215
+msgid "Use a new payment method"
+msgstr "ใช้ช่องทางการชำระเงินใหม่"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:278
+msgid "Securely Save to Account"
+msgstr "บันทึกลงบัญชีอย่างปลอดภัย"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:43
+msgid "Nickname"
+msgstr "ชื่อเล่น"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:28
+msgid "expires %s"
+msgstr "หมดอายุ %s"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:88
+msgid "Let your customers buy online and pay in person with orders synced to your GoDaddy Smart Terminal. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "ให้ลูกค้าซื้อออนไลน์และชำระเงินแบบพบหน้าได้ด้วยคำสั่งซื้อที่ซิงค์กับ Smart Terminal ของ GoDaddy รับชำระเงินอย่างรวดเร็วด้วยเงินที่ฝากเข้าในวันทำการถัดไป %1$sเงื่อนไขเป็นไปตามข้อกำหนดของ GoDaddy Payments%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:910
+msgid "Pay in Person"
+msgstr "ชำระเงินแบบพบปะกัน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:95
+msgid "Customers can buy online and pay in person with orders synced to your Terminals."
+msgstr "ลูกค้าสามารถซื้อออนไลน์และชำระเงินแบบพบหน้าได้ด้วยคำสั่งซื้อที่ซิงค์กับ Terminal ของคุณ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:228
+msgid "Payment to be made upon delivery."
+msgstr "จะชำระเงินเมื่อจัดส่ง"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:297
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+#: src/WooCommerce/Payments/StripeGateway.php:283
+msgid "Return to payments"
+msgstr "กลับไปที่การชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:310
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sซื้อสินค้าด้วย Smart Terminal%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:319
+msgid "%1$sDevices%2$s"
+msgstr "%1$sอุปกรณ์%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:325
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sแคตาล็อก%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:331
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sปรับแต่งเทมเพลต%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:349
+msgid "Smart Terminal"
+msgstr "เทอร์มินัลอัจฉริยะ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:350
+msgid "Dual screens for smoother selling."
+msgstr "หน้าจอคู่สำหรับการขายที่ราบรื่นขึ้น"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:351
+msgid "Our dual screens make checkout a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "หน้าจอคู่ของเราทำให้การชำระเงินเป็นเรื่องง่าย ไม่เพียงเท่านั้น เทอร์มินัลแบบครบวงจรของเรายังมีระบบประมวลผลการชำระเงิน สแกนเนอร์ เครื่องพิมพ์ ระบบรักษาความปลอดภัยในตัว และอื่นๆ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:359
+msgid "Free"
+msgstr "ฟรี"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:360
+msgid "2-day shipping."
+msgstr "การจัดส่งใน 2 วัน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:363
+msgid "Learn More"
+msgstr "เรียนรู้เพิ่มเติม"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:374
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:816
+msgid "Enable Selling in Person"
+msgstr "เปิดใช้งานการขายแบบพบหน้า"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:823
+msgid "Checkout title"
+msgstr "ชื่อหน้าชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:825
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:522
+msgid "Payment method title that the customer will see during checkout."
+msgstr "ชื่อช่องทางการชำระเงินที่ลูกค้าจะเห็นระหว่างชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:829
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:179
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:181
+#: src/WooCommerce/Shipping/LocalPickup.php:118
+msgid "Checkout description"
+msgstr "คำอธิบายหน้าชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:831
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:528
+msgid "Payment method description that the customer will see during checkout."
+msgstr "คำอธิบายช่องทางการชำระเงินที่ลูกค้าจะเห็นระหว่างชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:836
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:187
+msgid "Order received instructions"
+msgstr "คำแนะนำเมื่อได้รับคำสั่งซื้อ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:839
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "ข้อความที่ลูกค้าจะได้เห็นในหน้าคำสั่งซื้อที่ได้รับและในอีเมลดำเนินการตามคำสั่งซื้อหลังจากชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:843
+msgid "Enable for Shipping Methods"
+msgstr "เปิดใช้งานสำหรับช่องทางการชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:849
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "เลือกวิธีการจัดส่งที่จะแสดงช่องทางการชำระเงินนี้สำหรับลูกค้าในระหว่างชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:851
+msgid "Select Shipping Methods"
+msgstr "เลือกช่องทางการชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:871
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "ต้องเลือกวิธีการจัดส่งอย่างน้อยหนึ่งตัวเลือกเพื่อเปิดใช้งานการขายแบบพบหน้า"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:886
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "ชำระเงินค่าสินค้าที่สั่งซื้อด้วยตนเองเมื่อไปรับหรือเมื่อจัดส่ง"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:898
+msgid "We accept major credit/debit cards and cash."
+msgstr "เรารับบัตรเครดิต/เดบิตชั้นนำและเงินสด"
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:941
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (#%2$s)"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "Other locations"
+msgstr "ตำแหน่งอื่นๆ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1020
+msgid "Local Pickup Plus method"
+msgstr "วิธีการ Local Pickup Plus"
+
+#. translators: Placeholders: %1$s - Shipping Method name (for example FedEx, UPS or Local Pickup, etc.)
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1022
+msgid "Any \"%1$s\" method"
+msgstr "วิธีการ \"%1$s\" ใดๆ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1203
+msgid "Are you sure you want to move this product to trash?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการย้ายผลิตภัณฑ์นี้ไปที่ถังขยะ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1206
+msgid "Are you sure you want to move this product to trash? Removing a synced product will also delete it from the In-Person catalog."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการย้ายผลิตภัณฑ์นี้ไปที่ถังขยะ การลบสินค้าที่ซิงค์จะเป็นการลบออกจากแคตาล็อกสำหรับขายแบบพบหน้าด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1212
+msgid "Move to Trash"
+msgstr "ย้ายไปที่ถังขยะ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1243
+msgid "This product is synced from the In-Person Catalog"
+msgstr "ผลิตภัณฑ์นี้ซิงค์จากแคตาล็อกสำหรับขายแบบพบหน้า"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1247
+msgid "This product is synced to the In-Person Catalog"
+msgstr "ผลิตภัณฑ์นี้ซิงค์ไปยังแคตาล็อกสำหรับขายแบบพบหน้า"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1346
+msgid "One or more products in your catalog failed to sync. Please enable debug logging or reach out to %1$sour Care team%2$s for help."
+msgstr "สินค้าหนึ่งรายการขึ้นไปในแคตาล็อกของคุณไม่สามารถซิงค์ได้ โปรดเปิดใช้งานการบันทึกการแก้จุดบกพร่องหรือติดต่อ%1$sทีมดูแลลูกค้าของเรา%2$sเพื่อขอความช่วยเหลือ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1407
+msgid "%1$s has been removed. Products will no longer be synced to this catalog. To remove any products already synced you must delete them manually."
+msgstr "ลบ %1$s แล้ว ผลิตภัณฑ์จะไม่ซิงค์กับแคตาล็อกนี้อีกต่อไป หากจะถอดผลิตภัณฑ์ที่ซิงค์แล้วออก คุณต้องลบออกด้วยตนเอง"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1433
+msgid "In-Person product sync to WooCommerce has been disabled. Products will no longer sync to WooCommerce. To remove any products already synced you must delete them manually."
+msgstr "การซิงค์สินค้าที่ขายแบบพบหน้ากับ WooCommerce ถูกปิดใช้งาน ผลิตภัณฑ์จะไม่ซิงค์กับ WooCommerce อีกต่อไป หากจะถอดผลิตภัณฑ์ที่ซิงค์แล้วออก คุณต้องลบออกด้วยตนเอง"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1447
+msgid "%1$s has been removed from Selling In-Person. This catalog will no longer sync to WooCommerce"
+msgstr "ลบ %1$s ออกจากการขายแบบพบหน้าแล้ว แคตาล็อกนี้จะไม่ซิงค์กับ WooCommerce อีกต่อไป"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1514
+msgid "In-Person Catalog Sync"
+msgstr "การซิงค์แคตาล็อกสำหรับขายแบบพบหน้า"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1518
+msgid "Sync your WooCommerce products with In-Person catalog(s). %1$sLearn more%2$s"
+msgstr "ซิงค์สินค้าใน WooCommerce ของคุณกับแคตาล็อกสำหรับขายแบบพบหน้า %1$sเรียนรู้เพิ่มเติม%2$s"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1527
+msgid "Sync WooCommerce products to In-Person"
+msgstr "ซิงค์สินค้าใน WooCommerce กับสินค้าที่ขายแบบพบหน้า"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1533
+msgid "Basic WooCommerce product data is pushed to the selected In-Person catalog(s) for simple products."
+msgstr "ข้อมูลผลิตภัณฑ์พื้นฐานของ WooCommerce จะแสดงในแคตาล็อกสำหรับขายแบบพบหน้าที่เลือกสำหรับผลิตภัณฑ์ทั่วไป"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1544
+msgid "To sync to In-Person you must have at least one catalog selected."
+msgstr "หากจะซิงค์กับการขายแบบพบหน้า คุณต้องเลือกแคตาล็อกอย่างน้อยหนึ่งรายการ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1552
+msgid "Sync In-Person products to WooCommerce"
+msgstr "ซิงค์สินค้าที่ขายแบบพบหน้ากับ WooCommerce"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1558
+msgid "Product data is fetched from the selected In-Person catalog(s). Sync excludes products with custom prices or \"any combination\" modifiers."
+msgstr "ข้อมูลผลิตภัณฑ์เรียกจากแคตาล็อกสินค้าที่ขายแบบพบหน้าที่เลือก การซิงค์จะไม่รวมผลิตภัณฑ์ที่มีราคาที่กำหนดเองหรือระบบปรับเปลี่ยน \"แบบผสมใดๆ\""
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1568
+msgid "To sync to WooCommerce you must have at least one catalog selected."
+msgstr "หากจะซิงค์กับ WooCommerce คุณต้องเลือกแคตาล็อกอย่างน้อยหนึ่งรายการ"
+
+#. translators: Placeholder: %s - the gateway settings title, something like: "GoDaddy Payments - Apple Pay"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:205
+msgid "Cannot load the %s gateway to process payment."
+msgstr "ไม่สามารถโหลดเกตเวย์ %s เพื่อดำเนินการกับการชำระเงินได้"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:229
+msgid "Cannot load the GoDaddy Payments gateway."
+msgstr "ไม่สามารถโหลดเกตเวย์ GoDaddy Payments ได้"
+
+#. translators: Placeholder: %s - the gateway settings page title, normally: "GoDaddy Payments - Credit/Debit card"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:240
+msgid "These settings are managed from the %s page"
+msgstr "การตั้งค่าเหล่านี้จัดการจากหน้า %s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:246
+msgctxt "General settings"
+msgid "General"
+msgstr "ทั่วไป"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Disabled"
+msgstr "ปิดใช้งานอยู่"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:129
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:88
+msgid "The GoDaddy Payments service ID"
+msgstr "ID บริการ GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:135
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "ค่าสำหรับการตรวจสอบความถูกต้องในการเปลี่ยนเส้นทางหลังจากเริ่มใช้งาน"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "สถานะการเริ่มใช้งาน GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:46
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:47
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices."
+msgstr "รับชำระเงินด้วยบัตรอย่างปลอดภัยและทำให้การชำระเงินง่ายขึ้นสำหรับลูกค้าด้วย Apple Pay® บนอุปกรณ์ที่รองรับ"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:61
+msgid "Accept Apple Pay® on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "รับ Apple Pay® ในอุปกรณ์ที่รองรับและทำให้ลูกค้าชำระเงินได้รวดเร็วขึ้น รับชำระเงินอย่างรวดเร็วด้วยเงินที่ฝากเข้าในวันทำการถัดไป %1$sเงื่อนไขเป็นไปตามข้อกำหนดของ GoDaddy Payments%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:85
+msgid "Apple Pay Settings"
+msgstr "การตั้งค่า Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:88
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:100
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:513
+#: src/WooCommerce/Payments/StripeGateway.php:490
+msgid "Enable"
+msgstr "เปิดใช้งาน"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:89
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:101
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:515
+#: src/WooCommerce/Payments/StripeGateway.php:492
+msgid "Enable to add the payment method to your checkout."
+msgstr "เปิดใช้งานเพื่อเพิ่มช่องทางการชำระเงินในหน้าชำระเงินของคุณ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:91
+msgid "Apple Pay shows to %1$sSafari users on supported devices%2$s."
+msgstr "Apple Pay แสดงขึ้นสำหรับผู้ใช้ Safari %1$sบนอุปกรณ์ที่รองรับ%2$s"
+
+#. translators: Text displayed next to a dropdown input field with a list of pages for the user to choose from
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:100
+msgid "Pages to enable Apple Pay on"
+msgstr "หน้าที่จะเปิดใช้งาน Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:108
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:120
+msgid "Cart"
+msgstr "ตะกร้าสินค้า"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:109
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:121
+msgid "Checkout"
+msgstr "เช็คเอาท์"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:110
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:122
+msgid "Single Product"
+msgstr "ผลิตภัณฑ์เดียว"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:115
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:127
+msgid "Button label"
+msgstr "ป้ายปุ่ม"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:116
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:128
+msgid "Check button labels here"
+msgstr "ตรวจสอบป้ายชื่อปุ่มที่นี่"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:121
+msgctxt "Apple Pay"
+msgid "Add Money with"
+msgstr "เพิ่มเงินด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:122
+msgctxt "Apple Pay"
+msgid "Book with"
+msgstr "จองกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:123
+msgctxt "Apple Pay"
+msgid "Buy with"
+msgstr "ซื้อกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:124
+msgctxt "Apple Pay"
+msgid "Check out with"
+msgstr "ชำระเงินด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:127
+msgctxt "Apple Pay"
+msgid "Contribute with"
+msgstr "ให้ความช่วยเหลือด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:128
+msgctxt "Apple Pay"
+msgid "Donate with"
+msgstr "บริจาคกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:129
+msgctxt "Apple Pay"
+msgid "Order with"
+msgstr "สั่งกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:132
+msgctxt "Apple Pay"
+msgid "Plain (logo only)"
+msgstr "ธรรมดา (รูปโลโก้เท่านั้น)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:133
+msgctxt "Apple Pay"
+msgid "Reload with"
+msgstr "รีโหลดด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:134
+msgctxt "Apple Pay"
+msgid "Rent with"
+msgstr "เช่ากับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:135
+msgctxt "Apple Pay"
+msgid "Set up"
+msgstr "ตั้งค่า"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:136
+msgctxt "Apple Pay"
+msgid "Support with"
+msgstr "สนับสนุนด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:137
+msgctxt "Apple Pay"
+msgid "Tip with"
+msgstr "ให้ทิปด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:138
+msgctxt "Apple Pay"
+msgid "Top Up with"
+msgstr "เพิ่มพิเศษด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:143
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:144
+msgid "Button style"
+msgstr "สไตล์ปุ่ม"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:144
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:145
+msgid "Check button style here"
+msgstr "ตรวจสอบสไตล์ปุ่มที่นี่"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:149
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:151
+msgid "Black"
+msgstr "สีดำ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:150
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:152
+msgid "White"
+msgstr "สีขาว"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:151
+msgid "White with outline"
+msgstr "สีขาวมีกรอบ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:157
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:158
+msgid "Button height"
+msgstr "ความสูงปุ่ม"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+msgid "Apple requests the button size match your cart/checkout button and be 30 to 64 pixels tall. The width is set automatically."
+msgstr "Apple ขอให้ขนาดปุ่มสอดคล้องกับปุ่มตระกร้าสินค้า/ชำระเงินของคุณ และสูง 30 ถึง 64 พิกเซล ความกว้างจะกำหนดให้โดยอัตโนมัติ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Check button size here"
+msgstr "ตรวจสอบขนาดปุ่มที่นี่"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:46
+msgid "Accept Google Pay™ on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "รับ Google Pay™ ในอุปกรณ์ที่รองรับและทำให้ลูกค้าชำระเงินได้รวดเร็วขึ้น รับชำระเงินอย่างรวดเร็วด้วยเงินที่ฝากเข้าในวันทำการถัดไป %1$sเงื่อนไขเป็นไปตามข้อกำหนดของ GoDaddy Payments%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:97
+msgid "Google Pay Settings"
+msgstr "การตั้งค่า Google Pay"
+
+#. translators: Placeholders: %1$s - open <a> HTML link tag, %2$s - close </a> HTML link tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:104
+msgid "Google Pay shows on %1$ssupported browsers%2$s."
+msgstr "Google Pay แสดงบน %1$sเบราว์เซอร์ที่รองรับ%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:112
+msgid "Pages to enable Google Pay on"
+msgstr "หน้าที่จะเปิดใช้งาน Google Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:133
+msgctxt "Google Pay"
+msgid "Book with"
+msgstr "จองกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:134
+msgctxt "Google Pay"
+msgid "Buy with"
+msgstr "ซื้อกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:135
+msgctxt "Google Pay"
+msgid "Check out with"
+msgstr "ชำระเงินด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:136
+msgctxt "Google Pay"
+msgid "Donate with"
+msgstr "บริจาคกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:137
+msgctxt "Google Pay"
+msgid "Order with"
+msgstr "สั่งกับ"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:138
+msgctxt "Google Pay"
+msgid "Pay with"
+msgstr "ชำระเงินด้วย"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:139
+msgctxt "Google Pay"
+msgid "Plain (logo only)"
+msgstr "ธรรมดา (รูปโลโก้เท่านั้น)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Google requests the button size match your cart/checkout button and be 40 to 100 pixels tall."
+msgstr "Google ขอให้ขนาดปุ่มสอดคล้องกับปุ่มตระกร้าสินค้า/ชำระเงินของคุณ และสูง 40 ถึง 100 พิกเซล"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:92
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:667
+msgid "Credit/Debit Card"
+msgstr "บัตรเครดิ/เดบิต"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:93
+msgid "Securely accept credit/debit cards in your checkout."
+msgstr "รับบัตรเครดิต/เดบิตอย่างปลอดภัยในหน้าชำระเงิน"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:133
+msgid "Accept all major credit/debit cards in your checkout quickly and securely. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "รับบัตรเครดิต/เดบิตหลักทุกบัตรในหน้าชำระเงินอย่างรวดเร็วและปลอดภัย รับชำระเงินอย่างรวดเร็วด้วยเงินที่ฝากเข้าในวันทำการถัดไป %1$sเงื่อนไขเป็นไปตามข้อกำหนดของ GoDaddy Payments%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:224
+msgid "Business Name:"
+msgstr "ชื่อธุรกิจ:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:229
+msgid "Email:"
+msgstr "อีเมล์:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:235
+msgid "Switch account"
+msgstr "เปลี่ยนไปใช้บัญชีอื่น"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:254
+msgid "Account Details"
+msgstr "รายละเอียดบัญชี"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your account settings in the %1$spayments dashboard%2$s"
+msgstr "จัดการการตั้งค่าบัญชีใน%1$sแดชบอร์ดการชำระเงิน%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "จัดการการตั้งค่าบัญชี GoDaddy Payments ของคุณใน%1$sฮับการชำระเงิน%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:302
+#: src/WooCommerce/Payments/StripeGateway.php:532
+msgid "Checkout Settings"
+msgstr "การตั้งค่าการชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:520
+msgid "Title in Checkout"
+msgstr "ชื่อในหน้าชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:526
+msgid "Description in Checkout"
+msgstr "คำอธิบายในหน้าชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:533
+#: src/WooCommerce/Payments/StripeGateway.php:559
+msgid "Transaction Type"
+msgstr "ประเภทธุรกรรม"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:535
+#: src/WooCommerce/Payments/StripeGateway.php:561
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "เลือกว่าจะให้ดำเนินการธุรกรรมอย่างไร การเรียกเก็บเงินจะส่งข้อมูลธุรกรรมทั้งหมดเพื่อดำเนินการให้เสร็จสิ้น การอนุมัติจะอนุมัติคำสั่งซื้อโดยรวมสำหรับนำจำนวนเงินที่เรียกเก็บเข้าสู่ระบบภายหลังเท่านั้น"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:538
+#: src/WooCommerce/Payments/StripeGateway.php:564
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "เรียกเก็บ"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:539
+#: src/WooCommerce/Payments/StripeGateway.php:565
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "การอนุมัติ"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:543
+msgid "Charge Virtual-Only Orders"
+msgstr "เรียกเก็บเงินตามคำสั่งซื้อแบบเสมือนเท่านั้น"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:545
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "หากคำสั่งซื้อมีสินค้าเสมือนโดยเฉพาะ ให้เปิดใช้งานคุณสมบัตินี้เพื่อเรียกเก็บทันที แทนที่จะต้องรออนุมัติธุรกรรม"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:549
+msgid "Capture Paid Orders"
+msgstr "นำข้อมูลคำสั่งซื้อที่ชำระเงินแล้วเข้าสู่ระบบ"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:553
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "นำข้อมูลคำสั่งซื้อเข้าสู่ระบบโดยอัตโนมัติเมื่อเปลี่ยนเป็น %s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:554
+msgid "a paid status"
+msgstr "สถานะชำระเงินแล้ว"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:558
+#: src/WooCommerce/Payments/StripeGateway.php:537
+msgid "Accepted Card Logos"
+msgstr "โลโก้บัตรที่ยอมรับ"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:560
+#: src/WooCommerce/Payments/StripeGateway.php:539
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "นี่เป็นโลโก้บัตรที่แสดงให้ลูกค้าเห็นว่าเป็นที่ยอมรับขณะชำระเงิน"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:563
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+msgstr "การตั้งค่านี้%1$sไม่%2$sเปลี่ยนประเภทของบัตรที่เกตเวย์จะรับ"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:574
+#: src/WooCommerce/Payments/StripeGateway.php:547
+msgid "Saved Cards"
+msgstr "บัตรที่บันทึก"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:576
+#: src/WooCommerce/Payments/StripeGateway.php:549
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "ช่วยให้ลูกค้าสามารถบันทึกบัตรที่ใช้ชำระเงินลงในบัญชีได้อย่างปลอดภัยเพื่อการชำระเงินในอนาคต"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:580
+#: src/WooCommerce/Payments/StripeGateway.php:553
+msgid "Detailed Decline Messages"
+msgstr "ข้อความปฏิเสธโดยละเอียด"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:582
+#: src/WooCommerce/Payments/StripeGateway.php:555
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "เปิดใช้งานข้อความปฏิเสธโดยละเอียดสำหรับลูกค้าขณะชำระเงิน แทนที่จะเป็นข้อความปฏิเสธทั่วไป"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:586
+#: src/WooCommerce/Payments/StripeGateway.php:569
+msgid "Debug Mode"
+msgstr "โหมดแก้จุดบกพร่อง"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:588
+#: src/WooCommerce/Payments/StripeGateway.php:571
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "แสดงข้อความแจ้งข้อผิดพลาดโดยละเอียดและคำขอ/การตอบสนองเกี่ยวกับ API ในหน้าชำระเงินและ/หรือบันทึกลงในบันทึกแก้จุดบกพร่อง"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:591
+#: src/WooCommerce/Payments/StripeGateway.php:574
+msgid "Off"
+msgstr "ปิด"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:592
+#: src/WooCommerce/Payments/StripeGateway.php:575
+msgid "Show on Checkout Page"
+msgstr "แสดงในหน้าชำระเงิน"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:593
+#: src/WooCommerce/Payments/StripeGateway.php:576
+msgid "Save to Log"
+msgstr "บันทึกลงในบันทึกการทำงาน"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:594
+#: src/WooCommerce/Payments/StripeGateway.php:577
+msgid "Both"
+msgstr "ทั้งคู่"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:653
+msgid "Pay securely with your credit/debit card."
+msgstr "ชำระเงินด้วยบัตรเครดิต/เดบิตอย่างปลอดภัย"
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:191
+msgid "Pre-Order release payment failed: %s"
+msgstr "การชำระเงินเมื่อสินค้าที่สั่งซื้อล่วงหน้าวางขายล้มเหลว: %s"
+
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:146
+msgid "Currently unavailable"
+msgstr "ไม่พร้อมใช้งานในขณะนี้"
+
+#. translators: Placeholders: %1$s & %3$s - <a> tag, %2$s & %4$s - </a> tag
+#: src/WooCommerce/Payments/StripeGateway.php:77
+msgid "Securely accept online payments via credit/debit card, wallets, bank redirects, and other methods enabled in your Stripe account. %1$sView Stripe pricing%2$s for your business' location and payment methods. %3$sStripe terms apply%4$s."
+msgstr "รับชำระเงินออนไลน์อย่างปลอดภัยผ่านบัตรเครดิต/เดบิต กระเป๋าเงิน การเปลี่ยนเส้นทางไปยังธนาคาร และวิธีการอื่นๆ ที่เปิดใช้งานในบัญชี Stripe %1$sดูราคา Stripe%2$s สำหรับตำแหน่งที่ตั้งของธุรกิจของคุณและช่องทางการชำระเงิน %3$sเงื่อนไขเป็นไปตามข้อกำหนดของ Stripe%4$s"
+
+#: src/WooCommerce/Payments/StripeGateway.php:244
+msgid "You are about to disconnect your Stripe account. Your store will not be able to process transactions using Stripe until you connect an account again."
+msgstr "คุณกำลังจะยกเลิกการเชื่อมต่อบัญชี Stripe ร้านค้าของคุณจะไม่สามารถดำเนินการกับธุรกรรมโดยใช้ Stripe ได้จนกว่าจะเชื่อมต่อบัญชีอีกครั้ง"
+
+#: src/WooCommerce/Payments/StripeGateway.php:486
+msgid "General"
+msgstr "ทั่วไป"
+
+#: src/WooCommerce/Payments/StripeGateway.php:505
+msgid "Disconnect Stripe Account"
+msgstr "ยกเลิกการเชื่อมต่อบัญชี Stripe"
+
+#: src/WooCommerce/Payments/StripeGateway.php:514
+msgid "Connecting to Stripe..."
+msgstr "กำลังเชื่อมต่อกับ Stripe..."
+
+#: src/WooCommerce/Payments/StripeGateway.php:516
+msgid "This operation can take up to a few seconds. Please reload this page to check the current status."
+msgstr "การดำเนินการนี้อาจใช้เวลาสักครู่ โปรดโหลดหน้านี้ใหม่เพื่อดูสถานะปัจจุบัน"
+
+#: src/WooCommerce/Payments/StripeGateway.php:526
+msgid "Connect Stripe Account"
+msgstr "เชื่อมต่อบัญชี Stripe"
+
+#: src/WooCommerce/Payments/StripeGateway.php:590
+msgid "Affirm"
+msgstr "Affirm"
+
+#: src/WooCommerce/Payments/StripeGateway.php:591
+msgid "Afterpay / Clearpay"
+msgstr "Afterpay / Clearpay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:592
+msgid "Alipay"
+msgstr "Alipay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:593
+msgid "BECS direct debit"
+msgstr "BECS direct debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:594
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: src/WooCommerce/Payments/StripeGateway.php:595
+msgid "Boleto"
+msgstr "Boleto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:596
+msgid "Credit / Debit"
+msgstr "บัตรเครดิต / เดบิต"
+
+#: src/WooCommerce/Payments/StripeGateway.php:597
+msgid "EPS"
+msgstr "EPS"
+
+#: src/WooCommerce/Payments/StripeGateway.php:598
+msgid "FPX"
+msgstr "FPX"
+
+#: src/WooCommerce/Payments/StripeGateway.php:599
+msgid "Giropay"
+msgstr "Giropay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:600
+msgid "GrabPay"
+msgstr "GrabPay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:601
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: src/WooCommerce/Payments/StripeGateway.php:602
+msgid "Klarna"
+msgstr "Klarna"
+
+#: src/WooCommerce/Payments/StripeGateway.php:603
+msgid "Konbini"
+msgstr "Konbini"
+
+#: src/WooCommerce/Payments/StripeGateway.php:604
+msgid "OXXO"
+msgstr "OXXO"
+
+#: src/WooCommerce/Payments/StripeGateway.php:605
+msgid "P24"
+msgstr "P24"
+
+#: src/WooCommerce/Payments/StripeGateway.php:606
+msgid "PayNow"
+msgstr "PayNow"
+
+#: src/WooCommerce/Payments/StripeGateway.php:607
+msgid "SEPA Debit"
+msgstr "SEPA Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:608
+msgid "Sofort"
+msgstr "SoFort"
+
+#: src/WooCommerce/Payments/StripeGateway.php:609
+msgid "ACH Direct Debit"
+msgstr "ACH Direct Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:610
+msgid "WeChat Pay"
+msgstr "WeChat Pay"
+
+#: src/WooCommerce/Shipping/CoreShippingMethods.php:161
+msgid "Order Instructions:"
+msgstr "คำแนะนำเกี่ยวกับคำสั่งซื้อ:"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:69
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:141
+msgid "Local delivery"
+msgstr "จัดส่งในพื้นที่"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:70
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "ให้ลูกค้าเลือกบริการจัดส่งในพื้นที่ได้ คำนวณภาษีบวกเพิ่มโดยใช้ที่อยู่จัดส่งของลูกค้า"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "ระบุราคา (ไม่รวมภาษี) หรือยอดรวม เช่น <code>10.00 * [qty]</code>"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "ใช้ <code>[qty]</code> สำหรับจำนวนสินค้า <br/><code>[cost]</code> สำหรับราคารวมของสินค้าทั้งหมด และ <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> สำหรับค่าธรรมเนียมเป็นเปอร์เซ็นต์"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:138
+msgid "Checkout Title"
+msgstr "ชื่อหน้าชำระเงิน"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:140
+msgid "This controls the title which the user sees during checkout."
+msgstr "จะควบคุมชื่อที่ผู้ใช้จะเห็นในขณะชำระเงิน"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:145
+msgid "Tax status"
+msgstr "สถานะภาษี"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:150
+msgid "Taxable"
+msgstr "ต้องเสียภาษี"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:151
+msgctxt "Tax status"
+msgid "None"
+msgstr "ไม่มี"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:155
+msgid "Cost"
+msgstr "ราคา"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:163
+msgid "Minimum order amount total when available"
+msgstr "ยอดสั่งซื้อโดยรวมขั้นต่ำเมื่อกำหนดมีให้เลือก"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:166
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "ยอดเงินในคำสั่งซื้อของลูกค้าจะต้องมากกว่าหรือเท่ากับจำนวนนี้ จึงจะเลือกวิธีการจัดส่งได้"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:171
+msgid "Minimum order total when free"
+msgstr "ยอดคำสั่งซื้อขั้นต่ำเมื่อฟรี"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:174
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "ยอดเงินในคำสั่งซื้อของลูกค้าจะต้องมากกว่าหรือเท่ากับจำนวนนี้ จึงจะเลือกวิธีการจัดส่งฟรีได้"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:182
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "คำอธิบายนี้จะแสดงขึ้นใต้ชื่อวิธีการจัดส่งแบบจัดส่งในพื้นที่ในหน้าตะกร้าสินค้าและการชำระเงิน"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:189
+msgid "Delivery instructions"
+msgstr "คำแนะนำเกี่ยวกับการจัดส่ง"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:190
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "ข้อความที่ลูกค้าจะได้เห็นในหน้าคำสั่งซื้อที่ได้รับและอีเมลดำเนินการตามคำสั่งซื้อหลังจากชำระเงิน"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:120
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "คำอธิบายวิธีการจัดส่งที่ลูกค้าจะเห็นระหว่างชำระเงิน"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:126
+msgid "Pickup instructions"
+msgstr "คำแนะนำในการรับสินค้า"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:128
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "ข้อความที่ลูกค้าจะได้เห็นในหน้าคำสั่งซื้อที่ได้รับ รวมทั้งในอีเมลดำเนินการตามคำสั่งซื้อและพร้อมให้รับสินค้าได้"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:222
+#: src/WooCommerce/Shipping/LocalPickup.php:231
+#: src/WooCommerce/Shipping/LocalPickup.php:255
+msgid "Pickup Instructions"
+msgstr "คำแนะนำในการรับสินค้า"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "ผู้ให้บริการจัดส่ง"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "หมายเลขการติดตาม"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "รายการ"
+
+#: src/WooCommerce/Views/Components/GoDaddyIcon.php:25
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/WordPress/Interceptors/EnforcePostNamePermalinksInterceptor.php:111
+msgid "Warning! Plain Permalinks Detected"
+msgstr "คำเตือน! ตรวจพบลิงก์ถาวรแบบธรรมดา"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:130
+msgid "You attempted to install a blocked plugin."
+msgstr "คุณพยายามที่จะติดตั้งปลั๊กอินที่ถูกบล็อค"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:140
+msgid "One or more blocked plugins have been removed."
+msgstr "ปลั๊กอินที่โดนบล็อคหนึ่งรายการขึ้นไปถูกถอดออกแล้ว"
+
+#. translators: Placeholders: %1$s - Opening <a> tag, %2$s - Closing </a> tag
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:152
+msgid "GoDaddy disallows a small list of plugins that can cause performance and other issues on your store. If you attempt to install them, we'll remove them for you. You can check out %1$sthe entire plugin blocklist here%2$s."
+msgstr "GoDaddy ไม่อนุญาตให้ติดตั้งปลั๊กอินจำนวนหนึ่งที่อาจก่อให้เกิดปัญหาทางประสิทธิภาพการทำงานและปัญหาอื่นๆ ในร้านค้าของคุณได้ ถ้าคุณพยายามที่จะติดตั้ง เราจะถอดปลั๊กอินออกให้ คุณสามารถดู %1$sบล็อคลิสต์ของปลั๊กอินทั้งหมดได้ที่นี่%2$s."
+
+#: templates/woocommerce/emails/order/order-shipments.php:23
+#: templates/woocommerce/emails/plain/order/order-shipments.php:24
+#: templates/woocommerce/order/order-shipments.php:25
+msgid "Shipments"
+msgstr "การจัดส่ง"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:29
+#: templates/woocommerce/emails/plain/order/order-shipments.php:31
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:35
+msgid "Tracking URL: %s"
+msgstr "URL สำหรับติดตาม: %s"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:40
+msgid "%s: "
+msgstr "%s: "
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:44
+msgid "%1$s x %2$s"
+msgstr "%1$s x %2$s"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:32
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "คำสั่งซื้อของคุณพร้อมให้รับสินค้าแล้ว"

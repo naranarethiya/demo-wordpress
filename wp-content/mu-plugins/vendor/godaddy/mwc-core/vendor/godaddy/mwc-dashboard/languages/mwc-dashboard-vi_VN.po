@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "Không thể tìm thấy tiện ích mở rộng với slug đã cho: %s."
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "Không thể tìm thấy phiên bản %1$s của %2$s."
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "ID tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "Slug của tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "Tên tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "Mô tả ngắn về tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "Loại tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "Danh mục tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "Thương hiệu tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "Thông tin về phiên bản đã cài đặt tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "Số phiên bản."
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "Phiên bản PHP bắt buộc."
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "Phiên bản WordPress bắt buộc."
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "Phiên bản WooCommerce bắt buộc."
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "Dấu thời gian tính bằng giây khi phiên bản được phát hành."
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "URL để tải về gói"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "Trạng thái của phiên bản đã cài đặt (cho dù đó có phải là phiên bản mới nhất hay không)"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "URL tài liệu của tiện ích mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "Tiện ích mở rộng có nổi bật hay không."
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "Trạng thái mở rộng."
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "Thông tin về các phiên bản khả dụng của tiện ích mở rộng."
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "ID của tin nhắn sẽ bị xóa."
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "Không tìm thấy phương thức xác thực nào cho %s"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "Không thể truy xuất dữ liệu tin nhắn từ xa: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "Không thể truy xuất dữ liệu tin nhắn từ xa - API đã trả lời với trạng thái %d, lỗi: %s"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "Dữ liệu tin nhắn từ xa không hợp lệ"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "ID Tin nhắn không hợp lệ"
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "ID tin nhắn duy nhất."
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "Loại thông báo"
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "Chủ đề thông báo."
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "Nội dung thông báo."
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "Ngày đăng."
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "Ngày hết hạn."
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "Các nút hoặc liên kết sẽ được hiển thị cùng với thông báo."
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "Văn bản kêu gọi."
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "Hành động href."
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "Loại hành động."
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "Các quy tắc để khách hàng đánh giá nhằm quyết định xem thông báo có được hiển thị hay không."
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "Nhãn quy tắc."
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "Tên quy tắc."
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "Loại Quy tắc."
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "Đối tượng liên quan được sử dụng để đánh giá quy tắc."
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "Yếu tố của thực thể liên quan được sử dụng để đánh giá quy tắc."
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "Toán tử so sánh được sử dụng để đánh giá quy tắc."
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "Giá trị tham chiếu được sử dụng để đánh giá quy tắc."
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "Các liên kết với dữ liệu sẽ được truy xuất và sử dụng để đánh giá các quy tắc."
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "Liên kết href."
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "Thực thể liên quan được đại diện bởi liên kết."
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "Loại yêu cầu để truy xuất dữ liệu."
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "Trạng thái thông báo cho người dùng hiện tại."
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "ID mục."
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "ID sản phẩm."
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "ID biến thể."
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "Tên của sản phẩm."
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "Số lượng mặt hàng."
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "Số lượng mặt hàng chưa hoàn thành."
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "Ảnh sản phẩm."
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "Chiều cao của ảnh."
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "Chiều rộng của ảnh."
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "URL nguồn của ảnh"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "Danh sách URL nguồn của ảnh"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "Kích cỡ ảnh"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "ID đơn hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "Cho dù đơn hàng đã được hoàn thành hay chưa."
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "Các lô hàng cho đơn đặt hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "ID lô hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "Ngày tạo lô hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "Ngày cập nhật cuối cùng của lô hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "Nhà cung cấp dịch vụ vận chuyển cho lô hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "Số theo dõi của lô hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "URL theo dõi của lô hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "Các mặt hàng bao gồm trong lô hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "ID của mặt hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "ID của sản phẩm."
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "ID biến thể của sản phẩm."
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "Số lượng của mặt hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "Địa chỉ email của đơn hàng"
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "Số đơn hàng, khác với ID đơn hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "Liệu đơn hàng có được xem là \"đã thanh toán\" hay không."
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "Tên nhà cung cấp dịch vụ thanh toán (theo thuật ngữ Woo, ID cổng thanh toán)."
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "Trạng thái đơn hàng tổng thể."
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "Tổng số tiền đơn hàng"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "Số tiền đặt hàng đầy đủ, được tính bằng đơn vị nhỏ nhất của mã tiền tệ nhất định."
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "Mã tiền tệ."
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "Địa chỉ thanh toán của đơn hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "Một loạt các đơn vị hành chính."
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "Tên doanh nghiệp trong địa chỉ thanh toán."
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "Mã quốc gia của địa chỉ thanh toán."
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "Tên địa chỉ thanh toán của khách hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "Họ trong địa chỉ thanh toán của khách hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "Dòng địa chỉ thanh toán."
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "Địa phương trong địa chỉ thanh toán."
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "Số điện thoại của địa chỉ thanh toán."
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "Mã bưu chính của địa chỉ thanh toán."
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "Địa chỉ thanh toán của các địa phương phụ."
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "Đại diện chuỗi trong địa chỉ thanh toán"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "Địa chỉ giao hàng theo đơn đặt hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "Tên doanh nghiệp của địa chỉ giao hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "Mã quốc gia của địa chỉ giao hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "Tên địa chỉ giao hàng của khách hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "Họ trong địa chỉ giao hàng của khách hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "Các dòng địa chỉ giao hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "Địa phương trong địa chỉ giao hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "Số điện thoại của địa chỉ giao hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "Mã bưu chính của địa chỉ giao hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "Địa chỉ giao hàng các địa phương phụ."
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "Đại diện chuỗi cho địa chỉ giao hàng"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "Thông tin Chợ điện tử của đơn đặt hàng."
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "Số đơn hàng tương ứng trên Chợ điện tử."
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "Mã định danh duy nhất của kênh Chợ điện tử."
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "Tên kênh Chợ điện tử."
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "Tên loại hiển thị của kênh Chợ điện tử."
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "Slug của plugin."
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "Tên của plugin."
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "Plugin có phải là một plugin được quản lý MWC hay không"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "Trạng thái đăng ký WooCommerce.com của plugin."
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "URL tài liệu của plugin"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "Nhãn của nhà cung cấp dịch vụ vận chuyển."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "Tên nhà cung cấp dịch vụ vận chuyển."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "Định dạng URL theo dõi của nhà cung cấp dịch vụ vận chuyển."
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "ID cửa hàng mặc định để đặt cho kênh hiện tại"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "ID Doanh nghiệp"
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "ID trang."
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "URL trang."
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "ID cửa hàng mặc định."
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "Email của người dùng quản trị viên hiện tại."
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "Email của hỗ trợ người dùng, nếu tồn tại người dùng hỗ trợ."
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "Trang có được kết nối với bot hỗ trợ hay không."
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "Trang có được kết nối với WooCommerce.com hay không."
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "Loại bảng điều khiển (MWC hoặc trống)."
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Xác định trang có được bán bởi đại lý hay không."
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "ID nhãn riêng của đại lý (1 có nghĩa là GoDaddy, vì vậy không phải là đại lý)."
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "URL để kết nối trang với bot hỗ trợ."
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "Người dùng hiện tại có chọn nhận thông báo về Bảng điều khiển MWC hay không."
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "Ngày tạo trang của Cửa hàng."
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "Dòng địa chỉ 1"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "Dòng địa chỉ 2"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "Thành phố"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "Quốc gia"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "Bang"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "Mã bưu chính"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "Đơn vị hành chính"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "Tên doanh nghiệp"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "Mã quốc gia"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "Tên"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "Họ"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "Dòng địa chỉ"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "Số điện thoại"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "Các địa phương phụ"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "Địa chỉ được định dạng"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "Tính năng thông báo email của trang có đang hoạt động hay không."
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "Tính năng thông báo qua email của trang có được bật hay không."
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "Cho dù trang hiện đang ghi đè bất kỳ mẫu email WooCommerce nào."
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "Đơn vị trọng lượng đã định cấu hình"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "Địa chỉ email mà nhóm hỗ trợ sẽ trả lời"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "Slug của plugin"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "Chủ đề"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "Thông báo"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "Trường lý do"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "Các kênh chợ điện tử bị ảnh hưởng"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "Có nên tạo người dùng gỡ lỗi hay không"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "Thông tin người dùng hiện tại."
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "ID của người dùng hiện tại."
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "Các quyền tiếp thị."
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "Có hiển thị đề xuất tiện ích mở rộng hay không."
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>Lưu ý!</strong> Chúng tôi đã vô hiệu hóa plugin Bảng điều khiển SkyVerge vì bây giờ bạn có quyền truy cập vào bảng điều khiển thông qua menu Nhận trợ giúp!"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Nhận trợ giúp"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Nhận trợ giúp"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "Phần mở rộng WooCommerce"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "Phần mở rộng: %s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "Phần mở rộng đi kèm"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "Phần mở rộng có kèm theo của GoDaddy"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "Không có Đăng ký"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "Trọn đời"

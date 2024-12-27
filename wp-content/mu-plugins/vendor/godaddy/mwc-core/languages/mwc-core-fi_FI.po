@@ -1,0 +1,3574 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-18T15:39:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+#: mwc-core.php
+msgid "MWC Core."
+msgstr "MWC Core."
+
+#: configurations/features.php:99
+msgid "Cost of goods"
+msgstr "Tavaroiden kustannukset"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:102
+msgid "Track profit and cost of goods for your store. Generate profit reports by date, product, category, and more. This feature replaces the %1$sCost of Goods%2$s plugin."
+msgstr "Seuraa myymäläsi tuottoa ja tavaroiden kustannuksia. Luo tulosraportteja päivämäärän, tuotteen, luokan ja muiden tekijöiden mukaan. Tämä ominaisuus korvaa %1$sCost of Goods%2$s -laajennuksen."
+
+#: configurations/features.php:122
+msgid "Ecommerce emails"
+msgstr "Sähköistä kaupankäyntiä koskevat sähköpostiviestit"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. This feature replaces the %1$sWooCommerce Email Customizer%2$s plugin."
+msgstr "Räätälöi sähköpostisi vastaamaan brändiäsi ja kasvata asiakasuskollisuutta. Tämä ominaisuus korvaa %1$sWooCommerce Email Customizer%2$s -laajennuksen."
+
+#: configurations/features.php:153
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+#. translators: Placeholders: %1$s and %3$s - <a> tag for the plugin link, %2$s and %4$s - </a> tag
+#: configurations/features.php:156
+msgid "Track advanced eCommerce events and more with Google Analytics. This feature replaces the %1$sGoogle Analytics%2$s and %3$sGoogle Analytics Pro%4$s plugins."
+msgstr "Seuraa verkkokaupan tapahtumia yksityiskohtaisesti ja hyödynnä’ monia muita Google Analytics -toimintoja. Tämä ominaisuus korvaa %1$sGoogle Analytics%2$s- ja %3$sGoogle Analytics Pro%4$s -laajennukset."
+
+#: configurations/features.php:187
+msgid "Sequential order numbers"
+msgstr "Peräkkäiset tilausnumerot"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:190
+msgid "Format order numbers, change your starting number, and differentiate free orders. This feature replaces the %1$sSequential Order Numbers Pro%2$s plugin."
+msgstr "Muotoile tilausnumeroita, muuta aloitusnumeroasi ja erottele ilmaiset​tilaukset. Tämä ominaisuus korvaa %1$sSequential Order Numbers Pro%2$s -laajennuksen."
+
+#: configurations/features.php:209
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:24
+msgid "Shipment tracking"
+msgstr "Lähetyksen seuranta"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:212
+msgid "Share shipment tracking information with your customers. Open one of your Processing orders to get started. This feature replaces the %1$sShipment Tracking%2$s plugin."
+msgstr "Jaa lähetysten seurantatiedot asiakkaillesi. Aloita avaamalla jokin käsiteltävänä olevista tilauksistasi. Tämä ominaisuus korvaa %1$sShipment Tracking%2$s -laajennuksen."
+
+#: configurations/features.php:224
+msgid "Discount links"
+msgstr "Alennuslinkit"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:227
+msgid "Share discount links with your customers and add coupons from ads, email campaigns, or social links. Create or edit a coupon to get started. This feature replaces the %1$sURL Coupons%2$s plugin."
+msgstr "Tarjoa alennuslinkkejä asiakkaillesi ja lisää kuponkeja mainoksista, sähköpostikampanjoista tai sosiaalisen median linkeistä. Aloita luomalla kuponki tai muokkaamalla sitä. Tämä ominaisuus korvaa %1$sURL Coupons%2$s -laajennuksen."
+
+#: configurations/features.php:245
+msgid "Gift certificates"
+msgstr "Lahjakortit"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:248
+msgid "Create custom gift certificates that your customers can purchase and send to their friends and family. This feature replaces the %1$sPDF Product Vouchers%2$s plugin."
+msgstr "Luo mukautettuja lahjakortteja, joita asiakkaasi voivat ostaa ja lähettää ystävilleen ja perheelleen. Tämä ominaisuus korvaa %1$sPDF Product Vouchers%2$s -laajennuksen."
+
+#: configurations/features.php:282
+msgid "Abandoned checkout reminders"
+msgstr "Muistutukset hylätyistä ostoskoreista"
+
+#: configurations/features.php:283
+msgid "Automatically track cart activity and send an email reminder to recover lost revenue."
+msgstr "Seuraa ostoskorin tapahtumia automaattisesti ja lähetä asiakkaalle sähköpostimuistutus, jotta vältät tulojen menettämisen."
+
+#: configurations/features.php:312
+#: src/Payments/Providers/StripeProvider.php:25
+#: src/WooCommerce/Payments/StripeGateway.php:74
+#: src/WooCommerce/Payments/StripeGateway.php:185
+msgid "Stripe"
+msgstr "Stripe"
+
+#: configurations/features.php:313
+msgid "Accept credit card payments using Stripe."
+msgstr "Hyväksy luottokorttimaksuja Stripen avulla."
+
+#: configurations/features.php:323
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:100
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:41
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:42
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:80
+msgid "Marketplaces"
+msgstr "Kauppapaikat"
+
+#: configurations/features.php:324
+msgid "Sell to millions of customers from one place. Offer your products everywhere, from Amazon to Instagram, all from your own online store."
+msgstr "Myy tuotteita miljoonille asiakkaille yhdestä paikasta. Tarjoa tuotteitasi koko Internetin laajuisesti, Amazonista Instagramiin – kaikki omasta verkkokaupastasi."
+
+#: configurations/features.php:345
+msgid "Take order fulfillment to the next level! Get live shipping rates from your favourite providers, print labels in one click, and automate shipment tracking and customer email notifications."
+msgstr "Siirrä tilausten täyttäminen uudelle tasolle! Hanki reaaliaikaiset toimitushinnat suosikkipalveluntarjoajiltasi, tulosta tarrat yhdellä klikkauksella ja automatisoi lähetysten seuranta sekä asiakkaille lähetettävät sähköposti-ilmoitukset."
+
+#: src/API/Controllers/AccountController.php:108
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "Jälleenmyyjän yksityisen selitteen tunnus (1 tarkoittaa GoDaddyä, joten kyseessä ei ole jälleenmyyjä)."
+
+#: src/API/Controllers/AccountController.php:114
+msgid "Whether the account can manually switch between extension versions."
+msgstr "Voidaanko tili siirtää manuaalisesti laajennusversiosta toiseen."
+
+#: src/API/Controllers/AccountController.php:120
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Onko sivusto jälleenmyyjän myymä vai ei."
+
+#: src/API/Controllers/AccountController.php:126
+msgid "The product plan the given account or site has purchased"
+msgstr "Tuotesopimus, jonka tietty tili tai sivusto on ostanut"
+
+#: src/API/Controllers/AccountController.php:132
+msgid "The hosting platform the given account or site is running on"
+msgstr "Palvelualusta, jossa tili tai sivusto toimii"
+
+#: src/API/Controllers/AccountController.php:138
+msgid "The ID of the customer"
+msgstr "Asiakkaan tunniste"
+
+#: src/API/Controllers/AccountController.php:144
+msgid "The ID of the Federation Partner"
+msgstr "Yhteistyökumppanin tunnus"
+
+#: src/API/Controllers/Platform/StoresController.php:117
+msgid "A list of businesses."
+msgstr "Luettelo yrityksistä."
+
+#: src/API/Controllers/Platform/StoresController.php:124
+msgid "The unique identifier for the business."
+msgstr "Yrityksen yksilöllinen tunniste."
+
+#: src/API/Controllers/Platform/StoresController.php:128
+msgid "The legal name of the business."
+msgstr "Yrityksen laillinen nimi."
+
+#: src/API/Controllers/Platform/StoresController.php:132
+msgid "A list of stores associated with the business."
+msgstr "Yritykseen liittyvien kauppojen luettelo."
+
+#: src/API/Controllers/Platform/StoresController.php:138
+msgid "The display name of the store."
+msgstr "Kaupan näyttönimi."
+
+#: src/API/Controllers/Platform/StoresController.php:143
+msgid "The unique identifier for the store."
+msgstr "Kaupan yksilöllinen tunniste."
+
+#: src/Auth/API/Controllers/TokenController.php:84
+msgid "The access token string as issued by the authorization server."
+msgstr "Valtuutuspalvelimen myöntämä käyttöoikeustunnus."
+
+#: src/Auth/API/Controllers/TokenController.php:90
+msgid "Number of seconds to expiration of the access token."
+msgstr "Sekunteja ennen käyttöoikeustunnuksen vanhenemista."
+
+#: src/Auth/API/Controllers/TokenController.php:96
+msgid "The scope the token granted."
+msgstr "Tunnuksen sallima käyttöoikeus."
+
+#: src/Auth/API/Controllers/TokenController.php:102
+msgid "Access Token ID."
+msgstr "Käyttöoikeustunnus."
+
+#: src/Auth/API/Controllers/TokenController.php:108
+msgid "The type of token this is."
+msgstr "Tämän tunnuksen tyyppi."
+
+#: src/Auth/Sso/WordPress/Events/Subscribers/ForceCareAgentAdminRoleSubscriber.php:61
+msgid "The care agent account on this site has been misconfigured. Please log in again to fix this issue."
+msgstr "Tämän sivuston asiakaspalveluedustajan tili on määritetty väärin. Kirjaudu sisään uudelleen tämän ongelman korjaamiseksi."
+
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:103
+msgid "Something went wrong when creating the user account."
+msgstr "Jokin meni vikaan käyttäjätilin luomisen yhteydessä."
+
+#. translators: Placeholder: %s account username
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:131
+msgid "User %s could not be logged in."
+msgstr "Käyttäjää ei voitu kirjata sisään: %s."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:165
+msgid "You cannot delete the main administrator account."
+msgstr "Et voi poistaa pääasiallisen järjestelmänvalvojan tiliä."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:167
+msgid "Delete"
+msgstr "Poista"
+
+#: src/Client/Client.php:433
+msgid "Other"
+msgstr "Muu"
+
+#: src/Configuration/CartRecoveryEmailsFeatureRuntimeConfiguration.php:73
+msgid "Automatically track cart activity and recover lost revenue with a dedicated email campaign."
+msgstr "Seuraa ostoskorin tapahtumia automaattisesti ja lähetä asiakkaalle sähköpostimuistutuksia tulojen mahdollisen menettämisen välttämiseksi."
+
+#: src/Email/RemoteRenderingEmailService.php:130
+msgid "Unknown error."
+msgstr "Tuntematon virhe"
+
+#: src/Email/Repositories/EmailSenderRepository.php:108
+msgid "Unable to retrieve the email sender data."
+msgstr "Sähköpostin lähettäjän tietojen noutaminen epäonnistui."
+
+#: src/Features/CartRecoveryEmails/DataProviders/CheckoutDataProvider.php:56
+msgctxt "Subject of greeting when name is not known (this can be translated to empty string for languages where \"Hi there!\" cannot be rendered as in English and it will result in just \"Hi!\")"
+msgid "there"
+msgstr "sinä siellä"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:43
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:116
+msgid "Did you forget something?"
+msgstr "Unohditko jotakin?"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:57
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:103
+msgid "Content"
+msgstr "Sisältö"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:62
+msgid "Hey there! You left your shopping cart without completing your purchase just a bit ago. It's not too late to complete your purchase! All of the products are still waiting for you."
+msgstr "Hei! Poistuit hetki sitten ostoskoristasi suorittamatta ostosta loppuun. Ei ole liian myöhäistä tehdä ostoksiasi loppuun! Kaikki valitsemasi tuotteet odottavat sinua yhä."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:76
+msgid "Button text"
+msgstr "Painiketeksti"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:82
+msgid "Complete your purchase"
+msgstr "Tee ostoksesi loppuun"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:92
+msgid "Trouble checking out? We're here to help. Please reply to this email if you have any questions or need our assistance."
+msgstr "Ongelmia kassatoiminnossa? Autamme sinua mielellämme. Vastaa tähän sähköpostiviestiin, jos sinulla on kysyttävää tai kaipaat apuamme."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:60
+msgid "Cart Recovery"
+msgstr "Ostoskorin palautus"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:61
+msgid "Send a reminder email to customers that left products in their cart but didn't complete the checkout."
+msgstr "Lähetä sähköpostimuistutus asiakkaille, jotka jättivät tuotteita ostoskoriinsa suorittamatta ostosta loppuun."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:105
+msgid "Hey {{customer_first_name}}, did you forget something?"
+msgstr "Hei {{customer_first_name}}, unohditko ehkä jotakin?"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:14
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:14
+msgid "Hey {{customer_first_name}}!"
+msgstr "Hei {{customer_first_name}}!"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:22
+msgid "Your shopping cart has been reserved and is still waiting for you! In your cart, you left the following products:"
+msgstr "Ostoskorisi on varattu sinulle, ja se ja odottaa sinua edelleen! Jätit seuraavat tuotteet ostoskoriisi:"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:30
+msgid "It's not too late to complete this purchase -- these products are still waiting for you!"
+msgstr "Vielä ei ole liian myöhäistä tehdä tämä ostos loppuun – nämä tuotteet odottavat sinua edelleen!"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:22
+msgid "Your shopping cart was reserved a few days ago and it will expire soon. In your cart, you left the following products:"
+msgstr "Ostoskorisi varattiin sinulle muutama päivä sitten, ja se vanhenee pian. Jätit seuraavat tuotteet ostoskoriisi:"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:30
+msgid "Ready to complete this purchase before your cart expires? Click the above button to purchase these items."
+msgstr "Oletko valmis suorittamaan tämän ostoksen loppuun ennen kuin ostoskorisi vanhenee? Osta nämä tuotteet napsauttamalla yllä olevaa painiketta."
+
+#: src/Features/CartRecoveryEmails/Settings/OptOutSetting.php:27
+msgid "Your email and cart will be saved so we can send you an email reminder about this order."
+msgstr "Sähköpostisi ja ostoskorisi tallennetaan, jotta voimme lähettää sinulle sähköpostimuistutuksen tästä tilauksesta."
+
+#: src/Features/Commerce/Catalog/Helpers/CheckForDeletedProductHelper.php:75
+msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
+msgstr "Yritit muokata kohdetta, jota ei ole olemassa. Ehkä se on poistettu?"
+
+#: src/Features/Commerce/Catalog/Interceptors/Handlers/CommerceProductUuidRequestHandler.php:48
+msgid "Product not found."
+msgstr "Tuotetta ei löytynyt."
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:149
+msgid "Product categories must be deleted in Commerce Home"
+msgstr "Tuoteluokat on poistettava Commerce-pääosiossa"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:150
+msgid "Delete product category"
+msgstr "Poista tuoteluokka"
+
+#. translators: External link icon
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:152
+msgid "Delete %s"
+msgstr "Poista %s"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductEditInterceptor.php:82
+msgid "The \"Any\" attribute cannot be used for variable products synced with your GoDaddy Commerce product catalog. Please specify the attribute value for each variation, then save your changes."
+msgstr "Attribuuttia \"mikä tahansa\" ei voi käyttää muuttuville tuotteille, jotka on synkronoitu GoDaddy Commerce -tuoteluettelosi kanssa. Määritä kunkin muunnelman attribuutin arvo ja tallenna sitten tekemäsi muutokset."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:80
+msgid "Required for storing Product data in Commerce Home. Stock management can be enabled or disabled per product. Learn more about %1$sproduct inventory settings%2$s."
+msgstr "Vaaditaan tuotetietojen tallentamiseksi Commerce-keskukseen Varaston hallinta voidaan ottaa käyttöön tai poistaa käytöstä tuotekohtaisesti. Lue lisää %1$stuotteiden varastoasetuksista%2$s."
+
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:90
+msgid "Inventory amounts displayed on the frontend reflect total available for purchase and exclude reserved stock."
+msgstr "Julkisessa näkymässä esitetyt varastomäärät vastaavat ostettavissa olevaa kokonaismäärää; ne eivät sisällä jo varattuja tuotteita."
+
+#. translators: Placeholders: %1$s - a product name, %2$s - a product SKU, %3$s - an API error message
+#: src/Features/Commerce/Inventory/Services/OrderReservationsService.php:75
+msgid "An error occurred while reserving stock for %1$s (%2$s). %3$s"
+msgstr "Virhe varattaessa varastoa tuotteelle: %1$s (%2$s). %3$s"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:95
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:241
+msgid "Available Pickup Locations"
+msgstr "Käytettävissä olevat noutosijainnit"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:98
+msgid "Select the location(s) that should be available for local pickup."
+msgstr "Valitse sijainnit, joiden pitäisi olla käytettävissä paikallista noutoa varten."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:195
+msgid "Pickup location"
+msgstr "Noutosijainti"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:261
+msgid "No pickup locations available"
+msgstr "Noutosijainteja ei ole käytettävissä"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:263
+msgid "Please choose another shipping method, or contact the store for a pickup location."
+msgstr "Valitse jokin toinen toimitustapa tai ota yhteyttä myymälään saadaksesi noutosijainnin tiedot."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:407
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:144
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:174
+msgid "Pickup Location Information"
+msgstr "Noutosijainnin tiedot"
+
+#: src/Features/Commerce/Repositories/CommerceContextRepository.php:53
+msgid "Missing or invalid store ID"
+msgstr "Puuttuva tai virheellinen myymälän tunnus"
+
+#: src/Features/EmailNotifications/API/API.php:66
+msgid "This token is expired"
+msgstr "Tämä tunnus on vanhentunut"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:280
+msgid "Cannot generate a preview for an email notification that is not editable."
+msgstr "Esikatselua ei voida luoda sähköposti-ilmoitukselle, joka ei ole muokattavissa."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:444
+msgid "The settings parameter is required."
+msgstr "Asetusparametri on pakollinen."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:532
+msgid "Cannot send a test email for an email notification that is not editable."
+msgstr "Testisähköpostiviestiä ei voida lähettää sähköposti-ilmoitukselle, joka ei ole muokattavissa."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:698
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:235
+msgid "The site has email template overrides and hasn't enabled the Email Notifications feature."
+msgstr "Sivusto sisältää sähköpostimallien ohituksia, eikä sähköposti-ilmoituksia ole otettu käyttöön."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:961
+msgid "Unique email notification ID."
+msgstr "Yksilöllisen sähköposti-ilmoituksen tunnus."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:967
+msgid "Unique email notification name (matches the ID)."
+msgstr "Yksilöllisen sähköposti-ilmoituksen nimi (vastaa tunnusta)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:973
+msgid "Email notification label."
+msgstr "Sähköposti-ilmoituksen selite."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:979
+msgid "Email notification description."
+msgstr "Sähköposti-ilmoituksen kuvaus."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:985
+msgid "ID of the template used by this email notification."
+msgstr "Tämän sähköposti-ilmoituksen käyttämän mallipohjan tunnus."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:991
+msgid "A list of categories that the email notification belongs to."
+msgstr "Luettelo luokista, joihin sähköposti-ilmoitus kuuluu."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1000
+msgid "Email notification status"
+msgstr "Sähköposti-ilmoituksen tila."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1007
+msgid "Whether the email notification can only be sent manually."
+msgstr "Voidaanko sähköposti-ilmoitus lähettää vain manuaalisesti."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1013
+msgid "Whether the email notification will be sent to administrators."
+msgstr "Lähetetäänkö sähköposti-ilmoitus ylläpitäjille."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1019
+msgid "A list of placeholders that are available for the email notification."
+msgstr "Luettelo paikanvarauksista, jotka ovat käytettävissä sähköposti-ilmoitukselle."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1028
+msgid "URL for the WooCommerce email settings screen for the email notification"
+msgstr "WooCommerce-sähköpostiasetusnäytön URL-osoite sähköposti-ilmoitusta varten"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1051
+msgid "Unique email notification category ID."
+msgstr "Yksilöllisen sähköposti-ilmoituksen luokan tunnus."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1057
+msgid "Email notification category name."
+msgstr "Sähköposti-ilmoituksen luokan nimi."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:242
+msgid "A non-empty settings or subgroups parameter must be provided."
+msgstr "Ei-tyhjä asetusten tai alaryhmien parametri on annettava."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:324
+msgid "Unique email template ID."
+msgstr "Yksilöllisen sähköpostimallipohjan tunnus."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:330
+msgid "Unique email template name (matches the ID)."
+msgstr "Yksilöllisen sähköpostimallipohjan nimi (vastaa tunnusta)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:336
+msgid "Email template label."
+msgstr "Sähköpostin mallipohjan selite."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:342
+msgid "List of email content placeholders."
+msgstr "Luettelo sähköpostisisällön paikanvarauksista."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:351
+msgid "Email template preview."
+msgstr "Sähköpostin mallipohjan esikatselu."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:57
+msgid "Unique email template setting name."
+msgstr "Yksilöllisen sähköpostimallipohjan asetuksen nimi."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:63
+msgid "Email template setting label."
+msgstr "Sähköpostimallipohjan asetuksen selite."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:69
+msgid "Email template settings subgroups."
+msgstr "Sähköpostimallipohjan asetusten alaryhmät."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:78
+msgid "Root settings for an email template."
+msgstr "Sähköpostimallipohjan juuriasetus."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:185
+msgid "This email address belongs to another store. Please enter a different email address. If you already own this address, please reach out via %1$sGet Help%2$s."
+msgstr "Tämä sähköpostiosoite kuuluu toiselle myymälälle. Anna jokin muu sähköpostiosoite. Jos olet jo tämän osoitteen omistaja, ota meihin yhteyttä %1$sPyydä ohjeita%2$sosion kautta."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:278
+msgid "Sender unique ID."
+msgstr "Lähettäjän yksilöllinen tunnus."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:284
+msgid "Sender email address."
+msgstr "Lähettäjän sähköpostiosoite."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:290
+msgid "The date and time when the sender was verified in our system."
+msgstr "Päivämäärä ja kellonaika, jolloin lähettäjä vahvistettiin järjestelmässämme."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:296
+msgid "How the sender was verified."
+msgstr "Miten lähettäjä vahvistettiin."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:302
+msgid "Sender status."
+msgstr "Lähettäjän tila."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:285
+msgid "Unique email notification setting ID."
+msgstr "Yksilöllisen sähköposti-ilmoituksen asetuksen tunnus."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:291
+msgid "Unique email notification setting name (matches the ID)."
+msgstr "Yksilöllisen sähköposti-ilmoituksen asetuksen nimi (vastaa tunnusta)."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:297
+msgid "Email notification setting label."
+msgstr "Sähköposti-ilmoituksen asetuksen selite."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:303
+msgid "Email notification setting description."
+msgstr "Sähköposti-ilmoituksen asetuksen kuvaus."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:309
+msgid "A list of available options for the email notification setting values."
+msgstr "Luettelo käytettävissä olevista vaihtoehdoista sähköposti-ilmoitusten asetusarvoille."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:318
+msgid "Email notification setting default value."
+msgstr "Sähköposti-ilmoituksen asetuksen oletusarvo."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:324
+msgid "Email notification setting value."
+msgstr "Sähköposti-ilmoituksen asetuksen arvo."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:330
+msgid "Whether the email notification setting can have multiple values."
+msgstr "Voiko sähköposti-ilmoitusten asetuksella olla useita arvoja."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:336
+msgid "Whether the email notification setting is required."
+msgstr "Onko sähköposti-ilmoitusten asetus pakollinen."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:342
+msgid "Email notifications setting group, if applicable."
+msgstr "Sähköposti-ilmoitusten asetusryhmä, jos sovellettavissa."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:348
+msgid "Email notifications setting control details."
+msgstr "Sähköposti-ilmoitusten asetuksen hallinnan tiedot."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:354
+msgid "Email notifications setting control type."
+msgstr "Sähköposti-ilmoitusten asetuksen hallinnan tyyppi."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:360
+msgid "A list of available options for the email notification setting control."
+msgstr "Luettelo käytettävissä olevista vaihtoehdoista sähköposti-ilmoitusten hallinnalle."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:369
+msgid "Optional input placeholder for the email notification setting control."
+msgstr "Valinnainen syötteen paikanvaraus sähköposti-ilmoitusten asetusten hallintaan."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:163
+msgid "Could not match an email notification ID to a \"%s\" WooCommerce email ID."
+msgstr "Sähköposti-ilmoituksen tunnusta ei voitu yhdistää WooCommerce-sähköpostitunnukseen \"%s\"."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:193
+msgid "Could not match a WooCommerce email ID to a \"%s\" email notification ID."
+msgstr "WooCommerce-sähköpostitunnusta ei voitu yhdistää sähköposti-ilmoituksen tunnukseen \"%s\"."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:622
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:93
+msgid "Could not find source WooCommerce email with ID \"%s\"."
+msgstr "WooCommerce-sähköpostia tällä tunnuksella ei löytynyt: \"%s\"."
+
+#: src/Features/EmailNotifications/DataStores/EmailContentDataStore.php:65
+msgid "No content template file found for the ID %s."
+msgstr "Sisällön mallipohjatiedostoa ei löytynyt tunnukselle %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:72
+msgid "No email notification found with the ID %s."
+msgstr "Ei sähköposti-ilmoitusta tunnuksella %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:79
+msgid "The class for %s must implement the EmailNotificationContract interface"
+msgstr "Tämän kohteen luokan on käytettävä EmailNotificationContract-käyttöliittymää: %s"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:89
+msgid "The email notification with ID %s is not available on this site"
+msgstr "Sähköposti-ilmoitus, jonka tunnus on %s, ei ole käytettävissä tämän sivuston kohdalla."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:59
+msgid "No email notification template found with the ID %s."
+msgstr "Sähköpostimallipohjia tunnuksella %s ei löytynyt."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:68
+msgid "The class for %s must implement the EmailTemplateContract interface"
+msgstr "Tämän kohteen luokan on käytettävä EmailTemplateContract -käyttöliittymää: %s"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:91
+msgid "No template file found with the ID %s."
+msgstr "Sisältötiedostoa, jonka tunnus on %s, ei löytynyt."
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:40
+msgid "Invalid template for the option name \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "Virheellinen vaihtoehdon malli \"%s\": sen tulisi sisältää {{setting_id}}-paikanvaraus."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:69
+msgid "No settings found with the ID %s."
+msgstr "Asetuksia tunnuksella %s ei löytynyt."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:78
+msgid "The class name for %s must implement ConfigurableContract"
+msgstr "Luokan nimen kohteelle %s on toteutettava ConfigurableContract"
+
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:140
+msgid "No WooCommerce email found for \"%s\""
+msgstr "Ei WooCommerce-sähköpostia: “%s”"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:151
+msgid "Admin"
+msgstr "Ylläpitäjä"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:152
+msgid "Extensions"
+msgstr "Tunnisteet"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:153
+msgid "Customer"
+msgstr "Asiakas"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:154
+msgid "Order"
+msgstr "Tilaus"
+
+#: src/Features/EmailNotifications/EmailsPage.php:36
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:41
+msgid "Email Notifications"
+msgstr "Sähköposti-ilmoitukset"
+
+#: src/Features/EmailNotifications/EmailsPage.php:37
+msgid "Emails"
+msgstr "Sähköpostiviestit"
+
+#: src/Features/EmailNotifications/EmailsPage.php:187
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:251
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:296
+msgid "New"
+msgstr "Uutta"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:39
+msgid "Cancelled order"
+msgstr "Peruutettu tilaus"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:40
+msgid "Sent to chosen recipient(s) when an order is marked cancelled (if it was previously processing or on-hold)."
+msgstr "Lähetetään valituille vastaanottajille, kun tilaus on merkitty peruutetuksi (jos se oli aiemmin käsiteltävänä tai pidossa)."
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:52
+msgid "[{{site_title}}]: Order #{{order_number}} has been cancelled"
+msgstr "[{{site_title}}]: Tilaus nro{{order_number}} on peruutettu"
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:83
+msgid "Notification to let you know &mdash; order #%1$s belonging to %2$s has been cancelled:"
+msgstr "Ilmoitus: tilaus %1$s asiakkaalle %2$s on peruutettu"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:35
+msgid "Completed order"
+msgstr "Tilaus valmis"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is marked completed and usually indicates that the order has been shipped."
+msgstr "Lähetetään asiakkaalle, kun hänen tilauksensa on merkitty valmiiksi. Tämä merkitsee yleensä, että tilaus on myös lähetetty."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:64
+msgid "We have finished processing your order."
+msgstr "Tilauksesi käsittely on suoritettu loppuun."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:78
+msgid "Your {{site_title}} order is now complete"
+msgstr "{{site_title}}: tilauksesi on nyt suoritettu valmiiksi"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:39
+msgid "Customer invoice / order details"
+msgstr "Asiakkaan laskun/tilauksen tiedot"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:40
+msgid "Emails containing order information and payment links sent manually."
+msgstr "Tilaustietoja ja maksulinkkejä sisältävät sähköpostiviestit lähetetään manuaalisesti."
+
+#. translators: %1$s Site title, %2$s Order pay link
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:79
+msgid "An order has been created for you on %1$s. Your invoice is below, with a link to make payment when you’re ready: %2$s"
+msgstr "Tilaus on luotu sinulle %1$s-sivustossa. Laskusi on alla. Se sisältää linkin maksun suorittamista varten: %2$s"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:87
+msgid "Pay for this order"
+msgstr "Maksa tästä tilauksesta"
+
+#. translators: %s Order date
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:92
+msgid "Here are the details of your order placed on %s:"
+msgstr "Tässä ovat tiedot %s tekemällesi tilaukselle:"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:108
+msgid "Invoice for order #{{order_number}} on {{site_title}}"
+msgstr "Lasku tilauksesta {{order_number}} – {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:38
+msgid "Customer note"
+msgstr "Huomautus asiakkaalle"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:39
+msgid "Sent to customer when you add a note to an order."
+msgstr "Lähetetään asiakkaalle, kun lisäät tilaukseen huomautuksen."
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:89
+msgid "The following note has been added to your order:"
+msgstr "Seuraava huomautus on lisätty tilaukseesi:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:91
+msgid "As a reminder, here are your order details:"
+msgstr "Tässä ovat muistutuksena tilauksesi tiedot:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:105
+msgid "Note added to your {{site_title}} order from {{order_date}}"
+msgstr "Huomautus lisätty {{site_title}}-tilaukseesi (tilauksen pvm {{order_date}})"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:82
+msgid "Heading"
+msgstr "Otsikko"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:99
+msgid "Additional content"
+msgstr "Lisäsisältö"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:41
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "Oletus"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:117
+msgid "Container"
+msgstr "Säilö"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:119
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:149
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:196
+msgid "Background color"
+msgstr "Taustaväri"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:123
+msgid "Email width"
+msgstr "Sähköpostin leveys"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:132
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:443
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:68
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:156
+msgid "Default"
+msgstr "Oletus"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:133
+msgid "Full"
+msgstr "Kattava"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:141
+msgid "Header"
+msgstr "Otsake"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:146
+msgid "Header image"
+msgstr "Otsakekuva"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:155
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:174
+msgid "Text"
+msgstr "Teksti"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:166
+msgid "Body"
+msgstr "Leipäteksti"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:168
+msgid "Body background color"
+msgstr "Rungon taustaväri"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:177
+msgid "Link color"
+msgstr "Linkkien väri"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:184
+msgid "Headings"
+msgstr "Otsakkeet"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:187
+msgid "H1 font size"
+msgstr "H1-fonttikoko"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:188
+msgid "H2 font size"
+msgstr "H2-fonttikoko"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:189
+msgid "H3 font size"
+msgstr "H3-fonttikoko"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:194
+msgid "Button"
+msgstr "Painike"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:197
+msgid "Label color"
+msgstr "Selitteen väri"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:206
+msgid "Footer"
+msgstr "Alapalkki"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:214
+msgid "Footer text"
+msgstr "Alatunnisteen teksti"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:242
+msgid "Text color"
+msgstr "Tekstin väri"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:262
+msgid "Font family"
+msgstr "Fonttiryhmä"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:287
+msgid "Font size"
+msgstr "Fonttikoko"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:205
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:224
+msgid "Preview text"
+msgstr "Esikatseluteksti"
+
+#. translators: %1$s - opening a HTML tag, %2$s - closing a HTML tag
+#: src/Features/EmailNotifications/Models/EmailNotification.php:229
+msgid "Preview text is shown after the subject line in some email inboxes. Maximum: 150 characters. %1$sLearn more%2$s"
+msgstr "Jotkin sähköpostiohjelmat näyttävät esikatselutekstin viestin aiherivin jälkeen. Maksimipituus: 150 merkkiä. %1$sLue lisää%2$s"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:234
+msgid "Enter preview text"
+msgstr "Anna esikatseluteksti"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:264
+msgid "Subject"
+msgstr "Aihe"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:41
+msgid "Failed order"
+msgstr "Epäonnistunut tilaus"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when an order is marked failed (if it was previously pending or on-hold)."
+msgstr "Lähetetään valituille vastaanottajille, kun tilaus on merkitty epäonnistuneeksi (jos se oli aiemmin kesken tai pidossa)."
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:72
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr "Maksu tilaukselle %1$s asiakkaalta %2$s epäonnistui. Tilauksen tiedot:"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:93
+msgid "[{site_title}]: Order #{order_number} has failed"
+msgstr "[{site_title}]: Tilaus #{order_number} epäonnistui"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:32
+#: src/WooCommerce/Emails/ItemShippedEmail.php:32
+msgid "Item shipped"
+msgstr "Tuote lähetetty"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:33
+msgid "Sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Lähetetään asiakkaalle, kun hänen tilaukseensa on lisätty seurantatiedot yhtä tai useampaa tuoteta varten."
+
+#. translators: Placeholder: %s - Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:62
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:92
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:79
+#: src/Features/EmailNotifications/Traits/IsCustomerEmailNotificationTrait.php:24
+#: templates/woocommerce/emails/customer-item-shipped.php:36
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:31
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:31
+#: templates/woocommerce/emails/ready-for-pickup.php:36
+msgid "Hi %s,"
+msgstr "Hei %s,"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:63
+#: templates/woocommerce/emails/customer-item-shipped.php:38
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:32
+msgid "An item from your order has shipped!"
+msgstr "Tilaukseesi kuuluva tuote on lähetetty!"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:77
+msgid "An item from {{site_title}} order #{{order_number}} has shipped!"
+msgstr "{{site_title}}: tilaus {{order_number}} on lähetetty!"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:27
+msgid "New account"
+msgstr "Uusi tili"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:28
+msgid "Sent to customers when they sign up via checkout or account pages."
+msgstr "Lähetetään asiakkaille heidän rekisteröityessään palveluun kassalla tai tilisivuilla."
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:39
+msgid "Your {{site_title}} account has been created!"
+msgstr "{{site_title}}-tilisi on luotu!"
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:97
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "Kiitos tilin luomisesta: %1$s. Käyttäjätunnuksesi on %2$s. Oman tiliosiosi kautta voit tarkastella tilauksia, vaihtaa salasanasi tehdä paljon muuta: %3$s"
+
+#. translators: %s: Auto generated password
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:105
+msgid "Your password has been automatically generated: %s"
+msgstr "Salasanasi on luotu automaattisesti: %s"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:41
+msgid "New order"
+msgstr "Uusi tilaus"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when a new order is received."
+msgstr "Lähetetään valituille vastaanottajille uuden tilauksen saamisen yhteydessä."
+
+#. translators: %1$s: Customer first name, %2$s: Customer last name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:69
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %1$s: Customer full name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:78
+msgid "You’ve received the following order from %1$s:"
+msgstr "Olet saanut seuraavan tilauksen asiakkaalta: %1$s:"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:98
+msgid "[{{site_title}}]: New order #{{order_number}}"
+msgstr "[{{site_title}}]: Uusi tilaus {{order_number}}"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:35
+msgid "Order on-hold"
+msgstr "Tilaus pidossa"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:36
+msgid "Sent to customer when an order is on hold."
+msgstr "Lähetetään asiakkaalle hänen tilauksensa ollessa pidossa."
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:47
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:83
+msgid "Your {{site_title}} order has been received!"
+msgstr "{{site_title}}: tilauksesi on vastaanotettu!"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:78
+msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
+msgstr "Kiitos tilauksestasi. Se on pidossa, kunnes olemme vahvistaneet maksun vastaanoton. Tässä on yhteenveto tekemästäsi tilauksesta:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:35
+msgid "Partially refunded order"
+msgstr "Osittain hyvitetty tilaus"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is partially refunded."
+msgstr "Lähetetään asiakkaalle, jos hänen tilauksensa on hyvitetty osittain."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr "%s: tilauksesi on hyvitetty osittain. Näet lisätietoja alla:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been partially refunded"
+msgstr "{{site_title}}: tilauksesi {{order_number}} on hyvitetty osittain."
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:35
+msgid "Processing order"
+msgstr "Tilausta käsitellään"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:36
+msgid "Sent to customer after a payment is made."
+msgstr "Lähetetään asiakkaalle maksun suorittamisen jälkeen."
+
+#. translators: %s: Order number
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:67
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "Halusimme vain vahvistaa, että olemme vastaanottaneet tilauksesi %s, ja sitä käsitellään parhaillaan:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:35
+msgid "Fully refunded order"
+msgstr "Kokonaan hyvitetty tilaus"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is fully refunded."
+msgstr "Lähetetään asiakkaalle, jos hänen tilauksensa on hyvitetty kokonaan."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been refunded. There are more details below for your reference:"
+msgstr "%s: tilauksesi on hyvitetty. Näet lisätietoja alla:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been refunded"
+msgstr "{{site_title}}: tilauksesi {{order_number}} on hyvitetty."
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:28
+msgid "Reset password"
+msgstr "Salasana vaihdettu"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:29
+msgid "Sent to customers when they reset their passwords."
+msgstr "Lähetetään asiakkaille heidän vaihtaessaan salasanansa."
+
+#. translators: %s: Store name
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:81
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr "Joku on pyytänyt uutta salasanaa seuraavaa %s-tiliä varten:"
+
+#. translators: %s: Customer username
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:83
+msgid "Username: %s"
+msgstr "Käyttäjänimi: %s"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:84
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr "Jos et tehnyt tätä pyyntöä, jätä tämä sähköpostiviesti huomiotta. Jos haluat jatkaa:"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:87
+msgid "Click here to reset your password"
+msgstr "Vaihda salasanasi napsauttamalla tätä"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:56
+msgid "Sender name"
+msgstr "Lähettäjän nimi"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:68
+msgid "Sender address"
+msgstr "Lähettäjän osoite"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:76
+msgid "Recipients"
+msgstr "Vastaanottajat"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:77
+msgid "Enter recipients (comma-separated) for this email"
+msgstr "Anna tämän sähköpostiviestin vastaanottajat (pilkuilla eroteltuina)"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. Manage them from Marketing > Emails."
+msgstr "Räätälöi sähköpostisi vastaamaan brändiäsi ja kasvata asiakasuskollisuutta. Hallitse niitä osiossa Markkinointi > Sähköpostit."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:126
+msgid "Manage emails"
+msgstr "Hallitse sähköpostiviestejä"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:137
+msgid "Your hosting plan now offers editable WooCommerce emails, no plugin required!"
+msgstr "Verkkohotellipakettisi tarjoaa nyt muokattavat WooCommerce-sähköpostiviestit – ei vaadi plugin-laajennuksia!"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:254
+msgid "Please use either your hosting plan's email editing feature or your 3rd-party email editor."
+msgstr "Käytä joko verkkohotellipakettisi sisältämää sähköpostin muokkausominaisuutta tai kolmannen osapuolen sähköpostieditoria."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Edit emails"
+msgstr "Muokkaa sähköpostiviestejä"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Contact support"
+msgstr "Ota yhteyttä asiakastukeen"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:266
+msgid "A 3rd-party email editing plugin has been detected on your store."
+msgstr "Kaupassasi on havaittu kolmannen osapuolen toimittama sähköpostin muokkauslaajennus."
+
+#. translators: %1$s opening strong tag; %2$s closing strong tag; %3$s opening anchor tag; %4$s closing anchor tag; %5$s opening anchor tag; %6$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:92
+msgid "%1$sNote:%2$s Your site is using a temporary domain that cannot be indexed by search engines. Change your primary domain via the %3$sWoo store management area%4$s. Learn more about %5$sconnecting a domain%6$s."
+msgstr "%1$sHuomautus:%2$s Sivustosi käyttää väliaikaista verkkotunnusta, jota hakukoneet eivät voi indeksoida. Vaihda ensisijainen verkkotunnuksesi %3$sWoo-kauppojen hallintaosion%4$s kautta. Lue lisää %5$sverkkotunnusten yhdistämisestä%6$s."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag; %3$s opening anchor tag; %4$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:102
+msgid "Change your primary domain via the %1$sWoo store management area%2$s. Learn more about %3$sconnecting a domain%4$s."
+msgstr "Vaihda ensisijainen verkkotunnuksesi %1$sWoo-kauppojen hallintaosion%2$s kautta. Lue lisää %3$sverkkotunnusten yhdistämisestä%4$s."
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:33
+msgid "Link bank account"
+msgstr "Linkitä pankkitili"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:34
+msgid "You've got money waiting with GoDaddy Payments! Add your banking info to get your payouts deposited."
+msgstr "Sinulla on rahaa odottamassa GoDaddy Payments -palvelussa! Lisää pankkitietosi, jotta saat rahasi talletettua."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayEnabledNotice.php:21
+msgid "GoDaddy Payments - Apple Pay has been enabled on your selected pages and shows %1$sin Safari on supported devices%2$s."
+msgstr "GoDaddy Payments – Apple Pay on otettu käyttöön valituilla sivuillasi, ja se näkyy %1$sSafari-selaimessa tuetuilla laitteilla%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Apple Pay should show."
+msgstr "Valitse sivut, joilla haluat Apple Pay -logon näkyvän."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayRegistrationFailedNotice.php:24
+msgid "There was a problem registering your site with Apple Pay. Please disable Apple Pay and try re-enabling, or %1$scontact support%2$s."
+msgstr "Ongelma sivustosi rekisteröinnissä Apple Payn kanssa. Poista Apple Pay käytöstä ja kokeile sen ottamista uudelleen käyttöön, tai %1$sota yhteyttä asiakastukeen%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:24
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:23
+msgid "GoDaddy Payments successfully enabled!"
+msgstr "GoDaddy Payments on otettu onnistuneesti käyttöön!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:25
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:24
+msgid "GoDaddy Payments is now available to your customers at checkout."
+msgstr "GoDaddy Payments on nyt asiakkaidesi käytettävissä kassatoiminnon yhteydessä."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:27
+msgid "GoDaddy Payments is now connected to your store!"
+msgstr "GoDaddy Payments on nyt yhdistetty kauppaasi!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:21
+msgid "Enable GoDaddy Payments"
+msgstr "Ota käyttöön GoDaddy Payments -maksut"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:30
+msgid "Enable the payment method to add it to your checkout."
+msgstr "Ota maksutapa käyttöön sen lisäämiseksi kassatoimintoosi."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:23
+msgid "Your GoDaddy Payments account has been closed."
+msgstr "GoDaddy Payments -tilisi on suljettu."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "Maksutapa on poistettu käytöstä, joten se ei näy kassatoimintosi yhteydessä. Määritä tilisi, jotta voit jatkaa maksujen käsittelyä."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:24
+msgid "It looks like you didn't finish your GoDaddy Payments application."
+msgstr "Näyttää siltä, että et viimeistellyt GoDaddy Payments -hakemustasi."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:26
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "Resume"
+msgstr "Jatka"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:27
+msgid "You're just a few minutes from processing payments."
+msgstr "Olet vain muutaman minuutin päässä siitä, että voit käsitellä maksuja."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:23
+msgid "Your GoDaddy Payments account needs attention."
+msgstr "GoDaddy Payments -tilisi tarvitsee huomiotasi."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "Maksutapa on poistettu käytöstä, joten se ei näy kassatoimintosi yhteydessä. Tarkista sähköpostisi seuraavia vaiheita varten."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:23
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:330
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "GoDaddy Payments -tilisi on poistettu käytöstä."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "Maksutapa on poistettu käytöstä, joten se ei näy kassatoimintosi yhteydessä. Tarkista sähköpostisi lisätietoja varten."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:26
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:29
+msgid "Complete verification"
+msgstr "Suorita vahvistus"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:27
+msgid "You've got money waiting with GoDaddy Payments! Verify your identity and add your banking info to get your payouts deposited."
+msgstr "Sinulla on rahaa odottamassa GoDaddy Payments -palvelussa! Sinun on vahvistettava henkilöllisyytesi ja lisättävä pankkitietosi, jotta saat rahasi talletettua."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:30
+msgid "You haven't completed the necessary steps to verify your identity with GoDaddy Payments. Until you do that, you won't be able to take any payments or deposit your funds."
+msgstr "Et ole suorittanut tarvittavia vaiheita henkilöllisyytesi vahvistamiseksi GoDaddy Payments -palvelussa. Ennen kuin tämä on tehty, et voi vastaanottaa maksuja tai tallettaa varojasi."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:30
+msgid "You've still got money waiting with GoDaddy Payments! Verify your identity and add your banking info as soon as you can to get your funds and keep taking payments."
+msgstr "Sinulla on yhä rahaa odottamassa GoDaddy Payments -palvelussa! Vahvista henkilöllisyytesi ja lisää pankkitietosi mahdollisimman pian, jotta saat rahasi ja voit jatkaa maksujen vastaanottamista."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:30
+msgid "The deadline to complete your payouts setup is coming up! To keep transacting with GoDaddy Payments and to get your money, verify your identity and add banking info."
+msgstr "Maksutoimintojen määrittämisen määräaika lähestyy! Vahvista henkilöllisyytesi ja lisää pankkitietosi, jotta voit jatkaa asiointia GoDaddy Payments -palvelun kanssa ja saada rahasi."
+
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:27
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:287
+msgid "You're all set to take payments with GoDaddy Payments!"
+msgstr "Olet valmis aloittamaan maksun vastaanoton GoDaddy Payments -palvelun avulla!"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:35
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:292
+msgid "To get your funds deposited to your bank account, verify your identity and add your banking info. %1$sSet up payouts%2$s"
+msgstr "Jotta saat varasi talletettua omalle pankkitilillesi, sinun on vahvistettava henkilöllisyytesi ja lisättävä pankkitietosi. %1$sMääritä maksut%2$s"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:42
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:300
+msgid "The connected GoDaddy Payments account is %1$s %2$s (Not the business owner's account? %3$sSwitch account%4$s)."
+msgstr "Yhdistetty GoDaddy Payments -tili on %1$s %2$s (Eikö tämä ole yrityksen omistajan tili? %3$sVaihda tiliä%4$s)."
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountSwitchedNotice.php:30
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:278
+msgid "GoDaddy Payments is now connected with the account %1$s %2$s. (Not right? %3$sSwitch account%4$s.)"
+msgstr "GoDaddy Payments on nyt yhdistetty tiliin %1$s %2$s. (Eikö tämä pidä paikkaansa? %3$sVaihda tiliä%4$s.)"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:28
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:28
+msgid "Get Started"
+msgstr "Aloita"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:30
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:31
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:455
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:52
+msgid "Provided by GoDaddy"
+msgstr "Palvelun tarjoaa GoDaddy"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:31
+msgid "Sell online and in person with GoDaddy Payments. Sync local pickup and delivery orders right to your Smart Terminal, then get paid fast with next-day deposits."
+msgstr "Myy tuotteita verkossa ja kasvokkain GoDaddy Payments -maksujen avulla. Synkronoi paikalliset nouto- ja toimitustilaukset suoraan älypäätteestäsi ja vastaanota maksut nopeasti seuraavana päivänä."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:29
+msgid "Use GoDaddy Payments Selling in Person to sync local pickup and delivery orders to your Smart Terminal. Sell anything, anywhere and get paid fast with next-day deposits."
+msgstr "Käyttämällä GoDaddy Payments -maksuja kasvokkain tapahtuvaan myyntiin voit synkronoida paikallista noutoa ja toimituksia hyödyntävät tilaukset älypäätteeseesi. Myy mitä tahansa missä tahansa ja vastaanota maksut nopeasti jo seuraavana päivänä."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:32
+msgid "GoDaddy Selling in Person"
+msgstr "Myynti kasvokkain GoDaddyn avulla"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:39
+msgid "Update Store"
+msgstr "Päivitä kauppa"
+
+#. translators: %s - list of supported countries
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:42
+msgid "GoDaddy Payments is available for businesses in %s. Please update your Store Address to use the payment method."
+msgstr "GoDaddy Payments on yritysten käytettävissä näissä maissa: %s. Päivitä kaupan osoite, jotta voit käyttää tätä maksutapaa."
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:42
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:37
+msgid "Change Currency"
+msgstr "Vaihda valuuttaa"
+
+#. translators: %1$s - list of supported currencies, %2$s - store country
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:45
+msgid "GoDaddy Payments requires %1$s transactions for businesses in %2$s. Please change your Currency in order to use the payment method."
+msgstr "GoDaddy Payments edellyttää valuutaksi %1$s maksutapahtumiin tässä maassa: %2$s. Päivitä valuuttasi, jotta voit käyttää tätä maksutapaa."
+
+#. translators: %s - list of supported currencies
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:40
+msgid "GoDaddy Payments requires %s transactions. Please change your Currency in order to use the payment method."
+msgstr "GoDaddy Payments edellyttää maksutapahtumien valuutaksi %s. Päivitä valuuttasi, jotta voit käyttää tätä maksutapaa."
+
+#. translators: Placeholders: %1$s - <a> tag for the Google Pay docs link, %2$s - </a> tag
+#: src/Features/GoDaddyPayments/Notices/GooglePayEnabledNotice.php:22
+msgid "GoDaddy Payments - Google Pay has been enabled on your selected pages and shows %1$sin supported browsers and devices%2$s."
+msgstr "GoDaddy Payments – Google Pay on otettu käyttöön valituilla sivuillasi, ja se näkyy %1$stuetuissa selaimissa ja laitteissa%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/GooglePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Google Pay should show."
+msgstr "Valitse sivut, joilla haluat Google Pay -logon näkyvän."
+
+#: src/Features/GoDaddyPayments/Notices/OnboardingErrorNotice.php:26
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "Yhdistämisessä GoDaddy Payments -palveluun tapahtui virhe. Yritä uudelleen."
+
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:22
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin!"
+msgstr "GoDaddy Payments (Poynt) sisältyy mukaan hallitun WordPressin asiakkaille ilman erillistä laajennusta!"
+
+#: src/Features/GoDaddyPayments/Notices/WooStagingNotice.php:23
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "Valmistelusivustossasi tehdyt WooCommerce-veloitukset tai maksuvaraukset sekä hyvitykset ja mitätöinnit käsitellään normaalisti GoDaddy Payments -tilisi kautta."
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:43
+msgid "Commerce Home"
+msgstr "Kaupankäynnin etusivu"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:47
+msgid "Payments Dashboard"
+msgstr "Maksujen hallintapaneeli"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:50
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:265
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:266
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:197
+msgid "Tax"
+msgstr "Vero"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:94
+msgid "The Sellbrite plugin is included in your hosting plan as GoDaddy Marketplaces. The plugin has been deactivated."
+msgstr "Sellbrite-laajennus sisältyy verkkohotellipakettiisi nimellä GoDaddy Marketplaces. Laajennus on poistettu käytöstä."
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:95
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:230
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:393
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:400
+msgid "Set up"
+msgstr "Määritä"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:104
+msgid "Your products, everywhere."
+msgstr "Omat tuotteesi, kaikkialla."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:64
+msgid "A product ID is required."
+msgstr "Tuotetunnus on pakollinen."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:68
+msgid "A channel UUID is required."
+msgstr "Kanavan UUID-tunniste on pakollinen."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:72
+msgid "You do not have permission to perform this action."
+msgstr "Sinulla ei ole oikeutta tämän toiminnon suorittamiseen."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:76
+msgid "This product must meet all requirements below before creating a draft listing."
+msgstr "Tämän tuotteen on oltava kaikkien alla mainittujen vaatimusten mukainen ennen kuin listauksesta voidaan luoda luonnos."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:116
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:157
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:61
+msgid "Failed to create a draft listing."
+msgstr "Luonnoslistauksen luominen epäonnistui."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:132
+msgid "Failed to retrieve a WooCommerce product with ID #%d while creating a draft Marketplaces listing."
+msgstr "Tunnuksella %d varustetun WooCommerce-tuotteen noutaminen epäonnistui kauppapaikkalistauksen luomisen yhteydessä."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:62
+msgid "Products with Marketplaces listings cannot have an empty SKU."
+msgstr "Kauppapaikoilla listattujen tuotteiden varastointiyksikkö ei voi olla tyhjä."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:88
+#: src/Features/Marketplaces/Interceptors/ProductsPageInterceptor.php:111
+msgid "Are you sure you want to unpublish? All associated Marketplaces listings will remain published or as a draft but will no longer sync content and inventory with WooCommerce."
+msgstr "Haluatko varmasti peruuttaa julkaisun? Kaikki tähän liittyvät kauppapaikkojen listaukset pysyvät julkaistuina tai luonnoksina, mutta niiden sisältöä ja varastoa ei enää synkronoida WooCommercen kanssa."
+
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:156
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:168
+msgid "Marketplaces & Social Order"
+msgstr "Tilaus kauppapaikkojen/somen kautta"
+
+#. translators: Placeholder: %s - sales channel label
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:160
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:170
+msgid "Sales Channel: %s"
+msgstr "Myyntikanava: %s"
+
+#. translators: Placeholder: %s - sales channel order number
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:163
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:172
+msgid "Sales Channel Order Number: %s"
+msgstr "Myyntikanavan tilausnumero: %s"
+
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:166
+msgid "Return accepted via Walmart sales channel."
+msgstr "Palautus hyväksytty Walmart-myyntikanavan kautta."
+
+#. translators: Placeholders: %1$s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:189
+msgid "Return requested via Walmart sales channel. %1$sView request%2$s."
+msgstr "Palautusta pyydetty Walmart-myyntikanavan kautta. %1$sTarkastele pyyntöä%2$s."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:291
+msgid "Create your first product listing by adding a new product or editing an existing one in WooCommerce. You can list a product on each of the marketplaces you've added. Once listed, the product info and inventory will sync automatically. Visit %1$sProducts%2$s to get started."
+msgstr "Luo ensimmäinen tuotelistauksesi lisäämällä uusi tuote tai muokkaamalla olemassa olevaa tuotetta WooCommercessa. Voit listata tuotteen jokaiselle lisäämällesi kauppapaikalle. Listauksen jälkeen tuotteen tiedot ja varasto synkronoidaan automaattisesti. Aloita vierailemalla %1$sTuotteet%2$s-osiossa."
+
+#: src/Features/Marketplaces/Marketplaces.php:301
+msgid "Welcome to GoDaddy Marketplaces!"
+msgstr "Tervetuloa GoDaddy Marketplaces -palveluun!"
+
+#: src/Features/Marketplaces/Marketplaces.php:326
+msgid "Your store address must be in the US and currency US dollars in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Myymäläsi osoitteen on oltava Yhdysvalloissa ja valuutan Yhdysvaltain dollareina, jotta tuotteet, varastot ja tilaukset voidaan synkronoida verkon markkinapaikkojen ja sosiaalisen median myyntikanavien kanssa."
+
+#: src/Features/Marketplaces/Marketplaces.php:342
+msgid "Your store weight and dimensions units must be in \"lbs\" and \"in\" in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Myymäläsi paino- ja mittayksiköiden on oltava kilogrammoina ja senttimetreinä, jotta tuotteet, varastot ja tilaukset voidaan synkronoida verkon markkinapaikkojen ja sosiaalisen median myyntikanavien kanssa."
+
+#: src/Features/Marketplaces/Marketplaces.php:343
+#: src/Features/Marketplaces/Marketplaces.php:386
+msgid "Update settings"
+msgstr "Päivitä asetukset"
+
+#: src/Features/Marketplaces/Marketplaces.php:385
+msgid "Stock management must be enabled in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Varaston hallinnan on oltava käytössä, jotta tuotteet, varastot ja tilaukset voidaan synkronoida verkon markkinapaikkojen ja sosiaalisen median myyntikanavien kanssa."
+
+#: src/Features/Marketplaces/Marketplaces.php:434
+msgid "Product, inventory, and order syncing is disabled in Staging to prevent conflicts with your Production site."
+msgstr "Tuotteiden, varastojen ja tilausten synkronointi on poistettu käytöstä valmistelusivustossa, jotta vältetään ristiriidat varsinaisen tuotantosivustosi kanssa."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:450
+msgid "You've used 90&#37; of your included monthly Marketplaces and Social orders. Upgrade soon to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Olet käyttänyt 90&#37; sopimukseesi sisältyvästä kuukausittaisesta kauppapaikkojen ja sosiaalisen median kautta tehdystä myynnistä. Korota sopimuksesi tasoa pian, jotta voit käsitellä enemmän tilauksia. %1$sNosta sopimuksen tasoa%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:476
+msgid "You've used all your included monthly Marketplaces and Social orders. Upgrade now to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Olet käyttänyt kaiken sopimukseesi sisältyvästä kuukausittaisesta kauppapaikkojen ja sosiaalisen median kautta tehdystä myynnistä. Korota sopimuksesi tasoa nyt, jotta voit käsitellä enemmän tilauksia. %1$sNosta sopimuksen tasoa%2$s"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:102
+msgid "Sales Channel"
+msgstr "Myyntikanava"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:106
+msgid "Sales Channel Order Number"
+msgstr "Myyntikanavan tilausnumero"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:81
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:155
+msgid "Product Brand"
+msgstr "Tuotebrändi"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:86
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:162
+msgid "Product Condition"
+msgstr "Tuotteen kunto"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:91
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:167
+msgctxt "Product condition"
+msgid "New"
+msgstr "Uutta"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:92
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:168
+msgctxt "Product condition"
+msgid "Used"
+msgstr "Käytetty"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:93
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:169
+msgctxt "Product condition"
+msgid "Refurbished"
+msgstr "Kunnostettu"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgid "Global Trade Item Number"
+msgstr "Yleinen kauppanimikenumero (GTIN)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgctxt "Global Trade Item Number (GTIN)"
+msgid "GTIN"
+msgstr "GTIN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:114
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:178
+msgid "A Global Trade Item Number is used to uniquely identify your product on Marketplaces & Social product listings. It can be found next to the barcode."
+msgstr "Yleistä kauppanimikenumeroa käytetään tuotteesi yksilölliseen tunnistamiseen kauppapaikkojen ja sosiaalisen median tuotelistauksissa. Se näkyy viivakoodin vieressä."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgid "Manufacturer Part Number"
+msgstr "Valmistajan osanumero (MPN)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgctxt "Manufacturer Part Number (MPN)"
+msgid "MPN"
+msgstr "MPN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:121
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:188
+msgid "A Manufacturer Part Number is used to uniquely identify your product on Marketplaces & Social product listings. Only use the MPN assigned by the manufacturer."
+msgstr "Valmistajan osanumeroa käytetään tuotteesi yksilölliseen tunnistamiseen kauppapaikkojen ja sosiaalisen median tuotelistauksissa. Käytä ainoastaan valmistajan määrittämää MPN-numeroa."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:53
+msgid "Marketplaces & Social"
+msgstr "Kauppapaikat ja sosiaalinen media"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:217
+msgid "You haven't connected this sales channel yet."
+msgstr "Et ole vielä yhdistänyt tätä myyntikanavaa."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:221
+msgid "Connect Sales Channel"
+msgstr "Yhdistä myyntikanava"
+
+#. translators: Placeholders: %s: Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:245
+msgid "This product hasn't been listed on %s yet."
+msgstr "Tätä tuotetta ei ole vielä listattu seuraavalla kanavalla: %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:250
+msgid "Create Draft Listing"
+msgstr "Luo listauksen luonnos"
+
+#. translators: Placeholders: %1$s - Opening <a> HTML link tag, %2$s - Closing </a> HTML link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:259
+msgid "A draft listing will be automatically created once the product meets the requirements below. %1$sLearn more about product sync%2$s"
+msgstr "Luonnos listauksesta luodaan automaattisesti, kun tuote täyttää alla olevat vaatimukset. %1$sLue lisää tuotteiden synkronoinnista%2$s"
+
+#. translators: Placeholders: %1%s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:266
+msgid "The requirements below must be met in order to list this product. %1$sLearn more about product sync%2$s"
+msgstr "Alla olevat vaatimukset on täytettävä tämän tuotteen listaamiseksi. %1$sLue lisää tuotteiden synkronoinnista%2$s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:273
+msgctxt "Product property requirement"
+msgid "Simple or variable product (not virtual or downloadable)"
+msgstr "Yksinkertainen vai muuttuva tuote (ei virtuaalinen tai ladattava)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:274
+msgctxt "Product property requirement"
+msgid "Published product"
+msgstr "Julkaistu tuote"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:275
+msgctxt "Product property requirement"
+msgid "Product SKU must be set"
+msgstr "Tuotteen varastointiyksikkö on määritettävä"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:276
+msgctxt "Product property requirement"
+msgid "Manage stock enabled and stock quantity > 0"
+msgstr "Varaston hallinta käytössä ja varastomäärä > 0"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:277
+msgctxt "Product property requirement"
+msgid "No backorders allowed"
+msgstr "Jälkitilaukset eivät ole sallittuja"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:278
+msgctxt "Product property requirement"
+msgid "Brand and Condition fields filled"
+msgstr "Brändi- ja kunto-kentät täytetty"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:319
+msgid "A draft listing has been created for this product on %s."
+msgstr "Tällä tuotteelle on luotu luonnoslistaus seuraavalla kanavalla: %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:323
+msgid "View Draft Listing"
+msgstr "Tarkastele listauksen luonnosta"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:347
+msgid "This product has been listed on %s."
+msgstr "Tämä tuote on listattu seuraavalla kanavalla: %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:350
+msgid "Edit Listing"
+msgstr "Muokkaa listausta"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:195
+msgid "Manage Sales Channels"
+msgstr "Hallitse myyntikanavia"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:228
+msgid "Marketplaces &amp; Social"
+msgstr "Kauppapaikat ja sosiaalinen media"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:251
+msgid "Manage Listing Templates"
+msgstr "Hallitse listausten mallipohjia"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:265
+msgid "You haven't added any sales channels yet. Add sales channels in order to post your listings on third party marketplaces and social platforms."
+msgstr "Et ole vielä lisännyt mitään myyntikanavia. Lisää myyntikanavia, jotta voit julkaista listauksiasi kolmansien osapuolien kauppapaikoilla ja sosiaalisen median alustoilla."
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:279
+msgctxt "Refreshes the page"
+msgid "Refresh"
+msgstr "Virkistä"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:286
+msgid "Add Sales Channel"
+msgstr "Lisää myyntikanava"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:299
+msgid "Resources"
+msgstr "Resurssit"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:300
+msgid "What is Marketplaces &amp; Social?"
+msgstr "Mitä kauppapaikoilla ja sosiaalisella medialla tarkoitetaan?"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:302
+msgid "How to connect sales channels"
+msgstr "Miten myyntikanavia yhdistetään"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:304
+msgid "What products are eligible for Marketplaces & Social sales channels?"
+msgstr "Mitkä tuotteet ovat kelvollisia myyntiin markkinapaikkojen ja sosiaalisen median kautta?"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:119
+msgid "A non-empty settings parameter must be provided."
+msgstr "Ei-tyhjä asetusten parametri on annettava."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:124
+msgid "Each setting object must contain name and value keys."
+msgstr "Jokaisen asetusobjektin tulee sisältää nimi- ja arvoavaimet."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:245
+msgid "Unique onboarding setting ID."
+msgstr "Yksilöllinen perehdytysasetuksen tunnus."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:251
+msgid "Unique onboarding setting name (matches the ID)."
+msgstr "Yksilöllinen perehdytysasetuksen nimi (vastaa tunnusta)."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:257
+msgid "Onboarding setting label."
+msgstr "Perehdytysasetuksen selite."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:263
+msgid "Onboarding setting description."
+msgstr "Perehdytysasetuksen kuvaus."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:269
+msgid "A list of available options for the onboarding setting values."
+msgstr "Luettelo käytettävissä olevista vaihtoehdoista perehdytysasetusten arvoille."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:278
+msgid "Onboarding setting default value."
+msgstr "Perehdytysasetuksen oletusarvo."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:284
+msgid "Onboarding setting value."
+msgstr "Perehdytysasetuksen arvo."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:290
+msgid "Whether the onboarding setting can have multiple values."
+msgstr "Voiko perehdytyksen asetuksella olla useita arvoja."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:296
+msgid "Whether the onboarding setting is required."
+msgstr "Onko perehdytysasetus pakollinen."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:302
+msgid "Onboarding setting group, if applicable."
+msgstr "Perehdytysasetuksen ryhmä, jos sovellettavissa."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:308
+msgid "Onboarding setting control details."
+msgstr "Perehdytysasetusten hallinnan tiedot."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:314
+msgid "Onboarding setting control type."
+msgstr "Perehdytysasetusten hallinnan tyyppi."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:320
+msgid "A list of available options for the onboarding setting control."
+msgstr "Luettelo käytettävissä olevista vaihtoehdoista perehdytysasetusten hallinnalle."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:329
+msgid "Optional input placeholder for the onboarding setting control."
+msgstr "Valinnainen syötteen paikanvaraus perehdytysasetusten hallintaan."
+
+#: src/Features/Onboarding/HomePage.php:33
+msgctxt "Title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Etusivu"
+
+#: src/Features/Onboarding/HomePage.php:34
+msgctxt "Menu title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Etusivu"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:23
+msgid "First time"
+msgstr "Etunimi"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:48
+msgid "Store name"
+msgstr "Myymälän nimi"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:61
+msgid "Store address 1"
+msgstr "Myymälän osoiterivi 1"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:75
+msgid "Store address 2"
+msgstr "Myymälän osoiterivi 2"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:89
+msgctxt "The country's region"
+msgid "Country Region"
+msgstr "Maan alue"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:103
+msgid "City"
+msgstr "Paikkakunta"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:117
+msgid "Postal code"
+msgstr "Postinumero"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:131
+msgid "Currency"
+msgstr "Valuutta"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:145
+msgid "Left aligned"
+msgstr "Tasaus vasemmalle"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:146
+msgid "Right aligned"
+msgstr "Tasaus oikealle"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:147
+msgid "Left aligned with space"
+msgstr "Tasaus vasemmalle + väli"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:148
+msgid "Right aligned with space"
+msgstr "Tasaus oikealle + väli"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:152
+msgid "Currency position"
+msgstr "Valuutan asema"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:171
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:228
+msgid "All countries"
+msgstr "Kaikki maat"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:172
+msgid "Sell to all countries, except for..."
+msgstr "Myy kaikkiin maihin paitsi..."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:173
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:196
+msgid "Sell to specific countries"
+msgstr "Myy tiettyihin maihin"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:177
+msgid "Selling locations"
+msgstr "Myyntisijainnit"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:211
+msgid "Sell to all countries except for"
+msgstr "Myy kaikkiin maihin paitsi"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:227
+msgid "Ship to all countries you sell to"
+msgstr "Toimitus kaikkiin maihin, joihin myyt tuotteita"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:229
+msgid "Ship to specific countries only"
+msgstr "Toimitus vain tiettyihin maihin"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:230
+msgid "Disable shipping & shipping calculations"
+msgstr "Poista käytöstä toimitus ja toimitusmaksujen laskenta"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:234
+msgid "Shipping locations"
+msgstr "Toimituskohteet"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:253
+msgid "Ship to specific countries"
+msgstr "Toimitus tiettyihin maihin"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:268
+msgid "Thousands separator"
+msgstr "Tuhaterotin"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:282
+msgid "Decimal separator"
+msgstr "Desimaalierotin"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:296
+msgid "Number of decimals"
+msgstr "Desimaalien määrä"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:310
+msgid "Kilograms"
+msgstr "Kilogramma"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:311
+msgid "Grams"
+msgstr "Gramma"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:312
+msgid "Pounds"
+msgstr "Pauna"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:313
+msgid "Ounces"
+msgstr "Unssi"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:317
+msgid "Weight units"
+msgstr "Painoyksiköt"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:336
+msgid "Meters"
+msgstr "Metri"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:337
+msgid "Centimeters"
+msgstr "Senttimetri"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:338
+msgid "Millimeters"
+msgstr "Millimetri"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:339
+msgid "Inches"
+msgstr "Tuuma"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:340
+msgid "Yards"
+msgstr "Jaardi"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:344
+msgid "Dimension units"
+msgstr "Koon mittayksiköt"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:363
+msgid "Enable taxes"
+msgstr "Ota verot käyttöön"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:377
+msgid "Last onboarding step"
+msgstr "Viimeinen perehdytysvaihe"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:390
+msgid "Completed"
+msgstr "Valmis"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:406
+msgid "Store selector dismissed"
+msgstr "Kaupan valinta hylätty"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:421
+msgid "Dismissed"
+msgstr "Hylätty"
+
+#: src/Features/Onboarding/Settings/Settings.php:25
+msgid "Onboarding"
+msgstr "Tutustuttaminen"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:43
+msgid "Order Numbers"
+msgstr "Tilausnumerot"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:60
+msgid "Starting number"
+msgstr "Aloitusnumero"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:70
+msgid "Prefix"
+msgstr "Etuliite"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:80
+msgid "Suffix"
+msgstr "L"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:90
+msgid "Skip free orders"
+msgstr "Ohita ilmaiset tilaukset"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:100
+msgid "Free order identifier"
+msgstr "Ilmaisen tilauksen tunniste"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:176
+msgid "Company name."
+msgstr "Yrityksen nimi."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:182
+msgid "Country code."
+msgstr "Maakoodi."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:188
+msgid "Connection status."
+msgstr "Yhteyden tila."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:313
+msgid "The shipment object associated with the shipping label."
+msgstr "Selitteeseen liittyvä lähetysobjekti."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:317
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:255
+msgid "The shipment ID."
+msgstr "Lähetystunnus."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:323
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:261
+msgid "The shipment's creation date."
+msgstr "Lähetyksen luontipäivä."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:329
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:267
+msgid "The shipment's last updated date."
+msgstr "Lähetyksen viimeisen päivityksen ajankohta."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:335
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:273
+msgid "The shipping provider for the shipment."
+msgstr "Lähetyksen kuljetuspalveluntarjoaja."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:340
+msgid "The label for a custom shipping provider."
+msgstr "Mukautetun kuljetuspalveluntarjoajan selite."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:345
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:283
+msgid "The shipment's tracking number."
+msgstr "Lähetyksen seurantanumero."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:350
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:288
+msgid "The shipment's tracking URL."
+msgstr "Lähetyksen seuranta-URL."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:355
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:293
+msgid "The rate associated with the shipment."
+msgstr "Lähetykseen liittyvä hinta."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:360
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:298
+msgid "The label associated with shipment."
+msgstr "Lähetykseen liittyvä selite."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:365
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:303
+msgid "The items included in the shipment."
+msgstr "Lähetykseen mukaan sisältyvät tuotteet."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:371
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:309
+msgid "The item's ID."
+msgstr "Nimikkeen tunnus."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:376
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:314
+msgid "The product's ID."
+msgstr "Tuotetunnus."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:381
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:319
+msgid "The product's variation ID."
+msgstr "Tuotteen muunnelman tunnus."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:386
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:324
+msgid "The item's quantity."
+msgstr "Tuotteen lukumäärä."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:399
+msgid "The shipping label returned by the shipping provider."
+msgstr "Kuljetuspalveluntarjoajan toimittama selite."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:251
+msgid "The shipment object associated with the shipping rates."
+msgstr "Toimitushintoihin liittyvä lähetysobjekti."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:278
+msgctxt "Display title, not physical label"
+msgid "The label for a custom shipping provider."
+msgstr "Mukautetun kuljetuspalveluntarjoajan selite."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:337
+msgid "The shipping rates returned by the shipping provider."
+msgstr "Kuljetuspalveluntarjoajan ilmoittamat toimituskulut."
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:43
+msgid "Phone number"
+msgstr "Puhelinnumero"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:44
+msgid "The phone number of your business."
+msgstr "Yrityksesi puhelinnumero."
+
+#: src/Features/Shipping/Interceptors/RedirectToShippingDashboardInterceptor.php:157
+msgctxt "GoDaddy name sent as brand name for the ShipEngine integration"
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/Features/Shipping/Interceptors/ShippingLabelsSettingsSectionInterceptor.php:82
+msgid "Shipping labels"
+msgstr "Lähetystarrat"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:32
+msgid "ShipEngine isn't available in your region"
+msgstr "ShipEngine ei ole käytettävissä sijainnissasi."
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:46
+msgid "To benefit from streamlined shipping and label printing, please ensure your store is located in the US, UK, Canada, or Australia."
+msgstr "Jotta voisit hyödyntää yksinkertaistettua toimitusta ja lähetystarrojen tulostusta, myymäläsi on sijaittava Yhdysvalloissa, Isossa-Britanniassa, Kanadassa tai Australiassa."
+
+#: src/Features/Shipping/Providers/ShipEngine/ShipEngineProvider.php:34
+msgctxt "shipping provider name"
+msgid "ShipEngine"
+msgstr "ShipEngine"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:150
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:359
+msgid "User does not have permission to manage WooCommerce"
+msgstr "Käyttäjällä ei ole oikeutta WooCommercen hallintaan"
+
+#. translators: Placeholders: %s - error message from the MWC API
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:166
+msgid "Could not create connection: %s"
+msgstr "Yhteyden luominen epäonnistui: %s)."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:172
+msgid "No redirect available"
+msgstr "Uudelleenohjausta ei ole saatavilla"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:497
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:507
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:90
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:63
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:177
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:109
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "Virhe. Yritä uudelleen tai kokeile jonkin muun maksutavan käyttöä."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:505
+msgid "An error occurred while processing the payment: "
+msgstr "Virhe maksun käsittelyssä: "
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:546
+msgid "Payment method successfully added."
+msgstr "Maksutavan lisäys onnistui."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:548
+msgid "Unable to add payment method to your account. Please try again."
+msgstr "Maksutavan lisääminen tiliisi epäonnistui. Yritä uudelleen."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:585
+msgid "Payment method could not be saved. %s"
+msgstr "Maksutavan tallennus epäonnistui. %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:639
+msgid "Payment method updated."
+msgstr "Maksutapa päivitetty."
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:72
+msgid "Included WooCommerce Extensions"
+msgstr "Mukaan sisältyvät WooCommerce-laajennukset"
+
+#. translators: Placeholder: %s - captured amount
+#: src/Payments/Adapters/CaptureTransactionOrderNoteAdapter.php:24
+msgid "A payment of %s was successfully captured via GoDaddy Payments Hub"
+msgstr "GoDaddy Payments Hub teki onnistuneen maksuvarauksen tälle summalle: %s"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "Tilaustasi ei voida käsitellä antamiesi maksutietojen avulla. Käytä jotakin toista maksutiliä tai vaihtoehtoista maksutapaa."
+
+#. translators: Placeholders: %1$s - card brand, %2$s - last 4 card numbers, %3$s - expiration month, %4$s - expiration year
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:32
+msgid " %1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr " %1$s, joka päättyy lukuihin %2$s (vanhenee %3$s/%4$s)"
+
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:33
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:34
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:181
+msgid "Card"
+msgstr "Kortti"
+
+#. translators: Placeholder: %s - refunded amount
+#: src/Payments/Adapters/RefundTransactionOrderNoteAdapter.php:24
+msgid "A refund of %s was successfully processed via GoDaddy Payments Hub"
+msgstr "GoDaddy Payments Hub käsitteli hyvityksen onnistuneesti: %s"
+
+#. translators: Placeholder: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "Transaction ID %s"
+msgstr "Tapahtumatunnus %s"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:54
+msgid "Result: [%1$s] %2$s"
+msgstr "Tulos: [%1$s] %2$s"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction info (if applicable, or empty string)
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:86
+msgid "%1$s %2$s in the amount of %3$s%4$s"
+msgstr "%1$s %2$s – summa %3$s%4$s"
+
+#. translators: Placeholders: %s - the total amount of the capture that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:26
+msgid "A payment capture of %s was successfully voided"
+msgstr "Maksuvaraus summalle %s on mitätöity"
+
+#. translators: Placeholders: %s - the total amount of the refund that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:33
+msgid "A refund of %s was successfully voided"
+msgstr "Hyvitys summalle %s on mitätöity"
+
+#: src/Payments/API/Controllers/CartController.php:261
+msgid "Coupons are disabled."
+msgstr "Kupongit on poistettu käytöstä."
+
+#: src/Payments/API/Controllers/CartController.php:285
+msgid "Invalid coupon code."
+msgstr "Virheellinen alennuskoodi."
+
+#: src/Payments/API/Controllers/CartController.php:291
+msgid "Coupon cannot be applied."
+msgstr "Kuponkia ei voida käyttää."
+
+#: src/Payments/API/Controllers/CartController.php:310
+msgid "Coupon cannot be applied. %s"
+msgstr "Kuponkikoodia ei voida käyttää. %s"
+
+#: src/Payments/API/Controllers/CartController.php:356
+msgid "Invalid customer data"
+msgstr "Virheelliset asiakastiedot."
+
+#: src/Payments/API/Controllers/CartController.php:381
+msgid "Invalid email address"
+msgstr "Virheellinen sähköpostiosoite"
+
+#. translators: Placeholder: %s - either 'billing' or 'shipping'
+#: src/Payments/API/Controllers/CartController.php:408
+msgid "Invalid %s address"
+msgstr "Virheellinen osoite: %s"
+
+#: src/Payments/API/Controllers/CartController.php:450
+msgid "Orders aren't accepted from this location"
+msgstr "Tilauksia tästä sijainnista ei hyväksytä"
+
+#: src/Payments/API/Controllers/CartController.php:523
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:258
+msgid "WooCommerce is not available"
+msgstr "WooCommerce ei ole käytettävissä"
+
+#: src/Payments/API/Controllers/CartController.php:578
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:325
+msgid "Invalid products data."
+msgstr "Virheelliset tuotetiedot."
+
+#: src/Payments/API/Controllers/CartController.php:648
+msgid "Coupon code to apply to the cart."
+msgstr "Ostoskorissa käytettävä alennuskoodi."
+
+#: src/Payments/API/Controllers/CartController.php:654
+msgid "Cart customer data."
+msgstr "Ostoskorin asiakasdata."
+
+#: src/Payments/API/Controllers/CartController.php:756
+msgid "Products to add to the cart."
+msgstr "Ostoskoriin lisättävät tuotteet."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:243
+msgid "The order ID."
+msgstr "Tilaustunnus."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:249
+msgid "The URL to redirect the customer to."
+msgstr "URL-osoite, johon asiakas uudelleenohjataan."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:187
+msgid "Order total, based on cart total."
+msgstr "Tilauksen kokonaissumma ostoskorin kokonaissumman perusteella."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:201
+msgid "2-letter ISO 3166 country code."
+msgstr "2-kirjaiminen ISO 3166 -maakoodi."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:207
+msgid "3-letter ISO 4217 currency code."
+msgstr "3-kirjaiminen ISO 4217 -valuuttakoodi."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:213
+msgid "Name of the merchant."
+msgstr "Kauppiaan nimi."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:219
+msgid "The shipping type based on the chosen shipping method."
+msgstr "Toimituksen tyyppi perustuu valittuun toimitustapaan."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:230
+msgid "Shipping methods for the payment request."
+msgstr "Maksupyynnön toimitustavat."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:239
+msgid "Items in the order."
+msgstr "Tilauksen tuotteet."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:256
+msgid "Whether to require customer email."
+msgstr "Onko asiakkaan sähköpostiosoite pakollinen."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:262
+msgid "Whether to require customer phone."
+msgstr "Onko asiakkaan puhelinnumero pakollinen."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:268
+msgid "Whether to require customer shipping address."
+msgstr "Onko asiakkaan toimitusosoite pakollinen."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:274
+msgid "Whether the customer should be allowed to enter coupons."
+msgstr "Sallitaanko asiakkaan käyttää kuponkeja."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:280
+msgid "A list of wallets to disable."
+msgstr "Käytöstä poistettavat lompakot."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:160
+msgid "Application ID."
+msgstr "Sovellustunnus."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:166
+msgid "Business ID."
+msgstr "Yrityksen tunnus."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:172
+msgid "List of available features."
+msgstr "Luettelo käytettävissä olevista ominaisuuksista."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:186
+msgid "Whether the payment gateway is enabled."
+msgstr "Onko maksuyhdyskäytävä otettu käyttöön."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:192
+msgid "Payment gateway connection status."
+msgstr "Maksuyhdyskäytävän yhteyden tila."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:210
+msgid "Nonce for switching accounts."
+msgstr "Kertakäyttöavain tilien vaihtoa varten."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:224
+msgid "Invalid phone number."
+msgstr "Virheellinen puhelinnumero."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:271
+msgid "The remote parent ID in the request does not match the remote parent ID of the order."
+msgstr "Pyynnön etäelementin ylätason tunnus ei vastaa tilauksen etäelementin ylätason tunnusta."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:368
+msgid "Invalid order ID."
+msgstr "Virheellinen tilaustunnus."
+
+#. translators: Placeholders: %s - a payment provider name, such as poynt
+#: src/Payments/API/Controllers/ProviderProcessingController.php:389
+msgid "Provider %s not found."
+msgstr "Palveluntarjoajaa ei löytynyt: %s."
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Invalid nonce"
+msgstr "Virheellinen kertakäyttöavain"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Missing nonce"
+msgstr "Puuttuva kertakäyttöavain"
+
+#. translators: Placeholder: %d - error code
+#: src/Payments/DataSources/WooCommerce/Adapters/CartOrderAdapter.php:206
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Virhe %d: tilauksen luominen epäonnistui. Yritä uudelleen."
+
+#: src/Payments/DataStores/WooCommerce/OrderPaymentTransactionDataStore.php:38
+#: src/WooCommerce/Payments/VirtualTerminal.php:121
+msgid "Virtual Terminal"
+msgstr "Virtuaalipääte"
+
+#. translators: Placeholder: %s - payment method name
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:271
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:277
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "Maksettu WooCommerce-kassatoiminnossa: \"%s\""
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:760
+msgid "Tip"
+msgstr "Vinkki"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:765
+msgid "Cashback"
+msgstr "Cashback"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:796
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "GoDaddy Payments -älypääte on lisännyt tämän tilaukseen: %1$s – %2$s"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:940
+msgid "From GoDaddy Payments Hub. Order fully refunded."
+msgstr "GoDaddy Payments Hub -palvelusta. Tilaus hyvitetty kokonaan."
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:943
+msgid "From GoDaddy Payments Hub. Order partially refunded."
+msgstr "GoDaddy Payments Hub -palvelusta. Tilaus hyvitetty osittain."
+
+#. translators: Placeholders: %1$s - date, %2$s time
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:347
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "Tilaus merkitty valmiiksi päätteessä %1$s klo %2$s"
+
+#: src/Payments/Poynt/Http/Adapters/CardPaymentMethodAdapter.php:134
+msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+msgstr "Laskutusosoitteesi ei vastaa maksukorttisi tietoja. Päivitä laskutusosoite, jotta tilaus voidaan tehdä."
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:90
+msgid "Coupon code"
+msgstr "Alennuskoodi"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:171
+msgid "Subtotal"
+msgstr "Välisumma"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:177
+msgid "Discount"
+msgstr "Alennus"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:183
+msgid "Shipping"
+msgstr "Toimitus"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:264
+msgid "Wallet payments cannot be used for carts with multiple shipments."
+msgstr "Lompakkomaksuja ei voida käyttää ostoskoreihin, jotka sisältävät useita erillisiä lähetyksiä."
+
+#. translators: %1$s: payment gateway name
+#: src/Payments/Poynt/OrderSynchronization.php:336
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "WooCommerce on hyvittänyt maksutapahtuman tämän maksuyhdyskäytävän kautta: %1$s."
+
+#: src/Payments/Poynt/OrderSynchronization.php:338
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "WooCommerce on hyvittänyt maksutapahtuman manuaalisesti."
+
+#: src/Payments/Poynt/ViewOrderPage.php:51
+msgid "Order is ready for pickup."
+msgstr "Tilaus on valmis noudettavaksi."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:33
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Tuotteen lähetystä koskeva sähköpostiviesti lähetetään asiakkaalle, kun hänen tilaukseensa on lisätty seurantatiedot yhtä tai useampaa tuoteta varten."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:56
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "{site_title}: tilaus #{order_number} on lähetetty!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:64
+msgid "Your package is on the way!"
+msgstr "Pakettisi on matkalla luoksesi!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:72
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "Huomaa, että saattaa kestää jonkin aikaa, ennen kuin kuljetuspalvelu päivittää lähetyksen seurantatiedot."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:46
+msgid "Ready for pickup"
+msgstr "Valmis noudettavaksi"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:47
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "Valmis noudettavaksi -sähköpostiviesti lähetetään asiakkaalle, kun hänen tilauksensa on merkitty valmiiksi noutoa varten."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:60
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "{site_title}: tilauksesi on valmis noudettavaksi!"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:70
+msgid "Order ready for pickup!"
+msgstr "Tilaus on valmis noudettavaksi!"
+
+#: src/WooCommerce/ExtensionsTab.php:174
+msgid "GoDaddy Included"
+msgstr "GoDaddy sisältyy mukaan"
+
+#: src/WooCommerce/Pages/EditOrder/Metaboxes/ShipmentTrackingMetabox.php:35
+msgid "Shipment Tracking"
+msgstr "Toimitusten seuranta"
+
+#. translators: Placeholder: %s - payment gateway method title
+#: src/WooCommerce/Payments/AbstractPaymentGateway.php:634
+msgid "%s Virtual Terminal"
+msgstr "%sVirtuaalipääte"
+
+#: src/WooCommerce/Payments/Captures.php:93
+msgid "No gateway found for order"
+msgstr "Tilaukselle ei löydetty yhdyskäytävää"
+
+#: src/WooCommerce/Payments/Captures.php:195
+#: src/WooCommerce/Payments/Captures.php:317
+msgid "Capture Charge"
+msgstr "Maksutietojen varaus"
+
+#: src/WooCommerce/Payments/Captures.php:309
+msgid "This charge has been fully captured"
+msgstr "Tämä maksu on varattu täysin"
+
+#: src/WooCommerce/Payments/Captures.php:327
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "Haluatko varmasti käsitellä tämän maksuvarauksen? Tätä toimintoa ei voida perua."
+
+#: src/WooCommerce/Payments/Captures.php:328
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "Jokin meni vikaan, eikä maksuvarausta voitu suorittaa loppuun. Yritä uudelleen."
+
+#. translators: Placeholders: %1s - the provider label, %2s - the payment method brand label, %3$s - the last four digits of the customer's credit card
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:32
+msgid "%1s transaction declined due to billing address mismatch for %2s ending in %3$s."
+msgstr "%1s-palvelun maksutapahtuma on hylätty maksutavan (%2s) laskutusosoitteen poikkeaman vuoksi lukuihin %3$s päättyvän kortin kohdalla."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:112
+msgid "Status"
+msgstr "Tila"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:235
+msgid "Remove"
+msgstr "Poista"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:237
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:389
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:397
+msgid "Manage"
+msgstr "Hallitse"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:252
+msgid "Your Stripe account needs to be set up."
+msgstr "Stripe-tilisi on määritettävä."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:255
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:284
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:297
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1339
+msgid "Connected"
+msgstr "Yhteys muodostettu"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:256
+msgid "Connected to your Stripe account."
+msgstr "Yhdistetty Stripe-tiliisi."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:259
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:311
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1345
+msgid "Disconnected"
+msgstr "Yhteys katkaistu"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:260
+msgid "Please reconnect your Stripe account."
+msgstr "Yhdistä Stripe-tilisi uudelleen."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:263
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:325
+msgid "Pending"
+msgstr "Odottaa"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:285
+msgid "Connected to your terminal to Sell in Person."
+msgstr "Päätteesi on yhdistetty kasvokkain tapahtuvaan myyntiin."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:289
+msgid "Recommended"
+msgstr "Suositeltu"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:292
+msgid "Click set up to get started."
+msgstr "Aloita valitsemalla Määritä."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:299
+msgid "Connect your terminal to Sell in Person."
+msgstr "Yhdistä päätteesi kasvokkain tapahtuvaan myyntiin."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:300
+msgid "Connected to your GoDaddy Payments account."
+msgstr "Yhdistetty GoDaddy Payments -tiliisi."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:303
+msgid "Connecting"
+msgstr "Yhdistetään"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:304
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "Tämä voi kestää muutamia minuutteja. Tarkista tilanne virkistämällä sivu."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:307
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:329
+msgid "Not available"
+msgstr "Ei käytettävissä"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:308
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "Kiitos hakemuksesta, mutta emme voi tarjota maksujen käsittelyä yrityksellesi."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:312
+msgid "Your account has been closed."
+msgstr "Tilisi on suljettu."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:315
+msgid "Incomplete"
+msgstr "Kesken"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:316
+msgid "Click Resume to complete your application."
+msgstr "Napsauta Jatka hakemuksen tekemiseksi loppuun."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:321
+msgid "Needs attention"
+msgstr "Vaatii huomiotasi"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:322
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:326
+msgid "Please check your email for next steps."
+msgstr "Tarkista sähköpostisi seuraavia vaiheita varten."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:388
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:396
+msgid "Manage the \"%s\" payment method"
+msgstr "Hallitse “%s”-maksutapaa"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:392
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:399
+msgid "Set up the \"%s\" payment method"
+msgstr "Määritä \"%s\"-maksutapa"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:448
+msgid "Have a question? %1$sAsk the GoDaddy Team%3$s%2$s"
+msgstr "Onko sinulla jotakin kysyttävää? %1$sKysy neuvoa GoDaddy-tiimiltä%3$s%2$s"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:451
+msgid "E-mail icon"
+msgstr "Sähköpostikuvake"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:476
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:489
+msgid "Set up GoDaddy Payments"
+msgstr "Määritä GoDaddy-maksut"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:483
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "Olet avaamassa rekisteröinnin GoDaddy Payments -tiliä varten. Palaat takaisin tänne muutaman minuutin kuluttua ottamaan käyttöön suojatut maksut kassatoimintoasi varten."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:488
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:212
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1215
+msgid "Cancel"
+msgstr "Peruuta"
+
+#. translators: Divider between the Wallet buttons and "Add to Cart"
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout.php:123
+msgid "or"
+msgstr "tai"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:91
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:64
+msgid "Missing card details."
+msgstr "Korttitiedot puuttuvat"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:92
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:65
+msgid "Missing billing details."
+msgstr "Laskutustiedot puuttuvat"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:211
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:311
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:213
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "Maksutapasi päivityksessä tapahtui virhe. Yritä uudelleen."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:214
+msgid "Are you sure you want to delete this payment method?"
+msgstr "Haluatko varmasti poistaa tämän maksutavan?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:315
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:335
+msgid "Title"
+msgstr "Otsikko"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:336
+msgid "Details"
+msgstr "Lisätiedot"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:338
+msgid "Default?"
+msgstr "Oletus?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:527
+msgid "Invalid token ID"
+msgstr "Virheellinen tunnus"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:192
+msgid "Manage Payment Methods"
+msgstr "Hallitse maksutapoja"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:215
+msgid "Use a new payment method"
+msgstr "Käytä uutta maksutapaa"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:278
+msgid "Securely Save to Account"
+msgstr "Turvallinen tallennus tilille"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:43
+msgid "Nickname"
+msgstr "Kutsumanimi"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:28
+msgid "expires %s"
+msgstr "vanhenee %s"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:88
+msgid "Customers can buy online and pay in person with orders synced to your GoDaddy Smart Terminal. Pay the lowest fees in the industry at only 2.3&#37; + 0&#162; per in-person transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Asiakkaat voivat ostaa tuotteita verkossa ja maksaa niistä kasvokkain, kun tilaukset on synkronoitu GoDaddy-älypäätteeseesi. Alan alhaisimmat taksat: vain 2,3&#37; + 0&#162; per henkilökohtainen maksutapahtuma. %1$sGoDaddy Payments -käyttöehtoja sovelletaan%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:914
+msgid "Pay in Person"
+msgstr "Maksu kasvokkain"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:95
+msgid "Customers can buy online and pay in person with orders synced to your Terminals."
+msgstr "Asiakkaat voivat ostaa tuotteita verkossa ja maksaa niistä kasvokkain, kun tilaukset on synkronoitu päätteisiisi."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:228
+msgid "Payment to be made upon delivery."
+msgstr "Maksu suoritetaan toimituksen yhteydessä."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:297
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:290
+#: src/WooCommerce/Payments/StripeGateway.php:283
+msgid "Return to payments"
+msgstr "Palaa maksuihin"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:310
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sKaupan älypääte%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:319
+msgid "%1$sDevices%2$s"
+msgstr "%1$sLaitteet%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:325
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sTuoteluettelot%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:331
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sMukauta pääte%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:349
+msgid "Smart Terminal"
+msgstr "Älypääte"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:350
+msgid "Dual screens for smoother selling."
+msgstr "Kaksoisnäytöt saumatonta myymistä varten."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:351
+msgid "Our dual screens make checkout a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "Kaksoisnäyttöjemme ansiosta kassatoiminto hoituu todella kätevästi. Lisäksi monitoimipäätteessämme on integroitu maksuprosessori, skanneri, tulostin, suojaus ja paljon muuta."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:359
+msgid "Free"
+msgstr "Maksuton"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:360
+msgid "2-day shipping."
+msgstr "Lähetys 2 päivän sisällä."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:363
+msgid "Learn More"
+msgstr "Lue lisää"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:374
+msgid "Settings"
+msgstr "Asetukset"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:820
+msgid "Enable Selling in Person"
+msgstr "Ota käyttöön myynti kasvokkain"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:827
+msgid "Checkout title"
+msgstr "Kassatoiminnon nimike"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:829
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:527
+msgid "Payment method title that the customer will see during checkout."
+msgstr "Maksutavan nimi, jonka asiakas näkee kassatoimintoprosessin yhteydessä."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:833
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:179
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:181
+#: src/WooCommerce/Shipping/LocalPickup.php:118
+msgid "Checkout description"
+msgstr "Kassatoiminnon kuvaus"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:835
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:533
+msgid "Payment method description that the customer will see during checkout."
+msgstr "Maksutavan kuvaus, jonka asiakas näkee kassatoimintoprosessin yhteydessä."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:840
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:187
+msgid "Order received instructions"
+msgstr "Tilaus vastaanotettu -ohjeet"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:843
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "Viesti, jonka asiakas näkee tilauksen vastaanottosivulla ja tilauksen käsittelyn vahvistavassa sähköpostiviestissä maksuprosessin jälkeen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:847
+msgid "Enable for Shipping Methods"
+msgstr "Ota käyttöön toimitustavoille"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:853
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "Valitse toimitustavat, jotka näyttävät tämän maksutavan asiakkaalle kassatoiminnon aikana"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:855
+msgid "Select Shipping Methods"
+msgstr "Valitse maksutavat"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:875
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "Vähintään yksi maksutapa vaaditaan, jotta myynti kasvokkain voidaan ottaa käyttöön."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:890
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "Maksa tilauksestasi henkilökohtaisesti sen noudon tai toimituksen yhteydessä"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:902
+msgid "We accept major credit/debit cards and cash."
+msgstr "Hyväksymme yleisimmät luotto- ja debit-kortit sekä käteismaksut."
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:945
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (#%2$s)"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:948
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:948
+msgid "Other locations"
+msgstr "Muut sijainnit"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1024
+msgid "Local Pickup Plus method"
+msgstr "Local Pickup Plus -menetelmä"
+
+#. translators: Placeholders: %1$s - Shipping Method name (for example FedEx, UPS or Local Pickup, etc.)
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1026
+msgid "Any \"%1$s\" method"
+msgstr "Mikä tahansa \"%1$s\"-menetelmä"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1207
+msgid "Are you sure you want to move this product to trash?"
+msgstr "Oletko varma, että haluat siirtää tämän tuotteen roskakoriin?"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1210
+msgid "Are you sure you want to move this product to trash? Removing a synced product will also delete it from the In-Person catalog."
+msgstr "Oletko varma, että haluat siirtää tämän tuotteen roskakoriin? Synkronoidun tuotteen poistaminen poistaa sen myös In-Person-tuoteluettelosta."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1216
+msgid "Move to Trash"
+msgstr "Siirrä roskakoriin"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1247
+msgid "This product is synced from the In-Person Catalog"
+msgstr "Tämä tuote on synkronoitu In-Person-tuoteluettelosta."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1251
+msgid "This product is synced to the In-Person Catalog"
+msgstr "Tämä tuote on synkronoitu In-Person-tuoteluetteloon."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1350
+msgid "One or more products in your catalog failed to sync. Please enable debug logging or reach out to %1$sour Care team%2$s for help."
+msgstr "Synkronointi epäonnistui yhden tai useamman tuoteluettelosi sisältämän tuotteen kohdalla. Ota virheenkorjaustila käyttöön tai ota yhteyttä %1$stukitiimiimme%2$s, jos kaipaat apua."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1411
+msgid "%1$s has been removed. Products will no longer be synced to this catalog. To remove any products already synced you must delete them manually."
+msgstr "%1$s on poistettu. Tuotteita ei enää synkronoida tähän tuoteluetteloon. Jos haluat poistaa jo synkronoituja tuotteita, sinun on poistettava ne manuaalisesti."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1437
+msgid "In-Person product sync to WooCommerce has been disabled. Products will no longer sync to WooCommerce. To remove any products already synced you must delete them manually."
+msgstr "In-Person-tuotesynkronointi WooCommerceen on poistettu käytöstä. Tuotteita ei enää synkronoida WooCommerceen. Jos haluat poistaa jo synkronoituja tuotteita, sinun on poistettava ne manuaalisesti."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1451
+msgid "%1$s has been removed from Selling In-Person. This catalog will no longer sync to WooCommerce"
+msgstr "%1$s on poistettu kasvokkaisesta myynnistä. Tätä tuoteluetteloa ei enää synkronoida WooCommerceen."
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1518
+msgid "In-Person Catalog Sync"
+msgstr "In-Person-tuoteluettelo"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1522
+msgid "Sync your WooCommerce products with In-Person catalog(s). %1$sLearn more%2$s"
+msgstr "Synkronoi WooCommerce-tuotteesi In-Person-tuoteluetteloiden kanssa. %1$sLue lisää%2$s"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1531
+msgid "Sync WooCommerce products to In-Person"
+msgstr "Synkronoi WooCommerce-tuotteet kasvokkain suoritettavia maksuja varten"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1537
+msgid "Basic WooCommerce product data is pushed to the selected In-Person catalog(s) for simple products."
+msgstr "WooCommerce-perustuotetiedot siirretään valittuihin In-Person-tuoteluetteloihin yksinkertaisten ​​tuotteiden kohdalla."
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1548
+msgid "To sync to In-Person you must have at least one catalog selected."
+msgstr "Jotta voisit synkronoida In-Person-järjestelmään, vähintään yhden tuoteluettelon on oltava valittuna."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1556
+msgid "Sync In-Person products to WooCommerce"
+msgstr "Synkronoi In-Person-tuotteet WooCommerceen"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1562
+msgid "Product data is fetched from the selected In-Person catalog(s). Sync excludes products with custom prices or \"any combination\" modifiers."
+msgstr "Tuotetiedot haetaan valituista In-Person-tuoteluetteloista. Synkronointi jättää pois tuotteet, joilla on mukautetut hinnat tai \"mikä tahansa yhdistelmä\" -tyyppisiä määritteitä."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1572
+msgid "To sync to WooCommerce you must have at least one catalog selected."
+msgstr "Jotta voisit synkronoida WooCommerceen, vähintään yhden tuoteluettelon on oltava valittuna."
+
+#. translators: Placeholder: %s - the gateway settings title, something like: "GoDaddy Payments - Apple Pay"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:205
+msgid "Cannot load the %s gateway to process payment."
+msgstr "%s -maksuyhdyskäytävän lataus epäonnistui."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:229
+msgid "Cannot load the GoDaddy Payments gateway."
+msgstr "GoDaddy Payments -yhdyskäytävän lataus epäonnistui."
+
+#. translators: Placeholder: %s - the gateway settings page title, normally: "GoDaddy Payments - Credit/Debit card"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:240
+msgid "These settings are managed from the %s page"
+msgstr "Näitä asetuksia hallitaan %s-sivulta"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:246
+msgctxt "General settings"
+msgid "General"
+msgstr "Yleiset"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:129
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:88
+msgid "The GoDaddy Payments service ID"
+msgstr "GoDaddy Payments -palvelutunnus"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:135
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "Kertakäyttöavain, jonka avulla uudelleenohjaus vahvistetaan perehdyttämisen jälkeen"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "GoDaddy Payments -perehdyttämisen tila"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:47
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:48
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices."
+msgstr "Hyväksy korttimaksut turvallisesti ja helpota asiakkaiden maksamista hyödyntämällä Apple Pay® -maksuja tätä palvelua tukevilla laitteilla."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:62
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices. Pay the industry's lowest fees at 2.3&#37; + 30&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Hyväksy korttimaksut turvallisesti ja helpota asiakkaiden maksamista hyödyntämällä Apple Pay® -maksuja tätä palvelua tukevilla laitteilla. Hyödynnä alan edullisimpia taksoja: 2,3&#37; + 30&#162; verkkotapahtumaa kohden. %1$sGoDaddy Payments -käyttöehtoja sovelletaan%2$s."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:66
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices. Pay the industry's lowest fees at 2.7&#37; + 0&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Hyväksy korttimaksut turvallisesti ja helpota asiakkaiden maksamista hyödyntämällä Apple Pay® -maksuja tätä palvelua tukevilla laitteilla. Hyödynnä alan edullisimpia taksoja: 2,7&#37; + 0&#162; verkkotapahtumaa kohden. %1$sGoDaddy Payments -käyttöehtoja sovelletaan%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:91
+msgid "Apple Pay Settings"
+msgstr "Apple Pay -asetukset"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:106
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:518
+#: src/WooCommerce/Payments/StripeGateway.php:494
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:95
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:107
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:520
+#: src/WooCommerce/Payments/StripeGateway.php:496
+msgid "Enable to add the payment method to your checkout."
+msgstr "Ota käyttöön maksutavan lisäämiseksi kassatoimintoosi."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:97
+msgid "Apple Pay shows to %1$sSafari users on supported devices%2$s."
+msgstr "Apple Pay näytetään %1$sSafarin käyttäjille tuetuilla laitteilla%2$s."
+
+#. translators: Text displayed next to a dropdown input field with a list of pages for the user to choose from
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:106
+msgid "Pages to enable Apple Pay on"
+msgstr "Sivut, joilla Apple Pay otetaan käyttöön"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:114
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:126
+msgid "Cart"
+msgstr "Ostoskori"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:115
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:127
+msgid "Checkout"
+msgstr "Kassa"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:116
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:128
+msgid "Single Product"
+msgstr "Yksittäistuote"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:121
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:133
+msgid "Button label"
+msgstr "Painikkeen selite"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:122
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:134
+msgid "Check button labels here"
+msgstr "Tarkista painikkeiden selitteet täällä"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:127
+msgctxt "Apple Pay"
+msgid "Add Money with"
+msgstr "Lisää rahaa –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:128
+msgctxt "Apple Pay"
+msgid "Book with"
+msgstr "Varaa –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:129
+msgctxt "Apple Pay"
+msgid "Buy with"
+msgstr "Osta –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:130
+msgctxt "Apple Pay"
+msgid "Check out with"
+msgstr "Käytä tätä kassatoimintoon:"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:133
+msgctxt "Apple Pay"
+msgid "Contribute with"
+msgstr "Osallistu –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:134
+msgctxt "Apple Pay"
+msgid "Donate with"
+msgstr "Lahjoita –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:135
+msgctxt "Apple Pay"
+msgid "Order with"
+msgstr "Tilaus –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:138
+msgctxt "Apple Pay"
+msgid "Plain (logo only)"
+msgstr "Tavallinen (vain logo)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:139
+msgctxt "Apple Pay"
+msgid "Reload with"
+msgstr "Lataa uudelleen –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:140
+msgctxt "Apple Pay"
+msgid "Rent with"
+msgstr "Vuokraa -"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:141
+msgctxt "Apple Pay"
+msgid "Set up"
+msgstr "Määritä"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:142
+msgctxt "Apple Pay"
+msgid "Support with"
+msgstr "Tue –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:143
+msgctxt "Apple Pay"
+msgid "Tip with"
+msgstr "Juomaraha –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:144
+msgctxt "Apple Pay"
+msgid "Top Up with"
+msgstr "Lisää krediittiä –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:149
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:150
+msgid "Button style"
+msgstr "Painikkeen tyyli"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:150
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:151
+msgid "Check button style here"
+msgstr "Tarkista painikkeen tyyli täällä"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:155
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:157
+msgid "Black"
+msgstr "Musta"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:156
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:158
+msgid "White"
+msgstr "Valkoinen"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:157
+msgid "White with outline"
+msgstr "Valkoinen + ääriviivat"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:163
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:164
+msgid "Button height"
+msgstr "Painikkeen korkeus"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:164
+msgid "Apple requests the button size match your cart/checkout button and be 30 to 64 pixels tall. The width is set automatically."
+msgstr "Apple pyytää, että painikkeen koko vastaa ostoskori-/kassapainikettasi ja on 30–64 pikseliä korkea. Leveys asetetaan automaattisesti."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:164
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:165
+msgid "Check button size here"
+msgstr "Tarkista painikkeen koko täällä"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:47
+msgid "Securely accept card payments and make checkout faster for customers with Google Pay™ on supported devices. Pay the industry's lowest fees at 2.3&#37; + 30&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Hyväksy korttimaksut turvallisesti ja helpota asiakkaiden maksamista hyödyntämällä Google Pay™ -maksuja tätä palvelua tukevilla laitteilla. Hyödynnä alan edullisimpia taksoja: 2,3&#37; + 30&#162; verkkotapahtumaa kohden. %1$sGoDaddy Payments -käyttöehtoja sovelletaan%2$s."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:51
+msgid "Securely accept card payments and make checkout faster for customers with Google Pay™ on supported devices. Pay the industry's lowest fees at 2.7&#37; + 0&#162; per online transaction. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Hyväksy korttimaksut turvallisesti ja helpota asiakkaiden maksamista hyödyntämällä Google Pay™ -maksuja tätä palvelua tukevilla laitteilla. Hyödynnä alan edullisimpia taksoja: 2,7&#37; + 0&#162; verkkotapahtumaa kohden. %1$sGoDaddy Payments -käyttöehtoja sovelletaan%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:103
+msgid "Google Pay Settings"
+msgstr "Google Pay -asetukset"
+
+#. translators: Placeholders: %1$s - open <a> HTML link tag, %2$s - close </a> HTML link tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:110
+msgid "Google Pay shows on %1$ssupported browsers%2$s."
+msgstr "Google Pay näkyy %1$stuetuissa selaimissa%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:118
+msgid "Pages to enable Google Pay on"
+msgstr "Sivut, joilla Google Pay otetaan käyttöön"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:139
+msgctxt "Google Pay"
+msgid "Book with"
+msgstr "Varaa –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:140
+msgctxt "Google Pay"
+msgid "Buy with"
+msgstr "Osta –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:141
+msgctxt "Google Pay"
+msgid "Check out with"
+msgstr "Käytä tätä kassatoimintoon:"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:142
+msgctxt "Google Pay"
+msgid "Donate with"
+msgstr "Lahjoita –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:143
+msgctxt "Google Pay"
+msgid "Order with"
+msgstr "Tilaus –"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:144
+msgctxt "Google Pay"
+msgid "Pay with"
+msgstr "Maksa palvelulla"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:145
+msgctxt "Google Pay"
+msgid "Plain (logo only)"
+msgstr "Tavallinen (vain logo)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:165
+msgid "Google requests the button size match your cart/checkout button and be 40 to 100 pixels tall."
+msgstr "Google pyytää, että painikkeen koko vastaa ostoskori-/kassapainikettasi ja on 40–100 pikseliä korkea."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:92
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:672
+msgid "Credit/Debit Card"
+msgstr "Luotto/debit-kortti"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:93
+msgid "Securely accept credit/debit cards in your checkout."
+msgstr "Hyväksy luotto- ja pankkikorttimaksut turvallisesti kassaprosessisi osana."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:133
+msgid "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.3&#37; + 30&#162; per online transaction. Get paid fast with deposits as soon as the next day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Hyväksy luotto- ja pankkikortit turvallisesti kassatoiminnon yhteydessä ja pidä suurempi osuus tuotosta itselläsi alan edullisimpien taksojen ansiosta – vain 2,3&#37; + 30&#162; verkkotapahtumaa kohden. Saat maksut nopeasti jopa seuraavana päivänä. %1$sGoDaddy Payments -käyttöehtoja sovelletaan%2$s."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:137
+msgid "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.7&#37; + 0&#162; per online transaction. Get paid fast with deposits as soon as the next day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Hyväksy luotto- ja pankkikortit turvallisesti kassatoiminnon yhteydessä ja pidä suurempi osuus tuotosta itselläsi alan edullisimpien taksojen ansiosta – vain 2,7&#37; + 0&#162; verkkotapahtumaa kohden. Saat maksut nopeasti jopa seuraavana päivänä. %1$sGoDaddy Payments -käyttöehtoja sovelletaan%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:229
+msgid "Business Name:"
+msgstr "Yrityksen nimi:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:234
+msgid "Email:"
+msgstr "Sähköposti:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:240
+msgid "Switch account"
+msgstr "Vaihda tiliä"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:259
+msgid "Account Details"
+msgstr "Tilin tiedot"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+msgid "Manage your account settings in the %1$spayments dashboard%2$s"
+msgstr "Hallitse tilisi asetuksia %1$smaksujen hallintapaneelissa%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "Hallitse GoDaddy Payments -tilisi asetuksia %1$sPayments Hub%2$s -osiossa"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:307
+#: src/WooCommerce/Payments/StripeGateway.php:536
+msgid "Checkout Settings"
+msgstr "Kassatoiminnon asetukset"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:525
+msgid "Title in Checkout"
+msgstr "Nimi kassalla"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:531
+msgid "Description in Checkout"
+msgstr "Kuvaus kassalla"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:538
+#: src/WooCommerce/Payments/StripeGateway.php:563
+msgid "Transaction Type"
+msgstr "Tapahtumatyyppi"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:540
+#: src/WooCommerce/Payments/StripeGateway.php:565
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "Valitse, miten maksutapahtumat käsitellään. Veloitus lähettää kaikki maksutapahtumat suoritettaviksi; valtuutus vain varaa tilauksen kokonaismäärän maksettavaksi myöhemmin."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:543
+#: src/WooCommerce/Payments/StripeGateway.php:568
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "Veloita"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:544
+#: src/WooCommerce/Payments/StripeGateway.php:569
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "Valtuutus"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:548
+msgid "Charge Virtual-Only Orders"
+msgstr "Veloita virtuaalisten tuotteiden tilaukset"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:550
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "Jos tilaus sisältää ainoastaan virtuaalisia tuotteita, ota tämä käyttöön, jotta maksutapahtuma veloitetaan välittömästi sen valtuutuksen sijaan."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:554
+msgid "Capture Paid Orders"
+msgstr "Varaa maksetut tilaukset"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:558
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "Luo automaattinen maksuvaraus tilauksille, kun niiden tilaksi muuttuu %s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:559
+msgid "a paid status"
+msgstr "maksettu tila"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:563
+#: src/WooCommerce/Payments/StripeGateway.php:541
+msgid "Accepted Card Logos"
+msgstr "Hyväksyttyjen korttien logot"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:565
+#: src/WooCommerce/Payments/StripeGateway.php:543
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "Nämä ovat maksukorttien logot, jotka näytetään asiakkaille hyväksyttyinä kassatoiminnon yhteydessä."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:568
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+msgstr "Tämä asetus %1$sei%2$s muuta sitä, mitä korttityyppejä maksuyhdyskäytävä hyväksyy."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:579
+#: src/WooCommerce/Payments/StripeGateway.php:551
+msgid "Saved Cards"
+msgstr "Tallennetut kortit"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:581
+#: src/WooCommerce/Payments/StripeGateway.php:553
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "Sallii asiakkaiden tallentaa omat maksukorttinsa turvallisesti tilin tietoihin, jotta he voivat käyttää kyseisiä kortteja myös tulevaisuudessa."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:585
+#: src/WooCommerce/Payments/StripeGateway.php:557
+msgid "Detailed Decline Messages"
+msgstr "Yksityiskohtaiset tiedot hylkäyksestä"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:587
+#: src/WooCommerce/Payments/StripeGateway.php:559
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "Ota käyttöön hylkäystä koskevien yksityiskohtaisten viestien näyttäminen asiakkaille kassatoiminnon aikana yleisluonteisen viestin sijasta."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:591
+#: src/WooCommerce/Payments/StripeGateway.php:573
+msgid "Debug Mode"
+msgstr "Virheenkorjaustila"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:593
+#: src/WooCommerce/Payments/StripeGateway.php:575
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "Näytä yksityiskohtaiset virheilmoitukset ja API-pyynnöt/vastaukset kassasivulla ja/tai tallenna ne virheenkorjauslokiin"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:596
+#: src/WooCommerce/Payments/StripeGateway.php:578
+msgid "Off"
+msgstr "Ei käytössä"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:597
+#: src/WooCommerce/Payments/StripeGateway.php:579
+msgid "Show on Checkout Page"
+msgstr "Näytä kassasivulla"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:598
+#: src/WooCommerce/Payments/StripeGateway.php:580
+msgid "Save to Log"
+msgstr "Tallenna lokiin"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:599
+#: src/WooCommerce/Payments/StripeGateway.php:581
+msgid "Both"
+msgstr "Molemmat"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:658
+msgid "Pay securely with your credit/debit card."
+msgstr "Maksa turvallisesti luotto- tai debit-kortillasi."
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:191
+msgid "Pre-Order release payment failed: %s"
+msgstr "Ennakkotilauksen maksu epäonnistui: %s"
+
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:146
+msgid "Currently unavailable"
+msgstr "Ei käytettävissä tällä hetkellä"
+
+#. translators: Placeholders: %1$s & %3$s - <a> tag, %2$s & %4$s - </a> tag
+#: src/WooCommerce/Payments/StripeGateway.php:77
+msgid "Securely accept online payments via credit/debit card, wallets, bank redirects, and other methods enabled in your Stripe account. %1$sView Stripe pricing%2$s for your business' location and payment methods. %3$sStripe terms apply%4$s."
+msgstr "Hyväksy verkkomaksut turvallisesti luotto- ja pankkikorttien välityksellä, lompakoilla, pankkien uudelleenohjauksilla sekä muilla Stripe-tilisi asetuksissa sallituilla tavoilla. %1$sTarkastele Stripen hinnoittelua%2$s yrityksesi sijainnille ja maksutavoille. %3$sStripe-käyttöehtoja sovelletaan%4$s."
+
+#: src/WooCommerce/Payments/StripeGateway.php:244
+msgid "You are about to disconnect your Stripe account. Your store will not be able to process transactions using Stripe until you connect an account again."
+msgstr "Olet katkaisemassa Stripe-tilisi yhteyttä. Kauppasi ei voi käsitellä maksutapahtumia Stripen avulla ennen kuin yhdistät tilin uudelleen."
+
+#: src/WooCommerce/Payments/StripeGateway.php:490
+msgid "General"
+msgstr "Yleiset"
+
+#: src/WooCommerce/Payments/StripeGateway.php:509
+msgid "Disconnect Stripe Account"
+msgstr "Katkaise Stripe-tilin yhteys"
+
+#: src/WooCommerce/Payments/StripeGateway.php:518
+msgid "Connecting to Stripe..."
+msgstr "Yhdistetään Stripe-palveluun..."
+
+#: src/WooCommerce/Payments/StripeGateway.php:520
+msgid "This operation can take up to a few seconds. Please reload this page to check the current status."
+msgstr "Tämä operaatio voi kestää muutamia sekunteja. Tarkista tämänhetkinen tila lataamalla tämä sivu uudelleen."
+
+#: src/WooCommerce/Payments/StripeGateway.php:530
+msgid "Connect Stripe Account"
+msgstr "Yhdistä Stripe-tili"
+
+#: src/WooCommerce/Payments/StripeGateway.php:594
+msgid "Affirm"
+msgstr "Affirm"
+
+#: src/WooCommerce/Payments/StripeGateway.php:595
+msgid "Afterpay / Clearpay"
+msgstr "Afterpay / Clearpay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:596
+msgid "Alipay"
+msgstr "Alipay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:597
+msgid "BECS direct debit"
+msgstr "BECS-suoraveloitus"
+
+#: src/WooCommerce/Payments/StripeGateway.php:598
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: src/WooCommerce/Payments/StripeGateway.php:599
+msgid "Boleto"
+msgstr "Boleto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:600
+msgid "Credit / Debit"
+msgstr "Luotto/debit-kortti"
+
+#: src/WooCommerce/Payments/StripeGateway.php:601
+msgid "EPS"
+msgstr "EPS"
+
+#: src/WooCommerce/Payments/StripeGateway.php:602
+msgid "FPX"
+msgstr "FPX"
+
+#: src/WooCommerce/Payments/StripeGateway.php:603
+msgid "Giropay"
+msgstr "Giropay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:604
+msgid "GrabPay"
+msgstr "GrabPay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:605
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: src/WooCommerce/Payments/StripeGateway.php:606
+msgid "Klarna"
+msgstr "Klarna"
+
+#: src/WooCommerce/Payments/StripeGateway.php:607
+msgid "Konbini"
+msgstr "Konbini"
+
+#: src/WooCommerce/Payments/StripeGateway.php:608
+msgid "OXXO"
+msgstr "OXXO"
+
+#: src/WooCommerce/Payments/StripeGateway.php:609
+msgid "P24"
+msgstr "P24"
+
+#: src/WooCommerce/Payments/StripeGateway.php:610
+msgid "PayNow"
+msgstr "PayNow"
+
+#: src/WooCommerce/Payments/StripeGateway.php:611
+msgid "SEPA Debit"
+msgstr "SEPA Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:612
+msgid "Sofort"
+msgstr "Sofort"
+
+#: src/WooCommerce/Payments/StripeGateway.php:613
+msgid "ACH Direct Debit"
+msgstr "ACH-suoraveloitus"
+
+#: src/WooCommerce/Payments/StripeGateway.php:614
+msgid "WeChat Pay"
+msgstr "WeChat Pay"
+
+#: src/WooCommerce/Shipping/CoreShippingMethods.php:161
+msgid "Order Instructions:"
+msgstr "Tilausta koskevat ohjeet:"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:69
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:141
+msgid "Local delivery"
+msgstr "Paikallinen toimitus"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:70
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "Salli asiakkaiden valita paikallinen toimituspalvelu. Verot lisätään asiakkaiden toimitusosoitteen perusteella."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "Anna hinta (ilman veroa) tai summa, esim. <code>10,00 * [qty]</code>."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "Käytä osaa <code>[qty]</code> tuotteiden lukumäärälle, <br/><code>[cost]</code> tuotteiden kokonaishinnalle ja <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> prosentuaalisesti laskettaville taksoille."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:138
+msgid "Checkout Title"
+msgstr "Kassatoiminnon nimike"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:140
+msgid "This controls the title which the user sees during checkout."
+msgstr "Tämä määrittää nimen, jonka käyttäjä näkee kassatoiminnon aikana."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:145
+msgid "Tax status"
+msgstr "Veron tila"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:150
+msgid "Taxable"
+msgstr "Verotettava"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:151
+msgctxt "Tax status"
+msgid "None"
+msgstr "Ei mitään"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:155
+msgid "Cost"
+msgstr "Hinta"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:163
+msgid "Minimum order amount total when available"
+msgstr "Tilauksen minimimäärä sen ollessa saatavilla"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:166
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "Se summa, johon nähden asiakkaan tilauksen summan on oltava suurempi tai yhtä suuri, jotta toimitustapa voidaan valita."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:171
+msgid "Minimum order total when free"
+msgstr "Ilmaisen toimituksen minimisumma"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:174
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "Se summa, johon nähden asiakkaan tilauksen summan on oltava suurempi tai yhtä suuri, jotta toimitustapa olisi ilmainen."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:182
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "Tämä kuvaus näkyy paikallisen toimituksen menetelmän nimen alla Ostoskori- ja Kassa-sivuilla."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:189
+msgid "Delivery instructions"
+msgstr "Toimitusohjeet"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:190
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "Viesti, jonka asiakas näkee tilauksen vastaanottosivulla ja tilauksen käsittelyn vahvistavassa sähköpostiviestissä maksuprosessin jälkeen."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:120
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "Toimitustavan kuvaus, jonka asiakas näkee kassatoimintoprosessin yhteydessä."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:126
+msgid "Pickup instructions"
+msgstr "Noutoa koskevat ohjeet"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:128
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "Teksti, jonka asiakas näkee tilauksen vastaanottosivulla sekä tilauksen käsittelyn vahvistavassa sähköpostiviestissä ja valmis noudettavaksi -sähköpostiviestissä."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:222
+#: src/WooCommerce/Shipping/LocalPickup.php:231
+#: src/WooCommerce/Shipping/LocalPickup.php:255
+msgid "Pickup Instructions"
+msgstr "Noutoa koskevat ohjeet"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "Kuljetuspalvelu"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "Seurantanumero"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "Tuotteet"
+
+#: src/WooCommerce/Views/Components/GoDaddyIcon.php:25
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/WordPress/Interceptors/EnforcePostNamePermalinksInterceptor.php:111
+msgid "Warning! Plain Permalinks Detected"
+msgstr "Varoitus! Viimeistelemättömiä pysyviä linkkejä havaittu"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:130
+msgid "You attempted to install a blocked plugin."
+msgstr "Yritit estää kielletyn laajennuksen."
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:140
+msgid "One or more blocked plugins have been removed."
+msgstr "Yksi tai useampia kiellettyjä laajennuksia on poistettu."
+
+#. translators: Placeholders: %1$s - Opening <a> tag, %2$s - Closing </a> tag
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:152
+msgid "GoDaddy disallows a small list of plugins that can cause performance and other issues on your store. If you attempt to install them, we'll remove them for you. You can check out %1$sthe entire plugin blocklist here%2$s."
+msgstr "GoDaddy on kieltänyt pienen joukon laajennuksia, jotka voivat heikentää kauppasi suorituskykyä ja aiheuttaa muita ongelmia. Jos yrität asentaa jonkin niistä, se tullaan poistamaan. Voit tutustua %1$skiellettyjen laajennusten estoluetteloon täällä%2$s."
+
+#: templates/woocommerce/emails/order/order-shipments.php:23
+#: templates/woocommerce/emails/plain/order/order-shipments.php:24
+#: templates/woocommerce/order/order-shipments.php:25
+msgid "Shipments"
+msgstr "Lähetykset"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:29
+#: templates/woocommerce/emails/plain/order/order-shipments.php:31
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:35
+msgid "Tracking URL: %s"
+msgstr "Seuranta-URL: %s"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:40
+msgid "%s: "
+msgstr "%s: "
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:44
+msgid "%1$s x %2$s"
+msgstr "%1$s x %2$s"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:32
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "Tilauksesi on valmis noudettavaksi."

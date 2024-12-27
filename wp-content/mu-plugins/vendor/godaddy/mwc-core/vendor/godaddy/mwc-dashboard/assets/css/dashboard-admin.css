@@ -1,0 +1,7 @@
+#mwc-dashboard-main-menu-item {
+  display: inline-block;
+}
+/* TODO Add styling for a currently-unstyled subscription update count {ajaynes 2024-07-22} */
+.mwc-dashboard-nav-tab-wrapper span {
+  display: none;
+}

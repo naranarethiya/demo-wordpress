@@ -1,0 +1,29 @@
+/*
+ * import { ToggleControl } from '@wordpress/components'
+ */
+
+.components-toggle-control,
+&.components-toggle-control {
+    align-items: flex-end;
+    display: flex;
+
+    &__field {
+        margin: 0;
+    }
+
+    .components-base-control__field {
+        margin: 0;
+
+        .components-form-toggle__track {
+            background-color: #f3f6f8;
+        }
+
+        .is-checked .components-form-toggle__track {
+            background-color: $godaddy-color-brand;
+        }
+    }
+
+    .components-base-control__help {
+        margin: 0;
+    }
+}

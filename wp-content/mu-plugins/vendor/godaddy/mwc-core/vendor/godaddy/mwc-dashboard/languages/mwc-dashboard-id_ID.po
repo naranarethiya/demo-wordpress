@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "Tidak dapat menemukan ekstensi dengan ID yang diberikan: %s."
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "Tidak dapat menemukan versi %1$s dari %2$s."
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "ID ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "ID ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "Nama ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "Deskripsi singkat ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "Jenis ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "Kategori ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "Merek ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "Informasi tentang versi ekstensi yang diinstal."
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "Nomor versi."
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "Versi PHP yang diperlukan."
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "Versi WordPress yang diperlukan."
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "Versi WooCommerce yang diperlukan."
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "Stempel waktu dalam hitungan detik saat versi dirilis."
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "URL tempat paket dapat diunduh"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "Status versi yang terinstal (apakah versi terbaru atau tidak)"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "URL dokumentasi ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "Apakah ekstensi tersebut ditampilkan atau tidak."
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "Status ekstensi."
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "Informasi tentang versi yang tersedia untuk ekstensi."
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "ID pesan yang akan dihapus."
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "Tidak ditemukan metode autentikasi untuk %s"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "Tidak dapat mengambil data pesan jarak jauh: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "Tidak dapat mengambil data pesan jarak jauh - API merespons dengan status %d, kesalahan: %s"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "Data pesan jarak jauh tidak valid"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "ID pesan tidak valid"
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "ID pesan unik."
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "Jenis pesan."
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "Judul pesan."
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "Isi pesan."
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "Tanggal penerbitan."
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "Tanggal kedaluwarsa."
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "Tombol atau tautan untuk ditampilkan dengan pesan."
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "Teks tindakan."
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "Href tindakan."
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "Jenis tindakan."
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "Aturan harus dievaluasi oleh klien untuk memutuskan apakah pesan akan ditampilkan atau tidak."
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "Label aturan."
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "Nama aturan."
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "Jenis aturan."
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "Entitas terkait yang digunakan untuk mengevaluasi aturan."
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "Elemen entitas terkait yang digunakan untuk mengevaluasi aturan."
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "Operator perbandingan digunakan untuk mengevaluasi aturan."
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "Nilai referensi digunakan untuk mengevaluasi aturan."
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "Tautan dengan data yang akan diambil dan digunakan untuk mengevaluasi aturan."
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "Href tautan."
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "Entitas terkait diwakili oleh tautan."
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "Jenis permintaan untuk mengambil data."
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "Status pesan untuk pengguna saat ini."
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "ID item."
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "ID produk."
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "ID variasi."
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "Nama produk."
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "Jumlah barang."
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "Jumlah item yang tidak terpenuhi."
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "Gambar produk."
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "Tinggi gambar."
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "Lebar gambar."
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "Url sumber gambar"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "Daftar url sumber gambar"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "Ukuran gambar"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "ID pesanan."
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "Apakah pesanan itu telah diselesaikan atau belum."
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "Pengiriman untuk pesanan."
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "ID pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "Tanggal pembuatan pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "Tanggal pembaruan pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "Ekspedisi untuk pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "Nomor pelacakan pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "URL pelacakan pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "Item yang disertakan dalam pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "ID item."
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "ID produk."
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "ID variasi produk."
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "Jumlah item."
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "Alamat email pesanan."
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "Nomor pesanan, berbeda dengan ID pesanan."
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "Apakah pesanan dianggap \"dibayar\"."
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "Nama penyedia pembayaran (dalam istilah Woo, ID gateway)."
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "Status pesanan keseluruhan."
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "Jumlah total pesanan"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "Jumlah pesanan lengkap, dalam unit terkecil dari kode mata uang yang diberikan."
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "Kode mata uang."
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "Alamat penagihan pesanan."
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "Berbagai distrik administratif."
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "Nama bisnis alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "Kode negara alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "Nama depan pelanggan alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "Nama belakang pelanggan alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "Baris alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "Lokalitas alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "Nomor telepon alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "Kode pos alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "Sub lokalitas alamat penagihan."
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "Representasi string untuk alamat penagihan"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "Alamat pengiriman pesanan."
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "Nama bisnis alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "Kode negara alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "Nama depan pelanggan alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "Nama belakang pelanggan alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "Baris alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "Lokalitas alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "Nomor telepon alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "Kode pos alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "Sub lokalitas alamat pengiriman."
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "Representasi string untuk alamat pengiriman"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "Informasi marketplace untuk pesanan."
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "Nomor pesanan Marketplace yang sesuai."
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "Pengidentifikasi unik saluran Marketplace."
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "Nama saluran Marketplace."
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "Nama jenis tampilan saluran Marketplace."
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "ID plugin."
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "Nama plugin."
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "Apakah plugin tersebut merupakan plugin yang dikelola MWC atau tidak"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "Status langganan plugin WooCommerce.com."
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "URL dokumentasi plugin"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "Label penyedia pengiriman."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "Nama penyedia pengiriman."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "Format URL pelacakan penyedia pengiriman."
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "ID toko default yang akan ditetapkan untuk saluran saat ini"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "ID Bisnis"
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "ID Situs."
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "URL Situs."
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "ID toko default."
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "Email pengguna admin saat ini."
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "Email pengguna dukungan, jika ada pengguna dukungan."
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "Apakah situs terhubung ke bot dukungan atau tidak."
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "Apakah situs tersebut terhubung ke WooCommerce.com atau tidak."
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "Jenis dasbor (MWC atau kosong)."
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Situs dijual oleh reseller atau tidak."
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "ID label privat reseller (1 berarti GoDaddy, bukan reseller)."
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "URL untuk menghubungkan situs ke bot dukungan."
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "Apakah pengguna saat ini setuju untuk menerima pesan Dasbor MWC atau tidak."
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "Tanggal pembuatan halaman Toko."
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "Baris alamat 1"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "Baris alamat 2"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "Kota"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "Negara"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "Negara Bagian/Provinsi"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "Kode Pos"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "Distrik administratif"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "Nama usaha"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "Kode negara."
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "Nama depan"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "Nama belakang"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "Baris alamat"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "Nomor telepon"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "Sub lokalitas"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "Alamat yang diformat"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "Apakah fitur notifikasi email situs aktif atau tidak."
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "Apakah fitur notifikasi email situs diaktifkan atau tidak."
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "Apakah situs tersebut sedang menimpa salah satu templat email WooCommerce."
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "Satuan berat yang dikonfigurasi"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "Alamat email yang akan dibalas oleh tim dukungan"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "ID plugin"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "Judul"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "Pesan"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "Bidang alasan"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "Saluran marketplace yang terpengaruh"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "Apakah akan membuat pengguna debug atau tidak"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "Informasi pengguna saat ini."
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "ID pengguna saat ini."
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "Izin pemasaran."
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "Apakah akan menampilkan rekomendasi ekstensi."
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>Perhatian!</strong> Kami telah menonaktifkan plugin SkyVerge Dashboard karena sekarang Anda memiliki akses ke dasbor melalui menu Dapatkan Bantuan!"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Dapatkan Bantuan"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Dapatkan Bantuan"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "Ekstensi WooCommerce"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "Ekstensi"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "Ekstensi %s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "Ekstensi yang Disertakan"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "Ekstensi GoDaddy yang Disertakan"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "Tidak ada langganan"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "Seumur hidup"

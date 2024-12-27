@@ -1,0 +1,36 @@
+.mwc-external-checkout-buttons {
+	display: none;
+	margin: auto;
+	padding: 10px 0;
+	clear: both;
+}
+
+.woocommerce-checkout .mwc-external-checkout-buttons {
+	max-width: 400px;
+}
+
+/* ensure single product add-to-cart buttons match the wallet button width */
+.mwc-external-checkout-buttons.available ~ button.single_add_to_cart_button {
+	width: 100%;
+}
+
+/* tweak the padding for the Cart page */
+.wc-proceed-to-checkout .mwc-external-checkout-buttons {
+	padding-top: var(--mwc-space-0);
+}
+
+.mwc-external-checkout-buttons-divider {
+	display: none;
+	margin: 0 auto 15px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#wallet-buttons-container {
+	flex-direction: column !important;
+	gap: 8px;
+}
+#wallet-buttons-container button {
+	padding: 0;
+}

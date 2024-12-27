@@ -1,0 +1,45 @@
+{
+  "name": "@godaddy-wordpress/styles",
+  "version": "2.0.2",
+  "description": "Adding GoDaddy look and style to default WordPress components.",
+  "keywords": [
+    "godaddy",
+    "styles",
+    "wordpress"
+  ],
+  "repository": "godaddy-wordpress/styles",
+  "author": "GoDaddy Operating Company, LLC",
+  "license": "GPL-2.0",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "packages-update": "wp-scripts packages-update",
+    "postpackages-update": "npm run build",
+    "clean": "wp-env stop; rm -rf build node_modules",
+    "wp-env": "wp-env",
+    "lint:php": "wp-env run phpunit 'composer run lint -d /var/www/html/wp-content/plugins/styles/'; #we use phpunit container because composer container only use php 8;",
+    "test:php": "wp-env run phpunit 'phpunit -c /var/www/html/wp-content/plugins/styles/phpunit.xml.dist --verbose'",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@wordpress/base-styles": "^4.3.0"
+  },
+  "devDependencies": {
+    "@emotion/styled": "^11.8.1",
+    "@storybook/addon-controls": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/builder-webpack5": "^6.4.22",
+    "@storybook/manager-webpack5": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "^0.0.9",
+    "@wordpress/components": "^19.8.0",
+    "@wordpress/env": "^4.5.0",
+    "@wordpress/scripts": "^22.4.0"
+  }
+}

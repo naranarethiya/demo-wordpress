@@ -1,0 +1,45 @@
+[tool.tartufo]
+repo-path = "."
+default-regexes = true
+json = false
+regex = true
+entropy = true
+exclude-path-patterns = [
+    # Vendor and documentation assets
+    {path-pattern='resources/js/app.js', reason='Built app.js from documentation'},
+    {path-pattern='resources/vendor', reason='Documentation vendor directory'},
+    {path-pattern='(.*/)?autoload.php', reason='Composer-generated autoload file'},
+
+    # Lock Files are not always in the root
+    {path-pattern='.*composer.lock', reason='Composer-generated lockfile'},
+    {path-pattern='.*package-lock.json', reason='NPM-generated lockfile'},
+    {path-pattern='.*Pipfile.lock', reason='PIP lockfile'},
+    {path-pattern='.*yarn.lock', reason='Yarn lockfile'},
+
+    {path-pattern='.*\.css$', reason='Inline images in CSS assets'},
+    {path-pattern='.*\.scss$', reason='Inline images in CSS assets'},
+    {path-pattern='.*\.ico$', reason='Image assets'},
+    {path-pattern='.*\.jpg$', reason='Image assets'},
+    {path-pattern='.*\.png$', reason='Image assets'},
+    {path-pattern='.*\.svg$', reason='Image assets'},
+
+    # pre-commit configuration
+    {path-pattern='.pre-commit-config.yaml', reason='pre-commit config file'},
+
+    # Tartufo configuration
+    {path-pattern='tartufo.toml', reason='Tartufo config file'},
+
+    # PHPStan baseline
+    {path-pattern='phpstan-baseline.neon', reason='PHPStan baseline'},
+
+    # i18n
+    {path-pattern='languages/', reason='L10n assets'},
+]
+exclude-signatures = [
+    {signature="543a697de5f4ef48b5714141999eca9c65b49de01b780879f7bb87ff3e9d09d6", reason="imported from v2 configuration"},
+    {signature="79139c46d4bf82fc22b0e1f1d885a3ae127fdd857dbe981ecaf5c5e9dfadb577", reason="imported from v2 configuration"},
+    # .github/workflows/ci.yam
+    {signature="5606429428eb612f781c87278122cd50991a0bffac3c299fb33d6f790f8f4e11", reason="imported from v2 configuration"},
+    {signature="3bdc668c20a00d576df22bfaa9ff733fafe9ab726cc1160d83527fa257815f17", reason="imported from v2 configuration"},
+    {signature="87af3c5e7b5bd76150d2fb45edca7b7c6db592750f800d28dbae4a2e9290db2c", reason="imported from v2 configuration"},
+]

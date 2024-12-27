@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "ไม่พบส่วนขยายเพิ่มเติมที่มี slug ที่ระบุ: %s"
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "ไม่พบ %2$s รุ่น %1$s"
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "ID ส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "slug ส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "ชื่อส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "คำอธิบายขนาดสั้นของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "ประเภทของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "หมวดของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "แบรนด์ของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "ข้อมูลเกี่ยวกับรุ่นที่ติดตั้งของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "หมายเลขรุ่น"
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "PHP รุ่นที่กำหนด"
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "WordPress รุ่นที่กำหนด"
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "WooCommerce รุ่นที่กำหนด"
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "การประทับเวลาเป็นวินาทีที่เปิดตัวรุ่นดังกล่าว"
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "URL เว็บที่สามารถดาวน์โหลดแพ็คเกจได้"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "สภาวะของรุ่นที่ติดตั้ง (เป็นรุ่นล่าสุดหรือไม่)"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "URL เอกสารประกอบของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "ส่วนขยายเพิ่มเติมมีความโดดเด่นหรือไม่"
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "สภาวะของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "ข้อมูลเกี่ยวกับรุ่นที่มีของส่วนขยายเพิ่มเติม"
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "ID ของข้อความที่จะลบ"
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "ไม่พบวิธีการรับรองความถูกต้องสำหรับ %s"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "ไม่สามารถเรียกข้อมูลข้อความระยะไกลได้: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "ไม่สามารถเรียกข้อมูลข้อความระยะไกลได้ - API ที่ตอบสนองต่อสถานะข้อผิดพลาด %d: %s"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "ข้อมูลข้อความระยะไกลไม่ถูกต้อง"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "ID ข้อความไม่ถูกต้อง"
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "ID ข้อความที่ไม่ซ้ำกัน"
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "ประเภทข้อความ"
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "เรื่องของข้อความ"
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "เนื้อหาข้อความ"
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "วันที่เผยแพร่"
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "วันหมดอายุ"
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "ปุ่มหรือลิงก์ที่จะแสดงพร้อมข้อความ"
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "ข้อความในการดำเนินการ"
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "href. ของการดำเนินการ"
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "ประเภทการดำเนินการ"
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "กฎที่ลูกค้าจะประเมินเพื่อตัดสินใจว่าควรแสดงข้อความหรือไม่"
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "ป้ายชื่อของกฎ"
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "ชื่อกฎ"
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "ประเภทของกฎ"
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "เอนทิตีที่เกี่ยวข้องซึ่งใช้ในการประเมินกฎ"
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "องค์ประกอบของเอนทิตีที่เกี่ยวข้องซึ่งใช้ในการประเมินกฎ"
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "ตัวดำเนินการเปรียบเทียบที่ใช้ในการประเมินกฎ"
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "ค่าอ้างอิงที่ใช้ในการประเมินกฎ"
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "ลิงก์พร้อมข้อมูลที่จะเรียกและใช้ในการประเมินกฎ"
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "href. ของลิงก์"
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "เอนทิตีที่เกี่ยวข้องซึ่งใช้ลิงก์แทน"
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "ประเภทคำขอที่จะเรียกข้อมูล"
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "สถานะข้อวามสำหรับผู้ใช้ปัจจุบัน"
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "ID สินค้า"
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "ID ผลิตภัณฑ์"
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "ID ประเภทย่อย"
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "ชื่อของผลิตภัณฑ์"
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "จำนวนสินค้า"
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "จำนวนสินค้าที่ยังไม่ได้ดำเนินการเสร็จสมบูรณ์"
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "รูปภาพผลิตภัณฑ์"
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "ความสูงของรูปภาพ"
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "ความกว้างของรูปภาพ"
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "URL ที่มาของรูปภาพ"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "รายการ URL ที่มาของรูปภาพ"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "ขนาดของรูปภาพ"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "ID คำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "คำสั่งซื้อดำเนินการเสร็จสมบูรณ์แล้วหรือยัง"
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "การจัดส่งสำหรับคำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "ID การจัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "วันที่สร้างการจัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "วันที่อัปเดตการจัดส่งล่าสุด"
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "ผู้ให้บริการจัดส่งสำหรับการจัดส่งนี้"
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "หมายเลขการติดตามการจัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "URL การติดตามของการจัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "รายการสินค้าที่รวมอยู่ในการจัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "ID สินค้า"
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "ID ผลิตภัณฑ์"
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "ID ประเภทของผลิตภัณฑ์"
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "จำนวนสินค้า"
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "ที่อยู่อีเมลของคำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "หมายเลขคำสั่งซื้อที่แตกต่างจาก ID คำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "คำสั่งซื้อ \"ชำระเงินแล้ว\" หรือไม่"
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "ชื่อผู้ให้บริการชำระเงิน (ในเงื่อนไขของ Woo และ ID เกตเวย์)"
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "สถานะคำสั่งซื้อโดยรวม"
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "ยอดรวมคำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "ยอดรวมคำสั่งซื้อเต็มจำนวน ในหน่วยที่เล็กที่สุดของรหัสสกุลเงินที่ระบุ"
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "รหัสสกุลเงิน"
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "ที่อยู่เรียกเก็บของคำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "อาร์เรย์ของเขตปกครอง"
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "ชื่อธุรกิจในที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "รหัสประเทศในที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "ชื่อลูกค้าในที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "นามสกุลลูกค้าในที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "บรรทัดที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "ตำแหน่งที่ตั้งของที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "หมายเลขโทรศัพท์ในที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "รหัสไปรษณีย์ในที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "ตำแหน่งย่อยในที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "สตริงตัวแทนสำหรับที่อยู่เรียกเก็บ"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "ที่อยู่จัดส่งของคำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "ชื่อธุรกิจของที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "รหัสประเทศของที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "ชื่อลูกค้าในที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "นามสกุลลูกค้าในที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "บรรทัดที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "ตำแหน่งที่ตั้งของที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "หมายเลขโทรศัพท์ในที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "รหัสไปรษณีย์ของที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "ตำแหน่งย่อยในที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "สตริงตัวแทนสำหรับที่อยู่จัดส่ง"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "ข้อมูลตลาดซื้อขายสินค้าสำหรับคำสั่งซื้อ"
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "หมายเลขคำสั่งซื้อในตลาดซื้อขายสินค้าที่เกี่ยวข้อง"
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "หมายเลขประจำตัวช่องทางตลาดซื้อขายสินค้า"
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "ชื่อช่องทางตลาดซื้อขายสินค้า"
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "ชื่อประเภทการแสดงผลของช่องทางตลาดซื้อขายสินค้า"
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "slug ของปลั๊กอิน"
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "ชื่อของปลั๊กอิน"
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "ปลั๊กอินเป็นปลั๊กอินที่จัดการโดย MWC หรือไม่"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "สถานะการสมัครใช้งาน WooCommerce.com ของปลั๊กอิน"
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "URL เอกสารประกอบของปลั๊กอิน"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "ป้ายชื่อผู้ให้บริการจัดส่ง"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "ชื่อผู้ให้บริการจัดส่ง"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "รูปแบบ URL ในการติดตามผู้ให้บริการจัดส่ง"
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "ID ร้านค้าเริ่มต้นที่จะตั้งเป็นช่องทางปัจจุบัน"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "ID ธุรกิจ"
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "ID เว็บไซต์"
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "URL เว็บไซต์"
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "ID ร้านค้าเริ่มต้น"
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "อีเมลของผู้ใช้ที่เป็นผู้ควบคุมปัจจุบัน"
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "อีเมลของผู้ใช้ที่เป็นฝ่ายสนับสนุน ถ้ามีผู้ใช้ที่เป็นฝ่ายสนับสนุน"
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "เว็บไซต์เชื่อมต่อกับบอทฝ่ายสนับสนุนหรือไม่"
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "เว็บไซต์เชื่อมต่อกับ WooCommerce.com หรือไม่"
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "ประเภทแดชบอร์ด (MWC หรือว่างเปล่า)"
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "ไม่ว่าเว็บไซต์จะขายโดยตัวแทนจำหน่ายหรือไม่"
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "ID ป้ายชื่อส่วนตัวของตัวแทนจำหน่าย (1 หมายถึง GoDaddy ไม่ใช่ตัวแทนจำหน่าย)"
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "URL ที่จะเชื่อมต่อเว็บไซต์กับบอทฝ่ายสนับสนุน"
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "ผู้ใช้ปัจจุบันเลือกที่จะรับข้อความจากแดชบอร์ด MWC หรือไม่"
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "วันที่สร้างหน้าร้านค้า"
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "ที่อยู่บรรทัดที่ 1"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "ที่อยู่บรรทัดที่ 2"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "เมือง"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "ประเทศ"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "รัฐ"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "รหัสไปรษณีย์"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "เขตปกครอง"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "ชื่อธุรกิจ"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "รหัสประเทศ"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "ชื่อ"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "นามสกุล"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "บรรทัดที่อยู่"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "หมายเลขโทรศัพท์"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "ตำแหน่งย่อย"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "ที่อยู่ตามรูปแบบ"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "คุณสมบัติพิเศษการแจ้งเตือนทางอีเมลของเว็บไซต์ทำงานอยู่หรือไม่"
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "คุณสมบัติพิเศษการแจ้งเตือนทางอีเมลของเว็บไซต์เปิดใช้งานอยู่หรือไม่"
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "ขณะนี้เว็บไซต์ได้แทนที่เทมเพลตอีเมลใดๆ ของ WooCommerce หรือไม่"
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "หน่วยน้ำหนักตามที่กำหนดค่า"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "ที่อยู่อีเมลที่ทีมสนับสนุนจะตอบกลับ"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "slug ของปลั๊กอิน"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "เรื่อง"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "ข้อความ"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "ช่องกรอกเหตุผล"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "ช่องทางตลาดซื้อขายสินค้าที่ได้รับผลกระทบ"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "จะสร้างผู้ใช้ในโหมดแก้จุดบกพร่องหรือไม่"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "ข้อมูลผู้ใช้ปัจจุบัน"
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "ID ของผู้ใช้ปัจจุบัน"
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "สิทธิ์อนุญาตด้านการตลาด"
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "จะแสดงคำแนะนำส่วนขยายหรือไม่"
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>เตรียมตัวให้พร้อม!</strong> เราได้ปิดใช้งานปลั๊กอินแดชบอร์ดของ SkyVerge เนื่องจากขณะนี้คุณสามารถเข้าถึงแดชบอร์ดผ่านเมนูรับความช่วยเหลือได้แล้ว!"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "วิธีใช้"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "วิธีใช้"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "ส่วนขยาย WooCommerce"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "ส่วนขยาย"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "ส่วนขยาย %s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "ส่วนขยายเพิ่มเติมที่รวมไว้"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "ส่วนขยายเพิ่มเติมที่รวมอยู่ใน GoDaddy"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "ไม่มีการสมัครใช้งาน"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "ตลอดชีพ"

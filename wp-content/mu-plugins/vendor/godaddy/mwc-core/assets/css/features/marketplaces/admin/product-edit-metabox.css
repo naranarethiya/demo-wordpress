@@ -1,0 +1,111 @@
+#gd-marketplaces.postbox .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#gd-marketplaces .panel-wrap {
+	border-bottom: 1px solid #EEE;
+	overflow: hidden;
+}
+
+#gd-marketplaces #mwc-gd-branding {
+	margin: 12px 0 6px 12px;
+}
+
+#gd-marketplaces .woocommerce_options_panel {
+	float: left;
+	padding: 10px 15px;
+	width: 80%;
+}
+
+.gd-marketplaces-product-requirements {
+	color: var(--mwc-color-gray-400);
+}
+
+.gd-marketplaces-create-draft-error {
+	color: var(--mwc-color-danger);
+}
+
+.woocommerce ul.wc-tabs li.amazon-tab a::before {
+	display: inline-flex;
+	content: '';
+	background-image: url('../../../../images/marketplaces/amazon-icon.svg');
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
+}
+
+.woocommerce ul.wc-tabs li.ebay-tab a::before {
+	display: inline-flex;
+	content: '';
+	background-image: url('../../../../images/marketplaces/ebay-icon.svg');
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
+}
+
+.woocommerce ul.wc-tabs li.facebook-tab a::before {
+	display: inline-flex;
+	content: '';
+	background-image: url('../../../../images/marketplaces/facebook-icon.svg');
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
+}
+
+.woocommerce ul.wc-tabs li.walmart-tab a::before {
+	display: inline-flex;
+	content: '';
+	background-image: url('../../../../images/marketplaces/walmart-icon.svg');
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
+}
+
+.woocommerce ul.wc-tabs li.etsy-tab a::before {
+	display: inline-flex;
+	content: '';
+	background-image: url('../../../../images/marketplaces/etsy-icon.svg');
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
+}
+
+.woocommerce ul.wc-tabs li.google-tab a::before {
+	display: inline-flex;
+	content: '';
+	background-image: url('../../../../images/marketplaces/google-icon.svg');
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
+}
+
+.gd-marketplaces-product-listed {
+	align-items: center;
+	display: flex;
+	gap: 8px;
+}
+
+@media only screen and (max-width: 900px) {
+	#gd-marketplaces ul.wc-tabs {
+		width: 10%;
+	}
+
+	#gd-marketplaces ul.wc-tabs li a {
+		position: relative;
+		text-indent: -999px;
+		padding: 10px;
+	}
+
+	#gd-marketplaces ul.wc-tabs li a::before {
+		background-position: center;
+		background-repeat: no-repeat;
+		justify-content: center;
+		position: absolute;
+		left: 0;
+		text-indent: 0;
+		text-align: center;
+		line-height: 40px;
+		width: 100%;
+	}
+}

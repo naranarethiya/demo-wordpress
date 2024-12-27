@@ -1,0 +1,756 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-30T14:03:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:415
+msgid "Could not find an extension with the given slug: %s."
+msgstr "Annetulla polkutunnuksella ei löydetty laajennusta: %s."
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:625
+msgid "Could not find version %1$s of %2$s."
+msgstr "Versiota %1$s laajennuksesta %2$s ei löydetty."
+
+#: src/API/Controllers/ExtensionsController.php:683
+msgid "The extension ID."
+msgstr "Laajennuksen tunnus."
+
+#: src/API/Controllers/ExtensionsController.php:689
+msgid "The extension slug."
+msgstr "Laajennuksen polkutunnus."
+
+#: src/API/Controllers/ExtensionsController.php:695
+msgid "The extension name."
+msgstr "Laajennuksen nimi."
+
+#: src/API/Controllers/ExtensionsController.php:701
+msgid "The extension short description."
+msgstr "Laajennuksen lyhyt kuvaus."
+
+#: src/API/Controllers/ExtensionsController.php:707
+msgid "The extension type."
+msgstr "Laajennuksen tyyppi."
+
+#: src/API/Controllers/ExtensionsController.php:714
+msgid "The extension category."
+msgstr "Laajennuksen luokka."
+
+#: src/API/Controllers/ExtensionsController.php:729
+msgid "The extension brand."
+msgstr "Laajennuksen merkki."
+
+#: src/API/Controllers/ExtensionsController.php:736
+msgid "Information about the extension installed version."
+msgstr "Tietoa laajennuksen asennetusta versiosta."
+
+#: src/API/Controllers/ExtensionsController.php:740
+#: src/API/Controllers/ExtensionsController.php:812
+msgid "The version number."
+msgstr "Version numero."
+
+#: src/API/Controllers/ExtensionsController.php:746
+#: src/API/Controllers/ExtensionsController.php:818
+msgid "The required PHP version."
+msgstr "Vaadittu PHP-versio."
+
+#: src/API/Controllers/ExtensionsController.php:752
+#: src/API/Controllers/ExtensionsController.php:824
+msgid "The required WordPress version."
+msgstr "Vaadittu WordPress-versio."
+
+#: src/API/Controllers/ExtensionsController.php:758
+#: src/API/Controllers/ExtensionsController.php:830
+msgid "The required WooCommerce version."
+msgstr "Vaadittu WooCommerce-versio."
+
+#: src/API/Controllers/ExtensionsController.php:764
+#: src/API/Controllers/ExtensionsController.php:836
+msgid "The timestamp in seconds when the version was released."
+msgstr "Version julkaisun aikaleima sekunneissa."
+
+#: src/API/Controllers/ExtensionsController.php:770
+#: src/API/Controllers/ExtensionsController.php:842
+msgid "The URL from where the package can be downloaded"
+msgstr "URL-osoite, josta paketti on ladattavissa."
+
+#: src/API/Controllers/ExtensionsController.php:776
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "Asennetun version tila (onko kyseessä viimeisin versio vai ei)"
+
+#: src/API/Controllers/ExtensionsController.php:787
+msgid "The extension documentation URL."
+msgstr "Laajennuksen dokumentaation URL."
+
+#: src/API/Controllers/ExtensionsController.php:793
+msgid "Whether or not the extension is featured."
+msgstr "Onko laajennus esiteltävänä."
+
+#: src/API/Controllers/ExtensionsController.php:799
+msgid "The extension state."
+msgstr "Laajennuksen tila."
+
+#: src/API/Controllers/ExtensionsController.php:806
+msgid "Information about the versions available for the extension."
+msgstr "Tietoa laajennukselle saatavilla olevista versioista."
+
+#: src/API/Controllers/FeaturesController.php:179
+msgid "The native feature name."
+msgstr "Integroidun ominaisuuden nimi."
+
+#: src/API/Controllers/FeaturesController.php:185
+msgid "The native feature description."
+msgstr "Integroidun ominaisuuden kuvaus."
+
+#: src/API/Controllers/FeaturesController.php:191
+msgid "The native feature documentation URL."
+msgstr "Integroidun ominaisuuden dokumentaation URL."
+
+#: src/API/Controllers/FeaturesController.php:197
+msgid "The native feature settings URL, if applicable."
+msgstr "Integroidun ominaisuuden asetusten URL, jos sovellettavissa."
+
+#: src/API/Controllers/FeaturesController.php:203
+msgid "The native feature categories."
+msgstr "Integroidun ominaisuuden luokat."
+
+#: src/API/Controllers/FeaturesController.php:223
+msgid "Whether or not the native feature is enabled for this site."
+msgstr "Onko integroitu ominaisuus otettu käyttöön tämän sivuston kohdalla."
+
+#: src/API/Controllers/MessagesController.php:124
+msgid "ID of the message to be deleted."
+msgstr "Poistettavan viestin tunnus."
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:243
+msgid "No auth method found for %s"
+msgstr "Valtuutusmenetelmää ei löydetty: %s"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:251
+msgid "Could not retrieve remote messages data: %s"
+msgstr "Etäviestien dataa ei pystytty noutamaan: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:262
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "Etäviestien dataa ei pystytty noutamaan – API vastasi tilalla %d, virhe %s"
+
+#: src/API/Controllers/MessagesController.php:273
+msgid "Remote messages data is invalid"
+msgstr "Etäviestien data on virheellinen"
+
+#: src/API/Controllers/MessagesController.php:431
+msgid "Invalid message ID"
+msgstr "Virheellinen viestitunnus"
+
+#: src/API/Controllers/MessagesController.php:575
+msgid "Unique message ID."
+msgstr "Yksilöllinen viestitunnus."
+
+#: src/API/Controllers/MessagesController.php:581
+msgid "Message type."
+msgstr "Viestin tyyppi."
+
+#: src/API/Controllers/MessagesController.php:587
+msgid "Message subject."
+msgstr "Viestin aihe."
+
+#: src/API/Controllers/MessagesController.php:593
+msgid "Message body."
+msgstr "Viestin runko."
+
+#: src/API/Controllers/MessagesController.php:599
+msgid "Publish date."
+msgstr "Julkaisupäivämäärä."
+
+#: src/API/Controllers/MessagesController.php:606
+msgid "Expiration date."
+msgstr "Vanhentumispäivämäärä."
+
+#: src/API/Controllers/MessagesController.php:613
+msgid "Buttons or links to be displayed with the message."
+msgstr "Viestin kanssa näytettävät painikkeet tai linkit."
+
+#: src/API/Controllers/MessagesController.php:619
+msgid "Action text."
+msgstr "Toiminnon teksti."
+
+#: src/API/Controllers/MessagesController.php:625
+msgid "Action href."
+msgstr "Toiminnon href."
+
+#: src/API/Controllers/MessagesController.php:631
+msgid "Action type."
+msgstr "Toiminnon tyyppi."
+
+#: src/API/Controllers/MessagesController.php:643
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "Säännöt, jotka asiakkaan on arvioitava päättääkseen, näytetäänkö viesti vai ei."
+
+#: src/API/Controllers/MessagesController.php:650
+msgid "Rule label."
+msgstr "Säännön selite."
+
+#: src/API/Controllers/MessagesController.php:656
+msgid "Rule name."
+msgstr "Säännön nimi."
+
+#: src/API/Controllers/MessagesController.php:662
+msgid "Rule type."
+msgstr "Säännön tyyppi."
+
+#: src/API/Controllers/MessagesController.php:668
+msgid "Related entity used to evaluate the rule."
+msgstr "Asiaan liittyvä entiteetti, jota käytetään säännön arvioinnissa."
+
+#: src/API/Controllers/MessagesController.php:674
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "Asiaan liittyvän entiteetin elementti, jota käytetään säännön arvioinnissa."
+
+#: src/API/Controllers/MessagesController.php:681
+msgid "Comparison operator used to evaluate the rule."
+msgstr "Vertailuoperaattori, jota käytetään säännön arvioinnissa."
+
+#: src/API/Controllers/MessagesController.php:687
+msgid "Reference value used to evaluate the rule."
+msgstr "Viitearvo, jota käytetään säännön arvioinnissa."
+
+#: src/API/Controllers/MessagesController.php:698
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "Linkit dataan, joka noudetaan ja jota käytetään sääntöjen arvioinnissa."
+
+#: src/API/Controllers/MessagesController.php:705
+msgid "Link href."
+msgstr "Linkin href."
+
+#: src/API/Controllers/MessagesController.php:711
+msgid "Related entity represented by the link."
+msgstr "Asiaan liittyvä entiteetti, jota linkki edustaa."
+
+#: src/API/Controllers/MessagesController.php:717
+msgid "Request type to retrieve the data."
+msgstr "Pyynnön tyyppi datan noutamiseksi."
+
+#: src/API/Controllers/MessagesController.php:728
+msgid "Message status for the current user."
+msgstr "Viestin tila nykyisen käyttäjän kohdalla."
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "Kohteen tunnus."
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "Tuotetunnus."
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "Muunnelman tunnus."
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "Tuotteen nimi."
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "Tuotteiden lukumäärä."
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "Loppuun käsittelemättömien tuotteiden lukumäärä."
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "Tuotteen kuva."
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "Kuvan korkeus."
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "Kuvan leveys."
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "Kuvalähteen URL"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "Kuvalähteen URL-luettelo"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "Kuvakoot"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "Tilaustunnus."
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "Onko tilaus käsitelty loppuun."
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "Tilaukseen liittyvät lähetykset."
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "Lähetystunnus."
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "Lähetyksen luontipäivä."
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "Lähetyksen viimeisen päivityksen ajankohta."
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "Lähetyksen kuljetuspalveluntarjoaja."
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "Lähetyksen seurantanumero."
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "Lähetyksen seuranta-URL."
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "Lähetykseen mukaan sisältyvät tuotteet."
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "Nimikkeen tunnus."
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "Tuotetunnus."
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "Tuotteen muunnelman tunnus."
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "Tuotteen lukumäärä."
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "Tilauksen sähköpostiosoite."
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "Tilausnumero (eri kuin tilaustunnus)."
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "Katsotaanko tilaus “maksetuksi”."
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "Maksupalveluntarjoajan nimi (Woo-ympäristössä yhdyskäytävän tunnus)."
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "Tilauksen yleinen tila."
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "Tilauksen kokonaissumma"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "Täysi kokonaissumma annetun valuuttakoodin pienimmässä yksikössä."
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "Valuuttakoodi."
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "Tilauksen laskutusosoite."
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "Joukko hallintoalueita."
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "Laskutusosoitteen yrityksen nimi."
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "Laskutusosoitteen maakoodi."
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "Laskutusosoitteen asiakkaan etunimi."
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "Laskutusosoitteen asiakkaan sukunimi."
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "Laskutusosoitteen rivit."
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "Laskutusosoitteen paikka."
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "Laskutusosoitteen puhelinnumero."
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "Laskutusosoitteen postinumero."
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "Laskutusosoitteen paikan osa-alueet."
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "Laskutusosoitteen merkkijonon edustus"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "Tilauksen toimitusosoite."
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "Toimitusosoitteen yrityksen nimi."
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "Toimitusosoitteen maakoodi."
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "Toimitusosoitteen asiakkaan etunimi."
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "Toimitusosoitteen asiakkaan sukunimi."
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "Toimitusosoitteen rivit."
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "Toimitusosoitteen paikka."
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "Toimitusosoitteen puhelinnumero."
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "Toimitusosoitteen postinumero."
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "Toimitusosoitteen paikan osa-alueet."
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "Toimitusosoitteen merkkijonon edustus"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "Kauppapaikkojen tiedot tilaukselle."
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "Kauppapaikkojen vastaava tilausnumero."
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "Kauppapaikkojen kanavan yksilöllinen tunniste."
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "Kauppapaikkojen kanavan nimi."
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "Kauppapaikkojen kanavan näyttötyypin nimi."
+
+#: src/API/Controllers/PluginsController.php:53
+msgid "The plugin's slug."
+msgstr "Laajennuksen polkutunnus."
+
+#: src/API/Controllers/PluginsController.php:59
+msgid "The plugin's name."
+msgstr "Laajennuksen nimi."
+
+#: src/API/Controllers/PluginsController.php:65
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "Onko laajennus MWC:n hallitsema"
+
+#: src/API/Controllers/PluginsController.php:70
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "Laajennuksen WooCommerce.com-tilauksen tila."
+
+#: src/API/Controllers/PluginsController.php:77
+msgid "The plugin documentation URL"
+msgstr "Laajennuksen dokumentaation URL"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "Kuljetuspalveluntarjoajan selite."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "Kuljetuspalveluntarjoajan nimi."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "Kuljetuspalveluntarjoajan seurantatoiminnon URL-muoto."
+
+#: src/API/Controllers/ShopController.php:64
+msgid "The default store ID to set for the current channel"
+msgstr "Nykyiselle kanavalle asetettava oletusmyymälätunnus"
+
+#: src/API/Controllers/ShopController.php:70
+msgid "The business ID"
+msgstr "Yrityksen tunnus"
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Site ID."
+msgstr "Sivuston tunnus."
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Site URL."
+msgstr "Sivuston URL."
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Default store ID."
+msgstr "Myymälän oletustunnus."
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Current admin user's email."
+msgstr "Nykyisen ylläpitäjäkäyttäjän sähköposti."
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Support user's email, if a support user exists."
+msgstr "Tukikäyttäjän sähköposti, jos tukikäyttäjä on olemassa."
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is connected to the support bot."
+msgstr "Onko sivusto yhdistetty tukibottiin."
+
+#: src/API/Controllers/ShopController.php:279
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "Onko sivusto yhdistetty WooCommerce.com-sivustoon."
+
+#: src/API/Controllers/ShopController.php:285
+msgid "Dashboard type (MWC or empty)."
+msgstr "Hallintapaneelin tyyppi (MWC tai tyhjä)."
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Onko sivusto jälleenmyyjän myymä vai ei."
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "Jälleenmyyjän yksityisen selitteen tunnus (1 tarkoittaa GoDaddyä, joten kyseessä ei ole jälleenmyyjä)."
+
+#: src/API/Controllers/ShopController.php:303
+msgid "URL to connect the site to the support bot."
+msgstr "URL sivuston yhdistämiseksi tukibottiin."
+
+#: src/API/Controllers/ShopController.php:309
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "Onko nykyinen käyttäjä ilmaissut haluavansa vastaanottaa MWC-hallintapaneelin viestejä."
+
+#: src/API/Controllers/ShopController.php:315
+msgid "The Shop page's creation date."
+msgstr "Myymälän sivun luontipäivämäärä."
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Address line 1"
+msgstr "Osoiterivi 1"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "Address line 2"
+msgstr "Osoiterivi 2"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:401
+msgid "City"
+msgstr "Paikkakunta"
+
+#: src/API/Controllers/ShopController.php:342
+msgid "Country"
+msgstr "Maa"
+
+#: src/API/Controllers/ShopController.php:348
+msgid "State"
+msgstr "Osavaltio"
+
+#: src/API/Controllers/ShopController.php:354
+#: src/API/Controllers/ShopController.php:413
+msgid "Postal code"
+msgstr "Postinumero"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "Administrative districts"
+msgstr "Hallintoalueet"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Business name"
+msgstr "Yrityksen nimi"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Country code"
+msgstr "Maakoodi"
+
+#: src/API/Controllers/ShopController.php:383
+msgid "First name"
+msgstr "Etunimi"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Last name"
+msgstr "Sukunimi"
+
+#: src/API/Controllers/ShopController.php:395
+msgid "Address lines"
+msgstr "Osoiterivit"
+
+#: src/API/Controllers/ShopController.php:407
+msgid "Phone number"
+msgstr "Puhelinnumero"
+
+#: src/API/Controllers/ShopController.php:419
+msgid "Sub localities"
+msgstr "Paikan osa-alueet"
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Formatted address"
+msgstr "Muotoiltu osoite"
+
+#: src/API/Controllers/ShopController.php:433
+msgid "Whether or not the site email notifications feature is active."
+msgstr "Onko sivuston sähköposti-ilmoitusten toiminto aktiivinen."
+
+#: src/API/Controllers/ShopController.php:439
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "Onko sivuston sähköposti-ilmoitusten toiminto käytössä."
+
+#: src/API/Controllers/ShopController.php:445
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "Ohittaako sivusto tällä hetkellä jonkin WooCommerce-sähköpostimalleista."
+
+#: src/API/Controllers/ShopController.php:454
+msgid "Configured weight unit"
+msgstr "Määritetty painoyksikkö"
+
+#: src/API/Controllers/SupportController.php:69
+msgid "The e-mail address the support team will reply to"
+msgstr "Sähköpostiosoite, johon tukitiimi lähettää vastauksen"
+
+#: src/API/Controllers/SupportController.php:74
+msgid "The plugin slug"
+msgstr "Laajennuksen polkutunnus"
+
+#: src/API/Controllers/SupportController.php:80
+msgid "The subject"
+msgstr "Aihe"
+
+#: src/API/Controllers/SupportController.php:86
+msgid "The message"
+msgstr "Viesti"
+
+#: src/API/Controllers/SupportController.php:92
+msgid "The reason field"
+msgstr "Syy-kenttä"
+
+#: src/API/Controllers/SupportController.php:97
+msgid "Whether or not to create a debug user"
+msgstr "Luodaanko testaustilakäyttäjä"
+
+#: src/API/Controllers/UserController.php:65
+msgid "The current user information."
+msgstr "Nykyisen käyttäjän tiedot."
+
+#: src/API/Controllers/UserController.php:85
+msgid "The ID of the current user."
+msgstr "Nykyisen käyttäjän tunnus."
+
+#: src/API/Controllers/UserController.php:91
+msgid "The marketing permissions."
+msgstr "Markkinointia koskevat luvat."
+
+#: src/API/Controllers/UserController.php:95
+msgid "Whether to show extensions recommendations."
+msgstr "Näytetäänkö laajennuksia koskevat suositukset."
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>Huomio!</strong> Olemme poistaneet SkyVerge Dashboard -laajennuksen käytöstä, koska sinulla on nyt pääsy hallintapaneeliin Pyydä ohjeita -valikon kautta!"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Hanki ohjeita"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Hanki ohjeita"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "WooCommerce-laajennukset"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "Tunnisteet"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "Laajennukset: %s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "Mukaan sisältyvät laajennukset"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "GoDaddyn mukaan sisältyvät laajennukset"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "Ei tilausta"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "Elinikä"

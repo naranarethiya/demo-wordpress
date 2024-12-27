@@ -1,0 +1,19 @@
+{
+    "name": "godaddy/mwc-core-scoped",
+    "description": "A package to hold scoped dependencies where their namespaces have been prefixed for MWC to avoid conflicts with other WP plugins using composer.",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": ">=7.4 <8.3",
+        "humbug/php-scoper": "^0.18.2",
+        "firebase/php-jwt": "^6.8.1"
+    },
+    "scripts": {
+        "prefix-deps": [
+            "composer prefix-php-jwt"
+        ],
+        "prefix-php-jwt": [
+            "@php ./vendor/bin/php-scoper add-prefix --prefix='GoDaddy\\WordPress\\MWC\\Core\\Vendor' --output-dir=./packages/firebase/php-jwt --config=php-scoper/php-jwt.inc.php --force --quiet",
+            "echo 'php-jwt package has been prefixed! Please commit changes in this folder.'"
+        ]
+    }
+}

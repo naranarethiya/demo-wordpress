@@ -1,0 +1,179 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Common\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-05T04:20:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: mwc-common\n"
+
+#: src/Email/Email.php:68
+msgid "Invalid recipient value to set for email: should be type of string or array, %s given."
+msgstr "이메일에 설정할 유효하지 않은 수신자 값: 문자열 또는 배열 유형이어야 하며 %s가 지정되어야 합니다."
+
+#: src/Email/Email.php:84
+msgid "Invalid recipient value to set for email: "
+msgstr "이메일 설정에 유효하지 않은 수신자 값: "
+
+#: src/Email/Emails.php:31
+msgid "The email does not have content type set"
+msgstr "해당 이메일에 콘텐츠 유형이 설정되어 있지 않습니다"
+
+#: src/Email/Emails.php:35
+msgid "The email does not have a recipient set"
+msgstr "이메일에 수신자 세트가 없습니다"
+
+#: src/Email/Emails.php:72
+msgid "A usable email service could not be found for %s"
+msgstr "%s에 사용할 수 있는 이메일 서비스를 찾을 수 없습니다"
+
+#. translators: A list of items, for example: "US or Canada", or "US, Canada, or Mexico". English uses Oxford comma before the conjunction ("or") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of item, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:610
+msgid "%1$s or %2$s"
+msgid_plural "%1$s, or %2$s"
+msgstr[0] "%1$s 또는 %2$s"
+msgstr[1] "%1$s, 또는 %2$s"
+
+#. translators: A list of items, for example: "US and Canada", or "US, Canada, and Mexico". English uses Oxford comma before the conjunction ("and") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of items, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:616
+msgid "%1$s and %2$s"
+msgid_plural "%1$s, and %2$s"
+msgstr[0] "%1$s 및 %2$s"
+msgstr[1] "%1$s, 및 %2$s"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:20
+msgid "Cancelled"
+msgstr "취소되었음"
+
+#: src/Models/Orders/Statuses/CheckoutDraftOrderStatus.php:17
+msgid "Checkout Draft"
+msgstr "결제 초안"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:20
+msgid "Completed"
+msgstr "완료됨"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:20
+msgid "Failed"
+msgstr "실패"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:20
+msgid "Held"
+msgstr "보류됨"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:20
+msgid "Pending payment"
+msgstr "결제 보류 중"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:20
+msgid "Processing"
+msgstr "처리 중"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:20
+msgid "Refunded"
+msgstr "환불됨"
+
+#: src/Repositories/WooCommerce/CartRepository.php:25
+#: src/Repositories/WooCommerceRepository.php:47
+msgid "WooCommerce cart is not available"
+msgstr "WooCommerce 카트를 사용할 수 없습니다"
+
+#: src/Repositories/WooCommerce/CartRepository.php:126
+msgid "The product could not be added to the cart."
+msgstr "제품을 카트에 추가할 수 없습니다."
+
+#: src/Repositories/WooCommerce/CountriesRepository.php:25
+msgid "The WC_Countries class is not available."
+msgstr "WC_Countries class를 사용할 수 없습니다."
+
+#. translators: Placeholder: %s - error message
+#: src/Repositories/WooCommerce/RefundsRepository.php:54
+msgid "Could not create refund: %s"
+msgstr "환불을 생성할 수 없음: %s"
+
+#: src/Repositories/WooCommerce/RefundsRepository.php:57
+msgid "WooCommerce is not active"
+msgstr "WooCommerce가 활성화되지 않았습니다"
+
+#: src/Repositories/WooCommerce/SessionRepository.php:26
+msgid "WooCommerce session is not available"
+msgstr "WooCommerce 세션을 사용할 수 없습니다"
+
+#. translators: Placeholders: %1$s - WordPress user capability, %2$s - WordPress user role, %3$s - Error message
+#: src/Repositories/WordPress/RolesRepository.php:42
+msgid "Cannot add \"%1$s\" capability to \"%2$s\" user role: %3$s"
+msgstr "‘%1$s’ 기능을 ‘%2$s’ 사용자 역할에 추가할 수 없음: %3$s"
+
+#: src/Repositories/WordPress/RolesRepository.php:45
+msgid "Cannot load WordPress Roles handler."
+msgstr "워드프레스 역할 처리기를 로드할 수 없습니다."
+
+#: src/Repositories/WordPress/RolesRepository.php:49
+msgid "User role does not exist."
+msgstr "사용자 역할이 존재하지 않습니다."
+
+#: src/Repositories/WordPressRepository.php:428
+msgid "User does not have a valid ID."
+msgstr "사용자에게 유효한 ID가 없습니다."
+
+#: src/Repositories/WordPressRepository.php:440
+msgid "User could not be logged in."
+msgstr "사용자가 로그인할 수 없습니다."
+
+#: src/Settings/Models/AbstractSetting.php:196
+msgid "Invalid value for updating the setting type of %1s: must be one of %2$s, %3$s given."
+msgstr "%1$s의 설정 유형 업데이트에 유효하지 않은 값은 %2$s 중 하나여야 하며 %3$s이(가) 지정되어야 합니다."
+
+#: src/Settings/Models/AbstractSetting.php:255
+msgid "Invalid option to set for %1$s: %2$s"
+msgstr "%1$s 설정에 유효하지 않은 옵션: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:286
+msgid "Invalid default value to set for %1$s: %2$s"
+msgstr "%1$s 설정에 유효하지 않은 기본값: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:316
+msgid "Invalid value to set for %1$s: %2$s"
+msgstr "%1$s 설정에 유효하지 않은 값: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:393
+msgid "Value must be one of the allowed options."
+msgstr "값은 허용된 옵션 중 하나여야 합니다."
+
+#: src/Settings/Models/AbstractSetting.php:417
+msgid "Value should be type of %1$s, %2$s given."
+msgstr "값은 %1$s 유형이어야 하며 %2$s이(가) 지정되어야 합니다."
+
+#: src/Settings/Models/Control.php:150
+msgid "Invalid value for updating the control type of %1s: must be one of %2$s."
+msgstr "%1$s의 제어 유형 업데이트에 유효하지 않은 값은 %2$s 중 하나여야 합니다."
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:37
+msgid "The name of the setting is required."
+msgstr "설정 이름은 필수입니다."
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:80
+msgid "The name of the setting subgroup is required."
+msgstr "설정 하위 그룹 이름은 필수입니다."
+
+#: src/Settings/Traits/HasSettingsTrait.php:101
+msgid "%s is not a valid setting."
+msgstr "%s은(는) 유효한 설정이 아닙니다."
+
+#: src/Settings/Traits/HasSettingsTrait.php:275
+msgid "The settings objects must be an instance of SettingContract"
+msgstr "설정 개체는 SettingContract의 인스턴스여야 합니다"
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:46
+msgid "Please use %1$s or %2$s to format a boolean value for reading from or saving to storage."
+msgstr "스토리지에서 읽거나 스토리지에 저장하기 위한 부울 값의 형식을 지정하려면 %1$s 또는 %2$s을(를) 사용하세요."
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:143
+msgid "Cannot handle a \"%s\" type to parse a valid boolean value."
+msgstr "유효한 부울 값을 구문 분석하기 위한 ‘%s’ 유형을 처리할 수 없습니다."

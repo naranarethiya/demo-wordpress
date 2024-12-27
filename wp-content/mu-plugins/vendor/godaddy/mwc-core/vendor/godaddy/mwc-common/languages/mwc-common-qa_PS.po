@@ -1,0 +1,179 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Common\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-05T04:20:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: mwc-common\n"
+
+#: src/Email/Email.php:68
+msgid "Invalid recipient value to set for email: should be type of string or array, %s given."
+msgstr "⌠2402668⌡Învålîd récîpîént vålüé tò sét fòr émåîl: shòüld bé typé òf strîng òr årråy, %s gîvén.⌠2402668⌡"
+
+#: src/Email/Email.php:84
+msgid "Invalid recipient value to set for email: "
+msgstr "⌠2904420⌡Învålîd récîpîént vålüé tò sét fòr émåîl: ⌠2904420⌡"
+
+#: src/Email/Emails.php:31
+msgid "The email does not have content type set"
+msgstr "⌠2406620⌡Thé émåîl dòés nòt håvé còntént typé sét⌠2406620⌡"
+
+#: src/Email/Emails.php:35
+msgid "The email does not have a recipient set"
+msgstr "⌠2904421⌡Thé émåîl dòés nòt håvé å récîpîént sét⌠2904421⌡"
+
+#: src/Email/Emails.php:72
+msgid "A usable email service could not be found for %s"
+msgstr "⌠2421523⌡Å üsåblé émåîl sérvîcé còüld nòt bé fòünd fòr %s⌠2421523⌡"
+
+#. translators: A list of items, for example: "US or Canada", or "US, Canada, or Mexico". English uses Oxford comma before the conjunction ("or") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of item, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:610
+msgid "%1$s or %2$s"
+msgid_plural "%1$s, or %2$s"
+msgstr[0] "⌠3099611⌡%1$s òr %2$s⌠3099611⌡"
+msgstr[1] "⌠3099612⌡%1$s, òr %2$s⌠3099612⌡"
+
+#. translators: A list of items, for example: "US and Canada", or "US, Canada, and Mexico". English uses Oxford comma before the conjunction ("and") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of items, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:616
+msgid "%1$s and %2$s"
+msgid_plural "%1$s, and %2$s"
+msgstr[0] "⌠3099613⌡%1$s ånd %2$s⌠3099613⌡"
+msgstr[1] "⌠3099614⌡%1$s, ånd %2$s⌠3099614⌡"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:20
+msgid "Cancelled"
+msgstr "⌠2389702⌡Cåncélléd⌠2389702⌡"
+
+#: src/Models/Orders/Statuses/CheckoutDraftOrderStatus.php:17
+msgid "Checkout Draft"
+msgstr "⌠3338253⌡Chéckòüt Dråft⌠3338253⌡"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:20
+msgid "Completed"
+msgstr "⌠2389703⌡Còmplétéd⌠2389703⌡"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:20
+msgid "Failed"
+msgstr "⌠2389704⌡Fåîléd⌠2389704⌡"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:20
+msgid "Held"
+msgstr "⌠2389705⌡Héld⌠2389705⌡"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:20
+msgid "Pending payment"
+msgstr "⌠2389706⌡Péndîng påymént⌠2389706⌡"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:20
+msgid "Processing"
+msgstr "⌠2389707⌡Pròcéssîng⌠2389707⌡"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:20
+msgid "Refunded"
+msgstr "⌠2389708⌡Réfündéd⌠2389708⌡"
+
+#: src/Repositories/WooCommerce/CartRepository.php:25
+#: src/Repositories/WooCommerceRepository.php:47
+msgid "WooCommerce cart is not available"
+msgstr "⌠2457911⌡WòòCòmmércé cårt îs nòt åvåîlåblé⌠2457911⌡"
+
+#: src/Repositories/WooCommerce/CartRepository.php:126
+msgid "The product could not be added to the cart."
+msgstr "⌠3283380⌡Thé pròdüct còüld nòt bé åddéd tò thé cårt.⌠3283380⌡"
+
+#: src/Repositories/WooCommerce/CountriesRepository.php:25
+msgid "The WC_Countries class is not available."
+msgstr "⌠3283381⌡Thé WC_Còüntrîés clåss îs nòt åvåîlåblé.⌠3283381⌡"
+
+#. translators: Placeholder: %s - error message
+#: src/Repositories/WooCommerce/RefundsRepository.php:54
+msgid "Could not create refund: %s"
+msgstr "⌠2457914⌡Còüld nòt créåté réfünd: %s⌠2457914⌡"
+
+#: src/Repositories/WooCommerce/RefundsRepository.php:57
+msgid "WooCommerce is not active"
+msgstr "⌠2457915⌡WòòCòmmércé îs nòt åctîvé⌠2457915⌡"
+
+#: src/Repositories/WooCommerce/SessionRepository.php:26
+msgid "WooCommerce session is not available"
+msgstr "⌠2457916⌡WòòCòmmércé séssîòn îs nòt åvåîlåblé⌠2457916⌡"
+
+#. translators: Placeholders: %1$s - WordPress user capability, %2$s - WordPress user role, %3$s - Error message
+#: src/Repositories/WordPress/RolesRepository.php:42
+msgid "Cannot add \"%1$s\" capability to \"%2$s\" user role: %3$s"
+msgstr "⌠2412488⌡Cånnòt ådd \"%1$s\" cåpåbîlîty tò \"%2$s\" üsér ròlé: %3$s⌠2412488⌡"
+
+#: src/Repositories/WordPress/RolesRepository.php:45
+msgid "Cannot load WordPress Roles handler."
+msgstr "⌠2412489⌡Cånnòt lòåd WòrdPréss Ròlés håndlér.⌠2412489⌡"
+
+#: src/Repositories/WordPress/RolesRepository.php:49
+msgid "User role does not exist."
+msgstr "⌠2412490⌡Üsér ròlé dòés nòt éxîst.⌠2412490⌡"
+
+#: src/Repositories/WordPressRepository.php:428
+msgid "User does not have a valid ID."
+msgstr "⌠2584104⌡Üsér dòés nòt håvé å vålîd ÎD.⌠2584104⌡"
+
+#: src/Repositories/WordPressRepository.php:440
+msgid "User could not be logged in."
+msgstr "⌠2584105⌡Üsér còüld nòt bé lòggéd în.⌠2584105⌡"
+
+#: src/Settings/Models/AbstractSetting.php:196
+msgid "Invalid value for updating the setting type of %1s: must be one of %2$s, %3$s given."
+msgstr "⌠2457917⌡Învålîd vålüé fòr üpdåtîng thé séttîng typé òf %1s: müst bé òné òf %2$s, %3$s gîvén.⌠2457917⌡"
+
+#: src/Settings/Models/AbstractSetting.php:255
+msgid "Invalid option to set for %1$s: %2$s"
+msgstr "⌠2457918⌡Învålîd òptîòn tò sét fòr %1$s: %2$s⌠2457918⌡"
+
+#: src/Settings/Models/AbstractSetting.php:286
+msgid "Invalid default value to set for %1$s: %2$s"
+msgstr "⌠2457919⌡Învålîd défåült vålüé tò sét fòr %1$s: %2$s⌠2457919⌡"
+
+#: src/Settings/Models/AbstractSetting.php:316
+msgid "Invalid value to set for %1$s: %2$s"
+msgstr "⌠2457920⌡Învålîd vålüé tò sét fòr %1$s: %2$s⌠2457920⌡"
+
+#: src/Settings/Models/AbstractSetting.php:393
+msgid "Value must be one of the allowed options."
+msgstr "⌠2457921⌡Vålüé müst bé òné òf thé ållòwéd òptîòns.⌠2457921⌡"
+
+#: src/Settings/Models/AbstractSetting.php:417
+msgid "Value should be type of %1$s, %2$s given."
+msgstr "⌠2457922⌡Vålüé shòüld bé typé òf %1$s, %2$s gîvén.⌠2457922⌡"
+
+#: src/Settings/Models/Control.php:150
+msgid "Invalid value for updating the control type of %1s: must be one of %2$s."
+msgstr "⌠2457923⌡Învålîd vålüé fòr üpdåtîng thé còntròl typé òf %1s: müst bé òné òf %2$s.⌠2457923⌡"
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:37
+msgid "The name of the setting is required."
+msgstr "⌠2457924⌡Thé nåmé òf thé séttîng îs réqüîréd.⌠2457924⌡"
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:80
+msgid "The name of the setting subgroup is required."
+msgstr "⌠2457925⌡Thé nåmé òf thé séttîng sübgròüp îs réqüîréd.⌠2457925⌡"
+
+#: src/Settings/Traits/HasSettingsTrait.php:101
+msgid "%s is not a valid setting."
+msgstr "⌠2457926⌡%s îs nòt å vålîd séttîng.⌠2457926⌡"
+
+#: src/Settings/Traits/HasSettingsTrait.php:275
+msgid "The settings objects must be an instance of SettingContract"
+msgstr "⌠2457927⌡Thé séttîngs òbjécts müst bé ån înståncé òf SéttîngCòntråct⌠2457927⌡"
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:46
+msgid "Please use %1$s or %2$s to format a boolean value for reading from or saving to storage."
+msgstr "⌠2457928⌡Pléåsé üsé %1$s òr %2$s tò fòrmåt å bòòléån vålüé fòr réådîng fròm òr såvîng tò stòrågé.⌠2457928⌡"
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:143
+msgid "Cannot handle a \"%s\" type to parse a valid boolean value."
+msgstr "⌠2457929⌡Cånnòt håndlé å \"%s\" typé tò pårsé å vålîd bòòléån vålüé.⌠2457929⌡"

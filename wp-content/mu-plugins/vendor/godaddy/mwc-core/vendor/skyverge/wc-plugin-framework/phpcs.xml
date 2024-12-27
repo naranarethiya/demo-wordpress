@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="WooCommerce Plugin Framework">
+	<description>Rules for PHP CodeSniffer</description>
+
+	<file>./woocommerce-framework-plugin-loader-sample.php</file>
+	<file>./woocommerce</file>
+
+	<arg name="extensions" value="php" />
+
+	<rule ref="PHPCompatibility" />
+
+	<config name="installed_paths" value="vendor/phpcompatibility/php-compatibility" />
+
+	<config name="testVersion" value="7.4-"/>
+
+</ruleset>

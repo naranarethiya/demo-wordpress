@@ -1,0 +1,179 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Common\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-05T04:20:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: mwc-common\n"
+
+#: src/Email/Email.php:68
+msgid "Invalid recipient value to set for email: should be type of string or array, %s given."
+msgstr "Giá trị người nhận không hợp lệ để đặt cho email: đây phải là loại chuỗi hoặc mảng, xét về %s."
+
+#: src/Email/Email.php:84
+msgid "Invalid recipient value to set for email: "
+msgstr "Giá trị người nhận không hợp lệ để đặt cho email: "
+
+#: src/Email/Emails.php:31
+msgid "The email does not have content type set"
+msgstr "Email chưa được đặt loại nội dung"
+
+#: src/Email/Emails.php:35
+msgid "The email does not have a recipient set"
+msgstr "Email không có người nhận được thiết lập"
+
+#: src/Email/Emails.php:72
+msgid "A usable email service could not be found for %s"
+msgstr "Không thể tìm thấy dịch vụ email có thể sử dụng cho %s"
+
+#. translators: A list of items, for example: "US or Canada", or "US, Canada, or Mexico". English uses Oxford comma before the conjunction ("or") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of item, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:610
+msgid "%1$s or %2$s"
+msgid_plural "%1$s, or %2$s"
+msgstr[0] "%1$s hay %2$s"
+msgstr[1] "%1$s, hay %2$s"
+
+#. translators: A list of items, for example: "US and Canada", or "US, Canada, and Mexico". English uses Oxford comma before the conjunction ("and") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of items, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:616
+msgid "%1$s and %2$s"
+msgid_plural "%1$s, and %2$s"
+msgstr[0] "%1$s và %2$s"
+msgstr[1] "%1$s, và %2$s"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:20
+msgid "Cancelled"
+msgstr "Đã xóa bỏ"
+
+#: src/Models/Orders/Statuses/CheckoutDraftOrderStatus.php:17
+msgid "Checkout Draft"
+msgstr "Bản dự thảo thanh toán"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:20
+msgid "Completed"
+msgstr "Đã hoàn tất"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:20
+msgid "Failed"
+msgstr "Đã thất bại"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:20
+msgid "Held"
+msgstr "Tạm dừng"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:20
+msgid "Pending payment"
+msgstr "Thanh toán đang được xử lý"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:20
+msgid "Processing"
+msgstr "Đang xử lý"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:20
+msgid "Refunded"
+msgstr "Đã hoàn tiền"
+
+#: src/Repositories/WooCommerce/CartRepository.php:25
+#: src/Repositories/WooCommerceRepository.php:47
+msgid "WooCommerce cart is not available"
+msgstr "Giỏ hàng WooCommerce không khả dụng"
+
+#: src/Repositories/WooCommerce/CartRepository.php:126
+msgid "The product could not be added to the cart."
+msgstr "Không thể thêm sản phẩm vào giỏ hàng."
+
+#: src/Repositories/WooCommerce/CountriesRepository.php:25
+msgid "The WC_Countries class is not available."
+msgstr "Cấp WC_Countries không khả dụng."
+
+#. translators: Placeholder: %s - error message
+#: src/Repositories/WooCommerce/RefundsRepository.php:54
+msgid "Could not create refund: %s"
+msgstr "Không thể tạo hoàn tiền:%s"
+
+#: src/Repositories/WooCommerce/RefundsRepository.php:57
+msgid "WooCommerce is not active"
+msgstr "WooCommerce không khả dụng"
+
+#: src/Repositories/WooCommerce/SessionRepository.php:26
+msgid "WooCommerce session is not available"
+msgstr "Phiên WooCommerce không khả dụng"
+
+#. translators: Placeholders: %1$s - WordPress user capability, %2$s - WordPress user role, %3$s - Error message
+#: src/Repositories/WordPress/RolesRepository.php:42
+msgid "Cannot add \"%1$s\" capability to \"%2$s\" user role: %3$s"
+msgstr "Không thể thêm \"%1$s\" khả năng cho \"%2$s\" vai trò người dùng: %3$s"
+
+#: src/Repositories/WordPress/RolesRepository.php:45
+msgid "Cannot load WordPress Roles handler."
+msgstr "Không thể tải trình xử lý Vai trò WordPress."
+
+#: src/Repositories/WordPress/RolesRepository.php:49
+msgid "User role does not exist."
+msgstr "Vai trò người dùng không tồn tại."
+
+#: src/Repositories/WordPressRepository.php:428
+msgid "User does not have a valid ID."
+msgstr "Người dùng không có ID hợp lệ."
+
+#: src/Repositories/WordPressRepository.php:440
+msgid "User could not be logged in."
+msgstr "Người dùng không thể đăng nhập."
+
+#: src/Settings/Models/AbstractSetting.php:196
+msgid "Invalid value for updating the setting type of %1s: must be one of %2$s, %3$s given."
+msgstr "Giá trị không hợp lệ để cập nhật loại cài đặt của %1$s: phải là một trong %2$s, xét về %3$s"
+
+#: src/Settings/Models/AbstractSetting.php:255
+msgid "Invalid option to set for %1$s: %2$s"
+msgstr "Tùy chọn không hợp lệ để đặt cho %1$s: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:286
+msgid "Invalid default value to set for %1$s: %2$s"
+msgstr "Giá trị mặc định không hợp lệ để đặt cho %1$s: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:316
+msgid "Invalid value to set for %1$s: %2$s"
+msgstr "Giá trị không hợp lệ để đặt cho %1$s: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:393
+msgid "Value must be one of the allowed options."
+msgstr "Giá trị phải là một trong các tùy chọn được phép."
+
+#: src/Settings/Models/AbstractSetting.php:417
+msgid "Value should be type of %1$s, %2$s given."
+msgstr "Giá trị phải là loại %1$s, xét về %2$s."
+
+#: src/Settings/Models/Control.php:150
+msgid "Invalid value for updating the control type of %1s: must be one of %2$s."
+msgstr "Giá trị không hợp lệ để cập nhật loại điều khiển của %1$s: phải là một trong %2$s."
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:37
+msgid "The name of the setting is required."
+msgstr "Tên của cài đặt là bắt buộc."
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:80
+msgid "The name of the setting subgroup is required."
+msgstr "Tên của nhóm phụ của cài đặt là bắt buộc."
+
+#: src/Settings/Traits/HasSettingsTrait.php:101
+msgid "%s is not a valid setting."
+msgstr "%s không phải là một cài đặt hợp lệ."
+
+#: src/Settings/Traits/HasSettingsTrait.php:275
+msgid "The settings objects must be an instance of SettingContract"
+msgstr "Các đối tượng cài đặt phải là một phiên bản của SettingContract"
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:46
+msgid "Please use %1$s or %2$s to format a boolean value for reading from or saving to storage."
+msgstr "Vui lòng sử dụng %1$s hay %2$s để định dạng giá trị boolean để đọc hoặc lưu vào bộ nhớ."
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:143
+msgid "Cannot handle a \"%s\" type to parse a valid boolean value."
+msgstr "Không thể xử lý loại \"%s\" để phân tích cú pháp giá trị boolean hợp lệ."

@@ -1,0 +1,3559 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-03T12:27:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+#: mwc-core.php
+msgid "MWC Core."
+msgstr "MWC Core."
+
+#: configurations/features.php:70
+msgid "Cost of goods"
+msgstr "Kosten van producten"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:73
+msgid "Track profit and cost of goods for your store. Generate profit reports by date, product, category, and more. This feature replaces the %1$sCost of Goods%2$s plugin."
+msgstr "Houd de winst en de kosten van producten voor je winkel bij. Genereer winstrapporten op datum, product, categorie en meer. Deze functie vervangt de plug-in %1$sCost of Goods%2$s."
+
+#: configurations/features.php:93
+msgid "Ecommerce emails"
+msgstr "E-mails e-commerce"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:96
+msgid "Customize your emails to reflect your brand and increase customer loyalty. This feature replaces the %1$sWooCommerce Email Customizer%2$s plugin."
+msgstr "Pas je e-mails aan je merk aan en vergroot de klantenbinding. Deze functie vervangt de plug-in %1$sWooCommerce Email Customizer%2$s."
+
+#: configurations/features.php:124
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+#. translators: Placeholders: %1$s and %3$s - <a> tag for the plugin link, %2$s and %4$s - </a> tag
+#: configurations/features.php:127
+msgid "Track advanced eCommerce events and more with Google Analytics. This feature replaces the %1$sGoogle Analytics%2$s and %3$sGoogle Analytics Pro%4$s plugins."
+msgstr "Houd geavanceerde e-commerce-evenementen en meer bij met Google Analytics. Deze functie vervangt de plug-ins %1$sGoogle Analytics%2$s en %3$sGoogle Analytics Pro%4$s."
+
+#: configurations/features.php:158
+msgid "Sequential order numbers"
+msgstr "Bestelnummer op volgorde"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:161
+msgid "Format order numbers, change your starting number, and differentiate free orders. This feature replaces the %1$sSequential Order Numbers Pro%2$s plugin."
+msgstr "Maak bestelnummers op, wijzig je beginnummer en maak onderscheid met gratis bestellingen. Deze functie vervangt de plug-in %1$sSequential Order Numbers Pro%2$s."
+
+#: configurations/features.php:180
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:24
+msgid "Shipment tracking"
+msgstr "Tracking van verzending"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:183
+msgid "Share shipment tracking information with your customers. Open one of your Processing orders to get started. This feature replaces the %1$sShipment Tracking%2$s plugin."
+msgstr "Deel trackinggegevens van de verzending met je klanten. Open een van de bestellingen die worden verwerkt om aan de slag te gaan. Deze functie vervangt de plug-in %1$sShipment Tracking%2$s."
+
+#: configurations/features.php:195
+msgid "Discount links"
+msgstr "Kortingslinks"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:198
+msgid "Share discount links with your customers and add coupons from ads, email campaigns, or social links. Create or edit a coupon to get started. This feature replaces the %1$sURL Coupons%2$s plugin."
+msgstr "Deel kortingslinks met je klanten en voeg kortingsbonnen toe uit advertenties, e-mailcampagnes of sociale links. Maak of bewerk een kortingsbon om aan de slag te gaan. Deze functie vervangt de plug-in %1$sURL Coupons%2$s."
+
+#: configurations/features.php:216
+msgid "Gift certificates"
+msgstr "Cadeaubonnen"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:219
+msgid "Create custom gift certificates that your customers can purchase and send to their friends and family. This feature replaces the %1$sPDF Product Vouchers%2$s plugin."
+msgstr "Maak cadeaubonnen op maat die je klanten kunnen kopen en opsturen naar vrienden en familie. Deze functie vervangt de plug-in %1$sPDF Product Vouchers%2$s."
+
+#: configurations/features.php:253
+msgid "Abandoned checkout reminders"
+msgstr "Herinneringen verlaten winkelwagen"
+
+#: configurations/features.php:254
+msgid "Automatically track cart activity and send an email reminder to recover lost revenue."
+msgstr "Houd automatisch de winkelwagenactiviteit bij en stuur een herinnering per e-mail om verloren omzet te herstellen."
+
+#: configurations/features.php:283
+#: src/Payments/Providers/StripeProvider.php:25
+#: src/WooCommerce/Payments/StripeGateway.php:74
+#: src/WooCommerce/Payments/StripeGateway.php:185
+msgid "Stripe"
+msgstr "Stripe"
+
+#: configurations/features.php:284
+msgid "Accept credit card payments using Stripe."
+msgstr "Accepteer creditcardbetalingen met Stripe."
+
+#: configurations/features.php:294
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:100
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:41
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:42
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:80
+msgid "Marketplaces"
+msgstr "Marketplaces"
+
+#: configurations/features.php:295
+msgid "Sell to millions of customers from one place. Offer your products everywhere, from Amazon to Instagram, all from your own online store."
+msgstr "Verkoop aan miljoenen klanten vanaf één plek. Bied je producten overal aan, van Amazon tot Instagram, gewoon via je eigen webwinkel."
+
+#: configurations/features.php:316
+msgid "Take order fulfillment to the next level! Get live shipping rates from your favourite providers, print labels in one click, and automate shipment tracking and customer email notifications."
+msgstr "Handel nog beter je bestellingen af. Krijg live verzendtarieven van je favoriete koeriers, druk met een klik labels af en automatiseer de tracking van verzendingen en e-mailmeldingen voor klanten."
+
+#: src/API/Controllers/AccountController.php:108
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "De persoonlijke label-id van de reseller (1 betekent GoDaddy, dus geen reseller)."
+
+#: src/API/Controllers/AccountController.php:114
+msgid "Whether the account can manually switch between extension versions."
+msgstr "Of het account handmatig kan schakelen tussen extensieversies."
+
+#: src/API/Controllers/AccountController.php:120
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Of de site wel of niet is verkocht door een reseller."
+
+#: src/API/Controllers/AccountController.php:126
+msgid "The product plan the given account or site has purchased"
+msgstr "De productabonnement dat het gegeven account of de gegeven site heeft gekocht"
+
+#: src/API/Controllers/AccountController.php:132
+msgid "The hosting platform the given account or site is running on"
+msgstr "Het hostingplatform waarop het gegeven account of de gegeven site wordt uitgevoerd"
+
+#: src/API/Controllers/AccountController.php:138
+msgid "The ID of the customer"
+msgstr "De id van de klant"
+
+#: src/API/Controllers/AccountController.php:144
+msgid "The ID of the Federation Partner"
+msgstr "De id van de Federation Partner"
+
+#: src/API/Controllers/Platform/StoresController.php:117
+msgid "A list of businesses."
+msgstr "Een lijst met bedrijven."
+
+#: src/API/Controllers/Platform/StoresController.php:124
+msgid "The unique identifier for the business."
+msgstr "De unieke ID van het bedrijf."
+
+#: src/API/Controllers/Platform/StoresController.php:128
+msgid "The legal name of the business."
+msgstr "De wettelijke naam van het bedrijf."
+
+#: src/API/Controllers/Platform/StoresController.php:132
+msgid "A list of stores associated with the business."
+msgstr "Een lijst met winkels gekoppeld aan het bedrijf."
+
+#: src/API/Controllers/Platform/StoresController.php:138
+msgid "The display name of the store."
+msgstr "De weergegeven naam van de winkel."
+
+#: src/API/Controllers/Platform/StoresController.php:143
+msgid "The unique identifier for the store."
+msgstr "De unieke ID van de winkel."
+
+#: src/Auth/API/Controllers/TokenController.php:84
+msgid "The access token string as issued by the authorization server."
+msgstr "De string voor de toegangstoken zoals deze is verstrekt door de autorisatieserver."
+
+#: src/Auth/API/Controllers/TokenController.php:90
+msgid "Number of seconds to expiration of the access token."
+msgstr "Aantal seconden totdat de toegangstoken verloopt."
+
+#: src/Auth/API/Controllers/TokenController.php:96
+msgid "The scope the token granted."
+msgstr "Het bereik dat door de token wordt toegekend."
+
+#: src/Auth/API/Controllers/TokenController.php:102
+msgid "Access Token ID."
+msgstr "ID van toegangstoken."
+
+#: src/Auth/API/Controllers/TokenController.php:108
+msgid "The type of token this is."
+msgstr "Het type token."
+
+#: src/Auth/Sso/WordPress/Events/Subscribers/ForceCareAgentAdminRoleSubscriber.php:61
+msgid "The care agent account on this site has been misconfigured. Please log in again to fix this issue."
+msgstr "Het account van de klantenservicemedewerker op deze site is verkeerd ingesteld. Meld je opnieuw aan om dit probleem op te lossen."
+
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:103
+msgid "Something went wrong when creating the user account."
+msgstr "Er is iets verkeerd gegaan bij het maken van het gebruikersaccount."
+
+#. translators: Placeholder: %s account username
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:131
+msgid "User %s could not be logged in."
+msgstr "Gebruiker %s kan niet worden aangemeld."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:157
+msgid "You cannot delete the main administrator account."
+msgstr "Je kunt het hoofdaccount voor beheerders niet verwijderen."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:159
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: src/Client/Client.php:433
+msgid "Other"
+msgstr "Overige"
+
+#: src/Configuration/CartRecoveryEmailsFeatureRuntimeConfiguration.php:73
+msgid "Automatically track cart activity and recover lost revenue with a dedicated email campaign."
+msgstr "Houd automatisch de activiteit in je winkelwagen bij en haal verloren omzet binnen met een speciale e-mailcampagne."
+
+#: src/Email/RemoteRenderingEmailService.php:130
+msgid "Unknown error."
+msgstr "Er is een onbekende fout opgetreden."
+
+#: src/Email/Repositories/EmailSenderRepository.php:108
+msgid "Unable to retrieve the email sender data."
+msgstr "Kan de gegevens van de afzender van de e-mail niet ophalen."
+
+#: src/Features/CartRecoveryEmails/DataProviders/CheckoutDataProvider.php:56
+msgctxt "Subject of greeting when name is not known (this can be translated to empty string for languages where \"Hi there!\" cannot be rendered as in English and it will result in just \"Hi!\")"
+msgid "there"
+msgstr " "
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:43
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:116
+msgid "Did you forget something?"
+msgstr "Ben je iets vergeten?"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:57
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:103
+msgid "Content"
+msgstr "Inhoud"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:62
+msgid "Hey there! You left your shopping cart without completing your purchase just a bit ago. It's not too late to complete your purchase! All of the products are still waiting for you."
+msgstr "Hallo! Je hebt zojuist je winkelwagen achtergelaten zonder je aankoop te voltooien. Het is niet te laat om je aankoop af te ronden. Alle producten wachten nog op je."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:76
+msgid "Button text"
+msgstr "Knoptekst"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:82
+msgid "Complete your purchase"
+msgstr "Je aankoop afronden"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:92
+msgid "Trouble checking out? We're here to help. Please reply to this email if you have any questions or need our assistance."
+msgstr "Problemen met afrekenen? We staan voor je klaar. Beantwoord deze e-mail als je vragen hebt of onze hulp kunt gebruiken."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:60
+msgid "Cart Recovery"
+msgstr "Winkelwagen herstellen"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:61
+msgid "Send a reminder email to customers that left products in their cart but didn't complete the checkout."
+msgstr "Stuur klanten een herinnering als ze producten in hun winkelwagen hebben, maar nog niet hebben betaald."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:105
+msgid "Hey {{customer_first_name}}, did you forget something?"
+msgstr "Hallo {{customer_first_name}}, ben je misschien wat vergeten?"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:14
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:14
+msgid "Hey {{customer_first_name}}!"
+msgstr "Hallo {{customer_first_name}}!"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:22
+msgid "Your shopping cart has been reserved and is still waiting for you! In your cart, you left the following products:"
+msgstr "Je winkelwagen is gereserveerd en wacht nog op je. De winkelwagen bevat de volgende producten:"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:30
+msgid "It's not too late to complete this purchase -- these products are still waiting for you!"
+msgstr "Je kunt deze aankoop nog steeds afronden. De producten staan voor je klaar."
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:22
+msgid "Your shopping cart was reserved a few days ago and it will expire soon. In your cart, you left the following products:"
+msgstr "Je winkelwagen is een paar dagen geleden gereserveerd en verloopt binnenkort. De winkelwagen bevat de volgende producten:"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:30
+msgid "Ready to complete this purchase before your cart expires? Click the above button to purchase these items."
+msgstr "Klaar om deze aankoop af te ronden voordat je winkelwagen verloopt? Klik op de knop hierboven om deze items te kopen."
+
+#: src/Features/CartRecoveryEmails/Settings/OptOutSetting.php:27
+msgid "Your email and cart will be saved so we can send you an email reminder about this order."
+msgstr "Je e-mail en winkelwagen worden opgeslagen, zodat we je per e-mail een herinnering kunnen sturen over deze bestelling."
+
+#: src/Features/Commerce/Catalog/Helpers/CheckForDeletedProductHelper.php:75
+msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
+msgstr "Je hebt geprobeerd om een artikel te bewerken dat niet bestaat. Misschien is het verwijderd?"
+
+#: src/Features/Commerce/Catalog/Interceptors/Handlers/CommerceProductUuidRequestHandler.php:48
+msgid "Product not found."
+msgstr "Product niet gevonden."
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:149
+msgid "Product categories must be deleted in Commerce Home"
+msgstr "Productcategorieën moeten worden verwijderd uit de homepagina van Commerce"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:150
+msgid "Delete product category"
+msgstr "Productcategorie verwijderen"
+
+#. translators: External link icon
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:152
+msgid "Delete %s"
+msgstr "%s verwijderen"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductEditInterceptor.php:82
+msgid "The \"Any\" attribute cannot be used for variable products synced with your GoDaddy Commerce product catalog. Please specify the attribute value for each variation, then save your changes."
+msgstr "Het kenmerk 'Alle' kan niet worden gebruikt voor variabele producten die worden gesynchroniseerd met je productcatalogus van GoDaddy Commerce. Geef voor elke variant de waarde van het kenmerk op en sla dan je wijzigingen op."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:80
+msgid "Required for storing Product data in Commerce Home. Stock management can be enabled or disabled per product. Learn more about %1$sproduct inventory settings%2$s."
+msgstr "Vereist voor het opslaan van productgegevens in Commerce Home. Voorraadbeheer kan per product worden ingeschakeld of uitgeschakeld. Lees meer over de %1$sinstellingen voor productvoorraad%2$s."
+
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:90
+msgid "Inventory amounts displayed on the frontend reflect total available for purchase and exclude reserved stock."
+msgstr "Inventarishoeveelheden die aan het front-end worden weergegeven, zijn een afspiegeling van de totale hoeveelheid die beschikbaar is voor aankoop, exclusief reservevoorraad."
+
+#. translators: Placeholders: %1$s - a product name, %2$s - a product SKU, %3$s - an API error message
+#: src/Features/Commerce/Inventory/Services/OrderReservationsService.php:75
+msgid "An error occurred while reserving stock for %1$s (%2$s). %3$s"
+msgstr "Er is een fout opgetreden bij het reserveren van voorraad voor %1$s (%2$s). %3$s"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:95
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:241
+msgid "Available Pickup Locations"
+msgstr "Beschikbare ophaallocaties"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:98
+msgid "Select the location(s) that should be available for local pickup."
+msgstr "Selecteer de locatie(s) die beschikbaar moeten zijn voor lokaal ophalen."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:195
+msgid "Pickup location"
+msgstr "Ophaallocatie"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:261
+msgid "No pickup locations available"
+msgstr "Geen beschikbare ophaallocatie"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:263
+msgid "Please choose another shipping method, or contact the store for a pickup location."
+msgstr "Kies een andere verzendmethode of neem contact op met de winkel voor een ophaallocatie."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:407
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:144
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:174
+msgid "Pickup Location Information"
+msgstr "Informatie over ophaallocatie"
+
+#: src/Features/Commerce/Repositories/CommerceContextRepository.php:54
+msgid "Missing or invalid store ID"
+msgstr "Ontbrekende of ongeldige ID van winkel"
+
+#: src/Features/EmailNotifications/API/API.php:66
+msgid "This token is expired"
+msgstr "Deze token is verlopen"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:280
+msgid "Cannot generate a preview for an email notification that is not editable."
+msgstr "Kan geen voorbeeld genereren voor een e-mailmelding die niet bewerkbaar is."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:444
+msgid "The settings parameter is required."
+msgstr "De parameter voor instellingen is vereist."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:532
+msgid "Cannot send a test email for an email notification that is not editable."
+msgstr "Kan geen testbericht verzenden voor een e-mailmelding die niet bewerkbaar is."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:698
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:235
+msgid "The site has email template overrides and hasn't enabled the Email Notifications feature."
+msgstr "De site heeft overschrijvingen voor e-mailsjablonen en heeft de functie E-mailmeldingen niet ingeschakeld."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:961
+msgid "Unique email notification ID."
+msgstr "Unieke ID voor e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:967
+msgid "Unique email notification name (matches the ID)."
+msgstr "Unieke naam voor e-mailmelding (sluit aan op de ID)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:973
+msgid "Email notification label."
+msgstr "Label e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:979
+msgid "Email notification description."
+msgstr "Beschrijving e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:985
+msgid "ID of the template used by this email notification."
+msgstr "ID van de sjabloon gebruikt door deze e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:991
+msgid "A list of categories that the email notification belongs to."
+msgstr "Een lijst met categorieën waarvan de e-mailmelding onderdeel is."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1000
+msgid "Email notification status"
+msgstr "Status e-mailmelding"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1007
+msgid "Whether the email notification can only be sent manually."
+msgstr "Of de e-mailmelding alleen handmatig kan worden verzonden."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1013
+msgid "Whether the email notification will be sent to administrators."
+msgstr "Of de e-mailmelding wordt verzonden naar beheerders."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1019
+msgid "A list of placeholders that are available for the email notification."
+msgstr "Een lijst met plaatsaanduidingen die beschikbaar zijn voor de e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1028
+msgid "URL for the WooCommerce email settings screen for the email notification"
+msgstr "URL van het scherm met de instellingen voor e-mail van WooCommerce voor de e-mailmelding"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1051
+msgid "Unique email notification category ID."
+msgstr "Unieke categorie-ID voor e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1057
+msgid "Email notification category name."
+msgstr "Naam van categorie voor e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:242
+msgid "A non-empty settings or subgroups parameter must be provided."
+msgstr "Je moet een niet-lege parameter voor instellingen of subgroepen verstrekken."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:324
+msgid "Unique email template ID."
+msgstr "Unieke ID voor e-mailsjabloon."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:330
+msgid "Unique email template name (matches the ID)."
+msgstr "Unieke naam voor e-mailsjabloon (sluit aan op de ID)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:336
+msgid "Email template label."
+msgstr "Label e-mailsjabloon."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:342
+msgid "List of email content placeholders."
+msgstr "Lijst met plaatsaanduidingen voor content in e-mails."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:351
+msgid "Email template preview."
+msgstr "Voorbeeld van e-mailsjabloon."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:57
+msgid "Unique email template setting name."
+msgstr "Unieke naam voor instelling e-mailsjabloon."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:63
+msgid "Email template setting label."
+msgstr "Label voor instelling e-mailsjabloon."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:69
+msgid "Email template settings subgroups."
+msgstr "Subgroepen voor instellingen e-mailsjabloon."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:78
+msgid "Root settings for an email template."
+msgstr "Basisinstellingen voor een e-mailsjabloon."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:185
+msgid "This email address belongs to another store. Please enter a different email address. If you already own this address, please reach out via %1$sGet Help%2$s."
+msgstr "Dit e-mailadres is van een andere winkel. Voer een ander e-mailadres in. Ben je al eigenaar van dit adres, neem dan contact op via %1$sHulp ontvangen%2$s."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:278
+msgid "Sender unique ID."
+msgstr "Unieke ID van afzender."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:284
+msgid "Sender email address."
+msgstr "E-mailadres van afzender."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:290
+msgid "The date and time when the sender was verified in our system."
+msgstr "De datum en tijd waarop de afzender in ons systeem is geverifieerd."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:296
+msgid "How the sender was verified."
+msgstr "Hoe de afzender is geverifieerd."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:302
+msgid "Sender status."
+msgstr "Status afzender."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:285
+msgid "Unique email notification setting ID."
+msgstr "Unieke ID voor instelling e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:291
+msgid "Unique email notification setting name (matches the ID)."
+msgstr "Unieke naam voor instelling e-mailmelding (sluit aan op de ID)."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:297
+msgid "Email notification setting label."
+msgstr "Label voor instelling e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:303
+msgid "Email notification setting description."
+msgstr "Beschrijving voor instelling e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:309
+msgid "A list of available options for the email notification setting values."
+msgstr "Een lijst met beschikbare opties voor de waarden van de instelling voor e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:318
+msgid "Email notification setting default value."
+msgstr "Standaardwaarde voor instelling e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:324
+msgid "Email notification setting value."
+msgstr "Waarde voor instelling e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:330
+msgid "Whether the email notification setting can have multiple values."
+msgstr "Of de instelling voor de e-mailmelding meerdere waarden kan hebben."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:336
+msgid "Whether the email notification setting is required."
+msgstr "Of de instelling voor de e-mailmelding vereist is."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:342
+msgid "Email notifications setting group, if applicable."
+msgstr "Groep instellingen voor e-mailmeldingen, indien beschikbaar."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:348
+msgid "Email notifications setting control details."
+msgstr "Gebruiksgegevens instelling voor e-mailmeldingen."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:354
+msgid "Email notifications setting control type."
+msgstr "Gebruikstype instelling voor e-mailmeldingen."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:360
+msgid "A list of available options for the email notification setting control."
+msgstr "Een lijst met beschikbare opties voor het gebruik van de instelling voor de e-mailmelding."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:369
+msgid "Optional input placeholder for the email notification setting control."
+msgstr "Optionele plaatsaanduiding voor invoer voor het gebruik van de instelling voor de e-mailmelding."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:163
+msgid "Could not match an email notification ID to a \"%s\" WooCommerce email ID."
+msgstr "Kan geen ID voor een e-mailmelding koppelen aan een e-mail-ID %s van WooCommerce."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:193
+msgid "Could not match a WooCommerce email ID to a \"%s\" email notification ID."
+msgstr "Kan geen e-mail-ID van WooCommerce koppelen aan een ID voor een e-mailmelding van %s."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:622
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:93
+msgid "Could not find source WooCommerce email with ID \"%s\"."
+msgstr "Kan de e-mail van WooCommerce met ID %s niet vinden."
+
+#: src/Features/EmailNotifications/DataStores/EmailContentDataStore.php:65
+msgid "No content template file found for the ID %s."
+msgstr "Geen bestand met sjabloon voor content gevonden voor de ID %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:72
+msgid "No email notification found with the ID %s."
+msgstr "Geen e-mailmelding gevonden met ID %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:79
+msgid "The class for %s must implement the EmailNotificationContract interface"
+msgstr "De klasse voor %s moet de interface EmailNotificationContract implementeren"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:89
+msgid "The email notification with ID %s is not available on this site"
+msgstr "De e-mailmelding met ID %s is niet beschikbaar op deze site"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:59
+msgid "No email notification template found with the ID %s."
+msgstr "Geen sjabloon voor e-mailmelding gevonden met ID %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:68
+msgid "The class for %s must implement the EmailTemplateContract interface"
+msgstr "De klasse voor %s moet de interface EmailTemplateContract implementeren"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:91
+msgid "No template file found with the ID %s."
+msgstr "Geen bestand met sjabloon gevonden met de ID %s."
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:40
+msgid "Invalid template for the option name \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "Ongeldige sjabloon voor de optienaam %s: deze moet een plaatsaanduiding van {{setting_id}} bevatten."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:69
+msgid "No settings found with the ID %s."
+msgstr "Geen instellingen gevonden met ID %s."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:78
+msgid "The class name for %s must implement ConfigurableContract"
+msgstr "De naam van de klasse voor %s moet ConfigurableContract implementeren"
+
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:140
+msgid "No WooCommerce email found for \"%s\""
+msgstr "Geen e-mail van WooCommerce gevonden voor %s"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:151
+msgid "Admin"
+msgstr "Beheerder"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:152
+msgid "Extensions"
+msgstr "Extensies"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:153
+msgid "Customer"
+msgstr "Klant"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:154
+msgid "Order"
+msgstr "Bestelling"
+
+#: src/Features/EmailNotifications/EmailsPage.php:36
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:41
+msgid "Email Notifications"
+msgstr "E-mailmeldingen"
+
+#: src/Features/EmailNotifications/EmailsPage.php:37
+msgid "Emails"
+msgstr "E-mails"
+
+#: src/Features/EmailNotifications/EmailsPage.php:187
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:251
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:296
+msgid "New"
+msgstr "Nieuw"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:39
+msgid "Cancelled order"
+msgstr "Geannuleerde bestelling"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:40
+msgid "Sent to chosen recipient(s) when an order is marked cancelled (if it was previously processing or on-hold)."
+msgstr "Verzonden naar de gekozen ontvanger(s) wanneer een bestelling wordt gemarkeerd als geannuleerd (als deze eerder werd verwerkt of in de wachtstand is gezet)."
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:52
+msgid "[{{site_title}}]: Order #{{order_number}} has been cancelled"
+msgstr "[{{site_title}}]: Bestelling {{order_number}} is geannuleerd"
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:83
+msgid "Notification to let you know &mdash; order #%1$s belonging to %2$s has been cancelled:"
+msgstr "Melding om je te laten weten dat bestelling %1$s van %2$s is geannuleerd:"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:35
+msgid "Completed order"
+msgstr "Voltooide bestelling"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is marked completed and usually indicates that the order has been shipped."
+msgstr "Verzonden naar klanten wanneer hun bestelling is gemarkeerd als voltooid. Geeft meestal aan dat de bestelling is verzonden."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:64
+msgid "We have finished processing your order."
+msgstr "We zijn klaar met de verwerking van je bestelling."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:78
+msgid "Your {{site_title}} order is now complete"
+msgstr "Je bestelling op {{site_title}} is nu voltooid"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:39
+msgid "Customer invoice / order details"
+msgstr "Gegevens factuur/bestelling van klant"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:40
+msgid "Emails containing order information and payment links sent manually."
+msgstr "E-mails met bestelgegevens en betaallinks die handmatig zijn verzonden."
+
+#. translators: %1$s Site title, %2$s Order pay link
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:79
+msgid "An order has been created for you on %1$s. Your invoice is below, with a link to make payment when you’re ready: %2$s"
+msgstr "Er is een bestelling voor je gemaakt op %1$s. Je vindt je factuur hieronder met een link om te betalen als je klaar bent: %2$s"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:87
+msgid "Pay for this order"
+msgstr "Deze bestelling betalen"
+
+#. translators: %s Order date
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:92
+msgid "Here are the details of your order placed on %s:"
+msgstr "Hier zijn de gegevens van je bestelling op %s:"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:108
+msgid "Invoice for order #{{order_number}} on {{site_title}}"
+msgstr "Factuur voor bestelling {{order_number}} op {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:38
+msgid "Customer note"
+msgstr "Opmerking voor klant"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:39
+msgid "Sent to customer when you add a note to an order."
+msgstr "Verzonden naar klant wanneer je een opmerking aan een bestelling toevoegt."
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:89
+msgid "The following note has been added to your order:"
+msgstr "De volgende opmerking is toegevoegd aan je bestelling:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:91
+msgid "As a reminder, here are your order details:"
+msgstr "Ter herinnering, dit zijn je bestelgegevens:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:105
+msgid "Note added to your {{site_title}} order from {{order_date}}"
+msgstr "Opmerking toegevoegd aan je bestelling op {{site_title}} van {{order_date}}"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:82
+msgid "Heading"
+msgstr "Kop"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:99
+msgid "Additional content"
+msgstr "Aanvullende content"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:41
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "Standaard"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:117
+msgid "Container"
+msgstr "Container"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:119
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:149
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:196
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:123
+msgid "Email width"
+msgstr "E-mailbreedte"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:132
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:443
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:68
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:150
+msgid "Default"
+msgstr "Standaard"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:133
+msgid "Full"
+msgstr "Volledig"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:141
+msgid "Header"
+msgstr "Header"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:146
+msgid "Header image"
+msgstr "Kopafbeelding"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:155
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:174
+msgid "Text"
+msgstr "Tekst"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:166
+msgid "Body"
+msgstr "Berichttekst"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:168
+msgid "Body background color"
+msgstr "Achtergrondkleur tekst"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:177
+msgid "Link color"
+msgstr "Linkkleur"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:184
+msgid "Headings"
+msgstr "Koppen"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:187
+msgid "H1 font size"
+msgstr "H1-tekengrootte"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:188
+msgid "H2 font size"
+msgstr "H2-tekengrootte"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:189
+msgid "H3 font size"
+msgstr "H3-tekengrootte"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:194
+msgid "Button"
+msgstr "Knop"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:197
+msgid "Label color"
+msgstr "Labelkleur"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:206
+msgid "Footer"
+msgstr "Footer"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:214
+msgid "Footer text"
+msgstr "Voettekst"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:242
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:262
+msgid "Font family"
+msgstr "Lettertypefamilie"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:287
+msgid "Font size"
+msgstr "Tekengrootte"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:205
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:224
+msgid "Preview text"
+msgstr "Voorbeeldtekst"
+
+#. translators: %1$s - opening a HTML tag, %2$s - closing a HTML tag
+#: src/Features/EmailNotifications/Models/EmailNotification.php:229
+msgid "Preview text is shown after the subject line in some email inboxes. Maximum: 150 characters. %1$sLearn more%2$s"
+msgstr "In sommige inboxen wordt voorbeeldtekst weergegeven na de onderwerpregel. Maximum: 150 tekens. %1$sMeer informatie%2$s"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:234
+msgid "Enter preview text"
+msgstr "Voorbeeldtekst invoeren"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:264
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:41
+msgid "Failed order"
+msgstr "Mislukte bestelling"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when an order is marked failed (if it was previously pending or on-hold)."
+msgstr "Verzonden naar de gekozen ontvanger(s) wanneer een bestelling wordt gemarkeerd als mislukt (als deze eerder in behandeling was of in de wachtstand is gezet)."
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:72
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr "Betaling voor bestelling %1$s van %2$s is mislukt. Dit was de bestelling:"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:93
+msgid "[{site_title}]: Order #{order_number} has failed"
+msgstr "[{site_title}]: Bestelling #{order_number} is mislukt"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:32
+#: src/WooCommerce/Emails/ItemShippedEmail.php:32
+msgid "Item shipped"
+msgstr "Item verzonden"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:33
+msgid "Sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Verzonden naar klanten als de trackinggegevens zijn toegevoegd voor een of meer items in hun bestellingen."
+
+#. translators: Placeholder: %s - Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:62
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:92
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:79
+#: src/Features/EmailNotifications/Traits/IsCustomerEmailNotificationTrait.php:24
+#: templates/woocommerce/emails/customer-item-shipped.php:36
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:31
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:31
+#: templates/woocommerce/emails/ready-for-pickup.php:36
+msgid "Hi %s,"
+msgstr "Beste %s,"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:63
+#: templates/woocommerce/emails/customer-item-shipped.php:38
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:32
+msgid "An item from your order has shipped!"
+msgstr "Een item van je bestelling is verzonden."
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:77
+msgid "An item from {{site_title}} order #{{order_number}} has shipped!"
+msgstr "Een item van {{site_title}} voor bestelling {{order_number}} is verzonden."
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:27
+msgid "New account"
+msgstr "Nieuw account"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:28
+msgid "Sent to customers when they sign up via checkout or account pages."
+msgstr "Verzonden naar klanten als ze zich registreren via de afreken- of accountpagina's."
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:39
+msgid "Your {{site_title}} account has been created!"
+msgstr "Je account voor {{site_title}} is gemaakt."
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:97
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "Bedankt voor het maken van een account op %1$s. Je gebruikersnaam is %2$s. Via het onderdeel Account kun je bestellingen bekijken, je wachtwoord wijzigen en meer. Ga naar %3$s"
+
+#. translators: %s: Auto generated password
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:105
+msgid "Your password has been automatically generated: %s"
+msgstr "Je wachtwoord is automatisch gegenereerd: %s"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:41
+msgid "New order"
+msgstr "Nieuwe bestelling"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when a new order is received."
+msgstr "Verzonden naar de gekozen ontvanger(s) bij een nieuwe bestelling."
+
+#. translators: %1$s: Customer first name, %2$s: Customer last name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:69
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %1$s: Customer full name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:78
+msgid "You’ve received the following order from %1$s:"
+msgstr "Je hebt de volgende bestelling ontvangen van %1$s:"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:98
+msgid "[{{site_title}}]: New order #{{order_number}}"
+msgstr "[{{site_title}}]: Nieuwe bestelling {{order_number}}"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:35
+msgid "Order on-hold"
+msgstr "Bestelling in afwachting"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:36
+msgid "Sent to customer when an order is on hold."
+msgstr "Verzonden naar klant wanneer een bestelling in afwachting is."
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:47
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:83
+msgid "Your {{site_title}} order has been received!"
+msgstr "Je bestelling op {{site_title}} is ontvangen."
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:78
+msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
+msgstr "Bedankt voor je bestelling. De bestelling staat in de wacht totdat we bevestigen dat de betaling is ontvangen. Intussen is hier een overzicht van je bestelling:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:35
+msgid "Partially refunded order"
+msgstr "Deels terugbetaalde bestelling"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is partially refunded."
+msgstr "Verzonden naar klanten wanneer hun bestelling deels is terugbetaald."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr "Je bestelling op %s is deels terugbetaald. Hieronder vind je meer informatie:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been partially refunded"
+msgstr "Je bestelling {{order_number}} op {{site_title}} is deels terugbetaald."
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:35
+msgid "Processing order"
+msgstr "Bestelling verwerken"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:36
+msgid "Sent to customer after a payment is made."
+msgstr "Verzonden naar klanten nadat ze hebben betaald."
+
+#. translators: %s: Order number
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:67
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "We wilden je laten weten dat we je bestelling %s hebben ontvangen. Deze wordt nu verwerkt:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:35
+msgid "Fully refunded order"
+msgstr "Volledig terugbetaalde bestelling"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is fully refunded."
+msgstr "Verzonden naar klanten wanneer hun bestelling volledig is terugbetaald."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been refunded. There are more details below for your reference:"
+msgstr "Je bestelling op %s is terugbetaald. Hieronder vind je meer informatie:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been refunded"
+msgstr "Je bestelling {{order_number}} op {{site_title}} is terugbetaald."
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:28
+msgid "Reset password"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:29
+msgid "Sent to customers when they reset their passwords."
+msgstr "Verzonden naar klanten wanneer ze hun wachtwoord opnieuw instellen."
+
+#. translators: %s: Store name
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:81
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr "Iemand heeft een nieuw wachtwoord aangevraagd voor het volgende account op %s:"
+
+#. translators: %s: Customer username
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:83
+msgid "Username: %s"
+msgstr "Gebruikersnaam: %s"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:84
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr "Je kunt deze e-mail negeren als je deze aanvraag niet hebt gedaan. Als je wilt doorgaan:"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:87
+msgid "Click here to reset your password"
+msgstr "Klik hier om je wachtwoord opnieuw in te stellen"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:56
+msgid "Sender name"
+msgstr "Naam afzender"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:68
+msgid "Sender address"
+msgstr "Adres afzender"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:76
+msgid "Recipients"
+msgstr "Ontvangers"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:77
+msgid "Enter recipients (comma-separated) for this email"
+msgstr "Voer ontvangers (gescheiden door komma's) in voor deze e-mail"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. Manage them from Marketing > Emails."
+msgstr "Pas je e-mails aan je merk aan en vergroot de klantenbinding. Beheer ze via Marketing > E-mails."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:126
+msgid "Manage emails"
+msgstr "E-mails beheren"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:137
+msgid "Your hosting plan now offers editable WooCommerce emails, no plugin required!"
+msgstr "Je hostingabonnement heeft nu e-mails van WooCommerce die je kunt bewerken zonder plug-in."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:254
+msgid "Please use either your hosting plan's email editing feature or your 3rd-party email editor."
+msgstr "Gebruik de functie voor het bewerken van e-mails uit je hostingabonnement of de externe editor voor het bewerken van e-mails."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Edit emails"
+msgstr "E-mails bewerken"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Contact support"
+msgstr "Contact opnemen met support"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:266
+msgid "A 3rd-party email editing plugin has been detected on your store."
+msgstr "Er is een externe plug-in voor het bewerken van e-mails gevonden in je winkel."
+
+#. translators: %1$s opening strong tag; %2$s closing strong tag; %3$s opening anchor tag; %4$s closing anchor tag; %5$s opening anchor tag; %6$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:92
+msgid "%1$sNote:%2$s Your site is using a temporary domain that cannot be indexed by search engines. Change your primary domain via the %3$sWoo store management area%4$s. Learn more about %5$sconnecting a domain%6$s."
+msgstr "%1$sOpmerking:%2$s Je site gebruikt een tijdelijk domein dat niet kan worden geïndexeerd door zoekmachines. Wijzig je primaire domein via het %3$sonderdeel voor beheer van je Woo Store%4$s. Lees hoe je %5$seen domein koppelt%6$s."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag; %3$s opening anchor tag; %4$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:102
+msgid "Change your primary domain via the %1$sWoo store management area%2$s. Learn more about %3$sconnecting a domain%4$s."
+msgstr "Wijzig je primaire domein via het %1$sonderdeel voor beheer van je Woo Store%2$s. Lees hoe je %3$seen domein koppelt%4$s."
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:33
+msgid "Link bank account"
+msgstr "Bankrekening koppelen"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:34
+msgid "You've got money waiting with GoDaddy Payments! Add your banking info to get your payouts deposited."
+msgstr "Je hebt geld beschikbaar bij GoDaddy Payments. Voeg je bankgegevens toe om je uitbetalingen over te schrijven."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayEnabledNotice.php:21
+msgid "GoDaddy Payments - Apple Pay has been enabled on your selected pages and shows %1$sin Safari on supported devices%2$s."
+msgstr "GoDaddy Payments: Apple Pay is ingeschakeld op je geselecteerde pagina's en wordt weergegeven %1$sin Safari op ondersteunde apparaten%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Apple Pay should show."
+msgstr "Selecteer de pagina's waarop Apple Pay moet worden weergegeven."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayRegistrationFailedNotice.php:24
+msgid "There was a problem registering your site with Apple Pay. Please disable Apple Pay and try re-enabling, or %1$scontact support%2$s."
+msgstr "Er is een probleem opgetreden bij het registreren van je site voor Apple Pay. Schakel Apple Pay uit en weer in, of %1$sneem contact op met support%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:24
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:23
+msgid "GoDaddy Payments successfully enabled!"
+msgstr "GoDaddy Payments is ingeschakeld."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:25
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:24
+msgid "GoDaddy Payments is now available to your customers at checkout."
+msgstr "GoDaddy Payments is nu beschikbaar voor je klanten bij het afrekenen."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:27
+msgid "GoDaddy Payments is now connected to your store!"
+msgstr "GoDaddy Payments is nu gekoppeld aan je winkel."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:21
+msgid "Enable GoDaddy Payments"
+msgstr "GoDaddy Payments inschakelen"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:30
+msgid "Enable the payment method to add it to your checkout."
+msgstr "Schakel de betaalmethode in om die toe te voegen aan het afrekenen."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:23
+msgid "Your GoDaddy Payments account has been closed."
+msgstr "Je GoDaddy Payments-account is gesloten."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "De betaalmethode is uitgeschakeld en wordt dus niet weergegeven tijdens het afrekenen. Stel je account in om weer betalingen te verwerken."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:24
+msgid "It looks like you didn't finish your GoDaddy Payments application."
+msgstr "Zo te zien heb je je aanmelding voor GoDaddy Payments niet voltooid."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:26
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "Resume"
+msgstr "Hervatten"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:27
+msgid "You're just a few minutes from processing payments."
+msgstr "Het duurt maar een paar minuten om betalingen te verwerken."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:23
+msgid "Your GoDaddy Payments account needs attention."
+msgstr "Je account van GoDaddy Payments heeft wat aandacht nodig."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "De betaalmethode is uitgeschakeld en wordt dus niet weergegeven tijdens het afrekenen. Open de e-mail voor de vervolgstappen."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:23
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:330
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "Je GoDaddy Payments-account is gestopt."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "De betaalmethode is uitgeschakeld en wordt dus niet weergegeven tijdens het afrekenen. Open de e-mail voor meer informatie."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:26
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:29
+msgid "Complete verification"
+msgstr "Verificatie voltooien"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:27
+msgid "You've got money waiting with GoDaddy Payments! Verify your identity and add your banking info to get your payouts deposited."
+msgstr "Je hebt geld beschikbaar bij GoDaddy Payments. Verifieer je identiteit en voeg je bankgegevens toe om je uitbetalingen over te schrijven."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:30
+msgid "You haven't completed the necessary steps to verify your identity with GoDaddy Payments. Until you do that, you won't be able to take any payments or deposit your funds."
+msgstr "Je hebt de vereiste stappen niet voltooid om je identiteit te verifiëren op GoDaddy Payments. Pas als je dat doet, kun je betaald worden of je tegoed overschrijven."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:30
+msgid "You've still got money waiting with GoDaddy Payments! Verify your identity and add your banking info as soon as you can to get your funds and keep taking payments."
+msgstr "Je hebt nog geld beschikbaar bij GoDaddy Payments. Verifieer je identiteit zo snel mogelijk en voeg je bankgegevens toe om je geld te krijgen en betaald te worden."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:30
+msgid "The deadline to complete your payouts setup is coming up! To keep transacting with GoDaddy Payments and to get your money, verify your identity and add banking info."
+msgstr "De deadline om je uitbetalingen in te stellen komt eraan. Als je GoDaddy Payments wilt blijven gebruiken en je geld wilt ontvangen, verifieer je je identiteit en voeg je bankgegevens toe."
+
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:27
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:287
+msgid "You're all set to take payments with GoDaddy Payments!"
+msgstr "Je kunt nu betaald worden via GoDaddy Payments."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:35
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:292
+msgid "To get your funds deposited to your bank account, verify your identity and add your banking info. %1$sSet up payouts%2$s"
+msgstr "Om je geld te laten storten op je bankrekening, verifieer je je identiteit en voeg je je bankgegevens toe. %1$sUitbetalingen instellen%2$s"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:42
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:300
+msgid "The connected GoDaddy Payments account is %1$s %2$s (Not the business owner's account? %3$sSwitch account%4$s)."
+msgstr "Het gekoppelde GoDaddy Payments-account is %1$s %2$s (Niet het account van de bedrijfseigenaar? %3$sWissel van account%4$s.)"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountSwitchedNotice.php:30
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:278
+msgid "GoDaddy Payments is now connected with the account %1$s %2$s. (Not right? %3$sSwitch account%4$s.)"
+msgstr "GoDaddy Payments is nu gekoppeld aan het account %1$s %2$s. (Klopt dat niet? %3$sWissel van account%4$s.)"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:28
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:28
+msgid "Get Started"
+msgstr "Aan de slag"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:30
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:31
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:455
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:52
+msgid "Provided by GoDaddy"
+msgstr "Verstrekt door GoDaddy"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:31
+msgid "Sell online and in person with GoDaddy Payments. Sync local pickup and delivery orders right to your Smart Terminal, then get paid fast with next-day deposits."
+msgstr "Verkoop online en op locatie met GoDaddy Payments. Synchroniseer bestellingen met ophalen en bezorgen via je Smart Terminal en word snel betaald met overschrijvingen op de volgende dag."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:29
+msgid "Use GoDaddy Payments Selling in Person to sync local pickup and delivery orders to your Smart Terminal. Sell anything, anywhere and get paid fast with next-day deposits."
+msgstr "Verkoop op locatie met GoDaddy om bestellingen met ophalen en bezorgen te synchroniseren via je Smart Terminal. Verkoop alles overal en word snel betaald met overschrijvingen op de volgende dag."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:32
+msgid "GoDaddy Selling in Person"
+msgstr "Op locatie verkopen met GoDaddy"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:39
+msgid "Update Store"
+msgstr "Winkel bijwerken"
+
+#. translators: %s - list of supported countries
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:42
+msgid "GoDaddy Payments is available for businesses in %s. Please update your Store Address to use the payment method."
+msgstr "GoDaddy Payments is beschikbaar voor bedrijven in %s. Werk het adres van je winkel bij om de betaalmethode te gebruiken."
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:42
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:37
+msgid "Change Currency"
+msgstr "Valuta wijzigen"
+
+#. translators: %1$s - list of supported currencies, %2$s - store country
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:45
+msgid "GoDaddy Payments requires %1$s transactions for businesses in %2$s. Please change your Currency in order to use the payment method."
+msgstr "Voor GoDaddy Payments zijn transacties in %1$s vereist voor bedrijven in %2$s. Wijzig de valuta om de betaalmethode te gebruiken."
+
+#. translators: %s - list of supported currencies
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:40
+msgid "GoDaddy Payments requires %s transactions. Please change your Currency in order to use the payment method."
+msgstr "Voor GoDaddy Payments zijn transacties in %s vereist. Wijzig de valuta om de betaalmethode te gebruiken."
+
+#. translators: Placeholders: %1$s - <a> tag for the Google Pay docs link, %2$s - </a> tag
+#: src/Features/GoDaddyPayments/Notices/GooglePayEnabledNotice.php:22
+msgid "GoDaddy Payments - Google Pay has been enabled on your selected pages and shows %1$sin supported browsers and devices%2$s."
+msgstr "GoDaddy Payments: Google Pay is ingeschakeld op je geselecteerde pagina's en wordt weergegeven %1$sin ondersteunde browsers en apparaten%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/GooglePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Google Pay should show."
+msgstr "Selecteer de pagina's waarop Google Pay moet worden weergegeven."
+
+#: src/Features/GoDaddyPayments/Notices/OnboardingErrorNotice.php:26
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "Er is een fout opgetreden bij het koppelen met GoDaddy Payments. Probeer het opnieuw."
+
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:22
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin!"
+msgstr "GoDaddy Payments (Poynt) is inbegrepen voor klanten met Beheerde WordPress zonder een afzonderlijke plug-in."
+
+#: src/Features/GoDaddyPayments/Notices/WooStagingNotice.php:23
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "WooCommerce brengt kosten of autorisaties/vastleggingen in rekening samen met terugbetalingen. Annuleringen in je testomgeving worden normaal verwerkt in je accounts van GoDaddy Payments."
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:43
+msgid "Commerce Home"
+msgstr "Startpagina voor handel"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:47
+msgid "Payments Dashboard"
+msgstr "Dashboard voor betalingen"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:50
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:265
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:266
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:197
+msgid "Tax"
+msgstr "Btw"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:94
+msgid "The Sellbrite plugin is included in your hosting plan as GoDaddy Marketplaces. The plugin has been deactivated."
+msgstr "De plug-in van Sellbrite is onderdeel van je hostingabonnement als GoDaddy Marketplaces. De plug-in is gedeactiveerd."
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:95
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:230
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:393
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:400
+msgid "Set up"
+msgstr "Set-up"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:104
+msgid "Your products, everywhere."
+msgstr "Jouw producten, overal."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:64
+msgid "A product ID is required."
+msgstr "Een product-ID is vereist."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:68
+msgid "A channel UUID is required."
+msgstr "Een UUID voor het kanaal is vereist."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:72
+msgid "You do not have permission to perform this action."
+msgstr "Je hebt geen toestemming voor deze actie."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:76
+msgid "This product must meet all requirements below before creating a draft listing."
+msgstr "Het product moet voldoen aan alle onderstaande vereisten voordat je een conceptvermelding maakt."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:116
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:157
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:61
+msgid "Failed to create a draft listing."
+msgstr "Kan geen conceptvermelding maken."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:132
+msgid "Failed to retrieve a WooCommerce product with ID #%d while creating a draft Marketplaces listing."
+msgstr "Kan een WooCommerce-product niet ophalen met ID %d terwijl een conceptvermelding op marktplaatsen wordt gemaakt."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:62
+msgid "Products with Marketplaces listings cannot have an empty SKU."
+msgstr "Producten met vermeldingen op marktplaatsen kunnen geen lege SKU hebben."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:88
+#: src/Features/Marketplaces/Interceptors/ProductsPageInterceptor.php:111
+msgid "Are you sure you want to unpublish? All associated Marketplaces listings will remain published or as a draft but will no longer sync content and inventory with WooCommerce."
+msgstr "Weet je zeker dat je de publicatie ongedaan wilt maken? Alle gekoppelde Marketplace-vermeldingen blijven gepubliceerd of een concept, maar de content en voorraad worden niet meer gesynchroniseerd met WooCommerce."
+
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:156
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:168
+msgid "Marketplaces & Social Order"
+msgstr "Bestelling via marktplaatsen en sociale media"
+
+#. translators: Placeholder: %s - sales channel label
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:160
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:170
+msgid "Sales Channel: %s"
+msgstr "Verkoopkanaal: %s"
+
+#. translators: Placeholder: %s - sales channel order number
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:163
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:172
+msgid "Sales Channel Order Number: %s"
+msgstr "Bestelnummer verkoopkanaal: %s"
+
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:166
+msgid "Return accepted via Walmart sales channel."
+msgstr "Retourzending geaccepteerd via het verkoopkanaal van Walmart."
+
+#. translators: Placeholders: %1$s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:189
+msgid "Return requested via Walmart sales channel. %1$sView request%2$s."
+msgstr "Retourzending aangevraagd via het verkoopkanaal van Walmart. %1$sAanvraag bekijken%2$s."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:291
+msgid "Create your first product listing by adding a new product or editing an existing one in WooCommerce. You can list a product on each of the marketplaces you've added. Once listed, the product info and inventory will sync automatically. Visit %1$sProducts%2$s to get started."
+msgstr "Maak je eerste productvermelding door een nieuw product toe te voegen aan WooCommerce of door een bestaand product te bewerken. Je kunt een product vermelden op alle marktplaatsen die je hebt toegevoegd. Na het vermelden worden de productgegevens en je voorraad automatisch gesynchroniseerd, Ga naar %1$sProducten%2$s om aan de slag te gaan."
+
+#: src/Features/Marketplaces/Marketplaces.php:301
+msgid "Welcome to GoDaddy Marketplaces!"
+msgstr "Welkom bij GoDaddy Marketplaces!"
+
+#: src/Features/Marketplaces/Marketplaces.php:326
+msgid "Your store address must be in the US and currency US dollars in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Het adres van je winkel moet Amerikaans zijn en de valuta Amerikaanse dollars om producten, voorraad en bestellingen te synchroniseren met verkoopkanalen op marktplaatsen en sociale media."
+
+#: src/Features/Marketplaces/Marketplaces.php:342
+msgid "Your store weight and dimensions units must be in \"lbs\" and \"in\" in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "De eenheden voor het gewicht en de afmetingen van je winkel moeten in 'kilogrammen' en 'centimeters' zijn om producten, voorraad en bestellingen te synchroniseren met verkoopkanalen op marktplaatsen en sociale media."
+
+#: src/Features/Marketplaces/Marketplaces.php:343
+#: src/Features/Marketplaces/Marketplaces.php:386
+msgid "Update settings"
+msgstr "Instellingen bijwerken"
+
+#: src/Features/Marketplaces/Marketplaces.php:385
+msgid "Stock management must be enabled in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Voorraadbeheer moet zijn ingeschakeld om producten, voorraad en bestellingen te synchroniseren met verkoopkanalen op marktplaatsen en sociale media."
+
+#: src/Features/Marketplaces/Marketplaces.php:434
+msgid "Product, inventory, and order syncing is disabled in Staging to prevent conflicts with your Production site."
+msgstr "Synchroniseren van producten, voorraad en bestellingen is uitgeschakeld in de testomgeving om conflicten met je productiesite te voorkomen."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:450
+msgid "You've used 90&#37; of your included monthly Marketplaces and Social orders. Upgrade soon to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Je hebt 90&#37; van je inbegrepen maandelijkse bestellingen op marktplaatsen en sociale media gebruikt. Upgrade snel om meer bestellingen te verwerken. %1$sAbonnement upgraden%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:476
+msgid "You've used all your included monthly Marketplaces and Social orders. Upgrade now to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Je hebt al je inbegrepen maandelijkse bestellingen op marktplaatsen en sociale media gebruikt. Upgrade nu om meer bestellingen te verwerken. %1$sAbonnement upgraden%2$s"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:102
+msgid "Sales Channel"
+msgstr "Verkoopkanaal"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:106
+msgid "Sales Channel Order Number"
+msgstr "Bestelnummer verkoopkanaal"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:81
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:155
+msgid "Product Brand"
+msgstr "Productmerk"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:86
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:162
+msgid "Product Condition"
+msgstr "Productconditie"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:91
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:167
+msgctxt "Product condition"
+msgid "New"
+msgstr "Nieuw"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:92
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:168
+msgctxt "Product condition"
+msgid "Used"
+msgstr "Gebruikt"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:93
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:169
+msgctxt "Product condition"
+msgid "Refurbished"
+msgstr "Opgeknapt"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgid "Global Trade Item Number"
+msgstr "Global Trade Item Number"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgctxt "Global Trade Item Number (GTIN)"
+msgid "GTIN"
+msgstr "GTIN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:114
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:178
+msgid "A Global Trade Item Number is used to uniquely identify your product on Marketplaces & Social product listings. It can be found next to the barcode."
+msgstr "Een Global Trade Item Number wordt gebruikt om je product te identificeren bij vermeldingen op marktplaatsen en sociale media. Je vindt het nummer naast de streepjescode."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgid "Manufacturer Part Number"
+msgstr "Manufacturer Part Number"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgctxt "Manufacturer Part Number (MPN)"
+msgid "MPN"
+msgstr "MPN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:121
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:188
+msgid "A Manufacturer Part Number is used to uniquely identify your product on Marketplaces & Social product listings. Only use the MPN assigned by the manufacturer."
+msgstr "Een Manufacturer Part Number wordt gebruikt om je product te identificeren bij vermeldingen op marktplaatsen en sociale media. Gebruik alleen het MPN dat door de fabrikant is toegewezen."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:53
+msgid "Marketplaces & Social"
+msgstr "Marktplaatsen en sociale media"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:217
+msgid "You haven't connected this sales channel yet."
+msgstr "Je hebt dit verkoopkanaal nog niet gekoppeld."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:221
+msgid "Connect Sales Channel"
+msgstr "Verkoopkanaal koppelen"
+
+#. translators: Placeholders: %s: Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:245
+msgid "This product hasn't been listed on %s yet."
+msgstr "Dit product wordt nog niet vermeld op %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:250
+msgid "Create Draft Listing"
+msgstr "Conceptvermelding maken"
+
+#. translators: Placeholders: %1$s - Opening <a> HTML link tag, %2$s - Closing </a> HTML link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:259
+msgid "A draft listing will be automatically created once the product meets the requirements below. %1$sLearn more about product sync%2$s"
+msgstr "Zodra het product voldoet aan de vereisten hieronder, wordt er automatisch een conceptvermelding gemaakt. %1$sMeer informatie over het synchroniseren van producten%2$s"
+
+#. translators: Placeholders: %1%s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:266
+msgid "The requirements below must be met in order to list this product. %1$sLearn more about product sync%2$s"
+msgstr "Je moet voldoen aan de onderstaande vereisten om dit product te vermelden. %1$sMeer informatie over het synchroniseren van producten%2$s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:273
+msgctxt "Product property requirement"
+msgid "Simple or variable product (not virtual or downloadable)"
+msgstr "Eenvoudige of variabele producten (niet virtueel of downloadbaar)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:274
+msgctxt "Product property requirement"
+msgid "Published product"
+msgstr "Gepubliceerd product"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:275
+msgctxt "Product property requirement"
+msgid "Product SKU must be set"
+msgstr "De SKU van het product moet worden ingesteld"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:276
+msgctxt "Product property requirement"
+msgid "Manage stock enabled and stock quantity > 0"
+msgstr "Voorraad beheren ingeschakeld en voorraad > 0"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:277
+msgctxt "Product property requirement"
+msgid "No backorders allowed"
+msgstr "Geen nabestellingen toegestaan"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:278
+msgctxt "Product property requirement"
+msgid "Brand and Condition fields filled"
+msgstr "Velden voor Merk en Conditie ingevuld"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:319
+msgid "A draft listing has been created for this product on %s."
+msgstr "Er is op %s een conceptvermelding gemaakt voor dit product."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:323
+msgid "View Draft Listing"
+msgstr "Conceptvermelding bekijken"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:347
+msgid "This product has been listed on %s."
+msgstr "Dit product wordt vermeld op %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:350
+msgid "Edit Listing"
+msgstr "Vermelding bewerken"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:195
+msgid "Manage Sales Channels"
+msgstr "Verkoopkanalen beheren"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:228
+msgid "Marketplaces &amp; Social"
+msgstr "Marktplaatsen en sociale media"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:251
+msgid "Manage Listing Templates"
+msgstr "Sjablonen voor vermeldingen beheren"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:265
+msgid "You haven't added any sales channels yet. Add sales channels in order to post your listings on third party marketplaces and social platforms."
+msgstr "Je hebt nog geen verkoopkanalen toegevoegd. Voeg verkoopkanalen toe om je vermeldingen te publiceren op externe marktplaatsen en sociale media."
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:279
+msgctxt "Refreshes the page"
+msgid "Refresh"
+msgstr "Vernieuwen"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:286
+msgid "Add Sales Channel"
+msgstr "Verkoopkanaal toevoegen"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:299
+msgid "Resources"
+msgstr "Hulpbronnen"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:300
+msgid "What is Marketplaces &amp; Social?"
+msgstr "Wat zijn marktplaatsen en sociale media?"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:302
+msgid "How to connect sales channels"
+msgstr "Verkoopkanalen koppelen"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:304
+msgid "What products are eligible for Marketplaces & Social sales channels?"
+msgstr "Welke producten komen in aanmerking voor de verkoopkanalen van marktplaatsen en sociale media?"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:119
+msgid "A non-empty settings parameter must be provided."
+msgstr "Je moet een niet-lege parameter voor instellingen verstrekken."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:124
+msgid "Each setting object must contain name and value keys."
+msgstr "Elk object voor instellingen moet sleutels voor naam en waarde bevatten."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:245
+msgid "Unique onboarding setting ID."
+msgstr "Unieke ID voor instelling onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:251
+msgid "Unique onboarding setting name (matches the ID)."
+msgstr "Unieke naam voor instelling onboarding (sluit aan op de ID)."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:257
+msgid "Onboarding setting label."
+msgstr "Label voor instelling onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:263
+msgid "Onboarding setting description."
+msgstr "Beschrijving voor instelling onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:269
+msgid "A list of available options for the onboarding setting values."
+msgstr "Een lijst met beschikbare opties voor de waarden van de instelling voor de onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:278
+msgid "Onboarding setting default value."
+msgstr "Standaardwaarde voor instelling onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:284
+msgid "Onboarding setting value."
+msgstr "Waarde voor instelling onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:290
+msgid "Whether the onboarding setting can have multiple values."
+msgstr "Of de instelling voor de onboarding meerdere waarden kan hebben."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:296
+msgid "Whether the onboarding setting is required."
+msgstr "Of de instelling voor de onboarding vereist is."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:302
+msgid "Onboarding setting group, if applicable."
+msgstr "Groep instellingen voor onboarding, indien van toepassing."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:308
+msgid "Onboarding setting control details."
+msgstr "Gebruiksgegevens instelling onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:314
+msgid "Onboarding setting control type."
+msgstr "Gebruikstype instelling onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:320
+msgid "A list of available options for the onboarding setting control."
+msgstr "Een lijst met beschikbare opties voor het gebruik van de instelling voor de onboarding."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:329
+msgid "Optional input placeholder for the onboarding setting control."
+msgstr "Optionele plaatsaanduiding voor invoer voor het gebruik van de instelling voor onboarding."
+
+#: src/Features/Onboarding/HomePage.php:33
+msgctxt "Title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Home"
+
+#: src/Features/Onboarding/HomePage.php:34
+msgctxt "Menu title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Home"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:23
+msgid "First time"
+msgstr "Voornaam"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:48
+msgid "Store name"
+msgstr "Winkelnaam"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:61
+msgid "Store address 1"
+msgstr "Adresregel 1 winkel"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:75
+msgid "Store address 2"
+msgstr "Adresregel 2 winkel"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:89
+msgctxt "The country's region"
+msgid "Country Region"
+msgstr "Regio in land"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:103
+msgid "City"
+msgstr "Plaatsnaam"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:117
+msgid "Postal code"
+msgstr "Postcode"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:131
+msgid "Currency"
+msgstr "Valuta"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:145
+msgid "Left aligned"
+msgstr "Links uitgelijnd"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:146
+msgid "Right aligned"
+msgstr "Rechts uitgelijnd"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:147
+msgid "Left aligned with space"
+msgstr "Links uitgelijnd met ruimte"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:148
+msgid "Right aligned with space"
+msgstr "Rechts uitgelijnd met ruimte"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:152
+msgid "Currency position"
+msgstr "Valutapositie"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:171
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:228
+msgid "All countries"
+msgstr "Alle landen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:172
+msgid "Sell to all countries, except for..."
+msgstr "Verkopen aan alle landen, behalve..."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:173
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:196
+msgid "Sell to specific countries"
+msgstr "Verkopen aan specifieke landen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:177
+msgid "Selling locations"
+msgstr "Verkooplocaties"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:211
+msgid "Sell to all countries except for"
+msgstr "Verkopen aan alle landen, behalve"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:227
+msgid "Ship to all countries you sell to"
+msgstr "Verzenden naar alle landen waaraan je verkoopt"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:229
+msgid "Ship to specific countries only"
+msgstr "Alleen naar specifieke landen verzenden"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:230
+msgid "Disable shipping & shipping calculations"
+msgstr "Verzending en verzendingsberekeningen uitschakelen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:234
+msgid "Shipping locations"
+msgstr "Verzendlocaties"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:253
+msgid "Ship to specific countries"
+msgstr "Verzenden naar specifieke landen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:268
+msgid "Thousands separator"
+msgstr "Scheidingsteken duizendtallen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:282
+msgid "Decimal separator"
+msgstr "Scheidingsteken decimalen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:296
+msgid "Number of decimals"
+msgstr "Aantal decimalen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:310
+msgid "Kilograms"
+msgstr "Kilogrammen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:311
+msgid "Grams"
+msgstr "Grammen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:312
+msgid "Pounds"
+msgstr "Pounds"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:313
+msgid "Ounces"
+msgstr "Ounces"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:317
+msgid "Weight units"
+msgstr "Gewichtseenheden"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:336
+msgid "Meters"
+msgstr "Meters"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:337
+msgid "Centimeters"
+msgstr "Centimeters"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:338
+msgid "Millimeters"
+msgstr "Millimeters"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:339
+msgid "Inches"
+msgstr "Inches"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:340
+msgid "Yards"
+msgstr "Yards"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:344
+msgid "Dimension units"
+msgstr "Dimensie-eenheden"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:363
+msgid "Enable taxes"
+msgstr "Btw inschakelen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:377
+msgid "Last onboarding step"
+msgstr "Laatste stap van onboarding"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:390
+msgid "Completed"
+msgstr "Voltooid"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:406
+msgid "Store selector dismissed"
+msgstr "Winkelselectie genegeerd"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:421
+msgid "Dismissed"
+msgstr "Genegeerd"
+
+#: src/Features/Onboarding/Settings/Settings.php:25
+msgid "Onboarding"
+msgstr "Onboarding"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:43
+msgid "Order Numbers"
+msgstr "Bestelnummers"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:60
+msgid "Starting number"
+msgstr "Beginnummer"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:70
+msgid "Prefix"
+msgstr "Voorvoegsel"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:80
+msgid "Suffix"
+msgstr "Achtervoegsel"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:90
+msgid "Skip free orders"
+msgstr "Gratis bestellingen overslaan"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:100
+msgid "Free order identifier"
+msgstr "Identificatie gratis bestelling"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:176
+msgid "Company name."
+msgstr "Bedrijfsnaam."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:182
+msgid "Country code."
+msgstr "Landcode."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:188
+msgid "Connection status."
+msgstr "Verbindingsstatus."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:313
+msgid "The shipment object associated with the shipping label."
+msgstr "Het verzendobject gekoppeld aan het verzendlabel."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:317
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:255
+msgid "The shipment ID."
+msgstr "De ID van de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:323
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:261
+msgid "The shipment's creation date."
+msgstr "De aanmaakdatum van de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:329
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:267
+msgid "The shipment's last updated date."
+msgstr "De datum waarop de verzending voor het laatst is bijgewerkt."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:335
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:273
+msgid "The shipping provider for the shipment."
+msgstr "De koerier voor de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:340
+msgid "The label for a custom shipping provider."
+msgstr "Het label voor een koerier op maat."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:345
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:283
+msgid "The shipment's tracking number."
+msgstr "Het trackingnummer van de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:350
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:288
+msgid "The shipment's tracking URL."
+msgstr "De tracking-URL van de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:355
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:293
+msgid "The rate associated with the shipment."
+msgstr "Het tarief gekoppeld aan de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:360
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:298
+msgid "The label associated with shipment."
+msgstr "Het label gekoppeld aan de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:365
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:303
+msgid "The items included in the shipment."
+msgstr "De items die onderdeel zijn van de verzending."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:371
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:309
+msgid "The item's ID."
+msgstr "De ID van het item."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:376
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:314
+msgid "The product's ID."
+msgstr "De ID van het product."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:381
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:319
+msgid "The product's variation ID."
+msgstr "De ID van de productvariant."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:386
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:324
+msgid "The item's quantity."
+msgstr "De hoeveelheid items."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:399
+msgid "The shipping label returned by the shipping provider."
+msgstr "Het verzendlabel verstuurd door de koerier."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:251
+msgid "The shipment object associated with the shipping rates."
+msgstr "Het verzendobject gekoppeld aan de verzendtarieven."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:278
+msgctxt "Display title, not physical label"
+msgid "The label for a custom shipping provider."
+msgstr "Het label voor een koerier op maat."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:337
+msgid "The shipping rates returned by the shipping provider."
+msgstr "De verzendtarieven verstuurd door de koerier."
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:43
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:44
+msgid "The phone number of your business."
+msgstr "Het telefoonnummer van je bedrijf."
+
+#: src/Features/Shipping/Interceptors/RedirectToShippingDashboardInterceptor.php:157
+msgctxt "GoDaddy name sent as brand name for the ShipEngine integration"
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/Features/Shipping/Interceptors/ShippingLabelsSettingsSectionInterceptor.php:82
+msgid "Shipping labels"
+msgstr "Verzendlabels"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:32
+msgid "ShipEngine isn't available in your region"
+msgstr "ShipEngine is niet beschikbaar in je regio."
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:46
+msgid "To benefit from streamlined shipping and label printing, please ensure your store is located in the US, UK, Canada, or Australia."
+msgstr "Je winkel moet zich bevinden in de Verenigde Staten, het Verenigd Koninkrijk, Canada of Australië om te profiteren van gestroomlijnde verzending en geprinte labels."
+
+#: src/Features/Shipping/Providers/ShipEngine/ShipEngineProvider.php:34
+msgctxt "shipping provider name"
+msgid "ShipEngine"
+msgstr "ShipEngine"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:150
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:359
+msgid "User does not have permission to manage WooCommerce"
+msgstr "Gebruiker heeft toestemming om WooCommerce te beheren"
+
+#. translators: Placeholders: %s - error message from the MWC API
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:166
+msgid "Could not create connection: %s"
+msgstr "Kan geen verbinding maken: %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:172
+msgid "No redirect available"
+msgstr "Geen omleiding beschikbaar"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:497
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:507
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:90
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:63
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:177
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:109
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "Er is een fout opgetreden. Probeer het opnieuw of probeer een andere betaalmethode."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:505
+msgid "An error occurred while processing the payment: "
+msgstr "Er is een fout opgetreden bij het verwerken van de betaling: "
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:546
+msgid "Payment method successfully added."
+msgstr "De betaalmethode is toegevoegd."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:548
+msgid "Unable to add payment method to your account. Please try again."
+msgstr "Kan de betaalmethode niet toevoegen aan je account. Probeer het opnieuw."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:585
+msgid "Payment method could not be saved. %s"
+msgstr "De betaalmethode kan niet worden opgeslagen. %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:639
+msgid "Payment method updated."
+msgstr "Betaalmethode bijgewerkt."
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:72
+msgid "Included WooCommerce Extensions"
+msgstr "Inbegrepen WooCommerce-extensies"
+
+#. translators: Placeholder: %s - captured amount
+#: src/Payments/Adapters/CaptureTransactionOrderNoteAdapter.php:24
+msgid "A payment of %s was successfully captured via GoDaddy Payments Hub"
+msgstr "Een betaling van %s is vastgelegd via de hub van GoDaddy Payments"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "We kunnen je bestelling niet verwerken met de betalingsgegevens die je hebt verstrekt. Gebruik een andere betaalrekening of betaalmethode."
+
+#. translators: Placeholders: %1$s - card brand, %2$s - last 4 card numbers, %3$s - expiration month, %4$s - expiration year
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:32
+msgid " %1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr " %1$s eindigend op %2$s (vervaldatum: %3$s/%4$s)"
+
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:33
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:34
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:181
+msgid "Card"
+msgstr "Kaart"
+
+#. translators: Placeholder: %s - refunded amount
+#: src/Payments/Adapters/RefundTransactionOrderNoteAdapter.php:24
+msgid "A refund of %s was successfully processed via GoDaddy Payments Hub"
+msgstr "Een terugbetaling van %s is verwerkt via de hub van GoDaddy Payments"
+
+#. translators: Placeholder: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "Transaction ID %s"
+msgstr "Transactie-ID %s"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:54
+msgid "Result: [%1$s] %2$s"
+msgstr "Resultaat: [%1$s] %2$s"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction info (if applicable, or empty string)
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:86
+msgid "%1$s %2$s in the amount of %3$s%4$s"
+msgstr "%2$s %1$s voor het bedrag van %3$s%4$s"
+
+#. translators: Placeholders: %s - the total amount of the capture that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:26
+msgid "A payment capture of %s was successfully voided"
+msgstr "Een vastgelegde betaling van %s is geannuleerd"
+
+#. translators: Placeholders: %s - the total amount of the refund that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:33
+msgid "A refund of %s was successfully voided"
+msgstr "Een terugbetaling van %s is geannuleerd"
+
+#: src/Payments/API/Controllers/CartController.php:261
+msgid "Coupons are disabled."
+msgstr "Kortingsbonnen zijn uitgeschakeld."
+
+#: src/Payments/API/Controllers/CartController.php:285
+msgid "Invalid coupon code."
+msgstr "Ongeldige kortingscode."
+
+#: src/Payments/API/Controllers/CartController.php:291
+msgid "Coupon cannot be applied."
+msgstr "Kortingscode kan niet worden toegepast."
+
+#: src/Payments/API/Controllers/CartController.php:310
+msgid "Coupon cannot be applied. %s"
+msgstr "Kortingscode kan niet worden toegepast. %s"
+
+#: src/Payments/API/Controllers/CartController.php:356
+msgid "Invalid customer data"
+msgstr "Ongeldige klantgegevens"
+
+#: src/Payments/API/Controllers/CartController.php:381
+msgid "Invalid email address"
+msgstr "Ongeldig e-mailadres"
+
+#. translators: Placeholder: %s - either 'billing' or 'shipping'
+#: src/Payments/API/Controllers/CartController.php:408
+msgid "Invalid %s address"
+msgstr "Ongeldig adres voor %s"
+
+#: src/Payments/API/Controllers/CartController.php:450
+msgid "Orders aren't accepted from this location"
+msgstr "Bestellingen vanaf deze locatie worden niet geaccepteerd"
+
+#: src/Payments/API/Controllers/CartController.php:523
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:258
+msgid "WooCommerce is not available"
+msgstr "WooCommerce is niet beschikbaar"
+
+#: src/Payments/API/Controllers/CartController.php:578
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:325
+msgid "Invalid products data."
+msgstr "Ongeldige gegevens producten."
+
+#: src/Payments/API/Controllers/CartController.php:648
+msgid "Coupon code to apply to the cart."
+msgstr "Kortingscode om toe te passen op de winkelwagen."
+
+#: src/Payments/API/Controllers/CartController.php:654
+msgid "Cart customer data."
+msgstr "Klantgegevens winkelwagen."
+
+#: src/Payments/API/Controllers/CartController.php:756
+msgid "Products to add to the cart."
+msgstr "Producten om toe te voegen aan de winkelwagen."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:243
+msgid "The order ID."
+msgstr "Het bestelnummer."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:249
+msgid "The URL to redirect the customer to."
+msgstr "De URL waarnaar de klant wordt doorgeleid."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:187
+msgid "Order total, based on cart total."
+msgstr "Totaal bestelling, gebaseerd op het totaal van de winkelwagen."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:201
+msgid "2-letter ISO 3166 country code."
+msgstr "ISO 3166-landcode van 2 letters."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:207
+msgid "3-letter ISO 4217 currency code."
+msgstr "ISO 4217-landcode van 3 letters."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:213
+msgid "Name of the merchant."
+msgstr "Naam van de verkoper."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:219
+msgid "The shipping type based on the chosen shipping method."
+msgstr "Het type verzending op basis van de gekozen verzendmethode."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:230
+msgid "Shipping methods for the payment request."
+msgstr "Verzendmethoden voor de aanvraag om betaling."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:239
+msgid "Items in the order."
+msgstr "Items in de bestelling."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:256
+msgid "Whether to require customer email."
+msgstr "Of het e-mailadres van de klant vereist is."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:262
+msgid "Whether to require customer phone."
+msgstr "Of het telefoonnummer van de klant vereist is."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:268
+msgid "Whether to require customer shipping address."
+msgstr "Of het verzendadres van de klant vereist is."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:274
+msgid "Whether the customer should be allowed to enter coupons."
+msgstr "Of de klant kortingsbonnen mag invoeren."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:280
+msgid "A list of wallets to disable."
+msgstr "Een lijst met wallets om uit te schakelen."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:160
+msgid "Application ID."
+msgstr "ID van toepassing."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:166
+msgid "Business ID."
+msgstr "ID van bedrijf."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:172
+msgid "List of available features."
+msgstr "Lijst met beschikbare functies."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:186
+msgid "Whether the payment gateway is enabled."
+msgstr "Of de gateway voor betalingen is ingeschakeld."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:192
+msgid "Payment gateway connection status."
+msgstr "Verbindingsstatus gateway voor betalingen."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:210
+msgid "Nonce for switching accounts."
+msgstr "Willekeurige tekens voor wisselen van account."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:224
+msgid "Invalid phone number."
+msgstr "Ongeldig telefoonnummer."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:271
+msgid "The remote parent ID in the request does not match the remote parent ID of the order."
+msgstr "De externe bovenliggende ID van de aanvraag komt niet overeen met de externe bovenliggende ID van de bestelling."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:368
+msgid "Invalid order ID."
+msgstr "Ongeldige ID bestelling."
+
+#. translators: Placeholders: %s - a payment provider name, such as poynt
+#: src/Payments/API/Controllers/ProviderProcessingController.php:389
+msgid "Provider %s not found."
+msgstr "Aanbieder %s niet gevonden."
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Invalid nonce"
+msgstr "Ongeldige willekeurige tekens"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Missing nonce"
+msgstr "Ontbrekende willekeurige tekens"
+
+#. translators: Placeholder: %d - error code
+#: src/Payments/DataSources/WooCommerce/Adapters/CartOrderAdapter.php:206
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Fout %d: kan bestelling niet maken. Probeer het opnieuw."
+
+#: src/Payments/DataStores/WooCommerce/OrderPaymentTransactionDataStore.php:38
+#: src/WooCommerce/Payments/VirtualTerminal.php:121
+msgid "Virtual Terminal"
+msgstr "Virtuele terminal"
+
+#. translators: Placeholder: %s - payment method name
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:271
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:277
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "Betaald via het afrekenen van WooCommerce met %s"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:760
+msgid "Tip"
+msgstr "Tip"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:765
+msgid "Cashback"
+msgstr "Cashback"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:796
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "Bedrag van %1$s voor %2$s toegevoegd aan bestelling door de Smart Terminal van GoDaddy Payments"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:940
+msgid "From GoDaddy Payments Hub. Order fully refunded."
+msgstr "Van de GoDaddy Payments Hub. Bestelling volledig terugbetaald."
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:943
+msgid "From GoDaddy Payments Hub. Order partially refunded."
+msgstr "Van de GoDaddy Payments Hub. Bestelling deels terugbetaald."
+
+#. translators: Placeholders: %1$s - date, %2$s time
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:347
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "Bestelling gemarkeerd als klaar op terminal op %1$s om %2$s"
+
+#: src/Payments/Poynt/Http/Adapters/CardPaymentMethodAdapter.php:131
+msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+msgstr "Je factureringsadres komt niet overeen met je betaalkaartgegevens. Werk het adres bij om je bestelling te verzenden."
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:90
+msgid "Coupon code"
+msgstr "Kortingscode"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:171
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:177
+msgid "Discount"
+msgstr "Korting"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:183
+msgid "Shipping"
+msgstr "Verzending"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:264
+msgid "Wallet payments cannot be used for carts with multiple shipments."
+msgstr "Je kunt geen betalingen via je wallet doen voor meerdere verzendingen."
+
+#. translators: %1$s: payment gateway name
+#: src/Payments/Poynt/OrderSynchronization.php:336
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "Transactie terugbetaald door %1$s van WooCommerce."
+
+#: src/Payments/Poynt/OrderSynchronization.php:338
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "Transactie handmatig terugbetaald door WooCommerce."
+
+#: src/Payments/Poynt/ViewOrderPage.php:51
+msgid "Order is ready for pickup."
+msgstr "Bestelling kan worden opgehaald."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:33
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "E-mails over verzonden items worden afgeleverd bij klanten als de trackinggegevens zijn toegevoegd voor een of meer items in hun bestellingen."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:56
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "Een item van {site_title} voor bestelling #{order_number} is verzonden."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:64
+msgid "Your package is on the way!"
+msgstr "Je pakket is onderweg."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:72
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "Het kan even duren voordat de koerier de trackinggegevens van de verzending heeft bijgewerkt."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:46
+msgid "Ready for pickup"
+msgstr "Klaar voor ophalen"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:47
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "E-mails voor het ophalen worden verzonden naar klanten wanneer hun bestelling is gemarkeerd als klaar om te worden opgehaald."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:60
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "Je bestelling op {site_title} kan worden opgehaald."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:70
+msgid "Order ready for pickup!"
+msgstr "Bestelling kan worden opgehaald."
+
+#: src/WooCommerce/ExtensionsTab.php:174
+msgid "GoDaddy Included"
+msgstr "GoDaddy inbegrepen"
+
+#: src/WooCommerce/Pages/EditOrder/Metaboxes/ShipmentTrackingMetabox.php:35
+msgid "Shipment Tracking"
+msgstr "Volgen van je verzendingen"
+
+#. translators: Placeholder: %s - payment gateway method title
+#: src/WooCommerce/Payments/AbstractPaymentGateway.php:635
+msgid "%s Virtual Terminal"
+msgstr "Virtuele terminal %s"
+
+#: src/WooCommerce/Payments/Captures.php:93
+msgid "No gateway found for order"
+msgstr "Geen gateway gevonden voor bestelling"
+
+#: src/WooCommerce/Payments/Captures.php:195
+#: src/WooCommerce/Payments/Captures.php:317
+msgid "Capture Charge"
+msgstr "Kosten vastleggen"
+
+#: src/WooCommerce/Payments/Captures.php:309
+msgid "This charge has been fully captured"
+msgstr "Deze kosten zijn vastgelegd"
+
+#: src/WooCommerce/Payments/Captures.php:327
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "Weet je zeker dat je dit wilt verwerken? De actie kan niet ongedaan worden gemaakt."
+
+#: src/WooCommerce/Payments/Captures.php:328
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "Er is iets verkeerd gegaan. Het vastleggen kan niet worden voltooid. Probeer het opnieuw."
+
+#. translators: Placeholders: %1s - the provider label, %2s - the payment method brand label, %3$s - the last four digits of the customer's credit card
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:32
+msgid "%1s transaction declined due to billing address mismatch for %2s ending in %3$s."
+msgstr "%1s-transactie afgewezen omdat het factureringsadres voor %2s eindigend op %3$s niet overeenkomt."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:112
+msgid "Status"
+msgstr "Status"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:235
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:237
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:389
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:397
+msgid "Manage"
+msgstr "Beheren"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:252
+msgid "Your Stripe account needs to be set up."
+msgstr "Je moet je Stripe-account instellen."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:255
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:284
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:297
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1335
+msgid "Connected"
+msgstr "Gekoppeld"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:256
+msgid "Connected to your Stripe account."
+msgstr "Gekoppeld aan je Stripe-account."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:259
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:311
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1341
+msgid "Disconnected"
+msgstr "Ontkoppeld"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:260
+msgid "Please reconnect your Stripe account."
+msgstr "Koppel je Stripe-account opnieuw."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:263
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:325
+msgid "Pending"
+msgstr "In behandeling"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:285
+msgid "Connected to your terminal to Sell in Person."
+msgstr "Gekoppeld aan je terminal om op locatie te verkopen."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:289
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:292
+msgid "Click set up to get started."
+msgstr "Klik op Instellen om aan de slag te gaan."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:299
+msgid "Connect your terminal to Sell in Person."
+msgstr "Koppel je terminal aan Op locatie verkopen."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:300
+msgid "Connected to your GoDaddy Payments account."
+msgstr "Gekoppeld aan je account van GoDaddy Payments."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:303
+msgid "Connecting"
+msgstr "Koppelen"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:304
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "Dit kan een paar minuten duren. Vernieuw om te bekijken."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:307
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:329
+msgid "Not available"
+msgstr "Niet beschikbaar"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:308
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "Bedankt voor de aanvraag, maar we kunnen momenteel geen betalingen voor je bedrijf verwerken."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:312
+msgid "Your account has been closed."
+msgstr "Je account is gesloten."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:315
+msgid "Incomplete"
+msgstr "Onvolledig"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:316
+msgid "Click Resume to complete your application."
+msgstr "Klik op Hervatten om je aanvraag te voltooien."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:321
+msgid "Needs attention"
+msgstr "Vereist aandacht"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:322
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:326
+msgid "Please check your email for next steps."
+msgstr "Open de e-mail voor de vervolgstappen."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:388
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:396
+msgid "Manage the \"%s\" payment method"
+msgstr "De betaalmethode %s beheren"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:392
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:399
+msgid "Set up the \"%s\" payment method"
+msgstr "De betaalmethode %s instellen"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:448
+msgid "Have a question? %1$sAsk the GoDaddy Team%3$s%2$s"
+msgstr "Heb je een vraag? %1$sStel die aan het team van GoDaddy%3$s%2$s"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:451
+msgid "E-mail icon"
+msgstr "Pictogram voor e-mail"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:476
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:489
+msgid "Set up GoDaddy Payments"
+msgstr "GoDaddy Payments instellen"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:483
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "Je bent de registratie voor een GoDaddy Payments-account aan het openen. Over een paar minuten kom je hier terug om veilige betalingen in te schakelen voor het afrekenen."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:488
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:212
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1211
+msgid "Cancel"
+msgstr "Annuleren"
+
+#. translators: Divider between the Wallet buttons and "Add to Cart"
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout.php:123
+msgid "or"
+msgstr "of"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:91
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:64
+msgid "Missing card details."
+msgstr "Kaartgegevens ontbreken."
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:92
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:65
+msgid "Missing billing details."
+msgstr "Factureringsgegevens ontbreken."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:211
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:311
+msgid "Edit"
+msgstr "Bewerken"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:213
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "Er is een fout opgetreden bij het bijwerken van je betaalmethode. Probeer het opnieuw."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:214
+msgid "Are you sure you want to delete this payment method?"
+msgstr "Weet je zeker dat je deze betaalmethode wilt verwijderen?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:315
+msgid "Save"
+msgstr "Opslaan"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:335
+msgid "Title"
+msgstr "Titel"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:336
+msgid "Details"
+msgstr "Details"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:338
+msgid "Default?"
+msgstr "Standaard?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:527
+msgid "Invalid token ID"
+msgstr "Ongeldige token-ID"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:192
+msgid "Manage Payment Methods"
+msgstr "Betaalmethoden beheren"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:215
+msgid "Use a new payment method"
+msgstr "Een nieuwe betaalmethode gebruiken"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:278
+msgid "Securely Save to Account"
+msgstr "Veilig opslaan in account"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:43
+msgid "Nickname"
+msgstr "Bijnaam"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:28
+msgid "expires %s"
+msgstr "verloopt op %s"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:88
+msgid "Let your customers buy online and pay in person with orders synced to your GoDaddy Smart Terminal. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Laat je klanten online kopen en op locatie betalen met bestellingen die met je GoDaddy Smart Terminal worden gesynchroniseerd. Word snel betaald met overschrijvingen die soms maar een werkdag duren. %1$sGoDaddy Payments-voorwaarden zijn van toepassing%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:910
+msgid "Pay in Person"
+msgstr "Persoonlijk betalen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:95
+msgid "Customers can buy online and pay in person with orders synced to your Terminals."
+msgstr "Klanten kunnen online kopen en op locatie betalen met bestellingen die met je terminals worden gesynchroniseerd."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:228
+msgid "Payment to be made upon delivery."
+msgstr "Betaling gebeurt bij het bezorgen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:297
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+#: src/WooCommerce/Payments/StripeGateway.php:283
+msgid "Return to payments"
+msgstr "Terug naar betalingen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:310
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sSmart Terminal voor winkels%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:319
+msgid "%1$sDevices%2$s"
+msgstr "%1$sApparaten%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:325
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sCatalogussen%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:331
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sTerminal aanpassen%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:349
+msgid "Smart Terminal"
+msgstr "Smartterminal"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:350
+msgid "Dual screens for smoother selling."
+msgstr "Twee schermen voor moeiteloos verkopen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:351
+msgid "Our dual screens make checkout a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "Met ons dubbele scherm is afrekenen zo gebeurd. Plus onze complete terminal heeft een ingebouwde betalingsverwerker, scanner, printer, beveiliging en meer."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:359
+msgid "Free"
+msgstr "Gratis"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:360
+msgid "2-day shipping."
+msgstr "2-daagse verzending."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:363
+msgid "Learn More"
+msgstr "Meer informatie"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:374
+msgid "Settings"
+msgstr "Instellingen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:816
+msgid "Enable Selling in Person"
+msgstr "Op locatie verkopen inschakelen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:823
+msgid "Checkout title"
+msgstr "Naam bij het afrekenen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:825
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:522
+msgid "Payment method title that the customer will see during checkout."
+msgstr "De naam van de betaalmethode die de klant ziet bij het afrekenen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:829
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:179
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:181
+#: src/WooCommerce/Shipping/LocalPickup.php:118
+msgid "Checkout description"
+msgstr "Beschrijving van afrekenen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:831
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:528
+msgid "Payment method description that the customer will see during checkout."
+msgstr "De beschrijving van de betaalmethode die de klant ziet bij het afrekenen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:836
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:187
+msgid "Order received instructions"
+msgstr "Instructies voor bestelling ontvangen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:839
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "Bericht dat de klant ziet op de pagina met de ontvangen bestelling en in de e-mail voor verwerking van de bestelling na het afrekenen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:843
+msgid "Enable for Shipping Methods"
+msgstr "Inschakelen voor verzendmethoden"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:849
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "Selecteer de verzendmethoden waarbij deze betaalmethode wordt weergegeven aan de klant tijdens het afrekenen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:851
+msgid "Select Shipping Methods"
+msgstr "Verzendmethoden selecteren"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:871
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "Ten minste één verzendmethode is vereist om verkopen op locatie in te schakelen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:886
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "Betaal persoonlijk als je bestelling wordt opgehaald of afgeleverd."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:898
+msgid "We accept major credit/debit cards and cash."
+msgstr "We accepteren alle bekende creditcards/betaalpassen en contant geld."
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:941
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (#%2$s)"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "Other locations"
+msgstr "Andere locaties"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1020
+msgid "Local Pickup Plus method"
+msgstr "Lokaal ophalen plus-methode"
+
+#. translators: Placeholders: %1$s - Shipping Method name (for example FedEx, UPS or Local Pickup, etc.)
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1022
+msgid "Any \"%1$s\" method"
+msgstr "Elke methode voor %1$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1203
+msgid "Are you sure you want to move this product to trash?"
+msgstr "Weet je zeker dat je dit product wilt verplaatsen naar de prullenbak?"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1206
+msgid "Are you sure you want to move this product to trash? Removing a synced product will also delete it from the In-Person catalog."
+msgstr "Weet je zeker dat je dit product wilt verplaatsen naar de prullenbak? Als je een gesynchroniseerd product verwijdert, wordt het ook verwijderd uit de catalogus op locatie."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1212
+msgid "Move to Trash"
+msgstr "Verplaatsen naar prullenbak"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1243
+msgid "This product is synced from the In-Person Catalog"
+msgstr "De product is gesynchroniseerd vanuit de catalogus op locatie."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1247
+msgid "This product is synced to the In-Person Catalog"
+msgstr "De product is gesynchroniseerd met de catalogus op locatie."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1346
+msgid "One or more products in your catalog failed to sync. Please enable debug logging or reach out to %1$sour Care team%2$s for help."
+msgstr "Een of meer producten in je catalogus kunnen niet worden gesynchroniseerd. Schakel debuglogboeken uit of neem contact op met onze %1$sklantenservice%2$s voor hulp."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1407
+msgid "%1$s has been removed. Products will no longer be synced to this catalog. To remove any products already synced you must delete them manually."
+msgstr "%1$s is verwijderd. Producten worden niet meer gesynchroniseerd met deze catalogus. Als je al gesynchroniseerde producten wilt verwijderen, moet je ze handmatig wissen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1433
+msgid "In-Person product sync to WooCommerce has been disabled. Products will no longer sync to WooCommerce. To remove any products already synced you must delete them manually."
+msgstr "Producten op locatie synchroniseren met WooCommerce is uitgeschakeld. Producten worden niet meer gesynchroniseerd met WooCommerce. Als je al gesynchroniseerde producten wilt verwijderen, moet je ze handmatig wissen."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1447
+msgid "%1$s has been removed from Selling In-Person. This catalog will no longer sync to WooCommerce"
+msgstr "%1$s is verwijderd uit verkopen op locatie. Deze catalogus wordt niet meer gesynchroniseerd met WooCommerce"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1514
+msgid "In-Person Catalog Sync"
+msgstr "Catalogus op locatie synchroniseren"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1518
+msgid "Sync your WooCommerce products with In-Person catalog(s). %1$sLearn more%2$s"
+msgstr "Synchroniseer je producten van WooCommerce met catalogussen op locatie. %1$sMeer informatie%2$s"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1527
+msgid "Sync WooCommerce products to In-Person"
+msgstr "WooCommerce-producten synchroniseren met op locatie"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1533
+msgid "Basic WooCommerce product data is pushed to the selected In-Person catalog(s) for simple products."
+msgstr "Basisgegevens van producten van WooCommerce worden doorgestuurd naar catalogussen op locatie bij eenvoudige producten."
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1544
+msgid "To sync to In-Person you must have at least one catalog selected."
+msgstr "Je moet minimaal één catalogus selecteren om te synchroniseren met op locatie."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1552
+msgid "Sync In-Person products to WooCommerce"
+msgstr "Producten op locatie synchroniseren met WooCommerce"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1558
+msgid "Product data is fetched from the selected In-Person catalog(s). Sync excludes products with custom prices or \"any combination\" modifiers."
+msgstr "Productgegevens worden opgehaald uit de geselecteerde catalogus(sen) op locatie. De synchronisatie gebeurt niet voor producten met aangepaste prijzen of modifiers voor 'elke combinatie'."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1568
+msgid "To sync to WooCommerce you must have at least one catalog selected."
+msgstr "Je moet minimaal één catalogus selecteren om te synchroniseren met WooCommerce."
+
+#. translators: Placeholder: %s - the gateway settings title, something like: "GoDaddy Payments - Apple Pay"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:205
+msgid "Cannot load the %s gateway to process payment."
+msgstr "Kan de gateway %s niet laden om de betaling te verwerken."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:229
+msgid "Cannot load the GoDaddy Payments gateway."
+msgstr "Kan de GoDaddy Payments-gateway niet laden."
+
+#. translators: Placeholder: %s - the gateway settings page title, normally: "GoDaddy Payments - Credit/Debit card"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:240
+msgid "These settings are managed from the %s page"
+msgstr "Deze instellingen worden beheerd via de pagina %s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:246
+msgctxt "General settings"
+msgid "General"
+msgstr "Algemeen"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:129
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:88
+msgid "The GoDaddy Payments service ID"
+msgstr "De service-ID van GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:135
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "De willekeurige tekens voor het valideren van de omleiding na de onboarding"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "De onboardingstatus van GoDaddy Payments"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:46
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:47
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices."
+msgstr "Accepteer veilig betalingen en laat klanten gemakkelijker afrekenen met Apple Pay® op ondersteunde apparaten."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:61
+msgid "Accept Apple Pay® on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Accepteer Apple Pay® op ondersteunde apparaten en laat klanten sneller betalen. Word snel betaald met overschrijvingen die soms maar een werkdag duren. %1$sGoDaddy Payments-voorwaarden zijn van toepassing%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:85
+msgid "Apple Pay Settings"
+msgstr "Instellingen Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:88
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:100
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:513
+#: src/WooCommerce/Payments/StripeGateway.php:490
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:89
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:101
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:515
+#: src/WooCommerce/Payments/StripeGateway.php:492
+msgid "Enable to add the payment method to your checkout."
+msgstr "Schakel in om de betaalmethode toe te voegen aan het afrekenen."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:91
+msgid "Apple Pay shows to %1$sSafari users on supported devices%2$s."
+msgstr "Apple Pay wordt weergegeven aan %1$sSafari-gebruikers op ondersteunde apparaten%2$s."
+
+#. translators: Text displayed next to a dropdown input field with a list of pages for the user to choose from
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:100
+msgid "Pages to enable Apple Pay on"
+msgstr "Pagina's waarop Apple Pay is ingeschakeld"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:108
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:120
+msgid "Cart"
+msgstr "Winkelwagen"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:109
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:121
+msgid "Checkout"
+msgstr "Betalen"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:110
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:122
+msgid "Single Product"
+msgstr "Enkel product"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:115
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:127
+msgid "Button label"
+msgstr "Knoplabel"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:116
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:128
+msgid "Check button labels here"
+msgstr "Controleer hier de knoplabels"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:121
+msgctxt "Apple Pay"
+msgid "Add Money with"
+msgstr "Geld toevoegen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:122
+msgctxt "Apple Pay"
+msgid "Book with"
+msgstr "Boeken met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:123
+msgctxt "Apple Pay"
+msgid "Buy with"
+msgstr "Kopen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:124
+msgctxt "Apple Pay"
+msgid "Check out with"
+msgstr "Afrekenen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:127
+msgctxt "Apple Pay"
+msgid "Contribute with"
+msgstr "Bijdragen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:128
+msgctxt "Apple Pay"
+msgid "Donate with"
+msgstr "Doneren met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:129
+msgctxt "Apple Pay"
+msgid "Order with"
+msgstr "Bestellen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:132
+msgctxt "Apple Pay"
+msgid "Plain (logo only)"
+msgstr "Normaal (alleen logo)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:133
+msgctxt "Apple Pay"
+msgid "Reload with"
+msgstr "Opnieuw laden met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:134
+msgctxt "Apple Pay"
+msgid "Rent with"
+msgstr "Huren met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:135
+msgctxt "Apple Pay"
+msgid "Set up"
+msgstr "Set-up"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:136
+msgctxt "Apple Pay"
+msgid "Support with"
+msgstr "Ondersteunen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:137
+msgctxt "Apple Pay"
+msgid "Tip with"
+msgstr "Een fooi geven met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:138
+msgctxt "Apple Pay"
+msgid "Top Up with"
+msgstr "Aanvullen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:143
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:144
+msgid "Button style"
+msgstr "Knopstijl"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:144
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:145
+msgid "Check button style here"
+msgstr "Controleer hier de knopstijl"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:149
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:151
+msgid "Black"
+msgstr "Zwart"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:150
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:152
+msgid "White"
+msgstr "Wit"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:151
+msgid "White with outline"
+msgstr "Wit met een omtrek"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:157
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:158
+msgid "Button height"
+msgstr "Knophoogte"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+msgid "Apple requests the button size match your cart/checkout button and be 30 to 64 pixels tall. The width is set automatically."
+msgstr "Apple wil dat de knopgrootte aansluit op de knop van je winkelwagen/afrekenen. De knop moet 30 tot 64 pixels hoog zijn. De breedte wordt automatisch ingesteld."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Check button size here"
+msgstr "Controleer hier de knopgrootte"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:46
+msgid "Accept Google Pay™ on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Accepteer Google Pay® op ondersteunde apparaten en laat klanten sneller betalen. Word snel betaald met overschrijvingen die soms maar een werkdag duren. %1$sGoDaddy Payments-voorwaarden zijn van toepassing%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:97
+msgid "Google Pay Settings"
+msgstr "Instellingen Google Pay"
+
+#. translators: Placeholders: %1$s - open <a> HTML link tag, %2$s - close </a> HTML link tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:104
+msgid "Google Pay shows on %1$ssupported browsers%2$s."
+msgstr "Google Pay wordt bij %1$sondersteunde browsers%2$s weergegeven."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:112
+msgid "Pages to enable Google Pay on"
+msgstr "Pagina's waarop Google Pay is ingeschakeld"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:133
+msgctxt "Google Pay"
+msgid "Book with"
+msgstr "Boeken met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:134
+msgctxt "Google Pay"
+msgid "Buy with"
+msgstr "Kopen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:135
+msgctxt "Google Pay"
+msgid "Check out with"
+msgstr "Afrekenen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:136
+msgctxt "Google Pay"
+msgid "Donate with"
+msgstr "Doneren met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:137
+msgctxt "Google Pay"
+msgid "Order with"
+msgstr "Bestellen met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:138
+msgctxt "Google Pay"
+msgid "Pay with"
+msgstr "Betaal met"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:139
+msgctxt "Google Pay"
+msgid "Plain (logo only)"
+msgstr "Normaal (alleen logo)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Google requests the button size match your cart/checkout button and be 40 to 100 pixels tall."
+msgstr "Google wil dat de knopgrootte aansluit op de knop van je winkelwagen/afrekenen. De knop moet 40 tot 100 pixels hoog zijn."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:92
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:667
+msgid "Credit/Debit Card"
+msgstr "Creditcard/betaalpas"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:93
+msgid "Securely accept credit/debit cards in your checkout."
+msgstr "Accepteer veilig creditcards/betaalpassen bij het afrekenen."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:133
+msgid "Accept all major credit/debit cards in your checkout quickly and securely. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Reken snel en veilig af met alle belangrijke creditcards/betaalkaarten. Word snel betaald met overschrijvingen die soms maar een werkdag duren. %1$sGoDaddy Payments-voorwaarden zijn van toepassing%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:224
+msgid "Business Name:"
+msgstr "Bedrijfsnaam:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:229
+msgid "Email:"
+msgstr "E-mail:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:235
+msgid "Switch account"
+msgstr "Van account wisselen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:254
+msgid "Account Details"
+msgstr "Accountgegevens"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your account settings in the %1$spayments dashboard%2$s"
+msgstr "Beheer de instellingen van je account via het %1$sdashboard voor betalingen%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "Je beheert de instellingen van je GoDaddy Payments-account in het %1$scentrum voor betalingen%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:302
+#: src/WooCommerce/Payments/StripeGateway.php:532
+msgid "Checkout Settings"
+msgstr "Instellingen afrekenen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:520
+msgid "Title in Checkout"
+msgstr "Naam bij het afrekenen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:526
+msgid "Description in Checkout"
+msgstr "Beschrijving bij het afrekenen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:533
+#: src/WooCommerce/Payments/StripeGateway.php:559
+msgid "Transaction Type"
+msgstr "Transactietype"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:535
+#: src/WooCommerce/Payments/StripeGateway.php:561
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "Selecteer hoe transacties moeten worden verwerkt. Bij Betalen worden alle transacties vereffend, bij Autorisatie wordt alleen het totaal van de bestelling geautoriseerd om later te worden vastgelegd."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:538
+#: src/WooCommerce/Payments/StripeGateway.php:564
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "Betalen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:539
+#: src/WooCommerce/Payments/StripeGateway.php:565
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "Autorisatie"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:543
+msgid "Charge Virtual-Only Orders"
+msgstr "Alleen virtuele bestellingen betalen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:545
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "Als de bestelling alleen virtuele items bevat, schakel je dit in om de transactie meteen in rekening te brengen in plaats van te autoriseren."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:549
+msgid "Capture Paid Orders"
+msgstr "Betaalde bestellingen vastleggen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:553
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "Leg automatisch bestellingen vast als ze in rekening worden gebracht bij %s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:554
+msgid "a paid status"
+msgstr "een betaalde status"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:558
+#: src/WooCommerce/Payments/StripeGateway.php:537
+msgid "Accepted Card Logos"
+msgstr "Logo's van geaccepteerde kaarten"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:560
+#: src/WooCommerce/Payments/StripeGateway.php:539
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "Dit zijn de logo's van de kaarten die worden weergegeven bij het afrekenen als geaccepteerde betaalmethoden."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:563
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+msgstr "Deze instelling wijzigt %1$sniet%2$s welke soorten kaarten worden geaccepteerd door de gateway."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:574
+#: src/WooCommerce/Payments/StripeGateway.php:547
+msgid "Saved Cards"
+msgstr "Opgeslagen kaarten"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:576
+#: src/WooCommerce/Payments/StripeGateway.php:549
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "Laat klanten hun betaalpassen veilig opslaan in hun account zodat ze ook later kunnen afrekenen."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:580
+#: src/WooCommerce/Payments/StripeGateway.php:553
+msgid "Detailed Decline Messages"
+msgstr "Gedetailleerde berichten bij afwijzingen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:582
+#: src/WooCommerce/Payments/StripeGateway.php:555
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "Schakel gedetailleerde berichten bij afwijzingen in voor klanten tijdens het afrekenen in plaats van een algemeen bericht."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:586
+#: src/WooCommerce/Payments/StripeGateway.php:569
+msgid "Debug Mode"
+msgstr "Debugmodus"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:588
+#: src/WooCommerce/Payments/StripeGateway.php:571
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "Geef gedetailleerde foutmeldingen en API-aanvragen/-reacties weer op de afrekenpagina en/of sla ze op in het debuglogboek"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:591
+#: src/WooCommerce/Payments/StripeGateway.php:574
+msgid "Off"
+msgstr "Uit"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:592
+#: src/WooCommerce/Payments/StripeGateway.php:575
+msgid "Show on Checkout Page"
+msgstr "Weergeven op de afrekenpagina"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:593
+#: src/WooCommerce/Payments/StripeGateway.php:576
+msgid "Save to Log"
+msgstr "Opslaan in logboek"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:594
+#: src/WooCommerce/Payments/StripeGateway.php:577
+msgid "Both"
+msgstr "Beide"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:653
+msgid "Pay securely with your credit/debit card."
+msgstr "Betaal veilig met je creditcard/betaalpas."
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:191
+msgid "Pre-Order release payment failed: %s"
+msgstr "Betaling voor vrijgifte voorafgaand aan bestelling mislukt: %s"
+
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:146
+msgid "Currently unavailable"
+msgstr "Momenteel niet beschikbaar"
+
+#. translators: Placeholders: %1$s & %3$s - <a> tag, %2$s & %4$s - </a> tag
+#: src/WooCommerce/Payments/StripeGateway.php:77
+msgid "Securely accept online payments via credit/debit card, wallets, bank redirects, and other methods enabled in your Stripe account. %1$sView Stripe pricing%2$s for your business' location and payment methods. %3$sStripe terms apply%4$s."
+msgstr "Accepteer veilig online betalingen via creditcard/betaalpas, wallets, omleidingen naar banken en andere methoden die in je Stripe-account zijn ingeschakeld. %1$sBekijk de tarieven van Stripe%2$s voor de vestiging en betaalmethoden van je bedrijf. %3$sDe voorwaarden van Stripe zijn van toepassing%4$s."
+
+#: src/WooCommerce/Payments/StripeGateway.php:244
+msgid "You are about to disconnect your Stripe account. Your store will not be able to process transactions using Stripe until you connect an account again."
+msgstr "Je bent je Stripe-account aan het ontkoppelen. Je winkel kan pas weer transacties met Stripe verwerken als je opnieuw een account koppelt."
+
+#: src/WooCommerce/Payments/StripeGateway.php:486
+msgid "General"
+msgstr "Algemeen"
+
+#: src/WooCommerce/Payments/StripeGateway.php:505
+msgid "Disconnect Stripe Account"
+msgstr "Stripe-account ontkoppelen"
+
+#: src/WooCommerce/Payments/StripeGateway.php:514
+msgid "Connecting to Stripe..."
+msgstr "Verbinden met Stripe..."
+
+#: src/WooCommerce/Payments/StripeGateway.php:516
+msgid "This operation can take up to a few seconds. Please reload this page to check the current status."
+msgstr "Deze bewerking kan een paar seconden duren. Laad deze pagina opnieuw om de huidige status te controleren."
+
+#: src/WooCommerce/Payments/StripeGateway.php:526
+msgid "Connect Stripe Account"
+msgstr "Stripe-account koppelen"
+
+#: src/WooCommerce/Payments/StripeGateway.php:590
+msgid "Affirm"
+msgstr "Affirm"
+
+#: src/WooCommerce/Payments/StripeGateway.php:591
+msgid "Afterpay / Clearpay"
+msgstr "Afterpay/Clearpay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:592
+msgid "Alipay"
+msgstr "Alipay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:593
+msgid "BECS direct debit"
+msgstr "BECS direct debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:594
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: src/WooCommerce/Payments/StripeGateway.php:595
+msgid "Boleto"
+msgstr "Boleto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:596
+msgid "Credit / Debit"
+msgstr "Creditcard/betaalpas"
+
+#: src/WooCommerce/Payments/StripeGateway.php:597
+msgid "EPS"
+msgstr "EPS"
+
+#: src/WooCommerce/Payments/StripeGateway.php:598
+msgid "FPX"
+msgstr "FPX"
+
+#: src/WooCommerce/Payments/StripeGateway.php:599
+msgid "Giropay"
+msgstr "Giropay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:600
+msgid "GrabPay"
+msgstr "GrabPay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:601
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: src/WooCommerce/Payments/StripeGateway.php:602
+msgid "Klarna"
+msgstr "Klarna"
+
+#: src/WooCommerce/Payments/StripeGateway.php:603
+msgid "Konbini"
+msgstr "Konbini"
+
+#: src/WooCommerce/Payments/StripeGateway.php:604
+msgid "OXXO"
+msgstr "OXXO"
+
+#: src/WooCommerce/Payments/StripeGateway.php:605
+msgid "P24"
+msgstr "P24"
+
+#: src/WooCommerce/Payments/StripeGateway.php:606
+msgid "PayNow"
+msgstr "PayNow"
+
+#: src/WooCommerce/Payments/StripeGateway.php:607
+msgid "SEPA Debit"
+msgstr "SEPA Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:608
+msgid "Sofort"
+msgstr "Sofort"
+
+#: src/WooCommerce/Payments/StripeGateway.php:609
+msgid "ACH Direct Debit"
+msgstr "ACH Direct Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:610
+msgid "WeChat Pay"
+msgstr "WeChat Pay"
+
+#: src/WooCommerce/Shipping/CoreShippingMethods.php:161
+msgid "Order Instructions:"
+msgstr "Instructies bestelling:"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:69
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:141
+msgid "Local delivery"
+msgstr "Lokaal bezorgen"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:70
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "Laat klanten een service voor lokale bezorging kiezen. De btw wordt bepaald op basis van het verzendadres van de klant."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "Voer een prijs (exclusief btw) in of een som, bijv. <code>10,00 * [qty]</code>."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "Gebruik <code>[qty]</code> voor het aantal items, <br/><code>[cost]</code> voor de totale kosten van de items en <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> voor op percentages gebaseerde kosten."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:138
+msgid "Checkout Title"
+msgstr "Titel van afrekenen"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:140
+msgid "This controls the title which the user sees during checkout."
+msgstr "Hiermee kies je de titel die de gebruiker ziet tijdens het afrekenen."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:145
+msgid "Tax status"
+msgstr "Btw-status"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:150
+msgid "Taxable"
+msgstr "Belastbaar"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:151
+msgctxt "Tax status"
+msgid "None"
+msgstr "Geen"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:155
+msgid "Cost"
+msgstr "Kosten"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:163
+msgid "Minimum order amount total when available"
+msgstr "Minimaal totaalbedrag bestelling, indien beschikbaar"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:166
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "Het bedrag dat de bestelling van een klant minimaal moet kosten om de verzendmethode te selecteren."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:171
+msgid "Minimum order total when free"
+msgstr "Minimaal totaalbedrag bestelling indien gratis"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:174
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "Het bedrag dat de bestelling van een klant minimaal moet kosten om de gratis verzendmethode te gebruiken."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:182
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "Deze beschrijving wordt weergegeven onder de naam van de verzendmethode voor lokaal bezorgen op de pagina's Winkelwagen en Afrekenen."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:189
+msgid "Delivery instructions"
+msgstr "Instructies voor bezorgen"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:190
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "Bericht dat de klant ziet op de pagina met de ontvangen bestelling en in de e-mail voor verwerking van de bestelling na het afrekenen."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:120
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "De beschrijving van de verzendmethode die de klant ziet bij het afrekenen."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:126
+msgid "Pickup instructions"
+msgstr "Instructies ophalen"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:128
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "Bericht dat de klant ziet op de pagina met de ontvangen bestelling en in de e-mails voor verwerking van de bestelling en klaar voor ophalen."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:222
+#: src/WooCommerce/Shipping/LocalPickup.php:231
+#: src/WooCommerce/Shipping/LocalPickup.php:255
+msgid "Pickup Instructions"
+msgstr "Afhaalinstructies"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "Vervoerder"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "Trackingnummer"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "Items"
+
+#: src/WooCommerce/Views/Components/GoDaddyIcon.php:25
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/WordPress/Interceptors/EnforcePostNamePermalinksInterceptor.php:111
+msgid "Warning! Plain Permalinks Detected"
+msgstr "Waarschuwing! Permalinks zonder opmaak gevonden"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:130
+msgid "You attempted to install a blocked plugin."
+msgstr "Je hebt geprobeerd een geblokkeerde plug-in te installeren."
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:140
+msgid "One or more blocked plugins have been removed."
+msgstr "Een of meer geblokkeerde plug-ins zijn verwijderd."
+
+#. translators: Placeholders: %1$s - Opening <a> tag, %2$s - Closing </a> tag
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:152
+msgid "GoDaddy disallows a small list of plugins that can cause performance and other issues on your store. If you attempt to install them, we'll remove them for you. You can check out %1$sthe entire plugin blocklist here%2$s."
+msgstr "Bij GoDaddy is een kleine lijst met plug-ins niet toegestaan omdat ze prestatie- en andere problemen kunnen veroorzaken in je winkel. Als je ze probeert te installeren, verwijderen wij ze voor je. Je kunt %1$shier de hele lijst met geblokkeerde plug-ins%2$s bekijken."
+
+#: templates/woocommerce/emails/order/order-shipments.php:23
+#: templates/woocommerce/emails/plain/order/order-shipments.php:24
+#: templates/woocommerce/order/order-shipments.php:25
+msgid "Shipments"
+msgstr "Verzendingen"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:29
+#: templates/woocommerce/emails/plain/order/order-shipments.php:31
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:35
+msgid "Tracking URL: %s"
+msgstr "Tracking-URL: %s"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:40
+msgid "%s: "
+msgstr "%s: "
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:44
+msgid "%1$s x %2$s"
+msgstr "%1$s x %2$s"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:32
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "Je bestelling kan worden opgehaald."

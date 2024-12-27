@@ -1,0 +1,178 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Sequential Order Numbers\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-22T15:50:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: woocommerce-sequential-order-numbers-pro\n"
+
+#: class-wc-seq-order-number-pro.php:210
+#: class-wc-seq-order-number-pro.php:248
+msgid "View settings"
+msgstr ""
+
+#: class-wc-seq-order-number-pro.php:217
+msgid "Your hosting plan now offers formatted order numbers, no plugin needed! Use a prefix or suffix, change your starting number, and differentiate free orders. Configure your settings now."
+msgstr ""
+
+#: class-wc-seq-order-number-pro.php:255
+msgid "Your order numbers are now sequential, no plugin needed! We've migrated your order number settings and deactivated the Sequential Order Numbers plugin. Review your settings here."
+msgstr ""
+
+#: class-wc-seq-order-number-pro.php:684
+msgid "Draft"
+msgstr ""
+
+#: class-wc-seq-order-number-pro.php:824
+msgid "Order Number Start must be a number greater than or equal to 0."
+msgstr ""
+
+#. translators: Placeholders: %1$s - highest order number, %2$s - current order number set
+#: class-wc-seq-order-number-pro.php:850
+msgid "There is an existing order (%1$s) with a number greater than or equal to %2$s. To set a new order number start please choose a higher number or permanently delete the relevant order(s)."
+msgstr ""
+
+#. translators: FREE- as in free purchase order
+#: class-wc-seq-order-number-pro.php:1349
+#: src/Admin/Settings.php:245
+msgid "FREE-"
+msgstr ""
+
+#: class-wc-seq-order-number-pro.php:1397
+msgid "WooCommerce Sequential Order Numbers Pro"
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:210
+msgid "Order Number Start"
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:211
+msgid "Set your starting order number for new orders. You can use leading zeroes to control the required order number length (e.g., “0001” for order numbers that must be four digits long)."
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:227
+msgid "Order Number Prefix"
+msgstr ""
+
+#. translators: Placeholders: %1$s - opening <a> link HTML tag, %2$s closing </a> link HTML tag
+#: src/Admin/Onboarding_Tips.php:230
+msgid "Add a custom prefix to your order numbers for new orders. %1$sClick here for prefix patterns%2$s that can add special values, such as the month or year, to your order numbers."
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:249
+msgid "Order Number Suffix"
+msgstr ""
+
+#. translators: Placeholders: %1$s - opening <a> link HTML tag, %2$s closing </a> link HTML tag
+#: src/Admin/Onboarding_Tips.php:252
+msgid "Add a custom suffix to your order numbers for new orders. %1$sClick here for suffix%2$s patterns that can add special values, such as the month or year, to your order numbers."
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:271
+#: src/Admin/Settings.php:228
+msgid "Skip Free Orders"
+msgstr ""
+
+#. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s closing </strong> link HTML tag
+#: src/Admin/Onboarding_Tips.php:274
+msgid "Select this setting to skip free orders in your order number sequence. When enabled, you can set a %1$sFree Order Identifier%2$s to add a prefix to free orders."
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:289
+msgid "Save Changes"
+msgstr ""
+
+#. translators: Placeholders: %1$s - opening <strong> HTML tag, %2$s closing </strong> link HTML tag
+#: src/Admin/Onboarding_Tips.php:292
+msgid "Click %1$sSave Changes%2$s to save your settings."
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:355
+msgid "Dismiss"
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:359
+msgid "Next"
+msgstr ""
+
+#: src/Admin/Onboarding_Tips.php:362
+msgid "Finish"
+msgstr ""
+
+#: src/Admin/Settings.php:54
+msgid "Orders"
+msgstr ""
+
+#: src/Admin/Settings.php:141
+msgid "{mm}"
+msgstr ""
+
+#: src/Admin/Settings.php:142
+msgid "Prefix"
+msgstr ""
+
+#: src/Admin/Settings.php:148
+msgid "Number"
+msgstr ""
+
+#: src/Admin/Settings.php:154
+msgid "{yyyy}"
+msgstr ""
+
+#: src/Admin/Settings.php:155
+msgid "Suffix"
+msgstr ""
+
+#: src/Admin/Settings.php:191
+#: src/Admin/Settings.php:207
+msgid "Order Numbers"
+msgstr ""
+
+#: src/Admin/Settings.php:209
+msgid "Use sequential, formatted order numbers to track your orders. Change the starting number, or add prefixes and suffixes for accounting."
+msgstr ""
+
+#: src/Admin/Settings.php:213
+msgid "Sample Order Number"
+msgstr ""
+
+#: src/Admin/Settings.php:220
+msgid "Order Number Format"
+msgstr ""
+
+#: src/Admin/Settings.php:221
+msgid "Enter prefixes, suffixes, or patterns for order numbers. You can use leading 0s to control order number length."
+msgstr ""
+
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a> link tag
+#: src/Admin/Settings.php:225
+msgid "See the %1$sdocumentation%2$s for the full set of available patterns."
+msgstr ""
+
+#: src/Admin/Settings.php:229
+msgid "Skip order numbers for free orders"
+msgstr ""
+
+#: src/Admin/Settings.php:230
+msgid "Use a different sequence and prefix for free orders. Example: FREE-123."
+msgstr ""
+
+#: src/Admin/Settings.php:237
+msgid "Free Order Identifier"
+msgstr ""
+
+#. translators: Placeholders: %s - sample order number
+#: src/Admin/Settings.php:239
+msgid "Example free order identifier: %s"
+msgstr ""
+
+#: src/Admin/Settings.php:240
+msgid "The text to display in place of the order number for free orders. This will be displayed anywhere an order number would otherwise be shown: to the customer, in emails, and in the admin."
+msgstr ""

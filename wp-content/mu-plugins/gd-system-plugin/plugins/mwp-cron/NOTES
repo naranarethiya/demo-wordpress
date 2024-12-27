@@ -1,0 +1,41 @@
+
+# run a specific cron
+curl -X POST 'http://127.0.0.1:8080/wp-includes/mwp/run-cron.php?ts=1628237304&hook=wp_scheduled_delete&hash=40cd750bba9870f18aada2478b24840a'
+
+# list cron
+curl http://127.0.0.1:8080/wp-includes/mwp/list-cron.php
+
+TODO
+- when a hook is executed
+  * remove any future hook_calls (hook_name, hook_hash) from $crons (in-memory)
+  * add a hook_call to $crons based on $hook_call['interval']
+  * call update_option('cron', $crons)
+    - may need a more atomic way of replacing that
+
+This cleans up any duplicate/spammed hooks and makes sure the schedule is actually followed.
+
+
+
+- scanning against list-cron.php
+  * example: P3
+    - 300,000 sites
+    - 10 requests a second
+      => 30,000 seconds
+      => 500 minutes
+      => 8 hours
+
+- throttle based on pod, which we already have in platform db
+  * feedback mechanism for pod health
+- global throttle across all pods (mostly for filer/global resource health)
+
+- keep statistics for each (hook, hook_hash)
+  * runtime
+  * memory (?)
+
+
+- fixed_priority(10) -- woocommerce
+  * decay(scheduled_run_time)
+  * weight(average_hook_cost)
+  * weight(site_specific_hook_cost)
+
+

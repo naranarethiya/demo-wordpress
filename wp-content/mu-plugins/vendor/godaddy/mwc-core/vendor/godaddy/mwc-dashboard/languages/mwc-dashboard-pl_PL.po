@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "Nie można było znaleźć rozszerzenia z podaną uproszczoną nazwą: %s."
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "Nie można było znaleźć wersji %1$s rozszerzenia %2$s."
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "Identyfikator rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "Uproszczona nazwa rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "Nazwa rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "Krótki opis rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "Typ rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "Kategoria rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "Marka rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "Informacje o zainstalowanej wersji rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "Numer wersji."
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "Wymagana wersja PHP."
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "Wymagana wersja WordPressa."
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "Wymagana wersja WooCommerce."
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "Znacznik czasu w sekundach, kiedy wersja została wydana."
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "Adres URL, z którego można pobrać pakiet"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "Stan zainstalowanej wersji (czy jest to najnowsza wersja)"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "Adres URL dokumentacji rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "Czy rozszerzenie jest wyróżnione."
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "Stan rozszerzenia."
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "Informacje o wersjach dostępnych dla rozszerzenia."
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "Identyfikator wiadomości do usunięcia."
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "Nie znaleziono metody uwierzytelniania dla komponentu %s"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "Nie można pobrać zdalnych danych wiadomości: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "Nie można pobrać zdalnych danych wiadomości: – interfejs API odpowiedział statusem %d, błąd: %s"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "Zdalne dane wiadomości są nieprawidłowe"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "Nieprawidłowy identyfikator wiadomości"
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "Unikatowy identyfikator wiadomości."
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "Typ wiadomości"
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "Temat wiadomości."
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "Treść wiadomości."
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "Data publikacji."
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "Data ważności."
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "Przyciski lub łącza wyświetlane wraz z wiadomością."
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "Tekst działania."
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "Element href działania."
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "Typ działania."
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "Reguły, które mają być oceniane przez klienta, aby zdecydować, czy wiadomość powinna zostać wyświetlona."
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "Etykieta reguły."
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "Nazwa reguły."
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "Typ reguły."
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "Powiązany obiekt używany do oceny reguły."
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "Element powiązanego obiektu używany do oceny reguły."
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "Operator porównania używany do oceny reguły."
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "Wartość odniesienia używana do oceny reguły."
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "Odnośniki z danymi, które mają zostać pobrane i wykorzystane do oceny reguł."
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "Element href odnośnika."
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "Powiązany obiekt reprezentowany przez odnośnik."
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "Typ żądania w celu pobrania danych."
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "Status wiadomości dla bieżącego użytkownika."
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "Identyfikator pozycji."
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "Identyfikator produktu."
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "Identyfikator wariantu."
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "Nazwa produktu."
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "Ilość pozycji."
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "Liczba niezrealizowanych pozycji."
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "Obrazek produktu."
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "Wysokość obrazka."
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "Szerokość obrazka."
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "Adres URL źródła obrazka"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "Lista adresów URL źródła obrazka"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "Rozmiary obrazka"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "Identyfikator zamówienia."
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "Czy zamówienie zostało zrealizowane."
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "Przesyłki dla zamówienia."
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "Identyfikator przesyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "Data utworzenia przesyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "Data ostatniej aktualizacji przesyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "Przewoźnik przesyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "Numer śledzenia przesyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "Adres URL śledzenia przesyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "Pozycje zawarte w przesyłce."
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "Identyfikator pozycji."
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "Identyfikator produktu."
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "Identyfikator wariantu produktu."
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "Ilość pozycji."
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "Adres e-mail zamówienia."
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "Numer zamówienia, inny niż identyfikator zamówienia."
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "Czy zamówienie jest uważane za „opłacone”."
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "Nazwa dostawcy płatności (w terminologii Woo, identyfikator bramki)."
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "Ogólny status zamówienia."
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "Łączna kwota zamówienia"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "Pełna kwota zamówienia, w najmniejszej jednostce danego kodu waluty."
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "Kod waluty."
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "Adres rozliczeniowy zamówienia."
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "Tablica okręgów administracyjnych."
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "Nazwa firmy w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "Kod kraju w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "Imię klienta w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "Nazwisko klienta w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "Linie adresu rozliczeniowego."
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "Miejscowość w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "Numer telefonu w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "Kod pocztowy w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "Osiedla w adresie rozliczeniowym."
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "Reprezentacja ciągu znaków dla adresu rozliczeniowego"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "Adres wysyłki zamówienia"
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "Nazwa firmy w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "Kod kraju w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "Imię klienta w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "Nazwisko klienta w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "Linie adresu wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "Miejscowość w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "Numer telefonu w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "Kod pocztowy w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "Osiedla w adresie wysyłki."
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "Reprezentacja ciągu znaków dla adresu wysyłki"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "Informacje o rynkach dla zamówienia."
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "Powiązany numer zamówienia na rynkach."
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "Unikatowy identyfikator kanału rynków."
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "Nazwa kanału rynków."
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "Nazwa typu wyświetlania kanału rynków."
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "Uproszczona nazwa wtyczki."
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "Nazwa wtyczki."
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "Czy wtyczka jest zarządzaną wtyczką MWC"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "Status subskrypcji wtyczki na stronie WooCommerce.com."
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "Adres URL dokumentacji wtyczki"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "Etykieta przewoźnika."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "Nazwa przewoźnika."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "Format adresu URL śledzenia przewoźnika."
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "Domyślny identyfikator sklepu do ustawienia dla bieżącego kanału"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "Identyfikator firmy"
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "Identyfikator witryny"
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "Adres URL witryny."
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "Domyślny identyfikator sklepu."
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "Adres e-mail bieżącego administratora."
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "Adres e-mail użytkownika pomocy technicznej, jeśli taki użytkownik istnieje."
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "Czy witryna jest połączona z botem pomocy technicznej."
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "Czy witryna jest połączona z WooCommerce.com."
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "Typ kokpitu (MWC lub pusty)."
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Czy witryna jest sprzedawana przez odsprzedawcę."
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "Identyfikator własnej etykiety odsprzedawcy (1 oznacza GoDaddy, a więc nie odsprzedawcę)."
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "Adres URL do połączenia witryny z botem pomocy technicznej."
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "Określa, czy bieżący użytkownik wyraził zgodę na otrzymywanie wiadomości z kokpitu MWC."
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "Data utworzenia strony sklepu."
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "Adres, wiersz 1"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "Adres, wiersz 2"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "Miejscowość"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "Kraj"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "Stan"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "Kod pocztowy"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "Okręgi administracyjne"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "Nazwa firmy"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "Kod kraju"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "Imię"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "Linie adresu"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "Numer telefonu"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "Osiedla"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "Sformatowany adres"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "Czy funkcja powiadomień e-mail witryny jest aktywna."
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "Czy funkcja powiadomień e-mail witryny jest włączona."
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "Czy witryna aktualnie zastępuje którykolwiek z szablonów wiadomości e-mail WooCommerce."
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "Skonfigurowana jednostka wagi"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "Adres e-mail, na który odpowie zespół pomocy technicznej"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "Uproszczona nazwa wtyczki"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "Temat"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "Wiadomość"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "Pole przyczyny"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "Odnośne kanały rynkowe"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "Czy utworzyć użytkownika debugowania"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "Informacje o bieżącym użytkowniku."
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "Identyfikator bieżącego użytkownika."
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "Zgody marketingowe."
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "Czy wyświetlać zalecenia dotyczące rozszerzeń."
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>Uwaga!</strong> Dezaktywowaliśmy wtyczkę SkyVerge Dashboard, ponieważ masz teraz dostęp do kokpitu za pośrednictwem menu Uzyskaj pomoc!"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Pomoc"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Pomoc"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "Rozszerzenia WooCommerce"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "Rozszerzenia"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "Rozszerzenia: %s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "Dołączone rozszerzenia"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "Rozszerzenia dołączone przez GoDaddy"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "Brak subskrypcji"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "Dożywotnia"

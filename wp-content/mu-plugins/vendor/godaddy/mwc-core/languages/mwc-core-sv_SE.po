@@ -1,0 +1,3559 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-03T12:27:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+#: mwc-core.php
+msgid "MWC Core."
+msgstr "MWC Core."
+
+#: configurations/features.php:70
+msgid "Cost of goods"
+msgstr "Varukostnad"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:73
+msgid "Track profit and cost of goods for your store. Generate profit reports by date, product, category, and more. This feature replaces the %1$sCost of Goods%2$s plugin."
+msgstr "Spåra vinst och varukostnader för din butik. Generera resultatrapporter efter datum, produkt, kategori, m.m. Den här funktionen ersätter tillägget %1$sVarukostnad%2$s."
+
+#: configurations/features.php:93
+msgid "Ecommerce emails"
+msgstr "E-handelsmejl"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:96
+msgid "Customize your emails to reflect your brand and increase customer loyalty. This feature replaces the %1$sWooCommerce Email Customizer%2$s plugin."
+msgstr "Anpassa din e-post så att den återspeglar ditt varumärke och ökar kundlojaliteten. Den här funktionen ersätter tillägget %1$sWooCommerce e-postanpassning%2$s."
+
+#: configurations/features.php:124
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+#. translators: Placeholders: %1$s and %3$s - <a> tag for the plugin link, %2$s and %4$s - </a> tag
+#: configurations/features.php:127
+msgid "Track advanced eCommerce events and more with Google Analytics. This feature replaces the %1$sGoogle Analytics%2$s and %3$sGoogle Analytics Pro%4$s plugins."
+msgstr "Spåra avancerade e-handelsevenemang och mer med Google Analytics. Den här funktionen ersätter tilläggen %1$sGoogle Analytics%2$s och %3$sGoogle Analytics Pro%4$s."
+
+#: configurations/features.php:158
+msgid "Sequential order numbers"
+msgstr "Sekventiella ordernummer"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:161
+msgid "Format order numbers, change your starting number, and differentiate free orders. This feature replaces the %1$sSequential Order Numbers Pro%2$s plugin."
+msgstr "Formatera ordernummer, ändra startnummer och differentiera gratisorder. Den här funktionen ersätter tillägget %1$sSekventiella ordernummer Pro%2$s."
+
+#: configurations/features.php:180
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:24
+msgid "Shipment tracking"
+msgstr "Leveransspårning"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:183
+msgid "Share shipment tracking information with your customers. Open one of your Processing orders to get started. This feature replaces the %1$sShipment Tracking%2$s plugin."
+msgstr "Dela leveransspårningsuppgifter med dina kunder. Börja med att öppna en av dina order som behandlas. Den här funktionen ersätter tillägget %1$sLeveransspårning%2$s."
+
+#: configurations/features.php:195
+msgid "Discount links"
+msgstr "Rabattlänkar"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:198
+msgid "Share discount links with your customers and add coupons from ads, email campaigns, or social links. Create or edit a coupon to get started. This feature replaces the %1$sURL Coupons%2$s plugin."
+msgstr "Dela rabattlänkar med dina kunder och lägg till rabattkoder från annonser, e-postkampanjer eller länkar på sociala medier. Börja med att skapa eller redigera en rabattkod. Den här funktionen ersätter tillägget %1$sURL-rabattkunponger%2$s."
+
+#: configurations/features.php:216
+msgid "Gift certificates"
+msgstr "Presentkort"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:219
+msgid "Create custom gift certificates that your customers can purchase and send to their friends and family. This feature replaces the %1$sPDF Product Vouchers%2$s plugin."
+msgstr "Skapa anpassade presentkort som dina kunder kan köpa och skicka till familj och vänner. Den här funktionen ersätter tillägget %1$srabattkoder i PDF-format%2$s."
+
+#: configurations/features.php:253
+msgid "Abandoned checkout reminders"
+msgstr "Påminnelser om övergiven varukorg"
+
+#: configurations/features.php:254
+msgid "Automatically track cart activity and send an email reminder to recover lost revenue."
+msgstr "Spåra automatiskt aktivitet i varukorgen och skicka en e-postpåminnelse för att återhämta förlorade intäkter."
+
+#: configurations/features.php:283
+#: src/Payments/Providers/StripeProvider.php:25
+#: src/WooCommerce/Payments/StripeGateway.php:74
+#: src/WooCommerce/Payments/StripeGateway.php:185
+msgid "Stripe"
+msgstr "Stripe"
+
+#: configurations/features.php:284
+msgid "Accept credit card payments using Stripe."
+msgstr "Ta emot kreditkortsbetalningar med Stripe."
+
+#: configurations/features.php:294
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:100
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:41
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:42
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:80
+msgid "Marketplaces"
+msgstr "Marknadsplatser"
+
+#: configurations/features.php:295
+msgid "Sell to millions of customers from one place. Offer your products everywhere, from Amazon to Instagram, all from your own online store."
+msgstr "Sälj till miljoner kunder från ett och samma ställe. Erbjud dina produkter överallt. Från Amazon till Instagram, och allt från din egen onlinebutik."
+
+#: configurations/features.php:316
+msgid "Take order fulfillment to the next level! Get live shipping rates from your favourite providers, print labels in one click, and automate shipment tracking and customer email notifications."
+msgstr "Ta orderdistribution till nästa nivå! Få aktuella fraktkostnader från dina favorittransportörer, skriv ut fraktsedlar med ett klick och automatisera leveransspårning och e-postaviseringar till kunderna."
+
+#: src/API/Controllers/AccountController.php:108
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "Återförsäljaren privata etikett-ID (1 står för GoDaddy, alltså inte en återförsäljare)."
+
+#: src/API/Controllers/AccountController.php:114
+msgid "Whether the account can manually switch between extension versions."
+msgstr "Om kontot kan växlas manuellt mellan utökningsversioner."
+
+#: src/API/Controllers/AccountController.php:120
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Om webbplatsen säljs av en återförsäljare eller ej."
+
+#: src/API/Controllers/AccountController.php:126
+msgid "The product plan the given account or site has purchased"
+msgstr "Den produktplan som det aktuella kontot eller webbplatsen har köpt"
+
+#: src/API/Controllers/AccountController.php:132
+msgid "The hosting platform the given account or site is running on"
+msgstr "Den värdtjänstplattform som det aktuella kontot eller webbplatsen körs på"
+
+#: src/API/Controllers/AccountController.php:138
+msgid "The ID of the customer"
+msgstr "Kundens ID"
+
+#: src/API/Controllers/AccountController.php:144
+msgid "The ID of the Federation Partner"
+msgstr "ID för federationspartner"
+
+#: src/API/Controllers/Platform/StoresController.php:117
+msgid "A list of businesses."
+msgstr "En lista över företag."
+
+#: src/API/Controllers/Platform/StoresController.php:124
+msgid "The unique identifier for the business."
+msgstr "Företagets unika identitetsbeteckning."
+
+#: src/API/Controllers/Platform/StoresController.php:128
+msgid "The legal name of the business."
+msgstr "Företagets juridiska namn."
+
+#: src/API/Controllers/Platform/StoresController.php:132
+msgid "A list of stores associated with the business."
+msgstr "En lista med butiker som är kopplade till företaget."
+
+#: src/API/Controllers/Platform/StoresController.php:138
+msgid "The display name of the store."
+msgstr "Butikens namn."
+
+#: src/API/Controllers/Platform/StoresController.php:143
+msgid "The unique identifier for the store."
+msgstr "Butikens unika identitetsbeteckning."
+
+#: src/Auth/API/Controllers/TokenController.php:84
+msgid "The access token string as issued by the authorization server."
+msgstr "Sträng för åtkomsttoken såsom den utfärdades av auktoriseringsservern."
+
+#: src/Auth/API/Controllers/TokenController.php:90
+msgid "Number of seconds to expiration of the access token."
+msgstr "Antal sekunder innan åtkomsttoken upphör."
+
+#: src/Auth/API/Controllers/TokenController.php:96
+msgid "The scope the token granted."
+msgstr "Tokens omfattning."
+
+#: src/Auth/API/Controllers/TokenController.php:102
+msgid "Access Token ID."
+msgstr "Åtkomsttoken-ID."
+
+#: src/Auth/API/Controllers/TokenController.php:108
+msgid "The type of token this is."
+msgstr "Typ av token."
+
+#: src/Auth/Sso/WordPress/Events/Subscribers/ForceCareAgentAdminRoleSubscriber.php:61
+msgid "The care agent account on this site has been misconfigured. Please log in again to fix this issue."
+msgstr "Supportagentkontot på den här webbplatsen har konfigurerats fel. Logga in igen för att lösa problemet."
+
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:103
+msgid "Something went wrong when creating the user account."
+msgstr "Något gick fel när användarkontot skulle skapas."
+
+#. translators: Placeholder: %s account username
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:131
+msgid "User %s could not be logged in."
+msgstr "Användaren %s kunde inte loggas in."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:157
+msgid "You cannot delete the main administrator account."
+msgstr "Du kan inte ta bort huvudadministratörens konto."
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:159
+msgid "Delete"
+msgstr "Ta bort"
+
+#: src/Client/Client.php:433
+msgid "Other"
+msgstr "Annat"
+
+#: src/Configuration/CartRecoveryEmailsFeatureRuntimeConfiguration.php:73
+msgid "Automatically track cart activity and recover lost revenue with a dedicated email campaign."
+msgstr "Spåra automatiskt aktivitet i varukorgen och återhämta förlorade intäkter med en riktad e-postkampanj."
+
+#: src/Email/RemoteRenderingEmailService.php:130
+msgid "Unknown error."
+msgstr "Okänt fel."
+
+#: src/Email/Repositories/EmailSenderRepository.php:108
+msgid "Unable to retrieve the email sender data."
+msgstr "Det gick inte att hämta uppgifter om e-postavsändaren."
+
+#: src/Features/CartRecoveryEmails/DataProviders/CheckoutDataProvider.php:56
+msgctxt "Subject of greeting when name is not known (this can be translated to empty string for languages where \"Hi there!\" cannot be rendered as in English and it will result in just \"Hi!\")"
+msgid "there"
+msgstr "där"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:43
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:116
+msgid "Did you forget something?"
+msgstr "Har du glömt något?"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:57
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:103
+msgid "Content"
+msgstr "Innehåll"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:62
+msgid "Hey there! You left your shopping cart without completing your purchase just a bit ago. It's not too late to complete your purchase! All of the products are still waiting for you."
+msgstr "Hej! Du lämnade din varukorg utan att slutföra köpet för en stund sedan. Det är inte för sent att slutföra köpet. Alla produkterna väntar fortfarande på dig."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:76
+msgid "Button text"
+msgstr "Knapptext"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:82
+msgid "Complete your purchase"
+msgstr "Slutför ditt köp"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:92
+msgid "Trouble checking out? We're here to help. Please reply to this email if you have any questions or need our assistance."
+msgstr "Har du problem i kassan? Vi kan hjälpa dig. Svara på det här e-postmeddelandet om du har frågor eller behöver hjälp."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:60
+msgid "Cart Recovery"
+msgstr "Återställa varukorg"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:61
+msgid "Send a reminder email to customers that left products in their cart but didn't complete the checkout."
+msgstr "Skicka ett påminnelsemeddelande till kunder som har lämnat produkter i varukorgen men inte slutförde köpet i kassan."
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:105
+msgid "Hey {{customer_first_name}}, did you forget something?"
+msgstr "Hallå där {{customer_first_name}}, har du glömt något?"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:14
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:14
+msgid "Hey {{customer_first_name}}!"
+msgstr "Hej {{customer_first_name}}!"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:22
+msgid "Your shopping cart has been reserved and is still waiting for you! In your cart, you left the following products:"
+msgstr "Din varukorg har reserverats och väntar fortfarande på dig. Du lämnade följande produkter i din varukorg:"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:30
+msgid "It's not too late to complete this purchase -- these products are still waiting for you!"
+msgstr "Det är inte för sent att slutföra det här köpet – produkterna väntar fortfarande på dig."
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:22
+msgid "Your shopping cart was reserved a few days ago and it will expire soon. In your cart, you left the following products:"
+msgstr "Din varukorg reserverades för några dagar sedan och artiklarna tas snart bort. Du lämnade följande produkter i din varukorg:"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:30
+msgid "Ready to complete this purchase before your cart expires? Click the above button to purchase these items."
+msgstr "Är du redo att slutföra det här köpet innan artiklarna i varukorgen tas bort? Klicka på ovanstående knapp om du vill köpa de här artiklarna."
+
+#: src/Features/CartRecoveryEmails/Settings/OptOutSetting.php:27
+msgid "Your email and cart will be saved so we can send you an email reminder about this order."
+msgstr "Din e-postadress och varukorg sparas så att vi kan skicka en påminnelse om ordern till dig via e-post."
+
+#: src/Features/Commerce/Catalog/Helpers/CheckForDeletedProductHelper.php:75
+msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
+msgstr "Du försökte redigera ett objekt som inte finns. Det kanske har raderats?"
+
+#: src/Features/Commerce/Catalog/Interceptors/Handlers/CommerceProductUuidRequestHandler.php:48
+msgid "Product not found."
+msgstr "Produkt ej hittad."
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:149
+msgid "Product categories must be deleted in Commerce Home"
+msgstr "Produktkategorier måste tas bort i startsida för Handel"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:150
+msgid "Delete product category"
+msgstr "Ta bort produktkategori"
+
+#. translators: External link icon
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:152
+msgid "Delete %s"
+msgstr "Ta bort %s"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductEditInterceptor.php:82
+msgid "The \"Any\" attribute cannot be used for variable products synced with your GoDaddy Commerce product catalog. Please specify the attribute value for each variation, then save your changes."
+msgstr "Attributet \"Valfri\" kan inte användas för variabla produkter som synkroniseras med din produktkatalog i GoDaddy Handel. Ange attributvärdet för varje variation och spara sedan dina ändringar."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:80
+msgid "Required for storing Product data in Commerce Home. Stock management can be enabled or disabled per product. Learn more about %1$sproduct inventory settings%2$s."
+msgstr "Krävs för att lagra produktdata på hemsidan för handel. Lagerhantering kan aktiveras eller inaktiveras per produkt. Läs mer om %1$sinställningar för produktlager%2$s."
+
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:90
+msgid "Inventory amounts displayed on the frontend reflect total available for purchase and exclude reserved stock."
+msgstr "De lagerantal som visas i front-end återspeglar det totala antalet tillgängligt för köp, och inbegriper inte reserverade artiklar."
+
+#. translators: Placeholders: %1$s - a product name, %2$s - a product SKU, %3$s - an API error message
+#: src/Features/Commerce/Inventory/Services/OrderReservationsService.php:75
+msgid "An error occurred while reserving stock for %1$s (%2$s). %3$s"
+msgstr "Det uppstod ett fel när lager reserverades för %1$s (%2$s). %3$s"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:95
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:241
+msgid "Available Pickup Locations"
+msgstr "Tillgängliga upphämtningsställen"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:98
+msgid "Select the location(s) that should be available for local pickup."
+msgstr "Välj platser som ska vara tillgängliga för lokal upphämtning."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:195
+msgid "Pickup location"
+msgstr "Upphämtningsställe"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:261
+msgid "No pickup locations available"
+msgstr "Inga tillgängliga upphämtningsställen"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:263
+msgid "Please choose another shipping method, or contact the store for a pickup location."
+msgstr "Välj ett annat leveranssätt eller kontakta butiken för ett upphämtningsställe."
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:407
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:144
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:174
+msgid "Pickup Location Information"
+msgstr "Information om upphämtningsställe"
+
+#: src/Features/Commerce/Repositories/CommerceContextRepository.php:54
+msgid "Missing or invalid store ID"
+msgstr "Butiks-ID saknas eller är ogiltigt"
+
+#: src/Features/EmailNotifications/API/API.php:66
+msgid "This token is expired"
+msgstr "Den här token har upphört."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:280
+msgid "Cannot generate a preview for an email notification that is not editable."
+msgstr "Det går inte att generera en förhandsgranskning för en e-postavisering som inte kan redigeras."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:444
+msgid "The settings parameter is required."
+msgstr "Inställningsparametern är obligatorisk."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:532
+msgid "Cannot send a test email for an email notification that is not editable."
+msgstr "Det går inte att skicka ett test-e-postmeddelande för en e-postavisering som inte kan redigeras."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:698
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:235
+msgid "The site has email template overrides and hasn't enabled the Email Notifications feature."
+msgstr "Webbplatsen har åsidosättningar av e-postmallen och har inte aktiverat funktionen e-postaviseringar."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:961
+msgid "Unique email notification ID."
+msgstr "Unikt ID för e-postavisering."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:967
+msgid "Unique email notification name (matches the ID)."
+msgstr "Unikt namn för e-postavisering (matchar ID:t)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:973
+msgid "Email notification label."
+msgstr "Etikett för e-postavisering."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:979
+msgid "Email notification description."
+msgstr "Beskrivning av e-postavisering."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:985
+msgid "ID of the template used by this email notification."
+msgstr "ID för mallen som används av denna e-postavisering."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:991
+msgid "A list of categories that the email notification belongs to."
+msgstr "En lista med kategorier som e-postaviseringen tillhör."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1000
+msgid "Email notification status"
+msgstr "Status för e-postavisering."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1007
+msgid "Whether the email notification can only be sent manually."
+msgstr "Om e-postaviseringen bara kan skickas manuellt."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1013
+msgid "Whether the email notification will be sent to administrators."
+msgstr "Om e-postaviseringen kommer att skickas till administratörer."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1019
+msgid "A list of placeholders that are available for the email notification."
+msgstr "En lista med platsmarkörer som är tillgängliga för e-postaviseringen."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1028
+msgid "URL for the WooCommerce email settings screen for the email notification"
+msgstr "URL för skärmen med e-postinställningar i WooCommerce för e-postaviseringen"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1051
+msgid "Unique email notification category ID."
+msgstr "Unikt ID för e-postaviseringskategori."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1057
+msgid "Email notification category name."
+msgstr "Namn på e-postaviseringskategori."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:242
+msgid "A non-empty settings or subgroups parameter must be provided."
+msgstr "En parameter för inställningar eller undergrupper som inte är tom måste anges."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:324
+msgid "Unique email template ID."
+msgstr "Unikt ID för e-postmall."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:330
+msgid "Unique email template name (matches the ID)."
+msgstr "Unikt namn för e-postmall (matchar ID:t)."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:336
+msgid "Email template label."
+msgstr "Etikett för e-postmall."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:342
+msgid "List of email content placeholders."
+msgstr "Lista över platsmarkörer för e-postinnehåll."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:351
+msgid "Email template preview."
+msgstr "Förhandsgranskning av e-postmall."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:57
+msgid "Unique email template setting name."
+msgstr "Unikt namn för e-postmallinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:63
+msgid "Email template setting label."
+msgstr "Etikett för e-postmallinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:69
+msgid "Email template settings subgroups."
+msgstr "Undergrupper för e-postmallinställningar."
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:78
+msgid "Root settings for an email template."
+msgstr "Rotinställningar för en e-postmall."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:185
+msgid "This email address belongs to another store. Please enter a different email address. If you already own this address, please reach out via %1$sGet Help%2$s."
+msgstr "Den här e-postadressen tillhör en annan butik. Ange en annan e-postadress. Om du redan äger den här adressen ska du kontakta oss via%1$sFå hjälp%2$s."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:278
+msgid "Sender unique ID."
+msgstr "Avsändarens unika ID."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:284
+msgid "Sender email address."
+msgstr "Avsändarens e-postadress."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:290
+msgid "The date and time when the sender was verified in our system."
+msgstr "Datum och tid då avsändaren verifierades i vårt system."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:296
+msgid "How the sender was verified."
+msgstr "Hur avsändaren verifierades."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:302
+msgid "Sender status."
+msgstr "Avsändarens status."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:285
+msgid "Unique email notification setting ID."
+msgstr "Unikt ID för e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:291
+msgid "Unique email notification setting name (matches the ID)."
+msgstr "Unikt namn för e-postaviseringsinställning (matchar ID:t)."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:297
+msgid "Email notification setting label."
+msgstr "Etikett för e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:303
+msgid "Email notification setting description."
+msgstr "Beskrivning av e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:309
+msgid "A list of available options for the email notification setting values."
+msgstr "En lista med tillgängliga alternativ för e-postaviseringsinställningsvärden."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:318
+msgid "Email notification setting default value."
+msgstr "Standardvärde för e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:324
+msgid "Email notification setting value."
+msgstr "Värde för e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:330
+msgid "Whether the email notification setting can have multiple values."
+msgstr "Om e-postaviseringsinställningen kan ha flera värden."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:336
+msgid "Whether the email notification setting is required."
+msgstr "Om e-postaviseringsinställningen är obligatorisk."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:342
+msgid "Email notifications setting group, if applicable."
+msgstr "E-postaviseringsinställningsgrupp, i tillämpliga fall."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:348
+msgid "Email notifications setting control details."
+msgstr "Kontrolldetaljer för e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:354
+msgid "Email notifications setting control type."
+msgstr "Kontrolltyp för e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:360
+msgid "A list of available options for the email notification setting control."
+msgstr "En lista med tillgängliga alternativ för e-postaviseringsinställningskontroll."
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:369
+msgid "Optional input placeholder for the email notification setting control."
+msgstr "Valfri indataplatsmarkör för kontrollen för e-postaviseringsinställning."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:163
+msgid "Could not match an email notification ID to a \"%s\" WooCommerce email ID."
+msgstr "Kunde inte matcha ett e-postaviserings-ID till ett \"%s\" WooCommerce-e-post-ID."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:193
+msgid "Could not match a WooCommerce email ID to a \"%s\" email notification ID."
+msgstr "Kunde inte matcha ett WooCommerce-e-post-ID till ett \"%s\" e-postaviserings-ID."
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:622
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:93
+msgid "Could not find source WooCommerce email with ID \"%s\"."
+msgstr "Hittade inte källmejlet från WooCommerce med ID \"%s\"."
+
+#: src/Features/EmailNotifications/DataStores/EmailContentDataStore.php:65
+msgid "No content template file found for the ID %s."
+msgstr "Ingen innehållsmallfil hittades för ID:t %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:72
+msgid "No email notification found with the ID %s."
+msgstr "Ingen e-postavisering hittades med ID:t %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:79
+msgid "The class for %s must implement the EmailNotificationContract interface"
+msgstr "Klassen för %s måste implementera gränssnittet EmailNotificationContract"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:89
+msgid "The email notification with ID %s is not available on this site"
+msgstr "E-postaviseringen med ID:t %s finns inte på den här webbplatsen."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:59
+msgid "No email notification template found with the ID %s."
+msgstr "Ingen e-postaviseringsmall hittades med ID:t %s."
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:68
+msgid "The class for %s must implement the EmailTemplateContract interface"
+msgstr "Klassen för %s måste implementera gränssnittet EmailTemplateContract"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:91
+msgid "No template file found with the ID %s."
+msgstr "Ingen mallfil hittades med ID:t %s."
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:40
+msgid "Invalid template for the option name \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "Ogiltig mall för alternativnamnet \"%s\": den ska innehålla en platsmarkör för {{setting_id}}."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:69
+msgid "No settings found with the ID %s."
+msgstr "Det fanns inga inställningar med ID:t %s."
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:78
+msgid "The class name for %s must implement ConfigurableContract"
+msgstr "Klassnamnet för %s måste implementera ConfigurableContract"
+
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:140
+msgid "No WooCommerce email found for \"%s\""
+msgstr "Hittade ingen e-post för WooCommerce för \"%s\""
+
+#: src/Features/EmailNotifications/EmailNotifications.php:151
+msgid "Admin"
+msgstr "Administratör"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:152
+msgid "Extensions"
+msgstr "Ändelser"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:153
+msgid "Customer"
+msgstr "Kund"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:154
+msgid "Order"
+msgstr "Order"
+
+#: src/Features/EmailNotifications/EmailsPage.php:36
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:41
+msgid "Email Notifications"
+msgstr "E-postaviseringar"
+
+#: src/Features/EmailNotifications/EmailsPage.php:37
+msgid "Emails"
+msgstr "E-postmeddelanden"
+
+#: src/Features/EmailNotifications/EmailsPage.php:187
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:251
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:296
+msgid "New"
+msgstr "Nytt"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:39
+msgid "Cancelled order"
+msgstr "Annullerad order"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:40
+msgid "Sent to chosen recipient(s) when an order is marked cancelled (if it was previously processing or on-hold)."
+msgstr "Skickas till utvalda mottagare när en order markeras som annullerad (om den tidigare hade statusen behandlas eller pausad)."
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:52
+msgid "[{{site_title}}]: Order #{{order_number}} has been cancelled"
+msgstr "[{{site_title}}]: Ordernr {{order_number}} har annullerats"
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:83
+msgid "Notification to let you know &mdash; order #%1$s belonging to %2$s has been cancelled:"
+msgstr "Avisering som informerar om att &ndash; ordernumret%1$s som tillhör %2$s har annullerats:"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:35
+msgid "Completed order"
+msgstr "Färdigbehandlad order"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is marked completed and usually indicates that the order has been shipped."
+msgstr "Skickas till kunder när deras order har markerats som färdigbehandlad och anger vanligtvis att ordern har skickats."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:64
+msgid "We have finished processing your order."
+msgstr "Behandlingen av din order är klar."
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:78
+msgid "Your {{site_title}} order is now complete"
+msgstr "Din {{site_title}}-order är nu färdigbehandlad"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:39
+msgid "Customer invoice / order details"
+msgstr "Kundfaktura/orderuppgifter"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:40
+msgid "Emails containing order information and payment links sent manually."
+msgstr "E-postmeddelanden som innehåller orderuppgifter och betalningslänkar skickas manuellt."
+
+#. translators: %1$s Site title, %2$s Order pay link
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:79
+msgid "An order has been created for you on %1$s. Your invoice is below, with a link to make payment when you’re ready: %2$s"
+msgstr "En order har skapats för dig på %1$s. Din faktura visas nedan, med en länk så att du kan betala när du är redo: %2$s"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:87
+msgid "Pay for this order"
+msgstr "Betala för denna order"
+
+#. translators: %s Order date
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:92
+msgid "Here are the details of your order placed on %s:"
+msgstr "Här kommer information om din order som beställdes %s:"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:108
+msgid "Invoice for order #{{order_number}} on {{site_title}}"
+msgstr "Faktura för ordernr {{order_number}} hos {{site_title}}"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:38
+msgid "Customer note"
+msgstr "Anteckning för kunden"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:39
+msgid "Sent to customer when you add a note to an order."
+msgstr "Skickas till kunden när du lägger till en anteckning i en order."
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:89
+msgid "The following note has been added to your order:"
+msgstr "Följande anteckning har lagts till i din order:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:91
+msgid "As a reminder, here are your order details:"
+msgstr "Som en påminnelse får du här dina orderuppgifter:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:105
+msgid "Note added to your {{site_title}} order from {{order_date}}"
+msgstr "En anteckning har lagts till din {{site_title}}-order från {{order_date}}"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:82
+msgid "Heading"
+msgstr "Rubrik"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:99
+msgid "Additional content"
+msgstr "Mer innehåll"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:41
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "Standard"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:117
+msgid "Container"
+msgstr "Behållare"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:119
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:149
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:196
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:123
+msgid "Email width"
+msgstr "E-postbredd"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:132
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:443
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:68
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:150
+msgid "Default"
+msgstr "Standard"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:133
+msgid "Full"
+msgstr "Fullständigt"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:141
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:146
+msgid "Header image"
+msgstr "Sidhuvudbild"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:155
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:174
+msgid "Text"
+msgstr "Text"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:166
+msgid "Body"
+msgstr "Brödtext"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:168
+msgid "Body background color"
+msgstr "Bakgrundsfärg för brödtext"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:177
+msgid "Link color"
+msgstr "Länkfärg"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:184
+msgid "Headings"
+msgstr "Rubriker"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:187
+msgid "H1 font size"
+msgstr "H1 typsnittsstorlek"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:188
+msgid "H2 font size"
+msgstr "H2 typsnittsstorlek"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:189
+msgid "H3 font size"
+msgstr "H3 typsnittsstorlek"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:194
+msgid "Button"
+msgstr "Knapp"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:197
+msgid "Label color"
+msgstr "Etikettfärg"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:206
+msgid "Footer"
+msgstr "Sidfot"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:214
+msgid "Footer text"
+msgstr "Sidfotstext"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:242
+msgid "Text color"
+msgstr "Textfärg"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:262
+msgid "Font family"
+msgstr "Typsnittsfamilj"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:287
+msgid "Font size"
+msgstr "Typsnittsstorlek"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:205
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:224
+msgid "Preview text"
+msgstr "Förhandsvisningstext"
+
+#. translators: %1$s - opening a HTML tag, %2$s - closing a HTML tag
+#: src/Features/EmailNotifications/Models/EmailNotification.php:229
+msgid "Preview text is shown after the subject line in some email inboxes. Maximum: 150 characters. %1$sLearn more%2$s"
+msgstr "Förhandsvisningstext visas efter ämnesraden i vissa e-postinkorgar. Högst: 150 tecken. %1$sLär dig mer%2$s"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:234
+msgid "Enter preview text"
+msgstr "Ange förhandsvisningstext"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:264
+msgid "Subject"
+msgstr "Ämne"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:41
+msgid "Failed order"
+msgstr "Misslyckad order"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when an order is marked failed (if it was previously pending or on-hold)."
+msgstr "Skickas till utvalda mottagare när en order markeras som misslyckad (om den tidigare hade statusen inväntar granskning eller pausad)."
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:72
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr "Betalning för ordernr %1$s från %2$s misslyckades. Ordern innehöll följande:"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:93
+msgid "[{site_title}]: Order #{order_number} has failed"
+msgstr "[{site_title}]: Order #{order_number} misslyckades"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:32
+#: src/WooCommerce/Emails/ItemShippedEmail.php:32
+msgid "Item shipped"
+msgstr "Artikeln har skickats"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:33
+msgid "Sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Skickas till kunden när spårningsuppgifter läggs till för en eller flera artiklar i deras ordrar."
+
+#. translators: Placeholder: %s - Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:62
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:92
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:79
+#: src/Features/EmailNotifications/Traits/IsCustomerEmailNotificationTrait.php:24
+#: templates/woocommerce/emails/customer-item-shipped.php:36
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:31
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:31
+#: templates/woocommerce/emails/ready-for-pickup.php:36
+msgid "Hi %s,"
+msgstr "Hej %s!"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:63
+#: templates/woocommerce/emails/customer-item-shipped.php:38
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:32
+msgid "An item from your order has shipped!"
+msgstr "En artikel från din order har skickats."
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:77
+msgid "An item from {{site_title}} order #{{order_number}} has shipped!"
+msgstr "En artikel från {{site_title}} med order nr {{order_number}} har skickats!"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:27
+msgid "New account"
+msgstr "Nytt konto"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:28
+msgid "Sent to customers when they sign up via checkout or account pages."
+msgstr "Skickas till kunder när de anmäler sig via kassan eller kontosidorna."
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:39
+msgid "Your {{site_title}} account has been created!"
+msgstr "Ditt {{site_title}}-konto har skapats."
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:97
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "Tack för att du skapade ett konto på %1$s. Ditt användarnamn är %2$s. Du kan öppna ditt kontoområde och visa ordrar, ändra ditt lösenord m.m. på: %3$s"
+
+#. translators: %s: Auto generated password
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:105
+msgid "Your password has been automatically generated: %s"
+msgstr "Ditt lösenord har genererats automatiskt: %s"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:41
+msgid "New order"
+msgstr "Ny order"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when a new order is received."
+msgstr "Skickas till utvalda mottagare när en ny order tas emot."
+
+#. translators: %1$s: Customer first name, %2$s: Customer last name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:69
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %1$s: Customer full name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:78
+msgid "You’ve received the following order from %1$s:"
+msgstr "Du har fått följande order från %1$s:"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:98
+msgid "[{{site_title}}]: New order #{{order_number}}"
+msgstr "[{{site_title}}]: Nytt ordernr {{order_number}}"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:35
+msgid "Order on-hold"
+msgstr "Ordern pausad"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:36
+msgid "Sent to customer when an order is on hold."
+msgstr "Skickas till kunden när en order är pausad."
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:47
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:83
+msgid "Your {{site_title}} order has been received!"
+msgstr "Din {{site_title}}-order har tagits emot!"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:78
+msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
+msgstr "Tack för din order. Den är pausad tills vi kan bekräfta att betalningen har tagits emot. Under tiden får du här en påminnelse om vad du beställde:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:35
+msgid "Partially refunded order"
+msgstr "Delvis återbetald order"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is partially refunded."
+msgstr "Skickas till kunder när deras order är delvis återbetald."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr "Din order på %s har delvis återbetalats. Du hittar mer information nedan som referens:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been partially refunded"
+msgstr "Din {{site_title}}-order med nr {{order_number}} har delvis återbetalats"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:35
+msgid "Processing order"
+msgstr "Behandlar order"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:36
+msgid "Sent to customer after a payment is made."
+msgstr "Skickas till kunden när betalningen är klar."
+
+#. translators: %s: Order number
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:67
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "Vi vill bara berätta att vi har fått din order med nr %s och att den behandlas nu:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:35
+msgid "Fully refunded order"
+msgstr "Helt återbetald order"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is fully refunded."
+msgstr "Skickas till kunder när deras order är helt återbetald."
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been refunded. There are more details below for your reference:"
+msgstr "Din order på %s har återbetalats. Du hittar mer information nedan som referens:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been refunded"
+msgstr "Din {{site_title}}-order med nr {{order_number}} har återbetalats."
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:28
+msgid "Reset password"
+msgstr "Återställ lösenord"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:29
+msgid "Sent to customers when they reset their passwords."
+msgstr "Skickas till kunder när de återställer sina lösenord."
+
+#. translators: %s: Store name
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:81
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr "Någon har begärt ett nytt lösenord för följande konto på %s:"
+
+#. translators: %s: Customer username
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:83
+msgid "Username: %s"
+msgstr "Användarnamn: %s"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:84
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr "Om du inte begärde det kan strunta i det här e-postmeddelandet. Om du vill fortsätta:"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:87
+msgid "Click here to reset your password"
+msgstr "Klicka här för att återställa lösenordet"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:56
+msgid "Sender name"
+msgstr "Avsändarens namn"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:68
+msgid "Sender address"
+msgstr "Avsändaradress"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:76
+msgid "Recipients"
+msgstr "Mottagare"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:77
+msgid "Enter recipients (comma-separated) for this email"
+msgstr "Ange mottagare (kommateckenavgränsad)"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. Manage them from Marketing > Emails."
+msgstr "Anpassa din e-post så att den återspeglar ditt varumärke och ökar kundlojaliteten. Hantera dem från Marknadsföring > E-postmeddelanden."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:126
+msgid "Manage emails"
+msgstr "Hantera e-post"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:137
+msgid "Your hosting plan now offers editable WooCommerce emails, no plugin required!"
+msgstr "Ditt webbhotellpaket har nu redigerbara WooCommerce-e-postmeddelanden som inte kräver något tillägg!"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:254
+msgid "Please use either your hosting plan's email editing feature or your 3rd-party email editor."
+msgstr "Använd antingen ditt webbhotellpakets e-postredigeringsfunktion eller din e-postredigerare från tredje part."
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Edit emails"
+msgstr "Redigera e-postmeddelanden"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Contact support"
+msgstr "Kontakta support"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:266
+msgid "A 3rd-party email editing plugin has been detected on your store."
+msgstr "Ett tredjepartstillägg för redigering av e-postmeddelanden upptäcktes i din butik."
+
+#. translators: %1$s opening strong tag; %2$s closing strong tag; %3$s opening anchor tag; %4$s closing anchor tag; %5$s opening anchor tag; %6$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:92
+msgid "%1$sNote:%2$s Your site is using a temporary domain that cannot be indexed by search engines. Change your primary domain via the %3$sWoo store management area%4$s. Learn more about %5$sconnecting a domain%6$s."
+msgstr "%1$sObs!%2$s Din webbplats använder en temporär domän som inte kan indexeras av sökmotorer. Byt din primära domän via %3$sWoo-butikens område för hantering%4$s. Lär dig mer om %5$sanslutning av en domän%6$s."
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag; %3$s opening anchor tag; %4$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:102
+msgid "Change your primary domain via the %1$sWoo store management area%2$s. Learn more about %3$sconnecting a domain%4$s."
+msgstr "Byt din primära domän via %1$sWoo-butikens område för hantering%2$s. Lär dig mer om %3$sanslutning av en domän%4$s."
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:33
+msgid "Link bank account"
+msgstr "Länka bankkonto"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:34
+msgid "You've got money waiting with GoDaddy Payments! Add your banking info to get your payouts deposited."
+msgstr "Du har pengar som väntar med GoDaddy Payments! Lägg till dina bankuppgifter för att få medlen insatta på ditt konto."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayEnabledNotice.php:21
+msgid "GoDaddy Payments - Apple Pay has been enabled on your selected pages and shows %1$sin Safari on supported devices%2$s."
+msgstr "GoDaddy Payments - Apple Pay har aktiverats på de valda sidorna och visas %1$si Safari på enheter som stöds%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Apple Pay should show."
+msgstr "Välj vilka sidor som ska visa Apple Pay."
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayRegistrationFailedNotice.php:24
+msgid "There was a problem registering your site with Apple Pay. Please disable Apple Pay and try re-enabling, or %1$scontact support%2$s."
+msgstr "Det uppstod ett problem vid registreringen av din webbplats hos Apple Pay. Inaktivera Apple Pay och försök aktivera igen, eller %1$skontakta supporten%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:24
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:23
+msgid "GoDaddy Payments successfully enabled!"
+msgstr "GoDaddy Payments har aktiverats!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:25
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:24
+msgid "GoDaddy Payments is now available to your customers at checkout."
+msgstr "GoDaddy Payments är nu tillgängligt för dina kunder i kassan."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:27
+msgid "GoDaddy Payments is now connected to your store!"
+msgstr "GoDaddy Payments är nu kopplat till din butik!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:21
+msgid "Enable GoDaddy Payments"
+msgstr "Aktivera GoDaddy Payments"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:30
+msgid "Enable the payment method to add it to your checkout."
+msgstr "Aktivera betalsättet för att lägga till det i din kassa."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:23
+msgid "Your GoDaddy Payments account has been closed."
+msgstr "Ditt GoDaddy Payments-konto har avslutats."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "Betalsättet har inaktiverats så det kommer inte att visas i kassan. Konfigurera ditt konto för att kunna ta betalt igen."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:24
+msgid "It looks like you didn't finish your GoDaddy Payments application."
+msgstr "Det verkar som du inte blev klar med din GoDaddy Payments-ansökan."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:26
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "Resume"
+msgstr "Återuppta"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:27
+msgid "You're just a few minutes from processing payments."
+msgstr "Du är bara några minuter från att kunna ta betalt."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:23
+msgid "Your GoDaddy Payments account needs attention."
+msgstr "Ditt GoDaddy Payments-konto måste åtgärdas."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "Betalsättet har inaktiverats så det kommer inte att visas i kassan. Kontrollera din e-post för att se vad nästa steg är."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:23
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:330
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "Ditt GoDaddy Payments-konto har sagts upp."
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "Betalsättet har inaktiverats så det kommer inte att visas i kassan. Kontrollera din e-post för mer information."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:26
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:29
+msgid "Complete verification"
+msgstr "Slutför verifiering"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:27
+msgid "You've got money waiting with GoDaddy Payments! Verify your identity and add your banking info to get your payouts deposited."
+msgstr "Du har pengar som väntar med GoDaddy Payments! Du måste verifiera din identitet och lägga till dina bankuppgifter för att få medlen insatta på ditt konto."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:30
+msgid "You haven't completed the necessary steps to verify your identity with GoDaddy Payments. Until you do that, you won't be able to take any payments or deposit your funds."
+msgstr "Du har inte slutfört de nödvändiga stegen för att verifiera din identitet hos GoDaddy Payments. Du kommer inte att kunna ta betalt eller sätta in dina pengar förrän du har gjort detta."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:30
+msgid "You've still got money waiting with GoDaddy Payments! Verify your identity and add your banking info as soon as you can to get your funds and keep taking payments."
+msgstr "Du har fortfarande pengar som väntar med GoDaddy Payments! Verifiera din identitet och lägg till dina bankuppgifter så snart som möjligt så att du kan få dina pengar och fortsätta ta betalt."
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:30
+msgid "The deadline to complete your payouts setup is coming up! To keep transacting with GoDaddy Payments and to get your money, verify your identity and add banking info."
+msgstr "Deadline för att slutföra konfigurationen av dina utbetalningar närmar sig. Om du vill fortsätta göra affärer genom GoDaddy Payments och få betalt ska du verifiera din identitet och lägga till bankuppgifter."
+
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:27
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:287
+msgid "You're all set to take payments with GoDaddy Payments!"
+msgstr "Nu kan du ta betalt med GoDaddy Payments!"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:35
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:292
+msgid "To get your funds deposited to your bank account, verify your identity and add your banking info. %1$sSet up payouts%2$s"
+msgstr "För att få medlen insatta på ditt bankkonto måste du verifiera din identitet och lägga till dina bankuppgifter. %1$sKonfigurera utbetalningar%2$s"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:42
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:300
+msgid "The connected GoDaddy Payments account is %1$s %2$s (Not the business owner's account? %3$sSwitch account%4$s)."
+msgstr "Det kopplade GoDaddy Payments-kontot är %1$s %2$s (Inte företagsägarens konto? %3$sByt konto%4$s)."
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountSwitchedNotice.php:30
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:278
+msgid "GoDaddy Payments is now connected with the account %1$s %2$s. (Not right? %3$sSwitch account%4$s.)"
+msgstr "GoDaddy Payments är nu kopplat med kontot %1$s %2$s. (Inte rätt? %3$sByt konto%4$s.)"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:28
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:28
+msgid "Get Started"
+msgstr "Kom igång"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:30
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:31
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:455
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:52
+msgid "Provided by GoDaddy"
+msgstr "Tillhandahålls av GoDaddy"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:31
+msgid "Sell online and in person with GoDaddy Payments. Sync local pickup and delivery orders right to your Smart Terminal, then get paid fast with next-day deposits."
+msgstr "Sälj online och över disk med GoDaddy Payments. Synkronisera ordrar med lokal upphämtning och leverans direkt till din Smart-terminal och få betalt snabbt med insättningar nästa dag."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:29
+msgid "Use GoDaddy Payments Selling in Person to sync local pickup and delivery orders to your Smart Terminal. Sell anything, anywhere and get paid fast with next-day deposits."
+msgstr "Använd GoDaddy Payments Sälja över disk för att synkronisera ordrar med lokal upphämtning och leverans till din Smart-terminal. Sälj allt, var som helst och få betalt snabbt med insättningar nästa dag."
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:32
+msgid "GoDaddy Selling in Person"
+msgstr "GoDaddy Sälja över disk"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:39
+msgid "Update Store"
+msgstr "Uppdatera butiken"
+
+#. translators: %s - list of supported countries
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:42
+msgid "GoDaddy Payments is available for businesses in %s. Please update your Store Address to use the payment method."
+msgstr "GoDaddy Payments är tillgängligt för företag i %s. Uppdatera butiksadressen om du vill använda betalsättet."
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:42
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:37
+msgid "Change Currency"
+msgstr "Byt valuta"
+
+#. translators: %1$s - list of supported currencies, %2$s - store country
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:45
+msgid "GoDaddy Payments requires %1$s transactions for businesses in %2$s. Please change your Currency in order to use the payment method."
+msgstr "GoDaddy Payments kräver %1$s-transaktioner för att göra affärer i %2$s. Byt valuta om du vill använda betalsättet."
+
+#. translators: %s - list of supported currencies
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:40
+msgid "GoDaddy Payments requires %s transactions. Please change your Currency in order to use the payment method."
+msgstr "GoDaddy Payments kräver %s-transaktioner. Byt valuta om du vill använda betalsättet."
+
+#. translators: Placeholders: %1$s - <a> tag for the Google Pay docs link, %2$s - </a> tag
+#: src/Features/GoDaddyPayments/Notices/GooglePayEnabledNotice.php:22
+msgid "GoDaddy Payments - Google Pay has been enabled on your selected pages and shows %1$sin supported browsers and devices%2$s."
+msgstr "GoDaddy Payments - Google Pay har aktiverats på de valda sidorna och visas %1$si webbläsare och på enheter som stöds%2$s."
+
+#: src/Features/GoDaddyPayments/Notices/GooglePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Google Pay should show."
+msgstr "Välj vilka sidor som ska visa Google Pay."
+
+#: src/Features/GoDaddyPayments/Notices/OnboardingErrorNotice.php:26
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "Det uppstod ett fel vid anslutningen till GoDaddy Payments. Försök igen."
+
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:22
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin!"
+msgstr "GoDaddy Payments (Poynt) ingår för kunder som har Hanterad WordPress utan något särskilt tillägg!"
+
+#: src/Features/GoDaddyPayments/Notices/WooStagingNotice.php:23
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "WooCommerce-debiteringar eller auktoriseringar/inläsningar samt återbetalningar och annulleringar som görs på din mellanlagringsplats behandlas på vanligt sätt på ditt GoDaddy Payments-konto."
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:43
+msgid "Commerce Home"
+msgstr "Commerce Home"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:47
+msgid "Payments Dashboard"
+msgstr "Adminpanel för betalningar"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:50
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:265
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:266
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:197
+msgid "Tax"
+msgstr "Moms"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:94
+msgid "The Sellbrite plugin is included in your hosting plan as GoDaddy Marketplaces. The plugin has been deactivated."
+msgstr "Tillägget Sellbrite ingår i ditt webbhotellpaket som GoDaddy Marketplaces. Tillägget har inaktiverats."
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:95
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:230
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:393
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:400
+msgid "Set up"
+msgstr "Konfigurera"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:104
+msgid "Your products, everywhere."
+msgstr "Dina produkter, överallt."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:64
+msgid "A product ID is required."
+msgstr "Ett produkt-ID krävs."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:68
+msgid "A channel UUID is required."
+msgstr "Ett kanal-UUID krävs."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:72
+msgid "You do not have permission to perform this action."
+msgstr "Du har inte behörighet att utföra den här åtgärden."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:76
+msgid "This product must meet all requirements below before creating a draft listing."
+msgstr "Innan du kan skapa ett utkast av en listning måste den här produkten uppfylla alla nedanstående krav."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:116
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:157
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:61
+msgid "Failed to create a draft listing."
+msgstr "Det gick inte att skapa ett utkast av en listning."
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:132
+msgid "Failed to retrieve a WooCommerce product with ID #%d while creating a draft Marketplaces listing."
+msgstr "Det gick inte att hämta en WooCommerce-produkt med ID-nr %d när ett utkast till en listning på marknadsplatser skapades."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:62
+msgid "Products with Marketplaces listings cannot have an empty SKU."
+msgstr "Produkter med marknadsplatslistningar kan inte ha en tom lagerenhet."
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:88
+#: src/Features/Marketplaces/Interceptors/ProductsPageInterceptor.php:111
+msgid "Are you sure you want to unpublish? All associated Marketplaces listings will remain published or as a draft but will no longer sync content and inventory with WooCommerce."
+msgstr "Är du säker på att du vill dra tillbaka publiceringen? Alla kopplade marknadsplatslistningar fortsätter att vara publicerade eller som utkast, men innehåll och lager synkroniseras inte längre med WooCommerce."
+
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:156
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:168
+msgid "Marketplaces & Social Order"
+msgstr "Order på marknadsplatser och sociala medier"
+
+#. translators: Placeholder: %s - sales channel label
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:160
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:170
+msgid "Sales Channel: %s"
+msgstr "Säljkanal: %s"
+
+#. translators: Placeholder: %s - sales channel order number
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:163
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:172
+msgid "Sales Channel Order Number: %s"
+msgstr "Ordernummer för säljkanal: %s"
+
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:166
+msgid "Return accepted via Walmart sales channel."
+msgstr "Retur godkänd via Walmarts säljkanal."
+
+#. translators: Placeholders: %1$s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:189
+msgid "Return requested via Walmart sales channel. %1$sView request%2$s."
+msgstr "Retur begärd via Walmarts säljkanal. %1$sVisa begäran%2$s."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:291
+msgid "Create your first product listing by adding a new product or editing an existing one in WooCommerce. You can list a product on each of the marketplaces you've added. Once listed, the product info and inventory will sync automatically. Visit %1$sProducts%2$s to get started."
+msgstr "Skapa din första produktlistning genom att lägga till en ny produkt eller redigera en befintlig i WooCommerce. Du kan lista en produkt på varje tillagd marknadsplats. När produkten har listats synkroniseras produktinfo och lager automatiskt. Besök %1$sProdukter%2$s för att komma igång."
+
+#: src/Features/Marketplaces/Marketplaces.php:301
+msgid "Welcome to GoDaddy Marketplaces!"
+msgstr "Välkommen till GoDaddy Marketplaces!"
+
+#: src/Features/Marketplaces/Marketplaces.php:326
+msgid "Your store address must be in the US and currency US dollars in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Din butiksadress måste vara i USA och USD för att produkter, lager och ordrar ska kunna synkroniseras med säljkanalerna marknadsplatser och sociala medier."
+
+#: src/Features/Marketplaces/Marketplaces.php:342
+msgid "Your store weight and dimensions units must be in \"lbs\" and \"in\" in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Enheterna för vikt och dimensioner i din butik måste vara i \"kg\" och \"cm\" för att produkter, lager och ordrar ska kunna synkroniseras med säljkanalerna marknadsplatser och sociala medier."
+
+#: src/Features/Marketplaces/Marketplaces.php:343
+#: src/Features/Marketplaces/Marketplaces.php:386
+msgid "Update settings"
+msgstr "Uppdatera inställningar"
+
+#: src/Features/Marketplaces/Marketplaces.php:385
+msgid "Stock management must be enabled in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "Lagerhanteringen måste aktiveras för att produkter, lager och ordrar ska kunna synkroniseras med säljkanalerna marknadsplatser och sociala medier."
+
+#: src/Features/Marketplaces/Marketplaces.php:434
+msgid "Product, inventory, and order syncing is disabled in Staging to prevent conflicts with your Production site."
+msgstr "Synkronisering av produkter, lager och ordrar har inaktiverats i mellanlagringen för att undvika konflikter med din produktionswebbplats."
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:450
+msgid "You've used 90&#37; of your included monthly Marketplaces and Social orders. Upgrade soon to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Du har använt 90&#37; av de ordrar som ingår varje månad på marknadsplatser och sociala medier. Uppgradera snart för att behandla fler ordrar. %1$sUppgradera paket%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:476
+msgid "You've used all your included monthly Marketplaces and Social orders. Upgrade now to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "Du har använt upp alla ordrar som ingår varje månad på marknadsplatser och sociala medier. Uppgradera nu för att behandla fler ordrar. %1$sUppgradera paket%2$s"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:102
+msgid "Sales Channel"
+msgstr "Säljkanal"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:106
+msgid "Sales Channel Order Number"
+msgstr "Ordernummer för säljkanal"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:81
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:155
+msgid "Product Brand"
+msgstr "Produktens varumärke"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:86
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:162
+msgid "Product Condition"
+msgstr "Produktens skick"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:91
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:167
+msgctxt "Product condition"
+msgid "New"
+msgstr "Nytt"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:92
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:168
+msgctxt "Product condition"
+msgid "Used"
+msgstr "Använda"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:93
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:169
+msgctxt "Product condition"
+msgid "Refurbished"
+msgstr "Renoverad"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgid "Global Trade Item Number"
+msgstr "Artikelnummer för global handel"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgctxt "Global Trade Item Number (GTIN)"
+msgid "GTIN"
+msgstr "GTIN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:114
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:178
+msgid "A Global Trade Item Number is used to uniquely identify your product on Marketplaces & Social product listings. It can be found next to the barcode."
+msgstr "Ett artikelnummer för global handel (GTIN) används för att ge dina produktlistningar på marknadsplatser och sociala medier ett unikt nummer. Det står bredvid streckkoden."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgid "Manufacturer Part Number"
+msgstr "Tillverkarens artikelnummer"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgctxt "Manufacturer Part Number (MPN)"
+msgid "MPN"
+msgstr "MPN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:121
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:188
+msgid "A Manufacturer Part Number is used to uniquely identify your product on Marketplaces & Social product listings. Only use the MPN assigned by the manufacturer."
+msgstr "Tillverkarens artikelnummer (MPN) används för att ge dina produktlistningar på marknadsplatser och sociala medier ett unikt nummer. Använd endast det artikelnummer (MPN) som angetts av tillverkaren."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:53
+msgid "Marketplaces & Social"
+msgstr "Marknadsplatser och sociala kanaler"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:217
+msgid "You haven't connected this sales channel yet."
+msgstr "Du har inte anslutit den här säljkanalen ännu."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:221
+msgid "Connect Sales Channel"
+msgstr "Anslut säljkanal"
+
+#. translators: Placeholders: %s: Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:245
+msgid "This product hasn't been listed on %s yet."
+msgstr "Den här produkten har inte listats på %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:250
+msgid "Create Draft Listing"
+msgstr "Skapa utkast av listning"
+
+#. translators: Placeholders: %1$s - Opening <a> HTML link tag, %2$s - Closing </a> HTML link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:259
+msgid "A draft listing will be automatically created once the product meets the requirements below. %1$sLearn more about product sync%2$s"
+msgstr "Ett utkast av en listning skapas automatiskt när produkten uppfyller nedanstående krav. %1$sLär dig mer om synkronisering av produkter%2$s"
+
+#. translators: Placeholders: %1%s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:266
+msgid "The requirements below must be met in order to list this product. %1$sLearn more about product sync%2$s"
+msgstr "Nedanstående krav måste uppfyllas innan produkten kan listas. %1$sLär dig mer om synkronisering av produkter%2$s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:273
+msgctxt "Product property requirement"
+msgid "Simple or variable product (not virtual or downloadable)"
+msgstr "Enkla eller variabla produkter (ej virtuella eller nedladdningsbara)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:274
+msgctxt "Product property requirement"
+msgid "Published product"
+msgstr "Publicerad produkt"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:275
+msgctxt "Product property requirement"
+msgid "Product SKU must be set"
+msgstr "Produktens lagerenhet måste anges"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:276
+msgctxt "Product property requirement"
+msgid "Manage stock enabled and stock quantity > 0"
+msgstr "Hantera lager aktiverat och antal i lager > 0"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:277
+msgctxt "Product property requirement"
+msgid "No backorders allowed"
+msgstr "Inga restorder tillåts"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:278
+msgctxt "Product property requirement"
+msgid "Brand and Condition fields filled"
+msgstr "Fälten för varumärke och skick ifyllda"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:319
+msgid "A draft listing has been created for this product on %s."
+msgstr "Ett utkast av en listning har skapats för den här produkten på %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:323
+msgid "View Draft Listing"
+msgstr "Visa utkast av listning"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:347
+msgid "This product has been listed on %s."
+msgstr "Den här produkten har listats på %s."
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:350
+msgid "Edit Listing"
+msgstr "Redigera listning"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:195
+msgid "Manage Sales Channels"
+msgstr "Hantera säljkanaler"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:228
+msgid "Marketplaces &amp; Social"
+msgstr "Marknadsplatser och sociala medier"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:251
+msgid "Manage Listing Templates"
+msgstr "Hantera listningsmallar"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:265
+msgid "You haven't added any sales channels yet. Add sales channels in order to post your listings on third party marketplaces and social platforms."
+msgstr "Du har inte lagt till några säljkanaler ännu. Lägg till säljkanaler för att lägga upp dina listningar på tredjeparts marknadsplatser och plattformar för sociala medier."
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:279
+msgctxt "Refreshes the page"
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:286
+msgid "Add Sales Channel"
+msgstr "Lägg till säljkanaler"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:299
+msgid "Resources"
+msgstr "Resurser"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:300
+msgid "What is Marketplaces &amp; Social?"
+msgstr "Vad är marknadsplatser och sociala medier?"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:302
+msgid "How to connect sales channels"
+msgstr "Så här ansluter du säljkanaler"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:304
+msgid "What products are eligible for Marketplaces & Social sales channels?"
+msgstr "Vilka produkter kvalificeras för säljkanalerna marknadsplatser och sociala medier?"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:119
+msgid "A non-empty settings parameter must be provided."
+msgstr "En inställningsparameter som inte är tom måste anges."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:124
+msgid "Each setting object must contain name and value keys."
+msgstr "Varje inställningsobjekt måste innehålla namn och värdenycklar."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:245
+msgid "Unique onboarding setting ID."
+msgstr "Unikt ID för introduktionsinställning."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:251
+msgid "Unique onboarding setting name (matches the ID)."
+msgstr "Unikt namn för introduktionsinställning (matchar ID:t)."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:257
+msgid "Onboarding setting label."
+msgstr "Etikett för introduktionsinställning."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:263
+msgid "Onboarding setting description."
+msgstr "Beskrivning för introduktionsinställning."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:269
+msgid "A list of available options for the onboarding setting values."
+msgstr "En lista med tillgängliga alternativ för introduktionsinställningsvärden."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:278
+msgid "Onboarding setting default value."
+msgstr "Standardvärde för introduktionsinställning."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:284
+msgid "Onboarding setting value."
+msgstr "Introduktionsinställningsvärde."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:290
+msgid "Whether the onboarding setting can have multiple values."
+msgstr "Om introduktionsinställningen kan ha flera värden."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:296
+msgid "Whether the onboarding setting is required."
+msgstr "Om introduktionsinställningen är obligatorisk."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:302
+msgid "Onboarding setting group, if applicable."
+msgstr "Introduktionsinställningsgrupp, i tillämpliga fall."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:308
+msgid "Onboarding setting control details."
+msgstr "Information om introduktionsinställningskontroll."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:314
+msgid "Onboarding setting control type."
+msgstr "Typ av introduktionsinställningskontroll."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:320
+msgid "A list of available options for the onboarding setting control."
+msgstr "En lista med tillgängliga alternativ för introduktionsinställningskontrollen."
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:329
+msgid "Optional input placeholder for the onboarding setting control."
+msgstr "Valfri indataplatsmarkör för introduktionsinställningskontroll."
+
+#: src/Features/Onboarding/HomePage.php:33
+msgctxt "Title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Hem"
+
+#: src/Features/Onboarding/HomePage.php:34
+msgctxt "Menu title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "Hem"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:23
+msgid "First time"
+msgstr "Första gången"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:48
+msgid "Store name"
+msgstr "Butikens namn"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:61
+msgid "Store address 1"
+msgstr "Butiksadress rad 1"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:75
+msgid "Store address 2"
+msgstr "Butiksadress rad 2"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:89
+msgctxt "The country's region"
+msgid "Country Region"
+msgstr "Landsregion"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:103
+msgid "City"
+msgstr "Stad"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:117
+msgid "Postal code"
+msgstr "Postnummer"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:131
+msgid "Currency"
+msgstr "Valuta"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:145
+msgid "Left aligned"
+msgstr "Vänsterställd"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:146
+msgid "Right aligned"
+msgstr "Högerställd"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:147
+msgid "Left aligned with space"
+msgstr "Vänsterställd med mellanslag"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:148
+msgid "Right aligned with space"
+msgstr "Högerställd med mellanslag"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:152
+msgid "Currency position"
+msgstr "Valutaposition"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:171
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:228
+msgid "All countries"
+msgstr "Alla länder"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:172
+msgid "Sell to all countries, except for..."
+msgstr "Sälj till alla länder, utom ..."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:173
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:196
+msgid "Sell to specific countries"
+msgstr "Sälj till vissa länder"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:177
+msgid "Selling locations"
+msgstr "Försäljningsställen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:211
+msgid "Sell to all countries except for"
+msgstr "Sälj till alla länder utom"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:227
+msgid "Ship to all countries you sell to"
+msgstr "Leverera till alla länder du säljer till"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:229
+msgid "Ship to specific countries only"
+msgstr "Leverera endast till vissa länder"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:230
+msgid "Disable shipping & shipping calculations"
+msgstr "Inaktivera leverans och fraktberäkningar"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:234
+msgid "Shipping locations"
+msgstr "Leveransställen"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:253
+msgid "Ship to specific countries"
+msgstr "Leverera till vissa länder"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:268
+msgid "Thousands separator"
+msgstr "Tusentalsavgränsare"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:282
+msgid "Decimal separator"
+msgstr "Decimaltecken"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:296
+msgid "Number of decimals"
+msgstr "Antal decimaler"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:310
+msgid "Kilograms"
+msgstr "Kilogram"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:311
+msgid "Grams"
+msgstr "Gram"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:312
+msgid "Pounds"
+msgstr "Pund"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:313
+msgid "Ounces"
+msgstr "Ounces"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:317
+msgid "Weight units"
+msgstr "Viktenheter"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:336
+msgid "Meters"
+msgstr "Meter"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:337
+msgid "Centimeters"
+msgstr "Centimeter"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:338
+msgid "Millimeters"
+msgstr "Millimeter"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:339
+msgid "Inches"
+msgstr "Tum"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:340
+msgid "Yards"
+msgstr "Yard"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:344
+msgid "Dimension units"
+msgstr "Måttenheter"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:363
+msgid "Enable taxes"
+msgstr "Aktivera moms"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:377
+msgid "Last onboarding step"
+msgstr "Sista introduktionssteget"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:390
+msgid "Completed"
+msgstr "Slutfört"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:406
+msgid "Store selector dismissed"
+msgstr "Butiksväljaren avfärdades"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:421
+msgid "Dismissed"
+msgstr "Avfärdat"
+
+#: src/Features/Onboarding/Settings/Settings.php:25
+msgid "Onboarding"
+msgstr "Introduktion"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:43
+msgid "Order Numbers"
+msgstr "Ordernummer"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:60
+msgid "Starting number"
+msgstr "Startnummer"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:70
+msgid "Prefix"
+msgstr "Prefix"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:80
+msgid "Suffix"
+msgstr "Suffix"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:90
+msgid "Skip free orders"
+msgstr "Hoppa över gratisorder"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:100
+msgid "Free order identifier"
+msgstr "Identifiering av gratisorder"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:176
+msgid "Company name."
+msgstr "Företagsnamn."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:182
+msgid "Country code."
+msgstr "Landskod."
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:188
+msgid "Connection status."
+msgstr "Anslutningsstatus."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:313
+msgid "The shipment object associated with the shipping label."
+msgstr "Artikeln som är kopplad till fraktsedeln."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:317
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:255
+msgid "The shipment ID."
+msgstr "Leverans-ID."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:323
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:261
+msgid "The shipment's creation date."
+msgstr "Datum då leveransen skapades."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:329
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:267
+msgid "The shipment's last updated date."
+msgstr "Datumet då leveransen senast uppdaterades."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:335
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:273
+msgid "The shipping provider for the shipment."
+msgstr "Fraktbolag för leveransen."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:340
+msgid "The label for a custom shipping provider."
+msgstr "Etikett för en egen fraktleverantör."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:345
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:283
+msgid "The shipment's tracking number."
+msgstr "Leveransens spårningsnummer."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:350
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:288
+msgid "The shipment's tracking URL."
+msgstr "Leveransens URL för spårning."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:355
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:293
+msgid "The rate associated with the shipment."
+msgstr "Avgiften för leveransen."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:360
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:298
+msgid "The label associated with shipment."
+msgstr "Fraktsedel kopplad till en leverans."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:365
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:303
+msgid "The items included in the shipment."
+msgstr "Artiklarna som ingår i leveransen."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:371
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:309
+msgid "The item's ID."
+msgstr "Artikelns ID."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:376
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:314
+msgid "The product's ID."
+msgstr "Produktens ID."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:381
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:319
+msgid "The product's variation ID."
+msgstr "Produktens variations-ID."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:386
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:324
+msgid "The item's quantity."
+msgstr "Artikelns kvantitet."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:399
+msgid "The shipping label returned by the shipping provider."
+msgstr "Fraktsedeln som returnerades av fraktleverantören."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:251
+msgid "The shipment object associated with the shipping rates."
+msgstr "Artikeln som är kopplad till fraktkostnaderna."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:278
+msgctxt "Display title, not physical label"
+msgid "The label for a custom shipping provider."
+msgstr "Etikett för en egen fraktleverantör."
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:337
+msgid "The shipping rates returned by the shipping provider."
+msgstr "Fraktkostnader som returnerades av fraktleverantören."
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:43
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:44
+msgid "The phone number of your business."
+msgstr "Företagets telefonnummer."
+
+#: src/Features/Shipping/Interceptors/RedirectToShippingDashboardInterceptor.php:157
+msgctxt "GoDaddy name sent as brand name for the ShipEngine integration"
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/Features/Shipping/Interceptors/ShippingLabelsSettingsSectionInterceptor.php:82
+msgid "Shipping labels"
+msgstr "Fraktsedlar"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:32
+msgid "ShipEngine isn't available in your region"
+msgstr "ShipEngine är inte tillgängligt i din region"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:46
+msgid "To benefit from streamlined shipping and label printing, please ensure your store is located in the US, UK, Canada, or Australia."
+msgstr "Utnyttja fördelarna med smidiga leveranser och utskrift av fraktsedlar så länge butiken ligger i USA, Storbritannien, Kanada eller Australien."
+
+#: src/Features/Shipping/Providers/ShipEngine/ShipEngineProvider.php:34
+msgctxt "shipping provider name"
+msgid "ShipEngine"
+msgstr "ShipEngine"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:150
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:359
+msgid "User does not have permission to manage WooCommerce"
+msgstr "Användarna har inte behörighet att hantera WooCommerce"
+
+#. translators: Placeholders: %s - error message from the MWC API
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:166
+msgid "Could not create connection: %s"
+msgstr "Det gick inte att skapa anslutningen: %s."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:172
+msgid "No redirect available"
+msgstr "Ingen omdirigering tillgänglig"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:497
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:507
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:90
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:63
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:177
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:109
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "Ett fel inträffade. Försök igen eller pröva ett annat betalsätt."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:505
+msgid "An error occurred while processing the payment: "
+msgstr "Det uppstod ett fel när betalningen behandlades: "
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:546
+msgid "Payment method successfully added."
+msgstr "Betalsättet har lagts till."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:548
+msgid "Unable to add payment method to your account. Please try again."
+msgstr "Det gick inte att lägga till betalsättet på ditt konto. Försök igen."
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:585
+msgid "Payment method could not be saved. %s"
+msgstr "Det gick inte att spara betalsättet. %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:639
+msgid "Payment method updated."
+msgstr "Betalsättet har uppdaterats."
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:72
+msgid "Included WooCommerce Extensions"
+msgstr "WooCommerce-utökningar som ingår"
+
+#. translators: Placeholder: %s - captured amount
+#: src/Payments/Adapters/CaptureTransactionOrderNoteAdapter.php:24
+msgid "A payment of %s was successfully captured via GoDaddy Payments Hub"
+msgstr "En betalning på %s har lästs in via GoDaddy Payments-hubben"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "Vi kan inte behandla din order med betalningsuppgifterna du gav oss. Använd ett annat betalningskonto eller ett annat betalsätt."
+
+#. translators: Placeholders: %1$s - card brand, %2$s - last 4 card numbers, %3$s - expiration month, %4$s - expiration year
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:32
+msgid " %1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr " %1$s som slutar på %2$s (löper ut %3$s/%4$s)"
+
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:33
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:34
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:181
+msgid "Card"
+msgstr "Kort"
+
+#. translators: Placeholder: %s - refunded amount
+#: src/Payments/Adapters/RefundTransactionOrderNoteAdapter.php:24
+msgid "A refund of %s was successfully processed via GoDaddy Payments Hub"
+msgstr "En återbetalning på %s har skickats via GoDaddy Payments-hubben"
+
+#. translators: Placeholder: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "Transaction ID %s"
+msgstr "Transaktions-ID %s"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:54
+msgid "Result: [%1$s] %2$s"
+msgstr "Resultat: [%1$s] %2$s"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction info (if applicable, or empty string)
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:86
+msgid "%1$s %2$s in the amount of %3$s%4$s"
+msgstr "%1$s %2$s för beloppet %3$s%4$s"
+
+#. translators: Placeholders: %s - the total amount of the capture that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:26
+msgid "A payment capture of %s was successfully voided"
+msgstr "En betalningsinläsning på %s har annullerats"
+
+#. translators: Placeholders: %s - the total amount of the refund that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:33
+msgid "A refund of %s was successfully voided"
+msgstr "En återbetalning på %s har annullerats"
+
+#: src/Payments/API/Controllers/CartController.php:261
+msgid "Coupons are disabled."
+msgstr "Rabattkoder har inaktiverats."
+
+#: src/Payments/API/Controllers/CartController.php:285
+msgid "Invalid coupon code."
+msgstr "Ogiltig rabattkod."
+
+#: src/Payments/API/Controllers/CartController.php:291
+msgid "Coupon cannot be applied."
+msgstr "Rabattkoden kan inte användas."
+
+#: src/Payments/API/Controllers/CartController.php:310
+msgid "Coupon cannot be applied. %s"
+msgstr "Rabattkoden kan inte användas. %s"
+
+#: src/Payments/API/Controllers/CartController.php:356
+msgid "Invalid customer data"
+msgstr "Ogiltiga kunduppgifter"
+
+#: src/Payments/API/Controllers/CartController.php:381
+msgid "Invalid email address"
+msgstr "Ogiltig e-postadress"
+
+#. translators: Placeholder: %s - either 'billing' or 'shipping'
+#: src/Payments/API/Controllers/CartController.php:408
+msgid "Invalid %s address"
+msgstr "Ogiltig %s-adress"
+
+#: src/Payments/API/Controllers/CartController.php:450
+msgid "Orders aren't accepted from this location"
+msgstr "Ordrar accepteras inte från den här platsen"
+
+#: src/Payments/API/Controllers/CartController.php:523
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:258
+msgid "WooCommerce is not available"
+msgstr "WooCommerce är inte tillgängligt"
+
+#: src/Payments/API/Controllers/CartController.php:578
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:325
+msgid "Invalid products data."
+msgstr "Ogiltiga produktuppgifter."
+
+#: src/Payments/API/Controllers/CartController.php:648
+msgid "Coupon code to apply to the cart."
+msgstr "Rabattkod som ska användas i kassan."
+
+#: src/Payments/API/Controllers/CartController.php:654
+msgid "Cart customer data."
+msgstr "Kunduppgifter i varukorgen."
+
+#: src/Payments/API/Controllers/CartController.php:756
+msgid "Products to add to the cart."
+msgstr "Produkter som ska läggas till i varukorgen."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:243
+msgid "The order ID."
+msgstr "Order-ID."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:249
+msgid "The URL to redirect the customer to."
+msgstr "Webbadressen som kunden ska omdirigeras till."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:187
+msgid "Order total, based on cart total."
+msgstr "Total ordersumma baserat på summan i varukorgen."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:201
+msgid "2-letter ISO 3166 country code."
+msgstr "ISO 3166 landskod med 2 bokstäver."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:207
+msgid "3-letter ISO 4217 currency code."
+msgstr "ISO 4217 valutakod med 3 bokstäver."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:213
+msgid "Name of the merchant."
+msgstr "Handlarens namn."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:219
+msgid "The shipping type based on the chosen shipping method."
+msgstr "Leveranstyp baserat på det valda leveranssättet."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:230
+msgid "Shipping methods for the payment request."
+msgstr "Leveranssätt för betalningsbegäran."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:239
+msgid "Items in the order."
+msgstr "Artiklar i ordern."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:256
+msgid "Whether to require customer email."
+msgstr "Om kundens e-postadress krävs."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:262
+msgid "Whether to require customer phone."
+msgstr "Om kundens telefonnummer krävs."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:268
+msgid "Whether to require customer shipping address."
+msgstr "Om kundens leveransadress krävs."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:274
+msgid "Whether the customer should be allowed to enter coupons."
+msgstr "Om kunden ska kunna mata in rabattkoder."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:280
+msgid "A list of wallets to disable."
+msgstr "En lista med plånböcker som ska inaktiveras."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:160
+msgid "Application ID."
+msgstr "Program-ID."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:166
+msgid "Business ID."
+msgstr "Företags-ID."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:172
+msgid "List of available features."
+msgstr "Lista över tillgängliga funktioner."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:186
+msgid "Whether the payment gateway is enabled."
+msgstr "Om betalningslösningen har aktiverats."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:192
+msgid "Payment gateway connection status."
+msgstr "Anslutningsstatus för betalningslösning."
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:210
+msgid "Nonce for switching accounts."
+msgstr "Engångskod för att byta konton."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:224
+msgid "Invalid phone number."
+msgstr "Ogiltigt telefonnummer."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:271
+msgid "The remote parent ID in the request does not match the remote parent ID of the order."
+msgstr "Det överordnade fjärr-ID:t i begäran matchar inte orderns överordnade fjärr-ID."
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:368
+msgid "Invalid order ID."
+msgstr "Ogiltigt order-ID."
+
+#. translators: Placeholders: %s - a payment provider name, such as poynt
+#: src/Payments/API/Controllers/ProviderProcessingController.php:389
+msgid "Provider %s not found."
+msgstr "Leverantören %s hittades inte."
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Invalid nonce"
+msgstr "Ogiltig engångskod"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Missing nonce"
+msgstr "Engångskod saknas"
+
+#. translators: Placeholder: %d - error code
+#: src/Payments/DataSources/WooCommerce/Adapters/CartOrderAdapter.php:206
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Fel %d: Det går inte att skapa ordern. Försök igen."
+
+#: src/Payments/DataStores/WooCommerce/OrderPaymentTransactionDataStore.php:38
+#: src/WooCommerce/Payments/VirtualTerminal.php:121
+msgid "Virtual Terminal"
+msgstr "Virtuell terminal"
+
+#. translators: Placeholder: %s - payment method name
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:271
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:277
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "Betalades i WooCommerce-kassan med \"%s\""
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:760
+msgid "Tip"
+msgstr "Tips"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:765
+msgid "Cashback"
+msgstr "Cashback"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:796
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "%1$s-beloppet %2$s har lagts till ordern av GoDaddy Payments Smart-terminal"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:940
+msgid "From GoDaddy Payments Hub. Order fully refunded."
+msgstr "Från GoDaddy Payments-hubben. Ordern är helt återbetald."
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:943
+msgid "From GoDaddy Payments Hub. Order partially refunded."
+msgstr "Från GoDaddy Payments-hubben. Ordern är delvis återbetald."
+
+#. translators: Placeholders: %1$s - date, %2$s time
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:347
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "Ordern markerades som redo på terminal %1$s klockan %2$s"
+
+#: src/Payments/Poynt/Http/Adapters/CardPaymentMethodAdapter.php:131
+msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+msgstr "Din fakturaadress stämmer inte överens med informationen på ditt betalkort. Uppdatera fakturaadressen för att skicka din beställning."
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:90
+msgid "Coupon code"
+msgstr "Rabattkod"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:171
+msgid "Subtotal"
+msgstr "Deltotal"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:177
+msgid "Discount"
+msgstr "Rabatt"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:183
+msgid "Shipping"
+msgstr "Leverans"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:264
+msgid "Wallet payments cannot be used for carts with multiple shipments."
+msgstr "Plånboksbetalningar kan inte användas för varukorgar med flera leveranser."
+
+#. translators: %1$s: payment gateway name
+#: src/Payments/Poynt/OrderSynchronization.php:336
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "Transaktionen har återbetalats av %1$s från WooCommerce."
+
+#: src/Payments/Poynt/OrderSynchronization.php:338
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "Transaktionen har återbetalats manuellt från WooCommerce."
+
+#: src/Payments/Poynt/ViewOrderPage.php:51
+msgid "Order is ready for pickup."
+msgstr "Ordern är redo för upphämtning."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:33
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "Kunden får ett e-postmeddelande som anger att artikeln har skickats, när spårningsuppgifter läggs till för en eller flera artiklar i deras ordrar."
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:56
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "En artikel från {site_title} med order nr #{order_number} har skickats!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:64
+msgid "Your package is on the way!"
+msgstr "Ditt paket är på väg!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:72
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "Observera att det kan ta ett tag innan budfirman uppdaterar leveransspårningsuppgifterna."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:46
+msgid "Ready for pickup"
+msgstr "Redo för upphämtning"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:47
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "E-postmeddelanden med Redo för upphämtning skickas till kunder när deras order har markerats som redo för upphämtning."
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:60
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "Din {site_title}-order är redo för upphämtning!"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:70
+msgid "Order ready for pickup!"
+msgstr "Order redo för upphämtning!"
+
+#: src/WooCommerce/ExtensionsTab.php:174
+msgid "GoDaddy Included"
+msgstr "GoDaddy ingår"
+
+#: src/WooCommerce/Pages/EditOrder/Metaboxes/ShipmentTrackingMetabox.php:35
+msgid "Shipment Tracking"
+msgstr "Leveransspårning"
+
+#. translators: Placeholder: %s - payment gateway method title
+#: src/WooCommerce/Payments/AbstractPaymentGateway.php:635
+msgid "%s Virtual Terminal"
+msgstr "Virtuell terminal för %s"
+
+#: src/WooCommerce/Payments/Captures.php:93
+msgid "No gateway found for order"
+msgstr "Ingen gateway hittades för ordern"
+
+#: src/WooCommerce/Payments/Captures.php:195
+#: src/WooCommerce/Payments/Captures.php:317
+msgid "Capture Charge"
+msgstr "Läs in priset"
+
+#: src/WooCommerce/Payments/Captures.php:309
+msgid "This charge has been fully captured"
+msgstr "Det här priset har lästs in"
+
+#: src/WooCommerce/Payments/Captures.php:327
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "Vill du behandla den här inläsningen? Det går inte att ångra den här åtgärden."
+
+#: src/WooCommerce/Payments/Captures.php:328
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "Något gick fel och det gick inte att slutföra inläsningen. Försök igen."
+
+#. translators: Placeholders: %1s - the provider label, %2s - the payment method brand label, %3$s - the last four digits of the customer's credit card
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:32
+msgid "%1s transaction declined due to billing address mismatch for %2s ending in %3$s."
+msgstr "%1s-transaktion nekades på grund av att faktureringsadressen inte stämde för %2s som slutar på %3$s."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:112
+msgid "Status"
+msgstr "Status"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:235
+msgid "Remove"
+msgstr "Ta bort"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:237
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:389
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:397
+msgid "Manage"
+msgstr "Hantera"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:252
+msgid "Your Stripe account needs to be set up."
+msgstr "Ditt Stripe-konto måste konfigureras."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:255
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:284
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:297
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1335
+msgid "Connected"
+msgstr "Ansluten"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:256
+msgid "Connected to your Stripe account."
+msgstr "Ansluten till ditt Stripe-konto."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:259
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:311
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1341
+msgid "Disconnected"
+msgstr "Frånkopplad"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:260
+msgid "Please reconnect your Stripe account."
+msgstr "Anslut ditt Stripe-konto igen."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:263
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:325
+msgid "Pending"
+msgstr "Väntar"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:285
+msgid "Connected to your terminal to Sell in Person."
+msgstr "Ansluten till din terminal för att Sälja över disk."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:289
+msgid "Recommended"
+msgstr "Rekommenderas"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:292
+msgid "Click set up to get started."
+msgstr "Klicka på Konfigurera för att komma igång."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:299
+msgid "Connect your terminal to Sell in Person."
+msgstr "Koppla din terminal till Sälja över disk."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:300
+msgid "Connected to your GoDaddy Payments account."
+msgstr "Ansluten till ditt GoDaddy Payments-konto."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:303
+msgid "Connecting"
+msgstr "Ansluter"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:304
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "Det här kan ta några minuter. Uppdatera för att kontrollera."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:307
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:329
+msgid "Not available"
+msgstr "Ej tillgängligt"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:308
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "Tack för din ansökan, men vi kan inte tillhandahålla betalningshantering för ditt företag."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:312
+msgid "Your account has been closed."
+msgstr "Ditt konto har avslutats."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:315
+msgid "Incomplete"
+msgstr "Ofullständig"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:316
+msgid "Click Resume to complete your application."
+msgstr "Klicka på Fortsätt för att slutföra din ansökan."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:321
+msgid "Needs attention"
+msgstr "Behöver kontrolleras"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:322
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:326
+msgid "Please check your email for next steps."
+msgstr "Kontrollera din e-post för att se vad nästa steg är."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:388
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:396
+msgid "Manage the \"%s\" payment method"
+msgstr "Hantera betalsättet ”%s”"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:392
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:399
+msgid "Set up the \"%s\" payment method"
+msgstr "Konfigurera betalsättet ”%s”"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:448
+msgid "Have a question? %1$sAsk the GoDaddy Team%3$s%2$s"
+msgstr "Undrar du över något? %1$sFråga GoDaddy-teamet%3$s%2$s"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:451
+msgid "E-mail icon"
+msgstr "E-postikon"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:476
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:489
+msgid "Set up GoDaddy Payments"
+msgstr "Konfigurera GoDaddy-betalningar"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:483
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "Du håller på att öppna GoDaddy Payments kontoregistrering. Om några minuter kommer du tillbaka hit för att aktivera säkra betalningar i kassan."
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:488
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:212
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1211
+msgid "Cancel"
+msgstr "Avbryt"
+
+#. translators: Divider between the Wallet buttons and "Add to Cart"
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout.php:123
+msgid "or"
+msgstr "eller"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:91
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:64
+msgid "Missing card details."
+msgstr "Kortdetaljer saknas."
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:92
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:65
+msgid "Missing billing details."
+msgstr "Faktureringsdetaljer saknas."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:211
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:311
+msgid "Edit"
+msgstr "Redigera"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:213
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "Hoppsan. Något gick fel när ditt betalsätt uppdaterades. Försök igen."
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:214
+msgid "Are you sure you want to delete this payment method?"
+msgstr "Är du säker på att du vill radera den här betalningsmetoden?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:315
+msgid "Save"
+msgstr "Spara"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:335
+msgid "Title"
+msgstr "Titel"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:336
+msgid "Details"
+msgstr "Uppgifter"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:338
+msgid "Default?"
+msgstr "Standard?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:527
+msgid "Invalid token ID"
+msgstr "Ogiltigt token-ID"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:192
+msgid "Manage Payment Methods"
+msgstr "Hantera betalsätt"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:215
+msgid "Use a new payment method"
+msgstr "Använd ett nytt betalsätt"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:278
+msgid "Securely Save to Account"
+msgstr "Spara säkert på kontot"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:43
+msgid "Nickname"
+msgstr "Smeknamn"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:28
+msgid "expires %s"
+msgstr "löper ut %s"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:88
+msgid "Let your customers buy online and pay in person with orders synced to your GoDaddy Smart Terminal. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Gör så att kunder kan handla online och betala över disk med ordrar som synkroniseras med Smart terminal från GoDaddy. Få betalt snabbt med insättningar redan nästa vardag. %1$sGoDaddy Payments villkor gäller%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:910
+msgid "Pay in Person"
+msgstr "Betala personligen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:95
+msgid "Customers can buy online and pay in person with orders synced to your Terminals."
+msgstr "Kunder kan handla online och betala över disk med ordrar som synkroniseras med dina terminaler."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:228
+msgid "Payment to be made upon delivery."
+msgstr "Betalning ska ske vid leverans."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:297
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+#: src/WooCommerce/Payments/StripeGateway.php:283
+msgid "Return to payments"
+msgstr "Återgå till betalningar"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:310
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sShop Smart-terminal%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:319
+msgid "%1$sDevices%2$s"
+msgstr "%1$sEnheter%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:325
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sKataloger%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:331
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sAnpassa terminal%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:349
+msgid "Smart Terminal"
+msgstr "Smart terminal"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:350
+msgid "Dual screens for smoother selling."
+msgstr "Smidigare försäljning med dubbla skärmar."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:351
+msgid "Our dual screens make checkout a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "Med våra dubbla skärmar går det snabbt i kassan. Dessutom inkluderar vår allt-i-ett-terminal en inbyggd kortläsare, skanner, skrivare, säkerhet m.m."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:359
+msgid "Free"
+msgstr "Gratis"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:360
+msgid "2-day shipping."
+msgstr "2 dagars leverans."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:363
+msgid "Learn More"
+msgstr "Läs mer"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:374
+msgid "Settings"
+msgstr "Inställningar"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:816
+msgid "Enable Selling in Person"
+msgstr "Aktivera Sälja över disk"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:823
+msgid "Checkout title"
+msgstr "Kassanamn"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:825
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:522
+msgid "Payment method title that the customer will see during checkout."
+msgstr "Namn på betalsättet som kunden ser i kassan."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:829
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:179
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:181
+#: src/WooCommerce/Shipping/LocalPickup.php:118
+msgid "Checkout description"
+msgstr "Kassabeskrivning"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:831
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:528
+msgid "Payment method description that the customer will see during checkout."
+msgstr "Beskrivning av betalsätt som kunden ser i kassan."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:836
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:187
+msgid "Order received instructions"
+msgstr "Anvisningar för mottagen order"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:839
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "Meddelande som kunden ser på ordersidan och i meddelandet om att ordern behandlas som skickas efter betalning."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:843
+msgid "Enable for Shipping Methods"
+msgstr "Aktivera för leveranssätt"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:849
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "Välj vilka leveranssätt som ska visa det här betalsättet för kunden i kassan."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:851
+msgid "Select Shipping Methods"
+msgstr "Välj leveranssätt"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:871
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "Minst ett leveranssätt krävs för att aktivera Sälja över disk."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:886
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "Betala för din order över disk vid upphämtning eller leverans."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:898
+msgid "We accept major credit/debit cards and cash."
+msgstr "Vi tar emot de vanliga kontokorten och kontanter."
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:941
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (nr %2$s)"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "Other locations"
+msgstr "Andra platser"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1020
+msgid "Local Pickup Plus method"
+msgstr "Metoden Lokal upphämtning Plus"
+
+#. translators: Placeholders: %1$s - Shipping Method name (for example FedEx, UPS or Local Pickup, etc.)
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1022
+msgid "Any \"%1$s\" method"
+msgstr "Valfri \"%1$s\"-metod"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1203
+msgid "Are you sure you want to move this product to trash?"
+msgstr "Vill du verkligen flytta den här produkten till papperskorgen?"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1206
+msgid "Are you sure you want to move this product to trash? Removing a synced product will also delete it from the In-Person catalog."
+msgstr "Vill du verkligen flytta den här produkten till papperskorgen? Om du tar bort en synkroniserad produkt tas den även bort från katalogen för försäljning över disk."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1212
+msgid "Move to Trash"
+msgstr "Flytta till papperskorgen"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1243
+msgid "This product is synced from the In-Person Catalog"
+msgstr "Den här produkten har synkroniserats från katalogen för försäljning över disk."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1247
+msgid "This product is synced to the In-Person Catalog"
+msgstr "Den här produkten har synkroniserats till katalogen för försäljning över disk."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1346
+msgid "One or more products in your catalog failed to sync. Please enable debug logging or reach out to %1$sour Care team%2$s for help."
+msgstr "En eller flera produkter i din katalog kunde inte synkroniseras. Aktivera felsökningsloggning eller kontakta %1$svårt supportteam%2$s om du behöver hjälp."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1407
+msgid "%1$s has been removed. Products will no longer be synced to this catalog. To remove any products already synced you must delete them manually."
+msgstr "%1$s har tagits bort. Produkter synkroniseras inte till den här katalogen längre. Om du vill ta bort produkter som redan har synkroniserats måste du göra det manuellt."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1433
+msgid "In-Person product sync to WooCommerce has been disabled. Products will no longer sync to WooCommerce. To remove any products already synced you must delete them manually."
+msgstr "Synkronisering av produkter för försäljning över disk till WooCommerce har inaktiverats. Produkter synkroniseras inte längre till WooCommerce. Om du vill ta bort produkter som redan har synkroniserats måste du göra det manuellt."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1447
+msgid "%1$s has been removed from Selling In-Person. This catalog will no longer sync to WooCommerce"
+msgstr "%1$s har tagits bort från Sälja över disk. Den här katalogen synkroniseras inte längre till WooCommerce."
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1514
+msgid "In-Person Catalog Sync"
+msgstr "Synkronisering med katalog för försäljning över disk"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1518
+msgid "Sync your WooCommerce products with In-Person catalog(s). %1$sLearn more%2$s"
+msgstr "Synkronisera dina WooCommerce-produkter med kataloger för försäljning över disk. %1$sLär dig mer%2$s"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1527
+msgid "Sync WooCommerce products to In-Person"
+msgstr "Synkronisera WooCommerce-produkter till försäljning över disk"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1533
+msgid "Basic WooCommerce product data is pushed to the selected In-Person catalog(s) for simple products."
+msgstr "Grundläggande WooCommerce-produktdata pushas till den valda katalogen för försäljning över disk för enkla produkter."
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1544
+msgid "To sync to In-Person you must have at least one catalog selected."
+msgstr "Om du vill synkronisera till försäljning över disk måste du markera minst en katalog."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1552
+msgid "Sync In-Person products to WooCommerce"
+msgstr "Synkronisera produkter som säljs över disk till WooCommerce"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1558
+msgid "Product data is fetched from the selected In-Person catalog(s). Sync excludes products with custom prices or \"any combination\" modifiers."
+msgstr "Produktuppgifter hämtas från de valda katalogerna för försäljning över disk. Synkronisering exkluderar produkter med anpassade priser eller modifierare av typen \"valfri kombination\"."
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1568
+msgid "To sync to WooCommerce you must have at least one catalog selected."
+msgstr "Om du vill synkronisera till WooCommerce måste du markera minst en katalog."
+
+#. translators: Placeholder: %s - the gateway settings title, something like: "GoDaddy Payments - Apple Pay"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:205
+msgid "Cannot load the %s gateway to process payment."
+msgstr "Det går inte att läsa in %s-gateway för att behandla betalningar."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:229
+msgid "Cannot load the GoDaddy Payments gateway."
+msgstr "Det går inte att ladda ned GoDaddy Payments gateway."
+
+#. translators: Placeholder: %s - the gateway settings page title, normally: "GoDaddy Payments - Credit/Debit card"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:240
+msgid "These settings are managed from the %s page"
+msgstr "De här inställningarna hanteras från %s-sidan"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:246
+msgctxt "General settings"
+msgid "General"
+msgstr "Allmänt"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:129
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:88
+msgid "The GoDaddy Payments service ID"
+msgstr "ID för GoDaddy Payments-tjänst"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:135
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "Engångskoden för validering av omdirigeringen efter introduktionen"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "GoDaddy Payments onboardingstatus"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:46
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:47
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices."
+msgstr "Ta emot kortbetalningar säkert och tryggt och gör det enklare för kunder med Apple Pay att betala på enheter som stöds."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:61
+msgid "Accept Apple Pay® on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Ta emot Apple Pay® på enheter som stöds och gör betalningsprocessen snabbare för kunderna. Få betalt snabbt med insättningar redan nästa vardag. %1$sGoDaddy Payments villkor gäller%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:85
+msgid "Apple Pay Settings"
+msgstr "Apple Pay-inställningar"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:88
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:100
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:513
+#: src/WooCommerce/Payments/StripeGateway.php:490
+msgid "Enable"
+msgstr "Aktivera"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:89
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:101
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:515
+#: src/WooCommerce/Payments/StripeGateway.php:492
+msgid "Enable to add the payment method to your checkout."
+msgstr "Aktivera för att lägga till betalsättet i kassan."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:91
+msgid "Apple Pay shows to %1$sSafari users on supported devices%2$s."
+msgstr "Apple Pay visas för %1$sSafari-användare på enheter som stöds%2$s."
+
+#. translators: Text displayed next to a dropdown input field with a list of pages for the user to choose from
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:100
+msgid "Pages to enable Apple Pay on"
+msgstr "Sidor där Apple Pay ska aktiveras"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:108
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:120
+msgid "Cart"
+msgstr "Varukorg"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:109
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:121
+msgid "Checkout"
+msgstr "Kassa"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:110
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:122
+msgid "Single Product"
+msgstr "Enskild produkt"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:115
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:127
+msgid "Button label"
+msgstr "Knappetikett"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:116
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:128
+msgid "Check button labels here"
+msgstr "Kontrollera knappetiketterna här"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:121
+msgctxt "Apple Pay"
+msgid "Add Money with"
+msgstr "Lägg till pengar med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:122
+msgctxt "Apple Pay"
+msgid "Book with"
+msgstr "Boka med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:123
+msgctxt "Apple Pay"
+msgid "Buy with"
+msgstr "Köp med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:124
+msgctxt "Apple Pay"
+msgid "Check out with"
+msgstr "Betala med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:127
+msgctxt "Apple Pay"
+msgid "Contribute with"
+msgstr "Bidra med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:128
+msgctxt "Apple Pay"
+msgid "Donate with"
+msgstr "Donera med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:129
+msgctxt "Apple Pay"
+msgid "Order with"
+msgstr "Beställ med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:132
+msgctxt "Apple Pay"
+msgid "Plain (logo only)"
+msgstr "Enkel (endast logga)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:133
+msgctxt "Apple Pay"
+msgid "Reload with"
+msgstr "Ladda om med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:134
+msgctxt "Apple Pay"
+msgid "Rent with"
+msgstr "Hyr med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:135
+msgctxt "Apple Pay"
+msgid "Set up"
+msgstr "Konfigurera"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:136
+msgctxt "Apple Pay"
+msgid "Support with"
+msgstr "Stötta med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:137
+msgctxt "Apple Pay"
+msgid "Tip with"
+msgstr "Ge dricks med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:138
+msgctxt "Apple Pay"
+msgid "Top Up with"
+msgstr "Fyll på med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:143
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:144
+msgid "Button style"
+msgstr "Knappstil"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:144
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:145
+msgid "Check button style here"
+msgstr "Kontrollera knappstilen här"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:149
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:151
+msgid "Black"
+msgstr "Svart"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:150
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:152
+msgid "White"
+msgstr "Vit"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:151
+msgid "White with outline"
+msgstr "Vit med kontur"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:157
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:158
+msgid "Button height"
+msgstr "Knapphöjd"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+msgid "Apple requests the button size match your cart/checkout button and be 30 to 64 pixels tall. The width is set automatically."
+msgstr "Apple begär att knappstorleken matchar din varukorgs-eller kassaknapp och att höjden på knappen är 30 till 64 pixlar. Bredden ställs in automatiskt."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Check button size here"
+msgstr "Kontrollera knappstorleken här"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:46
+msgid "Accept Google Pay™ on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Ta emot Google Pay™ på enheter som stöds och gör betalningsprocessen snabbare för kunderna. Få betalt snabbt med insättningar redan nästa vardag. %1$sGoDaddy Payments villkor gäller%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:97
+msgid "Google Pay Settings"
+msgstr "Google Pay-inställningar"
+
+#. translators: Placeholders: %1$s - open <a> HTML link tag, %2$s - close </a> HTML link tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:104
+msgid "Google Pay shows on %1$ssupported browsers%2$s."
+msgstr "Google Pay visas på %1$swebbläsare som stöds%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:112
+msgid "Pages to enable Google Pay on"
+msgstr "Sidor där Google Pay ska aktiveras"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:133
+msgctxt "Google Pay"
+msgid "Book with"
+msgstr "Boka med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:134
+msgctxt "Google Pay"
+msgid "Buy with"
+msgstr "Köp med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:135
+msgctxt "Google Pay"
+msgid "Check out with"
+msgstr "Betala med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:136
+msgctxt "Google Pay"
+msgid "Donate with"
+msgstr "Donera med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:137
+msgctxt "Google Pay"
+msgid "Order with"
+msgstr "Beställ med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:138
+msgctxt "Google Pay"
+msgid "Pay with"
+msgstr "Betala med"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:139
+msgctxt "Google Pay"
+msgid "Plain (logo only)"
+msgstr "Enkel (endast logga)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Google requests the button size match your cart/checkout button and be 40 to 100 pixels tall."
+msgstr "Google begär att knappstorleken matchar din varukorgs- eller kassaknapp och att höjden på knappen är 40 till 100 pixlar."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:92
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:667
+msgid "Credit/Debit Card"
+msgstr "Kontokort"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:93
+msgid "Securely accept credit/debit cards in your checkout."
+msgstr "Ta emot kontokortbetalningar säkert och tryggt i kassan."
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:133
+msgid "Accept all major credit/debit cards in your checkout quickly and securely. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "Ta emot alla större kredit-/betalkort i kassan, snabbt och säkert. Få betalt snabbt med insättningar redan nästa vardag. %1$sGoDaddy Payments villkor gäller%2$s."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:224
+msgid "Business Name:"
+msgstr "Företagsnamn:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:229
+msgid "Email:"
+msgstr "E-post:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:235
+msgid "Switch account"
+msgstr "Byt konto"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:254
+msgid "Account Details"
+msgstr "Kontouppgifter"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your account settings in the %1$spayments dashboard%2$s"
+msgstr "Hantera dina kontoinställningar på %1$sadminpanelen för betalningar%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "Hantera dina GoDaddy Payments-kontoinställningar i %1$sbetalningshubben%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:302
+#: src/WooCommerce/Payments/StripeGateway.php:532
+msgid "Checkout Settings"
+msgstr "Kassainställningar"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:520
+msgid "Title in Checkout"
+msgstr "Namn i kassan"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:526
+msgid "Description in Checkout"
+msgstr "Beskrivning i kassan"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:533
+#: src/WooCommerce/Payments/StripeGateway.php:559
+msgid "Transaction Type"
+msgstr "Transaktionstyp"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:535
+#: src/WooCommerce/Payments/StripeGateway.php:561
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "Välj hur transaktioner ska behandlas. Debitera skickar alla transaktioner för avräkning. Auktorisering auktoriserar helt enkelt orderbeloppet för senare inläsning."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:538
+#: src/WooCommerce/Payments/StripeGateway.php:564
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "Debitera"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:539
+#: src/WooCommerce/Payments/StripeGateway.php:565
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "Auktorisering"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:543
+msgid "Charge Virtual-Only Orders"
+msgstr "Debitera ordrar som bara är virtuella"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:545
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "Om ordern enbart innehåller virtuella artiklar, kan du aktivera det här för att debitera direkt istället för att först auktorisera transaktionen."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:549
+msgid "Capture Paid Orders"
+msgstr "Läs in betalda ordrar"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:553
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "Läs automatiskt in ordrar när de ändras till %s"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:554
+msgid "a paid status"
+msgstr "en betald status"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:558
+#: src/WooCommerce/Payments/StripeGateway.php:537
+msgid "Accepted Card Logos"
+msgstr "Godkända kortloggor"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:560
+#: src/WooCommerce/Payments/StripeGateway.php:539
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "De här kortloggorna visas som godkända för kunderna i kassan."
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:563
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+msgstr "Den här inställningen ändrar %1$sinte%2$s vilka korttyper gatewayen godkänner."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:574
+#: src/WooCommerce/Payments/StripeGateway.php:547
+msgid "Saved Cards"
+msgstr "Sparade kort"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:576
+#: src/WooCommerce/Payments/StripeGateway.php:549
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "Gör att kunderna kan spara sina kontokort säkert på sina kontot för framtida köp."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:580
+#: src/WooCommerce/Payments/StripeGateway.php:553
+msgid "Detailed Decline Messages"
+msgstr "Detaljerade meddelanden om nekad betalning"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:582
+#: src/WooCommerce/Payments/StripeGateway.php:555
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "Aktivera detaljerade meddelanden om nekad betalning för kunder i kassan istället för ett allmänt meddelande."
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:586
+#: src/WooCommerce/Payments/StripeGateway.php:569
+msgid "Debug Mode"
+msgstr "Felsökningsläge"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:588
+#: src/WooCommerce/Payments/StripeGateway.php:571
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "Visa detaljerade felmeddelanden och API-förfrågningar/svar på kassasidan och/eller spara dem i felsökningsloggen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:591
+#: src/WooCommerce/Payments/StripeGateway.php:574
+msgid "Off"
+msgstr "Av"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:592
+#: src/WooCommerce/Payments/StripeGateway.php:575
+msgid "Show on Checkout Page"
+msgstr "Visa på kassasidan"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:593
+#: src/WooCommerce/Payments/StripeGateway.php:576
+msgid "Save to Log"
+msgstr "Spara i loggen"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:594
+#: src/WooCommerce/Payments/StripeGateway.php:577
+msgid "Both"
+msgstr "Båda"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:653
+msgid "Pay securely with your credit/debit card."
+msgstr "Betala säkert med ditt kontokort."
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:191
+msgid "Pre-Order release payment failed: %s"
+msgstr "Betalning för förbeställning misslyckades: %s"
+
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:146
+msgid "Currently unavailable"
+msgstr "Otillgänglig för närvarande"
+
+#. translators: Placeholders: %1$s & %3$s - <a> tag, %2$s & %4$s - </a> tag
+#: src/WooCommerce/Payments/StripeGateway.php:77
+msgid "Securely accept online payments via credit/debit card, wallets, bank redirects, and other methods enabled in your Stripe account. %1$sView Stripe pricing%2$s for your business' location and payment methods. %3$sStripe terms apply%4$s."
+msgstr "Ta emot onlinebetalningar säkert och tryggt via kontokort, plånböcker, banköverföringar och andra betalsätt som är aktiverade på ditt Stripe-konto. %1$sVisa Stripe-priser%2$s för ditt företags plats och betalsätt. %3$sStripe-villkoren gäller%4$s."
+
+#: src/WooCommerce/Payments/StripeGateway.php:244
+msgid "You are about to disconnect your Stripe account. Your store will not be able to process transactions using Stripe until you connect an account again."
+msgstr "Du kommer att koppla från ditt Stripe-konto. Din butik kommer inte att kunna behandla transaktioner med Stripe förrän du ansluter ett konto igen."
+
+#: src/WooCommerce/Payments/StripeGateway.php:486
+msgid "General"
+msgstr "Allmänt"
+
+#: src/WooCommerce/Payments/StripeGateway.php:505
+msgid "Disconnect Stripe Account"
+msgstr "Koppla från Stripe-konto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:514
+msgid "Connecting to Stripe..."
+msgstr "Ansluter till Stripe ..."
+
+#: src/WooCommerce/Payments/StripeGateway.php:516
+msgid "This operation can take up to a few seconds. Please reload this page to check the current status."
+msgstr "Den här åtgärden kan ta några sekunder. Ladda om sidan för att kontrollera aktuell status."
+
+#: src/WooCommerce/Payments/StripeGateway.php:526
+msgid "Connect Stripe Account"
+msgstr "Anslut Stripe-konto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:590
+msgid "Affirm"
+msgstr "Affirm"
+
+#: src/WooCommerce/Payments/StripeGateway.php:591
+msgid "Afterpay / Clearpay"
+msgstr "Afterpay / Clearpay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:592
+msgid "Alipay"
+msgstr "Alipay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:593
+msgid "BECS direct debit"
+msgstr "BECS direktbetalning"
+
+#: src/WooCommerce/Payments/StripeGateway.php:594
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: src/WooCommerce/Payments/StripeGateway.php:595
+msgid "Boleto"
+msgstr "Boleto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:596
+msgid "Credit / Debit"
+msgstr "Credit / Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:597
+msgid "EPS"
+msgstr "EPS"
+
+#: src/WooCommerce/Payments/StripeGateway.php:598
+msgid "FPX"
+msgstr "FPX"
+
+#: src/WooCommerce/Payments/StripeGateway.php:599
+msgid "Giropay"
+msgstr "Giropay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:600
+msgid "GrabPay"
+msgstr "GrabPay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:601
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: src/WooCommerce/Payments/StripeGateway.php:602
+msgid "Klarna"
+msgstr "Klarna"
+
+#: src/WooCommerce/Payments/StripeGateway.php:603
+msgid "Konbini"
+msgstr "Konbini"
+
+#: src/WooCommerce/Payments/StripeGateway.php:604
+msgid "OXXO"
+msgstr "OXXO"
+
+#: src/WooCommerce/Payments/StripeGateway.php:605
+msgid "P24"
+msgstr "P24"
+
+#: src/WooCommerce/Payments/StripeGateway.php:606
+msgid "PayNow"
+msgstr "PayNow"
+
+#: src/WooCommerce/Payments/StripeGateway.php:607
+msgid "SEPA Debit"
+msgstr "SEPA Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:608
+msgid "Sofort"
+msgstr "Sofort"
+
+#: src/WooCommerce/Payments/StripeGateway.php:609
+msgid "ACH Direct Debit"
+msgstr "ACH Direct Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:610
+msgid "WeChat Pay"
+msgstr "WeChat Pay"
+
+#: src/WooCommerce/Shipping/CoreShippingMethods.php:161
+msgid "Order Instructions:"
+msgstr "Orderinstruktioner:"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:69
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:141
+msgid "Local delivery"
+msgstr "Lokal leverans"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:70
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "Låt kunderna välja lokal budfirma. Moms läggs på baserat på kundens leveransadress."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "Ange en kostnad (exkl. moms) eller ett summa, t.ex. <code>10,00 * [qty]</code>."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "Använd <code>[qty]</code> för antalet artiklar, <br/><code>[cost]</code> för totalbeloppet för artiklarna och <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> för procentbaserade avgifter."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:138
+msgid "Checkout Title"
+msgstr "Rubrik i kassan"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:140
+msgid "This controls the title which the user sees during checkout."
+msgstr "Styr vilken rubrik kunden ser i kassan."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:145
+msgid "Tax status"
+msgstr "Momsstatus"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:150
+msgid "Taxable"
+msgstr "Momsberättigad"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:151
+msgctxt "Tax status"
+msgid "None"
+msgstr "Ingen"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:155
+msgid "Cost"
+msgstr "Kostnad"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:163
+msgid "Minimum order amount total when available"
+msgstr "Lägsta totala orderbelopp om tillgängligt"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:166
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "Beloppet som kundens order måste var större än eller lika med för att välja leveranssättet."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:171
+msgid "Minimum order total when free"
+msgstr "Lägsta orderbelopp för gratis leverans"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:174
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "Beloppet som kundens order måste var större än eller lika med för att leveranssättet ska vara gratis."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:182
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "Den här beskrivningen visas under namnet på leveranssättet för lokal leverans i varukorgen och på kassasidorna."
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:189
+msgid "Delivery instructions"
+msgstr "Leveransinstruktioner"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:190
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "Meddelande som kunden ser på ordersidan och meddelandet om att ordern behandlas som skickas efter betalning i kassan."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:120
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "Beskrivning av leveranssätt som kunden ser i kassan."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:126
+msgid "Pickup instructions"
+msgstr "Upphämtningsinstruktioner"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:128
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "Meddelande som kunden ser på ordersidan och i e-postmeddelandena om att ordern behandlas och är redo för upphämtning."
+
+#: src/WooCommerce/Shipping/LocalPickup.php:222
+#: src/WooCommerce/Shipping/LocalPickup.php:231
+#: src/WooCommerce/Shipping/LocalPickup.php:255
+msgid "Pickup Instructions"
+msgstr "Anvisningar för upphämtning"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "Budfirma"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "Spårningsnummer"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "Varor"
+
+#: src/WooCommerce/Views/Components/GoDaddyIcon.php:25
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/WordPress/Interceptors/EnforcePostNamePermalinksInterceptor.php:111
+msgid "Warning! Plain Permalinks Detected"
+msgstr "Varning! Enkla permalänkar upptäcktes"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:130
+msgid "You attempted to install a blocked plugin."
+msgstr "Du försökte installera ett spärrat tillägg."
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:140
+msgid "One or more blocked plugins have been removed."
+msgstr "Ett eller flera spärrade tillägg har tagits bort."
+
+#. translators: Placeholders: %1$s - Opening <a> tag, %2$s - Closing </a> tag
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:152
+msgid "GoDaddy disallows a small list of plugins that can cause performance and other issues on your store. If you attempt to install them, we'll remove them for you. You can check out %1$sthe entire plugin blocklist here%2$s."
+msgstr "Det finns några tillägg som GoDaddy inte tillåter på grund av att de kan orsaka prestandaproblem och annat huvudbry för din butik. Om du försöker installera dem tar vi bort dem åt dig. %1$sHela listan med spärrade tillägg finns här%2$s."
+
+#: templates/woocommerce/emails/order/order-shipments.php:23
+#: templates/woocommerce/emails/plain/order/order-shipments.php:24
+#: templates/woocommerce/order/order-shipments.php:25
+msgid "Shipments"
+msgstr "Leveranser"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:29
+#: templates/woocommerce/emails/plain/order/order-shipments.php:31
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:35
+msgid "Tracking URL: %s"
+msgstr "URL för spårning: %s"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:40
+msgid "%s: "
+msgstr "%s: "
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:44
+msgid "%1$s x %2$s"
+msgstr "%1$s x %2$s"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:32
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "Din order är redo för upphämtning."

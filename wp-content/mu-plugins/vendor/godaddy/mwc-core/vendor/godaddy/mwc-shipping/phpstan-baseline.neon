@@ -1,0 +1,806 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^PHPDoc tag @param for parameter \\$quantity with type float\\|int is not subtype of native type float\\.$#"
+			count: 1
+			path: src/Contracts/PackageContract.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentContract\\:\\:getPackagesThatCanFulfillItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Contracts/ShipmentContract.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentContract\\:\\:setProperties\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Contracts/ShipmentContract.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentContract\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Contracts/ShipmentContract.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentsControllerDelegateContract\\:\\:getShipmentData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Contracts/ShipmentsControllerDelegateContract.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentsControllerDelegateContract\\:\\:getShipmentFromRequestData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Contracts/ShipmentsControllerDelegateContract.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Fulfillment\\:\\:addShipments\\(\\) has parameter \\$shipments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Fulfillment.php
+
+		-
+			message: "#^PHPDoc tag @return with type float\\|int is not subtype of native type float\\.$#"
+			count: 1
+			path: src/Models/Orders/OrderFulfillment.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Providers\\\\Contracts\\\\ProviderContract\\:\\:tracking\\(\\)\\.$#"
+			count: 1
+			path: src/Models/Shipment.php
+
+		-
+			message: "#^Cannot call method getTrackingUrl\\(\\) on class\\-string\\|object\\.$#"
+			count: 1
+			path: src/Models/Shipment.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Shipment\\:\\:getPackagesThatCanFulfillItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Models/Shipment.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 2
+			path: src/Models/ShippingLabel.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\ShippingRate\\:\\:getItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Models/ShippingRate.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\AustraliaPost\\\\AustraliaPostProvider\\:\\:tracking\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GatewayContract but returns object\\.$#"
+			count: 1
+			path: src/Providers/AustraliaPost/AustraliaPostProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\AustraliaPost\\\\Gateways\\\\AustraliaPostTrackingGateway\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: src/Providers/AustraliaPost/Gateways/AustraliaPostTrackingGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\CanadaPost\\\\CanadaPostProvider\\:\\:tracking\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GatewayContract but returns object\\.$#"
+			count: 1
+			path: src/Providers/CanadaPost/CanadaPostProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\CanadaPost\\\\Gateways\\\\CanadaPostTrackingGateway\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: src/Providers/CanadaPost/Gateways/CanadaPostTrackingGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\DHL\\\\DHLProvider\\:\\:tracking\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GatewayContract but returns object\\.$#"
+			count: 1
+			path: src/Providers/DHL/DHLProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\DHL\\\\Gateways\\\\DHLTrackingGateway\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: src/Providers/DHL/Gateways/DHLTrackingGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\FedEx\\\\FedExProvider\\:\\:tracking\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GatewayContract but returns object\\.$#"
+			count: 1
+			path: src/Providers/FedEx/FedExProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\FedEx\\\\Gateways\\\\FedExTrackingGateway\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: src/Providers/FedEx/Gateways/FedExTrackingGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\OnTrac\\\\Gateways\\\\OnTracTrackingGateway\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: src/Providers/OnTrac/Gateways/OnTracTrackingGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\OnTrac\\\\OnTracProvider\\:\\:tracking\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GatewayContract but returns object\\.$#"
+			count: 1
+			path: src/Providers/OnTrac/OnTracProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\UPS\\\\Gateways\\\\UPSTrackingGateway\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: src/Providers/UPS/Gateways/UPSTrackingGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\UPS\\\\UPSProvider\\:\\:tracking\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GatewayContract but returns object\\.$#"
+			count: 1
+			path: src/Providers/UPS/UPSProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\USPS\\\\Gateways\\\\USPSTrackingGateway\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: src/Providers/USPS/Gateways/USPSTrackingGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Providers\\\\USPS\\\\USPSProvider\\:\\:tracking\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GatewayContract but returns object\\.$#"
+			count: 1
+			path: src/Providers/USPS/USPSProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Shipping\\:\\:setProviders\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Shipping.php
+
+		-
+			message: "#^Parameter \\#1 \\$providersClasses of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Shipping\\:\\:setProviders\\(\\) expects array\\<string\\>, mixed given\\.$#"
+			count: 1
+			path: src/Shipping.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Events\\\\AbstractShipmentEventTest\\:\\:testCanGetSetOrderFulfillment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Events\\\\AbstractShipmentEventTest\\:\\:testCanGetSetShipment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Events\\\\AbstractShipmentEventTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Events\\\\ShipmentCreatedEventTest\\:\\:testExtends\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/ShipmentCreatedEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Events\\\\ShipmentDeletedEventTest\\:\\:testExtends\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/ShipmentDeletedEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Events\\\\ShipmentUpdatedEventTest\\:\\:testExtends\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/ShipmentUpdatedEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\FulfillmentTest\\:\\:testCanUpdateOrderFulfillmentStatus\\(\\) has parameter \\$shipmentsThatCanFulfillItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) expects class\\-string\\<object\\>, string given\\.$#"
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\FulfillmentStatuses\\\\AbstractFulfillmentStatusTest\\:\\:testContract\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/AbstractFulfillmentStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\FulfillmentStatuses\\\\FulfilledFulfillmentStatusTest\\:\\:testCanAccessFulfillmentStatusContractMethods\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\FulfillmentStatuses\\\\FulfilledFulfillmentStatusTest\\:\\:testCanInitializeNameAndLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\FulfillmentStatuses\\\\PartiallyFulfilledFulfillmentStatusTest\\:\\:testCanAccessFulfillmentStatusContractMethods\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\FulfillmentStatuses\\\\PartiallyFulfilledFulfillmentStatusTest\\:\\:testCanInitializeNameAndLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\FulfillmentStatuses\\\\UnfulfilledFulfillmentStatusTest\\:\\:testCanAccessFulfillmentStatusContractMethods\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\FulfillmentStatuses\\\\UnfulfilledFulfillmentStatusTest\\:\\:testCanInitializeNameAndLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:providerCanGetLineItemsThatNeedShipping\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanAddShipment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanConvertToArray\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanDetermineIfHasShipment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanDetermineIfHasShipmentProvider\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetFulfilledLineItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetFulfilledLineItems\\(\\) has parameter \\$expected with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetFulfilledLineItems\\(\\) has parameter \\$lineItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetFulfilledQuantityForLineItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetLineItemsThatNeedShipping\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetLineItemsThatNeedShipping\\(\\) has parameter \\$expected with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetLineItemsThatNeedShipping\\(\\) has parameter \\$lineItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetShipment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetShipments\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanGetShipmentsThatCanFulfillItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanRemoveShipment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\OrderFulfillmentTest\\:\\:testCanSetAndGetOrder\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setId\\(\\) expects string, int given\\.$#"
+			count: 7
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Shipment\\:\\:setId\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$array of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertArrayHasKey\\(\\) expects array\\|ArrayAccess, mixed given\\.$#"
+			count: 2
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertCount\\(\\) expects Countable\\|iterable, mixed given\\.$#"
+			count: 2
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:providerCanAddItemToPackage\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:providerCanGetQuantitiesForItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:providerCanRemoveItemFromPackage\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:providerPackageStatus\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanAddItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanAddItem\\(\\) has parameter \\$initialItemQuantities with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanAddItem\\(\\) has parameter \\$initialItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanAddItem\\(\\) has parameter \\$resultItemQuantities with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanAddItem\\(\\) has parameter \\$resultItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanDetermineIfItemIsInPackage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanFulfillItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetItemQuantity\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetItemQuantity\\(\\) has parameter \\$setItemQuantities with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetItemQuantity\\(\\) has parameter \\$setItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetShippingLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetShippingRate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetStatus\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetTrackingNumber\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanGetTrackingUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanRemoveItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanRemoveItem\\(\\) has parameter \\$initialItemQuantities with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanRemoveItem\\(\\) has parameter \\$initialItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanRemoveItem\\(\\) has parameter \\$resultItemQuantities with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanRemoveItem\\(\\) has parameter \\$resultItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanSetId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanSetShippingLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanSetShippingRate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanSetStatus\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanSetTrackingNumber\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\PackageTest\\:\\:testCanSetTrackingUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$expected with type float\\|int is not subtype of native type float\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\Statuses\\\\CancelledPackageStatusTest\\:\\:testCanFulfillItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CancelledPackageStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\Statuses\\\\CancelledPackageStatusTest\\:\\:testCanInitializeNameAndLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CancelledPackageStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\Statuses\\\\LabelCreatedPackageStatusTest\\:\\:testCanFulfillItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/LabelCreatedPackageStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\Statuses\\\\LabelCreatedPackageStatusTest\\:\\:testCanInitializeNameAndLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/LabelCreatedPackageStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\Statuses\\\\NotTrackedPackageStatusTest\\:\\:testCanFulfillItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/NotTrackedPackageStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\Packages\\\\Statuses\\\\NotTrackedPackageStatusTest\\:\\:testCanInitializeNameAndLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/NotTrackedPackageStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\ShipmentTest\\:\\:providerForTestProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setId\\(\\) expects string, int given\\.$#"
+			count: 11
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\ShippingServiceTest\\:\\:testCanAccessTraitMethods\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Models\\\\ShippingServiceTest\\:\\:testCanConvertToArray\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\AbstractTrackingUrlBuilderTest\\:\\:providerCanGetTrackingUrl\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AbstractTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\AustraliaPost\\\\AustraliaPostProviderTest\\:\\:testHasShippingTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/AustraliaPostProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\AustraliaPost\\\\Gateways\\\\AustraliaPostTrackingGatewayTest\\:\\:testCanBuildTrackingUrls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/Gateways/AustraliaPostTrackingGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\AustraliaPost\\\\Tracking\\\\AustraliaPostTrackingUrlBuilderTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/Tracking/AustraliaPostTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\CanadaPost\\\\CanadaPostProviderTest\\:\\:testHasShippingTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/CanadaPostProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\CanadaPost\\\\Gateways\\\\CanadaPostTrackingGatewayTest\\:\\:testCanBuildTrackingUrls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/Gateways/CanadaPostTrackingGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\CanadaPost\\\\Tracking\\\\CanadaPostTrackingUrlBuilderTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/Tracking/CanadaPostTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\DHL\\\\DHLProviderTest\\:\\:testHasShippingTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/DHL/DHLProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\DHL\\\\Gateways\\\\DHLTrackingGatewayTest\\:\\:testCanBuildTrackingUrls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/DHL/Gateways/DHLTrackingGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\DHL\\\\Tracking\\\\DHLTrackingUrlBuilderTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/DHL/Tracking/DHLTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\FedEx\\\\FedExProviderTest\\:\\:testHasShippingTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/FedEx/FedExProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\FedEx\\\\Gateways\\\\FedExTrackingGatewayTest\\:\\:testCanBuildTrackingUrls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/FedEx/Gateways/FedExTrackingGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\FedEx\\\\Tracking\\\\FedExTrackingUrlBuilderTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/FedEx/Tracking/FedExTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\OnTrac\\\\Gateways\\\\OnTracTrackingGatewayTest\\:\\:testCanBuildTrackingUrls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/OnTrac/Gateways/OnTracTrackingGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\OnTrac\\\\OnTracProviderTest\\:\\:testHasShippingTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/OnTrac/OnTracProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\OnTrac\\\\Tracking\\\\OnTracTrackingUrlBuilderTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/OnTrac/Tracking/OnTracTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\UPS\\\\Gateways\\\\UPSTrackingGatewayTest\\:\\:testCanBuildTrackingUrls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/UPS/Gateways/UPSTrackingGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\UPS\\\\Tracking\\\\UPSTrackingUrlBuilderTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/UPS/Tracking/UPSTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\UPS\\\\UPSProviderTest\\:\\:testHasShippingTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/UPS/UPSProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\USPS\\\\Gateways\\\\USPSTrackingGatewayTest\\:\\:testCanBuildTrackingUrls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/USPS/Gateways/USPSTrackingGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\USPS\\\\Tracking\\\\USPSTrackingUrlBuilderTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/USPS/Tracking/USPSTrackingUrlBuilderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Providers\\\\USPS\\\\USPSProviderTest\\:\\:testHasShippingTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/USPS/USPSProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\ShippingTest\\:\\:testCanSetProviders\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/ShippingTest.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getTrackingUrl\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getTrackingUrlTemplate\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\CanBuildTrackingUrlTraitTest\\:\\:providerTrackingUrlBuilder\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\CanBuildTrackingUrlTraitTest\\:\\:testCanGetBuilderInstance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\CanBuildTrackingUrlTraitTest\\:\\:testCanGetTrackingUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\CanBuildTrackingUrlTraitTest\\:\\:testCanGetTrackingUrlTemplate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanBuildTrackingUrlTraitTest\\.php\\:91\\:\\:getTrackingUrlTemplate\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\TrackingUrlBuilderContract\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanCalculateShippingRatesTraitTest\\.php\\:26\\:\\:calculate\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\CalculateShippingRatesOperationContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCalculateShippingRatesTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanCancelShippingLabelsTraitTest\\.php\\:82\\:\\:cancel\\(\\) should return array but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCancelShippingLabelsTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanConnectShippingAccountTraitTest\\.php\\:32\\:\\:connect\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Contracts\\\\AccountContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanConnectShippingAccountTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanCreateShippingLabelsTraitTest\\.php\\:83\\:\\:create\\(\\) should return array but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCreateShippingLabelsTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanDisconnectShippingAccountTraitTest\\.php\\:35\\:\\:disconnect\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Contracts\\\\AccountContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanDisconnectShippingAccountTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanEstimateShippingRatesTraitTest\\.php\\:82\\:\\:estimate\\(\\) should return array but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanEstimateShippingRatesTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanGetDashboardUrlTraitTest\\.php\\:31\\:\\:getDashboardUrl\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GetDashboardUrlOperationContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetDashboardUrlTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanGetShippingRatesTraitTest\\.php\\:28\\:\\:get\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GetShippingRateOperationContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetShippingRatesTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanGetTrackingStatusTraitTest\\.php\\:31\\:\\:status\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\GetTrackingStatusOperationContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetTrackingStatusTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanListShippingCarriersTraitTest\\.php\\:31\\:\\:list\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ListCarriersOperationContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanListShippingCarriersTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanPurchaseShippingLabelsTraitTest\\.php\\:35\\:\\:purchase\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\PurchaseShippingLabelsOperationContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanPurchaseShippingLabelsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isValidTrackingNumber\\(\\)\\.$#"
+			count: 3
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\CanValidateTrackingNumberTraitTest\\:\\:providerTrackingNumberValidator\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\CanValidateTrackingNumberTraitTest\\:\\:testCanGetValidatorInstance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\CanValidateTrackingNumberTraitTest\\:\\:testCanValidateTrackingNumber\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanVoidShippingLabelsTraitTest\\.php\\:35\\:\\:void\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\VoidShippingLabelOperationContract but returns mixed\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanVoidShippingLabelsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:labels\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasShippingLabelsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\HasShippingLabelsTraitTest\\:\\:testCanGetLabelsGateway\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasShippingLabelsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:rates\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasShippingRatesTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\HasShippingRatesTraitTest\\:\\:testCanGetRatesGateway\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasShippingRatesTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:tracking\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasShippingTrackingTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Tests\\\\Unit\\\\Traits\\\\HasShippingTrackingTraitTest\\:\\:testCanGetTracking\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasShippingTrackingTraitTest.php

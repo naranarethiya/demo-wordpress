@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "无法找到具有给定别名的扩展：%s。"
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "无法找到 %1$s 版本的 %2$s。"
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "扩展 ID。"
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "扩展别名。"
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "扩展名称。"
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "扩展短描述。"
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "扩展类型。"
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "扩展类别。"
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "扩展品牌。"
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "有关扩展安装版本的信息。"
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "版本号。"
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "所需的 PHP 版本。"
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "所需的 WordPress 版本。"
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "所需的 WooCommerce 版本。"
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "版本发布时的时间戳（以秒为单位）。"
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "可以下载程序包的 URL"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "已安装版本的状态（是否是最新版本）"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "扩展文档 URL。"
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "扩展是否特别展示。"
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "扩展状态。"
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "有关扩展可用版本的信息。"
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "待删除的消息 ID。"
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "找不到 %s 的身份验证方法"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "无法检索远程消息数据：%s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "无法检索远程消息数据 - API 响应状态为 %d，错误：%s"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "远程消息数据无效"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "无效的消息 ID"
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "唯一的消息 ID。"
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "消息类型。"
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "消息主题。"
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "消息正文。"
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "发布日期。"
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "到期日期。"
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "与消息一起显示的按钮或链接。"
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "操作文本。"
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "操作 href。"
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "操作类型。"
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "由客户端评估的规则来决定是否应显示消息。"
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "规则标签。"
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "规则名称。"
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "规则类型。"
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "用于评估规则的相关实体。"
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "用于评估规则的相关实体的元素。"
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "用于评估规则的比较运算符。"
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "用于评估规则的参考值。"
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "要检索并用于评估规则的数据的链接。"
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "链接 href。"
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "由链接表示的相关实体。"
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "检索数据的请求类型。"
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "当前用户的消息状态。"
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "商品 ID。"
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "产品 ID。"
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "变体 ID。"
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "产品名称。"
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "商品数量。"
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "未配送商品的数量。"
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "产品图像。"
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "图像高度。"
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "图像宽度。"
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "图像来源 URL"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "图像来源 URL 列表"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "图像大小"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "订单 ID。"
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "订单是否已经配送。"
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "订单的出货。"
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "货件 ID。"
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "货件的创建日期。"
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "货件的最后更新日期。"
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "货件的货运提供商。"
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "货件的跟踪编号。"
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "货件的跟踪 URL。"
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "货件中包括的商品。"
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "商品 ID。"
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "产品 ID。"
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "产品的变体 ID。"
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "商品数量。"
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "订单电子邮件地址。"
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "订单号，与订单 ID 不同。"
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "订单是否视为“已付款”。"
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "支付提供商名称（在 Woo 术语中，即网关 ID）。"
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "总体订单状态。"
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "订单总金额"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "完整订单金额，以给定货币代码的最小单位表示。"
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "货币代码。"
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "订单账单地址。"
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "一系列行政区。"
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "账单地址公司名称。"
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "账单地址国家代码。"
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "账单地址客户名字。"
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "账单地址客户姓氏。"
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "账单地址行。"
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "账单地址位置。"
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "账单地址电话号码。"
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "账单地址邮政编码。"
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "帐单地址子区域。"
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "账单地址的字符串表示形式"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "订单运送地址。"
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "运送地址公司名称。"
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "运送地址国家代码。"
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "运送地址客户名字。"
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "运送地址客户姓氏。"
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "运送地址行。"
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "运送地址位置。"
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "运送地址电话号码。"
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "运送地址邮政编码。"
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "运送地址子区域。"
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "运送地址的字符串表示形式"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "订单的市场信息。"
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "相应的市场订单号。"
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "市场渠道唯一标识符。"
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "市场渠道名称。"
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "市场渠道显示类型名称。"
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "插件别名。"
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "插件名称。"
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "该插件是否是 MWC 托管插件"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "该插件的 WooCommerce.com 订阅状态。"
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "插件文档 URL"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "运送提供商标签。"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "运送提供商名称。"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "运送提供商跟踪 URL 格式。"
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "为当前频道设置的默认商店 ID"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "企业 ID"
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "网站 ID。"
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "网站 URL。"
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "默认商店 ID。"
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "当前管理员用户的电子邮件。"
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "支持用户的电子邮件（如果存在支持用户）。"
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "该站点是否连接到支持机器人。"
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "该站点是否连接到 WooCommerce.com。"
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "仪表盘类型（MWC 或空）。"
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "站点是否由经销商销售。"
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "经销商自有品牌 ID（1 表示 GoDaddy，因此不是经销商）。"
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "用于将站点连接到支持机器人的 URL。"
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "当前用户是否选择接收 MWC 仪表盘消息。"
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "商店页面的创建日期。"
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "地址行 1"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "地址行 2"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "城市"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "国家/地区"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "州"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "邮政编码"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "行政区"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "企业名称"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "国家/地区代码"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "名字"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "姓氏"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "地址行"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "电话号码"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "子区域"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "格式化地址"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "站点电子邮件通知功能是否处于活动状态。"
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "站点电子邮件通知功能是否启用。"
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "该站点当前是否覆盖某个 WooCommerce 电子邮件模板。"
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "配置的重量单位"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "支持团队将回复的电子邮件地址"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "插件别名"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "主题"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "消息"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "理由字段"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "受影响的市场渠道"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "是否创建调试用户"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "当前用户信息。"
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "当前用户 ID。"
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "营销许可。"
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "是否显示扩展推荐。"
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>注意！</strong>我们已停用 SkyVerge 仪表盘插件，因为您现在可以通过“获取帮助”菜单访问仪表盘！"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "获取帮助"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "获取帮助"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "WooCommerce 扩展"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "扩展"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "扩展：%s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "包含的扩展"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "GoDaddy 包含的扩展"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "无订阅"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "终生"

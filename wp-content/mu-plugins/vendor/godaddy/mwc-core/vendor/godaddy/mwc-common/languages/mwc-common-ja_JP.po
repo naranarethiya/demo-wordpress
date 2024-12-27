@@ -1,0 +1,179 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Common\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-05T04:20:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: mwc-common\n"
+
+#: src/Email/Email.php:68
+msgid "Invalid recipient value to set for email: should be type of string or array, %s given."
+msgstr "メールの設定に無効な受信者の値：文字列型または配列型である必要があります、%s型が指定されました。"
+
+#: src/Email/Email.php:84
+msgid "Invalid recipient value to set for email: "
+msgstr "メールの設定に無効な受信者の値： "
+
+#: src/Email/Emails.php:31
+msgid "The email does not have content type set"
+msgstr "メールにコンテンツの種類が設定されていません"
+
+#: src/Email/Emails.php:35
+msgid "The email does not have a recipient set"
+msgstr "メールに受信者が設定されていません"
+
+#: src/Email/Emails.php:72
+msgid "A usable email service could not be found for %s"
+msgstr "%s の使えるメールサービスが見つかりません"
+
+#. translators: A list of items, for example: "US or Canada", or "US, Canada, or Mexico". English uses Oxford comma before the conjunction ("or") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of item, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:610
+msgid "%1$s or %2$s"
+msgid_plural "%1$s, or %2$s"
+msgstr[0] "%1$s または %2$s"
+msgstr[1] "%1$s、または %2$s"
+
+#. translators: A list of items, for example: "US and Canada", or "US, Canada, and Mexico". English uses Oxford comma before the conjunction ("and") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of items, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:616
+msgid "%1$s and %2$s"
+msgid_plural "%1$s, and %2$s"
+msgstr[0] "%1$sと%2$s"
+msgstr[1] "%1$s、および %2$s"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:20
+msgid "Cancelled"
+msgstr "キャンセル済み"
+
+#: src/Models/Orders/Statuses/CheckoutDraftOrderStatus.php:17
+msgid "Checkout Draft"
+msgstr "支払い手続きの下書き"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:20
+msgid "Completed"
+msgstr "完了"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:20
+msgid "Failed"
+msgstr "失敗"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:20
+msgid "Held"
+msgstr "保留"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:20
+msgid "Pending payment"
+msgstr "支払い待ち"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:20
+msgid "Processing"
+msgstr "処理中"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:20
+msgid "Refunded"
+msgstr "払い戻し"
+
+#: src/Repositories/WooCommerce/CartRepository.php:25
+#: src/Repositories/WooCommerceRepository.php:47
+msgid "WooCommerce cart is not available"
+msgstr "WooCommerce カートは利用できません"
+
+#: src/Repositories/WooCommerce/CartRepository.php:126
+msgid "The product could not be added to the cart."
+msgstr "製品をカートに追加できませんでした。"
+
+#: src/Repositories/WooCommerce/CountriesRepository.php:25
+msgid "The WC_Countries class is not available."
+msgstr "WC_Countries のクラスは利用できません。"
+
+#. translators: Placeholder: %s - error message
+#: src/Repositories/WooCommerce/RefundsRepository.php:54
+msgid "Could not create refund: %s"
+msgstr "返金を作成できませんでした：%s"
+
+#: src/Repositories/WooCommerce/RefundsRepository.php:57
+msgid "WooCommerce is not active"
+msgstr "WooCommerce が有効ではありません"
+
+#: src/Repositories/WooCommerce/SessionRepository.php:26
+msgid "WooCommerce session is not available"
+msgstr "WooCommerce のセッションが利用できません"
+
+#. translators: Placeholders: %1$s - WordPress user capability, %2$s - WordPress user role, %3$s - Error message
+#: src/Repositories/WordPress/RolesRepository.php:42
+msgid "Cannot add \"%1$s\" capability to \"%2$s\" user role: %3$s"
+msgstr "「%2$s」のユーザー権限グループに「%1$s」の権限を追加することはできません：%3$s"
+
+#: src/Repositories/WordPress/RolesRepository.php:45
+msgid "Cannot load WordPress Roles handler."
+msgstr "WordPress 権限グループハンドラーを読み込めません。"
+
+#: src/Repositories/WordPress/RolesRepository.php:49
+msgid "User role does not exist."
+msgstr "ユーザー権限グループが存在しません。"
+
+#: src/Repositories/WordPressRepository.php:428
+msgid "User does not have a valid ID."
+msgstr "ユーザーに有効な ID がありません。"
+
+#: src/Repositories/WordPressRepository.php:440
+msgid "User could not be logged in."
+msgstr "ユーザーがログインできませんでした。"
+
+#: src/Settings/Models/AbstractSetting.php:196
+msgid "Invalid value for updating the setting type of %1s: must be one of %2$s, %3$s given."
+msgstr "%1$s の設定種類の更新に無効な値です：%2$s のいずれかでなければなりません、%3$sが指定されました。"
+
+#: src/Settings/Models/AbstractSetting.php:255
+msgid "Invalid option to set for %1$s: %2$s"
+msgstr "%1$s の設定に無効なオプション: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:286
+msgid "Invalid default value to set for %1$s: %2$s"
+msgstr "%1$s の設定に無効な初期設定の値：%2$s"
+
+#: src/Settings/Models/AbstractSetting.php:316
+msgid "Invalid value to set for %1$s: %2$s"
+msgstr "%1$s の設定に無効な値：%2$s"
+
+#: src/Settings/Models/AbstractSetting.php:393
+msgid "Value must be one of the allowed options."
+msgstr "値は許可されたオプションのいずれかでなければなりません。"
+
+#: src/Settings/Models/AbstractSetting.php:417
+msgid "Value should be type of %1$s, %2$s given."
+msgstr "値は %1$s の種類でなければなりません、%2$sが指定されました。"
+
+#: src/Settings/Models/Control.php:150
+msgid "Invalid value for updating the control type of %1s: must be one of %2$s."
+msgstr "%1$s のコントロールタイプの更新に無効な値：%2$s のいずれかでなければなりません。"
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:37
+msgid "The name of the setting is required."
+msgstr "設定名が必要です。"
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:80
+msgid "The name of the setting subgroup is required."
+msgstr "設定サブグループ名が必要です。"
+
+#: src/Settings/Traits/HasSettingsTrait.php:101
+msgid "%s is not a valid setting."
+msgstr "%s は有効な設定ではありません。"
+
+#: src/Settings/Traits/HasSettingsTrait.php:275
+msgid "The settings objects must be an instance of SettingContract"
+msgstr "設定オブジェクトは SettingContract のインスタンスでなければなりません"
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:46
+msgid "Please use %1$s or %2$s to format a boolean value for reading from or saving to storage."
+msgstr "ストレージからの読み取りやストレージへの保存のためのブール値の書式化には %1$s または %2$s を使用してください。"
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:143
+msgid "Cannot handle a \"%s\" type to parse a valid boolean value."
+msgstr "有効なブール値の解析に「%s」の種類を処理することはできません。"

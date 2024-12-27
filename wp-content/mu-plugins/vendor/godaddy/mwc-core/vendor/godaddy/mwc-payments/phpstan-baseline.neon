@@ -1,0 +1,1101 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Contracts\\\\GatewayContract\\:\\:doRequest\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Contracts/GatewayContract.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:setLastFour\\(\\)\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$accountType of static method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Payments\\:\\:getBankAccountType\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$customerId of method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:setCustomerId\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$datetime of class DateTime constructor expects string, mixed given\\.$#"
+			count: 2
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of method WC_Data\\:\\:set_id\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$last4 of method WC_Payment_Token_ECheck\\:\\:set_last4\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$token of method WC_Payment_Token\\:\\:set_token\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$user_id of method WC_Payment_Token\\:\\:set_user_id\\(\\) expects int, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:setBrand\\(\\)\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$customerId of method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:setCustomerId\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$datetime of class DateTime constructor expects string, mixed given\\.$#"
+			count: 2
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of method WC_Data\\:\\:set_id\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$last4 of method WC_Payment_Token_CC\\:\\:set_last4\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$month of method WC_Payment_Token_CC\\:\\:set_expiry_month\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$token of method WC_Payment_Token\\:\\:set_token\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$user_id of method WC_Payment_Token\\:\\:set_user_id\\(\\) expects int, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$year of method WC_Payment_Token_CC\\:\\:set_expiry_year\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method WC_Data\\:\\:update_meta_data\\(\\) expects array\\|string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 2
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$display_name of method WC_Customer\\:\\:set_display_name\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$first_name of method WC_Customer\\:\\:set_first_name\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of method WC_Data\\:\\:set_id\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$last_name of method WC_Customer\\:\\:set_last_name\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$remoteId of method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\Customer\\:\\:setRemoteId\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$username of method WC_Customer\\:\\:set_username\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method WC_Customer\\:\\:set_email\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method WC_Data\\:\\:update_meta_data\\(\\) expects array\\|string, string\\|null given\\.$#"
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\DataSources\\\\Contracts\\\\DataSourceAdapterContract\\:\\:convertToSource\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Gateways\\\\AbstractGateway\\:\\:doRequest\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Http\\\\Response but returns GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Http\\\\Contracts\\\\ResponseContract\\.$#"
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Exceptions\\\\FailedResponseException constructor expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: "#^Parameter \\#1 \\$request of method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Gateways\\\\AbstractGateway\\:\\:doRequest\\(\\) expects GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Http\\\\Request, mixed given\\.$#"
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: "#^Parameter \\#1 \\$response of class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Events\\\\ProviderResponseEvent constructor expects GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Http\\\\Response, GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Http\\\\Contracts\\\\ResponseContract given\\.$#"
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Payments\\:\\:__construct\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Payments\\:\\:provider\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Providers\\\\AbstractProvider but returns mixed\\.$#"
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Payments\\:\\:setProviders\\(\\) has parameter \\$providersClasses with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: "#^Parameter \\#1 \\$providersClasses of method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Payments\\:\\:setProviders\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Providers\\\\AbstractProvider\\:\\:__call\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Providers\\\\AbstractProvider\\:\\:__call\\(\\) has parameter \\$arguments with no type specified\\.$#"
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Providers\\\\AbstractProvider\\:\\:__call\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Providers\\\\AbstractProvider\\:\\:__call\\(\\) throws checked exception BadMethodCallException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:setType\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Cannot call method getTimestamp\\(\\) on DateTime\\|null\\.$#"
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\BankAccountPaymentMethodAdapterTest\\:\\:testCanConvertFromSource\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\BankAccountPaymentMethodAdapterTest\\:\\:testCanConvertToSource\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$type with type GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Contracts\\\\BankAccountTypeContract\\|null is not subtype of native type GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Contracts\\\\BankAccountTypeContract\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$token of class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\BankAccountPaymentMethodAdapter constructor expects WC_Payment_Token_ECheck, Mockery\\\\MockInterface&WC_Payment_Token given\\.$#"
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:setBin\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getName\\(\\)\\.$#"
+			count: 3
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Cannot call method getName\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Contracts\\\\CardBrandContract\\|null\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Cannot call method getTimestamp\\(\\) on DateTime\\|null\\.$#"
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$customerId of method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:setCustomerId\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$token of class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\CardPaymentMethodAdapter constructor expects WC_Payment_Token_CC, Mockery\\\\MockInterface&WC_Payment_Token given\\.$#"
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\CustomerAdapterTest\\:\\:testCanConvertToSource\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\AbstractPaymentMethodEventTest\\:\\:providerGetPaymentMethod\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Events/AbstractPaymentMethodEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\AbstractPaymentMethodEventTest\\:\\:testCanGetPaymentMethod\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/AbstractPaymentMethodEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\AbstractTransactionEventTest\\:\\:providerGetTransaction\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Events/AbstractTransactionEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\AbstractTransactionEventTest\\:\\:testCanGetTransaction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/AbstractTransactionEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\CaptureTransactionEventTest\\:\\:testCanSetTransaction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/CaptureTransactionEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\CreatePaymentMethodEventTest\\:\\:providerCanSetPaymentMethod\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Events/CreatePaymentMethodEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\CreatePaymentMethodEventTest\\:\\:testCanSetPaymentMethod\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/CreatePaymentMethodEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\PaymentTransactionEventTest\\:\\:testCanSetTransaction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/PaymentTransactionEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\ProviderRequestEventTest\\:\\:testCanGetRequest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/ProviderRequestEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\ProviderRequestEventTest\\:\\:testCanGetRequest\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Events/ProviderRequestEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\ProviderResponseEventTest\\:\\:testCanGetResponse\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/ProviderResponseEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\RefundTransactionEventTest\\:\\:testCanSetTransaction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/RefundTransactionEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Events\\\\VoidTransactionEventTest\\:\\:testCanSetTransaction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Events/VoidTransactionEventTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Gateways\\\\AbstractGatewayTest\\:\\:testCanDoAdaptedRequest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Gateways\\\\AbstractGatewayTest\\:\\:testCanDoRequest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Gateways\\\\AbstractGatewayTest\\:\\:testCanDoRequestWithException\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Gateways/AbstractGatewayTest\\.php\\:108\\:\\:convertFromSource\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Gateways/AbstractGatewayTest\\.php\\:108\\:\\:convertToSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: "#^Cannot call method getEmail\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\CustomerTest\\:\\:providerCanBroadcastEvent\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: "#^Missing call to parent\\:\\:setUp\\(\\) method\\.$#"
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\CancelledOrderStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CancelledOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\CancelledOrderStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CancelledOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\CompletedOrderStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CompletedOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\CompletedOrderStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CompletedOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\FailedOrderStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/FailedOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\FailedOrderStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/FailedOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\HeldOrderStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/HeldOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\HeldOrderStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/HeldOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\PendingOrderStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/PendingOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\PendingOrderStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/PendingOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\ProcessingOrderStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/ProcessingOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\ProcessingOrderStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/ProcessingOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\RefundedOrderStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/RefundedOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Orders\\\\Statuses\\\\RefundedOrderStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/RefundedOrderStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethodTest\\:\\:testCanGetAndSetCreatedAt\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethodTest\\:\\:testCanGetAndSetCustomerId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethodTest\\:\\:testCanGetAndSetId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethodTest\\:\\:testCanGetAndSetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethodTest\\:\\:testCanGetAndSetRemoteId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethodTest\\:\\:testCanGetAndSetUpdatedAt\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: "#^Missing call to parent\\:\\:setUp\\(\\) method\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\BankAccountPaymentMethodTest\\:\\:testCanGetAndSetLastFour\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\BankAccountPaymentMethodTest\\:\\:testCanGetAndSetType\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: "#^Missing call to parent\\:\\:setUp\\(\\) method\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$label with type string\\|null is not subtype of native type string\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$name with type string\\|null is not subtype of native type string\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\BankAccounts\\\\Types\\\\CheckingBankAccountTypeTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/CheckingBankAccountTypeTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\BankAccounts\\\\Types\\\\CheckingBankAccountTypeTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/CheckingBankAccountTypeTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\BankAccounts\\\\Types\\\\SavingsBankAccountTypeTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/SavingsBankAccountTypeTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\BankAccounts\\\\Types\\\\SavingsBankAccountTypeTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/SavingsBankAccountTypeTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\CardPaymentMethodTest\\:\\:testCanGetAndSetBin\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\CardPaymentMethodTest\\:\\:testCanGetAndSetBrand\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\CardPaymentMethodTest\\:\\:testCanGetAndSetExpirationMonth\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\CardPaymentMethodTest\\:\\:testCanGetAndSetExpirationYear\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\CardPaymentMethodTest\\:\\:testCanGetAndSetLastFour\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$brand of method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\CardPaymentMethod\\:\\:setBrand\\(\\) expects GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Contracts\\\\CardBrandContract, object given\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) expects class\\-string\\<object\\>, string given\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\AmericanExpressCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\AmericanExpressCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\CreditCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/CreditCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\CreditCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/CreditCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\DebitCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DebitCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\DebitCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DebitCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\DinersClubCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DinersClubCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\DinersClubCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DinersClubCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\DiscoverCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DiscoverCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\DiscoverCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DiscoverCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\MaestroCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MaestroCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\MaestroCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MaestroCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\MastercardCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MastercardCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\MastercardCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MastercardCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\VisaCardBrandTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/VisaCardBrandTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\PaymentMethods\\\\Cards\\\\Brands\\\\VisaCardBrandTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/VisaCardBrandTest.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getType\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\AbstractTransactionTest\\:\\:providerForTestProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\AbstractTransactionTest\\:\\:testCanConvertToArray\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\AbstractTransactionTest\\:\\:testCanGetType\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\AuthorizationTransactionTest\\:\\:providerForTestProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/AuthorizationTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\CaptureTransactionTest\\:\\:testIsAbstractInstance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/CaptureTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetAmount\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetAuthOnly\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetCapturedAmount\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetRefundAmount\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetRemoteCaptureIds\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetRemoteRefundIds\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetRemoteVoidIds\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\PaymentTransactionTest\\:\\:testCanSetAndGetTipAmount\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Missing call to parent\\:\\:setUp\\(\\) method\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\RefundTransactionTest\\:\\:testCanGetReason\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/RefundTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\RefundTransactionTest\\:\\:testCanSetReason\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/RefundTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\ApprovedTransactionStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/ApprovedTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\ApprovedTransactionStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/ApprovedTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\DeclinedTransactionStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/DeclinedTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\DeclinedTransactionStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/DeclinedTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\HeldTransactionStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/HeldTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\HeldTransactionStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/HeldTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\PendingTransactionStatusTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/PendingTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\Statuses\\\\PendingTransactionStatusTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/PendingTransactionStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Models\\\\Transactions\\\\VoidTransactionTest\\:\\:testIsChildInstance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Models/Transactions/VoidTransactionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\PaymentsTest\\:\\:providerCanGetAccountType\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\PaymentsTest\\:\\:providerCanGetCardBrand\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\PaymentsTest\\:\\:testCanGetProvider\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\PaymentsTest\\:\\:testCanProvider\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\PaymentsTest\\:\\:testCanSetProviders\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\PaymentsTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) expects class\\-string\\<object\\>, string given\\.$#"
+			count: 2
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Providers\\\\AbstractProvider&PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:nonExistantMethod\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Providers\\\\AbstractProviderTest\\:\\:testCanGetDescription\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Providers\\\\AbstractProviderTest\\:\\:testCanGetLabel\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Providers\\\\AbstractProviderTest\\:\\:testCanGetName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Providers\\\\AbstractProviderTest\\:\\:testWrongMethodRaisesException\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: "#^Missing call to parent\\:\\:setUp\\(\\) method\\.$#"
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:create\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCreateCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanCreateCustomersTraitTest\\:\\:testCanCreate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCreateCustomersTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:create\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanCreatePaymentMethodsTraitTest\\:\\:testCanCreate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanCreatePaymentMethodsTraitTest\\.php\\:55\\:\\:convertFromSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanCreatePaymentMethodsTraitTest\\.php\\:55\\:\\:convertToSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:delete\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanDeleteCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanDeleteCustomersTraitTest\\:\\:testCanDelete\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanDeleteCustomersTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:delete\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanDeletePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanDeletePaymentMethodsTraitTest\\:\\:testCanDelete\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanDeletePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Call to method get\\(\\) on an unknown class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetCustomersTrait\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Call to method getAll\\(\\) on an unknown class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetCustomersTrait\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetCustomersTraitTest\\:\\:getCustomerAdapterMock\\(\\) has parameter \\$body with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetCustomersTraitTest\\:\\:getTraitMock\\(\\) has invalid return type GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetCustomersTrait\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetCustomersTraitTest\\:\\:getTraitMock\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetCustomersTraitTest\\:\\:getTraitMock\\(\\) has parameter \\$response with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetCustomersTraitTest\\:\\:getTraitMock\\(\\) never returns GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetCustomersTrait so it can be removed from the return type\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetCustomersTraitTest\\:\\:testCanDoGetAllRequest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetCustomersTraitTest\\:\\:testCanDoGetRequest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanGetCustomersTraitTest\\.php\\:82\\:\\:__construct\\(\\) has parameter \\$body with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Property class@anonymous/tests/Unit/Traits/CanGetCustomersTraitTest\\.php\\:82\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: "#^Access to an undefined property GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod\\:\\:\\$body\\.$#"
+			count: 2
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Call to method get\\(\\) on an unknown class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetPaymentMethodsTrait\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Call to method getAll\\(\\) on an unknown class GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetPaymentMethodsTrait\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetPaymentMethodsTraitTest\\:\\:getTraitMock\\(\\) has invalid return type GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetPaymentMethodsTrait\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetPaymentMethodsTraitTest\\:\\:getTraitMock\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetPaymentMethodsTraitTest\\:\\:getTraitMock\\(\\) has parameter \\$response with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetPaymentMethodsTraitTest\\:\\:getTraitMock\\(\\) never returns GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Traits\\\\CanGetPaymentMethodsTrait so it can be removed from the return type\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetPaymentMethodsTraitTest\\:\\:testCanDoGetAllRequest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanGetPaymentMethodsTraitTest\\:\\:testCanDoGetRequest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method class@anonymous/tests/Unit/Traits/CanGetPaymentMethodsTraitTest\\.php\\:81\\:\\:__construct\\(\\) has parameter \\$body with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Property class@anonymous/tests/Unit/Traits/CanGetPaymentMethodsTraitTest\\.php\\:81\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:capture\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueCapturesTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanIssueCapturesTraitTest\\:\\:testCanCaptureTransaction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueCapturesTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:pay\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssuePaymentsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanIssuePaymentsTraitTest\\:\\:testCanPay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssuePaymentsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:refund\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueRefundsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanIssueRefundsTraitTest\\:\\:canRefundData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueRefundsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanIssueRefundsTraitTest\\:\\:testCanRefund\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueRefundsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:void\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueVoidsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanIssueVoidsTraitTest\\:\\:canVoidData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueVoidsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanIssueVoidsTraitTest\\:\\:testCanVoidTransaction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanIssueVoidsTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanUpdateCustomersTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanUpdateCustomersTraitTest\\:\\:testCanUpdate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanUpdateCustomersTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanUpdatePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\CanUpdatePaymentMethodsTraitTest\\:\\:testCanUpdate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/CanUpdatePaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\HasCashbackAmountTraitTest\\:\\:providerForTestProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasCashbackAmountTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:paymentMethods\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\HasPaymentMethodsTraitTest\\:\\:testCanGetCustomersInstance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasPaymentMethodsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\HasTipAmountTraitTest\\:\\:providerForTestProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasTipAmountTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:transactions\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasTransactionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Tests\\\\Unit\\\\Traits\\\\HasTransactionsTraitTest\\:\\:testCanGetTransactionsInstance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Traits/HasTransactionsTraitTest.php

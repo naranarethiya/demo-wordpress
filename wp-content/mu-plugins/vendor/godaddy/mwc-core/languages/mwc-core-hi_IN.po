@@ -1,0 +1,3559 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Core 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mwc-core\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-03T12:27:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: mwc-core\n"
+
+#. Plugin Name of the plugin
+#: mwc-core.php
+msgid "MWC Core."
+msgstr "MWC कोर।"
+
+#: configurations/features.php:70
+msgid "Cost of goods"
+msgstr "सामान की लागत"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:73
+msgid "Track profit and cost of goods for your store. Generate profit reports by date, product, category, and more. This feature replaces the %1$sCost of Goods%2$s plugin."
+msgstr "अपने स्‍टोर पर मुनाफ़े और चीज़ों की लागत को ट्रैक करें। तारीख, प्रोडक्‍ट, कैटेगरी आदि द्वारा प्रॉफ़‍िट रिपोर्ट्स बनाएँ। यह फ़ीचर %1$sचीज़ो की लागत%2$s प्‍लगिन को रीप्‍लेस करेगा।"
+
+#: configurations/features.php:93
+msgid "Ecommerce emails"
+msgstr "ई-कॉमर्स ईमेल"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:96
+msgid "Customize your emails to reflect your brand and increase customer loyalty. This feature replaces the %1$sWooCommerce Email Customizer%2$s plugin."
+msgstr "अपने ब्रांड को रिफ़लेक्‍ट करने के लिए ग्राहक की लॉयल्‍टी बढ़ाने के लिए अपने ईमेल कस्‍टमाइज़ करें। यह फ़ीचर %1$sWooCommerce Email Customizer%2$s प्‍लगिन को रीप्‍लेस करेगा।"
+
+#: configurations/features.php:124
+msgid "Google analytics"
+msgstr "Google Analytics"
+
+#. translators: Placeholders: %1$s and %3$s - <a> tag for the plugin link, %2$s and %4$s - </a> tag
+#: configurations/features.php:127
+msgid "Track advanced eCommerce events and more with Google Analytics. This feature replaces the %1$sGoogle Analytics%2$s and %3$sGoogle Analytics Pro%4$s plugins."
+msgstr "Google Analytics की मदद से उन्‍नत eCommerce ईवेंट्स आदि को ट्रैक करें। यह फ़ीचर %1$sGoogle Analytics%2$s और %3$sGoogle Analytics Pro%4$s प्‍लगिन्‍स को रीप्‍लेस करेगा।"
+
+#: configurations/features.php:158
+msgid "Sequential order numbers"
+msgstr "सीक्‍वेंशियल ऑर्डर नंबर्स"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:161
+msgid "Format order numbers, change your starting number, and differentiate free orders. This feature replaces the %1$sSequential Order Numbers Pro%2$s plugin."
+msgstr "ऑर्डर नंबर फ़ॉरमैट करें, अपना शुरुआती नंबर बदलें, और फ़्री ऑर्डर्स डिफ़रेंशिएट करें। यह फ़ीचर %1$sSequential Order Numbers Pro%2$sप्‍लगिन को रीप्‍लेस करेगा।"
+
+#: configurations/features.php:180
+#: src/WooCommerce/Pages/Orders/Columns/ShipmentTrackingColumn.php:24
+msgid "Shipment tracking"
+msgstr "शिपमेंट ट्रैकिंग"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:183
+msgid "Share shipment tracking information with your customers. Open one of your Processing orders to get started. This feature replaces the %1$sShipment Tracking%2$s plugin."
+msgstr "अपने ग्राहकों के साथ शिपमेंट ट्रैकिंग जानकारी साझा करें। शुरू करने के लिए अपने किसी एक प्रोसेसिंग ऑर्डर को खोलें। यह फ़ीचर %1$sShipment Tracking%2$sप्‍लगिन को रीप्‍लेस करेगा।"
+
+#: configurations/features.php:195
+msgid "Discount links"
+msgstr "डिस्काउंट के लिंक"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:198
+msgid "Share discount links with your customers and add coupons from ads, email campaigns, or social links. Create or edit a coupon to get started. This feature replaces the %1$sURL Coupons%2$s plugin."
+msgstr "अपने ग्राहकों के साथ डिस्‍काउंट लिंक शेयर करें और विज्ञापनों, ईमेल अभियानों या सोशल लिंक्‍स से कूपन जोड़ें। शुरू करने के लिए कूपन बनाएँ या एडिट करें। यह फ़ीचर %1$sURL कूपन्‍स%2$s को रीप्‍लेस करेगा।"
+
+#: configurations/features.php:216
+msgid "Gift certificates"
+msgstr "गिफ़्ट प्रमाणपत्र"
+
+#. translators: Placeholders: %1$s - <a> tag for the plugin link, %2$s - </a> tag
+#: configurations/features.php:219
+msgid "Create custom gift certificates that your customers can purchase and send to their friends and family. This feature replaces the %1$sPDF Product Vouchers%2$s plugin."
+msgstr "कस्‍टम गिफ़्ट सर्टिफ़‍िकेट बनाएँ जिसे ग्राहक खरीद सकते हों और अपने दोस्‍तों व परिजनों को भेज सकते हों। यह फ़ीचर %1$sPDF Product Vouchers%2$s प्‍लग‍िन को रीप्‍लेस करता है।"
+
+#: configurations/features.php:253
+msgid "Abandoned checkout reminders"
+msgstr "छोड़ दिये गये चेकआउट रिमाइंडर्स"
+
+#: configurations/features.php:254
+msgid "Automatically track cart activity and send an email reminder to recover lost revenue."
+msgstr "गंवाई गई आय को रिकवर करने के लिए कार्ट गतिविध‍ि को ऑटोमैटिकली ट्रैक करें और ईमेल रिमाइंडर भेजें।"
+
+#: configurations/features.php:283
+#: src/Payments/Providers/StripeProvider.php:25
+#: src/WooCommerce/Payments/StripeGateway.php:74
+#: src/WooCommerce/Payments/StripeGateway.php:185
+msgid "Stripe"
+msgstr "Stripe"
+
+#: configurations/features.php:284
+msgid "Accept credit card payments using Stripe."
+msgstr "Stripe का इस्‍तेमाल करके क्रेडिट कार्ड भुगतान स्‍वीकार करें।"
+
+#: configurations/features.php:294
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:100
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:41
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:42
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:80
+msgid "Marketplaces"
+msgstr "मार्केटप्लेस"
+
+#: configurations/features.php:295
+msgid "Sell to millions of customers from one place. Offer your products everywhere, from Amazon to Instagram, all from your own online store."
+msgstr "एक जगह से लाखों ग्राहकों को बेचें। अपने प्रोडक्‍ट Amazon से लेकर Instagram तक हर जगह ऑफ़र करें, ये सभी आपके अपने ऑनलाइन स्‍टोर से।"
+
+#: configurations/features.php:316
+msgid "Take order fulfillment to the next level! Get live shipping rates from your favourite providers, print labels in one click, and automate shipment tracking and customer email notifications."
+msgstr "ऑर्डर फ़ुल‍फ़‍िलमेंट को अगले स्तर पर ले जाएँ! अपने पसंदीदा प्रोवाइडर से लाइव श‍िप‍िंग रेट्स पाएँ, एक क्ल‍िक में लेबल प्र‍िंंट करें, और श‍िप‍मेंट ट्रैक‍िंंग तथा ग्राहक के ईमेल नोट‍िफ़‍िकेशन को ऑटोमेट करें।"
+
+#: src/API/Controllers/AccountController.php:108
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "रीसेलर प्राइवेट लेबल आईडी ( 1 का मतलब है GoDaddy जोकि रीसेलर नहीं है)।"
+
+#: src/API/Controllers/AccountController.php:114
+msgid "Whether the account can manually switch between extension versions."
+msgstr "खाता एक्सटेंशन वर्शन के बीच मैनुअली स्विच कर सकता है या नहीं।"
+
+#: src/API/Controllers/AccountController.php:120
+msgid "Whether or not the site is sold by a reseller."
+msgstr "साइट रीसेलर द्वारा बेची जा सकती है या नहीं।"
+
+#: src/API/Controllers/AccountController.php:126
+msgid "The product plan the given account or site has purchased"
+msgstr "द‍िये गए खाते या साइट ने जो प्रोडक्‍ट प्‍लान खरीदा है"
+
+#: src/API/Controllers/AccountController.php:132
+msgid "The hosting platform the given account or site is running on"
+msgstr "वह होस्ट‍िंग प्‍लेटफ़ॉर्म जिस पर दिया गया खाता या साइट चल रहा है"
+
+#: src/API/Controllers/AccountController.php:138
+msgid "The ID of the customer"
+msgstr "ग्राहक की आईडी"
+
+#: src/API/Controllers/AccountController.php:144
+msgid "The ID of the Federation Partner"
+msgstr "फ़ेडरेशन पार्टनर की आईडी"
+
+#: src/API/Controllers/Platform/StoresController.php:117
+msgid "A list of businesses."
+msgstr "बिज़नेसों की सूची।"
+
+#: src/API/Controllers/Platform/StoresController.php:124
+msgid "The unique identifier for the business."
+msgstr "बिज़नेस के लिए यूनीक आइडेंट‍िफ़ायर।"
+
+#: src/API/Controllers/Platform/StoresController.php:128
+msgid "The legal name of the business."
+msgstr "बिज़नेस का कानूनी नाम।"
+
+#: src/API/Controllers/Platform/StoresController.php:132
+msgid "A list of stores associated with the business."
+msgstr "बिज़नेस से संबंध‍ित स्‍टोर्स की सूची।"
+
+#: src/API/Controllers/Platform/StoresController.php:138
+msgid "The display name of the store."
+msgstr "स्‍टोर का ड‍िस्प्ले नाम।"
+
+#: src/API/Controllers/Platform/StoresController.php:143
+msgid "The unique identifier for the store."
+msgstr "स्‍टोर के लिए यूनीक आइडेंट‍िफ़ायर।"
+
+#: src/Auth/API/Controllers/TokenController.php:84
+msgid "The access token string as issued by the authorization server."
+msgstr "प्रमाणीकरण सर्वर द्वारा जारी एक्सेस टोकन स्ट्रिंग।"
+
+#: src/Auth/API/Controllers/TokenController.php:90
+msgid "Number of seconds to expiration of the access token."
+msgstr "एक्सेस टोकन की समयसीमा समाप्त होने में होने वाले सेकंड।"
+
+#: src/Auth/API/Controllers/TokenController.php:96
+msgid "The scope the token granted."
+msgstr "दिए हुए टोकन का स्कोप।"
+
+#: src/Auth/API/Controllers/TokenController.php:102
+msgid "Access Token ID."
+msgstr "टोकन आईडी एक्सेस करें।"
+
+#: src/Auth/API/Controllers/TokenController.php:108
+msgid "The type of token this is."
+msgstr "यह जिस प्रकार का टोकन है।"
+
+#: src/Auth/Sso/WordPress/Events/Subscribers/ForceCareAgentAdminRoleSubscriber.php:61
+msgid "The care agent account on this site has been misconfigured. Please log in again to fix this issue."
+msgstr "इस साइट पर केयर एजेंट खाता मिसकॉन्‍फ़‍िगर किया गया है। इस समस्‍या का समाधान करने के लिए कृपया फिर से लॉगिन करें।"
+
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:103
+msgid "Something went wrong when creating the user account."
+msgstr "यूज़र खाता बनाते समय कुछ गड़बड़ी हुई।"
+
+#. translators: Placeholder: %s account username
+#: src/Auth/Sso/WordPress/Interceptors/Handlers/SsoInterceptorHandler.php:131
+msgid "User %s could not be logged in."
+msgstr "यूज़र %s लॉग‍िन नहीं हो सका।"
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:157
+msgid "You cannot delete the main administrator account."
+msgstr "आप मुख्‍य एडमिनिस्‍ट्रेटर खाते को नहीं मिटा सकते हैं।"
+
+#: src/Auth/Sso/WordPress/Interceptors/MainAdminDeleteInterceptor.php:159
+msgid "Delete"
+msgstr "डिलीट करें"
+
+#: src/Client/Client.php:433
+msgid "Other"
+msgstr "अन्य"
+
+#: src/Configuration/CartRecoveryEmailsFeatureRuntimeConfiguration.php:73
+msgid "Automatically track cart activity and recover lost revenue with a dedicated email campaign."
+msgstr "अपने आप कार्ट गतिविधि‍ ट्रैक करें और समर्पित ईमेल अभ‍ियान की मदद से खोए हुए राजस्‍व को रिकवर करें।"
+
+#: src/Email/RemoteRenderingEmailService.php:130
+msgid "Unknown error."
+msgstr "अज्ञात त्रुटि"
+
+#: src/Email/Repositories/EmailSenderRepository.php:108
+msgid "Unable to retrieve the email sender data."
+msgstr "ईमेल प्रेषक डेटा को रीट्रीव नहीं किया जा सकता।"
+
+#: src/Features/CartRecoveryEmails/DataProviders/CheckoutDataProvider.php:56
+msgctxt "Subject of greeting when name is not known (this can be translated to empty string for languages where \"Hi there!\" cannot be rendered as in English and it will result in just \"Hi!\")"
+msgid "there"
+msgstr "वहाँ"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:43
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:116
+msgid "Did you forget something?"
+msgstr "क्या आप कुछ भूल रहे हैं?"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:57
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:103
+msgid "Content"
+msgstr "सामग्री"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:62
+msgid "Hey there! You left your shopping cart without completing your purchase just a bit ago. It's not too late to complete your purchase! All of the products are still waiting for you."
+msgstr "नमस्ते! आपने अभी थोड़ी ही देर पहले अपनी खरीद पूरी किये बिना ही अपना शॉपिंग कार्ट छोड़ दिया। आपकी खरीद पूरी करने के लिए अभी भी बहुत देर नहीं हुई है! सभी प्रोडक्‍ट अभी भी आपका इंतज़ार कर रहे हैं।"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:76
+msgid "Button text"
+msgstr "बटन टेक्स्ट"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:82
+msgid "Complete your purchase"
+msgstr "अपनी खरीद पूरी करें"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailContent.php:92
+msgid "Trouble checking out? We're here to help. Please reply to this email if you have any questions or need our assistance."
+msgstr "चेक आउट करने में दिक्‍कत हो रही है? हम यहाँ आपकी मदद के लिए ही हैं। यदि आपके कोई प्रश्‍न हैं या आप मदद चाहते हैं तो कृपया इस ईमेल का जवाब दें।"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:60
+msgid "Cart Recovery"
+msgstr "कार्ट रिकवरी"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:61
+msgid "Send a reminder email to customers that left products in their cart but didn't complete the checkout."
+msgstr "ऐसे ग्राहकों को रिमाइंडर ईमेल भेजें जिन्‍होंने अपने कार्ट में उत्‍पाद रखे लेकिन चेकआउट पूरा नहीं किया।"
+
+#: src/Features/CartRecoveryEmails/Models/CartRecoveryEmailNotification.php:105
+msgid "Hey {{customer_first_name}}, did you forget something?"
+msgstr "नमस्कार {{customer_first_name}}, क्या आप कुछ भूल रहे हैं?"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:14
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:14
+msgid "Hey {{customer_first_name}}!"
+msgstr "नमस्‍कार {{customer_first_name}}!"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:22
+msgid "Your shopping cart has been reserved and is still waiting for you! In your cart, you left the following products:"
+msgstr "आपका शॉप‍िंग कार्ट रिज़र्व हो गया है और अभी भी आपका इंतज़ार कर रहा है! आपके कार्ट में, आपने न‍िम्न प्रोडक्‍ट छोड़े हैं:"
+
+#: src/Features/CartRecoveryEmails/Models/SecondCartRecoveryEmailContent.php:30
+msgid "It's not too late to complete this purchase -- these products are still waiting for you!"
+msgstr "इस खरीद को पूरा करने में अभी बहुत देर नहीं हुई है -- ये प्रोडक्‍ट्स अभी भी आपका इंतज़ार कर रहे हैं!"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:22
+msgid "Your shopping cart was reserved a few days ago and it will expire soon. In your cart, you left the following products:"
+msgstr "आपका शॉप‍िंग कार्ट कुछ देर पहले र‍िज़र्व हो गया था और यह जल्‍द ही एक्सपायर हो जाएगा। आपके कार्ट में, आपने न‍िम्न प्रोडक्‍ट छोड़े हैं:"
+
+#: src/Features/CartRecoveryEmails/Models/ThirdCartRecoveryEmailContent.php:30
+msgid "Ready to complete this purchase before your cart expires? Click the above button to purchase these items."
+msgstr "आपका कार्ट एक्सपायर हो जाए इससे पहले ही खरीद पूरा करने के लिए तैयार हैं? इन आइटम्स की खरीद के लिए ऊपर के बटन पर क्लिक करें"
+
+#: src/Features/CartRecoveryEmails/Settings/OptOutSetting.php:27
+msgid "Your email and cart will be saved so we can send you an email reminder about this order."
+msgstr "आपका ईमेल और कार्ट सेव किया जाएगा ताकि हम इस ऑर्डर के बारे में आपको एक ईमेल रिमाइंडर भेज सकें।"
+
+#: src/Features/Commerce/Catalog/Helpers/CheckForDeletedProductHelper.php:75
+msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
+msgstr "आपने एक ऐसे आइटम को एडिट करने की कोशिश की मौजूद ही नहीं है। शायद उसे मिटा दिया गया है?"
+
+#: src/Features/Commerce/Catalog/Interceptors/Handlers/CommerceProductUuidRequestHandler.php:48
+msgid "Product not found."
+msgstr "प्रोडक्‍ट नहीं मिला।"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:149
+msgid "Product categories must be deleted in Commerce Home"
+msgstr "प्रोडक्ट कैटेगरी को कॉमर्स होम से हटाना होगा"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:150
+msgid "Delete product category"
+msgstr "प्रोडक्ट कैटेगरी हटाएँ"
+
+#. translators: External link icon
+#: src/Features/Commerce/Catalog/Interceptors/ProductCategoryDeleteInterceptor.php:152
+msgid "Delete %s"
+msgstr "%s को डिलीट करें"
+
+#: src/Features/Commerce/Catalog/Interceptors/ProductEditInterceptor.php:82
+msgid "The \"Any\" attribute cannot be used for variable products synced with your GoDaddy Commerce product catalog. Please specify the attribute value for each variation, then save your changes."
+msgstr "आपके GoDaddy Commerce प्रोडक्‍ट कैटेलॉग से सिंक हुए वैरिएबल प्रोडक्‍ट्स के लिए \"एनी\" एट्र‍िब्यूट का इस्तेमाल नहीं किया जा सकता है। कृपया हर वैरिएशन के लिए एट्रिब्यूट वैल्‍यू बताएँ, फिर अपने बदलाव सेव करें।"
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:80
+msgid "Required for storing Product data in Commerce Home. Stock management can be enabled or disabled per product. Learn more about %1$sproduct inventory settings%2$s."
+msgstr "कॉमर्स होम में प्रोडक्‍ट डेटा को स्‍टोर करने के लिए आवश्‍यक है। स्‍टॉक मैनेजमेंट प्रति प्रोडक्‍ट सक्षम या अक्षम किया जा सकता है। %1$sप्रोडक्‍ट इनवेंटरी सेट‍िंग्स%2$s के बारे में अधिक जानें।"
+
+#: src/Features/Commerce/Inventory/Interceptors/StockManagementSettingInterceptor.php:90
+msgid "Inventory amounts displayed on the frontend reflect total available for purchase and exclude reserved stock."
+msgstr "फ्रंट एंड पर दिखाई देने वाली इनवेंटरी राशि में खरीद के लिए कुल उपलब्ध शामिल है और उसमें रिजर्व्ड स्टॉक नहीं रहता है।"
+
+#. translators: Placeholders: %1$s - a product name, %2$s - a product SKU, %3$s - an API error message
+#: src/Features/Commerce/Inventory/Services/OrderReservationsService.php:75
+msgid "An error occurred while reserving stock for %1$s (%2$s). %3$s"
+msgstr "%1$s (%2$s) के स्‍टॉक को रिज़र्व करते समय एक त्रुटि हुई। %3$s"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:95
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:241
+msgid "Available Pickup Locations"
+msgstr "उपलब्‍ध पिकअप लोकेशन"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:98
+msgid "Select the location(s) that should be available for local pickup."
+msgstr "लोकल पिकअप के लिए उपलब्‍ध लोकेशन चुनें।"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupAdminInterceptor.php:195
+msgid "Pickup location"
+msgstr "पिकअप लोकेशन"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:261
+msgid "No pickup locations available"
+msgstr "पिकअप लोकेशन उपलब्‍ध नहीं हैं"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:263
+msgid "Please choose another shipping method, or contact the store for a pickup location."
+msgstr "कृपया कोई और शिपिंग विध‍ि चुनें, या पिकअप लोकेशन के लिए स्‍टोर को संपर्क करें।"
+
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupCustomerInterceptor.php:407
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:144
+#: src/Features/Commerce/Locations/Interceptors/LocalPickupEmailsInterceptor.php:174
+msgid "Pickup Location Information"
+msgstr "पिकअप लोकेशन की जानकारी"
+
+#: src/Features/Commerce/Repositories/CommerceContextRepository.php:54
+msgid "Missing or invalid store ID"
+msgstr "गायब या अमान्य स्‍टोर आईडी"
+
+#: src/Features/EmailNotifications/API/API.php:66
+msgid "This token is expired"
+msgstr "यह टोकन एक्सपायर हो गया है"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:280
+msgid "Cannot generate a preview for an email notification that is not editable."
+msgstr "ऐसी ईमेल अध‍िसूचना का प्रीव्‍यू नहीं बनाया जा सकता है जो एडिटेबल न हो।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:444
+msgid "The settings parameter is required."
+msgstr "सेटिंग्स पैरामीटर अनिवार्य है।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:532
+msgid "Cannot send a test email for an email notification that is not editable."
+msgstr "ऐसी ईमेल अध‍िसूचना के लिए टेस्‍ट ईमेल नहीं भेजा जा सकता है जो एडिटेबल न हो।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:698
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:235
+msgid "The site has email template overrides and hasn't enabled the Email Notifications feature."
+msgstr "इस साइट में ईमेल टेंपलेट ओवरराइड्स हैं और इसमें ईमेल अधिसूचनाओं का फ़ीचर सक्षम नहीं हैं।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:961
+msgid "Unique email notification ID."
+msgstr "यूनीक ईमेल अधिसूचना आईडी।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:967
+msgid "Unique email notification name (matches the ID)."
+msgstr "यूनीक ईमेल अधिसूचना का नाम (आईडभ्‍ से मैच करने वाला)"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:973
+msgid "Email notification label."
+msgstr "ईमेल अधिसूचना लेबल।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:979
+msgid "Email notification description."
+msgstr "ईमेल अधिसूचना विवरण।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:985
+msgid "ID of the template used by this email notification."
+msgstr "इस ईमेल अधिसूचना द्वारा इस्तेमाल क‍िए जाने वाले की आइडी।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:991
+msgid "A list of categories that the email notification belongs to."
+msgstr "श्रेणियों की सूची जिसका ईमेल अधिसूचना हिस्‍सा है।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1000
+msgid "Email notification status"
+msgstr "ईमेल अधिसूचना स्‍टेटस"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1007
+msgid "Whether the email notification can only be sent manually."
+msgstr "क्‍या ईमेल अधिसूचना केवल मैन्‍युअली भेजी जा सकती है।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1013
+msgid "Whether the email notification will be sent to administrators."
+msgstr "क्‍या ईमेल अधिसूचना एडमिस्‍ट्रेटर्स को भेज सकती है।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1019
+msgid "A list of placeholders that are available for the email notification."
+msgstr "ईमेल अधिसूचना के लिए उपलब्‍घ प्‍लेसहोल्‍डर्स की सूची।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1028
+msgid "URL for the WooCommerce email settings screen for the email notification"
+msgstr "ईमेल अधिसूचना के लिए WooCommerce ईमेल सेटिंग्‍स स्‍क्रीन का URL"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1051
+msgid "Unique email notification category ID."
+msgstr "यूनीक ईमेल अधिसूचना श्रेणी आईडी।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailNotificationsController.php:1057
+msgid "Email notification category name."
+msgstr "ईमेल अधिसूचना श्रेणी का नाम"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:242
+msgid "A non-empty settings or subgroups parameter must be provided."
+msgstr "एक नॉन-एंप्टी सेटिंग्स या सबग्रुप्‍स पैरामीटर दिया जाना चाहिए।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:324
+msgid "Unique email template ID."
+msgstr "यूनीक ईमेल टेम्‍पलेट आईडी।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:330
+msgid "Unique email template name (matches the ID)."
+msgstr "यूनीक ईमेल अधिसूचना का नाम (आईडीीसे मैच करने वाला)"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:336
+msgid "Email template label."
+msgstr "ईमेल टेम्‍पलेट लेबल।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:342
+msgid "List of email content placeholders."
+msgstr "ईमेल कंटेंट प्‍लेसहोल्‍डर्स की सूची।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesController.php:351
+msgid "Email template preview."
+msgstr "ईमेल टेम्‍पलेट प्रीव्‍यू।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:57
+msgid "Unique email template setting name."
+msgstr "यूनीक ईमेल टेम्‍पलेट सेटिंग का नाम।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:63
+msgid "Email template setting label."
+msgstr "ईमेल टेम्‍पलेट सेटिंग लेबल।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:69
+msgid "Email template settings subgroups."
+msgstr "ईमेल टेम्‍पलेट सेटिंग्‍स सबग्रुप्स।"
+
+#: src/Features/EmailNotifications/API/Controllers/EmailTemplatesSettingsController.php:78
+msgid "Root settings for an email template."
+msgstr "ईमेल टेम्‍पलेट के ल‍िए रूट सेट‍िंंग्स"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:185
+msgid "This email address belongs to another store. Please enter a different email address. If you already own this address, please reach out via %1$sGet Help%2$s."
+msgstr "यह ईमेल पता किसी अन्‍य स्‍टोर का है। कृपया कोई दूसरा ईमेल पता डालें। अगर आप पहले ही इस पते के स्‍वामी हैं तो कृपया %1$sमदद प्राप्‍त करें%2$s के ज़रिए हम तक पहुँचें।"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:278
+msgid "Sender unique ID."
+msgstr "प्रेषक का यूनीक आईडी।"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:284
+msgid "Sender email address."
+msgstr "प्रेषक का ईमेल पता।"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:290
+msgid "The date and time when the sender was verified in our system."
+msgstr "वह दिनांक और समय जब प्रेषक को हमारे सिस्टम में सत्यापित किया गया था।"
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:296
+msgid "How the sender was verified."
+msgstr "प्रेषक का सत्यापन कैसे किया गया."
+
+#: src/Features/EmailNotifications/API/Controllers/SendersController.php:302
+msgid "Sender status."
+msgstr "प्रेषक का स्‍टेटस।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:285
+msgid "Unique email notification setting ID."
+msgstr "यूनीक ईमेल अधिसूचना सेटिंग आईडी।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:291
+msgid "Unique email notification setting name (matches the ID)."
+msgstr "यूनीक ईमेल अधिसूचना सेटिंग का नाम (आईडी से मैच करने वाला)।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:297
+msgid "Email notification setting label."
+msgstr "ईमेल अधिसूचना सेटिंग लेबल।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:303
+msgid "Email notification setting description."
+msgstr "ईमेल अधिसूचना सेटिंग विवरण।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:309
+msgid "A list of available options for the email notification setting values."
+msgstr "ईमेल अधिसूचना सेटिंग वैल्‍यू के लिए उपलब्‍ध विकल्‍पों की सूची।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:318
+msgid "Email notification setting default value."
+msgstr "ईमेल अधिसूचना सेटिंग की डिफ़ॉल्‍ट वैल्‍यू।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:324
+msgid "Email notification setting value."
+msgstr "ईमेल अधिसूचना सेटिंग वैल्‍यू।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:330
+msgid "Whether the email notification setting can have multiple values."
+msgstr "ईमेल नोटिफ़‍िकेशन सेटिंग की एक से ज्‍़यादा वैल्‍यू हो सकती है या नहीं।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:336
+msgid "Whether the email notification setting is required."
+msgstr "ईमेल नोटिफ़‍िकेशन सेटिंग आवश्‍यक है या नहीं।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:342
+msgid "Email notifications setting group, if applicable."
+msgstr "ईमेल अधिसूचना सेटिंग समूह, अगर लागू है।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:348
+msgid "Email notifications setting control details."
+msgstr "ईमेल अधिसूचना सेटिंग कंट्रोल विवरण।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:354
+msgid "Email notifications setting control type."
+msgstr "ईमेल अधिसूचना सेटिंग कंट्रोल टाइप।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:360
+msgid "A list of available options for the email notification setting control."
+msgstr "ईमेल अधिसूचना सेटिंग कंट्रोल के लिए उपलब्‍ध विकल्‍पों की सूची।"
+
+#: src/Features/EmailNotifications/API/Controllers/SettingsController.php:369
+msgid "Optional input placeholder for the email notification setting control."
+msgstr "ईमेल अधिसूचना सेटिंग कंट्रोल के लिए वैकल्पिक इनपुट प्‍लेसहोल्‍डर।"
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:163
+msgid "Could not match an email notification ID to a \"%s\" WooCommerce email ID."
+msgstr "\"%s\" WooCommerce ईमेल आईडी में कोई ईमेल अधिसूचना नहीं मिली।"
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:193
+msgid "Could not match a WooCommerce email ID to a \"%s\" email notification ID."
+msgstr "\"%s\" ईमेल अधिसूचना आईडी में कोई ईमेल अधिसूचना नहीं मिली।"
+
+#: src/Features/EmailNotifications/DataSources/WooCommerce/EmailNotificationAdapter.php:622
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:93
+msgid "Could not find source WooCommerce email with ID \"%s\"."
+msgstr "आईडी \"%s\" के साथ WooCommerce ईमेल सोर्स नहीं मिला।"
+
+#: src/Features/EmailNotifications/DataStores/EmailContentDataStore.php:65
+msgid "No content template file found for the ID %s."
+msgstr "आईडी %s के लिए कोई भी कंटेंट टेम्‍पलेट फ़ाइल नहीं मिली।"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:72
+msgid "No email notification found with the ID %s."
+msgstr "आईडी %s में कोई ईमेल अधिसूचना नहीं मिली।"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:79
+msgid "The class for %s must implement the EmailNotificationContract interface"
+msgstr "%s के लिए क्‍लास EmailNotificationContract इंटरफ़ेस को इंप्ल‍िमेंट करना चाहिए"
+
+#: src/Features/EmailNotifications/DataStores/EmailNotificationDataStore.php:89
+msgid "The email notification with ID %s is not available on this site"
+msgstr "आईडी %s का ईमेल नोटिफ़‍िकेशन इस साइट पर उपलब्‍ध नहीं है"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:59
+msgid "No email notification template found with the ID %s."
+msgstr "आईडी %s में कोई ईमेल अधिसूचना टेंपलेट नहीं मिला।"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:68
+msgid "The class for %s must implement the EmailTemplateContract interface"
+msgstr "%s के लिए क्‍लास EmailTemplateContract इंटरफ़ेस को इंप्ल‍िमेंट करना चाहिए"
+
+#: src/Features/EmailNotifications/DataStores/EmailTemplateDataStore.php:91
+msgid "No template file found with the ID %s."
+msgstr "आईडी %s के लिए कोई भी टेम्‍पलेट फ़ाइल नहीं मिली।"
+
+#: src/Features/EmailNotifications/DataStores/OptionsSettingsDataStore.php:40
+msgid "Invalid template for the option name \"%s\": it should contain a {{setting_id}} placeholder."
+msgstr "अमान्य विकल्‍प नाम टेंपलेट \"%s\":: इसमें {{setting_id}} प्लेसहोल्‍डर होना चाहिए।"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:69
+msgid "No settings found with the ID %s."
+msgstr "आईडी %s से कोई सेटिंग्स नहीं मिला।"
+
+#: src/Features/EmailNotifications/DataStores/SettingsDataStore.php:78
+msgid "The class name for %s must implement ConfigurableContract"
+msgstr "%s के लिए क्‍लास का नाम ConfigurableContract इंप्लीमेंट करना चाहिए"
+
+#: src/Features/EmailNotifications/DataStores/WooCommerce/EmailNotificationDataStore.php:140
+msgid "No WooCommerce email found for \"%s\""
+msgstr "\"%s\" के लिए कोई WooCommerce ईमेल मिला"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:151
+msgid "Admin"
+msgstr "व्यवस्थापक"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:152
+msgid "Extensions"
+msgstr "विस्तार"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:153
+msgid "Customer"
+msgstr "ग्राहक"
+
+#: src/Features/EmailNotifications/EmailNotifications.php:154
+msgid "Order"
+msgstr "ऑर्डर"
+
+#: src/Features/EmailNotifications/EmailsPage.php:36
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:41
+msgid "Email Notifications"
+msgstr "ईमेल अधिसूचनाएँ"
+
+#: src/Features/EmailNotifications/EmailsPage.php:37
+msgid "Emails"
+msgstr "ईमेल"
+
+#: src/Features/EmailNotifications/EmailsPage.php:187
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:251
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:296
+msgid "New"
+msgstr "नया"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:39
+msgid "Cancelled order"
+msgstr "रद्द किए गए ऑर्डर"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:40
+msgid "Sent to chosen recipient(s) when an order is marked cancelled (if it was previously processing or on-hold)."
+msgstr "कोई ऑर्डर रद्द किए जाने पर (अगर उसे पहले प्रोसेस किया जा रहा था या ऑन-होल्‍ड पर था) उसे चुने गए प्राप्‍तकर्ता(ओं) को भेजा गया।"
+
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:52
+msgid "[{{site_title}}]: Order #{{order_number}} has been cancelled"
+msgstr "[{{site_title}}]: ऑर्डर #{{order_number}} रद्द हो गया है"
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/CancelledOrderEmailNotification.php:83
+msgid "Notification to let you know &mdash; order #%1$s belonging to %2$s has been cancelled:"
+msgstr "आपको बताने के लिए अधिसूचना &mdash; order #%1$s जो %2$s का है उसे रद्द कर दिया गया है:"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:35
+msgid "Completed order"
+msgstr "ऑर्डर पूरा हुआ"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is marked completed and usually indicates that the order has been shipped."
+msgstr "ग्राहकों का ऑर्डर पूरा मार्क किए जाने पर उन्‍हें भेजा गया और यह आम तौर पर दिखाता है कि ऑर्डर शिप कर दिया गया है।"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:64
+msgid "We have finished processing your order."
+msgstr "हमने आपका ऑर्डर प्रोसेस कर दिया है।"
+
+#: src/Features/EmailNotifications/Models/CompletedOrderEmailNotification.php:78
+msgid "Your {{site_title}} order is now complete"
+msgstr "आपका {{site_title}} ऑर्डर अब पूरा हो गया है"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:39
+msgid "Customer invoice / order details"
+msgstr "ग्राहक इनवॉइस / ऑर्डर विवरण"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:40
+msgid "Emails containing order information and payment links sent manually."
+msgstr "ऑर्डर जानकारी और भुगतान लिंक वाले ईमेल मैनुअली भेजे जाते हैं।"
+
+#. translators: %1$s Site title, %2$s Order pay link
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:79
+msgid "An order has been created for you on %1$s. Your invoice is below, with a link to make payment when you’re ready: %2$s"
+msgstr "आपके लिए एक ऑर्डर %1$sपर बनाया गया है। आपका इनवॉइस नीचे है, इसमें जब आप तैयार हों तो भुगतान करने के लिए लिंक भी है: %2$s"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:87
+msgid "Pay for this order"
+msgstr "इस ऑर्डर के लिए भुगतान करें"
+
+#. translators: %s Order date
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:92
+msgid "Here are the details of your order placed on %s:"
+msgstr "%s पर किये गये आपके ऑर्डर के विवरण ये रहे:"
+
+#: src/Features/EmailNotifications/Models/CustomerInvoiceEmailNotification.php:108
+msgid "Invoice for order #{{order_number}} on {{site_title}}"
+msgstr "{{site_title}} पर ऑर्डर #{{order_number}} का इनवॉइस"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:38
+msgid "Customer note"
+msgstr "ग्राहक का नोट"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:39
+msgid "Sent to customer when you add a note to an order."
+msgstr "जब आप किसी ऑर्डर पर कोई नोट जोड़ते हैं जो वह भेजा जाता है।"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:89
+msgid "The following note has been added to your order:"
+msgstr "निम्न नोट आपके ऑर्डर में नहीं जोड़ा गया है:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:91
+msgid "As a reminder, here are your order details:"
+msgstr "रिमाइंड कराने के लिए हम बता दें, आपके ऑर्डर के विवरण ये रहे:"
+
+#: src/Features/EmailNotifications/Models/CustomerNoteEmailNotification.php:105
+msgid "Note added to your {{site_title}} order from {{order_date}}"
+msgstr "{{order_date}} से आपके {{site_title}} ऑर्डर में नोट जोड़ा गया"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:82
+msgid "Heading"
+msgstr "शीर्षक"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailContent.php:99
+msgid "Additional content"
+msgstr "अतिर‍िक्त सामग्री"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:41
+msgctxt "name of the default email notification template"
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:117
+msgid "Container"
+msgstr "कंटेनर"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:119
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:149
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:196
+msgid "Background color"
+msgstr "पृष्ठभूमि रंग"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:123
+msgid "Email width"
+msgstr "ईमेल की चौड़ाई"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:132
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:443
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:68
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:150
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:133
+msgid "Full"
+msgstr "पूर्ण"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:141
+msgid "Header"
+msgstr "शीर्षलेख"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:146
+msgid "Header image"
+msgstr "हेडर तस्‍वीर"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:155
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:174
+msgid "Text"
+msgstr "टेक्स्ट"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:166
+msgid "Body"
+msgstr "मुख्य हिस्सा"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:168
+msgid "Body background color"
+msgstr "बॉडी बैकग्राउंड कलर"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:177
+msgid "Link color"
+msgstr "लिंक का रंग"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:184
+msgid "Headings"
+msgstr "हेड‍िंंग्स"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:187
+msgid "H1 font size"
+msgstr "H1 फ़ॉण्‍ट साइज़"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:188
+msgid "H2 font size"
+msgstr "H2 फ़ॉण्‍ट साइज़"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:189
+msgid "H3 font size"
+msgstr "H3 फ़ॉण्‍ट साइज़"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:194
+msgid "Button"
+msgstr "बटन"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:197
+msgid "Label color"
+msgstr "लेबल रंग"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:206
+msgid "Footer"
+msgstr "पादलेख"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:214
+msgid "Footer text"
+msgstr "फ़ुटर टेक्स्ट"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:242
+msgid "Text color"
+msgstr "पाठ रंग"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:262
+msgid "Font family"
+msgstr "फ़ॉन्‍ट फ़ेमिली"
+
+#: src/Features/EmailNotifications/Models/DefaultEmailTemplate.php:287
+msgid "Font size"
+msgstr "फ़ॉन्ट आकार"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:205
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:224
+msgid "Preview text"
+msgstr "प्रीव्‍यू टेक्स्‍ट"
+
+#. translators: %1$s - opening a HTML tag, %2$s - closing a HTML tag
+#: src/Features/EmailNotifications/Models/EmailNotification.php:229
+msgid "Preview text is shown after the subject line in some email inboxes. Maximum: 150 characters. %1$sLearn more%2$s"
+msgstr "कुछ ईमेल इनबॉक्सेज़ में प्रीव्‍यू टेक्स्ट सबजेक्‍ट लाइन के बाद दिखता है। अधिकतम: 150 वर्ण %1$sअधिक जानें%2$s"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:234
+msgid "Enter preview text"
+msgstr "प्रीव्‍यू टेक्स्‍ट एंटर करें"
+
+#: src/Features/EmailNotifications/Models/EmailNotification.php:264
+msgid "Subject"
+msgstr "विषय"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:41
+msgid "Failed order"
+msgstr "विफल ऑर्डर"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when an order is marked failed (if it was previously pending or on-hold)."
+msgstr "कोई ऑर्डर रद्द विफल मार्क किए जाने पर (अगर उसे पहले प्रोसेस किया जा रहा था या ऑन-होल्‍ड पर था) उसे चुने गए प्राप्‍तकर्ता(ओं) को भेजा गया।"
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:72
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr "%2$s से ऑर्डर #%1$s का भुगतान विफल हो गया। ऑर्डर निम्न था:"
+
+#: src/Features/EmailNotifications/Models/FailedOrderEmailNotification.php:93
+msgid "[{site_title}]: Order #{order_number} has failed"
+msgstr "[{site_title}]: ऑर्डर #{order_number} विफल हो गया"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:32
+#: src/WooCommerce/Emails/ItemShippedEmail.php:32
+msgid "Item shipped"
+msgstr "शिप किए गए आइटम"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:33
+msgid "Sent to customers when tracking information is added for one or more items in their orders."
+msgstr "जब ग्राहकों के ऑर्डर्स में एक या अधिक आइटम्स में ट्रैकिंग जानकारी जोड़ी जाती है तो ग्राहकों को भेजा जाता है।"
+
+#. translators: Placeholder: %s - Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:62
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:92
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:79
+#: src/Features/EmailNotifications/Traits/IsCustomerEmailNotificationTrait.php:24
+#: templates/woocommerce/emails/customer-item-shipped.php:36
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:31
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:31
+#: templates/woocommerce/emails/ready-for-pickup.php:36
+msgid "Hi %s,"
+msgstr "नमस्ते %s,"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:63
+#: templates/woocommerce/emails/customer-item-shipped.php:38
+#: templates/woocommerce/emails/plain/customer-item-shipped.php:32
+msgid "An item from your order has shipped!"
+msgstr "आपके ऑर्डर का एक आइटम शिप कर दिया गया है!"
+
+#: src/Features/EmailNotifications/Models/ItemShippedEmailNotification.php:77
+msgid "An item from {{site_title}} order #{{order_number}} has shipped!"
+msgstr "{{site_title}} ऑर्डर #{{order_number}} का एक आइटम शिप कर दिया गया है!"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:27
+msgid "New account"
+msgstr "नया खाता"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:28
+msgid "Sent to customers when they sign up via checkout or account pages."
+msgstr "ग्राहकों के पास भेजा जाता है जब वे चेकआउट या खाता पेजों के माध्‍यम से साइन अप होते हैं।"
+
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:39
+msgid "Your {{site_title}} account has been created!"
+msgstr "आपका {{site_title}} खाता बन गया है!"
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:97
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "%1$s पर खाता बनाने के लिए धन्यवाद। आपका यूज़रनेम है %2$s। ऑर्डर देखने के लिए, पासवर्ड बदलने के लिए आदि के लिए आप अपने खाता एरिया को यहाँ एक्सेस कर सकते हैं: %3$s"
+
+#. translators: %s: Auto generated password
+#: src/Features/EmailNotifications/Models/NewAccountEmailNotification.php:105
+msgid "Your password has been automatically generated: %s"
+msgstr "आपका पासवर्ड अपने आप जनरेट हो गया है: %s"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:41
+msgid "New order"
+msgstr "नया ऑर्डर"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:42
+msgid "Sent to chosen recipient(s) when a new order is received."
+msgstr "जब नया ऑर्डर प्राप्‍त होता है तो चुने हुए प्राप्‍तकर्ता(ओं) को भेजा जाता है।"
+
+#. translators: %1$s: Customer first name, %2$s: Customer last name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:69
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %1$s: Customer full name.
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:78
+msgid "You’ve received the following order from %1$s:"
+msgstr "आपने %1$s से निम्न ऑर्डर प्राप्‍त किया है:"
+
+#: src/Features/EmailNotifications/Models/NewOrderEmailNotification.php:98
+msgid "[{{site_title}}]: New order #{{order_number}}"
+msgstr "[{{site_title}}]: नया ऑर्डर #{{order_number}}"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:35
+msgid "Order on-hold"
+msgstr "ऑर्डर होल्‍ड पर है"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:36
+msgid "Sent to customer when an order is on hold."
+msgstr "जब ऑर्डर होल्‍ड पर तो ग्राहक को भेजें।"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:47
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:83
+msgid "Your {{site_title}} order has been received!"
+msgstr "आपका {{site_title}} ऑर्डर प्राप्‍त हो गया!"
+
+#: src/Features/EmailNotifications/Models/OrderOnHoldEmailNotification.php:78
+msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
+msgstr "आपके ऑर्डर के लिए धन्‍यवाद। जब तक कि हम यह पुष्टि करते हैं कि आपका भुगतान प्राप्‍त हो गया है यह होल्‍ड पर है। इस बीच, आपने जो ऑर्डर किया है उसका रिमाइंडर ये रहा:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:35
+msgid "Partially refunded order"
+msgstr "आंशिक रूप से रीफ़ण्‍ड किया गया ऑर्डर"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is partially refunded."
+msgstr "जब ग्राहकों का ऑर्डर आंशिक रूप से रीफ़ण्‍ड किया गया तो उन्‍हें भेजा गया।"
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
+msgstr "%s पर आपका ऑर्डर आंशिक रूप से रीफंण्‍ड किया गया। आपके रिफ़रेंस के लिए नीचे और विवरण द‍िया गया:"
+
+#: src/Features/EmailNotifications/Models/PartiallyRefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been partially refunded"
+msgstr "आपका {{site_title}} ऑर्डर #{{order_number}}आंशिक रूप से रीफ़ण्‍ड किया गया"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:35
+msgid "Processing order"
+msgstr "प्रोसेस हो रहा है"
+
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:36
+msgid "Sent to customer after a payment is made."
+msgstr "भुगतान होने के बाद ग्राहक को भेजा गया।"
+
+#. translators: %s: Order number
+#: src/Features/EmailNotifications/Models/ProcessingOrderEmailNotification.php:67
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "आपकी जानकारी के लिए बता दें &mdash; हमें आपका ऑर्डर #%s मिल गया है, और अब वह प्रोसेस हो गया है:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:35
+msgid "Fully refunded order"
+msgstr "पूरी तरह से रीफ़ण्‍ड किया गया ऑर्डर"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:36
+msgid "Sent to customers when their order is fully refunded."
+msgstr "जब ग्राहकों का ऑर्डर पूर्ण रूप से रीफ़ण्‍ड किया गया तो उन्‍हें भेजा गया।"
+
+#. translators: %s: Site title
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:66
+msgid "Your order on %s has been refunded. There are more details below for your reference:"
+msgstr "%s पर आपका ऑर्डर आंशिक रूप से रीफ़ण्‍ड किया गया। आपके रिफ़रेंस के लिए नीचे और विवरण द‍िया गया:"
+
+#: src/Features/EmailNotifications/Models/RefundedOrderEmailNotification.php:82
+msgid "Your {{site_title}} order #{{order_number}} has been refunded"
+msgstr "आपका {{site_title}} ऑर्डर #{{order_number}} रीफ़ण्‍ड हो गया"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:28
+msgid "Reset password"
+msgstr "पासवर्ड रीसेट करें"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:29
+msgid "Sent to customers when they reset their passwords."
+msgstr "ग्राहकों को भेजा जाता है जब वे अपने पासवर्ड रीसेट करते हैं।"
+
+#. translators: %s: Store name
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:81
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr "%s पर निम्न खाते के लिए किसी ने एक नए पासवर्ड का अनुरोध किया है:"
+
+#. translators: %s: Customer username
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:83
+msgid "Username: %s"
+msgstr "यूज़रनेम: %s"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:84
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr "यदि आपने इस अनुरोध को नहीं किया है, तो इसे इस ईमेल को नज़रअन्‍दाज़ करें। यदि आप आगे बढ़ना चाहेंगे:"
+
+#: src/Features/EmailNotifications/Models/ResetPasswordEmailNotification.php:87
+msgid "Click here to reset your password"
+msgstr "अपना पासवर्ड रीसेट करने के लिए यहाँ रीसेट करें"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:56
+msgid "Sender name"
+msgstr "भेजने वाले का नाम"
+
+#: src/Features/EmailNotifications/Settings/GeneralSettings.php:68
+msgid "Sender address"
+msgstr "भेजने वाले का पता"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:76
+msgid "Recipients"
+msgstr "पाने वाले"
+
+#: src/Features/EmailNotifications/Traits/HasRecipientsSettingTrait.php:77
+msgid "Enter recipients (comma-separated) for this email"
+msgstr "इस ईमेल के लिए प्राप्‍तकर्ता (कॉमा-सेपरेटेड) डालें"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:125
+msgid "Customize your emails to reflect your brand and increase customer loyalty. Manage them from Marketing > Emails."
+msgstr "अपने ब्रांड को रिफ़लेक्‍ट करने के लिए ग्राहक की लॉयल्‍टी बढ़ाने के लिए अपने ईमेल कस्‍टमाइज़ करें। मार्केटिंग > ईमेल से उन्‍हें प्रबंधित करें।"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:126
+msgid "Manage emails"
+msgstr "ईमेल प्रबंधित करें"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:137
+msgid "Your hosting plan now offers editable WooCommerce emails, no plugin required!"
+msgstr "आपका होस्टिंग प्‍लान अब एडिट योग्‍य WooCommerce ईमेल ऑफ़र करता है, इसमें कोई प्‍लगिन आवश्‍यक नहीं है!"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:254
+msgid "Please use either your hosting plan's email editing feature or your 3rd-party email editor."
+msgstr "कृपया आपके होस्टिंग प्‍लान के ईमेल एड‍िट‍िंग फ़ीचर या आपके 3rd-पार्टी ईमेल एड‍िटर का इस्तेमाल किया गया है।"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Edit emails"
+msgstr "ईमेल एडिट करें"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:256
+msgid "Contact support"
+msgstr "सहायता से संपर्क करें।"
+
+#: src/Features/EmailNotifications/WooCommerce/Admin/EmailSettings.php:266
+msgid "A 3rd-party email editing plugin has been detected on your store."
+msgstr "आपके स्‍टोर में एक 3rd-पार्टी ईमेल एड‍िट‍िंग प्‍लगिन पाया गया।"
+
+#. translators: %1$s opening strong tag; %2$s closing strong tag; %3$s opening anchor tag; %4$s closing anchor tag; %5$s opening anchor tag; %6$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:92
+msgid "%1$sNote:%2$s Your site is using a temporary domain that cannot be indexed by search engines. Change your primary domain via the %3$sWoo store management area%4$s. Learn more about %5$sconnecting a domain%6$s."
+msgstr "%1$sनोट:%2$s आपकी साइट एक अस्थायी डोमेन का इस्तेमाल कर रही है ज‍िसे सर्च इंजन द्वारा इंडेक्‍स नहीं किया जा सकता है। %3$sWoostore मैनेजमेंट एरिया%4$s के ज़रिये अपना प्राइमरी डोमेन बदलें। %5$sकिसी डोमेन को कनेक्‍ट करने के बारे में%6$s अधिक जानें।"
+
+#. translators: %1$s opening anchor tag; %2$s closing anchor tag; %3$s opening anchor tag; %4$s closing anchor tag
+#: src/Features/ExternalDomainControls/Interceptors/DomainAttachNoticeInterceptor.php:102
+msgid "Change your primary domain via the %1$sWoo store management area%2$s. Learn more about %3$sconnecting a domain%4$s."
+msgstr "%1$sWoostore मैनेजमेंट एरिया%2$s के ज़रिये अपना प्राइमरी डोमेन बदलें। %3$sकिसी डोमेन को कनेक्‍ट करने के बारे में%4$s अधिक जानें।"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:33
+msgid "Link bank account"
+msgstr "बैंक खाता लिंक करे"
+
+#: src/Features/GoDaddyPayments/Notices/AddBankInfoNotice.php:34
+msgid "You've got money waiting with GoDaddy Payments! Add your banking info to get your payouts deposited."
+msgstr "GoDaddy से आपके पास अभी भी पैसा मिला है! अपने ड‍िपॉज‍िट क‍िए हुए पेआउट का पाने के ल‍िए अपनी बैंकिंग संबंधी जानकारी जोड़ें।"
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayEnabledNotice.php:21
+msgid "GoDaddy Payments - Apple Pay has been enabled on your selected pages and shows %1$sin Safari on supported devices%2$s."
+msgstr "GoDaddy Payments - आपके चुनिंदा पेजों पर Apple Pay सक्षम कर दिया गया है और %1$sसपोर्टेड ड‍िवाइसों पर Safari में%2$s दिखाता है।"
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Apple Pay should show."
+msgstr "कृपया उन पेजों को चुनें जहाँ Apple Pay दिखना चाह‍िए।"
+
+#: src/Features/GoDaddyPayments/Notices/ApplePayRegistrationFailedNotice.php:24
+msgid "There was a problem registering your site with Apple Pay. Please disable Apple Pay and try re-enabling, or %1$scontact support%2$s."
+msgstr "Apple Pay पर आपकी साइट पंजीकृत करते समय कोई गड़बड़ी हुई। कृपया Apple Pay को अक्षम करें और फिर से सक्षम करने की कोशिश करें या %1$sसपोर्ट को संपर्क करें%2$s।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:24
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:23
+msgid "GoDaddy Payments successfully enabled!"
+msgstr "GoDaddy Payments सफलतापूर्वक सक्षम किया गया!"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:25
+#: src/Features/GoDaddyPayments/Notices/BusinessEnabledNotice.php:24
+msgid "GoDaddy Payments is now available to your customers at checkout."
+msgstr "GoDaddy Payments अब चेकआउट पर आपके ग्राहकों के लिए उपलब्‍ध है।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:27
+msgid "GoDaddy Payments is now connected to your store!"
+msgstr "GoDaddy Payments अब आपके स्‍टोर से कनेक्‍टेड है।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:21
+msgid "Enable GoDaddy Payments"
+msgstr "GoDaddy Payments इनेबल करें"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessConnectedNotice.php:30
+msgid "Enable the payment method to add it to your checkout."
+msgstr "अपने चेकआउट में भुगतान विधि सक्षम करें।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:23
+msgid "Your GoDaddy Payments account has been closed."
+msgstr "आपका GoDaddy भुगतान खाता बंद कर दिया गया है।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessDisconnectedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please set up your account to resume processing payments."
+msgstr "भुगतान व‍िध‍ि अक्षम कर दी गयी है ज‍िसकी वजह से वह आपके चेकआउट में नहीं द‍िखेगी। भुगतान प्रोसेस करना जारी रखने के लिए कृपया अपना खाता सेट अप करें।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:24
+msgid "It looks like you didn't finish your GoDaddy Payments application."
+msgstr "लगता है कि आपने अपना GoDaddy Payments एप्लिकेशन पूरा नहीं किया है।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:26
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:232
+msgid "Resume"
+msgstr "जारी रखें"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessIncompleteNotice.php:27
+msgid "You're just a few minutes from processing payments."
+msgstr "आप भुगतान प्रोसेस करने से बस कुछ मिनटों की देरी पर हैं।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:23
+msgid "Your GoDaddy Payments account needs attention."
+msgstr "GoDaddy Payments खाते को आपका ध्‍यान देने की ज़रूरत है।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessSuspendedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for next steps."
+msgstr "भुगतान व‍िध‍ि अक्षम कर दी गयी है ज‍िसकी वजह से वह आपके चेकआउट में नहीं द‍िखेगी। कृपया अगले स्‍टेप्‍स के लिए अपना ईमेल चेक करें।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:23
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:330
+msgid "Your GoDaddy Payments account has been terminated."
+msgstr "आपका GoDaddy भुगतान खाता टर्मिनेट कर दिया गया है।"
+
+#: src/Features/GoDaddyPayments/Notices/BusinessTerminatedNotice.php:24
+msgid "The payment method has been disabled so it will not appear on your checkout. Please check your email for more information."
+msgstr "भुगतान व‍िध‍ि अक्षम कर दी गयी है ज‍िसकी वजह से वह आपके चेकआउट में नहीं द‍िखेगी। अधिक जानकारी के लिए अपना ईमेल चेक करें।"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:26
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:29
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:29
+msgid "Complete verification"
+msgstr "पूर्ण सत्‍यापन"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationNotice.php:27
+msgid "You've got money waiting with GoDaddy Payments! Verify your identity and add your banking info to get your payouts deposited."
+msgstr "GoDaddy से आपके पास अभी भी पैसा मिला है! अपने ड‍िपॉज‍िट क‍िए हुए पेआउट का पाने के ल‍िए अपनी पहचान सत्याप‍ित करें और अपनी बैंकिंग संबंधी जानकारी जोड़ें।"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationPastDueNotice.php:30
+msgid "You haven't completed the necessary steps to verify your identity with GoDaddy Payments. Until you do that, you won't be able to take any payments or deposit your funds."
+msgstr "आपने GoDaddy पेमेंट्स के साथ अपनी पहचान सत्‍यापित करने के लिए आवश्‍यक कदम नहीं उठाए हैं। जब तब आप ऐसा नहीं करेंगे, आप कोई पेमेंट नहीं कर पाएँगे या अपना फ़ण्‍ड डिपॉज़‍िट नहीं कर पाएँगे।"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationReminderNotice.php:30
+msgid "You've still got money waiting with GoDaddy Payments! Verify your identity and add your banking info as soon as you can to get your funds and keep taking payments."
+msgstr "GoDaddy से आपके पास अभी भी पैसा प्राप्‍त है! अपना फ़ण्‍ड पाने के लिए और भुगतान लेने के लिए अपनी पहचान सत्याप‍ित करें और अपनी बैंकिंग जानकारी जोड़ें।"
+
+#: src/Features/GoDaddyPayments/Notices/CompleteVerificationWarningNotice.php:30
+msgid "The deadline to complete your payouts setup is coming up! To keep transacting with GoDaddy Payments and to get your money, verify your identity and add banking info."
+msgstr "आपके पेआउट सेटअप को पूरा करने की डेडलाइन करीब आ रही है? GoDaddy Payments के साथ लेनदेन करते रहने के लिए और अपना पैसा पाने के लिए, अपनी पहचान सत्‍याप‍ित करें और बैंकिंग जानकारी जोड़ें।"
+
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:27
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:287
+msgid "You're all set to take payments with GoDaddy Payments!"
+msgstr "आप GoDaddy Payments से भुगतान लेने के लिए तैयार हैं।"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:35
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:292
+msgid "To get your funds deposited to your bank account, verify your identity and add your banking info. %1$sSet up payouts%2$s"
+msgstr "अपने बैंक खाते में फ़ंड ड‍िपॉज‍िट करने के ल‍िए, अपनी पहचान सत्याप‍ित करें और अपनी बैंकिंग संबंधी जानकारी जोड़ें। %1$sपेआउट सेट अप करें%2$s"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountNotice.php:42
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:300
+msgid "The connected GoDaddy Payments account is %1$s %2$s (Not the business owner's account? %3$sSwitch account%4$s)."
+msgstr "कनेक्‍टेड GoDaddy Payments खाता %1$s %2$s है (ब‍िज़नेस के स्वामी का खाता नहीं है? %3$sखाता स्विच करें%4$s)।"
+
+#. translators: Placeholders: %1$s - a connected account's legal name, %2$s - a connected account's email address, %3$s - <a> tag, %4$s - </a>
+#: src/Features/GoDaddyPayments/Notices/ConnectedAccountSwitchedNotice.php:30
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/Admin/Notices.php:278
+msgid "GoDaddy Payments is now connected with the account %1$s %2$s. (Not right? %3$sSwitch account%4$s.)"
+msgstr "GoDaddy Payments अब %1$s%2$s खाते से कनेक्‍टेड है। (दायाँ नहीं? %3$sखाता स्विच करें%4$s।)"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:28
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:28
+msgid "Get Started"
+msgstr "शुरुआत करें"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:30
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:31
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:455
+#: src/WooCommerce/Views/Components/GoDaddyBranding.php:52
+msgid "Provided by GoDaddy"
+msgstr "GoDaddy द्वारा प्रदत्त"
+
+#: src/Features/GoDaddyPayments/Notices/GdpRegisterRecommendationNotice.php:31
+msgid "Sell online and in person with GoDaddy Payments. Sync local pickup and delivery orders right to your Smart Terminal, then get paid fast with next-day deposits."
+msgstr "GoDaddy Payments की मदद से ऑनलाइन या इन पर्सन बेचें। अपने स्‍मार्ट टर्मिनल से लोकल पिकअप और डिलीवरी ऑर्डर सिंक करें, फिर अगले दिन के डिपॉज़‍िट के लिए भुगतान पाएँ।"
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:29
+msgid "Use GoDaddy Payments Selling in Person to sync local pickup and delivery orders to your Smart Terminal. Sell anything, anywhere and get paid fast with next-day deposits."
+msgstr "अपने स्‍मार्ट टर्मिनल के लिए लोकल पिकअप और डिलीवरी ऑर्डर्स को सिंक करने के लिए GoDaddy Payments सेलिंग इन पर्सन का उपयोग करें। कोई भी चीज़ बेचें, कहीं भी और अगले दिन के डिपॉज़‍िट के लिए तेज़ी से भुगतान पाएँ।"
+
+#: src/Features/GoDaddyPayments/Notices/GdpSipRecommendationNotice.php:32
+msgid "GoDaddy Selling in Person"
+msgstr "GoDaddy इन पर्सन बिक्री"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:39
+msgid "Update Store"
+msgstr "स्‍टोर अपडेट करें"
+
+#. translators: %s - list of supported countries
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCountryNotice.php:42
+msgid "GoDaddy Payments is available for businesses in %s. Please update your Store Address to use the payment method."
+msgstr "GoDaddy Payments %s में बिज़नेसेज़ के लिए उपलब्‍ध है। कृपया अपना स्टोर पता अपडेट करें और भुगतान विधि का इस्तेमाल करें।"
+
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:42
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:37
+msgid "Change Currency"
+msgstr "करेंसी बदलें"
+
+#. translators: %1$s - list of supported currencies, %2$s - store country
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyForCurrentCountryNotice.php:45
+msgid "GoDaddy Payments requires %1$s transactions for businesses in %2$s. Please change your Currency in order to use the payment method."
+msgstr "GoDaddy Payments के लिए %2$s में बिज़नेस के लिए %1$s ट्रांजैक्‍शन आवश्‍यक है। भुगतान विधि का इस्तेमाल करने के लिए कृपया अपनी करेंसी बदलें।"
+
+#. translators: %s - list of supported currencies
+#: src/Features/GoDaddyPayments/Notices/GdpUnsupportedCurrencyNotice.php:40
+msgid "GoDaddy Payments requires %s transactions. Please change your Currency in order to use the payment method."
+msgstr "GoDaddy Payments के लिए %s ट्रांजैक्‍शन आवश्‍यक है। भुगतान विधि का इस्तेमाल करने के लिए कृपया अपनी करेंसी बदलें।"
+
+#. translators: Placeholders: %1$s - <a> tag for the Google Pay docs link, %2$s - </a> tag
+#: src/Features/GoDaddyPayments/Notices/GooglePayEnabledNotice.php:22
+msgid "GoDaddy Payments - Google Pay has been enabled on your selected pages and shows %1$sin supported browsers and devices%2$s."
+msgstr "GoDaddy Payments - आपके चुनिंदा पेजों पर Google Pay सक्षम कर दिया गया है और %1$sसपोर्टेड ब्राउज़र्स और ड‍िवाइसों%2$s पर दिखाता है।"
+
+#: src/Features/GoDaddyPayments/Notices/GooglePayNoEnabledPagesNotice.php:23
+msgid "Please select the pages where Google Pay should show."
+msgstr "कृपया उन पेजों को चुनें जहाँ Google Pay दिखना चाह‍िए।"
+
+#: src/Features/GoDaddyPayments/Notices/OnboardingErrorNotice.php:26
+msgid "There was an error connecting to GoDaddy Payments. Please try again."
+msgstr "GoDaddy Payments से कनेक्‍ट होने में कोई गड़बड़ी हुई। कृपया फिर से कोशिश करें।"
+
+#: src/Features/GoDaddyPayments/Notices/PoyntAlreadyIncludedNotice.php:22
+msgid "GoDaddy Payments (Poynt) is included for Managed WordPress customers without a separate plugin!"
+msgstr "प्रबंधित WordPress में GoDaddy Payments (Poynt) बिना अलग प्लग‍िन के शामिल है!"
+
+#: src/Features/GoDaddyPayments/Notices/WooStagingNotice.php:23
+msgid "WooCommerce charges or authorizations/captures as well as refunds and voids made in your Staging site will process normally in your GoDaddy Payments account."
+msgstr "WooCommerce चार्जेंज या आपकी स्‍टेजिंग साइट में प्रमाणीकरण/कैप्‍चर्स और साथ ही रीफ़ंड्स तथा वॉयड्स आपके GoDaddy Payments खाते में सामान्य रूप से प्रोसेस होंगे।"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:43
+msgid "Commerce Home"
+msgstr "कॉमर्स होम"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:47
+msgid "Payments Dashboard"
+msgstr "Payments का डैशबोर्ड"
+
+#: src/Features/GoDaddyPayments/Traits/HasGoDaddyPaymentsUrlsTrait.php:50
+msgid "GoDaddy Payments"
+msgstr "GoDaddy Payments"
+
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:265
+#: src/Features/Marketplaces/Adapters/OrderAdapter.php:266
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:197
+msgid "Tax"
+msgstr "कर"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:94
+msgid "The Sellbrite plugin is included in your hosting plan as GoDaddy Marketplaces. The plugin has been deactivated."
+msgstr "Sellbrite प्‍लगिन GoDaddy मार्केटप्‍लेस के रूप में आपके होस्टिंग प्‍लान में शामिल है। प्‍लगिन न‍िष्‍क्रिय हो गया है।"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:95
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:230
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:393
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:400
+msgid "Set up"
+msgstr "सेट करें"
+
+#: src/Features/Marketplaces/Handlers/SellbritePluginHandler.php:104
+msgid "Your products, everywhere."
+msgstr "आपके प्रोडक्‍ट, हर जगह।"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:64
+msgid "A product ID is required."
+msgstr "प्रोडक्‍ट आईडी अनिवार्य है।"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:68
+msgid "A channel UUID is required."
+msgstr "UUID चैनल आवश्‍यक है।"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:72
+msgid "You do not have permission to perform this action."
+msgstr "आपको इस एक्‍शन को करने की अनुमति नहीं है।"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:76
+msgid "This product must meet all requirements below before creating a draft listing."
+msgstr "ड्राफ़्ट लिस्टिंग बनाने के लिए इस प्रोडक्‍ट को सभी आवश्‍यकताओं को पूरा करना चाहिए।"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:116
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:157
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:61
+msgid "Failed to create a draft listing."
+msgstr "ड्राफ़्ट लिस्टिंग बनाना विफल रहा।"
+
+#: src/Features/Marketplaces/Interceptors/CreateDraftListingAjaxInterceptor.php:132
+msgid "Failed to retrieve a WooCommerce product with ID #%d while creating a draft Marketplaces listing."
+msgstr "ड्राफ़्ट मार्केटप्लेस ल‍िस्ट‍िंंग बनाते समय #%d से WooCommerce प्रोडक्‍ट नहीं न‍िकाला जा सका।"
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:62
+msgid "Products with Marketplaces listings cannot have an empty SKU."
+msgstr "प्रोडक्‍ट और मार्केटप्लेस ल‍िस्ट‍िंग में खाली SKU नहीं हो सकती हैं।"
+
+#: src/Features/Marketplaces/Interceptors/EditProductPageInterceptor.php:88
+#: src/Features/Marketplaces/Interceptors/ProductsPageInterceptor.php:111
+msgid "Are you sure you want to unpublish? All associated Marketplaces listings will remain published or as a draft but will no longer sync content and inventory with WooCommerce."
+msgstr "क्या आप वाक़ई अनपब्लिश करना चाहते हैं? सभी संबद्ध मार्केटप्‍लेसेज़ लिस्ट‍िंंग पब्लि‍श होते रहेंगे या ड्राफ़्ट में रहेंगे, लेकिन WooCommerce से कॉन्‍टेंट और इनवेंटरी सिंक नहीं होंगे।"
+
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:156
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:168
+msgid "Marketplaces & Social Order"
+msgstr "मार्केटप्लेस और सोशल ऑर्डर"
+
+#. translators: Placeholder: %s - sales channel label
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:160
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:170
+msgid "Sales Channel: %s"
+msgstr "बिक्री चैनल: %s"
+
+#. translators: Placeholder: %s - sales channel order number
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:163
+#: src/Features/Marketplaces/Interceptors/EmailInterceptor.php:172
+msgid "Sales Channel Order Number: %s"
+msgstr "सेल्‍स चैनल ऑर्डर नंबर: %s"
+
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:166
+msgid "Return accepted via Walmart sales channel."
+msgstr "Walmart सेल्‍स चैनल के ज़रिये रिटर्न स्वीकार किया गया।"
+
+#. translators: Placeholders: %1$s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Interceptors/OrderInterceptor.php:189
+msgid "Return requested via Walmart sales channel. %1$sView request%2$s."
+msgstr "Walmart सेल्‍स चैनल के ज़रिये रिटर्न का अनुरोध किया गया। %1$sअनुरोध देखें%2$s।"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:291
+msgid "Create your first product listing by adding a new product or editing an existing one in WooCommerce. You can list a product on each of the marketplaces you've added. Once listed, the product info and inventory will sync automatically. Visit %1$sProducts%2$s to get started."
+msgstr "WooCommerce में एक नया प्रोडक्‍ट जोड़कर या मौजूदा प्रोडक्‍ट को एडिट करके अपनी पहली प्रोडक्‍ट लिस्ट‍िंंग बनाएँ। आपने ज‍ितने मार्केटप्‍लेस जोड़े हैं उनमें से हरेक में एक प्रोडक्‍ट ल‍िस्‍ट कर सकते हैं। एक बार लिस्‍ट हो जाने पर, प्रोडक्‍ट की जानकारी और इन्‍वेंटरी अपने आप सिंक हो जाएगी। शुरू करने के लिए %1$sप्रोडक्‍ट्स%2$s विज़‍िट करें।"
+
+#: src/Features/Marketplaces/Marketplaces.php:301
+msgid "Welcome to GoDaddy Marketplaces!"
+msgstr "GoDaddy मार्केटप्‍लेस में आपका स्‍वागत है!"
+
+#: src/Features/Marketplaces/Marketplaces.php:326
+msgid "Your store address must be in the US and currency US dollars in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "आपका स्‍टोर पता US में होना चाहिए और करेंसी US डॉलर होनी चाहिए ताकि प्रोडक्‍ट, इनवेंटरी और ऑर्डर्स को मार्केटप्लेस और सोशल सेल्‍स चैनल्‍स से स‍िंंक क‍िया जा सके।"
+
+#: src/Features/Marketplaces/Marketplaces.php:342
+msgid "Your store weight and dimensions units must be in \"lbs\" and \"in\" in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "आपका स्‍टोर वजन और डाइमेंशन यूनिट \"lbs\" में होना चाहिए ताकि प्रोडक्‍ट, इनवेंटरी और ऑर्डर्स को मार्केटप्लेस और सोशल सेल्‍स चैनल्‍स से स‍िंंक क‍िया जा सके।"
+
+#: src/Features/Marketplaces/Marketplaces.php:343
+#: src/Features/Marketplaces/Marketplaces.php:386
+msgid "Update settings"
+msgstr "सेटिंग अपडेट करें"
+
+#: src/Features/Marketplaces/Marketplaces.php:385
+msgid "Stock management must be enabled in order to sync products, inventory, and orders with Marketplaces & Social sales channels."
+msgstr "स्टॉक प्रबंधन सक्षम किया जाना चाहिए ताकि प्रोडक्‍ट, इनवेंटरी और ऑर्डर्स को मार्केटप्लेस और सोशल सेल्‍स चैनल्‍स से स‍िंंक क‍िया जा सके।"
+
+#: src/Features/Marketplaces/Marketplaces.php:434
+msgid "Product, inventory, and order syncing is disabled in Staging to prevent conflicts with your Production site."
+msgstr "आपकी प्रोडक्‍शन साइट से तनाव बचाने के लिए प्रोडक्‍ट, इनवेंटरी और ऑर्डर स‍िंंक‍िंंग स्‍टेज‍िंंग अक्षम की गयी है।"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:450
+msgid "You've used 90&#37; of your included monthly Marketplaces and Social orders. Upgrade soon to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "आपने अपनी शामिल की गयी मार्केटप्लेस और सोशल ऑर्डर में से 90&#37; का इस्तेमाल कर लिया है। और ऑर्डर प्रोसेस करने के लिए जल्‍द अपग्रेड करें। %1$sप्लान को अपग्रेड करें%2$s"
+
+#. translators: Placeholders: %1$s - opening HTML link tag <a> to products page, %2$s - closing HTML link tag </a>
+#: src/Features/Marketplaces/Marketplaces.php:476
+msgid "You've used all your included monthly Marketplaces and Social orders. Upgrade now to process more orders. %1$sUpgrade Plan%2$s"
+msgstr "आपने अपनी शामिल की गयी मार्केटप्लेस और सोशल ऑर्डर में से पूरे का इस्तेमाल कर लिया है। और ऑर्डर प्रोसेस करने के लिए अब अपग्रेड करें। %1$sप्लान को अपग्रेड करें%2$s"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:102
+msgid "Sales Channel"
+msgstr "बिक्री चैनल"
+
+#: src/Features/Marketplaces/Pages/EditOrder/Fields/MarketplacesFields.php:106
+msgid "Sales Channel Order Number"
+msgstr "सेल्‍स चैनल ऑर्डर नंबर"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:81
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:155
+msgid "Product Brand"
+msgstr "प्रोडक्‍ट ब्रांड"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:86
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:162
+msgid "Product Condition"
+msgstr "प्रोडक्‍ट शर्त"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:91
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:167
+msgctxt "Product condition"
+msgid "New"
+msgstr "नया"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:92
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:168
+msgctxt "Product condition"
+msgid "Used"
+msgstr "उपयोग किया गया"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:93
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:169
+msgctxt "Product condition"
+msgid "Refurbished"
+msgstr "रीफ़रबिश्‍ड"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgid "Global Trade Item Number"
+msgstr "Global Trade Item Number"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:113
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:177
+msgctxt "Global Trade Item Number (GTIN)"
+msgid "GTIN"
+msgstr "GTIN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:114
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:178
+msgid "A Global Trade Item Number is used to uniquely identify your product on Marketplaces & Social product listings. It can be found next to the barcode."
+msgstr "Global Trade Item Number का इस्तेमाल मार्केटप्लेसों और सोशल प्रोडक्‍ट ल‍िस्ट‍िंग पर आपके प्रोडक्‍ट को यूनीक ढंग से पहचानने के लिए किया जाता है। इसे बारकोड के आगे देखा जा सकता है।"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgid "Manufacturer Part Number"
+msgstr "Manufacturer Part Number"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:120
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:187
+msgctxt "Manufacturer Part Number (MPN)"
+msgid "MPN"
+msgstr "MPN"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:121
+#: src/Features/Marketplaces/Pages/EditProduct/Fields/MarketplacesFields.php:188
+msgid "A Manufacturer Part Number is used to uniquely identify your product on Marketplaces & Social product listings. Only use the MPN assigned by the manufacturer."
+msgstr "Manufacturer Part Number का इस्तेमाल मार्केटप्लेसों और सोशल प्रोडक्‍ट ल‍िस्ट‍िंग पर आपके प्रोडक्‍ट को यूनीक ढंग से पहचानने के लिए किया जाता है। केवल मैन्‍युफ़ैक्‍चरर द्वारा असाइन किये गये MPN का इस्तेमाल करें।"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:53
+msgid "Marketplaces & Social"
+msgstr "मार्केटप्लेस और सोशल"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:217
+msgid "You haven't connected this sales channel yet."
+msgstr "आपने अभी भी इस सेल्‍स चैनल से कनेक्‍ट नहीं किया है।"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:221
+msgid "Connect Sales Channel"
+msgstr "सेल्‍स चैनल्‍स से कनेक्‍ट करें"
+
+#. translators: Placeholders: %s: Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:245
+msgid "This product hasn't been listed on %s yet."
+msgstr "यह प्रोडक्‍ट अभी भी %s पर लिस्‍ट नहीं हुआ है।"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:250
+msgid "Create Draft Listing"
+msgstr "ड्राफ़्ट लिस्टिंग बनाएँ"
+
+#. translators: Placeholders: %1$s - Opening <a> HTML link tag, %2$s - Closing </a> HTML link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:259
+msgid "A draft listing will be automatically created once the product meets the requirements below. %1$sLearn more about product sync%2$s"
+msgstr "प्रोडक्‍ट द्वारा नीचे दी गयी आवश्‍यकताओं के पूरा होने के बाद एक ड्राफ़्ट ल‍िस्ट‍िंग अपने आप बन जाएगी। %1$sप्रोडक्‍ट सिंक के बारे में ज्‍़यादा जानें%2$s"
+
+#. translators: Placeholders: %1%s - Opening HTML <a> link tag, %2$s - Closing HTML </a> link tag
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:266
+msgid "The requirements below must be met in order to list this product. %1$sLearn more about product sync%2$s"
+msgstr "इस प्रोडक्‍ट को लिस्‍ट करने के लिए निम्न आवश्‍यकताएँ पूरी होनी चाहिए। %1$sप्रोडक्‍ट सिंक के बारे में ज्‍़यादा जानें%2$s"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:273
+msgctxt "Product property requirement"
+msgid "Simple or variable product (not virtual or downloadable)"
+msgstr "सामान्‍य या चल प्रोडक्‍ट (वर्चुअल या डाउनलोड करने योग्‍य नहीं)"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:274
+msgctxt "Product property requirement"
+msgid "Published product"
+msgstr "पब्लिश्‍ड प्रोडक्‍ट"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:275
+msgctxt "Product property requirement"
+msgid "Product SKU must be set"
+msgstr "प्रोडक्‍ट SKU सेट होना चाहिए"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:276
+msgctxt "Product property requirement"
+msgid "Manage stock enabled and stock quantity > 0"
+msgstr "सक्षम किए गए स्‍टॉक और स्‍टॉक राश‍ि को प्रबंध‍ित करें > 0"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:277
+msgctxt "Product property requirement"
+msgid "No backorders allowed"
+msgstr "बैकऑर्डर की अनुमति नहीं है"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:278
+msgctxt "Product property requirement"
+msgid "Brand and Condition fields filled"
+msgstr "ब्रांड और शर्त की फ़ील्‍ड भरी नहीं गयी है"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:319
+msgid "A draft listing has been created for this product on %s."
+msgstr "इस प्रोडक्‍ट के लिए ड्राफ़्ट लिस्ट‍िंंग %s पर बनायी गयी है।"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:323
+msgid "View Draft Listing"
+msgstr "ड्राफ़्ट लिस्टिंग देखें"
+
+#. translators: Placeholders: %s Marketplaces channel name (e.g. Amazon, eBay, Facebook, etc.)
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:347
+msgid "This product has been listed on %s."
+msgstr "यह प्रोडक्‍ट %s पर लिस्‍ट हो गया।"
+
+#: src/Features/Marketplaces/Pages/EditProduct/Metaboxes/MarketplacesMetabox.php:350
+msgid "Edit Listing"
+msgstr "सूची संपादित करें"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:195
+msgid "Manage Sales Channels"
+msgstr "बिक्री चैनल प्रबंध‍ित करें"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:228
+msgid "Marketplaces &amp; Social"
+msgstr "मार्केटप्‍लेस &amp; सोशल"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:251
+msgid "Manage Listing Templates"
+msgstr "ल‍िस्ट‍िंग टेम्पलेट्स को प्रबंधि‍त करें"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:265
+msgid "You haven't added any sales channels yet. Add sales channels in order to post your listings on third party marketplaces and social platforms."
+msgstr "आपने अभी भी कोई सेल्‍स चैनल नहीं बनाया है। थर्ड पार्टी मार्केटप्‍लेस और सोशल प्‍लेटफ़ॉर्म्स पर अपनी लिस्ट‍िंंग पोस्‍ट करने के लिए सेल्‍स चैनल जोड़ें।"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:279
+msgctxt "Refreshes the page"
+msgid "Refresh"
+msgstr "रीफ़्रेश करें"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:286
+msgid "Add Sales Channel"
+msgstr "बिक्री चैनल जोड़ें"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:299
+msgid "Resources"
+msgstr "संसाधन"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:300
+msgid "What is Marketplaces &amp; Social?"
+msgstr "मार्केटप्‍लेस &amp; सोशल क्‍या है?"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:302
+msgid "How to connect sales channels"
+msgstr "सेल्‍स चैनल्‍स कनेक्‍ट कैसे करें"
+
+#: src/Features/Marketplaces/Pages/MarketplacesPage.php:304
+msgid "What products are eligible for Marketplaces & Social sales channels?"
+msgstr "मार्केटप्‍लेस और सोशल सेल्‍स चैनल्‍स के लिए कौन से प्रोडक्‍ट योग्‍य हैं?"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:119
+msgid "A non-empty settings parameter must be provided."
+msgstr "एक नॉन-एंप्टी सेटिंग्स या पैरामीटर दिया जाना चाहिए।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:124
+msgid "Each setting object must contain name and value keys."
+msgstr "हर सेटिंग ऑब्जेक्ट में नाम और वैल्‍यू होनी चाहिए।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:245
+msgid "Unique onboarding setting ID."
+msgstr "यूनीक ऑनबोर्डिंग सेटिंग आईडी।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:251
+msgid "Unique onboarding setting name (matches the ID)."
+msgstr "यूनीक ऑनबोर्डि‍ंंग सेटिंग का नाम (सभी आईडी मैच करती हैं)"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:257
+msgid "Onboarding setting label."
+msgstr "ऑनबोर्डिंग सेटिंग लेबल।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:263
+msgid "Onboarding setting description."
+msgstr "ऑनबोर्डिंग सेटिंग विवरण।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:269
+msgid "A list of available options for the onboarding setting values."
+msgstr "ऑनबोर्डिंग सेटिंग वैल्‍यू के लिए उपलब्‍ध विकल्‍पों की सूची।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:278
+msgid "Onboarding setting default value."
+msgstr "ऑनबोर्डिंग ड‍िफ़ॉल्‍ट मान।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:284
+msgid "Onboarding setting value."
+msgstr "ऑनबोर्डिंग सेटिंग मान।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:290
+msgid "Whether the onboarding setting can have multiple values."
+msgstr "क्‍या ऑनबोर्डिंग सेटिंग की एक से ज्‍़यादा वैल्‍यू हो सकती है या नहीं।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:296
+msgid "Whether the onboarding setting is required."
+msgstr "ऑनबोर्डिंग सेटिंग आवश्‍यक है या नहीं।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:302
+msgid "Onboarding setting group, if applicable."
+msgstr "ऑनबोर्डिंग सेटिंग ग्रुप, अगर लागू है।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:308
+msgid "Onboarding setting control details."
+msgstr "ऑनबोर्डिंग सेटिंग कंट्रोल विवरण।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:314
+msgid "Onboarding setting control type."
+msgstr "ऑनबोर्डिंग सेटिंग ऑनबोर्डिंग टाइप।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:320
+msgid "A list of available options for the onboarding setting control."
+msgstr "ऑनबोर्डिंग सेटिंग कंट्रोल के लिए उपलब्‍ध विकल्‍पों की सूची।"
+
+#: src/Features/Onboarding/API/Controllers/OnboardingSettingsController.php:329
+msgid "Optional input placeholder for the onboarding setting control."
+msgstr "ऑनबोर्डिंग सेटिंग कंट्रोल के लिए वैकल्पिक इनपुट प्‍लेसहोल्‍डर।"
+
+#: src/Features/Onboarding/HomePage.php:33
+msgctxt "Title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "होम"
+
+#: src/Features/Onboarding/HomePage.php:34
+msgctxt "Menu title for the WooCommerce > Home page"
+msgid "Home"
+msgstr "होम"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:23
+msgid "First time"
+msgstr "पहली बार"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:48
+msgid "Store name"
+msgstr "स्‍टोर का नाम"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:61
+msgid "Store address 1"
+msgstr "स्‍टोर पता 1"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:75
+msgid "Store address 2"
+msgstr "स्‍टोर पता 2"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:89
+msgctxt "The country's region"
+msgid "Country Region"
+msgstr "देश क्षेत्र"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:103
+msgid "City"
+msgstr "शहर"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:117
+msgid "Postal code"
+msgstr "पोस्टल कोड"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:131
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:145
+msgid "Left aligned"
+msgstr "लेफ़्ट एलाइन्‍ड"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:146
+msgid "Right aligned"
+msgstr "राइट एलाइन्‍ड"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:147
+msgid "Left aligned with space"
+msgstr "स्‍पेस के साथ लेफ़्ट एलाइंड"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:148
+msgid "Right aligned with space"
+msgstr "स्‍पेस के साथ राइट एलाइंड"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:152
+msgid "Currency position"
+msgstr "मुद्रा का स्‍थान"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:171
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:228
+msgid "All countries"
+msgstr "सभी देश"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:172
+msgid "Sell to all countries, except for..."
+msgstr "इनके अतिरिक्‍त सभी देश..."
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:173
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:196
+msgid "Sell to specific countries"
+msgstr "विशेष देशों में बेचें"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:177
+msgid "Selling locations"
+msgstr "बे‍चने के स्‍थान"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:211
+msgid "Sell to all countries except for"
+msgstr "इनके अतिरिक्‍त सभी देश"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:227
+msgid "Ship to all countries you sell to"
+msgstr "आप जिन देशों में बेचते हैं उन्‍हेंं शिप करें"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:229
+msgid "Ship to specific countries only"
+msgstr "केवल विशेष देशों में शिप करें"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:230
+msgid "Disable shipping & shipping calculations"
+msgstr "शिपिंग और शिपिंग गणना अक्षम करें"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:234
+msgid "Shipping locations"
+msgstr "शिपिंग के स्‍थान"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:253
+msgid "Ship to specific countries"
+msgstr "विशेष देशों में शिप करें"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:268
+msgid "Thousands separator"
+msgstr "हज़ार सेपरेटर"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:282
+msgid "Decimal separator"
+msgstr "दशमलव सेपरेटर"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:296
+msgid "Number of decimals"
+msgstr "दशमलव की संख्‍या"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:310
+msgid "Kilograms"
+msgstr "किलोग्राम"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:311
+msgid "Grams"
+msgstr "ग्राम"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:312
+msgid "Pounds"
+msgstr "पाउंड"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:313
+msgid "Ounces"
+msgstr "आउंस"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:317
+msgid "Weight units"
+msgstr "वज़न की इकाईयाँ"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:336
+msgid "Meters"
+msgstr "मीटर्स"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:337
+msgid "Centimeters"
+msgstr "सेंटीमीटर"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:338
+msgid "Millimeters"
+msgstr "मिलीमीटर"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:339
+msgid "Inches"
+msgstr "इंच"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:340
+msgid "Yards"
+msgstr "यार्ड्स"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:344
+msgid "Dimension units"
+msgstr "आयाम की इकाईयाँ"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:363
+msgid "Enable taxes"
+msgstr "टैक्‍सेज़ सक्षम करें"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:377
+msgid "Last onboarding step"
+msgstr "अंतिम ऑनबोर्ड‍िंंग कदम"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:390
+msgid "Completed"
+msgstr "पूर्ण हुआ"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:406
+msgid "Store selector dismissed"
+msgstr "स्‍टोर सेलेक्‍टर ड‍िस्मिस हो गया"
+
+#: src/Features/Onboarding/Settings/OnboardingSettingFactory.php:421
+msgid "Dismissed"
+msgstr "ख़ारिज किया गया"
+
+#: src/Features/Onboarding/Settings/Settings.php:25
+msgid "Onboarding"
+msgstr "ऑनबोर्डिंग"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:43
+msgid "Order Numbers"
+msgstr "ऑर्डर नंबर्स"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:60
+msgid "Starting number"
+msgstr "शुरुआती नंबर"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:70
+msgid "Prefix"
+msgstr "उपसर्ग"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:80
+msgid "Suffix"
+msgstr "सफ़‍िक्‍स"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:90
+msgid "Skip free orders"
+msgstr "फ़्री ऑर्डर स्‍किप करें"
+
+#: src/Features/SequentialOrderNumbers/Settings/SequentialOrderNumbersSettings.php:100
+msgid "Free order identifier"
+msgstr "फ़्री ऑर्डर आइडेंटिफ़ायर"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:176
+msgid "Company name."
+msgstr "कंपनी का नाम।"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:182
+msgid "Country code."
+msgstr "कंट्री कोड।"
+
+#: src/Features/Shipping/API/Controllers/AccountController.php:188
+msgid "Connection status."
+msgstr "कनेक्‍शन की स्थि‍त‍ि।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:313
+msgid "The shipment object associated with the shipping label."
+msgstr "श‍िप‍िंग लेबल से संबंधि‍त श‍िपमेंट ऑब्‍जेक्‍ट।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:317
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:255
+msgid "The shipment ID."
+msgstr "शिपमेंट आईडी।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:323
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:261
+msgid "The shipment's creation date."
+msgstr "श‍िपमेंट क्रिएट करने की तारीख।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:329
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:267
+msgid "The shipment's last updated date."
+msgstr "श‍िपमेंट की अंत‍िम अपडेटेड तारीख।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:335
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:273
+msgid "The shipping provider for the shipment."
+msgstr "श‍िपमेंट की श‍िप‍िंग प्रोवाइडर।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:340
+msgid "The label for a custom shipping provider."
+msgstr "कस्‍टम श‍िप‍िंग प्रोवाइडर के लिए लेबल।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:345
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:283
+msgid "The shipment's tracking number."
+msgstr "श‍िपमेंट का ट्रैकिंग नंबर।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:350
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:288
+msgid "The shipment's tracking URL."
+msgstr "श‍िपमेंट का ट्रैकिंग URL."
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:355
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:293
+msgid "The rate associated with the shipment."
+msgstr "श‍िपमेंट से संबंधित रेट।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:360
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:298
+msgid "The label associated with shipment."
+msgstr "श‍िपमेंट से संबंध‍ित लेबल।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:365
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:303
+msgid "The items included in the shipment."
+msgstr "श‍िपमेंट में शाम‍िल आइटम।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:371
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:309
+msgid "The item's ID."
+msgstr "आइटम के आईडी।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:376
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:314
+msgid "The product's ID."
+msgstr "प्रोडक्‍ट आईडी।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:381
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:319
+msgid "The product's variation ID."
+msgstr "प्रोडक्‍ट का वैर‍िएशन आईडी।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:386
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:324
+msgid "The item's quantity."
+msgstr "आइटम की राश‍ि।"
+
+#: src/Features/Shipping/API/Controllers/Orders/Shipments/ShippingLabelsController.php:399
+msgid "The shipping label returned by the shipping provider."
+msgstr "श‍िप‍िंग प्रोवाइडर द्वारा र‍िटर्न किया गया श‍िप‍िंग लेबल।"
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:251
+msgid "The shipment object associated with the shipping rates."
+msgstr "श‍िप‍िंग रेट्स से संबंधि‍त श‍िपमेंट ऑब्‍जेक्‍ट।"
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:278
+msgctxt "Display title, not physical label"
+msgid "The label for a custom shipping provider."
+msgstr "कस्‍टम श‍िप‍िंग प्रोवाइडर के लिए लेबल।"
+
+#: src/Features/Shipping/API/Controllers/Orders/ShippingRatesController.php:337
+msgid "The shipping rates returned by the shipping provider."
+msgstr "श‍िप‍िंग प्रोवाइडर द्वारा र‍िटर्न किया गया श‍िप‍िंग रेट्स।"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:43
+msgid "Phone number"
+msgstr "फ़ोन नंबर"
+
+#: src/Features/Shipping/Interceptors/AddPhoneNumberToStoreAddressInterceptor.php:44
+msgid "The phone number of your business."
+msgstr "आपके ब‍िज़नेस का फ़ोन नंबर।"
+
+#: src/Features/Shipping/Interceptors/RedirectToShippingDashboardInterceptor.php:157
+msgctxt "GoDaddy name sent as brand name for the ShipEngine integration"
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/Features/Shipping/Interceptors/ShippingLabelsSettingsSectionInterceptor.php:82
+msgid "Shipping labels"
+msgstr "शिपिंग लेबल्‍स"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:32
+msgid "ShipEngine isn't available in your region"
+msgstr "आपके क्षेत्र में ShipEngine उपलब्‍ध नहीं है"
+
+#: src/Features/Shipping/Notices/LocationChangeNotice.php:46
+msgid "To benefit from streamlined shipping and label printing, please ensure your store is located in the US, UK, Canada, or Australia."
+msgstr "स्‍ट्रीमलाइन्‍ड श‍िप‍िंग और लेबल प्र‍िंंट‍िंग से लाभ पाने के लिए, कृपया यह सुन‍िश्‍च‍ित करें क‍ि आपका स्‍टोर यूएस, यूके, कनाडा या ऑस्‍ट्रल‍िया में स्थ‍ित है।"
+
+#: src/Features/Shipping/Providers/ShipEngine/ShipEngineProvider.php:34
+msgctxt "shipping provider name"
+msgid "ShipEngine"
+msgstr "ShipEngine"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:150
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:359
+msgid "User does not have permission to manage WooCommerce"
+msgstr "यूज़र्स को WooCommerce का प्रबंधन करने की अनुमत‍ि नहीं है"
+
+#. translators: Placeholders: %s - error message from the MWC API
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:166
+msgid "Could not create connection: %s"
+msgstr "कनेक्‍शन नहीं बन पाया: %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:172
+msgid "No redirect available"
+msgstr "कोई रीडायरेक्‍ट उपलब्‍ध नहीं है"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:497
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:507
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:33
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:90
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:63
+#: src/WooCommerce/Payments/Integrations/SubscriptionsIntegration.php:177
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:109
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr "कोई गड़बड़ी हुई, कृपया फिर से आज़माएँ या भुगतान का कोई वैकल्पिक तरीका आज़माएँ।"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:505
+msgid "An error occurred while processing the payment: "
+msgstr "पेमेंट प्रोसेस करते समय त्रुट‍ि हुई। "
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:546
+msgid "Payment method successfully added."
+msgstr "भुगतान विध‍ि सफलतापूर्वक जोड़ी गयी।"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:548
+msgid "Unable to add payment method to your account. Please try again."
+msgstr "आपके खाते में भुगतान विधि नहीं जोड़ी जा सकी। कृपया फिर से कोशिश करें।"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:585
+msgid "Payment method could not be saved. %s"
+msgstr "पेमेंट व‍िध‍ि सेव नहीं हो सकी। %s"
+
+#: src/Features/Stripe/Interceptors/RedirectInterceptor.php:639
+msgid "Payment method updated."
+msgstr "पेमेंट व‍िध‍ि अपडेट की गयी।"
+
+#: src/Pages/Plugins/IncludedWooCommerceExtensionsTab.php:72
+msgid "Included WooCommerce Extensions"
+msgstr "WooCommerce एक्सटेंशन्‍स शामिल हैं"
+
+#. translators: Placeholder: %s - captured amount
+#: src/Payments/Adapters/CaptureTransactionOrderNoteAdapter.php:24
+msgid "A payment of %s was successfully captured via GoDaddy Payments Hub"
+msgstr "GoDaddy Payments हब द्वारा %s का भुगतान सफलतापूर्वक कैप्‍चर किया गया"
+
+#: src/Payments/Adapters/PaymentTransactionMessageAdapter.php:31
+msgid "We cannot process your order with the payment information that you provided. Please use a different payment account or an alternate payment method."
+msgstr "आपने जो भुगतान जानकारी दी है उसके साथ हम आपका ऑर्डर प्रोसेस नहीं कर सकते हैं। कृपया कोई अलग भुगतान खाता या वैकल्पिक भुगतान विध‍ि का इस्तेमाल करें।"
+
+#. translators: Placeholders: %1$s - card brand, %2$s - last 4 card numbers, %3$s - expiration month, %4$s - expiration year
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:32
+msgid " %1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr " %1$s का %2$s में अंत हो रहा है (%3$s/%4$s एक्सपायर हो रहा है)"
+
+#: src/Payments/Adapters/PaymentTransactionOrderNoteAdapter.php:33
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:34
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:181
+msgid "Card"
+msgstr "कार्ड"
+
+#. translators: Placeholder: %s - refunded amount
+#: src/Payments/Adapters/RefundTransactionOrderNoteAdapter.php:24
+msgid "A refund of %s was successfully processed via GoDaddy Payments Hub"
+msgstr "GoDaddy Payments हब द्वारा %s का भुगतान सफलतापूर्वक प्रोसेस किया गया"
+
+#. translators: Placeholder: %s - transaction ID
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:42
+msgid "Transaction ID %s"
+msgstr "ट्रांजैक्‍शन आईडी %s"
+
+#. translators: Placeholders: %1$s - approved result code, %2$s - approved result message
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:54
+msgid "Result: [%1$s] %2$s"
+msgstr "परिणाम: [%1$s] %2$s"
+
+#. translators: Placeholders: %1$s - provider name, %2$s - transaction type, provider name, %3$s - total amount, %4$s - transaction info (if applicable, or empty string)
+#: src/Payments/Adapters/TransactionOrderNoteAdapter.php:86
+msgid "%1$s %2$s in the amount of %3$s%4$s"
+msgstr "%3$s%4$s की राशि में %1$s %2$s"
+
+#. translators: Placeholders: %s - the total amount of the capture that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:26
+msgid "A payment capture of %s was successfully voided"
+msgstr "%s का भुगतान कैप्‍चर सफलतापूर्वक वॉयड किया गया"
+
+#. translators: Placeholders: %s - the total amount of the refund that was voided
+#: src/Payments/Adapters/VoidTransactionOrderNoteAdapter.php:33
+msgid "A refund of %s was successfully voided"
+msgstr "%s का रीफ़ण्‍ड सफलतापूर्वक वॉयड किया गया"
+
+#: src/Payments/API/Controllers/CartController.php:261
+msgid "Coupons are disabled."
+msgstr "कूपन्स अक्षम किए गए हैं।"
+
+#: src/Payments/API/Controllers/CartController.php:285
+msgid "Invalid coupon code."
+msgstr "अमान्‍य कूपन कोड।"
+
+#: src/Payments/API/Controllers/CartController.php:291
+msgid "Coupon cannot be applied."
+msgstr "कूपन लागू नहीं किए जा सकते हैं।"
+
+#: src/Payments/API/Controllers/CartController.php:310
+msgid "Coupon cannot be applied. %s"
+msgstr "कूपन लागू नहीं क‍िए जा सकते हैं। %s"
+
+#: src/Payments/API/Controllers/CartController.php:356
+msgid "Invalid customer data"
+msgstr "अमान्‍य कार्ट ग्राहक डेटा"
+
+#: src/Payments/API/Controllers/CartController.php:381
+msgid "Invalid email address"
+msgstr "अमान्य ईमेल पता"
+
+#. translators: Placeholder: %s - either 'billing' or 'shipping'
+#: src/Payments/API/Controllers/CartController.php:408
+msgid "Invalid %s address"
+msgstr "अमान्‍य %s पता"
+
+#: src/Payments/API/Controllers/CartController.php:450
+msgid "Orders aren't accepted from this location"
+msgstr "ऑर्डर इस लोकेशन से स्वीकार नहीं किये जाते हैं"
+
+#: src/Payments/API/Controllers/CartController.php:523
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:258
+msgid "WooCommerce is not available"
+msgstr "WooCommerce उपलब्‍ध नहीं है"
+
+#: src/Payments/API/Controllers/CartController.php:578
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:325
+msgid "Invalid products data."
+msgstr "अमान्‍य प्रोडक्‍ट डेटा।"
+
+#: src/Payments/API/Controllers/CartController.php:648
+msgid "Coupon code to apply to the cart."
+msgstr "कार्ट पर अप्‍लाई करने के लिए कूपन कोड।"
+
+#: src/Payments/API/Controllers/CartController.php:654
+msgid "Cart customer data."
+msgstr "कार्ट ग्राहक डेटा।"
+
+#: src/Payments/API/Controllers/CartController.php:756
+msgid "Products to add to the cart."
+msgstr "कार्ट में जोड़े जाने वाले प्रोडक्‍ट।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:243
+msgid "The order ID."
+msgstr "ऑर्डर आईडी।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/Processing/PayController.php:249
+msgid "The URL to redirect the customer to."
+msgstr "ग्राहक को रीडायरेक्‍ट करने वाला URL."
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:187
+msgid "Order total, based on cart total."
+msgstr "ऑर्डर टोटल, कार्ट टोटल के आधार पर।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:201
+msgid "2-letter ISO 3166 country code."
+msgstr "2-लेटर का ISO 3166 कंट्री कोड"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:207
+msgid "3-letter ISO 4217 currency code."
+msgstr "3-लेटर का ISO 4217 कंट्री कोड"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:213
+msgid "Name of the merchant."
+msgstr "मर्चेंट का नाम।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:219
+msgid "The shipping type based on the chosen shipping method."
+msgstr "चुनी गई शि‍पिंग विध‍ि पर आधारित शिपिंग टाइप।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:230
+msgid "Shipping methods for the payment request."
+msgstr "भुगतान अनुरोध के लिए शिपिंग विध‍ि।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:239
+msgid "Items in the order."
+msgstr "ऑर्डर में आइटम्‍स।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:256
+msgid "Whether to require customer email."
+msgstr "ग्राहक ईमेल की आवश्‍यकता है या नहीं"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:262
+msgid "Whether to require customer phone."
+msgstr "ग्राहक फ़ोन की आवश्‍यकता है या नहीं"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:268
+msgid "Whether to require customer shipping address."
+msgstr "ग्राहक के श‍िपिंग पते की आवश्‍यकता है या नहीं।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:274
+msgid "Whether the customer should be allowed to enter coupons."
+msgstr "ग्राहक को कूपन डालने की अनुमति होनी चाहिए या नहीं।"
+
+#: src/Payments/API/Controllers/GoDaddyPayments/Wallets/WalletRequestController.php:280
+msgid "A list of wallets to disable."
+msgstr "अक्षम करने के लिए वालेट्स की सूची।"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:160
+msgid "Application ID."
+msgstr "एप्लिकेशन आईडी।"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:166
+msgid "Business ID."
+msgstr "बिज़नेस आईडी।"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:172
+msgid "List of available features."
+msgstr "उपलब्‍ध फ़ीचर्स की सूची।"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:186
+msgid "Whether the payment gateway is enabled."
+msgstr "पेमेंट गेटवे सक्षम किया गया है या नहीं।"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:192
+msgid "Payment gateway connection status."
+msgstr "पेमेंट गेटवे कनेक्‍शन स्‍टेटस।"
+
+#: src/Payments/API/Controllers/GoDaddyPaymentsController.php:210
+msgid "Nonce for switching accounts."
+msgstr "खाते स्विच करने के लिए नॉन्‍स"
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:224
+msgid "Invalid phone number."
+msgstr "फ़ोन नंबर अमान्‍य है।"
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:271
+msgid "The remote parent ID in the request does not match the remote parent ID of the order."
+msgstr "रिक्‍वेस्‍ट में रिमोट पैरेंट ऑर्डर के आईडी रिमोट आईडी से मेल नहीं खाता।"
+
+#: src/Payments/API/Controllers/ProviderProcessingController.php:368
+msgid "Invalid order ID."
+msgstr "अमान्‍य ऑर्डर आईडी।"
+
+#. translators: Placeholders: %s - a payment provider name, such as poynt
+#: src/Payments/API/Controllers/ProviderProcessingController.php:389
+msgid "Provider %s not found."
+msgstr "प्रोवाइडर %s नहीं मिला।"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Invalid nonce"
+msgstr "अमान्‍य नोन्‍स"
+
+#: src/Payments/API/Traits/VerifiesNonceTrait.php:28
+msgid "Missing nonce"
+msgstr "मिसिंग नोन्‍स"
+
+#. translators: Placeholder: %d - error code
+#: src/Payments/DataSources/WooCommerce/Adapters/CartOrderAdapter.php:206
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "त्रुटि %d: ऑर्डर नहीं बना सका। कृपया फिर से कोशिश करें।"
+
+#: src/Payments/DataStores/WooCommerce/OrderPaymentTransactionDataStore.php:38
+#: src/WooCommerce/Payments/VirtualTerminal.php:121
+msgid "Virtual Terminal"
+msgstr "वर्चुअल टर्मिनल"
+
+#. translators: Placeholder: %s - payment method name
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:271
+#: src/Payments/Poynt/Events/Producers/PushTransactionsProducer.php:277
+msgid "Paid in WooCommerce checkout by \"%s\""
+msgstr "\"%s\" द्वारा WooCommerce चेकआउट में भुगतान हुआ।"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:760
+msgid "Tip"
+msgstr "सुझाव"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:765
+msgid "Cashback"
+msgstr "कैशबैक"
+
+#. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:796
+msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
+msgstr "GoDaddy Payments स्‍मार्ट टर्मिनल द्वारा %2$s की %1$s राशि"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:940
+msgid "From GoDaddy Payments Hub. Order fully refunded."
+msgstr "GoDaddy Payments हब की ओर से। पूरी तरह से रीफ़ण्‍ड किया गया ऑर्डर।"
+
+#: src/Payments/Poynt/Events/Subscribers/TransactionWebhookReceivedSubscriber.php:943
+msgid "From GoDaddy Payments Hub. Order partially refunded."
+msgstr "GoDaddy Payments हब की ओर से। ऑर्डर आंशिक रूप से रीफ़ण्‍ड किया गया।"
+
+#. translators: Placeholders: %1$s - date, %2$s time
+#: src/Payments/Poynt/Events/Subscribers/WebhookSubscriber.php:347
+msgid "Order marked ready on terminal on %1$s at %2$s"
+msgstr "%2$s पर %1$s पर टर्मिनल पर ऑर्डर को रेडी मार्क किया गया"
+
+#: src/Payments/Poynt/Http/Adapters/CardPaymentMethodAdapter.php:131
+msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
+msgstr "आपके बिलिंग पते का आपकी भुगतान कार्ड जानकारी से मिलान नहीं होता है. कृपया अपने ऑर्डर को सबमिट करने के लिए बिलिंग पता अपडेट करें."
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:90
+msgid "Coupon code"
+msgstr "कूपन कोड"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:171
+msgid "Subtotal"
+msgstr "पूर्ण योग"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:177
+msgid "Discount"
+msgstr "छूट"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:183
+msgid "Shipping"
+msgstr "शिपिंग"
+
+#: src/Payments/Poynt/Http/Adapters/SessionWalletRequestAdapter.php:264
+msgid "Wallet payments cannot be used for carts with multiple shipments."
+msgstr "कई शिपमेंट वाले कार्ट्स के लिए वालेट भुगतान का इस्तेमाल नहीं किया जा सकता है।"
+
+#. translators: %1$s: payment gateway name
+#: src/Payments/Poynt/OrderSynchronization.php:336
+msgid "Transaction refunded by %1$s from WooCommerce."
+msgstr "ट्रांजैक्‍शन को %1$s द्वारा WooCommerce से मैनुअली रीफ़ण्‍ड किया गया।"
+
+#: src/Payments/Poynt/OrderSynchronization.php:338
+msgid "Transaction manually refunded from WooCommerce."
+msgstr "ट्रांजैक्‍शन को WooCommerce से मैनुअली रीफ़ण्‍ड किया गया।"
+
+#: src/Payments/Poynt/ViewOrderPage.php:51
+msgid "Order is ready for pickup."
+msgstr "ऑर्डर पिकअप के लिए तैयार है।"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:33
+msgid "Item shipped emails are sent to customers when tracking information is added for one or more items in their orders."
+msgstr "जब ग्राहकों के ऑर्डर्स में एक या अधिक आइटम्स में ट्रैकिंग जानकारी जोड़ी जाती है तो शिप किए गए आइटम के ईमेल उन्हें भेजे जाते हैं।"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:56
+msgid "An item from {site_title} order #{order_number} has shipped!"
+msgstr "{site_title} ऑर्डर #{order_number} का एक आइटम शिप कर दिया गया है!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:64
+msgid "Your package is on the way!"
+msgstr "आपका पैकेज रास्ते में है!"
+
+#: src/WooCommerce/Emails/ItemShippedEmail.php:72
+msgid "Please note that it may take some time for the carrier to update shipment tracking information."
+msgstr "कृपया ध्‍यान दें कि शिपमेंट ट्रैकिंग जानकारी अपडेट करने में कैरियर को थोड़ा समय लग सकता है।"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:46
+msgid "Ready for pickup"
+msgstr "पिकअप के लिए तैयार"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:47
+msgid "Ready for pickup emails are sent to customers when their order is marked as ready for pickup."
+msgstr "पिकअप के लिए तैयार ईमेल ग्राहक को तब भेजे जाते हैं जब उनके ऑर्डर पिकअप के लिए तैयार मार्कअप किए जाते हैं।"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:60
+msgid "Your {site_title} order is ready for pickup!"
+msgstr "आपका {site_title} ऑर्डर पिकअप के लिए तैयार है!"
+
+#: src/WooCommerce/Emails/ReadyForPickupEmail.php:70
+msgid "Order ready for pickup!"
+msgstr "ऑर्डर पिकअप के लिए तैयार!"
+
+#: src/WooCommerce/ExtensionsTab.php:174
+msgid "GoDaddy Included"
+msgstr "GoDaddy शामिल"
+
+#: src/WooCommerce/Pages/EditOrder/Metaboxes/ShipmentTrackingMetabox.php:35
+msgid "Shipment Tracking"
+msgstr "शिपमेंट ट्रैकिंग"
+
+#. translators: Placeholder: %s - payment gateway method title
+#: src/WooCommerce/Payments/AbstractPaymentGateway.php:635
+msgid "%s Virtual Terminal"
+msgstr "%s वर्चुअल टर्मिनल"
+
+#: src/WooCommerce/Payments/Captures.php:93
+msgid "No gateway found for order"
+msgstr "ऑर्डर के लिए कोई गेटवे नहीं मिला"
+
+#: src/WooCommerce/Payments/Captures.php:195
+#: src/WooCommerce/Payments/Captures.php:317
+msgid "Capture Charge"
+msgstr "चार्ज कैप्‍चर करें"
+
+#: src/WooCommerce/Payments/Captures.php:309
+msgid "This charge has been fully captured"
+msgstr "यह चार्ज पूरी तरह से कैप्‍चर कर लिया गया है"
+
+#: src/WooCommerce/Payments/Captures.php:327
+msgid "Are you sure you wish to process this capture? The action cannot be undone."
+msgstr "क्‍या आप वाकई इस कैप्‍चर को प्रोसेस करना चाहते हैं? ऐसा करने के बाद आप पहले जैसी स्थिति में वापस नहीं जा पाएँगे।"
+
+#: src/WooCommerce/Payments/Captures.php:328
+msgid "Something went wrong, and the capture could not be completed. Please try again."
+msgstr "कुछ गड़बड़ी हो गई है, और कैप्‍चर पूरा नहीं हो सका। कृपया फिर से कोशिश करें।"
+
+#. translators: Placeholders: %1s - the provider label, %2s - the payment method brand label, %3$s - the last four digits of the customer's credit card
+#: src/WooCommerce/Payments/Events/Subscribers/TransactionAvsOrderNotesSubscriber.php:32
+msgid "%1s transaction declined due to billing address mismatch for %2s ending in %3$s."
+msgstr "बिल‍िंंग पता मिसमैच के कारण %3$s से समाप्‍त होने वाले %2s के लिए %1s ट्रांजैक्‍शन नामंजूर हो गए।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:112
+msgid "Status"
+msgstr "स्थिति"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:235
+msgid "Remove"
+msgstr "निकालें"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:237
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:389
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:397
+msgid "Manage"
+msgstr "प्रबंधित करें"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:252
+msgid "Your Stripe account needs to be set up."
+msgstr "आपका Stripe खाता सेट अप होना ज़रूरी है।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:255
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:284
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:297
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1335
+msgid "Connected"
+msgstr "‌कनेक्ट किया गया"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:256
+msgid "Connected to your Stripe account."
+msgstr "आपके Stripe खाते कनेक्‍ट हैं।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:259
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:311
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1341
+msgid "Disconnected"
+msgstr "डिसकनेक्ट हो गया"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:260
+msgid "Please reconnect your Stripe account."
+msgstr "कृपया अपने Stripe खाते से फ‍िर से कनेक्‍ट करें।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:263
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:325
+msgid "Pending"
+msgstr "लंबित"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:285
+msgid "Connected to your terminal to Sell in Person."
+msgstr "इन पर्सन बेचने के लिए अपने टर्मिनल से कनेक्‍टेड है।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:289
+msgid "Recommended"
+msgstr "सुझाया गया"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:292
+msgid "Click set up to get started."
+msgstr "शुरू करने के लिए सेट अप पर क्लिक करें।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:299
+msgid "Connect your terminal to Sell in Person."
+msgstr "इन पर्सन बेचने के लिए अपने टर्मिनल से कनेक्‍ट करें।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:300
+msgid "Connected to your GoDaddy Payments account."
+msgstr "GoDaddy Payments खाते से कनेक्‍ट है।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:303
+msgid "Connecting"
+msgstr "कनेक्ट हो रहा है"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:304
+msgid "This can take a few minutes. Please refresh to check."
+msgstr "इसमें कुछ मिनटों का समय लग सकता है। कृपया चेक करने के लिए रीफ़्रेश करें।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:307
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:329
+msgid "Not available"
+msgstr "उपलब्ध नहीं"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:308
+msgid "Thank you for applying, but we are unable to provide payment processing for your business."
+msgstr "अप्लाई करने के लिए धन्‍यवाद, लेकिन हम आपके बिज़नेस के लिए भुगतान प्रोसेसिंग नहीं प्रदान कर सके।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:312
+msgid "Your account has been closed."
+msgstr "आपका खाता बंद हो गया है।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:315
+msgid "Incomplete"
+msgstr "पूरा नहीं हुआ है"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:316
+msgid "Click Resume to complete your application."
+msgstr "अपना एप्लिकेशन पूरा करने के लिए जारी रखें पर क्लिक करें।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:321
+msgid "Needs attention"
+msgstr "ध्यान देने की ज़रूरत है"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:322
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:326
+msgid "Please check your email for next steps."
+msgstr "कृपया अगले स्‍टेप्‍स के लिए अपना ईमेल चेक करें।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:388
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:396
+msgid "Manage the \"%s\" payment method"
+msgstr "\"%s\" भुगतान विधि प्रबंध‍ित करें"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:392
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:399
+msgid "Set up the \"%s\" payment method"
+msgstr "\"%s\" भुगतान विधि सेटअप करें"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:448
+msgid "Have a question? %1$sAsk the GoDaddy Team%3$s%2$s"
+msgstr "कोई प्रश्न है? %1$sGoDaddy टीम से पूछें%3$s%2$s"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:451
+msgid "E-mail icon"
+msgstr "ई-मेल आइकॉन"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:476
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:489
+msgid "Set up GoDaddy Payments"
+msgstr "GoDaddy Payments सेटअप करें"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:483
+msgid "You're about to open GoDaddy Payments account signup. In just a few minutes, you'll return here to enable secure payments in your checkout."
+msgstr "आप GoDaddy भुगतान खाता साइनअप खोलने ही वाले हैं। कुछ ही मिनटों में आप अपने चेकआउट में सिक्योर भुगतान सक्षम करने के लिए यहाँ लौटेंगे।"
+
+#: src/WooCommerce/Payments/Frontend/Admin/PaymentMethodsListTable.php:488
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:212
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1211
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#. translators: Divider between the Wallet buttons and "Add to Cart"
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout.php:123
+msgid "or"
+msgstr "या"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:91
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:64
+msgid "Missing card details."
+msgstr "कार्ड डिटेल्‍स मिस‍िंंग हैं।"
+
+#: src/WooCommerce/Payments/Frontend/ExternalCheckout/WalletCheckoutIntegration.php:92
+#: src/WooCommerce/Payments/GoDaddyPayments/Frontend/PaymentForm.php:65
+msgid "Missing billing details."
+msgstr "बिलिंट डिटेल्‍स मिस‍िंंग हैं।"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:211
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:311
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:213
+msgid "Oops, there was an error updating your payment method. Please try again."
+msgstr "ओह, आपकी भुगतान विधि अपडेट करने में कुछ गड़बड़ी हुई। कृपया फिर से कोशिश करें।"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:214
+msgid "Are you sure you want to delete this payment method?"
+msgstr "क्या आप वास्तव में इस भुगतान विधि को हटाना चाहते हैं?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:315
+msgid "Save"
+msgstr "सहेजें"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:335
+msgid "Title"
+msgstr "शीर्षक"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:336
+msgid "Details"
+msgstr "विवरण"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:338
+msgid "Default?"
+msgstr "डिफ़ॉल्ट?"
+
+#: src/WooCommerce/Payments/Frontend/MyPaymentMethods.php:527
+msgid "Invalid token ID"
+msgstr "अमान्य टोकन आईडी"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:192
+msgid "Manage Payment Methods"
+msgstr "भुगतान विधियाँ प्रबंध‍ित करें"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:215
+msgid "Use a new payment method"
+msgstr "किसी नयी भुगतान विध‍ि का इस्तेमाल करें"
+
+#: src/WooCommerce/Payments/Frontend/PaymentForm.php:278
+msgid "Securely Save to Account"
+msgstr "खाते में सुरक्ष‍ित रूप से सहेजें"
+
+#: src/WooCommerce/Payments/Frontend/Views/MyPaymentMethods/PaymentMethodView.php:43
+msgid "Nickname"
+msgstr "निकनेम"
+
+#. translators: Placeholders: %s - expiration date
+#: src/WooCommerce/Payments/Frontend/Views/PaymentForm/CardPaymentMethodView.php:28
+msgid "expires %s"
+msgstr "समय-सीमा समाप्त हो जाता है %s"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:88
+msgid "Let your customers buy online and pay in person with orders synced to your GoDaddy Smart Terminal. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "आपके GoDaddy स्‍मार्ट टर्मिनल से सिंक किये गये ऑर्डर से अपने ग्राहकों को ऑनलाइन और इन पर्सन खरीदने दें। ड‍िपॉज़‍िट्स की मदद से अगले काम के द‍िन ही भुगतान पाएँ। %1$sGoDaddy Payments की शर्तें लागू होंगी%2$s।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:94
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:910
+msgid "Pay in Person"
+msgstr "इन पर्सन पे करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:95
+msgid "Customers can buy online and pay in person with orders synced to your Terminals."
+msgstr "आपके टर्मिनल से सिंक किये गये ऑर्डर से ग्राहक ऑनलाइन और इन पर्सन खरीद सकते हैं।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:228
+msgid "Payment to be made upon delivery."
+msgstr "ड‍िलीवरी पर भुगतान मिलना है।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:297
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:285
+#: src/WooCommerce/Payments/StripeGateway.php:283
+msgid "Return to payments"
+msgstr "भुगतान पर वापस जाएँ"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:310
+msgid "%1$sShop Smart Terminal%2$s"
+msgstr "%1$sशॉप स्‍मार्ट टर्मिनल%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:319
+msgid "%1$sDevices%2$s"
+msgstr "%1$sडिवाइसेज़%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:325
+msgid "%1$sCatalogs%2$s"
+msgstr "%1$sकैटेलॉग्स%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:331
+msgid "%1$sCustomize Terminal%2$s"
+msgstr "%1$sकस्‍टमाइज़ टर्मिनल%2$s"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:349
+msgid "Smart Terminal"
+msgstr "स्मार्ट टर्मिनल"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:350
+msgid "Dual screens for smoother selling."
+msgstr "स्‍मूथर बेचने के लिए दोहरी स्‍क्रीन।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:351
+msgid "Our dual screens make checkout a breeze. Plus, our all-in-one terminal includes a built-in payment processor, scanner, printer, security and more."
+msgstr "हमारी दोहरी स्क्रीन चेकआउट को आसान बनाती है। इसके अलावा, ऑल-इन-वन टर्मिनल में बिल्ट-इन पेमेंट प्रोसेसर, स्‍कैनर, प्रिंटर, सिक्‍योरिटी आदि शामिल हैं।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:359
+msgid "Free"
+msgstr "फ़्री"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:360
+msgid "2-day shipping."
+msgstr "2-दिन की शिपिंग।।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:363
+msgid "Learn More"
+msgstr "अधिक जानें"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:374
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:816
+msgid "Enable Selling in Person"
+msgstr "इन पर्सन बेचना सक्षम करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:823
+msgid "Checkout title"
+msgstr "चेकआउट टाइटल"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:825
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:522
+msgid "Payment method title that the customer will see during checkout."
+msgstr "भुगतान विधि टाइटल जिसे ग्राहक चेकआउट के दौरान देखेंगे।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:829
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:179
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:181
+#: src/WooCommerce/Shipping/LocalPickup.php:118
+msgid "Checkout description"
+msgstr "चेकआउट विवरण"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:831
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:528
+msgid "Payment method description that the customer will see during checkout."
+msgstr "भुगतान विधि विवरण जिसे ग्राहक चेकआउट के दौरान देखेंगे।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:836
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:187
+msgid "Order received instructions"
+msgstr "ऑर्डर प्राप्‍त दिशानिर्देश"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:839
+msgid "Message that the customer will see on the order received page and in the processing order email after checkout."
+msgstr "ग्राहक जो संदेश चेकआउट के बाद ऑर्डर प्राप्‍त पेज औश्र प्रोसेसिंग ऑर्डर ईमेल पर देखेंगे।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:843
+msgid "Enable for Shipping Methods"
+msgstr "अन्‍य शिपिंग विधियाँ सक्षम"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:849
+msgid "Select the shipping methods that will show this payment method for the customer during checkout."
+msgstr "ऐसी शिपिंग व‍िध‍ियाँ चुनें जो चेकआउट के दौरान ग्राहक के पेमेंट विधि दिखाएँगी।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:851
+msgid "Select Shipping Methods"
+msgstr "शिपिंग विधियाँ चुनें"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:871
+msgid "At least one shipping method is required to enable Selling in Person."
+msgstr "सेलिंग इन पर्सन सक्षम करने के लिए आवश्‍यक कम से कम एक शिपिंग विधि।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:886
+msgid "Pay for your order in-person at pickup or delivery."
+msgstr "पिकअप या डिलीवरी पर अपना ऑर्डर इन-पर्सन भुगतान करें।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:898
+msgid "We accept major credit/debit cards and cash."
+msgstr "हम मुख्‍य क्रेड‍िट/डेबिट कार्ड स्‍वीकार करते हैं।"
+
+#. Translators: %1$s shipping method title, %2$s shipping method id.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:941
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (#%2$s)"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#. Translators: %1$s zone name, %2$s shipping method instance name.
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:944
+msgid "Other locations"
+msgstr "अन्‍य लोकेशन"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1020
+msgid "Local Pickup Plus method"
+msgstr "लोकल पिकअप प्‍लस विधि"
+
+#. translators: Placeholders: %1$s - Shipping Method name (for example FedEx, UPS or Local Pickup, etc.)
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1022
+msgid "Any \"%1$s\" method"
+msgstr "कोई \"%1$s\" विधि"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1203
+msgid "Are you sure you want to move this product to trash?"
+msgstr "क्या आप वाकई इस प्रोडक्‍ट को ट्रैश में डालना चाहेंगे?"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1206
+msgid "Are you sure you want to move this product to trash? Removing a synced product will also delete it from the In-Person catalog."
+msgstr "क्या आप वाकई इस प्रोडक्‍ट को ट्रैश में डालना चाहेंगे? किसी सिंक्ड प्रोडक्‍ट को हटाने से उसे इन-पर्सन कैटेलॉग से भी हटा दिया जाएगा।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1212
+msgid "Move to Trash"
+msgstr "ट्रैश में डालें"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1243
+msgid "This product is synced from the In-Person Catalog"
+msgstr "यह प्रोडक्‍ट इन-पर्सन कैटेलॉग से सिंक होता है"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1247
+msgid "This product is synced to the In-Person Catalog"
+msgstr "यह प्रोडक्‍ट इन-पर्सन कैटेलॉग में सिंक होता है"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1346
+msgid "One or more products in your catalog failed to sync. Please enable debug logging or reach out to %1$sour Care team%2$s for help."
+msgstr "आपके कैटेलॉग में एक या एक से अधिक प्रोडक्‍ट सिंक नहीं हो सके। मदद के लिए %1$sहमारी केयर टीम%2$s तक पहुँचने के लिए कृपया डिबग लॉगिंग सक्षम करें।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1407
+msgid "%1$s has been removed. Products will no longer be synced to this catalog. To remove any products already synced you must delete them manually."
+msgstr "%1$s को हटा दिया गया है। प्रोडक्‍ट इस कैटेलॉग से सिंक नहीं होंगे। आपके साथ सिंक किये गये किसी प्रोडक्‍ट को हटाने के लिए आपको उन्‍हें मैनुअली डिलीट करना होगा।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1433
+msgid "In-Person product sync to WooCommerce has been disabled. Products will no longer sync to WooCommerce. To remove any products already synced you must delete them manually."
+msgstr "WooCommerce पर इन-पर्सन प्रोडक्‍ट सिंक को अक्षम कर दिया गया है। प्रोडक्‍ट को अब WooCommerce पर सिंक नहीं किया जा सकेगा। आपके साथ सिंक किये गये किसी प्रोडक्‍ट को हटाने के लिए आपको उन्‍हें मैनुअली डिलीट करना होगा।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1447
+msgid "%1$s has been removed from Selling In-Person. This catalog will no longer sync to WooCommerce"
+msgstr "%1$s को इन-पर्सन सेलिंग से हटा दिया गया है। यह कैटेलॉग अब WooCommerce पर सिंक नहीं किया जा सकेगा।"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1514
+msgid "In-Person Catalog Sync"
+msgstr "इन-पर्सन कैटेलॉग सिंक"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1518
+msgid "Sync your WooCommerce products with In-Person catalog(s). %1$sLearn more%2$s"
+msgstr "अपने WooCommerce प्रोडक्‍ट्स को इन-पर्सन कैटेलॉग पर सिंक करें। %1$sअधिक जानें%2$s"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1527
+msgid "Sync WooCommerce products to In-Person"
+msgstr "WooCommerce प्रोडक्‍ट को इन-पर्सन सिंक करें"
+
+#. translators: We are prompting the user to sync their products with in-person product catalog(s) - refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1533
+msgid "Basic WooCommerce product data is pushed to the selected In-Person catalog(s) for simple products."
+msgstr "बेसिक WooCommerce प्रोडक्‍ट डेटा सामान्य प्रोडक्‍ट के लिए चुने हुए इन-पर्सन कैटेलॉग पर पुश होता है।"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1544
+msgid "To sync to In-Person you must have at least one catalog selected."
+msgstr "इन-पर्सन पर सिंक करने के लिए आपके पास कम से एक कैटेलॉग चयनित होना चाहिए।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1552
+msgid "Sync In-Person products to WooCommerce"
+msgstr "इन-पर्सन प्रोडक्‍ट को WooCommerce से सिंक करें"
+
+#. translators: In-person catalog(s) refers to products sold in-person, e.g. via POS terminal
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1558
+msgid "Product data is fetched from the selected In-Person catalog(s). Sync excludes products with custom prices or \"any combination\" modifiers."
+msgstr "चुने गए इन-पर्सन कैटेलॉग से फ़ेच किया गया प्रोडक्‍ट डेटा। सिंक में कस्‍टम कीमतों वाले प्रोडक्‍ट या ''कोई कॉम्बिनेशन'' मॉड‍िफ़ायर शामिल नहीं हैं।"
+
+#: src/WooCommerce/Payments/GoDaddyPayInPersonGateway.php:1568
+msgid "To sync to WooCommerce you must have at least one catalog selected."
+msgstr "WooCommerce पर सिंक करने के लिए आपके पास कम से एक कैटेलॉग चयनित होना चाहिए।"
+
+#. translators: Placeholder: %s - the gateway settings title, something like: "GoDaddy Payments - Apple Pay"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:205
+msgid "Cannot load the %s gateway to process payment."
+msgstr "%s गेटवे को भुगतान प्रोसेस के लिए लोड नहीं किया जा सकता।"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:229
+msgid "Cannot load the GoDaddy Payments gateway."
+msgstr "GoDaddy Payments गेटवे को लोड नहीं किया जा सका।"
+
+#. translators: Placeholder: %s - the gateway settings page title, normally: "GoDaddy Payments - Credit/Debit card"
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:240
+msgid "These settings are managed from the %s page"
+msgstr "ये सेटिंग्‍स %s पेज से प्रबंध‍ित नहीं की जा सकती हैं।"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:246
+msgctxt "General settings"
+msgid "General"
+msgstr "सामान्य"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/AbstractWalletGateway.php:282
+msgid "Disabled"
+msgstr "अक्षम किया गया"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:129
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:88
+msgid "The GoDaddy Payments service ID"
+msgstr "GoDaddy Payments सर्विस आईडी"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStartController.php:135
+msgid "The nonce for validating the redirect after onboarding"
+msgstr "ऑनबोर्डिंग के बाद रीडारेक्‍ट को सत्यापित करने के लिए नॉन्‍स"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/API/Controllers/Onboarding/OnboardingStatusController.php:71
+msgid "The GoDaddy Payments onboarding status"
+msgstr "GoDaddy Payments ऑनबोर्डिंग स्‍टेटस"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:46
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:47
+msgid "Securely accept card payments and make checkout easier for customers with Apple Pay® on supported devices."
+msgstr "सपोर्ट की गई डिवाइसेज़ पर Apple Pay® की मदद से कार्ड भुगतान स्वीकार करें और ग्राहकों के लिए चेकआउट आसान बनाएँ।"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:61
+msgid "Accept Apple Pay® on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "सपोर्ट की जाने वाली डिवाइसों पर Apple Pay® स्‍वीकार करें और ग्राहकों के लिए चेकआउट करना तेज़ बनाएँ। ड‍िपॉज़‍िट्स की मदद से अगले काम के द‍िन ही भुगतान पाएँ। %1$sGoDaddy Payments की शर्तें लागू होंगी%2$s।"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:85
+msgid "Apple Pay Settings"
+msgstr "Apple Pay की सेटिंग्स"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:88
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:100
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:513
+#: src/WooCommerce/Payments/StripeGateway.php:490
+msgid "Enable"
+msgstr "सक्षम करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:89
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:101
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:515
+#: src/WooCommerce/Payments/StripeGateway.php:492
+msgid "Enable to add the payment method to your checkout."
+msgstr "अपने चेकआउट में भुगतान विधि जोड़ना सक्षम करें।"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:91
+msgid "Apple Pay shows to %1$sSafari users on supported devices%2$s."
+msgstr "Apple Pay %1$sसपोर्टेड डिवाइसेज़ पर Safari यूज़र्स%2$s दिखाता है।"
+
+#. translators: Text displayed next to a dropdown input field with a list of pages for the user to choose from
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:100
+msgid "Pages to enable Apple Pay on"
+msgstr "इस पर Apple Pay सक्षम करने वाले पेज"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:108
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:120
+msgid "Cart"
+msgstr "कार्ट"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:109
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:121
+msgid "Checkout"
+msgstr "चेकआउट"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:110
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:122
+msgid "Single Product"
+msgstr "सिंगल प्रोडक्‍ट"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:115
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:127
+msgid "Button label"
+msgstr "बटन लेबल"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:116
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:128
+msgid "Check button labels here"
+msgstr "बटन लेबल यहाँ चेक करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:121
+msgctxt "Apple Pay"
+msgid "Add Money with"
+msgstr "इसकी मदद से पैसा जोड़ें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:122
+msgctxt "Apple Pay"
+msgid "Book with"
+msgstr "इससे बुक करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:123
+msgctxt "Apple Pay"
+msgid "Buy with"
+msgstr "इससे खरीदें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:124
+msgctxt "Apple Pay"
+msgid "Check out with"
+msgstr "इसकी मदद से चेकआउट करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:127
+msgctxt "Apple Pay"
+msgid "Contribute with"
+msgstr "इससे योगदान करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:128
+msgctxt "Apple Pay"
+msgid "Donate with"
+msgstr "इससे डोनेट करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:129
+msgctxt "Apple Pay"
+msgid "Order with"
+msgstr "इससे ऑर्डर करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:132
+msgctxt "Apple Pay"
+msgid "Plain (logo only)"
+msgstr "प्‍लेन (केवल लोगो)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:133
+msgctxt "Apple Pay"
+msgid "Reload with"
+msgstr "इसकी मदद से फिर से लोड करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:134
+msgctxt "Apple Pay"
+msgid "Rent with"
+msgstr "इससे रेंट करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:135
+msgctxt "Apple Pay"
+msgid "Set up"
+msgstr "सेट करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:136
+msgctxt "Apple Pay"
+msgid "Support with"
+msgstr "इससे सपोर्ट करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:137
+msgctxt "Apple Pay"
+msgid "Tip with"
+msgstr "इससे टिप करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:138
+msgctxt "Apple Pay"
+msgid "Top Up with"
+msgstr "इसकी मदद से टॉप अप करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:143
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:144
+msgid "Button style"
+msgstr "बटन की स्‍टाइल"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:144
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:145
+msgid "Check button style here"
+msgstr "यहाँ बटन स्‍टाइल चेक करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:149
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:151
+msgid "Black"
+msgstr "काला"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:150
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:152
+msgid "White"
+msgstr "सफ़ेद"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:151
+msgid "White with outline"
+msgstr "आउटलाइन के साथ सफ़ेद"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:157
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:158
+msgid "Button height"
+msgstr "बटन की ऊंचाई"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+msgid "Apple requests the button size match your cart/checkout button and be 30 to 64 pixels tall. The width is set automatically."
+msgstr "Apple आपके कार्ट/चेकआउट बटन से मैच करने वाले बटन साइज़ को रिक्वेस्‍ट करता है और वह 30 से 64 पिक्‍सेल लंबा होना चाहिए। चौड़ाई अपने आप सेट होती है।"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/ApplePayGateway.php:158
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Check button size here"
+msgstr "बटन साइज़ यहाँ चेक करें"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:46
+msgid "Accept Google Pay™ on supported devices and make checkout faster for customers. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "सपोर्ट की जाने वाली डिवाइसों पर Google Pay™ स्‍वीकार करें और ग्राहकों के लिए चेकआउट करना तेज़ बनाएँ। ड‍िपॉज़‍िट्स की मदद से अगले काम के द‍िन ही भुगतान पाएँ। %1$sGoDaddy Payments की शर्तें लागू होंगी%2$s।"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:97
+msgid "Google Pay Settings"
+msgstr "Google Pay की सेटिंग्स"
+
+#. translators: Placeholders: %1$s - open <a> HTML link tag, %2$s - close </a> HTML link tag
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:104
+msgid "Google Pay shows on %1$ssupported browsers%2$s."
+msgstr "Google Pay %1$sसमर्थि‍त ब्राउज़र्स%2$s पर दिखा रहा है।"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:112
+msgid "Pages to enable Google Pay on"
+msgstr "इस पर Google Pay सक्षम करने वाले पेज"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:133
+msgctxt "Google Pay"
+msgid "Book with"
+msgstr "इससे बुक करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:134
+msgctxt "Google Pay"
+msgid "Buy with"
+msgstr "इससे खरीदें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:135
+msgctxt "Google Pay"
+msgid "Check out with"
+msgstr "इसकी मदद से चेकआउट करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:136
+msgctxt "Google Pay"
+msgid "Donate with"
+msgstr "इससे डोनेट करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:137
+msgctxt "Google Pay"
+msgid "Order with"
+msgstr "इससे ऑर्डर करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:138
+msgctxt "Google Pay"
+msgid "Pay with"
+msgstr "इससे भुगतान करें"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:139
+msgctxt "Google Pay"
+msgid "Plain (logo only)"
+msgstr "प्‍लेन (केवल लोगो)"
+
+#: src/WooCommerce/Payments/GoDaddyPayments/GooglePayGateway.php:159
+msgid "Google requests the button size match your cart/checkout button and be 40 to 100 pixels tall."
+msgstr "Google आपके कार्ट/चेकआउट बटन से मैच करने वाले बटन साइज़ को रिक्वेस्‍ट करता है और वह 40 से 100 पिक्‍सेल लंबा होना चाहिए।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:92
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:667
+msgid "Credit/Debit Card"
+msgstr "क्रेडिट / डेबिट कार्ड"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:93
+msgid "Securely accept credit/debit cards in your checkout."
+msgstr "अपने चेकआउट में क्रेड‍िट/डेबिट कार्ड्स सुरक्ष‍ित रूप से स्वीकार करें।"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:133
+msgid "Accept all major credit/debit cards in your checkout quickly and securely. Get paid fast with deposits as soon as the next business day. %1$sGoDaddy Payments Terms apply%2$s."
+msgstr "अपने चेकआउट में जल्‍दी से और सुरक्ष‍ित रूप से सभी मुख्‍य क्रेड‍िट/डेबिट कार्ड को स्‍वीकार करें। ड‍िपॉज़‍िट्स की मदद से अगले काम के द‍िन ही भुगतान पाएँ। %1$sGoDaddy Payments की शर्तें लागू होंगी%2$s।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:224
+msgid "Business Name:"
+msgstr "बिज़नेस का नाम:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:229
+msgid "Email:"
+msgstr "ईमेल:"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:235
+msgid "Switch account"
+msgstr "खाता बदलें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:254
+msgid "Account Details"
+msgstr "खाता विवरण"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your account settings in the %1$spayments dashboard%2$s"
+msgstr "%1$sPayments डैशबोर्ड%2$s में अपने GoDaddy Payments खाते को प्रबंधित करें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:280
+msgid "Manage your GoDaddy Payments account settings in the %1$sPayments Hub%2$s"
+msgstr "%1$sPayments Hub%2$s में अपने GoDaddy Payments खाते को प्रबंधित करें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:302
+#: src/WooCommerce/Payments/StripeGateway.php:532
+msgid "Checkout Settings"
+msgstr "चेकआउट सेटिंग्स"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:520
+msgid "Title in Checkout"
+msgstr "चेकआउट में टाइटल"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:526
+msgid "Description in Checkout"
+msgstr "चेकआउट में विवरण"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:533
+#: src/WooCommerce/Payments/StripeGateway.php:559
+msgid "Transaction Type"
+msgstr "लेनदेन प्रकार"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:535
+#: src/WooCommerce/Payments/StripeGateway.php:561
+msgid "Select how transactions should be processed. Charge submits all transactions for settlement, Authorization simply authorizes the order total for capture later."
+msgstr "यह चुनें कि ट्रांजैक्‍शन प्रोसेस कैसे होगा। चार्ज सभी ट्रांजैक्‍शन्स के लिए सबमिट करता है, प्रमाणीकरण बाद में कैप्‍चर के लिए केवल ऑर्डर टोटल को प्रमाणीकृत करता है।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:538
+#: src/WooCommerce/Payments/StripeGateway.php:564
+msgctxt "noun, credit card transaction type"
+msgid "Charge"
+msgstr "चार्ज करें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:539
+#: src/WooCommerce/Payments/StripeGateway.php:565
+msgctxt "credit card transaction type"
+msgid "Authorization"
+msgstr "प्रमाणीकरण"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:543
+msgid "Charge Virtual-Only Orders"
+msgstr "वर्चुअल-ओनली ऑर्डर्स चार्ज करें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:545
+msgid "If the order contains exclusively virtual items, enable this to immediately charge, rather than authorize, the transaction."
+msgstr "अगर ऑर्डर में केवल वर्चुअल आइटम्‍स हैं, तो ट्रांजैक्‍शन को प्रमाणीकरण की बजाय तुरंत चार्ज करने के लिए इसे सक्षम करें।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:549
+msgid "Capture Paid Orders"
+msgstr "पेड ऑर्डर्स कैप्‍चर करें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:553
+msgid "Automatically capture orders when they are changed to %s."
+msgstr "जब ऑर्डर बदलकर %s हो जाते हैं तो अपने आप ऑर्डर कैप्‍चर होते हैं।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:554
+msgid "a paid status"
+msgstr "भुगतान स्‍टेटस"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:558
+#: src/WooCommerce/Payments/StripeGateway.php:537
+msgid "Accepted Card Logos"
+msgstr "स्वीकार्य कार्ड लोगो"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:560
+#: src/WooCommerce/Payments/StripeGateway.php:539
+msgid "These are the card logos that are displayed to customers as accepted during checkout."
+msgstr "ये वे कार्ड लोगो हैं जो चेकआउट के दौरान स्वीकार्य के रूप में ग्राहकों को डिस्प्ले होते हैं।।"
+
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:563
+msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
+msgstr "यह सेटिंग इसको %1$sनहीं%2$s बदलती कि गेटवे कौन-से कार्ड टाइप को स्वीकार करेगा।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:574
+#: src/WooCommerce/Payments/StripeGateway.php:547
+msgid "Saved Cards"
+msgstr "सहेजे गए कार्ड"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:576
+#: src/WooCommerce/Payments/StripeGateway.php:549
+msgid "Enable customers to securely save their payment cards to their account for future checkout."
+msgstr "भविष्‍य के खाते के लिए ग्राहकों को स‍िक्योर रूप से अपने भुगतान कार्ड को सहेजने के लिए सक्षम करें।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:580
+#: src/WooCommerce/Payments/StripeGateway.php:553
+msgid "Detailed Decline Messages"
+msgstr "विस्तृत नामंजूर संदेश"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:582
+#: src/WooCommerce/Payments/StripeGateway.php:555
+msgid "Enable detailed decline messages for customers during checkout rather than a generic decline message."
+msgstr "चेकआउट के दौरान जनरिक नामंजूर संदेश की बजाय विस्तृत नामंजूर संदेश भेजें।"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:586
+#: src/WooCommerce/Payments/StripeGateway.php:569
+msgid "Debug Mode"
+msgstr "डीबग मोड"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:588
+#: src/WooCommerce/Payments/StripeGateway.php:571
+msgid "Show Detailed Error Messages and API requests/responses on the checkout page and/or save them to the debug log"
+msgstr "चेकआउट पेज पर विस्तृत त्रुटि संदेशों और API अनुरोधों/प्रतिक्रियाओं को दिखाएँ और/या उन्‍हें डिबग लॉग पर साझा करें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:591
+#: src/WooCommerce/Payments/StripeGateway.php:574
+msgid "Off"
+msgstr "ऑफ़"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:592
+#: src/WooCommerce/Payments/StripeGateway.php:575
+msgid "Show on Checkout Page"
+msgstr "चेकआउट पेज पर दिखाएँ"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:593
+#: src/WooCommerce/Payments/StripeGateway.php:576
+msgid "Save to Log"
+msgstr "लॉग में सहेजें"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:594
+#: src/WooCommerce/Payments/StripeGateway.php:577
+msgid "Both"
+msgstr "दोनों"
+
+#: src/WooCommerce/Payments/GoDaddyPaymentsGateway.php:653
+msgid "Pay securely with your credit/debit card."
+msgstr "अपने क्रेडिट/डेबिट कार्ड से सिक्योर तरीके से भुगतान करें।"
+
+#: src/WooCommerce/Payments/Integrations/PreOrderIntegration.php:191
+msgid "Pre-Order release payment failed: %s"
+msgstr "प्री-ऑर्डर रिलीज़ भुगतान विफल रहा: %s"
+
+#: src/WooCommerce/Payments/Stripe/Frontend/PaymentForm.php:146
+msgid "Currently unavailable"
+msgstr "इस समय उपलब्‍ध नहीं है"
+
+#. translators: Placeholders: %1$s & %3$s - <a> tag, %2$s & %4$s - </a> tag
+#: src/WooCommerce/Payments/StripeGateway.php:77
+msgid "Securely accept online payments via credit/debit card, wallets, bank redirects, and other methods enabled in your Stripe account. %1$sView Stripe pricing%2$s for your business' location and payment methods. %3$sStripe terms apply%4$s."
+msgstr "क्रेडिट/डेबिट कार्ड , वालेट, बैंक रीडायरेक्‍ट और अन्‍य तरीकों से अपने Stripe खाते में सुरक्ष‍ित रूप से ऑनलाइन भुगतान स्‍वीकार करें। अपने बिज़नेस के लोकेशन और भुगतान विधियों के लिए %1$sStripe प्राइस‍िंंग देखें%2$s। %3$sStripe की शर्तें लागू हैं%4$s।"
+
+#: src/WooCommerce/Payments/StripeGateway.php:244
+msgid "You are about to disconnect your Stripe account. Your store will not be able to process transactions using Stripe until you connect an account again."
+msgstr "आप अपना Stripe खाता डि‍सकनेक्‍ट करने वाले हैं। जब तक क‍ि आप क‍िसी खाते से फिर से कनेक्‍ट नहीं करते तब तक आपका स्‍टोर Stripe का इस्तेमाल करके ट्रांजैक्‍शन्स को प्रोसेस नहीं कर पाएगा।"
+
+#: src/WooCommerce/Payments/StripeGateway.php:486
+msgid "General"
+msgstr "सामान्य"
+
+#: src/WooCommerce/Payments/StripeGateway.php:505
+msgid "Disconnect Stripe Account"
+msgstr "Stripe खाता डिसकनेक्‍ट करें"
+
+#: src/WooCommerce/Payments/StripeGateway.php:514
+msgid "Connecting to Stripe..."
+msgstr "Stripe से कनेक्‍ट किया जा रहा है..."
+
+#: src/WooCommerce/Payments/StripeGateway.php:516
+msgid "This operation can take up to a few seconds. Please reload this page to check the current status."
+msgstr "इस ऑपरेशन में कुछ सेकंड लग सकते हैं। कृपया मौजूदा स्‍टेटस चेक करने के लिए इस पेज को रीलोड करें।"
+
+#: src/WooCommerce/Payments/StripeGateway.php:526
+msgid "Connect Stripe Account"
+msgstr "Stripe खाता कनेक्‍ट करें"
+
+#: src/WooCommerce/Payments/StripeGateway.php:590
+msgid "Affirm"
+msgstr "Affirm"
+
+#: src/WooCommerce/Payments/StripeGateway.php:591
+msgid "Afterpay / Clearpay"
+msgstr "Afterpay / Clearpay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:592
+msgid "Alipay"
+msgstr "AliPay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:593
+msgid "BECS direct debit"
+msgstr "BECS डायरेक्‍ट डेबिट"
+
+#: src/WooCommerce/Payments/StripeGateway.php:594
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: src/WooCommerce/Payments/StripeGateway.php:595
+msgid "Boleto"
+msgstr "Boleto"
+
+#: src/WooCommerce/Payments/StripeGateway.php:596
+msgid "Credit / Debit"
+msgstr "क्रेडिट / डेबिट"
+
+#: src/WooCommerce/Payments/StripeGateway.php:597
+msgid "EPS"
+msgstr "EPS"
+
+#: src/WooCommerce/Payments/StripeGateway.php:598
+msgid "FPX"
+msgstr "FPX"
+
+#: src/WooCommerce/Payments/StripeGateway.php:599
+msgid "Giropay"
+msgstr "Giropay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:600
+msgid "GrabPay"
+msgstr "GrabPay"
+
+#: src/WooCommerce/Payments/StripeGateway.php:601
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: src/WooCommerce/Payments/StripeGateway.php:602
+msgid "Klarna"
+msgstr "Klarna"
+
+#: src/WooCommerce/Payments/StripeGateway.php:603
+msgid "Konbini"
+msgstr "Konbini"
+
+#: src/WooCommerce/Payments/StripeGateway.php:604
+msgid "OXXO"
+msgstr "OXXO"
+
+#: src/WooCommerce/Payments/StripeGateway.php:605
+msgid "P24"
+msgstr "P24"
+
+#: src/WooCommerce/Payments/StripeGateway.php:606
+msgid "PayNow"
+msgstr "PayNow"
+
+#: src/WooCommerce/Payments/StripeGateway.php:607
+msgid "SEPA Debit"
+msgstr "SEPA Debit"
+
+#: src/WooCommerce/Payments/StripeGateway.php:608
+msgid "Sofort"
+msgstr "तुरंत"
+
+#: src/WooCommerce/Payments/StripeGateway.php:609
+msgid "ACH Direct Debit"
+msgstr "ACH डायरेक्‍ट डेबिट"
+
+#: src/WooCommerce/Payments/StripeGateway.php:610
+msgid "WeChat Pay"
+msgstr "WeChat Pay"
+
+#: src/WooCommerce/Shipping/CoreShippingMethods.php:161
+msgid "Order Instructions:"
+msgstr "ऑर्डर दिशा निर्देश:"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:69
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:141
+msgid "Local delivery"
+msgstr "स्थानीय डिलीवरी"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:70
+msgid "Allow customers to select local delivery service. Taxes will be applied using customer's shipping address."
+msgstr "ग्राहकों को लोकल डिलवरी सेवा चुनने के लिए ग्राहकों को अनुमति दें। ग्राहक के शिपिंग पते को इस्तेमाल करके टैक्स लगाए जाएँगे।"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr "लागत डालें (टैक्‍स के बिना) या सम, उदा. <code>10.00 * [qty]</code>।"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:134
+msgid "Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> for percentage based fees."
+msgstr "कई आइटम्स के लिए <code>[qty]</code> का इस्तेमाल करें, <br/> आइटम्स की कुल लागत के लिए <code>[cost]</code>, और <code>[fee percent=\"10\" min_fee=\"20\" max_fee=\"\"]</code> पर्सेंट बेस्‍ड फ़ीस के लिए।"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:138
+msgid "Checkout Title"
+msgstr "चेकआउट टाइटल"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:140
+msgid "This controls the title which the user sees during checkout."
+msgstr "यह उस टाइटल को न‍ियंत्रित करता है जिसे यूज़र चेकआउट के दौरान देखता है।"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:145
+msgid "Tax status"
+msgstr "टैक्‍स की स्थिति"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:150
+msgid "Taxable"
+msgstr "टैक्‍सेबल"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:151
+msgctxt "Tax status"
+msgid "None"
+msgstr "कोई नहीं"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:155
+msgid "Cost"
+msgstr "लागत"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:163
+msgid "Minimum order amount total when available"
+msgstr "उपलब्‍ध होने पर न्‍यूनतम ऑर्डर राशि कुल"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:166
+msgid "The amount a customer’s order must be greater than or equal to in order to select the shipping method."
+msgstr "शिप‍िंंग विध‍ि चुनने के लिए ग्राहक के ऑर्डर की राशि ज्‍़यादा या बराबर होनी चाहिए।"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:171
+msgid "Minimum order total when free"
+msgstr "फ़्री होने पर न्‍यूनतम ऑर्डर टोटल"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:174
+msgid "The amount a customer’s order must be greater than or equal to for the shipping method to be free."
+msgstr "शिप‍िंंग विध‍ि फ़्री होने के लिए ग्राहक के ऑर्डर की राशि ज्‍़यादा या बराबर होनी चाहिए।"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:182
+msgid "This description will be displayed underneath the Local Delivery shipping method name in the Cart and Checkout pages."
+msgstr "कार्ट और चेकआउट पेजों में यह विवरण लोकल डिलीवरी शिपिंग विधि नाम के नीचे ड‍िस्प्ले होगा।"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:189
+msgid "Delivery instructions"
+msgstr "डिलीवरी संबंधी दिशानिर्देश"
+
+#: src/WooCommerce/Shipping/LocalDelivery/LocalDelivery.php:190
+msgid "Message that the customer will see on the order received page and the processing order email after checkout."
+msgstr "ग्राहक जो संदेश चेकआउट के बाद ऑर्डर प्राप्‍त पेज और प्रोसेसिंग ऑर्डर ईमेल पर देखेगा।"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:120
+msgid "Shipping method description that the customer will see during checkout."
+msgstr "शिपिंग विधि विवरण जिसे ग्राहक चेकआउट के दौरान देखेंगे।"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:126
+msgid "Pickup instructions"
+msgstr "पिकअप के निर्देश"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:128
+msgid "Message that the customer will see on the order received page as well as in the processing order and ready for pickup emails."
+msgstr "ग्राहक जो संदेश चेकआउट के बाद ऑर्डर प्राप्‍त पेज और प्रोसेसिंग ऑर्डर तथा रेडी फ़ॉर पिकअप ईमेल पर देखेंगे।"
+
+#: src/WooCommerce/Shipping/LocalPickup.php:222
+#: src/WooCommerce/Shipping/LocalPickup.php:231
+#: src/WooCommerce/Shipping/LocalPickup.php:255
+msgid "Pickup Instructions"
+msgstr "पिकअप के निर्देश"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:105
+msgid "Carrier"
+msgstr "करियर"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:106
+msgid "Tracking number"
+msgstr "ट्रैकिंग नंबर"
+
+#: src/WooCommerce/Views/Components/AbstractShipmentsTable.php:110
+msgid "Items"
+msgstr "आइटम"
+
+#: src/WooCommerce/Views/Components/GoDaddyIcon.php:25
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#: src/WordPress/Interceptors/EnforcePostNamePermalinksInterceptor.php:111
+msgid "Warning! Plain Permalinks Detected"
+msgstr "चेतावनी! प्लेन पर्मांल‍िंक पाए गए"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:130
+msgid "You attempted to install a blocked plugin."
+msgstr "आपने एक ब्‍लॉक किये गये प्लगिन को इंस्टॉल करने का प्रयास किया।"
+
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:140
+msgid "One or more blocked plugins have been removed."
+msgstr "एक या अधिक ब्लॉक की गयी प्लग‍िन हटा दी गयी है।"
+
+#. translators: Placeholders: %1$s - Opening <a> tag, %2$s - Closing </a> tag
+#: src/WordPress/Plugins/Overrides/Interceptors/DisableBlockedPluginsInterceptor.php:152
+msgid "GoDaddy disallows a small list of plugins that can cause performance and other issues on your store. If you attempt to install them, we'll remove them for you. You can check out %1$sthe entire plugin blocklist here%2$s."
+msgstr "GoDaddy ऐसे प्लगिन्‍स की छोटी सूची को अनुमत‍ि देने से रोकता है जो आपके स्‍टोर पर परफ़ॉर्मेंस और अन्य समस्‍या पैदा कर सकते हैं। यदि आप उन्‍हें इंस्टॉल करने की कोशिश करेंगे, तो हम आपके लिए उन्हें हटा देंगे। आप %1$sयहाँ पर पूरी प्लगिन ब्‍लॉकलिस्‍ट%2$s चेकआउट कर सकते हैं।"
+
+#: templates/woocommerce/emails/order/order-shipments.php:23
+#: templates/woocommerce/emails/plain/order/order-shipments.php:24
+#: templates/woocommerce/order/order-shipments.php:25
+msgid "Shipments"
+msgstr "शिपमेंट्स"
+
+#. translators: Placeholders: %1$s - Shipping carrier, %2$s - Shipping provider label
+#. translators: Placeholders: %1$s - Tracking number column name, %2$s - Tracking number
+#: templates/woocommerce/emails/plain/order/order-shipments.php:29
+#: templates/woocommerce/emails/plain/order/order-shipments.php:31
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: Placeholder: %s - tracking URL
+#: templates/woocommerce/emails/plain/order/order-shipments.php:35
+msgid "Tracking URL: %s"
+msgstr "ट्रैकिंग URL: %s"
+
+#. translators: Placeholder: %s - items column
+#: templates/woocommerce/emails/plain/order/order-shipments.php:40
+msgid "%s: "
+msgstr "%s: "
+
+#. translators: Placeholders: %1$s - item name, %2$s - item quantity
+#: templates/woocommerce/emails/plain/order/order-shipments.php:44
+msgid "%1$s x %2$s"
+msgstr "%1$s x %2$s"
+
+#: templates/woocommerce/emails/plain/ready-for-pickup.php:32
+#: templates/woocommerce/emails/ready-for-pickup.php:38
+msgid "Your order is ready for pickup."
+msgstr "आपका ऑर्डर पिकअप के लिए तैयार है।"

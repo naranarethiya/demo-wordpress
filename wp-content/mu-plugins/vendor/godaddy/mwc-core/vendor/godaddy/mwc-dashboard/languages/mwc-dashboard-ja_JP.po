@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "指定されたスラッグ（%s）を持つ拡張機能が見つかりませんでした。"
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "%1$s / %2$sバージョンが見つかりませんでした。"
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "拡張機能 ID.。"
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "拡張機能スラッグ。"
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "拡張機能の名前。"
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "拡張機能の概略。"
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "拡張機能のタイプ。"
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "拡張機能のカテゴリー。"
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "拡張機能のブランド。"
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "インストールされている拡張機能のバージョンに関する情報。"
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "バージョン番号。"
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "必要な PHP バージョン。"
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "必要な WordPress バージョン。"
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "必要な WooCommerce バージョン。"
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "バージョンリリース時の秒単位のタイムスタンプ。."
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "パッケージのダウンロード元の URL。"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "インストールしたバージョンのステータス (最新バージョンかどうかを表示)"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "拡張機能のドキュメント用 URL."
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "拡張機能の有無を表示。"
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "拡張機能のステータス。"
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "拡張機能で利用可能なバージョンに関する情報。"
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "削除するメッセージの ID。"
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "%sに対する認証方法がありません"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "リモートメッセージデータを取得できませんでした: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "リモートメッセージデータを取得できませんでした - API からはステータス %d、%s エラーとレスポンスがありました"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "リモートメッセージデータは無効です"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "無効なメッセージ ID"
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "一意のメッセージ ID."
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "メッセージのタイプ。"
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "メッセージの件名。"
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "メッセージの本文。"
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "公開日。"
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "有効期限。"
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "メッセージと一緒に表示するボタンまたはリンク。"
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "アクションテキスト。"
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "アクション href。"
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "アクションのタイプ。"
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "メッセージを表示するかどうかを決定する、クライアントによる評価対象となるルール。"
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "ルールのラベル。"
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "ルールの名前。"
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "ルールのタイプ。"
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "ルールを評価する上で使用する関連実体。"
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "ルールを評価する上で使用する関連実体の要素。"
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "ルールを評価する上で使用する比較演算子。."
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "ルールを評価する上で使用する基準値。"
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "ルールを評価する上で取得および使用するデータ付きリンク。"
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "リンク href。"
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "リンクで表される関連実体。"
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "データを取得するためのリクエストタイプ。"
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "現在のユーザーのメッセージステータス。"
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "商品 ID。"
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "製品 ID。"
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "バリエーション ID。"
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "製品の名前です。"
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "商品の数量です。"
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "未発送の商品の数量です。"
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "製品の画像です。"
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "画像の高さ。"
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "画像の幅。"
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "画像ソールの url"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "画像ソースの url リスト"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "画像サイズ"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "注文 ID です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "商品が発送されたか未発送かを表示。"
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "ご注文の商品の発送品です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "配送 ID です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "配送の作成日です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "配送の最終更新日です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "配送の配送業者です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "配送の追跡番号です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "配送の追跡 URL です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "配送に含まれている商品です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "商品の ID です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "製品の ID です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "商品のバリエーション ID です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "商品の数量です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "ご注文時のメールアドレスです。"
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "ご注文番号で、注文IDとは異なります。"
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "ご注文の「支払いが済んでいる」かどうかを表示。"
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "決済プロバイダー名 (Woo 形式、ゲートウェイ ID)。"
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "すべての取引のステータス。"
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "取引の総額"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "取引の総額。指定された通貨コードの最小単位。"
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "通貨コードです。."
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "取引の請求先住所です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "行政区域の配列です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "請求先住所の事業名です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "請求先住所の国コードです。"
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "請求先住所のお客様の名前です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "請求先住所のお客様の苗字です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "請求先住所です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "請求先住所の地域名です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "請求先住所の電話番号です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "請求先住所の郵便番号です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "請求先住所の区域区分名です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "請求先住所の文字列表現です"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "商品の配送先住所です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "配送先住所の事業名です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "配送先住所の国コードです。"
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "配送先住所のお客様の名前です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "配送先住所のお客様の苗字です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "配送先住所です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "配送先住所の地域名です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "配送先住所の電話番号です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "配送先住所の郵便番号です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "配送先住所の区域区分名です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "配送先住所の文字列表現です"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "取引に関するマーケットプレイス情報"
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "対応するマーケットプレイスの注文番号"
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "マーケットプレイスチャンネルの一意の識別子です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "マーケットプレイスチャンネルの名前です。"
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "マーケットプレイスチャネルの表示タイプ名です。"
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "プラグインのスラッグです。"
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "プラグインの名前です。"
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "プラグインが、MWC 管理のプラグインかどうかを表示します"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "プラグインの WooCommerce.com サブスクリプションステータスです。"
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "プラグインのドキュメント URL です"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "配送業者のラベルです。"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "配送業者の名前です。"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "配送業者の荷物追跡用 URL 形式です。."
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "現在のチャンネルを設定するための初期設定のストア ID です"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "ビジネス ID です。"
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "サイト ID です。."
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "サイト URL です。"
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "初期設定のストア ID です。"
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "現在の管理者であるユーザーのメールです。"
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "サポート役のユーザーのメールです（サポート役がいる場合）。"
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "サイトが、サポートボットに接続されているかどうかを表示します。"
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "サイトが、WooCommerce.com に接続されているかどうかを表示します。"
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "ダッシュボードタイプ (MWC または空) です。"
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "サイトの販売者がリセラーかどうかです。"
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "リセラーのプライベートラベル ID です（1 はリセラーではなく GoDaddy を意味します）。"
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "サポートボットにサイトを接続するための URL です。"
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "現在のユーザーが、MWC ダッシュボードメッセージを受信するようにオプト済みかどうかを表示します。"
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "ショップページの作成日です。"
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "住所1"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "住所2"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "市"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "国"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "州"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "郵便番号"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "行政区域"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "事業名"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "国コード"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "名"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "姓"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "住所"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "電話番号"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "区域区分"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "フォーマット済みの住所"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "サイトのメール通知機能が、有効かどうかを表示します。"
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "サイトのメール通知機能が、有効化されているどうかを表示します。"
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "サイトが現在、いずれかの WooCommerce メールテンプレートをオーバーライディングしているかどうかを表示します。"
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "設定済み重量単位"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "サポートチームが返信する際のメールアドレス"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "プラグインスラッグ"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "件名"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "メッセージ:"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "理由フィールド"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "影響を受けるマーケットプレイスチャネル"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "デバッグユーザーを作成するかどうかを表示します"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "現在のユーザー情報です"
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "現在のユーザーの ID です。"
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "販売許可です。"
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "拡張機能の推奨を表示するかどうかです。"
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>注意:</strong>サポートメニュー経由でダッシュボードにアクセスできるようになりましたので、SkyVerge ダッシュボードプラグインを無効化しました！"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "サポート"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "サポート"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "WooCommerceの拡張機能"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "拡張子"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "拡張子：%s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "含まれている拡張機能"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "GoDaddy 搭載の拡張機能"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "サブスクリプションがありません"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "一生涯"

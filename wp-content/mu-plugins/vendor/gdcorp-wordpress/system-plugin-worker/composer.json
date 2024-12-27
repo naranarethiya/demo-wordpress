@@ -1,0 +1,13 @@
+{
+  "name": "gdcorp-wordpress/system-plugin-worker",
+  "description": "A pre-built ManageWP worker WordPress plugin",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "~v2.2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

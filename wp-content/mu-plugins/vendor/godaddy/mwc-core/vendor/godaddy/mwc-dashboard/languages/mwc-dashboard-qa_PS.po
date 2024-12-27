@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "⌠3316015⌡Còüld nòt fînd ån éxténsîòn wîth thé gîvén slüg: %s.⌠3316015⌡"
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "⌠3316016⌡Còüld nòt fînd vérsîòn %1$s òf %2$s.⌠3316016⌡"
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "⌠3316017⌡Thé éxténsîòn ÎD.⌠3316017⌡"
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "⌠3316018⌡Thé éxténsîòn slüg.⌠3316018⌡"
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "⌠3316019⌡Thé éxténsîòn nåmé.⌠3316019⌡"
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "⌠3316020⌡Thé éxténsîòn shòrt déscrîptîòn.⌠3316020⌡"
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "⌠3316021⌡Thé éxténsîòn typé.⌠3316021⌡"
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "⌠3316022⌡Thé éxténsîòn cåtégòry.⌠3316022⌡"
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "⌠3316023⌡Thé éxténsîòn brånd.⌠3316023⌡"
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "⌠3316024⌡Înfòrmåtîòn åbòüt thé éxténsîòn înstålléd vérsîòn.⌠3316024⌡"
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "⌠3316025⌡Thé vérsîòn nümbér.⌠3316025⌡"
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "⌠3316026⌡Thé réqüîréd PHP vérsîòn.⌠3316026⌡"
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "⌠3316027⌡Thé réqüîréd WòrdPréss vérsîòn.⌠3316027⌡"
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "⌠3316028⌡Thé réqüîréd WòòCòmmércé vérsîòn.⌠3316028⌡"
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "⌠3316029⌡Thé tîméståmp în sécònds whén thé vérsîòn wås réléåséd.⌠3316029⌡"
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "⌠3316030⌡Thé ÜRL fròm whéré thé påckågé cån bé dòwnlòådéd⌠3316030⌡"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "⌠3316031⌡Thé ståté òf thé înstålléd vérsîòn (whéthér òr nòt ît îs thé låtést vérsîòn)⌠3316031⌡"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "⌠3316032⌡Thé éxténsîòn dòcüméntåtîòn ÜRL.⌠3316032⌡"
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "⌠3316033⌡Whéthér òr nòt thé éxténsîòn îs féåtüréd.⌠3316033⌡"
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "⌠3316034⌡Thé éxténsîòn ståté.⌠3316034⌡"
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "⌠3316035⌡Înfòrmåtîòn åbòüt thé vérsîòns åvåîlåblé fòr thé éxténsîòn.⌠3316035⌡"
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "⌠3316042⌡ÎD òf thé méssågé tò bé délétéd.⌠3316042⌡"
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "⌠3316043⌡Nò åüth méthòd fòünd fòr %s⌠3316043⌡"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "⌠3316044⌡Còüld nòt rétrîévé rémòté méssågés dåtå: %s⌠3316044⌡"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "⌠3316045⌡Còüld nòt rétrîévé rémòté méssågés dåtå - ÅPÎ réspòndéd wîth ståtüs %d, érròr: %s⌠3316045⌡"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "⌠3316046⌡Rémòté méssågés dåtå îs învålîd⌠3316046⌡"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "⌠3316047⌡Învålîd méssågé ÎD⌠3316047⌡"
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "⌠3316048⌡Ünîqüé méssågé ÎD.⌠3316048⌡"
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "⌠3316049⌡Méssågé typé.⌠3316049⌡"
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "⌠3316050⌡Méssågé sübjéct.⌠3316050⌡"
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "⌠3316051⌡Méssågé bòdy.⌠3316051⌡"
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "⌠3316052⌡Püblîsh dåté.⌠3316052⌡"
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "⌠3316053⌡Éxpîråtîòn dåté.⌠3316053⌡"
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "⌠3316054⌡Büttòns òr lînks tò bé dîsplåyéd wîth thé méssågé.⌠3316054⌡"
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "⌠3316055⌡Åctîòn téxt.⌠3316055⌡"
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "⌠3316056⌡Åctîòn hréf.⌠3316056⌡"
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "⌠3316057⌡Åctîòn typé.⌠3316057⌡"
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "⌠3316058⌡Rülés tò bé évålüåtéd by thé clîént tò décîdé îf thé méssågé shòüld bé dîsplåyéd òr nòt.⌠3316058⌡"
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "⌠3316059⌡Rülé låbél.⌠3316059⌡"
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "⌠3316060⌡Rülé nåmé.⌠3316060⌡"
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "⌠3316061⌡Rülé typé.⌠3316061⌡"
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "⌠3316062⌡Rélåtéd éntîty üséd tò évålüåté thé rülé.⌠3316062⌡"
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "⌠3316063⌡Élémént òf thé rélåtéd éntîty üséd tò évålüåté thé rülé.⌠3316063⌡"
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "⌠3316064⌡Còmpårîsòn òpéråtòr üséd tò évålüåté thé rülé.⌠3316064⌡"
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "⌠3316065⌡Référéncé vålüé üséd tò évålüåté thé rülé.⌠3316065⌡"
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "⌠3316066⌡Lînks wîth dåtå tò bé rétrîévéd ånd üséd tò évålüåté thé rülés.⌠3316066⌡"
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "⌠3316067⌡Lînk hréf.⌠3316067⌡"
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "⌠3316068⌡Rélåtéd éntîty répréséntéd by thé lînk.⌠3316068⌡"
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "⌠3316069⌡Réqüést typé tò rétrîévé thé dåtå.⌠3316069⌡"
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "⌠3316070⌡Méssågé ståtüs fòr thé cürrént üsér.⌠3316070⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "⌠3316071⌡Thé îtém ÎD.⌠3316071⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "⌠3316072⌡Thé pròdüct ÎD.⌠3316072⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "⌠3316073⌡Thé vårîåtîòn ÎD.⌠3316073⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "⌠3316074⌡Thé nåmé òf thé pròdüct.⌠3316074⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "⌠3316075⌡Thé îtém qüåntîty.⌠3316075⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "⌠3316076⌡Thé nümbér òf ünfülfîlléd îtéms.⌠3316076⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "⌠3316077⌡Thé pròdüct îmågé.⌠3316077⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "⌠3316078⌡Îmågé héîght.⌠3316078⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "⌠3316079⌡Îmågé wîdth.⌠3316079⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "⌠3316080⌡Thé îmågé sòürcé ürl⌠3316080⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "⌠3316081⌡Thé îmågé sòürcé ürl lîst⌠3316081⌡"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "⌠3316082⌡Îmågé sîzés⌠3316082⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "⌠3316083⌡Thé òrdér ÎD.⌠3316083⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "⌠3316084⌡Whéthér òr nòt thé òrdér hås béén fülfîlléd.⌠3316084⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "⌠3316085⌡Thé shîpménts fòr thé òrdér.⌠3316085⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "⌠3316086⌡Thé shîpmént ÎD.⌠3316086⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "⌠3316087⌡Thé shîpmént's créåtîòn dåté.⌠3316087⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "⌠3316088⌡Thé shîpmént's låst üpdåtéd dåté.⌠3316088⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "⌠3316089⌡Thé shîppîng pròvîdér fòr thé shîpmént.⌠3316089⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "⌠3316090⌡Thé shîpmént's tråckîng nümbér.⌠3316090⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "⌠3316091⌡Thé shîpmént's tråckîng ÜRL.⌠3316091⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "⌠3316092⌡Thé îtéms înclüdéd în thé shîpmént.⌠3316092⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "⌠3316093⌡Thé îtém's ÎD.⌠3316093⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "⌠3316094⌡Thé pròdüct's ÎD.⌠3316094⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "⌠3316095⌡Thé pròdüct's vårîåtîòn ÎD.⌠3316095⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "⌠3316096⌡Thé îtém's qüåntîty.⌠3316096⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "⌠3316097⌡Thé òrdér émåîl åddréss.⌠3316097⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "⌠3316098⌡Thé òrdér nümbér, dîstînct fròm thé òrdér ÎD.⌠3316098⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "⌠3316099⌡Whéthér thé òrdér îs cònsîdéréd \"påîd.\"⌠3316099⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "⌠3316100⌡Thé påymént pròvîdér nåmé (în Wòò térms, gåtéwåy ÎD).⌠3316100⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "⌠3316101⌡Thé òvéråll òrdér ståtüs.⌠3316101⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "⌠3316102⌡Thé òrdér tòtål åmòünt⌠3316102⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "⌠3321251⌡Thé füll òrdér åmòünt, în thé smållést ünît òf thé gîvén cürréncy còdé.⌠3321251⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "⌠3316104⌡Thé cürréncy còdé.⌠3316104⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "⌠3316105⌡Thé òrdér bîllîng åddréss.⌠3316105⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "⌠3316106⌡Ån årråy òf ådmînîstråtîvé dîstrîcts.⌠3316106⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "⌠3316107⌡Thé bîllîng åddréss büsînéss nåmé.⌠3316107⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "⌠3316108⌡Thé bîllîng åddréss còüntry còdé.⌠3316108⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "⌠3316109⌡Thé bîllîng åddréss cüstòmérs fîrst nåmé.⌠3316109⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "⌠3316110⌡Thé bîllîng åddréss cüstòmérs låst nåmé.⌠3316110⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "⌠3316111⌡Thé bîllîng åddréss lînés.⌠3316111⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "⌠3316112⌡Thé bîllîng åddréss lòcålîty.⌠3316112⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "⌠3316113⌡Thé bîllîng åddréss phòné nümbér.⌠3316113⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "⌠3316114⌡Thé bîllîng åddréss pòstål còdé.⌠3316114⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "⌠3316115⌡Thé bîllîng åddréss süb lòcålîtîés.⌠3316115⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "⌠3316116⌡Strîng répréséntåtîòn fòr thé bîllîng åddréss⌠3316116⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "⌠3316117⌡Thé òrdér shîppîng åddréss.⌠3316117⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "⌠3316118⌡Thé shîppîng åddréss büsînéss nåmé.⌠3316118⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "⌠3316119⌡Thé shîppîng åddréss còüntry còdé.⌠3316119⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "⌠3316120⌡Thé shîppîng åddréss cüstòmérs fîrst nåmé.⌠3316120⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "⌠3316121⌡Thé shîppîng åddréss cüstòmérs låst nåmé.⌠3316121⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "⌠3316122⌡Thé shîppîng åddréss lînés.⌠3316122⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "⌠3316123⌡Thé shîppîng åddréss lòcålîty.⌠3316123⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "⌠3316124⌡Thé shîppîng åddréss phòné nümbér.⌠3316124⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "⌠3316125⌡Thé shîppîng åddréss pòstål còdé.⌠3316125⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "⌠3316126⌡Thé shîppîng åddréss süb lòcålîtîés.⌠3316126⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "⌠3316127⌡Strîng répréséntåtîòn fòr thé shîppîng åddréss⌠3316127⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "⌠3316128⌡Mårkétplåcés înfòrmåtîòn fòr thé òrdér.⌠3316128⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "⌠3316129⌡Thé còrréspòndîng Mårkétplåcés òrdér nümbér.⌠3316129⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "⌠3316130⌡Thé Mårkétplåcés chånnél ünîqüé îdéntîfîér.⌠3316130⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "⌠3316131⌡Thé Mårkétplåcés chånnél nåmé.⌠3316131⌡"
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "⌠3316132⌡Thé Mårkétplåcés chånnél dîsplåy typé nåmé.⌠3316132⌡"
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "⌠3316133⌡Thé plügîn's slüg.⌠3316133⌡"
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "⌠3316134⌡Thé plügîn's nåmé.⌠3316134⌡"
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "⌠3316135⌡Whéthér òr nòt thé plügîn îs å MWC månågéd plügîn⌠3316135⌡"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "⌠3316136⌡Thé plügîn's WòòCòmmércé.còm sübscrîptîòn ståtüs.⌠3316136⌡"
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "⌠3316137⌡Thé plügîn dòcüméntåtîòn ÜRL⌠3316137⌡"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "⌠3316138⌡Thé shîppîng pròvîdér låbél.⌠3316138⌡"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "⌠3316139⌡Thé shîppîng pròvîdér nåmé.⌠3316139⌡"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "⌠3316140⌡Thé shîppîng pròvîdér tråckîng ÜRL fòrmåt.⌠3316140⌡"
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "⌠3316141⌡Thé défåült stòré ÎD tò sét fòr thé cürrént chånnél⌠3316141⌡"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "⌠3316142⌡Thé büsînéss ÎD⌠3316142⌡"
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "⌠3316143⌡Sîté ÎD.⌠3316143⌡"
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "⌠3316144⌡Sîté ÜRL.⌠3316144⌡"
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "⌠3316145⌡Défåült stòré ÎD.⌠3316145⌡"
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "⌠3316146⌡Cürrént ådmîn üsér's émåîl.⌠3316146⌡"
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "⌠3316147⌡Süppòrt üsér's émåîl, îf å süppòrt üsér éxîsts.⌠3316147⌡"
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "⌠3316148⌡Whéthér òr nòt thé sîté îs cònnéctéd tò thé süppòrt bòt.⌠3316148⌡"
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "⌠3316149⌡Whéthér òr nòt thé sîté îs cònnéctéd tò WòòCòmmércé.còm.⌠3316149⌡"
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "⌠3316150⌡Dåshbòård typé (MWC òr émpty).⌠3316150⌡"
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "⌠3316151⌡Whéthér òr nòt thé sîté îs sòld by å réséllér.⌠3316151⌡"
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "⌠3316152⌡Thé réséllér prîvåté låbél ÎD (1 méåns GòDåddy, sò nòt å réséllér).⌠3316152⌡"
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "⌠3316153⌡ÜRL tò cònnéct thé sîté tò thé süppòrt bòt.⌠3316153⌡"
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "⌠3316154⌡Whéthér òr nòt thé cürrént üsér îs òptéd în tò récéîvé MWC Dåshbòård méssågés.⌠3316154⌡"
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "⌠3316155⌡Thé Shòp pågé's créåtîòn dåté.⌠3316155⌡"
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "⌠3316156⌡Åddréss lîné 1⌠3316156⌡"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "⌠3316157⌡Åddréss lîné 2⌠3316157⌡"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "⌠3316158⌡Cîty⌠3316158⌡"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "⌠3316159⌡Còüntry⌠3316159⌡"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "⌠3316160⌡Ståté⌠3316160⌡"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "⌠3316161⌡Pòstål còdé⌠3316161⌡"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "⌠3316162⌡Ådmînîstråtîvé dîstrîcts⌠3316162⌡"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "⌠3316163⌡Büsînéss nåmé⌠3316163⌡"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "⌠3316164⌡Còüntry còdé⌠3316164⌡"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "⌠3316165⌡Fîrst nåmé⌠3316165⌡"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "⌠3316166⌡Låst nåmé⌠3316166⌡"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "⌠3316167⌡Åddréss lînés⌠3316167⌡"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "⌠3316168⌡Phòné nümbér⌠3316168⌡"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "⌠3316169⌡Süb lòcålîtîés⌠3316169⌡"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "⌠3316170⌡Fòrmåttéd åddréss⌠3316170⌡"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "⌠3316171⌡Whéthér òr nòt thé sîté émåîl nòtîfîcåtîòns féåtüré îs åctîvé.⌠3316171⌡"
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "⌠3316172⌡Whéthér òr nòt thé sîté émåîl nòtîfîcåtîòns féåtüré îs énåbléd.⌠3316172⌡"
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "⌠3316173⌡Whéthér thé sîté îs cürréntly òvérrîdîng åny òf thé WòòCòmmércé émåîl témplåtés.⌠3316173⌡"
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "⌠3316174⌡Cònfîgüréd wéîght ünît⌠3316174⌡"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "⌠3316175⌡Thé é-måîl åddréss thé süppòrt téåm wîll réply tò⌠3316175⌡"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "⌠3316176⌡Thé plügîn slüg⌠3316176⌡"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "⌠3316177⌡Thé sübjéct⌠3316177⌡"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "⌠3316178⌡Thé méssågé⌠3316178⌡"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "⌠3316179⌡Thé réåsòn fîéld⌠3316179⌡"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "⌠3440067⌡Thé åfféctéd mårkétplåcé chånnéls⌠3440067⌡"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "⌠3316180⌡Whéthér òr nòt tò créåté å débüg üsér⌠3316180⌡"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "⌠3316181⌡Thé cürrént üsér înfòrmåtîòn.⌠3316181⌡"
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "⌠3316182⌡Thé ÎD òf thé cürrént üsér.⌠3316182⌡"
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "⌠3316183⌡Thé mårkétîng pérmîssîòns.⌠3316183⌡"
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "⌠3316184⌡Whéthér tò shòw éxténsîòns récòmméndåtîòns.⌠3316184⌡"
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "⌠3316185⌡<strong>Héåds üp!</strong> Wé'vé déåctîvåtéd thé SkyVérgé Dåshbòård plügîn sîncé yòü nòw håvé åccéss tò thé dåshbòård vîå thé Gét Hélp ménü!⌠3316185⌡"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "⌠3316186⌡Gét Hélp⌠3316186⌡"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "⌠3317517⌡Gét Hélp⌠3317517⌡"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "⌠3316187⌡WòòCòmmércé éxténsîòns⌠3316187⌡"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "⌠3316188⌡Éxténsîòns⌠3316188⌡"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "⌠3316189⌡Éxténsîòns %s⌠3316189⌡"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "⌠3316190⌡Înclüdéd Éxténsîòns⌠3316190⌡"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "⌠3316191⌡GòDåddy Înclüdéd Éxténsîòns⌠3316191⌡"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "⌠3317518⌡Nò sübscrîptîòn⌠3317518⌡"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "⌠3317519⌡Lîfétîmé⌠3317519⌡"

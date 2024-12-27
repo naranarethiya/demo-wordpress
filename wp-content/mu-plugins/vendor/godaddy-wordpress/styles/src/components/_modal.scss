@@ -1,0 +1,58 @@
+/*
+ * import { Modal } from '@wordpress/components'
+ */
+
+.components-modal__frame,
+&.components-modal__frame {
+	border-radius: 1rem;
+
+	.components-modal__content {
+		margin-top: 0;
+		padding: 4.5rem 4.5rem 4.25rem;
+
+		&::before {
+			margin: 0;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+
+		.components-modal__header {
+			border-bottom: 0;
+			font-size: 2rem;
+			height: unset;
+			margin-bottom: 0.75em;
+			padding: 0;
+			position: relative;
+
+			.components-modal__icon-container {
+				margin-right: 8px;
+			}
+
+			.components-modal__header-heading {
+				font-size: 2rem;
+			}
+
+			.components-button.has-icon {
+				font-size: 1rem;
+				left: auto;
+				padding: 0.25em;
+				position: absolute;
+				right: -3.5rem;
+				top: -3.25rem;
+
+				& > svg {
+					margin-left: 0;
+					right: 0;
+					top: 0;
+					transform: scale(1);
+				}
+			}
+		}
+
+		.components-text-control__input {
+			margin-bottom: 0.5em;
+		}
+	}
+}

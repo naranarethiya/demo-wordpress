@@ -1,0 +1,737 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-10T03:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:416
+msgid "Could not find an extension with the given slug: %s."
+msgstr "दिए गए स्लग वाला एक्सटेंशन नहीं ढूंढ सके: %s."
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:626
+msgid "Could not find version %1$s of %2$s."
+msgstr "%2$s का संस्करण %1$s नहीं मिल सका।"
+
+#: src/API/Controllers/ExtensionsController.php:684
+msgid "The extension ID."
+msgstr "एक्सटेंशन ID."
+
+#: src/API/Controllers/ExtensionsController.php:690
+msgid "The extension slug."
+msgstr "एक्सटेंशन स्लग।"
+
+#: src/API/Controllers/ExtensionsController.php:696
+msgid "The extension name."
+msgstr "एक्सटेंशन नाम।"
+
+#: src/API/Controllers/ExtensionsController.php:702
+msgid "The extension short description."
+msgstr "एक्सटेंशन छोटा विवरण।"
+
+#: src/API/Controllers/ExtensionsController.php:708
+msgid "The extension type."
+msgstr "एक्सटेंशन का प्रकार।"
+
+#: src/API/Controllers/ExtensionsController.php:715
+msgid "The extension category."
+msgstr "एक्सटेंशन की श्रेणी।"
+
+#: src/API/Controllers/ExtensionsController.php:730
+msgid "The extension brand."
+msgstr "एक्सटेंशन ब्रांड।"
+
+#: src/API/Controllers/ExtensionsController.php:737
+msgid "Information about the extension installed version."
+msgstr "एक्सटेंशन के स्थापित संस्करण के बारे में जानकारी।"
+
+#: src/API/Controllers/ExtensionsController.php:741
+#: src/API/Controllers/ExtensionsController.php:813
+msgid "The version number."
+msgstr "संस्करण संख्या।"
+
+#: src/API/Controllers/ExtensionsController.php:747
+#: src/API/Controllers/ExtensionsController.php:819
+msgid "The required PHP version."
+msgstr "ज़रूरी PHP संस्करण।"
+
+#: src/API/Controllers/ExtensionsController.php:753
+#: src/API/Controllers/ExtensionsController.php:825
+msgid "The required WordPress version."
+msgstr "ज़रूरी वर्डप्रेस संस्करण है।"
+
+#: src/API/Controllers/ExtensionsController.php:759
+#: src/API/Controllers/ExtensionsController.php:831
+msgid "The required WooCommerce version."
+msgstr "ज़रूरी WooCommerce संस्करण है।"
+
+#: src/API/Controllers/ExtensionsController.php:765
+#: src/API/Controllers/ExtensionsController.php:837
+msgid "The timestamp in seconds when the version was released."
+msgstr "संस्करण जारी होने पर सेकंड में टाइमस्टैम्प।"
+
+#: src/API/Controllers/ExtensionsController.php:771
+#: src/API/Controllers/ExtensionsController.php:843
+msgid "The URL from where the package can be downloaded"
+msgstr "यूआरएल जहां से पैकेज डाउनलोड किया जा सकता है"
+
+#: src/API/Controllers/ExtensionsController.php:777
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "स्थापित किए गए संस्करण की स्थिति (नवीनतम संस्करण है या नहीं)"
+
+#: src/API/Controllers/ExtensionsController.php:788
+msgid "The extension documentation URL."
+msgstr "एक्सटेंशन दस्तावेज़ीकरण यूआरएल।"
+
+#: src/API/Controllers/ExtensionsController.php:794
+msgid "Whether or not the extension is featured."
+msgstr "एक्सटेंशन विशेष रूप से प्रदर्शित है या नहीं।"
+
+#: src/API/Controllers/ExtensionsController.php:800
+msgid "The extension state."
+msgstr "एक्सटेंशन की स्थिति।"
+
+#: src/API/Controllers/ExtensionsController.php:807
+msgid "Information about the versions available for the extension."
+msgstr "एक्सटेंशन के लिए उपलब्ध संस्करणों के बारे में जानकारी।"
+
+#: src/API/Controllers/MessagesController.php:125
+msgid "ID of the message to be deleted."
+msgstr "हटाए जाने वाले संदेश का ID."
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:244
+msgid "No auth method found for %s"
+msgstr "%s के लिए कोई प्रमाणीकरण विधि नहीं मिली"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:252
+msgid "Could not retrieve remote messages data: %s"
+msgstr "रिमोट संदेशों का डेटा पुर्नप्राप्त नहीं कर सके: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:263
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "रिमोट संदेशों का डेटा पुर्नप्राप्त नहीं कर सके - API ने स्थिति %d, त्रुटि: %s के साथ प्रतिसाद दिया"
+
+#: src/API/Controllers/MessagesController.php:274
+msgid "Remote messages data is invalid"
+msgstr "रिमोट संदेशों का डेटा अमान्य है"
+
+#: src/API/Controllers/MessagesController.php:432
+msgid "Invalid message ID"
+msgstr "अमान्य संदेश ID."
+
+#: src/API/Controllers/MessagesController.php:576
+msgid "Unique message ID."
+msgstr "अद्वितीय संदेश ID."
+
+#: src/API/Controllers/MessagesController.php:582
+msgid "Message type."
+msgstr "संदेश का प्रकार।"
+
+#: src/API/Controllers/MessagesController.php:588
+msgid "Message subject."
+msgstr "संदेश का विषय।"
+
+#: src/API/Controllers/MessagesController.php:594
+msgid "Message body."
+msgstr "संदेश का मुख्य हिस्सा।"
+
+#: src/API/Controllers/MessagesController.php:600
+msgid "Publish date."
+msgstr "प्रकाशन दिनांक।"
+
+#: src/API/Controllers/MessagesController.php:607
+msgid "Expiration date."
+msgstr "समय समाप्ति की दिनांक।"
+
+#: src/API/Controllers/MessagesController.php:614
+msgid "Buttons or links to be displayed with the message."
+msgstr "संदेश के साथ प्रदर्शित होने वाले बटन या लिंक।"
+
+#: src/API/Controllers/MessagesController.php:620
+msgid "Action text."
+msgstr "कार्रवाई पाठ।"
+
+#: src/API/Controllers/MessagesController.php:626
+msgid "Action href."
+msgstr "कार्रवाई href."
+
+#: src/API/Controllers/MessagesController.php:632
+msgid "Action type."
+msgstr "कार्रवाई का प्रकार।"
+
+#: src/API/Controllers/MessagesController.php:644
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "नियम जिनका क्लाइंट यह तय करने के लिए मूल्यांकन करेगा कि संदेश प्रदर्शित किया जाना चाहिए या नहीं।"
+
+#: src/API/Controllers/MessagesController.php:651
+msgid "Rule label."
+msgstr "नियम लेबल।"
+
+#: src/API/Controllers/MessagesController.php:657
+msgid "Rule name."
+msgstr "नियम का नाम।"
+
+#: src/API/Controllers/MessagesController.php:663
+msgid "Rule type."
+msgstr "नियम का प्रकार।"
+
+#: src/API/Controllers/MessagesController.php:669
+msgid "Related entity used to evaluate the rule."
+msgstr "नियम का मूल्यांकन करने के लिए इस्तेमाल की गई संबंधित इकाई।"
+
+#: src/API/Controllers/MessagesController.php:675
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "नियम का मूल्यांकन करने के लिए इस्तेमाल की गई संबंधित इकाई का तत्व।"
+
+#: src/API/Controllers/MessagesController.php:682
+msgid "Comparison operator used to evaluate the rule."
+msgstr "नियम का मूल्यांकन करने के लिए इस्तेमाल किया गया तुलना ऑपरेटर।"
+
+#: src/API/Controllers/MessagesController.php:688
+msgid "Reference value used to evaluate the rule."
+msgstr "नियम का मूल्यांकन करने के लिए इस्तेमाल किया गया संदर्भ मान।"
+
+#: src/API/Controllers/MessagesController.php:699
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "पुर्नप्राप्त करने के लिए और नियमो के साथ मूल्यांकन करने के लिए डेटा वाले लिंक।"
+
+#: src/API/Controllers/MessagesController.php:706
+msgid "Link href."
+msgstr "लिंक href."
+
+#: src/API/Controllers/MessagesController.php:712
+msgid "Related entity represented by the link."
+msgstr "संबंधित इकाई जिसका लिंक से प्रतिनिधित्व किया गया है।"
+
+#: src/API/Controllers/MessagesController.php:718
+msgid "Request type to retrieve the data."
+msgstr "डेटा पुनः प्राप्त करने के लिए अनुरोध प्रकार।"
+
+#: src/API/Controllers/MessagesController.php:729
+msgid "Message status for the current user."
+msgstr "वर्तमान उपयोगकर्ता के लिए संदेश स्थिति।"
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "आइटम ID."
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "प्रोडक्‍ट ID."
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "वैरिएशन ID."
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "उत्पाद का नाम।"
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "आइटम की मात्रा।"
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "अपूर्ण वस्तुओं की संख्या।"
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "उत्पाद चित्र।"
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "चित्र की ऊंचाई।"
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "चित्र की चौड़ाई।"
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "चित्र स्रोत यूआरएल"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "चित्र स्रोत यूआरएल सूची"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "चित्र के आकार"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "ऑर्डर आईडी।"
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "ऑर्डर पूरा किया गया है या नहीं।"
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "ऑर्डर के लिए शिपमेंट।"
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "शिपमेंट आईडी।"
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "श‍िपमेंट क्रिएट करने की तारीख।"
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "श‍िपमेंट की अंत‍िम अपडेटेड तारीख।"
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "श‍िपमेंट की श‍िप‍िंग प्रोवाइडर।"
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "श‍िपमेंट का ट्रैकिंग नंबर।"
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "श‍िपमेंट का ट्रैकिंग URL."
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "श‍िपमेंट में शाम‍िल आइटम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "आइटम के आईडी।"
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "प्रोडक्‍ट आईडी।"
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "प्रोडक्‍ट का वैर‍िएशन आईडी।"
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "आइटम की राश‍ि।"
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "ऑर्डर ईमेल पता।"
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "ऑर्डर संख्या, जो ऑर्डर ID से अलग है।"
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "ऑर्डर को “भुगतान किया गया” माना गया है या नहीं।"
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "भुगतान प्रदाता नाम (Woo के शब्दों में, गेटवे ID)."
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "समग्र ऑर्डर स्थिति।"
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "ऑर्डर कुल राशि"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "दिए गए मुद्रा कोड में सबसे छोटी इकाई में पूरी ऑर्डर राशि।"
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "मुद्रा कोड।"
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "ऑर्डर बिलिंग पता।"
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "प्रशासनिक जिलों की सरणी।"
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "बिलिंग पता व्यवसाय का नाम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "बिलिंग पता देश कोड।"
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "बिलिंग पता ग्राहक का पहला नाम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "बिलिंग पता ग्राहक का अंतिम नाम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "बिलिंग पते की पंक्तियां।"
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "बिलिंग पते का क्षेत्र।"
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "बिलिंग पता फ़ोन नंबर।"
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "बिलिंग पता पोस्टल कोड।"
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "बिलिंग पता उप क्षेत्र।"
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "बिलिंग पते के लिए स्ट्रिंग प्रतिनिधित्व"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "ऑर्डर शिपिंग पता।"
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "शिपिंग पता व्यवसाय का नाम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "शिपिंग पता देश कोड।"
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "शिपिंग पता ग्राहक का पहला नाम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "शिपिंग पता ग्राहक का अंतिम नाम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "शिपिंग पते की पंक्तियां।"
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "शिपिंग पते का क्षेत्र।"
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "शिपिंग पता फ़ोन नंबर।"
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "शिपिंग पता पोस्टल कोड।"
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "शिपिंग पता उप क्षेत्र।"
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "शिपिंग पते के लिए स्ट्रिंग प्रतिनिधित्व"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "ऑर्डर के लिए मार्केटप्लेस से जुड़ी जानकारी।"
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "संबंधित मार्केटप्लेस ऑर्डर संख्या।"
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "मार्केटप्लेस चैनल अद्वितीय पहचानकर्ता।"
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "मार्केटप्लेस चैनल का नाम।"
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "मार्केटप्लेस चैनल प्रदर्शन प्रकार का नाम।"
+
+#: src/API/Controllers/PluginsController.php:54
+msgid "The plugin's slug."
+msgstr "प्लगइन का स्लग।"
+
+#: src/API/Controllers/PluginsController.php:60
+msgid "The plugin's name."
+msgstr "प्लगइन का नाम।"
+
+#: src/API/Controllers/PluginsController.php:66
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "प्लगइन MWC है या नहीं"
+
+#: src/API/Controllers/PluginsController.php:71
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "प्लगइन की WooCommerce.com सब्सक्रिप्शन स्थिति।"
+
+#: src/API/Controllers/PluginsController.php:78
+msgid "The plugin documentation URL"
+msgstr "प्लगइन दस्तावेज़ीकरण यूआरएल"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "शिपिंग प्रदाता लेबल।"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "शिपिंग प्रदाता नाम।"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "शिपिंग प्रदाता ट्रैकिंग यूआरएल प्रारूप (फॉर्मेट)।"
+
+#: src/API/Controllers/ShopController.php:65
+msgid "The default store ID to set for the current channel"
+msgstr "वर्तमान चैनल में सेट करने के लिए डिफ़ॉल्ट स्टोर ID"
+
+#: src/API/Controllers/ShopController.php:71
+msgid "The business ID"
+msgstr "बिज़नेस ID."
+
+#: src/API/Controllers/ShopController.php:225
+msgid "Site ID."
+msgstr "साइट ID."
+
+#: src/API/Controllers/ShopController.php:231
+msgid "Site URL."
+msgstr "साइट यूआरएल।"
+
+#: src/API/Controllers/ShopController.php:237
+msgid "Default store ID."
+msgstr "डिफ़ॉल्ट स्टोर ID."
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Current admin user's email."
+msgstr "वर्तमान व्यवस्थापक उपयोगकर्ता का ईमेल।"
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Support user's email, if a support user exists."
+msgstr "अगर सपोर्ट उपयोगकर्ता मौजूद है, तो सपोर्ट उपयोगकर्ता का ईमेल।"
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Whether or not the site is connected to the support bot."
+msgstr "साइट सपोर्ट बॉट से कनेक्टेड है या नहीं।"
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "साइट WooCommerce.com से कनेक्टेड है या नहीं।"
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Dashboard type (MWC or empty)."
+msgstr "डैशबोर्ड प्रकार (MWC या रिक्त)।"
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is sold by a reseller."
+msgstr "साइट रीसेलर द्वारा बेची जा सकती है या नहीं।"
+
+#: src/API/Controllers/ShopController.php:279
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "रीसेलर प्राइवेट लेबल आईडी ( 1 का मतलब है GoDaddy जोकि रीसेलर नहीं है)।"
+
+#: src/API/Controllers/ShopController.php:285
+msgid "URL to connect the site to the support bot."
+msgstr "साइट को सपोर्ट बॉट से कनेक्ट करने के लिए यूआरएल।"
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "वर्तमान उपयोगकर्ता ने MWC डैशबोर्ड संदेश पाने के लिए ऑप्ट इन किया है या नहीं।"
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The Shop page's creation date."
+msgstr "शॉप पेज बनाने की दिनांक।"
+
+#: src/API/Controllers/ShopController.php:306
+msgid "Address line 1"
+msgstr "पता पंक्ति 1"
+
+#: src/API/Controllers/ShopController.php:312
+msgid "Address line 2"
+msgstr "पता पंक्ति 2"
+
+#: src/API/Controllers/ShopController.php:318
+#: src/API/Controllers/ShopController.php:383
+msgid "City"
+msgstr "शहर"
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Country"
+msgstr "देश"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "State"
+msgstr "स्थिति"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:395
+msgid "Postal code"
+msgstr "पोस्टल कोड"
+
+#: src/API/Controllers/ShopController.php:347
+msgid "Administrative districts"
+msgstr "प्रशासनिक जिले"
+
+#: src/API/Controllers/ShopController.php:353
+msgid "Business name"
+msgstr "व्यवसाय का नाम"
+
+#: src/API/Controllers/ShopController.php:359
+msgid "Country code"
+msgstr "देश कोड"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "First name"
+msgstr "प्रथम नाम"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Last name"
+msgstr "अंतिम नाम"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Address lines"
+msgstr "पते की पंक्तियां"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Phone number"
+msgstr "फ़ोन नंबर"
+
+#: src/API/Controllers/ShopController.php:401
+msgid "Sub localities"
+msgstr "उप क्षेत्र"
+
+#: src/API/Controllers/ShopController.php:409
+msgid "Formatted address"
+msgstr "फ़ॉर्मेट किया गया पता"
+
+#: src/API/Controllers/ShopController.php:415
+msgid "Whether or not the site email notifications feature is active."
+msgstr "साइट ईमेल सूचनाओं की विशेषता सक्रिय है या नहीं।"
+
+#: src/API/Controllers/ShopController.php:421
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "साइट ईमेल सूचनाओं की विशेषता सक्षम है या नहीं।"
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "साइट वर्तमान में किसी WooCommerce ईमेल टेम्प्लेट को ओवरराइड कर रही है।"
+
+#: src/API/Controllers/ShopController.php:436
+msgid "Configured weight unit"
+msgstr "कॉन्फ़िगर की गई वज़न इकाई"
+
+#: src/API/Controllers/SupportController.php:70
+msgid "The e-mail address the support team will reply to"
+msgstr "ईमेल पता जिसका सपोर्ट टीम जवाब देगी"
+
+#: src/API/Controllers/SupportController.php:75
+msgid "The plugin slug"
+msgstr "प्लगइन स्लग"
+
+#: src/API/Controllers/SupportController.php:81
+msgid "The subject"
+msgstr "विषय"
+
+#: src/API/Controllers/SupportController.php:87
+msgid "The message"
+msgstr "संदेश"
+
+#: src/API/Controllers/SupportController.php:93
+msgid "The reason field"
+msgstr "कारण की फ़ील्ड"
+
+#: src/API/Controllers/SupportController.php:99
+#: src/API/Controllers/SupportController.php:105
+msgid "The affected marketplace channels"
+msgstr "प्रभावित मार्केटप्‍लेस चैनल्‍स"
+
+#: src/API/Controllers/SupportController.php:110
+msgid "Whether or not to create a debug user"
+msgstr "डिबग उपयोगकर्ता बनाना है या नहीं"
+
+#: src/API/Controllers/UserController.php:66
+msgid "The current user information."
+msgstr "वर्तमान उपयोगकर्ता जानकारी।"
+
+#: src/API/Controllers/UserController.php:86
+msgid "The ID of the current user."
+msgstr "वर्तमान उपयोगकर्ता का ID."
+
+#: src/API/Controllers/UserController.php:92
+msgid "The marketing permissions."
+msgstr "मार्केटिंग से संबंधित अनुमतियां।"
+
+#: src/API/Controllers/UserController.php:96
+msgid "Whether to show extensions recommendations."
+msgstr "एक्सटेंशन के सुझाव दिखाना हैं या नहीं।"
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>तैयार रहें!</strong> हमने SkyVerge डैशबोर्ड प्लगइन निष्क्रिय कर दिया है क्योंकि अब आपके पास ‘मदद प्राप्त करें’ मेनू के माध्यम से डैशबोर्ड में पहुंच है!"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "सहायता प्राप्त करें"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "सहायता प्राप्त करें"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "WooCommerce एक्सटेंशन"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "विस्तार"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "एक्सटेंशन %s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "सम्मिलित एक्सटेंशन"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "GoDaddy सम्मिलित एक्सटेंशन"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "कोई सब्सक्रिप्शन नहीं"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "जीवनकाल"

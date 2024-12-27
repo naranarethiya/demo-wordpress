@@ -1,0 +1,13 @@
+{
+  "name": "gdcorp-wordpress/limit-login-attempts-reloaded",
+  "description": "A WordPress plugin for limiting login attempts and improving security on login forms",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "~v2.2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

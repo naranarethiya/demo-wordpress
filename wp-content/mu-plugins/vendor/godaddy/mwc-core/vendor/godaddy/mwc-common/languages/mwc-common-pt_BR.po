@@ -1,0 +1,179 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Common\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-05T04:20:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: mwc-common\n"
+
+#: src/Email/Email.php:68
+msgid "Invalid recipient value to set for email: should be type of string or array, %s given."
+msgstr "Valor de destinatário inválido para e-mail. Deve ser tipo de string ou array; %s fornecido."
+
+#: src/Email/Email.php:84
+msgid "Invalid recipient value to set for email: "
+msgstr "Valor de destinatário inválido para e-mail: "
+
+#: src/Email/Emails.php:31
+msgid "The email does not have content type set"
+msgstr "O e-mail não tem o tipo de conteúdo definido."
+
+#: src/Email/Emails.php:35
+msgid "The email does not have a recipient set"
+msgstr "O e-mail não tem um destinatário definido."
+
+#: src/Email/Emails.php:72
+msgid "A usable email service could not be found for %s"
+msgstr "Não foi possível encontrar um serviço de e-mail útil para %s."
+
+#. translators: A list of items, for example: "US or Canada", or "US, Canada, or Mexico". English uses Oxford comma before the conjunction ("or") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of item, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:610
+msgid "%1$s or %2$s"
+msgid_plural "%1$s, or %2$s"
+msgstr[0] "%1$s ou %2$s"
+msgstr[1] "%1$s ou %2$s"
+
+#. translators: A list of items, for example: "US and Canada", or "US, Canada, and Mexico". English uses Oxford comma before the conjunction ("and") if there are at least 2 items preceding it - hence the use of plural forms. If your locale does not use Oxford comma, you can just provide the same translation to all plural forms. Placeholders: %1$s - a comma-separated list of items, %2$s - the final item in the list
+#: src/Helpers/ArrayHelper.php:616
+msgid "%1$s and %2$s"
+msgid_plural "%1$s, and %2$s"
+msgstr[0] "%1$s e %2$s"
+msgstr[1] "%1$s e %2$s"
+
+#: src/Models/Orders/Statuses/CancelledOrderStatus.php:20
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: src/Models/Orders/Statuses/CheckoutDraftOrderStatus.php:17
+msgid "Checkout Draft"
+msgstr "Rascunho da finalização de compra"
+
+#: src/Models/Orders/Statuses/CompletedOrderStatus.php:20
+msgid "Completed"
+msgstr "Concluído"
+
+#: src/Models/Orders/Statuses/FailedOrderStatus.php:20
+msgid "Failed"
+msgstr "Falha"
+
+#: src/Models/Orders/Statuses/HeldOrderStatus.php:20
+msgid "Held"
+msgstr "Retido"
+
+#: src/Models/Orders/Statuses/PendingOrderStatus.php:20
+msgid "Pending payment"
+msgstr "Pagamento pendente"
+
+#: src/Models/Orders/Statuses/ProcessingOrderStatus.php:20
+msgid "Processing"
+msgstr "Processando"
+
+#: src/Models/Orders/Statuses/RefundedOrderStatus.php:20
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: src/Repositories/WooCommerce/CartRepository.php:25
+#: src/Repositories/WooCommerceRepository.php:47
+msgid "WooCommerce cart is not available"
+msgstr "O carrinho do WooCommerce está indisponível."
+
+#: src/Repositories/WooCommerce/CartRepository.php:126
+msgid "The product could not be added to the cart."
+msgstr "Não foi possível adicionar o produto ao carrinho."
+
+#: src/Repositories/WooCommerce/CountriesRepository.php:25
+msgid "The WC_Countries class is not available."
+msgstr "A classe WC_Countries está indisponível."
+
+#. translators: Placeholder: %s - error message
+#: src/Repositories/WooCommerce/RefundsRepository.php:54
+msgid "Could not create refund: %s"
+msgstr "Não foi possível criar o reembolso: %s"
+
+#: src/Repositories/WooCommerce/RefundsRepository.php:57
+msgid "WooCommerce is not active"
+msgstr "O WooCommerce não está ativo."
+
+#: src/Repositories/WooCommerce/SessionRepository.php:26
+msgid "WooCommerce session is not available"
+msgstr "A sessão do WooCommerce está indisponível."
+
+#. translators: Placeholders: %1$s - WordPress user capability, %2$s - WordPress user role, %3$s - Error message
+#: src/Repositories/WordPress/RolesRepository.php:42
+msgid "Cannot add \"%1$s\" capability to \"%2$s\" user role: %3$s"
+msgstr "Não é possível adicionar a capacidade de “%1$s” à função de usuário “%2$s”: %3$s"
+
+#: src/Repositories/WordPress/RolesRepository.php:45
+msgid "Cannot load WordPress Roles handler."
+msgstr "Não é possível carregar o manejador de funções do WordPress."
+
+#: src/Repositories/WordPress/RolesRepository.php:49
+msgid "User role does not exist."
+msgstr "A função de usuário não existe."
+
+#: src/Repositories/WordPressRepository.php:428
+msgid "User does not have a valid ID."
+msgstr "O usuário não tem uma identificação válida."
+
+#: src/Repositories/WordPressRepository.php:440
+msgid "User could not be logged in."
+msgstr "O usuário não consegue fazer login."
+
+#: src/Settings/Models/AbstractSetting.php:196
+msgid "Invalid value for updating the setting type of %1s: must be one of %2$s, %3$s given."
+msgstr "Valor inválido para atualização do tipo de configuração de %1$s. Deve ser um de %2$s; %3$s fornecido."
+
+#: src/Settings/Models/AbstractSetting.php:255
+msgid "Invalid option to set for %1$s: %2$s"
+msgstr "Opção inválida para %1$s: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:286
+msgid "Invalid default value to set for %1$s: %2$s"
+msgstr "Valor padrão inválido para %1$s: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:316
+msgid "Invalid value to set for %1$s: %2$s"
+msgstr "Valor inválido para %1$s: %2$s"
+
+#: src/Settings/Models/AbstractSetting.php:393
+msgid "Value must be one of the allowed options."
+msgstr "O valor deve ser uma das opções permitidas."
+
+#: src/Settings/Models/AbstractSetting.php:417
+msgid "Value should be type of %1$s, %2$s given."
+msgstr "O valor deve ser tipo de %1$s; %2$s fornecido."
+
+#: src/Settings/Models/Control.php:150
+msgid "Invalid value for updating the control type of %1s: must be one of %2$s."
+msgstr "Valor inválido para atualização do tipo de controle de %1$s. Deve ser um de %2$s."
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:37
+msgid "The name of the setting is required."
+msgstr "O nome da configuração é obrigatório."
+
+#: src/Settings/Traits/CanUpdateSettingsTrait.php:80
+msgid "The name of the setting subgroup is required."
+msgstr "O nome do subgrupo de configuração é obrigatório."
+
+#: src/Settings/Traits/HasSettingsTrait.php:101
+msgid "%s is not a valid setting."
+msgstr "%s é uma configuração inválida."
+
+#: src/Settings/Traits/HasSettingsTrait.php:275
+msgid "The settings objects must be an instance of SettingContract"
+msgstr "Os objetos de configuração devem ser uma instância de SettingContract."
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:46
+msgid "Please use %1$s or %2$s to format a boolean value for reading from or saving to storage."
+msgstr "Use %1$s ou %2$s para formatar um valor booleano de leitura ou para salvar no armazenamento."
+
+#: src/Traits/CanFormatDatabaseSettingValuesTrait.php:143
+msgid "Cannot handle a \"%s\" type to parse a valid boolean value."
+msgstr "Não é possível trabalhar com um tipo “%s” para analisar um valor booleano válido."

@@ -1,0 +1,25 @@
+#gd-marketplaces-order-fields {
+	clear: both;
+	overflow: hidden;
+}
+
+#gd-marketplaces-order-fields > div {
+	float: left;
+	max-width: 200px;
+	width: 50%;
+}
+
+#gd-marketplaces-order-fields > div > h4 {
+	color: var(--mwc-color-gray-400);
+	font-weight: var(--mwc-font-weight-medium);
+}
+
+#gd-marketplaces-order-fields > div > p {
+	color: var(--mwc-color-black);
+	font-weight: var(--mwc-font-weight-normal);
+	margin: 5px 0;
+}
+
+#gd-marketplaces-order-fields img {
+	vertical-align: middle;
+}

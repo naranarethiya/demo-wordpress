@@ -1,0 +1,105 @@
+# Copyright (c) 2021 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Shipping\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-26T03:10:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: mwc-shipping\n"
+
+#: src/Models/Account/Statuses/ConnectedStatus.php:15
+msgid "Connected"
+msgstr "Підключено"
+
+#: src/Models/Account/Statuses/DisconnectedStatus.php:15
+msgid "Disconnected"
+msgstr "Від'єднано"
+
+#: src/Models/Account/Statuses/NotConfiguredStatus.php:15
+msgid "Not Configured"
+msgstr "Не налаштовано"
+
+#: src/Models/Labels/Statuses/CompletedLabelStatus.php:23
+msgid "Completed"
+msgstr "Завершено"
+
+#: src/Models/Labels/Statuses/ErrorLabelStatus.php:23
+msgid "Error"
+msgstr "Помилка"
+
+#: src/Models/Labels/Statuses/ProcessingLabelStatus.php:23
+msgid "Processing"
+msgstr "В обробці"
+
+#: src/Models/Labels/Statuses/VoidedLabelStatus.php:23
+msgid "Voided"
+msgstr "Скасовано"
+
+#: src/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatus.php:25
+msgid "Fulfilled"
+msgstr "Виконано"
+
+#: src/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatus.php:25
+msgid "Partially Fulfilled"
+msgstr "Частково виконано"
+
+#: src/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatus.php:25
+msgid "Unfulfilled"
+msgstr "Не виконано"
+
+#: src/Models/Packages/Statuses/CancelledPackageStatus.php:29
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#: src/Models/Packages/Statuses/CreatedPackageStatus.php:25
+msgid "Created"
+msgstr "Створено"
+
+#: src/Models/Packages/Statuses/LabelCreatedPackageStatus.php:29
+msgid "Label Created"
+msgstr "Створено мітку"
+
+#: src/Models/Packages/Statuses/NotTrackedPackageStatus.php:29
+msgid "Not Tracked"
+msgstr "Не відстежується"
+
+#: src/Providers/AustraliaPost/AustraliaPostProvider.php:26
+msgctxt "shipping provider name"
+msgid "Australia Post"
+msgstr "Пошта Австралії"
+
+#: src/Providers/CanadaPost/CanadaPostProvider.php:26
+msgctxt "shipping provider name"
+msgid "Canada Post"
+msgstr "Пошта Канади"
+
+#: src/Providers/DHL/DHLProvider.php:26
+msgctxt "shipping provider name"
+msgid "DHL"
+msgstr "DHL"
+
+#: src/Providers/FedEx/FedExProvider.php:26
+msgctxt "shipping provider name"
+msgid "FedEx"
+msgstr "FedEx"
+
+#: src/Providers/OnTrac/OnTracProvider.php:26
+msgctxt "shipping provider name"
+msgid "OnTrac"
+msgstr "OnTrac"
+
+#: src/Providers/UPS/UPSProvider.php:26
+msgctxt "shipping provider name"
+msgid "UPS"
+msgstr "UPS"
+
+#: src/Providers/USPS/USPSProvider.php:26
+msgctxt "shipping provider name"
+msgid "USPS"
+msgstr "USPS"

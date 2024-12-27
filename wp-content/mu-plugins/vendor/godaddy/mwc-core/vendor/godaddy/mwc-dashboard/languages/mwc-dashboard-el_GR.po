@@ -1,0 +1,756 @@
+# Copyright (c) GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: MWC Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-30T14:03:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: mwc-dashboard\n"
+
+#. translators: Placeholder: %s - Extension slug identifier (untranslated)
+#: src/API/Controllers/ExtensionsController.php:415
+msgid "Could not find an extension with the given slug: %s."
+msgstr "Δεν ήταν δυνατή η εύρεση επέκτασης με το δεδομένο σύντομο όνομα: %s."
+
+#. translators: Placeholders: %1$s - Version number, %2$s - Extension name
+#: src/API/Controllers/ExtensionsController.php:625
+msgid "Could not find version %1$s of %2$s."
+msgstr "Δεν ήταν δυνατή η εύρεση της έκδοσης %1$s του %2$s."
+
+#: src/API/Controllers/ExtensionsController.php:683
+msgid "The extension ID."
+msgstr "Το αναγνωριστικό της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:689
+msgid "The extension slug."
+msgstr "Το σύντομο όνομα της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:695
+msgid "The extension name."
+msgstr "Το όνομα της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:701
+msgid "The extension short description."
+msgstr "Η σύντομη περιγραφή της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:707
+msgid "The extension type."
+msgstr "Ο τύπος της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:714
+msgid "The extension category."
+msgstr "Η κατηγορία της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:729
+msgid "The extension brand."
+msgstr "Η μάρκα της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:736
+msgid "Information about the extension installed version."
+msgstr "Πληροφορίες σχετικά με την εγκατεστημένη έκδοση της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:740
+#: src/API/Controllers/ExtensionsController.php:812
+msgid "The version number."
+msgstr "Ο αριθμός έκδοσης."
+
+#: src/API/Controllers/ExtensionsController.php:746
+#: src/API/Controllers/ExtensionsController.php:818
+msgid "The required PHP version."
+msgstr "Η απαιτούμενη έκδοση PHP."
+
+#: src/API/Controllers/ExtensionsController.php:752
+#: src/API/Controllers/ExtensionsController.php:824
+msgid "The required WordPress version."
+msgstr "Η απαιτούμενη έκδοση WordPress."
+
+#: src/API/Controllers/ExtensionsController.php:758
+#: src/API/Controllers/ExtensionsController.php:830
+msgid "The required WooCommerce version."
+msgstr "Η απαιτούμενη έκδοση WooCommerce."
+
+#: src/API/Controllers/ExtensionsController.php:764
+#: src/API/Controllers/ExtensionsController.php:836
+msgid "The timestamp in seconds when the version was released."
+msgstr "Η χρονοσήμανση σε δευτερόλεπτα για τον χρόνο κατά τον οποίο κυκλοφόρησε η έκδοση."
+
+#: src/API/Controllers/ExtensionsController.php:770
+#: src/API/Controllers/ExtensionsController.php:842
+msgid "The URL from where the package can be downloaded"
+msgstr "Η διεύθυνση URL από την οποία μπορεί να γίνει λήψη του πακέτου"
+
+#: src/API/Controllers/ExtensionsController.php:776
+msgid "The state of the installed version (whether or not it is the latest version)"
+msgstr "Η κατάσταση της εγκατεστημένης έκδοσης (αν είναι η τελευταία έκδοση είτε όχι)"
+
+#: src/API/Controllers/ExtensionsController.php:787
+msgid "The extension documentation URL."
+msgstr "Η διεύθυνση URL τεκμηρίωσης της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:793
+msgid "Whether or not the extension is featured."
+msgstr "Αν θα εμφανίζεται ως προβεβλημένη ή όχι η επέκταση."
+
+#: src/API/Controllers/ExtensionsController.php:799
+msgid "The extension state."
+msgstr "Η κατάσταση της επέκτασης."
+
+#: src/API/Controllers/ExtensionsController.php:806
+msgid "Information about the versions available for the extension."
+msgstr "Πληροφορίες σχετικά με τις διαθέσιμες εκδόσεις για την επέκταση."
+
+#: src/API/Controllers/FeaturesController.php:179
+msgid "The native feature name."
+msgstr "Το όνομα της εγγενούς δυνατότητας."
+
+#: src/API/Controllers/FeaturesController.php:185
+msgid "The native feature description."
+msgstr "Η περιγραφή της εγγενούς δυνατότητας."
+
+#: src/API/Controllers/FeaturesController.php:191
+msgid "The native feature documentation URL."
+msgstr "Η διεύθυνση URL τεκμηρίωσης της εγγενούς δυνατότητας."
+
+#: src/API/Controllers/FeaturesController.php:197
+msgid "The native feature settings URL, if applicable."
+msgstr "Η διεύθυνση URL των ρυθμίσεων της εγγενούς δυνατότητας, κατά περίπτωση."
+
+#: src/API/Controllers/FeaturesController.php:203
+msgid "The native feature categories."
+msgstr "Οι κατηγορίες της εγγενούς δυνατότητας."
+
+#: src/API/Controllers/FeaturesController.php:223
+msgid "Whether or not the native feature is enabled for this site."
+msgstr "Αν η εγγενής δυνατότητα είναι ενεργοποιημένη ή όχι για αυτόν τον ιστότοπο."
+
+#: src/API/Controllers/MessagesController.php:124
+msgid "ID of the message to be deleted."
+msgstr "Αναγνωριστικό του μηνύματος που θα διαγραφεί."
+
+#. translators: Placeholder: %s - internal name of a component that issued a request that should provide an authentication method
+#: src/API/Controllers/MessagesController.php:243
+msgid "No auth method found for %s"
+msgstr "Δεν βρέθηκε μέθοδος ταυτοποίησης για το %s"
+
+#. translators: Placeholder: %s - error message
+#: src/API/Controllers/MessagesController.php:251
+msgid "Could not retrieve remote messages data: %s"
+msgstr "Δεν ήταν δυνατή η ανάκτηση δεδομένων απομακρυσμένων μηνυμάτων: %s"
+
+#. translators: Placeholders: %d - error code, %s - error message
+#: src/API/Controllers/MessagesController.php:262
+msgid "Could not retrieve remote messages data - API responded with status %d, error: %s"
+msgstr "Δεν ήταν δυνατή η ανάκτηση δεδομένων απομακρυσμένων μηνυμάτων - Το API απάντησε με κατάσταση %d, σφάλμα: %s"
+
+#: src/API/Controllers/MessagesController.php:273
+msgid "Remote messages data is invalid"
+msgstr "Τα δεδομένα απομακρυσμένων μηνυμάτων δεν είναι έγκυρα"
+
+#: src/API/Controllers/MessagesController.php:431
+msgid "Invalid message ID"
+msgstr "Μη έγκυρο αναγνωριστικό μηνύματος"
+
+#: src/API/Controllers/MessagesController.php:575
+msgid "Unique message ID."
+msgstr "Μοναδικό αναγνωριστικό μηνύματος."
+
+#: src/API/Controllers/MessagesController.php:581
+msgid "Message type."
+msgstr "Τύπος μηνύματος."
+
+#: src/API/Controllers/MessagesController.php:587
+msgid "Message subject."
+msgstr "Θέμα μηνύματος."
+
+#: src/API/Controllers/MessagesController.php:593
+msgid "Message body."
+msgstr "Σώμα μηνύματος."
+
+#: src/API/Controllers/MessagesController.php:599
+msgid "Publish date."
+msgstr "Ημερομηνία δημοσίευσης."
+
+#: src/API/Controllers/MessagesController.php:606
+msgid "Expiration date."
+msgstr "Ημερομηνία λήξης."
+
+#: src/API/Controllers/MessagesController.php:613
+msgid "Buttons or links to be displayed with the message."
+msgstr "Κουμπιά ή συνδέσεις που θα εμφανίζονται με το μήνυμα."
+
+#: src/API/Controllers/MessagesController.php:619
+msgid "Action text."
+msgstr "Κείμενο ενέργειας."
+
+#: src/API/Controllers/MessagesController.php:625
+msgid "Action href."
+msgstr "HREF ενέργειας."
+
+#: src/API/Controllers/MessagesController.php:631
+msgid "Action type."
+msgstr "Τύπος ενέργειας."
+
+#: src/API/Controllers/MessagesController.php:643
+msgid "Rules to be evaluated by the client to decide if the message should be displayed or not."
+msgstr "Κανόνες που πρέπει να αξιολογηθούν από τον πελάτη για να αποφασιστεί αν το μήνυμα πρέπει να εμφανιστεί ή όχι."
+
+#: src/API/Controllers/MessagesController.php:650
+msgid "Rule label."
+msgstr "Ετικέτα κανόνα."
+
+#: src/API/Controllers/MessagesController.php:656
+msgid "Rule name."
+msgstr "Όνομα κανόνα."
+
+#: src/API/Controllers/MessagesController.php:662
+msgid "Rule type."
+msgstr "Τύπος κανόνα."
+
+#: src/API/Controllers/MessagesController.php:668
+msgid "Related entity used to evaluate the rule."
+msgstr "Σχετική οντότητα που χρησιμοποιείται για την αξιολόγηση του κανόνα."
+
+#: src/API/Controllers/MessagesController.php:674
+msgid "Element of the related entity used to evaluate the rule."
+msgstr "Στοιχείο της σχετικής οντότητας που χρησιμοποιείται για την αξιολόγηση του κανόνα."
+
+#: src/API/Controllers/MessagesController.php:681
+msgid "Comparison operator used to evaluate the rule."
+msgstr "Τελεστής σύγκρισης χρησιμοποιείται για την αξιολόγηση του κανόνα."
+
+#: src/API/Controllers/MessagesController.php:687
+msgid "Reference value used to evaluate the rule."
+msgstr "Τιμή αναφοράς που χρησιμοποιείται για την αξιολόγηση του κανόνα."
+
+#: src/API/Controllers/MessagesController.php:698
+msgid "Links with data to be retrieved and used to evaluate the rules."
+msgstr "Συνδέσεις με δεδομένα που πρέπει να ανακτηθούν και να χρησιμοποιηθούν για την αξιολόγηση των κανόνων."
+
+#: src/API/Controllers/MessagesController.php:705
+msgid "Link href."
+msgstr "HREF σύνδεσης."
+
+#: src/API/Controllers/MessagesController.php:711
+msgid "Related entity represented by the link."
+msgstr "Σχετική οντότητα που αντιπροσωπεύεται από τη σύνδεση."
+
+#: src/API/Controllers/MessagesController.php:717
+msgid "Request type to retrieve the data."
+msgstr "Τύπος αιτήματος για την ανάκτηση των δεδομένων."
+
+#: src/API/Controllers/MessagesController.php:728
+msgid "Message status for the current user."
+msgstr "Κατάσταση μηνύματος για τον τρέχοντα χρήστη."
+
+#: src/API/Controllers/Orders/ItemsController.php:89
+msgid "The item ID."
+msgstr "Το αναγνωριστικό του είδους."
+
+#: src/API/Controllers/Orders/ItemsController.php:95
+msgid "The product ID."
+msgstr "Το αναγνωριστικό του προϊόντος."
+
+#: src/API/Controllers/Orders/ItemsController.php:101
+msgid "The variation ID."
+msgstr "Το αναγνωριστικό της παραλλαγής."
+
+#: src/API/Controllers/Orders/ItemsController.php:107
+msgid "The name of the product."
+msgstr "Το όνομα του είδους."
+
+#: src/API/Controllers/Orders/ItemsController.php:113
+msgid "The item quantity."
+msgstr "Η ποσότητα του είδους."
+
+#: src/API/Controllers/Orders/ItemsController.php:119
+msgid "The number of unfulfilled items."
+msgstr "Ο αριθμός των μη εκπληρωθέντων ειδών."
+
+#: src/API/Controllers/Orders/ItemsController.php:125
+msgid "The product image."
+msgstr "Η εικόνα του προϊόντος."
+
+#: src/API/Controllers/Orders/ItemsController.php:129
+msgid "Image height."
+msgstr "Ύψος εικόνας."
+
+#: src/API/Controllers/Orders/ItemsController.php:135
+msgid "Image width."
+msgstr "Πλάτος εικόνας."
+
+#: src/API/Controllers/Orders/ItemsController.php:141
+msgid "The image source url"
+msgstr "Το URL προέλευσης της εικόνας"
+
+#: src/API/Controllers/Orders/ItemsController.php:147
+msgid "The image source url list"
+msgstr "Η λίστα URL προέλευσης εικόνας"
+
+#: src/API/Controllers/Orders/ItemsController.php:153
+msgid "Image sizes"
+msgstr "Μεγέθη εικόνων"
+
+#: src/API/Controllers/Orders/OrdersController.php:112
+#: src/API/Controllers/Orders/OrdersController.php:136
+msgid "The order ID."
+msgstr "Το ID της παραγγελίας."
+
+#: src/API/Controllers/Orders/OrdersController.php:118
+msgid "Whether or not the order has been fulfilled."
+msgstr "Αν έχει εκπληρωθεί ή όχι η παραγγελία."
+
+#: src/API/Controllers/Orders/OrdersController.php:124
+msgid "The shipments for the order."
+msgstr "Οι αποστολές για την παραγγελία."
+
+#: src/API/Controllers/Orders/OrdersController.php:130
+msgid "The shipment ID."
+msgstr "Το αναγνωριστικό της αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:142
+msgid "The shipment's creation date."
+msgstr "Η ημερομηνία δημιουργίας της αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:148
+msgid "The shipment's last updated date."
+msgstr "Η ημερομηνία τελευταίας ενημέρωσης της αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:154
+msgid "The shipping provider for the shipment."
+msgstr "Ο πάροχος αποστολής για την αποστολή."
+
+#: src/API/Controllers/Orders/OrdersController.php:160
+msgid "The shipment's tracking number."
+msgstr "Ο αριθμός παρακολούθησης της αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:166
+msgid "The shipment's tracking URL."
+msgstr "Το URL παρακολούθησης της αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:172
+msgid "The items included in the shipment."
+msgstr "Τα είδη που περιλαμβάνονται στην αποστολή."
+
+#: src/API/Controllers/Orders/OrdersController.php:178
+msgid "The item's ID."
+msgstr "Το αναγνωριστικό του είδους."
+
+#: src/API/Controllers/Orders/OrdersController.php:184
+msgid "The product's ID."
+msgstr "Το αναγνωριστικό του προϊόντος."
+
+#: src/API/Controllers/Orders/OrdersController.php:190
+msgid "The product's variation ID."
+msgstr "Το αναγνωριστικό παραλλαγής του προϊόντος."
+
+#: src/API/Controllers/Orders/OrdersController.php:196
+msgid "The item's quantity."
+msgstr "Η ποσότητα του προϊόντος."
+
+#: src/API/Controllers/Orders/OrdersController.php:212
+msgid "The order email address."
+msgstr "Η διεύθυνση email της παραγγελίας."
+
+#: src/API/Controllers/Orders/OrdersController.php:218
+msgid "The order number, distinct from the order ID."
+msgstr "Ο αριθμός παραγγελίας, διαφορετικός από το αναγνωριστικό της παραγγελίας."
+
+#: src/API/Controllers/Orders/OrdersController.php:224
+msgid "Whether the order is considered \"paid.\""
+msgstr "Αν η παραγγελία θεωρείται \"πληρωμένη\"."
+
+#: src/API/Controllers/Orders/OrdersController.php:230
+msgid "The payment provider name (in Woo terms, gateway ID)."
+msgstr "Το όνομα του παρόχου πληρωμής (με όρους Woo, αναγνωριστικό πύλης)."
+
+#: src/API/Controllers/Orders/OrdersController.php:236
+msgid "The overall order status."
+msgstr "Η συνολική κατάσταση της παραγγελίας."
+
+#: src/API/Controllers/Orders/OrdersController.php:242
+msgid "The order total amount"
+msgstr "Το συνολικό ποσό της παραγγελίας"
+
+#: src/API/Controllers/Orders/OrdersController.php:246
+msgid "The full order amount, in the smallest unit of the given currency code."
+msgstr "Το πλήρες ποσό της παραγγελίας, στη μικρότερη μονάδα του δεδομένου κωδικού νομίσματος."
+
+#: src/API/Controllers/Orders/OrdersController.php:252
+msgid "The currency code."
+msgstr "Ο κωδικός νομίσματος."
+
+#: src/API/Controllers/Orders/OrdersController.php:262
+msgid "The order billing address."
+msgstr "Η διεύθυνση χρέωσης της παραγγελίας."
+
+#: src/API/Controllers/Orders/OrdersController.php:266
+#: src/API/Controllers/Orders/OrdersController.php:340
+msgid "An array of administrative districts."
+msgstr "Μια σειρά από διοικητικές περιφέρειες."
+
+#: src/API/Controllers/Orders/OrdersController.php:272
+msgid "The billing address business name."
+msgstr "Το όνομα επιχείρησης της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:278
+msgid "The billing address country code."
+msgstr "Ο κωδικός χώρας της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:284
+msgid "The billing address customers first name."
+msgstr "Το όνομα του πελάτη της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:290
+msgid "The billing address customers last name."
+msgstr "Το επώνυμο του πελάτη της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:296
+msgid "The billing address lines."
+msgstr "Οι γραμμές της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:302
+msgid "The billing address locality."
+msgstr "Η τοποθεσία της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:308
+msgid "The billing address phone number."
+msgstr "Ο αριθμός τηλεφώνου της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:314
+msgid "The billing address postal code."
+msgstr "Ο ταχυδρομικός κώδικας της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:320
+msgid "The billing address sub localities."
+msgstr "Οι δευτερεύουσες τοποθεσίες της διεύθυνσης χρέωσης."
+
+#: src/API/Controllers/Orders/OrdersController.php:330
+msgid "String representation for the billing address"
+msgstr "Αναπαράσταση συμβολοσειράς για τη διεύθυνση χρέωσης"
+
+#: src/API/Controllers/Orders/OrdersController.php:336
+msgid "The order shipping address."
+msgstr "Η διεύθυνση αποστολής της παραγγελίας."
+
+#: src/API/Controllers/Orders/OrdersController.php:346
+msgid "The shipping address business name."
+msgstr "Το όνομα επιχείρησης της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:352
+msgid "The shipping address country code."
+msgstr "Ο κωδικός χώρας της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:358
+msgid "The shipping address customers first name."
+msgstr "Το όνομα του πελάτη της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:364
+msgid "The shipping address customers last name."
+msgstr "Το επώνυμο του πελάτη της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:370
+msgid "The shipping address lines."
+msgstr "Οι γραμμές της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:376
+msgid "The shipping address locality."
+msgstr "Η τοποθεσία της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:382
+msgid "The shipping address phone number."
+msgstr "Ο αριθμός τηλεφώνου της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:388
+msgid "The shipping address postal code."
+msgstr "Ο ταχυδρομικός κώδικας της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:394
+msgid "The shipping address sub localities."
+msgstr "Οι δευτερεύουσες τοποθεσίες της διεύθυνσης αποστολής."
+
+#: src/API/Controllers/Orders/OrdersController.php:404
+msgid "String representation for the shipping address"
+msgstr "Αναπαράσταση συμβολοσειράς για τη διεύθυνση αποστολής"
+
+#: src/API/Controllers/Orders/OrdersController.php:410
+msgid "Marketplaces information for the order."
+msgstr "Πληροφορίες αγορών για την παραγγελία."
+
+#: src/API/Controllers/Orders/OrdersController.php:414
+msgid "The corresponding Marketplaces order number."
+msgstr "Ο αριθμός παραγγελίας στις αντίστοιχες αγορές."
+
+#: src/API/Controllers/Orders/OrdersController.php:420
+msgid "The Marketplaces channel unique identifier."
+msgstr "Το μοναδικό αναγνωριστικό καναλιού αγορών."
+
+#: src/API/Controllers/Orders/OrdersController.php:426
+msgid "The Marketplaces channel name."
+msgstr "Το όνομα καναλιού αγορών."
+
+#: src/API/Controllers/Orders/OrdersController.php:432
+msgid "The Marketplaces channel display type name."
+msgstr "Το όνομα τύπου εμφάνισης καναλιού αγορών."
+
+#: src/API/Controllers/PluginsController.php:53
+msgid "The plugin's slug."
+msgstr "Το σύντομο όνομα της προσθήκης."
+
+#: src/API/Controllers/PluginsController.php:59
+msgid "The plugin's name."
+msgstr "Το όνομα της προσθήκης."
+
+#: src/API/Controllers/PluginsController.php:65
+msgid "Whether or not the plugin is a MWC managed plugin"
+msgstr "Αν η προσθήκη είναι ή όχι προσθήκη τη διαχείριση της οποίας κάνει το MWC"
+
+#: src/API/Controllers/PluginsController.php:70
+msgid "The plugin's WooCommerce.com subscription status."
+msgstr "Η κατάσταση συνδρομής WooCommerce.com της προσθήκης."
+
+#: src/API/Controllers/PluginsController.php:77
+msgid "The plugin documentation URL"
+msgstr "Η διεύθυνση URL τεκμηρίωσης της προσθήκης"
+
+#: src/API/Controllers/Shipping/ProvidersController.php:62
+msgid "The shipping provider label."
+msgstr "Η ετικέτα του παρόχου αποστολής."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:68
+msgid "The shipping provider name."
+msgstr "Το όνομα του παρόχου αποστολής."
+
+#: src/API/Controllers/Shipping/ProvidersController.php:74
+msgid "The shipping provider tracking URL format."
+msgstr "Η μορφή της διεύθυνσης URL παρακολούθησης του παρόχου αποστολής."
+
+#: src/API/Controllers/ShopController.php:64
+msgid "The default store ID to set for the current channel"
+msgstr "Το προεπιλεγμένο αναγνωριστικό καταστήματος που θα οριστεί για το τρέχον κανάλι"
+
+#: src/API/Controllers/ShopController.php:70
+msgid "The business ID"
+msgstr "Το αναγνωριστικό της επιχείρησης"
+
+#: src/API/Controllers/ShopController.php:243
+msgid "Site ID."
+msgstr "Αναγνωριστικό ιστότοπου."
+
+#: src/API/Controllers/ShopController.php:249
+msgid "Site URL."
+msgstr "URL ιστότοπου."
+
+#: src/API/Controllers/ShopController.php:255
+msgid "Default store ID."
+msgstr "Προεπιλεγμένο αναγνωριστικό καταστήματος."
+
+#: src/API/Controllers/ShopController.php:261
+msgid "Current admin user's email."
+msgstr "Το email του τρέχοντος χρήστη-διαχειριστή."
+
+#: src/API/Controllers/ShopController.php:267
+msgid "Support user's email, if a support user exists."
+msgstr "Το email του χρήστη υποστήριξης, εφόσον υπάρχει χρήστης υποστήριξης."
+
+#: src/API/Controllers/ShopController.php:273
+msgid "Whether or not the site is connected to the support bot."
+msgstr "Αν ο ιστότοπος είναι συνδεδεμένος ή όχι με το bot υποστήριξης."
+
+#: src/API/Controllers/ShopController.php:279
+msgid "Whether or not the site is connected to WooCommerce.com."
+msgstr "Αν ο ιστότοπος είναι συνδεδεμένος ή όχι με το WooCommerce.com."
+
+#: src/API/Controllers/ShopController.php:285
+msgid "Dashboard type (MWC or empty)."
+msgstr "Τύπος πίνακα εργασιών (MWC ή κενό)."
+
+#: src/API/Controllers/ShopController.php:291
+msgid "Whether or not the site is sold by a reseller."
+msgstr "Αν ο ιστότοπος πωλείται ή όχι από μεταπωλητή."
+
+#: src/API/Controllers/ShopController.php:297
+msgid "The reseller private label ID (1 means GoDaddy, so not a reseller)."
+msgstr "Το αναγνωριστικό ιδιωτικής ετικέτας μεταπωλητή (1 σημαίνει GoDaddy, δηλαδή δεν πρόκειται για μεταπωλητή)."
+
+#: src/API/Controllers/ShopController.php:303
+msgid "URL to connect the site to the support bot."
+msgstr "URL για σύνδεση του ιστότοπου με το bot υποστήριξης."
+
+#: src/API/Controllers/ShopController.php:309
+msgid "Whether or not the current user is opted in to receive MWC Dashboard messages."
+msgstr "Αν ο τρέχων χρήστης έχει συναινέσει ή όχι να λαμβάνει μηνύματα στον πίνακα εργασιών MWC."
+
+#: src/API/Controllers/ShopController.php:315
+msgid "The Shop page's creation date."
+msgstr "Η ημερομηνία δημιουργίας της σελίδας του καταστήματος."
+
+#: src/API/Controllers/ShopController.php:324
+msgid "Address line 1"
+msgstr "Γραμμή διεύθυνσης 1"
+
+#: src/API/Controllers/ShopController.php:330
+msgid "Address line 2"
+msgstr "Γραμμή διεύθυνσης 2"
+
+#: src/API/Controllers/ShopController.php:336
+#: src/API/Controllers/ShopController.php:401
+msgid "City"
+msgstr "Πόλη"
+
+#: src/API/Controllers/ShopController.php:342
+msgid "Country"
+msgstr "Χώρα"
+
+#: src/API/Controllers/ShopController.php:348
+msgid "State"
+msgstr "Πολιτεία"
+
+#: src/API/Controllers/ShopController.php:354
+#: src/API/Controllers/ShopController.php:413
+msgid "Postal code"
+msgstr "Ταχυδρομικός κώδικας"
+
+#: src/API/Controllers/ShopController.php:365
+msgid "Administrative districts"
+msgstr "Διοικητικές περιφέρειες"
+
+#: src/API/Controllers/ShopController.php:371
+msgid "Business name"
+msgstr "Όνομα επιχείρησης"
+
+#: src/API/Controllers/ShopController.php:377
+msgid "Country code"
+msgstr "Κωδικός χώρας"
+
+#: src/API/Controllers/ShopController.php:383
+msgid "First name"
+msgstr "Όνομα"
+
+#: src/API/Controllers/ShopController.php:389
+msgid "Last name"
+msgstr "Επώνυμο"
+
+#: src/API/Controllers/ShopController.php:395
+msgid "Address lines"
+msgstr "Γραμμές διεύθυνσης"
+
+#: src/API/Controllers/ShopController.php:407
+msgid "Phone number"
+msgstr "Αριθμός τηλεφώνου"
+
+#: src/API/Controllers/ShopController.php:419
+msgid "Sub localities"
+msgstr "Δευτερεύουσες τοποθεσίες"
+
+#: src/API/Controllers/ShopController.php:427
+msgid "Formatted address"
+msgstr "Μορφοποιημένη διεύθυνση"
+
+#: src/API/Controllers/ShopController.php:433
+msgid "Whether or not the site email notifications feature is active."
+msgstr "Αν είναι ενεργή ή όχι η δυνατότητα ειδοποιήσεων μέσω email του ιστότοπου."
+
+#: src/API/Controllers/ShopController.php:439
+msgid "Whether or not the site email notifications feature is enabled."
+msgstr "Αν είναι ενεργοποιημένη ή όχι η δυνατότητα ειδοποιήσεων μέσω email του ιστότοπου."
+
+#: src/API/Controllers/ShopController.php:445
+msgid "Whether the site is currently overriding any of the WooCommerce email templates."
+msgstr "Αν ο ιστότοπος παρακάμπτει προς το παρόν οποιοδήποτε από τα πρότυπα email του WooCommerce."
+
+#: src/API/Controllers/ShopController.php:454
+msgid "Configured weight unit"
+msgstr "Ρύθμιση μονάδας βάρους"
+
+#: src/API/Controllers/SupportController.php:69
+msgid "The e-mail address the support team will reply to"
+msgstr "Η διεύθυνση email στην οποία θα απαντά η ομάδα υποστήριξης"
+
+#: src/API/Controllers/SupportController.php:74
+msgid "The plugin slug"
+msgstr "Το σύντομο όνομα της προσθήκης"
+
+#: src/API/Controllers/SupportController.php:80
+msgid "The subject"
+msgstr "Το θέμα"
+
+#: src/API/Controllers/SupportController.php:86
+msgid "The message"
+msgstr "Το μήνυμα"
+
+#: src/API/Controllers/SupportController.php:92
+msgid "The reason field"
+msgstr "Το πεδίο αιτίας"
+
+#: src/API/Controllers/SupportController.php:97
+msgid "Whether or not to create a debug user"
+msgstr "Αν θα δημιουργηθεί ή όχι χρήστης εντοπισμού σφαλμάτων"
+
+#: src/API/Controllers/UserController.php:65
+msgid "The current user information."
+msgstr "Τα στοιχεία του τρέχοντος χρήστη."
+
+#: src/API/Controllers/UserController.php:85
+msgid "The ID of the current user."
+msgstr "Το αναγνωριστικό του τρέχοντος χρήστη."
+
+#: src/API/Controllers/UserController.php:91
+msgid "The marketing permissions."
+msgstr "Τα δικαιώματα μάρκετινγκ."
+
+#: src/API/Controllers/UserController.php:95
+msgid "Whether to show extensions recommendations."
+msgstr "Αν θα εμφανίζονται ή όχι προτάσεις επεκτάσεων."
+
+#: src/Dashboard.php:197
+msgid "<strong>Heads up!</strong> We've deactivated the SkyVerge Dashboard plugin since you now have access to the dashboard via the Get Help menu!"
+msgstr "<strong>Προειδοποίηση!</strong> Απενεργοποιήσαμε την προσθήκη του πίνακα εργασιών SkyVerge, καθώς έχετε πλέον πρόσβαση στον πίνακα εργασιών μέσω του μενού Λήψη βοήθειας!"
+
+#: src/Menu/GetHelpMenu.php:120
+msgctxt "Page title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Λήψη βοήθειας"
+
+#: src/Pages/GetHelpPage.php:29
+msgctxt "Menu title for requesting GoDaddy support assistance via form"
+msgid "Get Help"
+msgstr "Λήψη βοήθειας"
+
+#: src/Pages/WooCommerceExtensionsPage.php:54
+msgid "WooCommerce extensions"
+msgstr "Επεκτάσεις WooCommerce"
+
+#: src/Pages/WooCommerceExtensionsPage.php:55
+msgctxt "WooCommerce extensions"
+msgid "Extensions"
+msgstr "Επεκτάσεις"
+
+#. translators: Placeholder: %s - WooCommerce extensions count HTML
+#: src/Pages/WooCommerceExtensionsPage.php:112
+msgid "Extensions %s"
+msgstr "Επεκτάσεις: %s"
+
+#: src/Pages/WooCommerceExtensionsPage.php:407
+msgctxt "WooCommerce extensions"
+msgid "Included Extensions"
+msgstr "Επεκτάσεις που περιλαμβάνονται"
+
+#: src/Pages/WooCommerceExtensionsPage.php:408
+msgctxt "WooCommerce extensions"
+msgid "GoDaddy Included Extensions"
+msgstr "Επεκτάσεις που περιλαμβάνονται από την GoDaddy"
+
+#: src/Repositories/WooCommercePluginsRepository.php:215
+msgid "No subscription"
+msgstr "Καμία συνδρομή"
+
+#: src/Repositories/WooCommercePluginsRepository.php:219
+msgctxt "Lifetime subscription"
+msgid "Lifetime"
+msgstr "Εφ' όρου ζωής"

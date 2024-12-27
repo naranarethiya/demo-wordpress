@@ -1,0 +1,927 @@
+{
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
+            },
+            "time": "2022-08-20T06:45:11+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "matomo",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "./installers"
+        },
+        {
+            "name": "gdcorp-wordpress/limit-login-attempts-reloaded",
+            "version": "2.26.13",
+            "version_normalized": "2.26.13.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/limit-login-attempts-reloaded.git",
+                "reference": "87b832179ca4c1e250286ce9a5fc5f9a95a96f88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/limit-login-attempts-reloaded/zipball/87b832179ca4c1e250286ce9a5fc5f9a95a96f88",
+                "reference": "87b832179ca4c1e250286ce9a5fc5f9a95a96f88",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~v2.2.0"
+            },
+            "time": "2024-08-30T00:20:22+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "description": "A WordPress plugin for limiting login attempts and improving security on login forms",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/limit-login-attempts-reloaded/tree/2.26.13",
+                "issues": "https://github.com/gdcorp-wordpress/limit-login-attempts-reloaded/issues"
+            },
+            "install-path": "../gdcorp-wordpress/limit-login-attempts-reloaded"
+        },
+        {
+            "name": "gdcorp-wordpress/mwp-cron",
+            "version": "v1.1",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/mwp-cron.git",
+                "reference": "0bf8b2a0f098e986ed8fbab1ae8ca844de8e43af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/mwp-cron/zipball/0bf8b2a0f098e986ed8fbab1ae8ca844de8e43af",
+                "reference": "0bf8b2a0f098e986ed8fbab1ae8ca844de8e43af",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~v2.2.0"
+            },
+            "time": "2023-02-22T12:52:04+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "description": "A WordPress plugin for managing cron jobs",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/mwp-cron/tree/v1.1",
+                "issues": "https://github.com/gdcorp-wordpress/mwp-cron/issues"
+            },
+            "install-path": "../../gd-system-plugin/plugins/mwp-cron"
+        },
+        {
+            "name": "gdcorp-wordpress/system-plugin-worker",
+            "version": "4.9.20",
+            "version_normalized": "4.9.20.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/system-plugin-worker.git",
+                "reference": "412b86667066e6aa3af676185ca29f73943919ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/system-plugin-worker/zipball/412b86667066e6aa3af676185ca29f73943919ca",
+                "reference": "412b86667066e6aa3af676185ca29f73943919ca",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~v2.2.0"
+            },
+            "time": "2024-05-16T00:13:53+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "description": "A pre-built ManageWP worker WordPress plugin",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/system-plugin-worker/tree/4.9.20",
+                "issues": "https://github.com/gdcorp-wordpress/system-plugin-worker/issues"
+            },
+            "install-path": "../gdcorp-wordpress/system-plugin-worker"
+        },
+        {
+            "name": "godaddy-wordpress/styles",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/godaddy-wordpress/styles.git",
+                "reference": "bf7b266ff45716019e5357786f73eb880ff0deb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/godaddy-wordpress/styles/zipball/bf7b266ff45716019e5357786f73eb880ff0deb5",
+                "reference": "bf7b266ff45716019e5357786f73eb880ff0deb5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+                "johnpbloch/wordpress-core": "^5.9",
+                "mikey179/vfsstream": "^1.6",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^5",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.8",
+                "yoast/phpunit-polyfills": "^1.0.1"
+            },
+            "time": "2022-11-30T16:26:46+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GoDaddy\\Styles\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "GoDaddy",
+                    "homepage": "https://godaddy.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/godaddy-wordpress/styles/issues",
+                "source": "https://github.com/godaddy-wordpress/styles/tree/2.0.2"
+            },
+            "install-path": "../godaddy-wordpress/styles"
+        },
+        {
+            "name": "godaddy/mwc-core",
+            "version": "4.6.2",
+            "version_normalized": "4.6.2.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/mwc-core.git",
+                "reference": "5a9e982998af39e4efbb1ee69710f01c098f41a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/mwc-core/zipball/5a9e982998af39e4efbb1ee69710f01c098f41a7",
+                "reference": "5a9e982998af39e4efbb1ee69710f01c098f41a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4 <8.3"
+            },
+            "time": "2024-11-22T01:34:14+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Simplified eCommerce for WordPress by GoDaddy.",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/mwc-core/tree/4.6.2",
+                "issues": "https://github.com/gdcorp-wordpress/mwc-core/issues"
+            },
+            "install-path": "../godaddy/mwc-core"
+        },
+        {
+            "name": "illuminate/container",
+            "version": "v9.52.16",
+            "version_normalized": "9.52.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/container.git",
+                "reference": "1641dda2d0750b68bb1264a3b37ff3973f2e6265"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/1641dda2d0750b68bb1264a3b37ff3973f2e6265",
+                "reference": "1641dda2d0750b68bb1264a3b37ff3973f2e6265",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^9.0",
+                "php": "^8.0.2",
+                "psr/container": "^1.1.1|^2.0.1"
+            },
+            "provide": {
+                "psr/container-implementation": "1.1|2.0"
+            },
+            "time": "2023-01-24T16:54:18+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Container\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Container package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "install-path": "../illuminate/container"
+        },
+        {
+            "name": "illuminate/contracts",
+            "version": "v9.52.16",
+            "version_normalized": "9.52.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/contracts.git",
+                "reference": "44f65d723b13823baa02ff69751a5948bde60c22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/44f65d723b13823baa02ff69751a5948bde60c22",
+                "reference": "44f65d723b13823baa02ff69751a5948bde60c22",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0.2",
+                "psr/container": "^1.1.1|^2.0.1",
+                "psr/simple-cache": "^1.0|^2.0|^3.0"
+            },
+            "time": "2023-02-08T14:36:30+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Contracts\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Contracts package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "install-path": "../illuminate/contracts"
+        },
+        {
+            "name": "psr/container",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "time": "2021-11-05T16:47:00+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
+            },
+            "install-path": "../psr/container"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "time": "2021-10-29T13:26:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+            },
+            "install-path": "../psr/simple-cache"
+        },
+        {
+            "name": "wpex/expert-banner",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/expert-banner.git",
+                "reference": "7c54518b21396591129096767d957faaf0f4309f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/expert-banner/zipball/7c54518b21396591129096767d957faaf0f4309f",
+                "reference": "7c54518b21396591129096767d957faaf0f4309f",
+                "shasum": ""
+            },
+            "time": "2024-04-26T22:01:19+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "scripts": {
+                "prepare-release": [
+                    "bash bin/prepare-release.sh"
+                ]
+            },
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "GoDaddy",
+                    "homepage": "https://godaddy.com"
+                }
+            ],
+            "description": "WPEX WordPress plugin for Expert Banner. Provides a link to expert services in the header of the editor screen. Intended to be used as a sub-plugin of System Plugin.",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/expert-banner/tree/1.1.1",
+                "issues": "https://github.com/gdcorp-wordpress/expert-banner/issues"
+            },
+            "install-path": "../wpex/expert-banner"
+        },
+        {
+            "name": "wpex/godaddy-launch",
+            "version": "2.14.1",
+            "version_normalized": "2.14.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/godaddy-launch.git",
+                "reference": "34bb87fcaa6980980c1c066852deadb321c15986"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/godaddy-launch/zipball/34bb87fcaa6980980c1c066852deadb321c15986",
+                "reference": "34bb87fcaa6980980c1c066852deadb321c15986",
+                "shasum": ""
+            },
+            "require": {
+                "godaddy-wordpress/styles": "^2.0",
+                "illuminate/container": "^9",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "coenjacobs/mozart": "^0.7.1",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+                "godaddy-wordpress/json2po": "^1.0",
+                "godaddy-wordpress/pot2json": "^1.0",
+                "johnpbloch/wordpress-core": "^6.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^6.1",
+                "yoast/phpunit-polyfills": "^1.1.0"
+            },
+            "time": "2024-10-24T19:50:43+00:00",
+            "type": "wordpress-plugin",
+            "extra": {
+                "mozart": {
+                    "dep_namespace": "GoDaddy\\WordPress\\Plugins\\Launch\\Dependencies\\",
+                    "dep_directory": "/includes/Dependencies/",
+                    "classmap_directory": "/includes/classes/dependencies/",
+                    "classmap_prefix": "GDL_"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GoDaddy\\WordPress\\Plugins\\Launch\\": "includes"
+                }
+            },
+            "scripts": {
+                "lint": [
+                    "phpcs --standard=phpcs.xml"
+                ],
+                "format": [
+                    "phpcbf --standard=phpcs.xml --report-summary --report-source"
+                ],
+                "test": [
+                    "phpunit"
+                ],
+                "prepare-release": [
+                    "bash .dev/bin/prepare-release.sh"
+                ],
+                "build-release": [
+                    "rm -r ./vendor",
+                    "@composer dump-autoload --optimize",
+                    "git archive $(git branch --show-current) -o \"../godaddy-launch-$(cat godaddy-launch.php | grep Version | sed 's/* Version://g' | awk '{$1=$1};1').zip\"",
+                    "@composer install",
+                    "echo \"Archive available at ../godaddy-launch-$(cat godaddy-launch.php | grep Version | sed 's/* Version://g' | awk '{$1=$1};1').zip\""
+                ],
+                "mozart-compose": [
+                    "\"vendor/bin/mozart\" compose",
+                    "composer dump-autoload",
+                    "@php -r \"copy('https://raw.githubusercontent.com/php-fig/container/master/LICENSE', 'includes/Dependencies/Psr/Container/LICENSE');\"",
+                    "find ./includes/Dependencies/Illuminate -type d ! -name Illuminate ! -name Contracts ! -name Container -exec rm -rf {} 2> /dev/null \\; || true",
+                    "find ./includes/Dependencies/Psr -type d ! -name Psr ! -name Container -exec rm -rf {} 2> /dev/null \\; || true",
+                    "find ./includes/Dependencies/GoDaddy/Styles -type f ! -name StylesLoader.php ! -name \"*.css\" -exec rm -rf {} 2> /dev/null \\; || true",
+                    "rm -rf ./includes/Dependencies/GoDaddy/Styles/phpunit; rm -rf ./includes/Dependencies/GoDaddy/Styles/src;"
+                ]
+            },
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "GoDaddy",
+                    "homepage": "https://godaddy.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/godaddy-launch/tree/2.14.1",
+                "issues": "https://github.com/gdcorp-wordpress/godaddy-launch/issues"
+            },
+            "install-path": "../wpex/godaddy-launch"
+        },
+        {
+            "name": "wpex/stock-photos",
+            "version": "v1.2.1",
+            "version_normalized": "1.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/stock-photos.git",
+                "reference": "283be0d9080843eecd8c70c3e1722e617be55025"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/stock-photos/zipball/283be0d9080843eecd8c70c3e1722e617be55025",
+                "reference": "283be0d9080843eecd8c70c3e1722e617be55025",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "time": "2023-09-07T02:17:20+00:00",
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$name}/": [
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "scripts": {
+                "post-install-cmd": [
+                    "npm install"
+                ],
+                "build-release": [
+                    "git archive $(git branch --show-current) -o \"../stock-photos-$(cat stock-photos.php | grep Version | sed 's/* Version://g' | awk '{$1=$1};1').zip\""
+                ],
+                "lint": [
+                    "@php ./vendor/bin/phpcs"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Import beautiful, curated stock photos for your website.",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/stock-photos/tree/v1.2.1"
+            },
+            "install-path": "../wpex/stock-photos"
+        },
+        {
+            "name": "wpsec/wp-2fa-plugin",
+            "version": "v1.0.6",
+            "version_normalized": "1.0.6.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/wpsec-wp-2fa-plugin.git",
+                "reference": "d88b4a9d964e43c3be276d8b1e93867c66e0810d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/wpsec-wp-2fa-plugin/zipball/d88b4a9d964e43c3be276d8b1e93867c66e0810d",
+                "reference": "d88b4a9d964e43c3be276d8b1e93867c66e0810d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-zlib": "*"
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.4.2",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "3.*",
+                "wp-coding-standards/wpcs": "^2.3.0",
+                "wpsec/wp-mock-test-abstraction": "dev-main"
+            },
+            "time": "2022-12-26T13:07:25+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Wpsec\\twofa\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Wpsec\\twofa\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "phpunit": [
+                    "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml"
+                ],
+                "test-coverage-github": [
+                    "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-text"
+                ],
+                "test-coverage-html": [
+                    "XDEBUG_MODE=coverage vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-html=html-coverage"
+                ],
+                "phpcs": [
+                    "./vendor/bin/phpcs --standard=phpcs.ruleset.xml src/"
+                ],
+                "phpcs-test": [
+                    "./vendor/bin/phpcs --standard=phpcs.ruleset.xml tests/"
+                ],
+                "phpcbf": [
+                    "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml src/"
+                ],
+                "phpcbf-test": [
+                    "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml tests/"
+                ]
+            },
+            "description": "WPSEC - WordPress 2FA Plugin (Plugin that secure login with 2FA)",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/wpsec-wp-2fa-plugin/tree/v1.0.6",
+                "issues": "https://github.com/gdcorp-wordpress/wpsec-wp-2fa-plugin/issues"
+            },
+            "install-path": "../wpsec/wp-2fa-plugin"
+        },
+        {
+            "name": "wpsec/wp-captcha-plugin",
+            "version": "v1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/wpsec-wp-captcha-plugin.git",
+                "reference": "531c5a2e5af41774d45a5cd6ba9004fdc34c9975"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/wpsec-wp-captcha-plugin/zipball/531c5a2e5af41774d45a5cd6ba9004fdc34c9975",
+                "reference": "531c5a2e5af41774d45a5cd6ba9004fdc34c9975",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*"
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.4.2",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "3.*",
+                "wp-coding-standards/wpcs": "^2.3.0",
+                "wpsec/wp-mock-test-abstraction": "dev-main"
+            },
+            "time": "2022-12-09T15:09:14+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Wpsec\\captcha\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Wpsec\\captcha\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "phpunit": [
+                    "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml"
+                ],
+                "test-coverage-github": [
+                    "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-text"
+                ],
+                "test-coverage-html": [
+                    "XDEBUG_MODE=coverage vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-html=html-coverage"
+                ],
+                "phpcs": [
+                    "./vendor/bin/phpcs --standard=phpcs.ruleset.xml src/"
+                ],
+                "phpcs-test": [
+                    "./vendor/bin/phpcs --standard=phpcs.ruleset.xml tests/"
+                ],
+                "phpcbf": [
+                    "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml src/"
+                ],
+                "phpcbf-test": [
+                    "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml tests/"
+                ]
+            },
+            "description": "WPSEC - WordPress Captcha Plugin (Bruteforce plugin that secure login with image captcha and IP check)",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/wpsec-wp-captcha-plugin/tree/v1.0.2",
+                "issues": "https://github.com/gdcorp-wordpress/wpsec-wp-captcha-plugin/issues"
+            },
+            "install-path": "../wpsec/wp-captcha-plugin"
+        },
+        {
+            "name": "wptool/wp-admin-dash",
+            "version": "v1.0.15",
+            "version_normalized": "1.0.15.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-wordpress/wptool-wp-admin-dash.git",
+                "reference": "3e42226eba22730ded9c16a39f125498986fbef7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-wordpress/wptool-wp-admin-dash/zipball/3e42226eba22730ded9c16a39f125498986fbef7",
+                "reference": "3e42226eba22730ded9c16a39f125498986fbef7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*"
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.4.2",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "3.*",
+                "wp-coding-standards/wpcs": "^2.3.0",
+                "wpsec/wp-mock-test-abstraction": "dev-main"
+            },
+            "time": "2024-08-06T22:19:07+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Wptool\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Wptool\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "phpunit": [
+                    "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml"
+                ],
+                "test-coverage-github": [
+                    "vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-text"
+                ],
+                "test-coverage-html": [
+                    "XDEBUG_MODE=coverage vendor/bin/phpunit --configuration tests/phpunit/phpunit.xml --coverage-html=html-coverage"
+                ],
+                "phpcs": [
+                    "./vendor/bin/phpcs --standard=phpcs.ruleset.xml src/"
+                ],
+                "phpcs-test": [
+                    "./vendor/bin/phpcs --standard=phpcs.ruleset.xml tests/"
+                ],
+                "phpcbf": [
+                    "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml src/"
+                ],
+                "phpcbf-test": [
+                    "./vendor/bin/phpcbf --standard=phpcs.ruleset.xml tests/"
+                ]
+            },
+            "description": "WPTOOL - WordPress Admin Dashboard Plugin",
+            "support": {
+                "source": "https://github.com/gdcorp-wordpress/wptool-wp-admin-dash/tree/v1.0.15",
+                "issues": "https://github.com/gdcorp-wordpress/wptool-wp-admin-dash/issues"
+            },
+            "install-path": "../wptool/wp-admin-dash"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

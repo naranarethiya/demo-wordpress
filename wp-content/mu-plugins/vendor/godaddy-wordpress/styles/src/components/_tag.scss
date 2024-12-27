@@ -1,0 +1,25 @@
+/*
+ * <span className="ux-tag">Some label</span>
+ */
+
+.ux-tag {
+	border-radius: 4px;
+	color: #000;
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: .05625rem;
+	line-height: 1.5;
+	padding-block: $ux-space-padding;
+	padding-inline: $ux-space-padding;
+	text-transform: uppercase;
+	white-space: nowrap;
+
+	&-critical { background-color: $ux-feedback-critical; }
+	&-highlight { background-color: $ux-feedback-highlight; }
+	&-info { background-color: $ux-feedback-info; }
+	&-internal { background-color: $ux-feedback-internal; }
+	&-neutral { background-color: $ux-feedback-neutral; }
+	&-passive { background-color: $ux-feedback-passive; }
+	&-success { background-color: $ux-feedback-success; }
+	&-warning { background-color: $ux-feedback-warning; }
+}

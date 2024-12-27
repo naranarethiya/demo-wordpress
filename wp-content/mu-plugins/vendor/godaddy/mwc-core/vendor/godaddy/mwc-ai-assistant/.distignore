@@ -1,0 +1,16 @@
+dev/*
+package.json
+yarn.lock
+rollup.config.*
+tsconfig.json
+.distignore
+.git
+.github
+.gitignore
+.vscode
+tests
+codeception.yml
+composer.json
+composer.lock
+.DS_Store
+node_modules

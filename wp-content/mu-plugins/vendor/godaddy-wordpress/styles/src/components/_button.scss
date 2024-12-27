@@ -1,0 +1,100 @@
+/*
+ * import { Button } from '@wordpress/components'
+ */
+.components-button,
+&.components-button {
+	border: 0;
+	border-radius: 6px;
+	box-shadow: none;
+	font-size: 1em;
+	height: auto;
+	line-height: 1;
+	padding: 1.25em;
+	transition: background-color, color, 0.2s ease-in-out;
+
+	&:disabled {
+		opacity: 0.5;
+	}
+
+	& > svg {
+		height: 24px;
+		margin-left: 0.2em;
+		position: relative;
+		right: -5px;
+		top: -1px;
+		transform: scale(0.75);
+		width: 24px;
+	}
+
+	// Without extra padding
+	&.no-padding {
+		padding: 0;
+	}
+
+	// isBig
+	&.is-big {
+		font-size: 1.1em;
+		font-weight: 600;
+		padding: 1.5em;
+	}
+
+	// <Button variant="primary" />
+	&.is-primary {
+		background-color: #000;
+		box-shadow: none;
+		color: #fff;
+
+		&:hover:not([disabled]),
+		&:active:not([disabled]) {
+			background-color: $godaddy-color-brand;
+		}
+	}
+
+	// <Button variant="secondary" />
+	&.is-secondary {
+		box-shadow: none;
+		color: $godaddy-color-black;
+
+		&:hover:not([disabled]),
+		&:active:not([disabled]) {
+			border: 0;
+			box-shadow: none;
+			color: #000;
+		}
+	}
+
+	// <Button variant="tertiary" />
+	&.is-tertiary {
+		border: 1px solid #111;
+		color: #111;
+
+		&:hover {
+			background-color: #111;
+			box-shadow: none;
+			color: #fff;
+		}
+	}
+
+	// <Button variant="link" />
+	&.is-link {
+		box-shadow: none;
+		color: $godaddy-color-brand;
+		padding: 0;
+		text-decoration: none;
+
+		&:hover:not([disabled]),
+		&:active:not([disabled]) {
+			color: $godaddy-color-black;
+			outline: none;
+		}
+	}
+
+	// with icon (close button)
+	&.has-icon {
+		&:hover:not([disabled]),
+		&:active:not([disabled]) {
+			background-color: transparent;
+			color: $godaddy-color-brand;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.godaddy-styles,
+#wpadminbar > .godaddy-styles {
+	* {
+		font-family: "GD Sherpa", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		line-height: 1.4;
+	}
+
+	@import "./variables";
+
+	@import "./utilities";
+
+	@import "./components/button";
+	@import "./components/modal";
+	@import "./components/tag";
+	@import "./components/toggle";
+}

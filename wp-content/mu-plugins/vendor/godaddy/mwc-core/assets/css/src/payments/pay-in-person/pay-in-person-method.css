@@ -1,0 +1,365 @@
+div#mwc-payments-godaddy-sip-settings + .submit button {
+	background-color: primary;
+	font-family: sans;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: primary;
+	border: 1px solid;
+	border-color: primary;
+	border-radius: sm;
+	box-shadow: default;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 3;
+	font-weight: medium;
+	line-height: none;
+	padding-top: 0.4375rem;
+	padding-right: 3;
+	padding-bottom: 0.4375rem;
+	padding-left: 3;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+div#mwc-payments-godaddy-sip-settings + .submit button:hover {
+	background: gray-600;
+}
+
+div#mwc-payments-godaddy-sip-settings + .submit button:focus {
+	border-radius: default;
+	box-shadow: 0 0 0 2px white, 0 0 0 4px #000, 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+}
+
+div#mwc-payments-godaddy-sip-settings + .submit {
+	margin-top: 0;
+	padding-top: 5;
+	padding-bottom: 5;
+	background-color: white;
+	padding-left: 5;
+	border-top: 1px solid;
+	border-color: white;
+}
+
+.mwc-payments-godaddy-sip {
+	background: white;
+	padding-top: 0;
+	padding-right: 5;
+	padding-left: 5;
+	padding-bottom: 5;
+	border-radius: md;
+}
+
+.mwc-payments-godaddy-sip .form-table th {
+	width: 314px;
+}
+
+@media screen and (max-width: 768px) {
+	.mwc-payments-godaddy-sip .form-table th {
+		width: auto;
+	}
+
+	.mwc-payments-godaddy-sip table.form-table th label .woocommerce-help-tip {
+		position: relative !important;
+	}
+}
+
+.mwc-payments-godaddy-sip .titledesc label {
+	font-size: 4;
+	font-family: sans;
+	font-weight: medium;
+}
+
+.mwc-payments-godaddy-sip input, .mwc-payments-godaddy-sip textarea  {
+	color: #444444;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.mwc-payments-godaddy-sip__title {
+	font-family: sans;
+	font-size: 4;
+	font-weight: 600;
+	color: black;
+	border-bottom: 1px solid;
+	border-color: border;
+	padding-top: 5;
+	padding-right: 5;
+	padding-left: 5;
+	padding-bottom: 5;
+	margin-left: -24px;
+	margin-right: -24px;
+}
+
+.mwc-payments-godaddy-sip__divider {
+	border-bottom: 0;
+	border-top: 1px solid #EEEFF0;
+	margin-left: 0;
+	margin-top: 22px;
+	width: 70%;
+}
+
+.mwc-payments-godaddy-sip-fieldset-switch {
+	max-width: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.mwc-payments-godaddy-sip-switch {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 24px;
+}
+
+.mwc-payments-godaddy-sip-switch__input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.mwc-payments-godaddy-sip-switch__slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 34px;
+	border: 2px solid;
+	border-color: gray-200;
+}
+
+.mwc-payments-godaddy-sip-switch__slider:before {
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 3px;
+	bottom: 2px;
+	background-color: gray-200;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 50%;
+}
+
+.pay-in-person-sync-select + .select2 {
+	margin-top: -24px;
+}
+
+@media screen and (max-width: 768px) {
+	.pay-in-person-sync-select + .select2 {
+		margin-top: -18px;
+	}
+}
+
+.mwc-payments-godaddy-sip-switch__input:checked + .mwc-payments-godaddy-sip-switch__slider {
+	background-color: secondary;
+	border: 2px solid;
+	border-color: secondary;
+}
+
+.mwc-payments-godaddy-sip-switch__input:focus + .mwc-payments-godaddy-sip-switch__slider {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: 2px solid transparent;
+}
+
+.mwc-payments-godaddy-sip-switch__input:checked + .mwc-payments-godaddy-sip-switch__slider:before {
+	background-color: white;
+	-webkit-transform: translateX(15px);
+	-ms-transform: translateX(15px);
+	transform: translateX(15px);
+}
+
+.wc-settings-notice {
+	display: flex;
+	max-width: 746px;
+	padding: 16px 0;
+	border-radius: 4px;
+	margin-bottom: 8px;
+}
+
+.pay-in-person-notice--warning {
+	background-color: #FFF9EB;
+	border: 1px solid #FFBE33;
+}
+
+.pay-in-person-notice--info {
+	background-color: notice;
+	border: 1px solid;
+	border-color: notice-border;
+}
+
+.wc-settings-notice__icon {
+	margin-left: 5;
+}
+
+.wc-settings-notice__icon img {
+	width: 22px;
+	height: 22px;
+}
+
+.wc-settings-notice__content {
+	margin-left: 18px;
+}
+
+.wc-settings-notice__dismiss {
+	margin-left: auto;
+}
+
+.wc-settings-notice__dismiss img {
+	margin: 4px 18px;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+}
+
+.mwc-payments-godaddy-sip-switch__connection-status {
+	border-radius: 12px;
+	padding: 4px 8px;
+	font-size: 1;
+	margin-left: auto;
+}
+
+.mwc-payments-godaddy-sip-switch--connected {
+	background-color: green-200;
+}
+
+.mwc-payments-godaddy-sip-switch--disconnected {
+	background-color: red-200;
+}
+
+.mwc-payments-godaddy-sip-switch--disconnected {
+	position: relative;
+	display: inline-block;
+}
+
+.mwc-payments-godaddy-sip-switch--disconnected .tooltiptext {
+	visibility: hidden;
+	background-color: white;
+	color: text;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	width: fit-content;
+	bottom: 150%;
+	left: 30px;
+	margin-left: -60px;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid;
+	border-color: gray-300;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	transition: .5s ease-out;
+}
+
+.mwc-payments-godaddy-sip-switch--disconnected:hover .tooltiptext {
+	visibility: visible;
+}
+
+.mwc-payments-godaddy-sip-switch--disconnected .tooltiptext::before,
+.mwc-payments-godaddy-sip-switch--disconnected .tooltiptext::after {
+	content: "";
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	top: 100%;
+	left: 50%;
+	margin-left: -10px;
+}
+
+.mwc-payments-godaddy-sip-switch--disconnected .tooltiptext::before {
+	border-top: 10px solid #AFAFAF;
+	margin-top: 0;
+}
+
+.mwc-payments-godaddy-sip-switch--disconnected .tooltiptext::after {
+	border-top: 10px solid white;
+	margin-top: -2px;
+	z-index: 1;
+}
+
+.pay-in-person-sync-select--error {
+	color: danger;
+	display: none;
+}
+
+.mwc-payments-godaddy-product-delete .wc-backbone-modal-content {
+	width: 600px;
+	border-radius: 4px;
+	color: black;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'gdsherpa';
+}
+
+.mwc-payments-godaddy-product-delete .wc-backbone-modal-content p,
+.mwc-payments-godaddy-product-delete .wc-backbone-modal-header p {
+	font-size: 16px;
+	margin: 0;
+}
+
+.mwc-payments-godaddy-product-delete .wc-backbone-modal-header {
+	border-radius: 4px 4px 0 0;
+	color: #111111;
+	font-weight: semibold;
+}
+
+.mwc-payments-godaddy-product-delete article {
+	margin-bottom: 8px;
+}
+
+.mwc-payments-godaddy-product-delete footer {
+	border-radius: 0 0 4px 4px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mwc-payments-godaddy-product-delete__gd-icon {
+	line-height: 0;
+}
+
+.mwc-payments-godaddy-product-delete .modal-button {
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.mwc-payments-godaddy-product-delete .modal-close {
+	margin-right: 20px;
+	color: #444444
+}
+
+.mwc-payments-godaddy-product-delete .button-danger {
+	background: #DB1802;
+	box-shadow: 0 1px 2px rgba(17, 17, 17, 0.15);
+	border-radius: 2px;
+	color: white;
+	padding: 8px 12px;
+}
+
+.mwc-payments-godaddy-product-sync {
+	display: flex;
+	align-items: center;
+	margin-top: 4;
+	margin-right: 2;
+	margin-bottom: 4;
+	margin-left: 2;
+	font-size: 0;
+}
+
+.mwc-payments-godaddy-product-sync__icon {
+	margin-top: 1;
+	margin-right: 1;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+

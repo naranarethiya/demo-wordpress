@@ -1,0 +1,3296 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\API\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/API.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\API\\:\\:setControllers\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/API/API.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\API\\:\\:setControllers\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/API.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\API\\:\\:\\$controllers type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/API.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\AbstractController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/AbstractController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\AbstractController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/AbstractController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\AccountController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/AccountController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\AccountController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/AccountController.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Extensions\\\\AbstractExtension\\:\\:getInstalledVersion\\(\\)\\.$#"
+			count: 4
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:activateExtension\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:activateExtension\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:deactivateExtension\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:filterExtensions\\(\\) has parameter \\$filters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:getExcludedExtensions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:getExtensionCategory\\(\\) should return string\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:getItems\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:getItems\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:getManagedExtensions\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:installExtension\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:prepareItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:prepareItem\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:shouldActivateExtension\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:shouldDeactivateExtension\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:shouldInstallExtension\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:shouldSwitchExtensionVersion\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:shouldUninstallExtension\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:switchExtensionVersion\\(\\) has parameter \\$payload with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:uninstallExtension\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:updateItem\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:contains\\(\\) expects array, mixed given\\.$#"
+			count: 3
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:has\\(\\) expects array\\|ArrayAccess, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\SanitizationHelper\\:\\:input\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$version1 of function version_compare expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$version1 of function version_compare expects string, string\\|null given\\.$#"
+			count: 2
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#2 \\$filters of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:filterExtensions\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#2 \\$key of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:get\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#2 \\$keys of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:has\\(\\) expects array\\|string, string\\|null given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#2 \\$version of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ExtensionsController\\:\\:getManageExtensionVersion\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Parameter \\#2 \\$version2 of function version_compare expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ExtensionsController.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:getItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:getItems\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:getItems\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:prepareItem\\(\\) has parameter \\$feature with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:prepareItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:contains\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$feature of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:prepareItem\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$originalUrl of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\FeaturesController\\:\\:getDocumentationUrl\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/FeaturesController.php
+
+		-
+			message: "#^Call to an undefined method WP_Error\\|WP_REST_Response\\:\\:set_status\\(\\)\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Cannot access offset 'href' on mixed\\.$#"
+			count: 2
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Cannot call method getId\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:deleteItem\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getAllMessages\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getItems\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getMessagesData\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getMessagesGraphQLQuery\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getMessagesUrl\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getMessagesUrl\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getQueryFilterParam\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:getQueryFilterParam\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:prepareItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:updateItem\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:updateItems\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$date of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:parseMessageDate\\(\\) expects string, mixed given\\.$#"
+			count: 2
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$message of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\MessagesController\\:\\:updateMessage\\(\\) expects GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message, GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\|null given\\.$#"
+			count: 2
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$operator of method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ComparisonHelper\\:\\:setOperator\\(\\) expects string, int\\|string\\|false given\\.$#"
+			count: 1
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\SanitizationHelper\\:\\:input\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 4
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Parameter \\#1 \\$userId of class GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\MessagesOptedIn constructor expects int, int\\|null given\\.$#"
+			count: 2
+			path: src/API/Controllers/MessagesController.php
+
+		-
+			message: "#^Cannot call method getLineItemsThatNeedShipping\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Orders\\\\OrderFulfillment\\|null\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getFeeItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getItems\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getLineItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getLineItems\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getProductImageData\\(\\) should return array\\{height\\: int, width\\: int, src\\: string, srcSet\\: string, sizes\\: string\\}\\|null but returns array\\{height\\: mixed, width\\: mixed, src\\: mixed, srcSet\\: string, sizes\\: string\\}\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getShipmentAdapter\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getShipmentData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getShipmentFromRequestData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getShippingItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:getTaxItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:prepareAbstractItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:prepareLineItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$fulfillment of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\ItemsController\\:\\:prepareLineItem\\(\\) expects GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Orders\\\\OrderFulfillment, GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Orders\\\\OrderFulfillment\\|null given\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\SanitizationHelper\\:\\:input\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/ItemsController.php
+
+		-
+			message: "#^Argument of an invalid type array\\|stdClass supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getItem\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getItems\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getOrderFulfillmentFromRequest\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getShipmentAdapter\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getShipmentData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getShipmentFromRequestData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:getWooOrderData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:prepareItem\\(\\) has parameter \\$resources with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:prepareItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:prepareShipmentItems\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:prepareShipmentItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Orders\\\\OrdersController\\:\\:updateOrder\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Repositories\\\\WooCommerce\\\\OrdersRepository\\:\\:get\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/Orders/OrdersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\PluginsController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/PluginsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\PluginsController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/PluginsController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ServerController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ServerController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ServerController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/ServerController.php
+
+		-
+			message: "#^Call to an undefined method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Providers\\\\Contracts\\\\ProviderContract\\:\\:tracking\\(\\)\\.$#"
+			count: 1
+			path: src/API/Controllers/Shipping/ProvidersController.php
+
+		-
+			message: "#^Cannot call method getTrackingUrlTemplate\\(\\) on class\\-string\\|object\\.$#"
+			count: 1
+			path: src/API/Controllers/Shipping/ProvidersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Shipping\\\\ProvidersController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/Shipping/ProvidersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Shipping\\\\ProvidersController\\:\\:getItems\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/Shipping/ProvidersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Shipping\\\\ProvidersController\\:\\:getItems\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: src/API/Controllers/Shipping/ProvidersController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\Shipping\\\\ProvidersController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/Shipping/ProvidersController.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ShopController\\:\\:getShopLocation\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ShopController\\:\\:getWPNuxOnboardingData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ShopController\\:\\:getWPNuxOnboardingFeatures\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ShopController\\:\\:getWPNuxOnboardingFeatures\\(\\) should return array\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\ShopController\\:\\:updateItem\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^PHPDoc tag @return with type string is incompatible with native type array\\.$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, mixed given\\.$#"
+			count: 1
+			path: src/API/Controllers/ShopController.php
+
+		-
+			message: "#^Cannot access property \\$ID on WP_User\\|null\\.$#"
+			count: 1
+			path: src/API/Controllers/SupportController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\SupportController\\:\\:createItem\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/SupportController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\SupportController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/SupportController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\SupportController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/SupportController.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\SanitizationHelper\\:\\:input\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 5
+			path: src/API/Controllers/SupportController.php
+
+		-
+			message: "#^Cannot call method getId\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\UserController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\UserController\\:\\:getItemSchemaProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\UserController\\:\\:prepareItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\UserController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\UserController\\:\\:updateItem\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$userId of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\UserController\\:\\:getShowExtensionsRecommendationsPermission\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$userId of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\API\\\\Controllers\\\\UserController\\:\\:prepareItem\\(\\) expects int, int\\|null given\\.$#"
+			count: 2
+			path: src/API/Controllers/UserController.php
+
+		-
+			message: "#^Call to static method instance\\(\\) on an unknown class GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\SkyVerge_Dashboard_Loader\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:deactivateSkyVergeDashboard\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:deactivateSkyVergeDashboardPlugin\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:displayAdminNoticeForSkyVergeDashboardPlugin\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:getConfigurationValues\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:initializeConfiguration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:onConfigurationLoaded\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:renderAdminNoticeForSkyVergeDashboardPlugin\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:stopBundledSkyVergeDashboardFromLoading\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:unhookBundledSkyVergeDashboard\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^PHPDoc type array of property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:\\$classesToInstantiate is not covariant with PHPDoc type array\\<string\\> of overridden property GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Plugin\\\\BasePlatformPlugin\\:\\:\\$classesToInstantiate\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Dashboard\\:\\:\\$classesToInstantiate type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Dashboard.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Http\\\\MessagesRequest\\:\\:setAuthToken\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Http/MessagesRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Http\\\\MessagesRequest\\:\\:setAuthTokenType\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Http/MessagesRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Http\\\\MessagesRequest\\:\\:setSiteToken\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Http/MessagesRequest.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Http\\\\MessagesRequest\\:\\:\\$authToken \\(string\\) does not accept mixed\\.$#"
+			count: 1
+			path: src/Http/MessagesRequest.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Http\\\\MessagesRequest\\:\\:\\$authTokenType \\(string\\) does not accept mixed\\.$#"
+			count: 1
+			path: src/Http/MessagesRequest.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Http\\\\MessagesRequest\\:\\:\\$siteToken \\(string\\) does not accept mixed\\.$#"
+			count: 1
+			path: src/Http/MessagesRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Menu\\\\GetHelpMenu\\:\\:addAdminActions\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Menu/GetHelpMenu.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Menu\\\\GetHelpMenu\\:\\:addMenuItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Menu/GetHelpMenu.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Menu\\\\GetHelpMenu\\:\\:enqueueAdminStyles\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Menu/GetHelpMenu.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function file_get_contents expects string, mixed given\\.$#"
+			count: 1
+			path: src/Menu/GetHelpMenu.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function is_readable expects string, mixed given\\.$#"
+			count: 1
+			path: src/Menu/GetHelpMenu.php
+
+		-
+			message: "#^Parameter \\#1 \\$source of method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Enqueue\\\\Enqueue\\:\\:setSource\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Menu/GetHelpMenu.php
+
+		-
+			message: "#^Cannot call method getId\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:__construct\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:getActions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:getContexts\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:getLinks\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:getRules\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setActions\\(\\) has parameter \\$actions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setContexts\\(\\) has parameter \\$contexts with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setLinks\\(\\) has parameter \\$links with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setRules\\(\\) has parameter \\$rules with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:update\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:\\$actions type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:\\$contexts type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:\\$links type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:\\$rules type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Message/Message.php
+
+		-
+			message: "#^PHPDoc tag @return with type string\\|null is not subtype of native type string\\.$#"
+			count: 1
+			path: src/Message/MessageStatus.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\MessageStatus\\:\\:\\$messageId \\(string\\) does not accept string\\|null\\.$#"
+			count: 1
+			path: src/Message/MessageStatus.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\MessagesOptedIn\\:\\:optIn\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Message/MessagesOptedIn.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\MessagesOptedIn\\:\\:optOut\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Message/MessagesOptedIn.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$userId with type int\\|null is not subtype of native type int\\.$#"
+			count: 1
+			path: src/Message/MessagesOptedIn.php
+
+		-
+			message: "#^Parameter \\#1 \\$defaultValue of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\MessagesOptedIn\\:\\:loadUserMeta\\(\\) expects array\\|bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Message/MessagesOptedIn.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\GetHelpPage\\:\\:hideNotices\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/GetHelpPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\GetHelpPage\\:\\:injectAfterNotices\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/GetHelpPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\GetHelpPage\\:\\:injectBeforeNotices\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/GetHelpPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\GetHelpPage\\:\\:render\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/GetHelpPage.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 3
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:addHooks\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:addMenuItem\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:addMenuItem\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage but returns GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Content\\\\AbstractAdminPage\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:enqueuePageAssets\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:getTabs\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:maybeClearUpdatesCacheCount\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:maybeRedirectToAvailableExtensionsTab\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:registerMenuItem\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:render\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:render\\(\\) throws checked exception GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Platforms\\\\Exceptions\\\\PlatformRepositoryException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:renderAvailableExtensionsTab\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:renderBrowseExtensionsTab\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:renderDivContainer\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:renderSubscriptionsTab\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Pages\\\\WooCommerceExtensionsPage\\:\\:renderTab\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:where\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Parameter \\#1 \\$source of method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Enqueue\\\\Enqueue\\:\\:setSource\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\SanitizationHelper\\:\\:input\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Pages/WooCommerceExtensionsPage.php
+
+		-
+			message: "#^Cannot call method getFullName\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: src/Repositories/UserRepository.php
+
+		-
+			message: "#^Cannot call method getHandle\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: src/Repositories/UserRepository.php
+
+		-
+			message: "#^Cannot call method getPasswordResetUrl\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 1
+			path: src/Repositories/UserRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\UserRepository\\:\\:getPasswordResetUrl\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: src/Repositories/UserRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\UserRepository\\:\\:getUserName\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: src/Repositories/UserRepository.php
+
+		-
+			message: "#^PHPDoc tag @param references unknown parameter\\: \\$user$#"
+			count: 1
+			path: src/Repositories/UserRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$userId of class GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\MessagesOptedIn constructor expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/Repositories/UserRepository.php
+
+		-
+			message: "#^Cannot access offset 'connections' on mixed\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Cannot access offset 'expired' on mixed\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Cannot access offset 'expires' on mixed\\.$#"
+			count: 2
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Cannot access offset 'lifetime' on mixed\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Cannot access offset 'site_id' on mixed\\.$#"
+			count: 2
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Cannot call method get_documentation_url\\(\\) on class\\-string\\|object\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getDocumentationUrl\\(\\) has parameter \\$pluginData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getLocalWooPluginsData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getPluginDataBySlug\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getPluginName\\(\\) has parameter \\$pluginData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getPluginVersion\\(\\) has parameter \\$pluginData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getWooCommerceLicense\\(\\) has parameter \\$pluginData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getWooCommerceSubscription\\(\\) has parameter \\$pluginData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getWooCommerceSubscriptionEnd\\(\\) has parameter \\$pluginData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getWooCommerceSubscriptions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of function in_array expects array, mixed given\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Part \\$subscription\\['expires'\\] \\(mixed\\) of encapsed string cannot be cast to string\\.$#"
+			count: 1
+			path: src/Repositories/WooCommercePluginsRepository.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapter\\:\\:__construct\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapter\\:\\:convertToSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapter\\:\\:createLineItem\\(\\) has parameter \\$itemData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapter\\:\\:convertAddressFromSource\\(\\) expects array\\<string, mixed\\>, mixed given\\.$#"
+			count: 2
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$item of class WC_Order_Item_Product constructor expects array\\|int\\|object, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$itemData of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapter\\:\\:createLineItem\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$label of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Carrier\\:\\:setLabel\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentContract\\:\\:setProviderLabel\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingNumber\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingUrl\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#2 \\$quantity of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:addItem\\(\\) expects float, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapter\\:\\:\\$data type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShippingRateAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$amount of class GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\CurrencyAmountAdapter constructor expects float, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShippingRateAdapter.php
+
+		-
+			message: "#^Parameter \\#2 \\$currency of class GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\CurrencyAmountAdapter constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/Request/Adapters/ShippingRateAdapter.php
+
+		-
+			message: "#^Cannot call method getTimestamp\\(\\) on DateTime\\|null\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapter\\:\\:__construct\\(\\) has parameter \\$source with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapter\\:\\:getPackageFromData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapter\\:\\:getProviderName\\(\\) should return string\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$label of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Carrier\\:\\:setLabel\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$timestamp of method DateTime\\:\\:setTimestamp\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$trackingProvider of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapter\\:\\:getProviderName\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingNumber\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingUrl\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Shipment\\:\\:setId\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Shipment\\:\\:setProviderLabel\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapter\\:\\:\\$source type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapter\\:\\:__construct\\(\\) has parameter \\$source with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$item of class WC_Order_Item_Product constructor expects array\\|int\\|object, int\\|null given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$statusName of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapter\\:\\:getStatusFromSource\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\AbstractLabelDocument\\:\\:setFormat\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setId\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingNumber\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingUrl\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\RemoteLabelDocument\\:\\:setUrl\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\ShippingLabel\\:\\:setId\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\ShippingLabel\\:\\:setIsTrackable\\(\\) expects bool, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Parameter \\#2 \\$quantity of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:addItem\\(\\) expects float, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapter\\:\\:\\$source type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/PackageAdapter.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 2
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapter\\:\\:__construct\\(\\) has parameter \\$source with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapter\\:\\:convertPackageToSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapter\\:\\:convertToSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapter\\:\\:convertAddressFromSource\\(\\) expects array\\<string, mixed\\>, mixed given\\.$#"
+			count: 2
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$source of class GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapter constructor expects array, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$timestamp of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapter\\:\\:timestampToDateTime\\(\\) expects string, mixed given\\.$#"
+			count: 2
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Shipment\\:\\:setId\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Parameter \\#2 \\$array of function array_map expects array, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Property GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapter\\:\\:\\$source type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapter.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShippingRateAdapter.php
+
+		-
+			message: "#^Parameter \\#1 \\$code of method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\CurrencyAmount\\:\\:setCurrencyCode\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataSources/WooCommerce/Adapters/ShippingRateAdapter.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Cannot call method getName\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Contracts\\\\FulfillmentStatusContract\\|null\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:addOrderItemMeta\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:addOrderMeta\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:getOrderShipmentsArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:getShipment\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:getShipmentAdapter\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:getShipmentAdapter\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapter but returns GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\DataSources\\\\Contracts\\\\DataSourceAdapterContract\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:save\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:updateFulfillmentStatusForLineItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:updateFulfillmentStatusForLineItems\\(\\) has parameter \\$lineItems with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$data of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:getShipment\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Repositories\\\\WooCommerce\\\\OrdersRepository\\:\\:get\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$post_id of function delete_post_meta expects int, int\\|null given\\.$#"
+			count: 2
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$provider of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStore\\:\\:getShipmentAdapter\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Orders\\\\OrderFulfillment\\:\\:setOrder\\(\\) expects GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\Orders\\\\Order, mixed given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Variable \\$order in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Expression on left side of \\?\\? is not nullable\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Left side of && is always true\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:addMissingShipments\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getAdapter\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getPluginData\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getPluginData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getPluginData\\(\\) should return array but returns mixed\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getPluginDataFromShipments\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getPluginDataHash\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getShipmentsFromPluginData\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getShipmentsFromPluginData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getStoredPluginDataHash\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getStoredPluginDataHash\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:hasNewPluginData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:save\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:savePluginData\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:savePluginData\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:savePluginData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$orderId of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:getPluginData\\(\\) expects int, int\\|null given\\.$#"
+			count: 3
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$orderId of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:hasNewPluginData\\(\\) expects int, int\\|null given\\.$#"
+			count: 3
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$orderId of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataStores\\\\ShipmentTracking\\\\OrderFulfillmentDataStore\\:\\:savePluginData\\(\\) expects int, int\\|null given\\.$#"
+			count: 2
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$post_id of function delete_post_meta expects int, int\\|null given\\.$#"
+			count: 2
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$source of class GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapter constructor expects array, array\\|null given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentContract\\:\\:setCreatedAt\\(\\) expects DateTime, DateTime\\|null given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\ShipmentContract\\:\\:setProviderLabel\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingNumber\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingUrl\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Right side of && is always true\\.$#"
+			count: 1
+			path: src/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStore.php
+
+		-
+			message: "#^Cannot access property \\$prefix on mixed\\.$#"
+			count: 1
+			path: src/Support/Support.php
+
+		-
+			message: "#^Cannot call method get_var\\(\\) on mixed\\.$#"
+			count: 1
+			path: src/Support/Support.php
+
+		-
+			message: "#^Cannot call method prepare\\(\\) on mixed\\.$#"
+			count: 1
+			path: src/Support/Support.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\Support\\:\\:getSupportAppName\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Support/Support.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\StringHelper\\:\\:trailingSlash\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Support/Support.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\SupportRequest\\:\\:getFormattedRequestData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\SupportRequest\\:\\:getFormattedRequestData\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\SupportRequest\\:\\:getRequestingUser\\(\\) should return GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User but returns GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\|null\\.$#"
+			count: 2
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\SupportRequest\\:\\:getSubjectExtension\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\SupportRequest\\:\\:getSystemStatus\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\SupportRequest\\:\\:send\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$email of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\:\\:getByEmail\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Parameter \\#1 \\$handle of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Models\\\\User\\:\\:getByHandle\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Support/SupportRequest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Support\\\\SupportUser\\:\\:create\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: src/Support/SupportUser.php
+
+		-
+			message: "#^Parameter \\#1 \\$username of function wp_create_user expects string, mixed given\\.$#"
+			count: 1
+			path: src/Support/SupportUser.php
+
+		-
+			message: "#^Parameter \\#3 \\$email of function wp_create_user expects string, mixed given\\.$#"
+			count: 1
+			path: src/Support/SupportUser.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Integration\\\\Message\\\\MessageTest\\:\\:messagesDataProvider\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: tests/Integration/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Integration\\\\Message\\\\MessageTest\\:\\:messagesDataProvider\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Integration/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Integration\\\\Message\\\\MessageTest\\:\\:provideStatusInvalidUserIds\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Integration/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Integration\\\\Message\\\\MessageTest\\:\\:providerForTestProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Integration/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Integration\\\\Message\\\\MessageTest\\:\\:testCanDetermineIfExpired\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Integration/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Integration\\\\Message\\\\MessageTest\\:\\:testShouldNotExpire\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Integration/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$userId of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:status\\(\\) expects int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: tests/Integration/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\APITest\\:\\:mockRegisterActionCalls\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/APITest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\APITest\\:\\:providerSetControllers\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/APITest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\APITest\\:\\:testCanLoadConditionalFeature\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/APITest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\APITest\\:\\:testConstructorCallsSetControllers\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/APITest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\APITest\\:\\:testRegisterRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/APITest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\APITest\\:\\:testRegisterRoutes\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/API/APITest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\AbstractControllerTest\\:\\:providerCreateItemPermissionsCheck\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/AbstractControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\AbstractControllerTest\\:\\:providerDeleteItemPermissionsCheck\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/AbstractControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\AbstractControllerTest\\:\\:providerGetItemsPermissionsCheck\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/AbstractControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\AbstractControllerTest\\:\\:providerUpdateItemPermissionsCheck\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/AbstractControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\AccountControllerTest\\:\\:testCanGetItemSchema\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/AccountControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\AccountControllerTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/AccountControllerTest.php
+
+		-
+			message: "#^Call to method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with array\\{'response'\\} and WP_Error\\|WP_REST_Response will always evaluate to false\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Cannot access offset 'installedVersion' on mixed\\.$#"
+			count: 3
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Cannot access offset 'state' on mixed\\.$#"
+			count: 3
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:dataProviderFilterExtensions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:dataProviderFilterExtensions\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:dataProviderPrepareItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:dataProviderPrepareItem\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:provideCanGetExtensionVersionStateData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:provideGetExtensionsCategoryData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:providerCanGetExcludedExtensions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanDetermineWhetherIsExtensionIsFeatured\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanGetExcludedExtensions\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanGetExcludedExtensions\\(\\) has parameter \\$expected with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanGetExtensionVersionState\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanGetExtensionVersionState\\(\\) has parameter \\$state with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanGetItems\\(\\) has parameter \\$extensionsExcluded with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanGetVersionStateForWooExtensions\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testCanGetVersionStateForWooExtensions\\(\\) has parameter \\$state with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testUpdateItemCanActivateExtension\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testUpdateItemCanDeactivatePlugin\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testUpdateItemCanInstallAndActivateExtension\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testUpdateItemCanInstallExtension\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testUpdateItemCanSwitchExtensionVersion\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ExtensionsControllerTest\\:\\:testUpdateItemCanUninstallPlugin\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ExtensionsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:providerCanGetDocumentationUrl\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:providerCanPrepareItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:testCanGetItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:testCanGetItems\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:testCanGetItemsException\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:testCanGetItemsException\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:testCanPrepareItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:testCanPrepareItem\\(\\) has parameter \\$expected with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\FeaturesControllerTest\\:\\:testCanPrepareItem\\(\\) has parameter \\$featureInfo with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of static method GoDaddy\\\\WordPress\\\\MWC\\\\Tests\\\\Helpers\\\\Http\\\\ResponseHelper\\:\\:assertBodyEquals\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$needle of static method GoDaddy\\\\WordPress\\\\MWC\\\\Tests\\\\Helpers\\\\Http\\\\ResponseHelper\\:\\:assertBodyContains\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/FeaturesControllerTest.php
+
+		-
+			message: "#^Call to method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with object\\{response\\: true\\}&stdClass and WP_Error\\|WP_REST_Response will always evaluate to false\\.$#"
+			count: 2
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Cannot access offset 'contexts' on mixed\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Cannot call method getId\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\|false\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:dataProviderCanGetContextComparator\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:dataProviderCanGetQueryFilterParam\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:getTestMessagesData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:provideCanBuildMessage\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:provideCanFilterMessages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:provideUpdateItemsTestData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:providerCanUpdateMessage\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:testCanBuildMessage\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:testCanBuildMessage\\(\\) has parameter \\$expectedContext with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:testCanFilterMessages\\(\\) has parameter \\$allMessages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:testCanFilterMessages\\(\\) has parameter \\$expected with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:testCanFilterMessages\\(\\) has parameter \\$filters with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:testCanGetContextComparator\\(\\) has parameter \\$expectedWith with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\MessagesControllerTest\\:\\:testGetMessagesDataThrowsExceptionForMissingData\\(\\) has parameter \\$body with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^PHPDoc tag @var contains generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 2
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertContainsOnlyInstancesOf\\(\\) expects iterable, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertCount\\(\\) expects Countable\\|iterable, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$key of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:get\\(\\) expects string, int given\\.$#"
+			count: 4
+			path: tests/Unit/API/Controllers/MessagesControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:providerGetItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:providerPrepareAbstractItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:providerPrepareLineItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:testCanGetItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:testCanGetLineItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:testCanGetShippingItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:testCanGetShippingItems\\(\\) throws checked exception ReflectionException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:testCanPrepareAbstractItem\\(\\) has parameter \\$expected with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:testCanPrepareLineItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\ItemsControllerTest\\:\\:testCanPrepareLineItem\\(\\) has parameter \\$expectedData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of static method GoDaddy\\\\WordPress\\\\MWC\\\\Tests\\\\Helpers\\\\Http\\\\ResponseHelper\\:\\:assertBodyEquals\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/ItemsControllerTest.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/OrdersControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\OrdersControllerTest\\:\\:providerCanGetItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/OrdersControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\OrdersControllerTest\\:\\:testCanGetProviderName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/OrdersControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Orders\\\\OrdersControllerTest\\:\\:testRoute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/OrdersControllerTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of static method GoDaddy\\\\WordPress\\\\MWC\\\\Tests\\\\Helpers\\\\Http\\\\ResponseHelper\\:\\:assertBodyEquals\\(\\) expects string, string\\|false given\\.$#"
+			count: 2
+			path: tests/Unit/API/Controllers/Orders/OrdersControllerTest.php
+
+		-
+			message: "#^You should use assertTrue\\(\\) instead of assertSame\\(\\) when expecting \"true\"$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Orders/OrdersControllerTest.php
+
+		-
+			message: "#^Call to method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with array and WP_Error\\|WP_REST_Response will always evaluate to false\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/PluginsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\PluginsControllerTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/PluginsControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Shipping\\\\ProvidersControllerTest\\:\\:testRoute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Shipping/ProvidersControllerTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of static method GoDaddy\\\\WordPress\\\\MWC\\\\Tests\\\\Helpers\\\\Http\\\\ResponseHelper\\:\\:assertBodyEquals\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Shipping/ProvidersControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ShopControllerTest\\:\\:dataProviderGetItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ShopControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ShopControllerTest\\:\\:providerEmailNotificationsFeatureIsActive\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ShopControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ShopControllerTest\\:\\:providerHasEmailTemplateOverrides\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ShopControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ShopControllerTest\\:\\:testCanDetermineIfOnboardingIsEnabled\\(\\) has parameter \\$capabilitiesMap with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ShopControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ShopControllerTest\\:\\:testCanDetermineWhetherHasEmailTemplateOverrides\\(\\) has parameter \\$emailTemplateOverrides with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ShopControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ShopControllerTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ShopControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\ShopControllerTest\\:\\:testIsSellingOnlyDigitalProducts\\(\\) has parameter \\$features with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/ShopControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\SupportControllerTest\\:\\:dataProviderCreateItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/SupportControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\SupportControllerTest\\:\\:dataProviderGetItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/SupportControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\SupportControllerTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/SupportControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\TestController\\:\\:getItemSchema\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/TestController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\TestController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/TestController.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:getShipmentData\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/AdaptsShipmentDataTraitTest.php
+
+		-
+			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\:\\:getShipmentFromRequestData\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/AdaptsShipmentDataTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\AdaptsShipmentDataTraitTest\\:\\:testCanGetShipmentData\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/AdaptsShipmentDataTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\AdaptsShipmentDataTraitTest\\:\\:testCanGetShipmentFromRequestData\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/AdaptsShipmentDataTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresAdministratorPermissionsTraitTest\\:\\:providerHasCreatePermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresAdministratorPermissionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresAdministratorPermissionsTraitTest\\:\\:providerHasDeletePermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresAdministratorPermissionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresAdministratorPermissionsTraitTest\\:\\:providerHasGetPermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresAdministratorPermissionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresAdministratorPermissionsTraitTest\\:\\:providerHasUpdatePermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresAdministratorPermissionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresWooCommercePermissionsTraitTest\\:\\:providerHasCreatePermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresWooCommercePermissionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresWooCommercePermissionsTraitTest\\:\\:providerHasDeletePermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresWooCommercePermissionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresWooCommercePermissionsTraitTest\\:\\:providerHasGetPermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresWooCommercePermissionsTraitTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\Traits\\\\RequiresWooCommercePermissionsTraitTest\\:\\:providerHasUpdatePermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/Traits/RequiresWooCommercePermissionsTraitTest.php
+
+		-
+			message: "#^Call to method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with array\\{user\\: array\\{id\\: 1, marketingPermissions\\: array\\{SHOW_EXTENSIONS_RECOMMENDATIONS\\: bool\\}\\}\\} and WP_Error\\|WP_REST_Response will always evaluate to false\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/UserControllerTest.php
+
+		-
+			message: "#^Call to method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\) with array\\{user\\: array\\{id\\: 1, marketingPermissions\\: array\\{SHOW_EXTENSIONS_RECOMMENDATIONS\\: true\\}\\}\\} and WP_Error\\|WP_REST_Response will always evaluate to false\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/UserControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\UserControllerTest\\:\\:providerCanUpdateItem\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/UserControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\UserControllerTest\\:\\:testCanUpdateItem\\(\\) has parameter \\$inputValue with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/UserControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\Controllers\\\\UserControllerTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/Controllers/UserControllerTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\API\\\\TestController\\:\\:registerRoutes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/API/TestController.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Configuration\\\\ConfigurationTest\\:\\:providerExcludedExtensionsConfiguration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Configuration/ConfigurationTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Configuration\\\\ConfigurationTest\\:\\:testExcludedExtensionsConfiguration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Configuration/ConfigurationTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Configuration\\\\ConfigurationTest\\:\\:testExcludedExtensionsConfiguration\\(\\) has parameter \\$conditions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Configuration/ConfigurationTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Configuration\\\\ConfigurationTest\\:\\:testExcludedExtensionsConfiguration\\(\\) has parameter \\$slugs with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Configuration/ConfigurationTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Configuration\\\\ConfigurationTest\\:\\:testExtensionsConfigurationFile\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Configuration/ConfigurationTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Configuration\\\\ConfigurationTest\\:\\:testMessagesConfigurationFile\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Configuration/ConfigurationTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Configuration\\\\ConfigurationTest\\:\\:testSupportConfigurationFile\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Configuration/ConfigurationTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\DashboardTest\\:\\:testInitializeConfiguration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/DashboardTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertStringContainsString\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Unit/DashboardTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Http\\\\MessagesRequestTest\\:\\:testCanSetAuthToken\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Http/MessagesRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Http\\\\MessagesRequestTest\\:\\:testCanSetAuthTokenType\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Http/MessagesRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Http\\\\MessagesRequestTest\\:\\:testCanSetSiteToken\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Http/MessagesRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Http\\\\MessagesRequestTest\\:\\:testSetsXSiteHeaderOnCreation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Http/MessagesRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Http\\\\MessagesRequestTest\\:\\:testSetsXSiteHeaderOnCreation\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Http/MessagesRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageStatusTest\\:\\:getInstance\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageStatusTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:messagesDataProvider\\(\\) has Exception in PHPDoc @throws tag but it's not thrown\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:messagesDataProvider\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testCanSetGetContexts\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testConstructor\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testIsExpired\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testIsExpired\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageActionsSetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageActionsSetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageBodySetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageBodySetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageExpiredAtSetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageExpiredAtSetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageIdSetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageIdSetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageLinksSetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageLinksSetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessagePublishedAtSetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessagePublishedAtSetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageRulesSetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageRulesSetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageSubjectSetterGetter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessageTest\\:\\:testMessageSubjectSetterGetter\\(\\) has parameter \\$messageData with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$actions of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setActions\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$body of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setBody\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expiredAt of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setExpiredAt\\(\\) expects DateTime\\|null, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setId\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$links of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setLinks\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$publishedAt of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setPublishedAt\\(\\) expects DateTime, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$rules of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setRules\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$subject of method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Message\\\\Message\\:\\:setSubject\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessagesOptedInTest\\:\\:mockOptInUserWithMeta\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessagesOptedInTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessagesOptedInTest\\:\\:testCanConvertToArray\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessagesOptedInTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessagesOptedInTest\\:\\:testCanConvertToArray\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Message/MessagesOptedInTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessagesOptedInTest\\:\\:testCanGetUserId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessagesOptedInTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessagesOptedInTest\\:\\:testCanOptOut\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessagesOptedInTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Message\\\\MessagesOptedInTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Message/MessagesOptedInTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\GetHelpPageTest\\:\\:setUp\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Pages/GetHelpPageTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertStringContainsString\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/Unit/Pages/GetHelpPageTest.php
+
+		-
+			message: "#^Cannot access offset 'label' on mixed\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Cannot access offset string on mixed\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:getWooCommerceHelperUpdatesTransientValue\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:provideCanGetCurrentTabData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:provideCanGetTabsData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:provideClearUpdatesCountCacheData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:providerCanLoadConditionalFeature\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testCanClearUpdatesCountCache\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testCanClearUpdatesCountCache\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testCanEnqueuePageAssets\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testCanGetCurrentTab\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testCanGetCurrentTab\\(\\) has parameter \\$params with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testCanGetCurrentTab\\(\\) has parameter \\$tab with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testCanLoadConditionalFeature\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testConstructor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testConstructor\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Pages\\\\WooCommerceExtensionsPageTest\\:\\:testRemoveManagedPluginsFromCount\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of static method GoDaddy\\\\WordPress\\\\MWC\\\\Common\\\\Helpers\\\\ArrayHelper\\:\\:has\\(\\) expects array\\|ArrayAccess, mixed given\\.$#"
+			count: 3
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$array of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertArrayHasKey\\(\\) expects array\\|ArrayAccess, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$array of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertArrayNotHasKey\\(\\) expects array\\|ArrayAccess, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Pages/WooCommerceExtensionsPageTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\UserRepositoryTest\\:\\:providerGetUserName\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/UserRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\UserRepositoryTest\\:\\:providerUserOptedInForDashboardMessages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/UserRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\UserRepositoryTest\\:\\:testGetPasswordResetUrl\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/UserRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\UserRepositoryTest\\:\\:testGetPasswordResetUrlWithParam\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/UserRepositoryTest.php
+
+		-
+			message: "#^Cannot access offset 'Documentation URI' on array\\|false\\.$#"
+			count: 2
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Cannot access offset 'Name' on array\\|false\\.$#"
+			count: 2
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Cannot access offset 'PluginURI' on array\\|false\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Cannot access offset 'Version' on array\\|false\\.$#"
+			count: 2
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Cannot access offset '_product_id' on array\\|false\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Cannot access offset 'slug' on array\\|false\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:getTestLocalWooPluginsData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:getTestWooCommerceSubscriptionsData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetDocumentationUrlFromDocumentationUriHeader\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetDocumentationUrlFromPluginUriHeader\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetPluginName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetPluginVersion\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetWooCommerceLicenseActive\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetWooCommerceLicenseExpired\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetWooCommerceLicenseInactive\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetWooCommerceLicenseNone\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetWooCommerceSkyVergePlugins\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetWooCommerceSubscription\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Repositories\\\\WooCommercePluginsRepositoryTest\\:\\:testGetWooCommerceSubscriptionEndRegularLicense\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$pluginData of static method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getDocumentationUrl\\(\\) expects array, array\\|false given\\.$#"
+			count: 2
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$pluginData of static method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getPluginName\\(\\) expects array, array\\|false given\\.$#"
+			count: 2
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$pluginData of static method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Repositories\\\\WooCommercePluginsRepository\\:\\:getPluginVersion\\(\\) expects array, array\\|false given\\.$#"
+			count: 2
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^You should use assertFalse\\(\\) instead of assertSame\\(\\) when expecting \"false\"$#"
+			count: 1
+			path: tests/Unit/Repositories/WooCommercePluginsRepositoryTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapterTest\\:\\:providerCanGetShipmentId\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/Request/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\Request\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanGetShipmentId\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/Request/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Cannot call method getTimestamp\\(\\) on DateTime\\|null\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:providerConvertFromSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:providerConvertToSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:providerGetPackageFromData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:providerGetProviderName\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:providerGetTrackingProvider\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanConvertFromSource\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanConvertFromSource\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanGetPackageFromData\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanGetPackageFromData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanGetProviderName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\ShipmentTracking\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanGetTrackingProvider\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/ShipmentTracking/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 2
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapterTest\\:\\:providerCanConvertToSource\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapterTest\\:\\:providerConvertFromSourceCanConvertStatusNames\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapterTest\\:\\:providerSourcesArrays\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapterTest\\:\\:testCanConvertFromSource\\(\\) has parameter \\$source with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapterTest\\:\\:testCanConvertToSource\\(\\) has parameter \\$source with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapterTest\\:\\:testConvertFromSourceCanConvertStatusNames\\(\\) has parameter \\$source with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\PackageAdapterTest\\:\\:testConvertToSourceDoesntReturnNullValues\\(\\) has parameter \\$expected with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) expects class\\-string\\<object\\>, string given\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setId\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingNumber\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setTrackingUrl\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$quantity of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:addItem\\(\\) expects float, mixed given\\.$#"
+			count: 2
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/PackageAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanConvertFromIncompleteSource\\(\\) has parameter \\$properties with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataSources\\\\WooCommerce\\\\Adapters\\\\ShipmentAdapterTest\\:\\:testCanConvertFromIncompleteSource\\(\\) has parameter \\$source with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Packages\\\\Package\\:\\:setId\\(\\) expects string, int given\\.$#"
+			count: 3
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Shipment\\:\\:setId\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataSources/WooCommerce/Adapters/ShipmentAdapterTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:providerCanGetFulfillmentStatusByName\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:providerCanReadNullOrderId\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:providerFulfillmentStatusForLineItems\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:providerOrderShipmentsArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanDeleteEmptyFulfillment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanGetFulfillmentStatusByName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanGetOrderShipmentsArray\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanGetOrderShipmentsArray\\(\\) has parameter \\$shipmentOne with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanGetOrderShipmentsArray\\(\\) has parameter \\$shipmentTwo with no type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanGetShipment\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanGetShipmentAdapter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanSave\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanSetFulfillmentStatusForLineItems\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Shipping\\\\DataStores\\\\OrderFulfillmentDataStoreTest\\:\\:testCanUpdateFulfillmentOrderStatuses\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$datetime of class DateTime constructor expects string, mixed given\\.$#"
+			count: 4
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$expected of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) expects class\\-string\\<object\\>, string given\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Cannot call method getTrackingNumber\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\PackageContract\\|false\\.$#"
+			count: 2
+			path: tests/Unit/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Cannot call method getTrackingUrl\\(\\) on GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Contracts\\\\PackageContract\\|false\\.$#"
+			count: 2
+			path: tests/Unit/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of method GoDaddy\\\\WordPress\\\\MWC\\\\Shipping\\\\Models\\\\Shipment\\:\\:setId\\(\\) expects string, int given\\.$#"
+			count: 2
+			path: tests/Unit/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of method PHPUnit\\\\Framework\\\\Assert\\:\\:assertContainsOnlyInstancesOf\\(\\) expects iterable, mixed given\\.$#"
+			count: 1
+			path: tests/Unit/Shipping/DataStores/ShipmentTracking/OrderFulfillmentDataStoreTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:providerCanGetFormattedRequestData\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:providerCanUseGettersAndSetters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:testCanConvertToArray\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:testCanGetFormattedRequestData\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:testCanGetFormattedRequestData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:testCanGetRequestingUser\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:testCanSave\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:testCanSend\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportRequestTest\\:\\:testCanUseGettersAndSetters\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^PHPDoc tag @var for variable \\$mockGoDaddyRequest contains unresolvable type\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportRequestTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportTest\\:\\:providerCanDetermineSupportAppName\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportTest\\:\\:providerCanDetermineSupportConnectionType\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportTest\\:\\:providerCanGetConnectUrl\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportTest\\:\\:providerCanGetSiteUrl\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportTest\\:\\:testIsSupportBotConnectedWithKeys\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportTest\\:\\:testIsSupportBotConnectedWithoutKeys\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportTest.php
+
+		-
+			message: "#^Else branch is unreachable because ternary operator condition is always true\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportUserTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Dashboard\\\\Tests\\\\Unit\\\\Support\\\\SupportUserTest\\:\\:providerCanGetConnectUrl\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportUserTest.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$expected contains unresolvable type\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportUserTest.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$userId contains unresolvable type\\.$#"
+			count: 1
+			path: tests/Unit/Support/SupportUserTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Core\\\\Tests\\\\Unit\\\\Users\\\\Permissions\\\\ShowExtensionsRecommendationsPermissionTest\\:\\:providerIsAllowedChecksWhetherUserCanInstallAndActivatePlugins\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Unit/Users/Permissions/ShowExtensionsRecommendationsPermissionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Core\\\\Tests\\\\Unit\\\\Users\\\\Permissions\\\\ShowExtensionsRecommendationsPermissionTest\\:\\:setUp\\(\\) throws checked exception Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Users/Permissions/ShowExtensionsRecommendationsPermissionTest.php
+
+		-
+			message: "#^Method GoDaddy\\\\WordPress\\\\MWC\\\\Core\\\\Tests\\\\Unit\\\\Users\\\\Permissions\\\\ShowExtensionsRecommendationsPermissionTest\\:\\:testCanInstantiate\\(\\) throws checked exception ReflectionException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Users/Permissions/ShowExtensionsRecommendationsPermissionTest.php

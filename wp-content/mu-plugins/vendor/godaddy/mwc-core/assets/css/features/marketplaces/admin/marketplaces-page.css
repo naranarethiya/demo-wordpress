@@ -1,0 +1,50 @@
+#gd-marketplaces-page-heading {
+	background: #FFF;
+	margin: 0 -20px 10px;
+	padding: 2px 20px;
+	position: relative;
+}
+
+#gd-marketplaces-page-heading .mwc-gd-icon {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+#gd-marketplaces.gd-marketplaces-page p {
+	color: var(--mwc-color-gray-400);
+}
+
+#gd-marketplaces.gd-marketplaces-page a {
+	display: inline-flex;
+}
+
+#gd-marketplaces.gd-marketplaces-page a span {
+	margin-top: 2px;
+}
+
+#gd-marketplaces.gd-marketplaces-page p.manage-listing-templates {
+	margin: 1.6em 0 1.4em 0;
+}
+
+#gd-marketplaces.gd-marketplaces-page button.refresh-connected-channels {
+	margin-left: 12px;
+}
+
+#gd-marketplaces.gd-marketplaces-page button.refresh-connected-channels:before {
+	animation-play-state: paused;
+	color: #2271B1;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+#gd-marketplaces.gd-marketplaces-page button.refresh-connected-channels:active:before,
+#gd-marketplaces.gd-marketplaces-page button.refresh-connected-channels:focus:before {
+	animation-play-state: running;
+}
+
+@media only screen and (max-width: 900px) {
+	#gd-marketplaces-page-heading {
+		margin: 0 -10px;
+		top: 45px;
+	}
+}

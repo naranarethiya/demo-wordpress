@@ -1,0 +1,22 @@
+[tool.tartufo]
+ cleanup = true
+ entropy = true
+ regex = true
+ repo-path = "."
+
+ exclude-entropy-patterns = [
+     {path-pattern = 'mwp.includes.php', pattern = 'f4e1d02642fc56d84504dd012aeb64adee0aae8c', reason = 'GitHub url referenced in comment'},
+     {path-pattern = 'mwp.includes.php', pattern = '313d40d3960da3de560a96566491bb6115141eec', reason = 'GitHub url referenced in comment'},
+     {path-pattern = 'run-cron.php', pattern = '313d40d3960da3de560a96566491bb6115141eec', reason = 'GitHub url referenced in comment'},
+     {path-pattern = 'NOTES', pattern = '40cd750bba9870f18aada2478b24840a', reason = 'Example command with hash as argument'},
+     {path-pattern = 'auth.php', pattern = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2WN1RnyTEJbHq7/5Qnjm', reason = 'Public key'},
+     {path-pattern = 'auth.php', pattern = 'MbSIp6sVbqkeZmHpwdc3k205nDp7i//mCHytotdSO29DDcTssRJeEU1EgKQgnhKT', reason = 'Public key'},
+     {path-pattern = 'auth.php', pattern = 'RINBLMLDa\+okRwrk0MOw9ns69M0rSkac1GqRLh\+47KYz/7P1tBqG85GjtztNdT0k', reason = 'Public key'},
+     {path-pattern = 'auth.php', pattern = 'bgQO4WrEIxZcYkptv9MSbjvNJ8BWaP0rRTxqTcdzO\+gK1Zxu6qriR1tolYAS5QRB', reason = 'Public key'},
+     {path-pattern = 'auth.php', pattern = 'opmSpzOt13gqcj0aPE8oB5bImA/2PixmCdfWoguZG7joUft2RZSX2Ix8jjL4nNFD', reason = 'Public key'},
+     {path-pattern = 'auth.php', pattern = 'zWuuYGFLzDYoTV1PBfOshLVf84hOP0Mh4dLO9wiRqmHq8ryFgf2ira1K7LCJyeew', reason = 'Public key'}
+ ]
+
+ exclude-path-patterns = [
+     {path-pattern = 'tartufo.toml', reason = 'tartufo config'}
+ ]

@@ -1,0 +1,58 @@
+[tool.tartufo]
+repo-path = "."
+default-regexes = true
+json = false
+regex = true
+entropy = true
+exclude-path-patterns = [
+  # Vendor and documentation assets
+  {path-pattern='resources/js/app.js', reason='Built app.js from documentation'},
+  {path-pattern='resources/vendor', reason='Documentation vendor directory'},
+  {path-pattern='(.*/)?autoload.php', reason='Composer-generated autoload file'},
+
+  # Lock Files are not always in the root
+  {path-pattern='.*composer.lock', reason='Composer-generated lockfile'},
+  {path-pattern='.*package-lock.json', reason='NPM-generated lockfile'},
+  {path-pattern='.*Pipfile.lock', reason='PIP lockfile'},
+  {path-pattern='.*yarn.lock', reason='Yarn lockfile'},
+
+  {path-pattern='.*\.css$', reason='Inline images in CSS assets'},
+  {path-pattern='.*\.scss$', reason='Inline images in CSS assets'},
+  {path-pattern='.*\.ico$', reason='Image assets'},
+  {path-pattern='.*\.jpg$', reason='Image assets'},
+  {path-pattern='.*\.png$', reason='Image assets'},
+  {path-pattern='.*\.svg$', reason='Image assets'},
+
+  # pre-commit configuration
+  {path-pattern='.pre-commit-config.yaml', reason='pre-commit config file'},
+
+  # Tartufo configuration
+  {path-pattern='tartufo.toml', reason='Tartufo config file'},
+
+  # PHPStan baseline
+  {path-pattern='phpstan-baseline.neon', reason='PHPStan baseline'},
+
+  # Frontend Build Files
+  {path-pattern='build', reason='Frontend build files'},
+  {path-pattern='data', reason='Frontend build files'},
+  {path-pattern='public/js/app.js', reason='Frontend build files'},
+
+  # i18n
+  {path-pattern='languages/', reason='L10n assets'},
+]
+exclude-signatures = [
+  {signature="cfc567f1a7778e88c3f462cda72374a8d5ff51e4c6374f4622e635193e9e3a02", reason="test token in configurations/messages.php"},
+  {signature="987a12ef63b10deb17b754f5c951fa80f0d86f8021e0f83c02faac020c56112c", reason="test token in configurations/messages.php"},
+  {signature="607fdfddfae3cf0c0e6e37638dc3aadcab2be26366d22f6371cc2add82a6f9a7", reason="high entropy in src/Dashboard"},
+  {signature="d769d8693996effa54d570d3561a8ab78ae6db1a9c74eaafda1071a286948a50", reason="high entropy in src/Dashboard"},
+  {signature="17b61483846703a7ebef9dc30a3e8743157e186c14337504b6b783619c52afbe", reason="high entropy in DashboardTest::displayAdminNoticeForSkyVergeDashboardPlugin"},
+  {signature="1b901f677dd6e3970577047eea2307612a22413066c65b27815ba48db4bf155e", reason="high entropy in DashboardTest::displayAdminNoticeForSkyVergeDashboardPlugin"},
+  {signature="c53f7d182796a31c523ef043bab65177284bb8668f93a573bd01982145334014", reason="high entropy in DashboardTest::displayAdminNoticeForSkyVergeDashboardPlugin"},
+  {signature="992582ccc6a611accc33611667614e941d951e549c7e8a84dc21cca7fa10dde2", reason="high entropy in ShipmentAdapterTest"},
+  {signature="7165ec6cb326ca4c024da7115f18102a82ae16b3fe5655602f53a197ef4edbf2", reason="high entropy in WooCommerceExtensionsPage"},
+  {signature="74a53d66df147b27f0652d7d447304acbe242e6f4b84f5beddaa5aeae232fdf7", reason="high entropy in WooCommerceExtensionsPage"},
+  {signature="7165ec6cb326ca4c024da7115f18102a82ae16b3fe5655602f53a197ef4edbf2", reason="high entropy in WooCommerceExtensionsPage"},
+  {signature="7a5d496a6185987447ac5a94416c0d98946a021e9ee876671282b64ce91a9f80", reason="high entropy in WooCommerceExtensionsPageTest"},
+  {signature="7dc762e5a9b9ad2793ad08443bbec748e88e9ff3e5d3847c3918ba8fc52684f0", reason="high entropy in WooCommercePluginsRepositoryTest"},
+  {signature="2f2fdcc9fe9bc107bffef5680be21add8c62f2ce0e66cb94a47f73c63fc71553", reason="high entropy in WooCommercePluginsRepositoryTest"},
+]

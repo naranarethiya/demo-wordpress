@@ -1,0 +1,13 @@
+{
+  "name": "gdcorp-wordpress/mwp-cron",
+  "description": "A WordPress plugin for managing cron jobs",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "~v2.2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
