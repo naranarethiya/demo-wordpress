@@ -8,6 +8,7 @@
  * Author URI: https://rhubarb.group
  * License: Proprietary
  * Requires PHP: 7.2
+ * this should not
  */
 
 defined('ABSPATH') || exit;
