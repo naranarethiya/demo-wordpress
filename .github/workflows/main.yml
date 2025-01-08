@@ -21,5 +21,6 @@ jobs:
         uses: narethiya-godaddy/git-deploy-poc@v0.0.1
         with:
           ssh_user: ${{ github.event.inputs.ssh_user }}
-          ssh_password: ${{secrets.DEPLOYER_PASSWORD}}
           remote_host: ${{ github.event.inputs.remote_host }}
+          ssh_private_key: ${{secrets.PRIVATE_KEY}}
+          
