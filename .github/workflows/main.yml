@@ -6,11 +6,11 @@ on:
       ssh_user:
         description: "The SSH username"
         required: true
-        default: 'client_62733a344a'
+        default: '28986_ssh_user'
       remote_host:
         description: "The remote host (IP or domain)"
         required: true
-        default: 'j6o.b29.myftpupload.com'
+        default: 'j0x.605.myftpupload.com'
 
 jobs:
   deploy:
