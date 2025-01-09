@@ -6,7 +6,7 @@ on:
       ssh_user:
         description: "The SSH username"
         required: true
-        default: '28986_ssh_user'
+        default: '28985_deployer'
       remote_host:
         description: "The remote host (IP or domain)"
         required: true
