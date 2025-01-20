@@ -11,8 +11,12 @@ on:
         description: "Remote host"
         required: true
         default: 'j0x.605.myftpupload.com'
+      source_path:
+        description: 'Repository dir to deploy instead of the entire repo'
+        required: false
+        default: '.'
       deployment_dest:
-        description: 'Specific dir to deploy instead of the entire repo'
+        description: 'Server dir to deploy instead of the entire repo'
         required: false
         default: '.'
       post_deploy_commands:
@@ -48,6 +52,7 @@ jobs:
           remote_host: ${{ github.event.inputs.remote_host }}
           ssh_user: ${{ github.event.inputs.ssh_user }}
           ssh_private_key: ${{secrets.PRIVATE_KEY}}
+          source_path: ${{ github.event.inputs.source_path }}
           deployment_dest: ${{ github.event.inputs.deployment_dest }}
           post_deploy_commands: ${{ github.event.inputs.post_deploy_commands }}
           cleanup_deleted_files: ${{ github.event.inputs.cleanup_deleted_files }}
