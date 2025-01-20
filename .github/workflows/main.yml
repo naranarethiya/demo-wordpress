@@ -4,29 +4,35 @@ on:
   workflow_dispatch:
     inputs:
       ssh_user:
-        description: "The SSH username"
+        description: "SSH username"
         required: true
         default: '28985_deployer'
       remote_host:
-        description: "The remote host (IP or domain)"
+        description: "Remote host"
         required: true
         default: 'j0x.605.myftpupload.com'
       deployment_dest:
-        description: 'Path to a specific directory to deploy instead of the entire repository, leave blank for whole repository deployment.'
+        description: 'Specific dir to deploy instead of the entire repo'
         required: false
         default: '.'
       post_deploy_commands:
-        description: 'Commands to execute on the server after the deployment is complete.'
+        description: 'Post deployment command'
         required: false
         default: ''
       cleanup_deleted_files:
-        description: 'Delete files from the server that have been removed from the repository.'
+        description: 'Cleanup deleted files?'
         required: false
-        default: true
+        default: "yes"
+        options:
+          - "yes"
+          - "no"
       enable_health_check:
-        description: 'Check WordPress health after deployment and roll back if it fails. Disable to skip this step.'
+        description: 'Enable wordpress health check?'
         required: false
-        default: true
+        default: "yes"
+        options:
+          - "yes"
+          - "no"
 
 jobs:
   deploy:
