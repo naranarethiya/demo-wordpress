@@ -21,6 +21,7 @@ on:
         default: ''
       cleanup_deleted_files:
         description: 'Cleanup deleted files?'
+        type: choice
         required: false
         default: "yes"
         options:
@@ -28,6 +29,7 @@ on:
           - "no"
       enable_health_check:
         description: 'Enable wordpress health check?'
+        type: choice
         required: false
         default: "yes"
         options:
