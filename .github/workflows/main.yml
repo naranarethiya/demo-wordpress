@@ -3,14 +3,6 @@ name: Deploy Repository via rsync
 on:
   workflow_dispatch:
     inputs:
-      ssh_user:
-        description: "SSH username"
-        required: true
-        default: '28985_deployer'
-      remote_host:
-        description: "Remote host"
-        required: true
-        default: 'j0x.605.myftpupload.com'
       deployment_dest:
         description: 'Server dir to deploy instead of the entire repo'
         required: false
@@ -47,8 +39,8 @@ jobs:
       - name: Deploy files
         uses: narethiya-godaddy/git-deploy-poc@v0.0.1
         with:
-          remote_host: ${{ github.event.inputs.remote_host }}
-          ssh_user: ${{ github.event.inputs.ssh_user }}
+          remote_host: ${{ secrets.SSH_REMOTE }}
+          ssh_user: ${{ secrets.SSH_USER }}
           ssh_private_key: ${{secrets.PRIVATE_KEY}}
           deployment_dest: ${{ github.event.inputs.deployment_dest }}
           post_deploy_commands: ${{ github.event.inputs.post_deploy_commands }}
