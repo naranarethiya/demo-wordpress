@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       deployment_dest:
-        description: 'Target server directory'
+        description: 'Target server directory, leave blank for root directory'
         required: false
-        default: '.'
+        default: ''
       post_deploy_commands:
         description: 'Post deployment command'
         required: false
