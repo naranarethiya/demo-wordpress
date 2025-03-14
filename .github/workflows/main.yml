@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy files
-        uses: narethiya-godaddy/git-deploy-poc@v0.0.1
+        uses: godaddy-wordpress/git-deploy-poc@v0.0.1
         with:
           remote_host: ${{ secrets.SSH_REMOTE }}
           ssh_user: ${{ secrets.SSH_USER }}
