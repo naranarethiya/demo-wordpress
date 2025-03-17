@@ -6,27 +6,7 @@ on:
       deployment_dest:
         description: 'Target server directory, leave blank for root directory'
         required: false
-        default: ''
-      post_deploy_commands:
-        description: 'Post deployment command'
-        required: false
-        default: ''
-      cleanup_deleted_files:
-        description: 'Cleanup deleted files?'
-        type: choice
-        required: false
-        default: "yes"
-        options:
-          - "yes"
-          - "no"
-      enable_health_check:
-        description: 'Enable wordpress health check?'
-        type: choice
-        required: false
-        default: "yes"
-        options:
-          - "yes"
-          - "no"
+        default: '.'
 
 jobs:
   deploy:
@@ -39,10 +19,7 @@ jobs:
       - name: Deploy files
         uses: godaddy-wordpress/git-deploy-poc@v0.0.1
         with:
-          remote_host: ${{ secrets.SSH_REMOTE }}
-          ssh_user: ${{ secrets.SSH_USER }}
+          remote_host: "cj2.bd6.myftpupload.com"
+          ssh_user: "git_deployer_5e2d15a41f_64413"
           ssh_private_key: ${{secrets.PRIVATE_KEY}}
           deployment_dest: ${{ github.event.inputs.deployment_dest }}
-          post_deploy_commands: ${{ github.event.inputs.post_deploy_commands }}
-          cleanup_deleted_files: ${{ github.event.inputs.cleanup_deleted_files }}
-          enable_health_check: ${{ github.event.inputs.enable_health_check }}
